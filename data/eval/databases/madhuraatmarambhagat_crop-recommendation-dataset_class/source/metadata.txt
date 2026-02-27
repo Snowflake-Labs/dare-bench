@@ -1,0 +1,32 @@
+🌾 Context
+This dataset is structured to predict the most suitable crop to grow based on several agro-climatic parameters. It is typically used in precision agriculture and machine learning applications aimed at supporting farmers, agricultural advisors, and policymakers.
+
+Features (Inputs):
+
+N – Nitrogen content in the soil (in mg/kg)
+P – Phosphorus content in the soil (in mg/kg)
+K – Potassium content in the soil (in mg/kg)
+temperature – Average temperature in °C
+humidity – Average relative humidity in %
+ph – Soil pH value
+rainfall – Rainfall in mm
+Label (Output):
+
+label – The crop most suited to the given conditions (e.g., rice, maize, cotton, etc.)
+
+=== About this file ===
+
+About this file
+The dataset is designed to predict the most suitable crop to cultivate based on various environmental and soil conditions. It contains multiple agricultural features that influence the growth and yield of different crops. The goal is to use machine learning algorithms to analyze the relationship between these features and recommend the most appropriate crop.
+
+
+=== Columns & descriptions ===
+
+N: int
+P: int
+K: int
+temperature: int
+humidity: int
+ph: int
+rainfall: int
+label: object

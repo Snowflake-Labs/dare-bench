@@ -1,0 +1,122 @@
+## Context
+
+Financial transparency and audit quality are crucial components of corporate governance and investor confidence. In Turkey, all public companies listed on Borsa Istanbul (BIST) are required to undergo independent financial audits, resulting in formal **audit opinions** that assess the accuracy and compliance of their financial reporting. These audit opinions can serve as early warning indicators of financial distress or irregularities.
+
+This dataset compiles **detailed financial statement metrics and ratios** for publicly listed companies in Turkey, alongside the **audit opinion types** they received. Covering multiple years and companies, the dataset provides a valuable resource for exploring the relationship between financial health and audit outcomes in the context of the Turkish capital market.
+
+---
+
+## Content
+
+The dataset is provided in CSV format and includes over 50 columns. It covers various financial and performance indicators, along with audit opinion labels. The main categories of data include:
+
+ **Financial Statement Data**
+
+   Total Assets, Liabilities, Equity
+
+   Current and Non-Current breakdowns (e.g., Current Assets, Short-Term Liabilities)
+
+ **Financial Ratios**
+
+   Liquidity Ratios (Current Ratio, Quick Ratio, Cash Ratio)
+
+   Profitability Metrics (Net Profit Margin, Operating Margin, ROE, ROA)
+
+   Leverage Ratios (Debt to Equity, Financial Leverage)
+
+   Efficiency Metrics (Asset Turnover, Receivables Turnover, Inventory Turnover)
+
+ **Bankruptcy Prediction Scores**
+
+   Altman Z-Score
+
+   Springate Score
+
+   Zmijewski Score
+
+---
+
+##  Acknowledgements
+
+The dataset has been constructed using publicly available annual reports and financial statements of BIST-listed companies, as well as audit reports filed via the Public Disclosure Platform (KAP - Kamuyu Aydınlatma Platformu). 
+
+---
+
+## Inspiration
+
+- How do financial ratios and performance indicators influence the type of audit opinion a company receives?
+- Can we build predictive models that estimate audit outcomes based on financial health metrics?
+- Which financial signals are most strongly associated with negative audit opinions?
+
+This dataset allows you to analyze these questions and explore machine learning, statistical modeling, and financial analysis within the Turkish public company landscape.
+
+
+=== About this file ===
+
+About this file
+About this file
+financial_data.csv` file contains structured tabular data that combines company-level financial indicators, financial ratios, bankruptcy prediction scores, and audit opinions across multiple years and firms.
+This dataset is particularly useful for:
+Exploratory Data Analysis (EDA)
+to uncover trends in financial performance and audit outcomes.
+Machine Learning applications
+, such as classification models to predict audit opinion or bankruptcy risk.
+Financial and Accounting Research
+on how financial metrics relate to audit qualifications, leverage, liquidity, and profitability.
+
+
+=== Columns & descriptions ===
+
+Şirket Adı: Company Name.
+Şirketin Kodu: Unique identifier (ticker) for the company.
+Periyot: Reporting period (e.g., First Quarter, Second Quarter, Annual).
+Yıl: Year of the financial report.
+Dönen Varlıklar: Total current assets owned by the company.
+Duran Varlıklar: Total non-current (long-term) assets.
+Toplam Varlıklar: Sum of current and non-current assets.
+Kısa Vadeli Yükümlülükler: Company obligations due within a year.
+Uzun Vadeli Yükümlülükler: Liabilities due after one year.
+Toplam Yükümlülükler: Combined short-term and long-term liabilities.
+Toplam Özkaynaklar: Total equity held by all shareholders.
+Ana Ortaklığa Ait Özkaynaklar: Equity attributable to the parent company’s shareholders.
+Kontrol Gücü Olmayan Kaynaklar: Minority interest or non-controlling equity.
+Toplam Kaynaklar: Sum of total liabilities and equity.
+Cari Oran: Current ratio; a liquidity metric (current assets ÷ current liabilities).
+Dönen Varlıklar / Aktif (%): Percentage of total assets composed of current assets.
+Asit Test Oranı: Quick ratio; excludes inventory from current assets.
+Nakit Oranı: Cash ratio; measures cash and equivalents over liabilities.
+Aktif Karlılık (%): Return on assets (ROA), profitability relative to total assets.
+Faaliyet Kar Marjı: Operating profit margin.
+Esas Faaliyet Kar Marjı: Core operating profit margin excluding non-operational items.
+Brüt Kar Marjı (%): Gross profit margin as a percentage of net sales.
+FAVÖK Marjı (%): EBITDA margin – earnings before interest, taxes, depreciation, and amortization.
+Net Kar Marjı: Net profit margin over total revenue.
+Özsermaye Karlılığı (%): Return on equity (ROE).
+VAFÖK Marjı: EBIT margin – earnings before interest and taxes.
+ROCE Oranı: Return on Capital Employed.
+Finansman Gider / Net Satış: Ratio of finance costs to net revenue.
+Borç Kaynak Oranı: Debt ratio – proportion of assets financed by debt.
+Duran Varlıklar / Aktif: Share of long-term assets in total assets.
+Duran Varlıklar / Maddi Özkaynak: Fixed assets relative to tangible equity.
+Esas Faaliyet Karı / Kısa Vadeli Borç: Core operating profit to short-term liabilities.
+FAVÖK / Kısa Vade Borç: EBITDA to short-term debt ratio.
+Net Borç / FAVÖK: Net debt-to-EBITDA ratio.
+Kısa Vade Borç / Aktif: Share of short-term debt in total assets.
+Kısa Vade Borç / Dönen Varlık: Short-term liabilities to current assets ratio.
+Kısa Vade Borç / Özsermaye: Short-term liabilities over equity.
+Kısa Vade Borç / Toplam Borç: Share of short-term liabilities in total liabilities.
+Net Satışlar / Kısa Vade Borç: Net sales relative to short-term liabilities.
+Özsermaye / Aktif: Equity-to-asset ratio.
+Özsermaye / Maddi Duran Varlıklar: Equity relative to tangible fixed assets.
+Toplam Borç / Özsermaye: Debt-to-equity ratio.
+Aktif Devir Hızı: Asset turnover ratio (net sales ÷ total assets).
+Alacak Devir Hızı: Receivables turnover ratio.
+Dönen Varlıklar Devir Hızı: Current assets turnover ratio.
+Ticari Borçlar Devir Hızı: Accounts payable turnover ratio.
+Finansal Kaldıraç: Financial leverage ratio.
+Stok Devir Hızı: Inventory turnover ratio.
+Altman Z-Skoru: Altman Z-score for bankruptcy risk.
+Springate Skoru: Springate score for bankruptcy prediction.
+Zmijewski Skoru: Zmijewski financial distress indicator.
+L Model Skoru: The L score is a risk indicator that measures a company's likelihood of bankruptcy and reflects its financial stability.
+Görüs Tipi: Final audit opinion by external auditors.

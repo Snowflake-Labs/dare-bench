@@ -1,0 +1,214 @@
+{
+    "question": {
+        "target": [
+            "precio"
+        ],
+        "target_candidates": [
+            "precio"
+        ],
+        "related_features": [
+            "autor",
+            "idioma",
+            "fecha_publicacion",
+            "nro_paginas",
+            "genero",
+            "editorial",
+            "categoria",
+            "subgenero",
+            "encuadernacion"
+        ],
+        "not_filtered_related_features": [
+            "idioma",
+            "nro_paginas",
+            "categoria",
+            "encuadernacion"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "idioma": [
+                "Espa\u00f1ol",
+                "Ingl\u00e9s",
+                "German",
+                "Portuguese"
+            ],
+            "nro_paginas": [
+                1.0,
+                3872.0
+            ],
+            "categoria": [
+                "INFANTIL Y JUVENIL",
+                "FICCI\u00d3N Y LITERATURA",
+                "GASTRONOMIA  Y COSTUMBRES",
+                "HUMANIDADES",
+                "ESOTERISMO",
+                "DERECHO Y CIENCIAS SOCIALES",
+                "ARTE, ARQUITECTURA Y DISE\u00d1O",
+                "AUTOAYUDA",
+                "CIENCIAS DE LA SALUD, NATURALES Y DIVULGACION CIENTIFICA",
+                "NEGOCIOS Y CS. ECONOMICAS",
+                "INGENIERIA, TECNICA Y CIENCIAS EXACTAS",
+                "HOGAR",
+                "JUEGOS, DEPORTES Y RECREACION",
+                "ENCICLOPEDIAS, DICCIONARIOS, LING\u00dc\u00cdSTICA",
+                "VISUALES",
+                "HOTELERIA Y TURISMO",
+                "COMPUTACI\u00d3N Y SISTEMAS",
+                "GUIAS Y MAPAS",
+                "TEXTOS"
+            ],
+            "encuadernacion": [
+                "Tapa Blanda",
+                "Espiralado",
+                "Tapa Dura",
+                "Otro"
+            ]
+        },
+        "selected_features": [
+            "idioma",
+            "categoria",
+            "nro_paginas"
+        ],
+        "train_v2_save_file": "./nicolsvrancovich_el-ateneo-marketplace-books_reg/source/train_v2.csv",
+        "val_v2_save_file": "./nicolsvrancovich_el-ateneo-marketplace-books_reg/source/val_v2.csv",
+        "val_no_err_save_file": "./nicolsvrancovich_el-ateneo-marketplace-books_reg/source/val_v1.csv",
+        "train_no_err_save_file": "./nicolsvrancovich_el-ateneo-marketplace-books_reg/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./nicolsvrancovich_el-ateneo-marketplace-books_reg/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "median",
+        "random_state": 44,
+        "model_type": "MLPRegressor",
+        "output_file": "./nicolsvrancovich_el-ateneo-marketplace-books_reg/prediction.csv",
+        "ground_truth_file": "./nicolsvrancovich_el-ateneo-marketplace-books_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./nicolsvrancovich_el-ateneo-marketplace-books_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "url": "categorical",
+            "codigo_isbn": "categorical",
+            "titulo": "categorical",
+            "autor": "categorical",
+            "editorial": "categorical",
+            "idioma": "categorical",
+            "nro_paginas": "numerical",
+            "fecha_publicacion": "numerical",
+            "encuadernacion": "categorical",
+            "categoria": "categorical",
+            "genero": "categorical",
+            "subgenero": "categorical",
+            "precio": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "nro_paginas"
+        ],
+        "categorical_features": [
+            "idioma",
+            "categoria"
+        ]
+    },
+    "data_info": {
+        "id": 7446909,
+        "ref": "nicolsvrancovich/el-ateneo-marketplace-books",
+        "subtitle": "Book prices and metadata from one of Argentina\u2019s most iconic bookstores.",
+        "creatorName": "Nicol\u00e1s Vrancovich",
+        "creatorUrl": "nicolsvrancovich",
+        "totalBytes": 1030226,
+        "url": "https://www.kaggle.com/datasets/nicolsvrancovich/el-ateneo-marketplace-books",
+        "lastUpdated": "2025-05-24T20:35:43.000Z",
+        "downloadCount": 284,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Nicol\u00e1s Vrancovich",
+        "ownerRef": "nicolsvrancovich",
+        "kernelCount": 1,
+        "title": "Book Prices from El Ateneo Bookstore",
+        "viewCount": 845,
+        "voteCount": 8,
+        "currentVersionNumber": 4,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "literature",
+                "name": "literature",
+                "description": "This tag is your digital library for varius copora such as Southern Literature, Paranormal Romance novels, and Urban Dictionary spelling variations.",
+                "fullPath": "subject > arts and entertainment > literature",
+                "competitionCount": 27,
+                "datasetCount": 6019,
+                "scriptCount": 485,
+                "totalCount": 6531
+            },
+            {
+                "ref": "categorical",
+                "name": "categorical",
+                "description": "Categorical data are observations that fall into discrete categories, like dog breed, dog color or whether or not a dog likes chew toys.",
+                "fullPath": "data type > categorical",
+                "competitionCount": 40,
+                "datasetCount": 2985,
+                "scriptCount": 2411,
+                "totalCount": 5436
+            },
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114019,
+                "scriptCount": 25612,
+                "totalCount": 139669
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7446909,
+        "datasetSlug": "el-ateneo-marketplace-books",
+        "ownerUser": "nicolsvrancovich",
+        "usabilityRating": 1.0,
+        "totalViews": 707,
+        "totalVotes": 8,
+        "totalDownloads": 261,
+        "title": "Book Prices from El Ateneo Bookstore",
+        "subtitle": "Book prices and metadata from one of Argentina\u2019s most iconic bookstores.",
+        "description": "The data comes from the website of [*El Ateneo*](https://es.wikipedia.org/wiki/El_Ateneo_Grand_Splendid), one of the most iconic and traditional bookstores in Argentina. \n\nEl Ateneo Grand Splendid is one of the most iconic bookstores in the world, located in the neighborhood of Recoleta, in Buenos Aires, Argentina. Originally opened in 1912 as the Grand Splendid Theater, the building has a rich cultural history. \n\nIn the early 2000s, the space was carefully transformed into a bookstore by the Argentine publishing house Grupo Ilhsa, preserving much of the theater\u2019s original architecture. \n\nEl Ateneo has received international acclaim for its beauty and atmosphere. In 2008, the British newspaper The Guardian ranked it as the second most beautiful bookstore in the world. Later, in 2019, National Geographic named it the most beautiful bookstore in the world.\n\nThe dataset was generated through web scraping performed on May 17th, 2025, capturing information about books listed on [*El Ateneo's online marketplace*](https://www.yenny-elateneo.com/libros/).\n\n=== About this file ===\n\nAbout this file\nContains over 15k books, ready for exploring patterns, trends, and preferences in the Argentinian publishing industry.\n\n\n=== Columns & descriptions ===\n\nurl: Web link to the book\u2019s page.\ncodigo_isbn: ISBN number (unique book identifier).\ntitulo: Title of the book.\nautor: Author of the book.\neditorial: Publisher of the book.\nidioma: Language the book is written in.\nnro_paginas: Total number of pages in the book.\nfecha_publicacion: Date the book was published.\nencuadernacion: Type of book binding or format.\ncategoria: Main category or classification of the book.\ngenero: Genre of the book (e.g., fiction, history).\nsubgenero: More specific subgenre classification.\nprecio: Price of the book in local currency.\n",
+        "keywords": [
+            "literature",
+            "categorical",
+            "business",
+            "tabular",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

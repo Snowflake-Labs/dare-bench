@@ -1,0 +1,74 @@
+# Tasmania Temperature & Air Quality Dataset (2017–2025)
+
+Tasmania is often recognized as having some of the cleanest air in the world. However, with increasing impacts of climate change, this dataset investigates how air quality in the region is evolving. Given Tasmania’s proximity to the South Pole — a region highly sensitive to environmental shifts — it serves as a valuable location for atmospheric and climate-related analysis.
+
+This dataset includes air quality measurements collected via the OpenAQ API across Tasmania’s most populated regions between 2017 and 2025. It focuses on two key pollutants: **PM10** and **PM2.5**, both widely recognized indicators of air quality.
+
+In addition, the dataset provides **daily minimum and maximum temperature readings** (in both Celsius and Fahrenheit) from the same locations. Numerous studies have shown a correlation between temperature and particulate matter concentration (measured in µg/m³), which this dataset can help explore.
+
+---
+
+## Scientific Definitions
+
+### PM10 (Particulate Matter ≤ 10 micrometer)
+Ultrafine particles with diameters of 10 micrometer or smaller. Due to their extremely small size, PM10 particles can travel even further into the respiratory system than PM2.5, and are considered potentially more harmful, though they are less frequently monitored.
+
+### PM2.5 (Particulate Matter ≤ 2.5 micrometers)
+Fine inhalable particles with diameters of 2.5 micrometers or smaller. These particles can penetrate deep into the lungs and even enter the bloodstream, posing serious health risks, particularly for individuals with respiratory or cardiovascular conditions.
+
+Both PM10 and PM2.5 are measured in micrograms per cubic meter (µg/m³) and are key indicators of air pollution and public health.
+
+---
+
+## Monitored Locations & Estimated Populations (2017–2025)
+
+| Region             | Estimated Population (2017) | Estimated Population (2025) |
+|--------------------|-----------------------------|-----------------------------|
+| Hobart             | 225,000                     | 245,000                     |
+| Devonport          | 26,000                      | 28,000                      |
+| Mornington         | 4,000                       | 4,200                       |
+| South Launceston   | 7,000                       | 7,500                       |
+| Ti Tree Bend       | 2,000                       | 2,200                       |
+| West Ulverstone    | 4,500                       | 4,700                       |
+| Wynyard            | 5,000                       | 5,200                       |
+
+&gt; **Note:** Population estimates are approximate and based on regional growth trends and census projections.
+
+---
+
+## Dataset Structure
+
+tas_data/  
+├── dataset-metadata.json  
+├── tas_air_quality/  
+│   ├── devonport.csv  
+│   ├── hobart.csv  
+│   ├── mornington.csv  
+│   ├── south_launceston.csv  
+│   ├── ti_tree_bend.csv  
+│   ├── west_ulverstone.csv  
+│   └── wynyard.csv  
+└── tas_temperature/  
+    ├── devonport.csv  
+    ├── hobart.csv  
+    ├── mornington.csv  
+    ├── south_launceston.csv  
+    ├── ti_tree_bend.csv  
+    ├── west_ulverstone.csv  
+    └── wynyard.csv  
+
+### File Details
+**tas_air_quality/*.csv** contains:
+  - `date`
+  - `pm10` (µg/m³)
+  - `pm25` (µg/m³)
+
+
+**tas_temperature/*.csv** contains:
+  - `date`
+  - `temperature_c`
+  - `temperature_f`
+
+## Contributions & Feedback
+
+This dataset is intended for research and analysis. If you encounter issues or have suggestions, feel free to reach out.

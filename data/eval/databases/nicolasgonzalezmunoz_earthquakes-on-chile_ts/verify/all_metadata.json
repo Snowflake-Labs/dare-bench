@@ -1,0 +1,170 @@
+{
+    "question": {
+        "target": [
+            "Magnitude"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date(UTC)",
+        "time_format": "%Y-%m-%d %H:%M:%S",
+        "is_resampled": true,
+        "related_features": [
+            "Latitude",
+            "Longitude",
+            "Depth"
+        ],
+        "not_filtered_related_features": [
+            "Latitude",
+            "Longitude",
+            "Depth"
+        ],
+        "selected_features": [
+            "Longitude",
+            "Latitude"
+        ],
+        "expected_ranges": {
+            "Latitude": [
+                -62.35,
+                -11.07
+            ],
+            "Longitude": [
+                -75.73,
+                -58.39
+            ],
+            "Depth": [
+                2,
+                624
+            ]
+        },
+        "column_type_inference": {
+            "Date(UTC)": "object",
+            "Latitude": "numeric",
+            "Longitude": "numeric",
+            "Depth": "numeric",
+            "Magnitude": "numeric"
+        },
+        "train_save_file": "./nicolasgonzalezmunoz_earthquakes-on-chile_ts/source/train.csv",
+        "val_v1_save_file": "./nicolasgonzalezmunoz_earthquakes-on-chile_ts/source/val_v1.csv",
+        "val_v2_save_file": "./nicolasgonzalezmunoz_earthquakes-on-chile_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./nicolasgonzalezmunoz_earthquakes-on-chile_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./nicolasgonzalezmunoz_earthquakes-on-chile_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./nicolasgonzalezmunoz_earthquakes-on-chile_ts/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 28,
+        "model_type": "Prophet",
+        "output_file": "./nicolasgonzalezmunoz_earthquakes-on-chile_ts/prediction.json",
+        "ground_truth_v1_file": "./nicolasgonzalezmunoz_earthquakes-on-chile_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./nicolasgonzalezmunoz_earthquakes-on-chile_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./nicolasgonzalezmunoz_earthquakes-on-chile_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2021-03-20 00:09:17",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 4293217,
+        "ref": "nicolasgonzalezmunoz/earthquakes-on-chile",
+        "subtitle": "Centro Sismol\u00f3gico de Chile",
+        "creatorName": "Nicol\u00e1s Ariel Gonz\u00e1lez Mu\u00f1oz",
+        "creatorUrl": "nicolasgonzalezmunoz",
+        "totalBytes": 53260,
+        "url": "https://www.kaggle.com/datasets/nicolasgonzalezmunoz/earthquakes-on-chile",
+        "lastUpdated": "2025-06-30T10:40:34.213Z",
+        "downloadCount": 859,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Nicol\u00e1s Ariel Gonz\u00e1lez Mu\u00f1oz",
+        "ownerRef": "nicolasgonzalezmunoz",
+        "kernelCount": 3,
+        "title": "Earthquakes on Chile",
+        "viewCount": 4735,
+        "voteCount": 21,
+        "currentVersionNumber": 441,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "south america",
+                "name": "south america",
+                "description": "South America is a continent located in the western hemisphere, mostly in the southern hemisphere, with a relatively small portion in the northern hemisphere. It may also be considered a subcontinent of the Americas, which is how it is viewed in the Spanish-speaking regions of the Americas.",
+                "fullPath": "geography and places > south america",
+                "competitionCount": 1,
+                "datasetCount": 237,
+                "scriptCount": 43,
+                "totalCount": 281
+            },
+            {
+                "ref": "earth science",
+                "name": "earth science",
+                "description": "Geology, geography and oceanography. If it's on the Earth and not a plant or animal, this the tag for it.",
+                "fullPath": "subject > earth and nature > earth science",
+                "competitionCount": 148,
+                "datasetCount": 3492,
+                "scriptCount": 830,
+                "totalCount": 4470
+            },
+            {
+                "ref": "geology",
+                "name": "geology",
+                "description": "Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time",
+                "fullPath": "subject > earth and nature > earth science > geology",
+                "competitionCount": 3,
+                "datasetCount": 1433,
+                "scriptCount": 273,
+                "totalCount": 1709
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14200,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34359
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 4293217,
+        "datasetSlug": "earthquakes-on-chile",
+        "ownerUser": "nicolasgonzalezmunoz",
+        "usabilityRating": 1.0,
+        "totalViews": 4551,
+        "totalVotes": 20,
+        "totalDownloads": 829,
+        "title": "Earthquakes on Chile",
+        "subtitle": "Centro Sismol\u00f3gico de Chile",
+        "description": "The data used to create this dataset was taken from the database of the [Centro Sismol\u00f3gico Nacional](https://evtdb.csn.uchile.cl/), which contains data about significant (perceptible) earthquakes in Chile.\n\nChile is a country famous for its high seismic activity. In fact, its one of the most seismic places in the world, which makes it a place of interest for many researchers investigating this topic.\n\nThis dataset contain a single file called **seismic_data.csv**, which is composed from the following columns:\n- **Date(UTC)**: Timestamp in which the earthquake was registered (precision up to 1 second).\n- **Latitude/Longitude**: The location of the earthquake.\n- **Depth**: The depth (measured in km) of the earthquake.\n- **Magnitude**: The earthquake's magnitude.\n\nThis data covers earthquakes with magnitudes ranging from 3 to 9, and that occurred between 2012-01-01 and today. The data is generated from a notebook that's scheduled to run daily, so the dataset should receive frequent updates. All the earthquakes in the dataset have a maximum depth of 300 km.\n\n# What can you do with this data?\n\n- Explore the data to find the zones with the highest probability of earthquakes.\n- Search the zones with the highest seismical energy.\n- Relate earthquake occurrence with physical variables available on other datasets.\n- Estimate the probability of occurrence of a big earthquake given previous events.\n- And much more!\n\n=== About this file ===\n\nAbout this file\nRemote source:\nhttps://www.kaggle.com/code/nicolasgonzalezmunoz/web-scrapping-centro-sismol-gico-chile\nData source:\nCentro Sismol\u00f3gico Nacional de Chile\n.\nDate range: 2012-01-01 - Today.\n\n\n=== Columns & descriptions ===\n\nDate(UTC): Timestamp where the earthquake was registered.\nLatitude: Earthquake's latitude [\u00b0].\nLongitude: Earthquake's longitude [\u00b0].\nDepth: Earthquake's depth [km].\nMagnitude: Earthquake's magnitude.\n",
+        "keywords": [
+            "south america",
+            "earth science",
+            "geology",
+            "time series analysis",
+            "tabular"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

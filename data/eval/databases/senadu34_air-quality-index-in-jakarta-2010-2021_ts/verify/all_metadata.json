@@ -1,0 +1,196 @@
+{
+  "question": {
+    "target": [
+      "max"
+    ],
+    "problem_type": "time_series_analysis",
+    "time_column": "tanggal",
+    "time_format": "%Y-%m-%d",
+    "is_resampled": false,
+    "related_features": [
+      "pm25",
+      "pm10",
+      "so2",
+      "co",
+      "o3",
+      "no2"
+    ],
+    "not_filtered_related_features": [
+      "pm25",
+      "pm10",
+      "so2",
+      "co",
+      "o3",
+      "no2"
+    ],
+    "selected_features": [
+      "so2",
+      "pm10",
+      "pm25",
+      "co"
+    ],
+    "expected_ranges": {
+      "pm25": [
+        10.0,
+        287.0
+      ],
+      "pm10": [
+        2.0,
+        187.0
+      ],
+      "so2": [
+        0.0,
+        112.0
+      ],
+      "co": [
+        0.0,
+        119.0
+      ],
+      "o3": [
+        4.0,
+        314.0
+      ],
+      "no2": [
+        1.0,
+        202.0
+      ]
+    },
+    "column_type_inference": {
+      "tanggal": "object",
+      "stasiun": "object",
+      "pm25": "numeric",
+      "pm10": "numeric",
+      "so2": "numeric",
+      "co": "numeric",
+      "o3": "numeric",
+      "no2": "numeric",
+      "max": "numeric",
+      "critical": "object",
+      "categori": "object"
+    },
+    "train_save_file": "/data/yitwang/fan//fan_generated_data/debug1//senadu34_air-quality-index-in-jakarta-2010-2021_ts/source/train.csv",
+    "val_v1_save_file": "/data/yitwang/fan//fan_generated_data/debug1//senadu34_air-quality-index-in-jakarta-2010-2021_ts/source/val_v1.csv",
+    "val_v2_save_file": "/data/yitwang/fan//fan_generated_data/debug1//senadu34_air-quality-index-in-jakarta-2010-2021_ts/source/val_v2.csv",
+    "val_no_err_save_file": "/data/yitwang/fan//fan_generated_data/debug1//senadu34_air-quality-index-in-jakarta-2010-2021_ts/source/val_v1.csv",
+    "train_no_err_save_file": "/data/yitwang/fan//fan_generated_data/debug1//senadu34_air-quality-index-in-jakarta-2010-2021_ts/source/train_v1_no_err.csv",
+    "train_err_split_save_file": "/data/yitwang/fan//fan_generated_data/debug1//senadu34_air-quality-index-in-jakarta-2010-2021_ts/source/train_v1.csv",
+    "train_test_ratio": 0.9,
+    "save_file_type": "csv",
+    "imputer_type": "bfill_ffill",
+    "random_state": 78,
+    "model_type": "Prophet",
+    "output_file": "/data/yitwang/fan//fan_generated_data/debug1//senadu34_air-quality-index-in-jakarta-2010-2021_ts/prediction.json",
+    "ground_truth_v1_file": "/data/yitwang/fan//fan_generated_data/debug1//senadu34_air-quality-index-in-jakarta-2010-2021_ts/verify/ground_truth_v1.csv",
+    "ground_truth_v2_file": "/data/yitwang/fan//fan_generated_data/debug1//senadu34_air-quality-index-in-jakarta-2010-2021_ts/verify/ground_truth_v2.csv",
+    "simulated_pred_file": "/data/yitwang/fan//fan_generated_data/debug1//senadu34_air-quality-index-in-jakarta-2010-2021_ts/verify/simulated_pred.json",
+    "needed_files_v1": [
+      "train.csv",
+      "val_v1.csv",
+      "metadata.txt"
+    ],
+    "needed_files_v2": [
+      "train.csv",
+      "val_v2.csv",
+      "metadata.txt"
+    ],
+    "prediction_starting_time": "2023-08-25 00:00:00",
+    "contain_multiple_files": true
+  },
+  "data_info": {
+    "id": 3500382,
+    "ref": "senadu34/air-quality-index-in-jakarta-2010-2021",
+    "subtitle": "Daily Air Quality Index (AQI) in Jakarta from January 2010 - February 2025",
+    "creatorName": "Taufiq Pohan",
+    "creatorUrl": "senadu34",
+    "totalBytes": 365681,
+    "url": "https://www.kaggle.com/datasets/senadu34/air-quality-index-in-jakarta-2010-2021",
+    "lastUpdated": "2025-05-15T11:26:21.293Z",
+    "downloadCount": 2648,
+    "licenseName": "Database: Open Database, Contents: Database Contents",
+    "description": "",
+    "ownerName": "Taufiq Pohan",
+    "ownerRef": "senadu34",
+    "kernelCount": 7,
+    "title": "Air Quality Index in Jakarta",
+    "viewCount": 12507,
+    "voteCount": 20,
+    "currentVersionNumber": 3,
+    "usabilityRating": 1.0,
+    "tags": [
+      {
+        "ref": "earth and nature",
+        "name": "earth and nature",
+        "description": "",
+        "fullPath": "subject > earth and nature",
+        "competitionCount": 19,
+        "datasetCount": 79492,
+        "scriptCount": 394,
+        "totalCount": 79905
+      },
+      {
+        "ref": "pollution",
+        "name": "pollution",
+        "description": "Pollution is the introduction of contaminants into the natural environment that cause adverse change.",
+        "fullPath": "subject > earth and nature > environment > pollution",
+        "competitionCount": 6,
+        "datasetCount": 445,
+        "scriptCount": 228,
+        "totalCount": 679
+      },
+      {
+        "ref": "exploratory data analysis",
+        "name": "exploratory data analysis",
+        "description": "",
+        "fullPath": "technique > exploratory data analysis",
+        "competitionCount": 18,
+        "datasetCount": 5489,
+        "scriptCount": 33407,
+        "totalCount": 38914
+      },
+      {
+        "ref": "time series analysis",
+        "name": "time series analysis",
+        "description": "",
+        "fullPath": "technique > time series analysis",
+        "competitionCount": 626,
+        "datasetCount": 2924,
+        "scriptCount": 3882,
+        "totalCount": 7432
+      },
+      {
+        "ref": "indonesian",
+        "name": "indonesian",
+        "description": "",
+        "fullPath": "language > indonesian",
+        "competitionCount": 5,
+        "datasetCount": 226,
+        "scriptCount": 99,
+        "totalCount": 330
+      }
+    ]
+  },
+  "meta_data": {
+    "datasetId": 3500382,
+    "datasetSlug": "air-quality-index-in-jakarta-2010-2021",
+    "ownerUser": "senadu34",
+    "usabilityRating": 1.0,
+    "totalViews": 11976,
+    "totalVotes": 19,
+    "totalDownloads": 2548,
+    "title": "Air Quality Index in Jakarta",
+    "subtitle": "Daily Air Quality Index (AQI) in Jakarta from January 2010 - February 2025",
+    "description": "## Description\nThis dataset contains the Air Quality Index (AQI) or Indeks Standar Pencemaran Udara (ISPU) measured from 5 air quality monitoring stations (SPKU) in DKI Jakarta from January 2010 to February 2025. This data is sourced from [Satu Data Jakarta](https://satudata.jakarta.go.id/search?q=ispu&halaman=all&kategori=dataset&topik=all&organisasi=all&status=all&sort=desc&page_no=1&show_filter=true&lang=id).\n\n## File description\nIn this dataset, there are 2 types of files:\n- **ispu_dki*x***: This file represents the AQI measurement results from each monitoring station. The **“x”** is the station sequence number. This file contains measurements from **January 2010 to February 2025 (except 2022)**.\n- **ispu_dki_all**: This file is the combined results of AQI measurements from each station where the highest AQI will represent Jakarta's air quality on that day. This file contains measurement results from **January 2010 to February 2025**.\n\n## Explanation of variables\n1. tanggal : The date when the AQI measurement was recorded.\n2. stasiun : The name or identifier of the monitoring station where the measurement was taken.\n3. pm25 : The concentration of particulate matter with a diameter of 2.5 micrometers or less (PM2.5), measured in micrograms per cubic meter (µg/m³).\n4. pm10 : The concentration of particulate matter with a diameter of 10 micrometers or less (PM10), measured in micrograms per cubic meter (µg/m³).\n5. so2 : The concentration of sulfur dioxide (SO2), measured in parts per million (ppm).\n6. co : The concentration of carbon monoxide (CO), measured in parts per million (ppm).\n7. o3 : The concentration of ozone (O3), measured in parts per million (ppm).\n8. no2 : The concentration of nitrogen dioxide (NO2), measured in parts per million (ppm).\n9. max : The maximum value recorded among the pollutants for that particular date and station. This value represents the highest concentration among PM25, PM10, SO2, CO, O3, and NO2.\n10. critical: The pollutant that had the highest concentration for that date and station.\n11. category : The air quality category based on the 'max' value that describes the air quality level.\n\n=== About this file ===\n\nAbout this file\nThis file contains the daily Air Quality Index from Stasiun DKI 1 Bundaran HI (Bundaran HI Station)\n\n\n=== Columns & descriptions ===\n\ntanggal: The date when the AQI measurement was recorded\nstasiun: The name or identifier of the monitoring station where the measurement was taken\npm25: The concentration of particulate matter with a diameter of 2.5 micrometers or less (PM2.5), measured in micrograms per cubic meter (µg/m³)\npm10: The concentration of particulate matter with a diameter of 10 micrometers or less (PM10), measured in micrograms per cubic meter (µg/m³)\nso2: The concentration of sulfur dioxide (SO2), measured in parts per million (ppm)\nco: The concentration of carbon monoxide (CO), measured in parts per million (ppm)\no3: The concentration of ozone (O3), measured in parts per million (ppm)\nno2: The concentration of nitrogen dioxide (NO2), measured in parts per million (ppm)\nmax: The pollutant that had the highest concentration for that date and station\ncritical: The pollutant that had the highest concentration for that date and station\ncategori: The air quality category based on the 'max' value. It describes the air quality level\n",
+    "keywords": [
+      "earth and nature",
+      "pollution",
+      "exploratory data analysis",
+      "time series analysis",
+      "indonesian"
+    ],
+    "licenses": [
+      {
+        "name": "DbCL-1.0"
+      }
+    ]
+  }
+}

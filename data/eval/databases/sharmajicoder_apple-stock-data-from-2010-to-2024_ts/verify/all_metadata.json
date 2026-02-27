@@ -1,0 +1,178 @@
+{
+    "question": {
+        "target": [
+            "Close Price"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%d-%m-%Y",
+        "is_resampled": false,
+        "related_features": [
+            "High Price",
+            "Low Price",
+            "Open Price",
+            "Volume"
+        ],
+        "not_filtered_related_features": [
+            "High Price",
+            "Low Price",
+            "Open Price",
+            "Volume"
+        ],
+        "selected_features": [
+            "High Price",
+            "Open Price",
+            "Volume"
+        ],
+        "expected_ranges": {
+            "High Price": [
+                5.89061973,
+                259.4740856
+            ],
+            "Low Price": [
+                5.71780914,
+                257.0100283
+            ],
+            "Open Price": [
+                5.781522959,
+                257.5686782
+            ],
+            "Volume": [
+                23234700,
+                1880998000
+            ]
+        },
+        "column_type_inference": {
+            "Date": "object",
+            "Close Price": "numeric",
+            "High Price": "numeric",
+            "Low Price": "numeric",
+            "Open Price": "numeric",
+            "Volume": "numeric"
+        },
+        "train_save_file": "./sharmajicoder_apple-stock-data-from-2010-to-2024_ts/source/train.csv",
+        "val_v1_save_file": "./sharmajicoder_apple-stock-data-from-2010-to-2024_ts/source/val_v1.csv",
+        "val_v2_save_file": "./sharmajicoder_apple-stock-data-from-2010-to-2024_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./sharmajicoder_apple-stock-data-from-2010-to-2024_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./sharmajicoder_apple-stock-data-from-2010-to-2024_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./sharmajicoder_apple-stock-data-from-2010-to-2024_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 73,
+        "model_type": "Prophet",
+        "output_file": "./sharmajicoder_apple-stock-data-from-2010-to-2024_ts/prediction.json",
+        "ground_truth_v1_file": "./sharmajicoder_apple-stock-data-from-2010-to-2024_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./sharmajicoder_apple-stock-data-from-2010-to-2024_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./sharmajicoder_apple-stock-data-from-2010-to-2024_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2015-05-28 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7704169,
+        "ref": "sharmajicoder/apple-stock-data-from-2010-to-2024",
+        "subtitle": "AAPL stock data from 2010 to 2024",
+        "creatorName": "Stable Space",
+        "creatorUrl": "sharmajicoder",
+        "totalBytes": 108906,
+        "url": "https://www.kaggle.com/datasets/sharmajicoder/apple-stock-data-from-2010-to-2024",
+        "lastUpdated": "2025-06-20T11:47:27.000Z",
+        "downloadCount": 105,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Stable Space",
+        "ownerRef": "sharmajicoder",
+        "kernelCount": 1,
+        "title": "Apple Stock Data from 2010 to 2024",
+        "viewCount": 605,
+        "voteCount": 3,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "finance",
+                "name": "finance",
+                "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+                "fullPath": "subject > people and society > business > finance",
+                "competitionCount": 101,
+                "datasetCount": 12683,
+                "scriptCount": 4576,
+                "totalCount": 17360
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "investing",
+                "name": "investing",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > investing",
+                "competitionCount": 5,
+                "datasetCount": 11998,
+                "scriptCount": 18559,
+                "totalCount": 30562
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7704169,
+        "datasetSlug": "apple-stock-data-from-2010-to-2024",
+        "ownerUser": "sharmajicoder",
+        "usabilityRating": 0.9411764705882353,
+        "totalViews": 402,
+        "totalVotes": 2,
+        "totalDownloads": 53,
+        "title": "Apple Stock Data from 2010 to 2024",
+        "subtitle": "AAPL stock data from 2010 to 2024",
+        "description": "The Dataset of apple stocks has four features:\n- Data\n- Close Price\n-  High Price\n- Low Price\n- Open Price\n- Volume\n\nThe data is ideal for financial analysis, trend forecasting, and correlation studies between Apple and its key partners in the tech industry.\n\n=== About this file ===\n\nAbout this file\nThis .csv file contains apple stock data from 2010 to 2024 and have 6 columns\n\n\n=== Columns & descriptions ===\n\nDate: The timestamp of the stock records in DD-MM-YYYY. Captures day-level trading data.\nClose Price: Close price of the stock on each day\nHigh Price: Highest price of the stock reached during the day\nLow Price: Lowest price of the stock reached during the day\nOpen Price: Open Price of the stock on that day\nVolume: Total volume of the stock on that day\n",
+        "keywords": [
+            "business",
+            "finance",
+            "exploratory data analysis",
+            "time series analysis",
+            "investing"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

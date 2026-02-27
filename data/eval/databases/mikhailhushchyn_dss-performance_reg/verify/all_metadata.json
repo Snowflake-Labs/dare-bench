@@ -1,0 +1,233 @@
+{
+    "question": {
+        "target": [
+            "lat",
+            "iops"
+        ],
+        "target_candidates": [
+            "iops",
+            "lat"
+        ],
+        "related_features": [
+            "n_disks",
+            "raid",
+            "io_type",
+            "block_size",
+            "iodepth",
+            "n_jobs",
+            "read_fraction",
+            "load_type"
+        ],
+        "not_filtered_related_features": [
+            "n_disks",
+            "raid",
+            "block_size",
+            "io_type",
+            "iodepth",
+            "n_jobs",
+            "read_fraction",
+            "load_type"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "n_disks": [
+                3,
+                24
+            ],
+            "raid": [
+                "4+1",
+                "2+1",
+                "1+1",
+                "8+2",
+                "2+2",
+                "4+2"
+            ],
+            "block_size": [
+                4,
+                1024
+            ],
+            "io_type": [
+                "read",
+                "write"
+            ],
+            "iodepth": [
+                1,
+                32
+            ],
+            "n_jobs": [
+                1,
+                64
+            ],
+            "read_fraction": [
+                0,
+                100
+            ],
+            "load_type": [
+                "random",
+                "sequential"
+            ]
+        },
+        "selected_features": [
+            "n_jobs",
+            "iodepth",
+            "load_type",
+            "block_size",
+            "io_type"
+        ],
+        "train_v2_save_file": "./mikhailhushchyn_dss-performance_reg/source/train_v2.sqlite",
+        "val_v2_save_file": "./mikhailhushchyn_dss-performance_reg/source/val_v2.sqlite",
+        "val_no_err_save_file": "./mikhailhushchyn_dss-performance_reg/source/val_v1.sqlite",
+        "train_no_err_save_file": "./mikhailhushchyn_dss-performance_reg/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./mikhailhushchyn_dss-performance_reg/source/train_v1.sqlite",
+        "train_test_ratio": 0.9,
+        "save_file_type": "sqlite",
+        "imputer_type": "median",
+        "random_state": 67,
+        "model_type": "LinearRegression",
+        "output_file": "./mikhailhushchyn_dss-performance_reg/prediction.csv",
+        "ground_truth_file": "./mikhailhushchyn_dss-performance_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./mikhailhushchyn_dss-performance_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "iops": "numerical",
+            "lat": "numerical",
+            "block_size": "numerical",
+            "n_jobs": "numerical",
+            "iodepth": "numerical",
+            "read_fraction": "numerical",
+            "load_type": "categorical",
+            "io_type": "categorical",
+            "raid": "categorical",
+            "n_disks": "numerical",
+            "device_type": "categorical",
+            "offset": "numerical",
+            "id": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "n_jobs",
+            "iodepth",
+            "block_size"
+        ],
+        "categorical_features": [
+            "load_type",
+            "io_type"
+        ]
+    },
+    "data_info": {
+        "id": 7072520,
+        "ref": "mikhailhushchyn/dss-performance",
+        "subtitle": "IOPS and Latency measurements of a real data storage system",
+        "creatorName": "Mikhail Hushchyn",
+        "creatorUrl": "mikhailhushchyn",
+        "totalBytes": 6786893,
+        "url": "https://www.kaggle.com/datasets/mikhailhushchyn/dss-performance",
+        "lastUpdated": "2025-04-07T09:50:55.387Z",
+        "downloadCount": 131,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Mikhail Hushchyn",
+        "ownerRef": "mikhailhushchyn",
+        "kernelCount": 1,
+        "title": "Data Storage System Performance",
+        "viewCount": 1151,
+        "voteCount": 4,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "earth and nature",
+                "name": "earth and nature",
+                "description": "",
+                "fullPath": "subject > earth and nature",
+                "competitionCount": 19,
+                "datasetCount": 79489,
+                "scriptCount": 394,
+                "totalCount": 79902
+            },
+            {
+                "ref": "computer science",
+                "name": "computer science",
+                "description": "There is one thing we can say for sure about computer science: Computer science leads to more computer games which leads to better GPUs which leads to smarter AI.",
+                "fullPath": "subject > science and technology > computer science",
+                "competitionCount": 10,
+                "datasetCount": 57850,
+                "scriptCount": 733,
+                "totalCount": 58593
+            },
+            {
+                "ref": "engineering",
+                "name": "engineering",
+                "description": "Engineering is the application of mathematics, science, economics, empirical evidence, social, and practical knowledge to invent, innovate, design, build, maintain, research, and improve structures, machines, tools, systems, components, materials, processes, solutions, and organizations.",
+                "fullPath": "subject > science and technology > engineering",
+                "competitionCount": 4,
+                "datasetCount": 484,
+                "scriptCount": 174,
+                "totalCount": 662
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            },
+            {
+                "ref": "benchmark",
+                "name": "benchmark",
+                "description": "",
+                "fullPath": "technique > benchmark",
+                "competitionCount": 6,
+                "datasetCount": 164,
+                "scriptCount": 62,
+                "totalCount": 232
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7072520,
+        "datasetSlug": "dss-performance",
+        "ownerUser": "mikhailhushchyn",
+        "usabilityRating": 1.0,
+        "totalViews": 1026,
+        "totalVotes": 4,
+        "totalDownloads": 114,
+        "title": "Data Storage System Performance",
+        "subtitle": "IOPS and Latency measurements of a real data storage system",
+        "description": "This is the official dataset for paper \"Performance Modeling of Data Storage Systems using Generative Models\"  in IEEE Access [[journal]](https://doi.org/10.1109/ACCESS.2025.3552409) [[arxiv]](https://arxiv.org/abs/2307.02073).\n\nKeywords: regression, uncertainty estimation, generative models on tabular data, surrogate modeling \n\n\nData storage systems (DSS) play a critical role in today's world. Performance modeling is important during the development process of such systems. This modeling enables engineers to evaluate how the system behaves under various conditions and aids in identifying its optimal design. Another application lies in diagnostics and predictive maintenance, where model predictions are compared against real-world measurements to identify failures and anomalies.\n\n\nA typical DSS comprises three main components: controllers, high-speed cache memory, and storage pools. All data resides within these pools, composed of multiple hard disk drives (HDDs) or solid-state drives (SSDs) organized using RAID configurations. The cache accelerates read and write operations for frequently accessed data blocks.\n\n\nPerformance is measured by the number of input/output operations per second (IOPS) and the average latency of those operations. Data load characteristics include factors like load type, I/O type, read fraction, block size, job count, and queue depth per job. Our dataset considers two load types\u2014random and sequential. Each data load involves a combination of read and write operations. Each operation handles a single data block of predefined size, while data loads are generated through multiple jobs, each with a specific queue depth. Storage pools employing HDDs or SSDs come with configurable parameters, including the total number of disks in the pool and the RAID scheme, defined by the quantity of data and parity blocks.\n\n\n## Columns description\n\n* **iops**: (target) the number of input and output (IO) operations per second;\n* **lat**: (target) the average latencies of input and output operations;\n* **block_size**: the size of one data block processed per one IO operation;\n* **n_jobs**: the number of processes in parallel used to process a IO dataload;\n* **iodepth**: the IO queue size per job;\n* **read_fraction**: the fraction of read operations in the dataload;\n* **load_type**: sequential or random dataload;\n* **io_type**: read or write operations;\n* **raid**: RAID scheme used in HDD or SSD pools. It is defined by the number of data (K) and parity (M) blocks in K+M format;\n* **n_disks**: the number of HDD or SSD disks used in the pools;\n* **device_type**: name of a device. Can be ignored;\n* **offset**: constant value. Can be ignored;\n* **id**: IDs of dataloads in the samples.\n\n## Citation\nIf you use the dataset in a scientific publication, we would appreciate citations to the paper:\n```\nA. R. Al-Maeeni, A. Temirkhanov, A. Ryzhikov and M. Hushchyn, \"Performance Modeling of Data Storage Systems Using Generative Models,\" in IEEE Access, vol. 13, pp. 49643-49658, 2025, doi: 10.1109/ACCESS.2025.3552409\n```\nor using BibTeX:\n```\n@ARTICLE{10930879,\n  author={Al-Maeeni, Abdalaziz R. and Temirkhanov, Aziz and Ryzhikov, Artem and Hushchyn, Mikhail},\n  journal={IEEE Access}, \n  title={Performance Modeling of Data Storage Systems Using Generative Models}, \n  year={2025},\n  volume={13},\n  number={},\n  pages={49643-49658},\n  doi={10.1109/ACCESS.2025.3552409}}\n```\n",
+        "keywords": [
+            "earth and nature",
+            "computer science",
+            "engineering",
+            "tabular",
+            "regression",
+            "benchmark"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

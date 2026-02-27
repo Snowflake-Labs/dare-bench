@@ -1,0 +1,167 @@
+{
+    "question": {
+        "target": [
+            "Close"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "Open",
+            "High",
+            "Low",
+            "Volume"
+        ],
+        "not_filtered_related_features": [
+            "Open",
+            "High",
+            "Low",
+            "Volume"
+        ],
+        "selected_features": [
+            "Low",
+            "Volume",
+            "High"
+        ],
+        "expected_ranges": {
+            "Open": [
+                13.047062676227998,
+                19.567813339318533
+            ],
+            "High": [
+                13.20343194085509,
+                19.825024450052965
+            ],
+            "Low": [
+                12.812508162769891,
+                19.557920386572462
+            ],
+            "Volume": [
+                4280200,
+                45932600
+            ]
+        },
+        "column_type_inference": {
+            "Date": "object",
+            "Open": "numeric",
+            "High": "numeric",
+            "Low": "numeric",
+            "Close": "numeric",
+            "Volume": "numeric"
+        },
+        "train_save_file": "./nikitamanaenkov_financial-giants-and-stock-indices-historical-data_ts/source/train.csv",
+        "val_v1_save_file": "./nikitamanaenkov_financial-giants-and-stock-indices-historical-data_ts/source/val_v1.csv",
+        "val_v2_save_file": "./nikitamanaenkov_financial-giants-and-stock-indices-historical-data_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./nikitamanaenkov_financial-giants-and-stock-indices-historical-data_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./nikitamanaenkov_financial-giants-and-stock-indices-historical-data_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./nikitamanaenkov_financial-giants-and-stock-indices-historical-data_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 67,
+        "model_type": "Prophet",
+        "output_file": "./nikitamanaenkov_financial-giants-and-stock-indices-historical-data_ts/prediction.json",
+        "ground_truth_v1_file": "./nikitamanaenkov_financial-giants-and-stock-indices-historical-data_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./nikitamanaenkov_financial-giants-and-stock-indices-historical-data_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./nikitamanaenkov_financial-giants-and-stock-indices-historical-data_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2025-01-16 00:00:00",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 6731691,
+        "ref": "nikitamanaenkov/financial-giants-and-stock-indices-historical-data",
+        "subtitle": "Top 20 financial firms & global market indices (daily prices)",
+        "creatorName": "Nikita Manaenkov",
+        "creatorUrl": "nikitamanaenkov",
+        "totalBytes": 203540,
+        "url": "https://www.kaggle.com/datasets/nikitamanaenkov/financial-giants-and-stock-indices-historical-data",
+        "lastUpdated": "2025-02-24T11:20:35.000Z",
+        "downloadCount": 185,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Nikita Manaenkov",
+        "ownerRef": "nikitamanaenkov",
+        "kernelCount": 5,
+        "title": "Financial Giants & Stock Indices: Historical Data",
+        "viewCount": 1372,
+        "voteCount": 2,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "finance",
+                "name": "finance",
+                "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+                "fullPath": "subject > people and society > business > finance",
+                "competitionCount": 101,
+                "datasetCount": 12683,
+                "scriptCount": 4576,
+                "totalCount": 17360
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "investing",
+                "name": "investing",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > investing",
+                "competitionCount": 5,
+                "datasetCount": 11998,
+                "scriptCount": 18559,
+                "totalCount": 30562
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6731691,
+        "datasetSlug": "financial-giants-and-stock-indices-historical-data",
+        "ownerUser": "nikitamanaenkov",
+        "usabilityRating": 1.0,
+        "totalViews": 1295,
+        "totalVotes": 2,
+        "totalDownloads": 170,
+        "title": "Financial Giants & Stock Indices: Historical Data",
+        "subtitle": "Top 20 financial firms & global market indices (daily prices)",
+        "description": "#### **Overview**  \nThis dataset provides **historical daily stock price data** for the **20 largest financial companies** and **major global stock indices**. It is designed for financial analysis, market trend exploration, and correlation studies. The dataset includes stock price history for the past **1 year** for financial companies and for stock indices.  \n\n#### **Contents**  \nThe dataset consists of multiple CSV files:  \n1. **Stock data files (`stock_JPM.csv`, `stock_BAC.csv`, etc.)** \u2013 Each file contains daily price data for a specific financial company.  \n2. **`indices.csv`** \u2013 A merged dataset containing daily closing prices for major stock indices.  \n\n---\n\n### **Dataset Structure**  \n\n#### **1. Stock Data Files (`stock_JPM.csv`, `stock_BAC.csv`, etc.)**  \nEach stock file contains the following columns:  \n- **`Date`** \u2013 Trading day\u2019s closing date (`YYYY-MM-DD` format).  \n- **`Open`** \u2013 Opening price of the stock.  \n- **`High`** \u2013 Highest price during the trading day.  \n- **`Low`** \u2013 Lowest price during the trading day.  \n- **`Close`** \u2013 Closing price of the stock.  \n- **`Volume`** \u2013 Number of shares traded.  \n\n**Removed Columns:**  \n- **`Dividends`** \u2013 Removed to focus on price movements.  \n- **`Stock Splits`** \u2013 Removed as it does not impact short-term trading analysis.  \n\nEach file represents a **single company\u2019s** daily stock performance over the past **365 days**.  \n\n---\n\n#### **2. Stock Indices File (`indices.csv`)**  \nThis file contains historical **daily closing prices** for major global stock indices over the past **six months**.  \n\n**Columns:**  \n- **`Date`** \u2013 Trading day\u2019s closing date (`YYYY-MM-DD` format).  \n- **`GSPC`** \u2013 **S&P 500 Index**.  \n- **`IXIC`** \u2013 **NASDAQ Composite Index**.  \n- **`DJI`** \u2013 **Dow Jones Industrial Average (DJIA)**.  \n- **`RUT`** \u2013 **Russell 2000 Index**.  \n- **`GDAXI`** \u2013 **DAX Index (Germany)**.  \n- **`FTSE`** \u2013 **FTSE 100 Index (United Kingdom)**.  \n- **`FCHI`** \u2013 **CAC 40 Index (France)**.  \n- **`HSI`** \u2013 **Hang Seng Index (Hong Kong)**.  \n- **`N225`** \u2013 **Nikkei 225 Index (Japan)**.  \n- **`BSESN`** \u2013 **BSE Sensex Index (India)**.  \n- **`BVSP`** \u2013 **Bovespa Index (Brazil)**.  \n\n**Key Adjustments:**  \n- The **ticker for `S&P 500` (`^GSPC`) has been renamed to `GSPC`** to avoid special characters.  \n- The file **does not include separate index files**, only the merged dataset.  \n- Missing values are **forward-filled** to maintain continuity in time series analysis.  \n\n---\n\n### **Data Sources & Processing**  \n- Stock and index data were **collected and processed** using the **Yahoo Finance API**.  \n- The dataset was prepared with **[equity_analysis](https://github.com/niki8885/equity_analysis/tree/master/equity_analysis)**, a custom module developed for efficient equity data retrieval.  \n- The data updates cover:  \n  - **Financial companies:** Last **365 days** of daily price data.  \n  - **Stock indices:** Last **180 days** of daily closing prices.  \n\n---\n\n### **Potential Use Cases**  \nThis dataset is valuable for:  \n\u2705 **Stock Market Analysis** \u2013 Studying price trends, volatility, and historical market behavior.  \n\u2705 **Financial Modeling** \u2013 Training machine learning models for market prediction.  \n\u2705 **Portfolio Optimization** \u2013 Analyzing the correlation between different financial assets.  \n\u2705 **Comparing Global Markets** \u2013 Investigating relationships between US, European, and Asian indices.  \n\u2705 **Backtesting Trading Strategies** \u2013 Using historical price data for algorithmic trading strategies.  \n\n---\n\n### **Technical Details**  \n- **File format:** CSV (comma-separated values)  \n- **Date format:** `YYYY-MM-DD`  \n- **Data interval:** **Daily**  \n- **Timezone:** UTC (without timezone adjustments)  \n- **Size:** Varies depending on the number of records  \n\n---\n\n### **Final Notes**  \n- The dataset is **regularly updated** with the latest stock and index data.  \n- It is intended for **educational and research purposes only**, not for real-time trading decisions.  \n- Future improvements may include additional financial indicators, sentiment analysis, or alternative data sources.  \n\n\ud83d\ude80 **Use this dataset to explore market trends, build models, and gain financial insights!**\n\n=== About this file ===\n\nAbout this file\nThe indices.csv file contains historical daily closing prices for major global stock indices.\nIf a market was closed on a particular day (e.g., holidays), the corresponding values might be missing.\nMissing values are forward-filled using the last available price.\nAll dates are provided in UTC without timezone adjustments.\n\n\n=== Columns & descriptions ===\n\nDate: [no description]\nGSPC: S&P 500 Index\nIXIC: NASDAQ Composite Index\nDJI: Dow Jones Industrial Average\nRUT: Russell 2000 Index\nGDAXI: DAX Index\nFTSE: FTSE 100 Index\nFCHI: CAC 40 Index\nHSI: Hang Seng Index\nN225: Nikkei 225 Index\nBSESN: [no description]\nBVSP: [no description]\n",
+        "keywords": [
+            "business",
+            "finance",
+            "time series analysis",
+            "investing"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

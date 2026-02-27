@@ -1,0 +1,157 @@
+{
+    "question": {
+        "target": [
+            "CONSUMPTION"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "date",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "TEMP",
+            "HDD",
+            "CDD",
+            "SIZE",
+            "METER",
+            "PUMP1",
+            "PUMP2"
+        ],
+        "not_filtered_related_features": [
+            "TEMP",
+            "HDD",
+            "CDD",
+            "SIZE"
+        ],
+        "selected_features": [
+            "SIZE",
+            "CDD",
+            "TEMP"
+        ],
+        "expected_ranges": {
+            "TEMP": [
+                29.1,
+                76.8
+            ],
+            "HDD": [
+                0,
+                1229
+            ],
+            "CDD": [
+                0,
+                328
+            ],
+            "SIZE": [
+                2,
+                4
+            ]
+        },
+        "column_type_inference": {
+            "NUM": "numeric",
+            "YEAR": "numeric",
+            "MONTH": "object",
+            "BILL": "numeric",
+            "TEMP": "numeric",
+            "HDD": "numeric",
+            "CDD": "numeric",
+            "SIZE": "numeric",
+            "METER": "numeric",
+            "PUMP1": "numeric",
+            "PUMP2": "numeric",
+            "RIDER TOTAL": "numeric",
+            "CONSUMPTION": "numeric",
+            "date": "object",
+            "BILL_CONSUMPTION_DEVIATION": "numeric",
+            "ESTIMATED_TIERED_BILL": "numeric",
+            "ENERGY_EFFICIENCY_PER_OCCUPANT": "numeric"
+        },
+        "train_save_file": "./irhsa15_householdenergy-timeseries-processed_ts/source/train.csv",
+        "val_v1_save_file": "./irhsa15_householdenergy-timeseries-processed_ts/source/val_v1.csv",
+        "val_v2_save_file": "./irhsa15_householdenergy-timeseries-processed_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./irhsa15_householdenergy-timeseries-processed_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./irhsa15_householdenergy-timeseries-processed_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./irhsa15_householdenergy-timeseries-processed_ts/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 17,
+        "model_type": "Prophet",
+        "output_file": "./irhsa15_householdenergy-timeseries-processed_ts/prediction.json",
+        "ground_truth_v1_file": "./irhsa15_householdenergy-timeseries-processed_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./irhsa15_householdenergy-timeseries-processed_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./irhsa15_householdenergy-timeseries-processed_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "1999-01-01 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7981422,
+        "ref": "irhsa15/householdenergy-timeseries-processed",
+        "subtitle": "\u26a1 Multi-year household energy records for ML and seasonal forecasting",
+        "creatorName": "DENISE",
+        "creatorUrl": "irhsa15",
+        "totalBytes": 4059,
+        "url": "https://www.kaggle.com/datasets/irhsa15/householdenergy-timeseries-processed",
+        "lastUpdated": "2025-07-31T11:09:52.000Z",
+        "downloadCount": 8,
+        "licenseName": "Attribution 4.0 International (CC BY 4.0)",
+        "description": "",
+        "ownerName": "DENISE",
+        "ownerRef": "irhsa15",
+        "kernelCount": 1,
+        "title": "HouseholdEnergy_TimeSeries_Processed",
+        "viewCount": 37,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "energy",
+                "name": "energy",
+                "description": "We've got solar, we've got coal, and we've even got nuclear energy data. According to the law of conservation of energy it can't be created or destroyed, but here our catalog of energy-related datasets and kernels continues to grow.",
+                "fullPath": "subject > science and technology > energy",
+                "competitionCount": 8,
+                "datasetCount": 6647,
+                "scriptCount": 574,
+                "totalCount": 7229
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7981422,
+        "datasetSlug": "householdenergy-timeseries-processed",
+        "ownerUser": "irhsa15",
+        "usabilityRating": 1.0,
+        "totalViews": 14,
+        "totalDownloads": 3,
+        "title": "HouseholdEnergy_TimeSeries_Processed",
+        "subtitle": "\u26a1 Multi-year household energy records for ML and seasonal forecasting",
+        "description": "This dataset contains monthly household energy consumption records from 1991 to 2000, enriched with features such as average temperature, Cooling and Heating Degree Days (CDD & HDD), property size, and equipment changes (pump/meter). The data is cleaned and structured to support seasonal analysis, electricity bill simulation, and predictive modeling using techniques like SARIMA and XGBoost.\n\nPerfect for:\n\nForecasting energy usage and utility costs\n\nExploring seasonal patterns and climate impact on consumption\n\nConducting anomaly detection and evaluating energy efficiency\n\nBuilding machine learning pipelines with real-world utility data\n\nIdeal for data practitioners, energy researchers, and freelancers seeking to showcase forecasting and optimization skills with authentic time series data.\n\n=== About this file ===\n\nAbout this file\nThis dataset contains monthly household energy usage records from January 1991 to December 2000, designed for forecasting and modeling tasks like SARIMA and XGBoost.\n\n\n=== Columns & descriptions ===\n\nNUM: Observation number\nYEAR: Year\nMONTH: Month\nBILL: Amount of bill (in dollars), includes 5% sales tax\nTEMP: Average temperature (in degrees Fahrenheit)\nHDD: Heating Degree Days\nCDD: Cooling Degree Days\nSIZE: Number of family members at home\nMETER: New meter? (indicator variable, 1 = yes)\nPUMP1: New heat pump 1? (indicator variable, 1= new)\nPUMP2: New heat pump 2? (indicator variable, 1= new)\nRIDER TOTAL: Total charge (per kwh) for all riders\nCONSUMPTION: Calculated consumption (in kwh)\ndate: [no description]\nBILL_CONSUMPTION_DEVIATION: [no description]\nESTIMATED_TIERED_BILL: [no description]\nENERGY_EFFICIENCY_PER_OCCUPANT: [no description]\n",
+        "keywords": [
+            "energy",
+            "time series analysis"
+        ],
+        "licenses": [
+            {
+                "name": "Attribution 4.0 International (CC BY 4.0)"
+            }
+        ]
+    }
+}

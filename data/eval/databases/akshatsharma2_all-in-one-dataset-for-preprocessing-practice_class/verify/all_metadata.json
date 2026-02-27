@@ -1,0 +1,227 @@
+{
+    "question": {
+        "target": [
+            "placed"
+        ],
+        "target_candidates": [
+            "placed"
+        ],
+        "related_features": [
+            "profession",
+            "gender",
+            "age",
+            "cgpa",
+            "city",
+            "name"
+        ],
+        "not_filtered_related_features": [
+            "profession",
+            "gender",
+            "age",
+            "city",
+            "cgpa",
+            "name"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "profession": [
+                "phd",
+                "bachelor",
+                "masters"
+            ],
+            "gender": [
+                "female",
+                "male"
+            ],
+            "age": [
+                18.0,
+                50.0
+            ],
+            "city": [
+                "asgard",
+                "purgatory",
+                "wakanda",
+                "gotham"
+            ],
+            "cgpa": [
+                4.0,
+                10.0
+            ],
+            "name": [
+                "moriarity",
+                "holmes",
+                "sam",
+                "bobby",
+                "castiel",
+                "sherlock",
+                "watson",
+                "dean"
+            ]
+        },
+        "selected_features": [
+            "gender",
+            "cgpa",
+            "city",
+            "age"
+        ],
+        "train_v2_save_file": "./akshatsharma2_all-in-one-dataset-for-preprocessing-practice_class/source/train_v2.parquet",
+        "val_v2_save_file": "./akshatsharma2_all-in-one-dataset-for-preprocessing-practice_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./akshatsharma2_all-in-one-dataset-for-preprocessing-practice_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./akshatsharma2_all-in-one-dataset-for-preprocessing-practice_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./akshatsharma2_all-in-one-dataset-for-preprocessing-practice_class/source/train_v1.parquet",
+        "train_test_ratio": 0.8,
+        "save_file_type": "parquet",
+        "imputer_type": "most_frequent",
+        "random_state": 55,
+        "model_type": "MLPClassifier",
+        "output_file": "./akshatsharma2_all-in-one-dataset-for-preprocessing-practice_class/prediction.csv",
+        "ground_truth_file": "./akshatsharma2_all-in-one-dataset-for-preprocessing-practice_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./akshatsharma2_all-in-one-dataset-for-preprocessing-practice_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "name": "categorical",
+            "city": "categorical",
+            "gender": "categorical",
+            "profession": "categorical",
+            "age": "numerical",
+            "cgpa": "numerical",
+            "placed": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "cgpa",
+            "age"
+        ],
+        "categorical_features": [
+            "gender",
+            "city"
+        ]
+    },
+    "data_info": {
+        "id": 8062303,
+        "ref": "akshatsharma2/all-in-one-dataset-for-preprocessing-practice",
+        "subtitle": "One dataset. All preprocessing challenges. Your complete practice playground.",
+        "creatorName": "Akshat Sharma",
+        "creatorUrl": "akshatsharma2",
+        "totalBytes": 7241,
+        "url": "https://www.kaggle.com/datasets/akshatsharma2/all-in-one-dataset-for-preprocessing-practice",
+        "lastUpdated": "2025-08-13T11:34:20.000Z",
+        "downloadCount": 4,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Akshat Sharma",
+        "ownerRef": "akshatsharma2",
+        "kernelCount": 1,
+        "title": "All-in-one dataset for preprocessing practice",
+        "viewCount": 49,
+        "voteCount": 1,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "earth and nature",
+                "name": "earth and nature",
+                "description": "",
+                "fullPath": "subject > earth and nature",
+                "competitionCount": 19,
+                "datasetCount": 79487,
+                "scriptCount": 394,
+                "totalCount": 79900
+            },
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114015,
+                "scriptCount": 25612,
+                "totalCount": 139665
+            },
+            {
+                "ref": "education",
+                "name": "education",
+                "description": "Education datasets and kernels relate to statistics on student performance, university rankings, and answers for all your homework questions.",
+                "fullPath": "subject > people and society > education",
+                "competitionCount": 57,
+                "datasetCount": 35551,
+                "scriptCount": 15076,
+                "totalCount": 50684
+            },
+            {
+                "ref": "data cleaning",
+                "name": "data cleaning",
+                "description": "",
+                "fullPath": "analysis > data cleaning",
+                "competitionCount": 32,
+                "datasetCount": 4384,
+                "scriptCount": 14497,
+                "totalCount": 18913
+            },
+            {
+                "ref": "data analytics",
+                "name": "data analytics",
+                "description": "",
+                "fullPath": "technique > data analytics",
+                "competitionCount": 32,
+                "datasetCount": 9201,
+                "scriptCount": 15324,
+                "totalCount": 24557
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "synthetic",
+                "name": "synthetic",
+                "description": "",
+                "fullPath": "data type > synthetic",
+                "competitionCount": 8,
+                "datasetCount": 510,
+                "scriptCount": 70,
+                "totalCount": 588
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 8062303,
+        "datasetSlug": "all-in-one-dataset-for-preprocessing-practice",
+        "ownerUser": "akshatsharma2",
+        "usabilityRating": 1.0,
+        "totalViews": 49,
+        "totalVotes": 1,
+        "totalDownloads": 5,
+        "title": "All-in-one dataset for preprocessing practice",
+        "subtitle": "One dataset. All preprocessing challenges. Your complete practice playground.",
+        "description": "Tired of jumping between multiple datasets jus- t to practice different preprocessing techniques? This notebook generates a single synthetic dataset which includes:\n\n\u2705 Mixed data types \u2013 numerical, categorical (ordinal & nominal) and binary\n\n\u2705 Realistic imperfections \u2013 missing values, outliers and duplicates\n\n\u2705 Endless possibilities to try out \u2013 scaling, encoding, imputing, removing duplicates, feature engineering, and more\n\nWhether you\u2019re a beginner sharpening your skills or a pro testing pipelines, this dataset is your one-stop preprocessing playground.\n\nAdded some characters and places for all the Supernatural, Sherlock, MCU, and DCU fans \u2014 just to keep things interesting\ud83d\ude09.Check out the dataset!!!!!\n\n# Description of columns:\n\n1) name (Categorical) \u2013 Contains fictional character names such as Sherlock, Holmes, Watson, Moriarty (from Sherlock Holmes) and Castiel, Sam, Dean, Bobby (from Supernatural), added to make the dataset fun and engaging.\ud83d\ude09\n\n2) city (Nominal) \u2013 Includes fictional locations like Gotham, Wakanda, Asgard, Purgatory from the DCU and MCU universes.\n\n3) gender (Nominal) \u2013 Indicates gender as Male or Female.\n\n4) profession (Ordinal) \u2013 Represents educational qualification in increasing order: Bachelor, Master, PhD.\n\n5) age (Numerical) \u2013 Age of the individual in years.\n\n6) cgpa (Numerical) \u2013 Cumulative Grade Point Average on a given scale.\n\n7) placed (Label) \u2013 Placement status of the individual.\n\n=== About this file ===\n\nAbout this file\nDescription of data:\nThis dataset is synthetically generated through custom Python code, specifically designed to serve as an all-in-one resource for practicing data preprocessing techniques. This is a simulated dataset showing student placement outcomes based on degree, age, and CGPA.\n\n\n=== Columns & descriptions ===\n\nname: string\ncity: city\ngender: nominal\nprofession: ordinal\nage: numeric\ncgpa: decimal\nplaced: numeric\n",
+        "keywords": [
+            "earth and nature",
+            "business",
+            "education",
+            "data cleaning",
+            "data analytics",
+            "classification",
+            "synthetic"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

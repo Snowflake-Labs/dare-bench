@@ -1,0 +1,185 @@
+{
+    "question": {
+        "target": [
+            "Close"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "Open",
+            "High",
+            "Low",
+            "Adj Close",
+            "Volume"
+        ],
+        "not_filtered_related_features": [
+            "Open",
+            "High",
+            "Low",
+            "Adj Close",
+            "Volume"
+        ],
+        "selected_features": [
+            "Open",
+            "Low",
+            "Volume"
+        ],
+        "expected_ranges": {
+            "Open": [
+                0.0381525345726243,
+                257.56867823862046
+            ],
+            "High": [
+                0.0381525345726243,
+                259.47408555117545
+            ],
+            "Low": [
+                0.0377238802611827,
+                257.0100282923795
+            ],
+            "Adj Close": [
+                0,
+                7421640800
+            ],
+            "Volume": [
+                0.0377238802611827,
+                258.39666748046875
+            ]
+        },
+        "column_type_inference": {
+            "Date": "object",
+            "Open": "numeric",
+            "High": "numeric",
+            "Low": "numeric",
+            "Close": "numeric",
+            "Adj Close": "numeric",
+            "Volume": "numeric"
+        },
+        "train_save_file": "./nikhil1e9_netflix-stock-price_ts/source/train.csv",
+        "val_v1_save_file": "./nikhil1e9_netflix-stock-price_ts/source/val_v1.csv",
+        "val_v2_save_file": "./nikhil1e9_netflix-stock-price_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./nikhil1e9_netflix-stock-price_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./nikhil1e9_netflix-stock-price_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./nikhil1e9_netflix-stock-price_ts/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 8,
+        "model_type": "Prophet",
+        "output_file": "./nikhil1e9_netflix-stock-price_ts/prediction.json",
+        "ground_truth_v1_file": "./nikhil1e9_netflix-stock-price_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./nikhil1e9_netflix-stock-price_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./nikhil1e9_netflix-stock-price_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2016-07-29 00:00:00",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 3535806,
+        "ref": "nikhil1e9/netflix-stock-price",
+        "subtitle": "Full historical data of stock prices of MAANG companies since their IPO",
+        "creatorName": "NIKHIL",
+        "creatorUrl": "nikhil1e9",
+        "totalBytes": 1502650,
+        "url": "https://www.kaggle.com/datasets/nikhil1e9/netflix-stock-price",
+        "lastUpdated": "2025-08-21T08:01:12.000Z",
+        "downloadCount": 2165,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "NIKHIL",
+        "ownerRef": "nikhil1e9",
+        "kernelCount": 7,
+        "title": "MAANG companies Stock prices (updated daily)",
+        "viewCount": 5302,
+        "voteCount": 32,
+        "currentVersionNumber": 734,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "finance",
+                "name": "finance",
+                "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+                "fullPath": "subject > people and society > business > finance",
+                "competitionCount": 101,
+                "datasetCount": 12683,
+                "scriptCount": 4576,
+                "totalCount": 17360
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14200,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34359
+            },
+            {
+                "ref": "investing",
+                "name": "investing",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > investing",
+                "competitionCount": 5,
+                "datasetCount": 11998,
+                "scriptCount": 18559,
+                "totalCount": 30562
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 3535806,
+        "datasetSlug": "netflix-stock-price",
+        "ownerUser": "nikhil1e9",
+        "usabilityRating": 1.0,
+        "totalViews": 5115,
+        "totalVotes": 32,
+        "totalDownloads": 2064,
+        "title": "MAANG companies Stock prices (updated daily)",
+        "subtitle": "Full historical data of stock prices of MAANG companies since their IPO",
+        "description": "## Description\n&gt; This dataset contains the full historical data of the stock prices for **MAANG** companies since their Initial Public Offering (IPO). **MAANG** is an acronym that stands for ***Meta, Amazon, Apple, Netflix, and Google***. The dataset contains daily, weekly, and monthly stock prices for each company and is automatically updated daily with the latest data obtained from [Yahoo Finance](https://finance.yahoo.com/).\n\n## Features\n&gt; - **Date**: The specific date on which the stock price was recorded.\n&gt; - **Open**: The opening price of the company's stock on that particular day.\n&gt; - **High**: The highest trading price of the company's stock on that day.\n&gt; - **Low**: The lowest trading price of the company's stock on that day.\n&gt; - **Close**: The closing price of the company's stock on that day.\n&gt; - **Adj Close**: The adjusted closing price of the company's stock on that day.\n&gt; - **Volume**: The total number of shares traded on that day.\n\n## Use cases\n&gt; This dataset can be utilized for a wide range of applications, including but not limited to:\n- **Market Analysis**: Conduct comprehensive market studies, analyze trends, and spot seasonal patterns.\n- **Investment Strategies**: Develop and backtest investment strategies based on historical price movements.\n- **Forecasting**: Build predictive models to forecast future stock prices and make informed decisions.\n- **Trading Algorithms**: Design and test trading algorithms to capitalize on market opportunities.\n\nPlease, provide an upvote\ud83d\udc4dif the dataset was useful for your task. It would be much appreciated\ud83d\ude04\n\n=== About this file ===\n\nAbout this file\nThis file contains daily stock prices of Amazon since its IPO\n\n\n=== Columns & descriptions ===\n\nDate: [no description]\nOpen: Opening price of the stock on a given date\nHigh: Highest price of the stock on a given date\nLow: Lowest price of the stock on a given date\nClose: Closing price of the stock on a given date\nAdj Close: Adjusted closing price of the stock on a given date\nVolume: Total number of shares traded on a given date\n",
+        "keywords": [
+            "business",
+            "finance",
+            "time series analysis",
+            "tabular",
+            "investing"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

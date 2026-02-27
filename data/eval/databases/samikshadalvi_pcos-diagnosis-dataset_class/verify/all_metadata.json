@@ -1,0 +1,170 @@
+{
+    "question": {
+        "target": [
+            "PCOS_Diagnosis"
+        ],
+        "target_candidates": [
+            "PCOS_Diagnosis"
+        ],
+        "related_features": [
+            "Age",
+            "BMI",
+            "Antral_Follicle_Count",
+            "Menstrual_Irregularity",
+            "Testosterone_Level(ng/dL)"
+        ],
+        "not_filtered_related_features": [
+            "Age",
+            "BMI",
+            "Antral_Follicle_Count",
+            "Testosterone_Level(ng/dL)"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Age": [
+                18,
+                45
+            ],
+            "BMI": [
+                18.0,
+                35.0
+            ],
+            "Antral_Follicle_Count": [
+                5,
+                29
+            ],
+            "Testosterone_Level(ng/dL)": [
+                20.0,
+                100.0
+            ]
+        },
+        "selected_features": [
+            "Testosterone_Level(ng/dL)",
+            "BMI",
+            "Antral_Follicle_Count"
+        ],
+        "train_v2_save_file": "./samikshadalvi_pcos-diagnosis-dataset_class/source/train_v2.parquet",
+        "val_v2_save_file": "./samikshadalvi_pcos-diagnosis-dataset_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./samikshadalvi_pcos-diagnosis-dataset_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./samikshadalvi_pcos-diagnosis-dataset_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./samikshadalvi_pcos-diagnosis-dataset_class/source/train_v1.parquet",
+        "train_test_ratio": 0.9,
+        "save_file_type": "parquet",
+        "imputer_type": "most_frequent",
+        "random_state": 76,
+        "model_type": "LinearSVC",
+        "output_file": "./samikshadalvi_pcos-diagnosis-dataset_class/prediction.csv",
+        "ground_truth_file": "./samikshadalvi_pcos-diagnosis-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./samikshadalvi_pcos-diagnosis-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Age": "numerical",
+            "BMI": "numerical",
+            "Menstrual_Irregularity": "categorical",
+            "Testosterone_Level(ng/dL)": "numerical",
+            "Antral_Follicle_Count": "numerical",
+            "PCOS_Diagnosis": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Testosterone_Level(ng/dL)",
+            "BMI",
+            "Antral_Follicle_Count"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 6702154,
+        "ref": "samikshadalvi/pcos-diagnosis-dataset",
+        "subtitle": "PCOS Patient Data: A Dataset for Exploratory Data Analysis, Feature Engineering,",
+        "creatorName": "Samiksha Dalvi",
+        "creatorUrl": "samikshadalvi",
+        "totalBytes": 7123,
+        "url": "https://www.kaggle.com/datasets/samikshadalvi/pcos-diagnosis-dataset",
+        "lastUpdated": "2025-02-19T23:03:44.693Z",
+        "downloadCount": 4074,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Samiksha Dalvi",
+        "ownerRef": "samikshadalvi",
+        "kernelCount": 36,
+        "title": "PCOS Diagnosis Dataset",
+        "viewCount": 15926,
+        "voteCount": 48,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "healthcare",
+                "name": "healthcare",
+                "description": "AI in healthcare is a growing interest. One of the major problems is simply converting research into an application. Should be easy, right?",
+                "fullPath": "subject > health and fitness > health > healthcare",
+                "competitionCount": 26,
+                "datasetCount": 2131,
+                "scriptCount": 1942,
+                "totalCount": 4099
+            },
+            {
+                "ref": "diseases",
+                "name": "diseases",
+                "description": "Datasets and kernels related to various diseases. Make sure you wear goggles and gloves before touching these datasets. Also wash your hands.",
+                "fullPath": "subject > health and fitness > health > health conditions > diseases",
+                "competitionCount": 2,
+                "datasetCount": 978,
+                "scriptCount": 631,
+                "totalCount": 1611
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "health conditions",
+                "name": "health conditions",
+                "description": "",
+                "fullPath": "subject > health and fitness > health > health conditions",
+                "competitionCount": 43,
+                "datasetCount": 11011,
+                "scriptCount": 1984,
+                "totalCount": 13038
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6702154,
+        "datasetSlug": "pcos-diagnosis-dataset",
+        "ownerUser": "samikshadalvi",
+        "usabilityRating": 1.0,
+        "totalViews": 15051,
+        "totalVotes": 46,
+        "totalDownloads": 3887,
+        "title": "PCOS Diagnosis Dataset",
+        "subtitle": "PCOS Patient Data: A Dataset for Exploratory Data Analysis, Feature Engineering,",
+        "description": "This dataset contains information related to patients with Polycystic Ovary Syndrome (PCOS), a common hormonal disorder affecting women of reproductive age. The dataset consists of 1000 entries, each representing a patient, and includes five key features that are typically associated with the diagnosis and risk factors of PCOS. The features provide valuable insights into patients' health and can be used for exploratory data analysis (EDA), feature engineering, and machine learning model development for predicting PCOS diagnoses.\n\nFeatures:\nAge (years): The age of the patient, ranging from 18 to 45 years.\nBMI (kg/m\u00b2): The Body Mass Index, which is a measure of body fat based on height and weight, ranging from 18 to 35.\nMenstrual Irregularity (binary): A binary indicator showing whether the patient has irregular menstrual cycles (0 = No, 1 = Yes).\nTestosterone Level (ng/dL): The level of testosterone in the patient's blood, an important hormonal indicator of PCOS, ranging from 20 to 100 ng/dL.\nAntral Follicle Count: The number of antral follicles detected during an ultrasound, ranging from 5 to 30, which helps in assessing ovarian reserve and PCOS presence.\nTarget Variable:\nPCOS Diagnosis (binary): A binary indicator of whether the patient has been diagnosed with PCOS (0 = No, 1 = Yes), based on a combination of risk factors such as high BMI, testosterone levels, menstrual irregularity, and antral follicle count.\n\n=== About this file ===\n\nAbout this file\nThis dataset contains information related to patients with Polycystic Ovary Syndrome (PCOS), a common hormonal disorder affecting women of reproductive age. The dataset consists of 1000 entries, each representing a patient, and includes five key features that are typically associated with the diagnosis and risk factors of PCOS. The features provide valuable insights into patients' health and can be used for exploratory data analysis (EDA), feature engineering, and machine learning model development for predicting PCOS diagnoses.\nFeatures:\nAge (years): The age of the patient, ranging from 18 to 45 years.\nBMI (kg/m\u00b2): The Body Mass Index, which is a measure of body fat based on height and weight, ranging from 18 to 35.\nMenstrual Irregularity (binary): A binary indicator showing whether the patient has irregular menstrual cycles (0 = No, 1 = Yes).\nTestosterone Level (ng/dL): The level of testosterone in the patient's blood, an important hormonal indicator of PCOS, ranging from 20 to 100 ng/dL.\nAntral Follicle Count: The number of antral follicles detected during an ultrasound, ranging from 5 to 30, which helps in assessing ovarian reserve and PCOS presence.\nTarget Variable:\nPCOS Diagnosis (binary): A binary indicator of whether the patient has been diagnosed with PCOS (0 = No, 1 = Yes), based on a combination of risk factors such as high BMI, testosterone levels, menstrual irregularity, and antral follicle count.\n\n\n=== Columns & descriptions ===\n\nAge: The age of the patient, ranging from 18 to 45 years.\nBMI: The Body Mass Index, which is a measure of body fat based on height and weight, ranging from 18 to 35.\nMenstrual_Irregularity: A binary indicator showing whether the patient has irregular menstrual cycles (0 = No, 1 = Yes).\nTestosterone_Level(ng/dL): The level of testosterone in the patient's blood, an important hormonal indicator of PCOS, ranging from 20 to 100 ng/dL.\nAntral_Follicle_Count: The number of antral follicles detected during an ultrasound, ranging from 5 to 30, which helps in assessing ovarian reserve and PCOS presence.\nPCOS_Diagnosis: [no description]\n",
+        "keywords": [
+            "healthcare",
+            "diseases",
+            "classification",
+            "health conditions"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

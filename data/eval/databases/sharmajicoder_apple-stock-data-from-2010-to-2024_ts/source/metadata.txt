@@ -1,0 +1,24 @@
+The Dataset of apple stocks has four features:
+- Data
+- Close Price
+-  High Price
+- Low Price
+- Open Price
+- Volume
+
+The data is ideal for financial analysis, trend forecasting, and correlation studies between Apple and its key partners in the tech industry.
+
+=== About this file ===
+
+About this file
+This .csv file contains apple stock data from 2010 to 2024 and have 6 columns
+
+
+=== Columns & descriptions ===
+
+Date: The timestamp of the stock records in DD-MM-YYYY. Captures day-level trading data.
+Close Price: Close price of the stock on each day
+High Price: Highest price of the stock reached during the day
+Low Price: Lowest price of the stock reached during the day
+Open Price: Open Price of the stock on that day
+Volume: Total volume of the stock on that day

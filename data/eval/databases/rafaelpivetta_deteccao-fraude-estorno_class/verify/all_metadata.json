@@ -1,0 +1,174 @@
+{
+    "question": {
+        "target": [
+            "fraude"
+        ],
+        "target_candidates": [
+            "fraude"
+        ],
+        "related_features": [
+            "loja",
+            "valor",
+            "hora_fim_expediente",
+            "dif_minutos",
+            "status"
+        ],
+        "not_filtered_related_features": [
+            "valor",
+            "dif_minutos",
+            "status"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "valor": [
+                0.0,
+                2163.0
+            ],
+            "dif_minutos": [
+                0,
+                688
+            ],
+            "status": [
+                "ESTORNADO"
+            ]
+        },
+        "selected_features": [
+            "dif_minutos",
+            "valor"
+        ],
+        "train_v2_save_file": "./rafaelpivetta_deteccao-fraude-estorno_class/source/train_v2.csv",
+        "val_v2_save_file": "./rafaelpivetta_deteccao-fraude-estorno_class/source/val_v2.csv",
+        "val_no_err_save_file": "./rafaelpivetta_deteccao-fraude-estorno_class/source/val_v1.csv",
+        "train_no_err_save_file": "./rafaelpivetta_deteccao-fraude-estorno_class/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./rafaelpivetta_deteccao-fraude-estorno_class/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "mean",
+        "random_state": 69,
+        "model_type": "GaussianNB",
+        "output_file": "./rafaelpivetta_deteccao-fraude-estorno_class/prediction.csv",
+        "ground_truth_file": "./rafaelpivetta_deteccao-fraude-estorno_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./rafaelpivetta_deteccao-fraude-estorno_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "transacao": "categorical",
+            "loja": "categorical",
+            "status": "categorical",
+            "valor": "numerical",
+            "dh_pagamento": "categorical",
+            "dh_estorno": "categorical",
+            "dif_minutos": "numerical",
+            "hora_fim_expediente": "numerical",
+            "fraude": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "dif_minutos",
+            "valor"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 6885229,
+        "ref": "rafaelpivetta/deteccao-fraude-estorno",
+        "subtitle": "Dataset para classifica\u00e7\u00e3o de estornos",
+        "creatorName": "rafaelpivetta",
+        "creatorUrl": "rafaelpivetta",
+        "totalBytes": 13093,
+        "url": "https://www.kaggle.com/datasets/rafaelpivetta/deteccao-fraude-estorno",
+        "lastUpdated": "2025-03-16T16:34:20.437Z",
+        "downloadCount": 39,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "rafaelpivetta",
+        "ownerRef": "rafaelpivetta",
+        "kernelCount": 1,
+        "title": "deteccao-fraude-estorno",
+        "viewCount": 269,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "categorical",
+                "name": "categorical",
+                "description": "Categorical data are observations that fall into discrete categories, like dog breed, dog color or whether or not a dog likes chew toys.",
+                "fullPath": "data type > categorical",
+                "competitionCount": 40,
+                "datasetCount": 2985,
+                "scriptCount": 2411,
+                "totalCount": 5436
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "portuguese",
+                "name": "portuguese",
+                "description": "",
+                "fullPath": "language > portuguese",
+                "competitionCount": 3,
+                "datasetCount": 158,
+                "scriptCount": 115,
+                "totalCount": 276
+            },
+            {
+                "ref": "synthetic",
+                "name": "synthetic",
+                "description": "",
+                "fullPath": "data type > synthetic",
+                "competitionCount": 8,
+                "datasetCount": 510,
+                "scriptCount": 70,
+                "totalCount": 588
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6885229,
+        "datasetSlug": "deteccao-fraude-estorno",
+        "ownerUser": "rafaelpivetta",
+        "usabilityRating": 1.0,
+        "totalViews": 232,
+        "totalDownloads": 34,
+        "title": "deteccao-fraude-estorno",
+        "subtitle": "Dataset para classifica\u00e7\u00e3o de estornos",
+        "description": "Detec\u00e7\u00e3o de Fraudes em Estornos\nEste dataset sint\u00e9tico foi criado com o objetivo de apoiar estudos e treinamentos relacionados \u00e0 detec\u00e7\u00e3o de fraudes envolvendo estornos realizados no varejo. As transa\u00e7\u00f5es simulam pagamentos realizados em diferentes lojas, incluindo informa\u00e7\u00f5es de valor, hor\u00e1rios das transa\u00e7\u00f5es e dos estornos.\n\nContexto\nO processo de estorno pode ser utilizado de maneira fraudulenta, exigindo das empresas esfor\u00e7os cont\u00ednuos para monitorar e identificar padr\u00f5es suspeitos. Este conjunto de dados reproduz condi\u00e7\u00f5es t\u00edpicas enfrentadas por equipes antifraude e oferece uma plataforma pr\u00e1tica para desenvolver, testar e validar modelos preditivos que distinguem estornos leg\u00edtimos daqueles potencialmente fraudulentos. Em particular, o dataset permite a aplica\u00e7\u00e3o de algoritmos de classifica\u00e7\u00e3o de machine learning, como Regress\u00e3o Log\u00edstica, \u00c1rvores de Decis\u00e3o, Random Forest e Redes Neurais, para aprimorar estrat\u00e9gias anal\u00edticas e aumentar a efici\u00eancia no combate as fraudes.\n\n=== About this file ===\n\nAbout this file\nO dataset cont\u00e9m dados sint\u00e9ticos estruturados sobre transa\u00e7\u00f5es comerciais simuladas com foco na detec\u00e7\u00e3o de fraudes relacionadas a estornos no contexto varejista. Cada linha representa uma transa\u00e7\u00e3o espec\u00edfica, com informa\u00e7\u00f5es sobre identifica\u00e7\u00e3o da transa\u00e7\u00e3o, loja, valores monet\u00e1rios, datas e hor\u00e1rios de pagamentos e estornos, tempo decorrido entre pagamento e solicita\u00e7\u00e3o de estorno, hor\u00e1rio de fim do expediente das lojas e indica\u00e7\u00e3o de fraude. O arquivo \u00e9 ideal para treinamento e valida\u00e7\u00e3o de algoritmos de machine learning voltados \u00e0 classifica\u00e7\u00e3o e detec\u00e7\u00e3o proativa de fraudes.\n\n\n=== Columns & descriptions ===\n\ntransacao: Identificador num\u00e9rico \u00fanico da transa\u00e7\u00e3o\nloja: Identificador num\u00e9rico da loja\nstatus: Status atual da transa\u00e7\u00e3o (e.g., \"ESTORNADO\")\nvalor: Valor da transa\u00e7\u00e3o\ndh_pagamento: Data e hora do pagamento\ndh_estorno: Data e hora do estorno\ndif_minutos: Diferen\u00e7a de tempo em minutos entre pagamento e estorno\nhora_fim_expediente: Hora de encerramento do expediente na loja\nfraude: Indicador bin\u00e1rio de fraude (1 indica fraude, 0 indica leg\u00edtimo)\n",
+        "keywords": [
+            "categorical",
+            "classification",
+            "tabular",
+            "portuguese",
+            "synthetic"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

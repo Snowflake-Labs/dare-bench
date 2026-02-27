@@ -1,0 +1,51 @@
+This dataset simulates **procurement and supply chain** data for strategic decision-making using the **Kraljic Matrix**, a framework to classify products/services based on supply risk and profit impact. It includes realistic biases and patterns to mimic real-world procurement scenarios, such as supplier dependencies, geopolitical risks, and sustainability challenges.
+
+
+Dataset Details
+
+- Instances: 1,000 synthetic procurement items.
+- Features: 11 columns (mix of categorical, numerical, and ordinal data).
+- File: realistic_kraljic_dataset.csv
+
+## Key Features
+Real-World Biases:
+
+- Strategic Items (e.g., lithium batteries) have high costs, long lead times, and high single-source risk.
+- Bottleneck Items (e.g., rare earth metals) are concentrated in limited regions with high supply risk.
+- Leverage Items (e.g., steel beams) have high order volumes and low supply risk.
+- Non-Critical Items (e.g., office supplies) have low costs and high order volumes.
+
+### Risk Scores:
+
+- Scores (1–5) for supply risk, profit impact, and environmental impact are calibrated to reflect real procurement challenges.
+
+### Geopolitical Clustering:
+
+- Strategic items are often sourced from geopolitically volatile regions (e.g., Asia, Africa).
+
+## Potential Use Cases
+
+- Segmentation Analysis: Classify products into Kraljic quadrants.
+- Risk Assessment: Identify high-risk items (e.g., single-source dependencies).
+- Sustainability Analysis: Correlate environmental impact with supply risk.
+- Predictive Modeling: Train models to auto-classify procurement items.
+
+=== About this file ===
+
+About this file
+A synthetic procurement dataset (1000 entries) for Kraljic Matrix analysis, featuring supply risk, profit impact, cost, environmental scores, and supplier dependencies. Includes quadrant classifications (Strategic, Bottleneck, Leverage, Non-Critical) in CSV format.
+
+
+=== Columns & descriptions ===
+
+Product_ID: Unique identifier for the product.
+Product_Name: Name of the product (e.g., lithium batteries, office supplies).
+Supplier_Region: Geographic region of the supplier.
+Lead_Time_Days: Time taken to deliver the product (in days).
+Order_Volume_Units: Annual units purchased.
+Cost_per_Unit: Price per unit in USD.
+Supply_Risk_Score: Risk of supply disruption (1=Low, 5=High).
+Profit_Impact_Score: Impact on profitability (1=Low, 5=High).
+Environmental_Impact: Sustainability risk (1=Low, 5=High).
+Single_Source_Risk: Dependency on a single supplier (Yes/No).
+Kraljic_Category: Quadrant classification: Strategic, Bottleneck, Leverage, Non-Critical.

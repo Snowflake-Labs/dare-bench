@@ -1,0 +1,289 @@
+{
+    "question": {
+        "target": [
+            "Dropped Connection"
+        ],
+        "target_candidates": [
+            "Dropped Connection",
+            "Video Streaming Quality"
+        ],
+        "related_features": [
+            "Latency (ms)",
+            "Jitter (ms)",
+            "Carrier",
+            "Battery Level (%)",
+            "Handover Count",
+            "Ping to Google (ms)",
+            "Download Speed (Mbps)",
+            "VoNR Enabled",
+            "Video Streaming Quality",
+            "Signal Strength (dBm)",
+            "Device Model",
+            "Network Type",
+            "Temperature (\u00b0C)",
+            "Connected Duration (min)",
+            "Data Usage (MB)",
+            "Band",
+            "Upload Speed (Mbps)"
+        ],
+        "not_filtered_related_features": [
+            "Latency (ms)",
+            "Jitter (ms)",
+            "Carrier",
+            "Battery Level (%)",
+            "Handover Count",
+            "Ping to Google (ms)",
+            "Download Speed (Mbps)",
+            "Signal Strength (dBm)",
+            "Device Model",
+            "Network Type",
+            "Temperature (\u00b0C)",
+            "Connected Duration (min)",
+            "Data Usage (MB)",
+            "Band",
+            "Upload Speed (Mbps)"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Latency (ms)": [
+                1.0,
+                20.0
+            ],
+            "Jitter (ms)": [
+                0.0,
+                5.0
+            ],
+            "Carrier": [
+                "AT&T",
+                "Airtel",
+                "T-Mobile",
+                "BSNL",
+                "Vi",
+                "Jio",
+                "Verizon"
+            ],
+            "Battery Level (%)": [
+                10,
+                99
+            ],
+            "Handover Count": [
+                0,
+                4
+            ],
+            "Ping to Google (ms)": [
+                10.0,
+                100.0
+            ],
+            "Download Speed (Mbps)": [
+                100.0,
+                1000.0
+            ],
+            "Signal Strength (dBm)": [
+                -110.0,
+                -60.0
+            ],
+            "Device Model": [
+                "iPhone 14",
+                "Pixel 7",
+                "Galaxy S23",
+                "GT 7",
+                "Nord 4"
+            ],
+            "Network Type": [
+                "5G NSA",
+                "4G",
+                "5G SA"
+            ],
+            "Temperature (\u00b0C)": [
+                20.0,
+                45.0
+            ],
+            "Connected Duration (min)": [
+                1,
+                59
+            ],
+            "Data Usage (MB)": [
+                10.0,
+                500.0
+            ],
+            "Band": [
+                "n78",
+                "n260",
+                "n41",
+                "n28",
+                "n258"
+            ],
+            "Upload Speed (Mbps)": [
+                20.0,
+                150.0
+            ]
+        },
+        "selected_features": [
+            "Data Usage (MB)",
+            "Ping to Google (ms)",
+            "Handover Count",
+            "Network Type",
+            "Temperature (\u00b0C)",
+            "Latency (ms)",
+            "Battery Level (%)",
+            "Upload Speed (Mbps)",
+            "Device Model"
+        ],
+        "train_v2_save_file": "./vinothkannaece_5g-network-data_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./vinothkannaece_5g-network-data_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./vinothkannaece_5g-network-data_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./vinothkannaece_5g-network-data_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./vinothkannaece_5g-network-data_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.9,
+        "save_file_type": "sqlite",
+        "imputer_type": "most_frequent",
+        "random_state": 83,
+        "model_type": "LogisticRegression",
+        "output_file": "./vinothkannaece_5g-network-data_class/prediction.csv",
+        "ground_truth_file": "./vinothkannaece_5g-network-data_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./vinothkannaece_5g-network-data_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Timestamp": "categorical",
+            "Location": "categorical",
+            "Signal Strength (dBm)": "numerical",
+            "Download Speed (Mbps)": "numerical",
+            "Upload Speed (Mbps)": "numerical",
+            "Latency (ms)": "numerical",
+            "Jitter (ms)": "numerical",
+            "Network Type": "categorical",
+            "Device Model": "categorical",
+            "Carrier": "categorical",
+            "Band": "categorical",
+            "Battery Level (%)": "numerical",
+            "Temperature (\u00b0C)": "numerical",
+            "Connected Duration (min)": "numerical",
+            "Handover Count": "numerical",
+            "Data Usage (MB)": "numerical",
+            "Video Streaming Quality": "categorical",
+            "VoNR Enabled": "categorical",
+            "Network Congestion Level": "categorical",
+            "Ping to Google (ms)": "numerical",
+            "Dropped Connection": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Data Usage (MB)",
+            "Ping to Google (ms)",
+            "Handover Count",
+            "Temperature (\u00b0C)",
+            "Latency (ms)",
+            "Battery Level (%)",
+            "Upload Speed (Mbps)"
+        ],
+        "categorical_features": [
+            "Network Type",
+            "Device Model"
+        ]
+    },
+    "data_info": {
+        "id": 7534271,
+        "ref": "vinothkannaece/5g-network-data",
+        "subtitle": "Simulated 5G network dataset with metrics.",
+        "creatorName": "VINOTH KANNA S",
+        "creatorUrl": "vinothkannaece",
+        "totalBytes": 1890933,
+        "url": "https://www.kaggle.com/datasets/vinothkannaece/5g-network-data",
+        "lastUpdated": "2025-05-28T07:42:22.767Z",
+        "downloadCount": 620,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "VINOTH KANNA S",
+        "ownerRef": "vinothkannaece",
+        "kernelCount": 4,
+        "title": "5G Network data",
+        "viewCount": 2643,
+        "voteCount": 6,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "categorical",
+                "name": "categorical",
+                "description": "Categorical data are observations that fall into discrete categories, like dog breed, dog color or whether or not a dog likes chew toys.",
+                "fullPath": "data type > categorical",
+                "competitionCount": 40,
+                "datasetCount": 2985,
+                "scriptCount": 2411,
+                "totalCount": 5436
+            },
+            {
+                "ref": "internet",
+                "name": "internet",
+                "description": "An interconnected network of tubes that connects the entire world together. This tag covers a broad range of tags; anything from cryptocurrency to website analytics.",
+                "fullPath": "subject > science and technology > internet",
+                "competitionCount": 19,
+                "datasetCount": 29693,
+                "scriptCount": 2621,
+                "totalCount": 32333
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "pandas",
+                "name": "pandas",
+                "description": "",
+                "fullPath": "packages > pandas",
+                "competitionCount": 3,
+                "datasetCount": 1543,
+                "scriptCount": 92213,
+                "totalCount": 93759
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7534271,
+        "datasetSlug": "5g-network-data",
+        "ownerUser": "vinothkannaece",
+        "usabilityRating": 1.0,
+        "totalViews": 1876,
+        "totalVotes": 5,
+        "totalDownloads": 480,
+        "title": "5G Network data",
+        "subtitle": "Simulated 5G network dataset with metrics.",
+        "description": "This project simulates a large-scale 5G network performance dataset using Python and pandas in Google Colab. It generates synthetic data for various real-world metrics like signal strength, speed, latency, jitter, battery levels, and user experience across different cities \u2014 with special focus on Indian metro areas like Mumbai, Chennai, Delhi, and Kolkata. The dataset includes detailed attributes like device model, carrier (Jio, Airtel, Vi), 5G frequency bands (n78, n28, n258), and environmental conditions. This data can be used for exploratory data analysis (EDA), network optimization modeling, predictive analytics, and machine learning experiments related to telecom service quality.\n\n=== About this file ===\n\nAbout this file\nThis project simulates a large-scale 5G network performance dataset using Python and pandas in Google Colab. It generates synthetic data for various real-world metrics like signal strength, speed, latency, jitter, battery levels, and user experience across different cities \u2014 with special focus on Indian metro areas like Mumbai, Chennai, Delhi, and Kolkata. The dataset includes detailed attributes like device model, carrier (Jio, Airtel, Vi), 5G frequency bands (n78, n28, n258), and environmental conditions. This data can be used for exploratory data analysis (EDA), network optimization modeling, predictive analytics, and machine learning experiments related to telecom service quality.\n\n\n=== Columns & descriptions ===\n\nTimestamp: Date and time when the measurement was taken (recorded every 10 minutes).\nLocation: City where the test was conducted (Indian and global cities).\nSignal Strength (dBm): Signal strength in decibels; values range from -110 (weak) to -60 (strong).\nDownload Speed (Mbps): [no description]\nUpload Speed (Mbps): [no description]\nLatency (ms): [no description]\nJitter (ms): [no description]\nNetwork Type: [no description]\nDevice Model: [no description]\nCarrier: [no description]\nBand: [no description]\nBattery Level (%): [no description]\nTemperature (\u00b0C): [no description]\nConnected Duration (min): [no description]\nHandover Count: [no description]\nData Usage (MB): [no description]\nVideo Streaming Quality: [no description]\nVoNR Enabled: [no description]\nNetwork Congestion Level: [no description]\nPing to Google (ms): [no description]\nDropped Connection: [no description]\n",
+        "keywords": [
+            "categorical",
+            "internet",
+            "beginner",
+            "classification",
+            "pandas"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

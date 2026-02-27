@@ -1,0 +1,333 @@
+{
+    "question": {
+        "target": [
+            "price",
+            "highway-mpg",
+            "city-mpg"
+        ],
+        "target_candidates": [
+            "price",
+            "city-mpg",
+            "highway-mpg"
+        ],
+        "related_features": [
+            "aspiration",
+            "symboling",
+            "bore",
+            "stroke",
+            "engine-type",
+            "height",
+            "curb-weight",
+            "engine-size",
+            "fuel-system",
+            "compression-ratio",
+            "body-style",
+            "wheel-base",
+            "make",
+            "horsepower",
+            "length",
+            "engine-location",
+            "drive-wheels",
+            "peak-rpm",
+            "num-of-cylinders",
+            "width",
+            "num-of-doors",
+            "fuel-type",
+            "normalized-losses"
+        ],
+        "not_filtered_related_features": [
+            "aspiration",
+            "symboling",
+            "bore",
+            "stroke",
+            "engine-type",
+            "height",
+            "curb-weight",
+            "engine-size",
+            "fuel-system",
+            "compression-ratio",
+            "body-style",
+            "wheel-base",
+            "horsepower",
+            "length",
+            "engine-location",
+            "drive-wheels",
+            "num-of-cylinders",
+            "peak-rpm",
+            "width",
+            "num-of-doors",
+            "fuel-type",
+            "normalized-losses"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "horsepower": [
+                48.0,
+                288.0
+            ],
+            "engine-size": [
+                61,
+                326
+            ],
+            "fuel-type": [
+                "gas",
+                "diesel"
+            ],
+            "stroke": [
+                2.0,
+                5.0
+            ],
+            "engine-location": [
+                "front",
+                "rear"
+            ],
+            "num-of-doors": [
+                "two",
+                "four"
+            ],
+            "height": [
+                47.0,
+                60.0
+            ],
+            "compression-ratio": [
+                7.0,
+                23.0
+            ],
+            "peak-rpm": [
+                4150.0,
+                6600.0
+            ],
+            "fuel-system": [
+                "mpfi",
+                "2bbl",
+                "mfi",
+                "1bbl",
+                "spfi",
+                "4bbl",
+                "idi",
+                "spdi"
+            ],
+            "symboling": [
+                -2,
+                3
+            ],
+            "body-style": [
+                "convertible",
+                "hatchback",
+                "sedan",
+                "wagon",
+                "hardtop"
+            ],
+            "bore": [
+                2.0,
+                4.0
+            ],
+            "engine-type": [
+                "dohc",
+                "ohcv",
+                "ohc",
+                "l",
+                "rotor",
+                "ohcf",
+                "dohcv"
+            ],
+            "normalized-losses": [
+                65.0,
+                256.0
+            ],
+            "aspiration": [
+                "std",
+                "turbo"
+            ],
+            "width": [
+                60.0,
+                73.0
+            ],
+            "length": [
+                141.0,
+                209.0
+            ],
+            "drive-wheels": [
+                "rwd",
+                "fwd",
+                "4wd"
+            ],
+            "num-of-cylinders": [
+                "four",
+                "six",
+                "five",
+                "three",
+                "twelve",
+                "two",
+                "eight"
+            ]
+        },
+        "selected_features": [
+            "num-of-doors",
+            "engine-type",
+            "peak-rpm",
+            "drive-wheels",
+            "symboling",
+            "stroke",
+            "engine-size",
+            "width",
+            "engine-location",
+            "num-of-cylinders",
+            "length",
+            "fuel-type"
+        ],
+        "train_v2_save_file": "./youssefelebiary_1985-auto-imports-dataset-uci-ml-repository_reg/source/train_v2.csv",
+        "val_v2_save_file": "./youssefelebiary_1985-auto-imports-dataset-uci-ml-repository_reg/source/val_v2.csv",
+        "val_no_err_save_file": "./youssefelebiary_1985-auto-imports-dataset-uci-ml-repository_reg/source/val_v1.csv",
+        "train_no_err_save_file": "./youssefelebiary_1985-auto-imports-dataset-uci-ml-repository_reg/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./youssefelebiary_1985-auto-imports-dataset-uci-ml-repository_reg/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "most_frequent",
+        "random_state": 52,
+        "model_type": "MLPRegressor",
+        "output_file": "./youssefelebiary_1985-auto-imports-dataset-uci-ml-repository_reg/prediction.csv",
+        "ground_truth_file": "./youssefelebiary_1985-auto-imports-dataset-uci-ml-repository_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./youssefelebiary_1985-auto-imports-dataset-uci-ml-repository_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "symboling": "numerical",
+            "normalized-losses": "numerical",
+            "make": "categorical",
+            "fuel-type": "categorical",
+            "aspiration": "categorical",
+            "num-of-doors": "categorical",
+            "body-style": "categorical",
+            "drive-wheels": "categorical",
+            "engine-location": "categorical",
+            "wheel-base": "numerical",
+            "length": "numerical",
+            "width": "numerical",
+            "height": "numerical",
+            "curb-weight": "numerical",
+            "engine-type": "categorical",
+            "num-of-cylinders": "categorical",
+            "engine-size": "numerical",
+            "fuel-system": "categorical",
+            "bore": "numerical",
+            "stroke": "numerical",
+            "compression-ratio": "numerical",
+            "horsepower": "numerical",
+            "peak-rpm": "numerical",
+            "city-mpg": "numerical",
+            "highway-mpg": "numerical",
+            "price": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "peak-rpm",
+            "symboling",
+            "stroke",
+            "engine-size",
+            "width",
+            "length"
+        ],
+        "categorical_features": [
+            "num-of-doors",
+            "engine-type",
+            "drive-wheels",
+            "engine-location",
+            "num-of-cylinders",
+            "fuel-type"
+        ]
+    },
+    "data_info": {
+        "id": 7609977,
+        "ref": "youssefelebiary/1985-auto-imports-dataset-uci-ml-repository",
+        "subtitle": "The Corrected imports-85.data: NaN-Standardized + Pandas-Friendly",
+        "creatorName": "Youssef Elebiary",
+        "creatorUrl": "youssefelebiary",
+        "totalBytes": 4941,
+        "url": "https://www.kaggle.com/datasets/youssefelebiary/1985-auto-imports-dataset-uci-ml-repository",
+        "lastUpdated": "2025-06-07T22:58:02.000Z",
+        "downloadCount": 86,
+        "licenseName": "Attribution 4.0 International (CC BY 4.0)",
+        "description": "",
+        "ownerName": "Youssef Elebiary",
+        "ownerRef": "youssefelebiary",
+        "kernelCount": 2,
+        "title": "1985 Auto Imports Dataset (UCI ML Repository)",
+        "viewCount": 471,
+        "voteCount": 6,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "automobiles and vehicles",
+                "name": "automobiles and vehicles",
+                "description": "The automobile tag is everything about cars. Analyze insurance rates or how far you can go on one gallon of petrol.",
+                "fullPath": "subject > science and technology > transportation > automobiles and vehicles",
+                "competitionCount": 10,
+                "datasetCount": 14763,
+                "scriptCount": 1883,
+                "totalCount": 16656
+            },
+            {
+                "ref": "data analytics",
+                "name": "data analytics",
+                "description": "",
+                "fullPath": "technique > data analytics",
+                "competitionCount": 32,
+                "datasetCount": 9201,
+                "scriptCount": 15324,
+                "totalCount": 24557
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7609977,
+        "datasetSlug": "1985-auto-imports-dataset-uci-ml-repository",
+        "ownerUser": "youssefelebiary",
+        "usabilityRating": 1.0,
+        "totalViews": 290,
+        "totalVotes": 6,
+        "totalDownloads": 65,
+        "title": "1985 Auto Imports Dataset (UCI ML Repository)",
+        "subtitle": "The Corrected imports-85.data: NaN-Standardized + Pandas-Friendly",
+        "description": "# Context\nThe 1985 Auto Imports Dataset captures a pivotal era in automotive history, documenting the shift toward fuel efficiency and globalization in car manufacturing. This dataset enables:\n* Analysis of 1980s automotive trends (MPG, engine tech, pricing)\n* Predictive modeling for insurance risk (symboling) and resale value\n\n# Overview\n| Category        | Detail                          |\n|-----------------|---------------------------------|\n| Records         | 205 records     |\n| Timeframe       | 1985        |\n| Manufacturers         | 22 brands (e.g., Toyota, BMW, Chevrolet)|\n| Features      | Price, MPG, horsepower, body style, fuel type |\n\n# Files\nMain Dataset (data.csv)\n* Standardized missing values (? \u2192 NaN)\n* Corrected dtypes (e.g., horsepower as float)\n* Original columns preserved with improved readability\n\n# Key Features\n1. Reliable dtypes: No more ValueError issues (fixed NaN and numeric columns).\n2. Historical Snapshot: Documents 1985 market trends (pre-NAFTA, pre-electronic engines).\n3. Machine Learning Ready: Cleaned for regression (predict price) or classification (e.g., fuel-type).\n4. Geographic Diversity: Mix of US, European, and Japanese manufacturers.\n\n# Uses\nThis dataset supports:\n* Price Prediction: Train models using engine size, MPG, and brand.\n* Risk Analysis: Correlate symboling with safety features.\n* Fuel Efficiency Studies: Compare 1985 MPG standards to modern EVs.\n* EDA Tutorials: Ideal for teaching pandas/seaborn (small but feature-rich).\n\n# Licensing\nLicense: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (matches UCI\u2019s terms).\n\n=== About this file ===\n\nAbout this file\nContains the same data provided by UCI after processing\n\n\n=== Columns & descriptions ===\n\nsymboling: Index\nnormalized-losses: Insurance risk rating (-3 to +3), where +3 = high risk\nmake: Average insurance claim payout per vehicle (relative to other cars)\nfuel-type: Manufacturer (e.g., \"toyota\", \"bmw\")\naspiration: \"gas\" or \"diesel\"\nnum-of-doors: Engine air intake (\"std\" or \"turbo\")\nbody-style: \"two\" or \"four\"\ndrive-wheels: \"sedan\", \"hatchback\", \"wagon\", etc.\nengine-location: \"4wd\", \"fwd\" (front-wheel), \"rwd\" (rear-wheel)\nwheel-base: \"front\" or \"rear\"\nlength: Distance between wheels (inches)\nwidth: Vehicle dimensions (inches)\nheight: Vehicle dimensions (inches)\ncurb-weight: Vehicle dimensions (inches)\nengine-type: Weight without passengers (lbs)\nnum-of-cylinders: Engine design (e.g., \"ohc\", \"ohcv\")\nengine-size: \"two\", \"four\", \"six\", etc.\nfuel-system: Displacement volume (cubic inches)\nbore: Fuel delivery (e.g., \"mpfi\", \"2bbl\")\nstroke: Engine cylinder dimensions (inches)\ncompression-ratio: Engine cylinder dimensions (inches)\nhorsepower: Ratio of cylinder volume (high = more efficient)\npeak-rpm: Engine power (HP)\ncity-mpg: Engine speed at max power (RPM)\nhighway-mpg: Fuel efficiency (miles per gallon)\nprice: Fuel efficiency (miles per gallon)\n",
+        "keywords": [
+            "automobiles and vehicles",
+            "data analytics",
+            "classification",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "Attribution 4.0 International (CC BY 4.0)"
+            }
+        ]
+    }
+}

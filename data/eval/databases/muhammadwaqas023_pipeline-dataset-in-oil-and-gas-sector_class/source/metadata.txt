@@ -1,0 +1,24 @@
+This pipeline dataset used in different sector like oil and gas sector and fertilizers. This dataset is about 1000 pipeline dataset with different pipe size, materials, material grade, corrosion impact etc
+
+=== About this file ===
+
+About this file
+This is a CSV file that contains pipeline dataset 1000 rows and 14 columns
+
+
+=== Columns & descriptions ===
+
+Pipe_ID: Pipe length
+Pipe_Size_mm: Pipe size
+Diameter_mm: Diameter of pipe
+Thickness_mm: Thickness of pipe
+Material: Material of pipe
+Strength_MPa: Strength of pipe
+Grade: Grade of pipe
+Max_Pressure_Bar: Maximum pressure
+Corrosion_Impact_Percent: Corrosion impact
+Thickness_Loss_mm: Thickness loss percentage
+Material_Loss_Percent: [no description]
+Time_Years: [no description]
+Temperature_C: [no description]
+Condition: [no description]

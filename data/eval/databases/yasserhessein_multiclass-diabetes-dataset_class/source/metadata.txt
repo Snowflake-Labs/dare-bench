@@ -1,0 +1,6 @@
+This refined dataset is originally based on the "Diabetes Dataset" uploaded by Ahlam Rashid in Mendeley Data. The link to the original dataset is: https://data.mendeley.com/datasets/wj9rwkp9c2/1. The original dataset contains a total of 1000 subjects divided into three classes: diabetic, non-diabetic, and predict-diabetic.
+
+Among the 1000 subjects, 844 are diabetic, 103 are non-diabetic, and 53 are predict-diabetic, resulting in an extreme class imbalance. We found a total of 174 duplicate subjects in the original dataset, which we subsequently removed. After removing the duplicate subjects, there were 690 diabetic, 96 non-diabetic, and 40 predict-diabetic subjects remaining.
+
+
+![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F4333519%2F974f67ff59d86f6afd50ed276836308b%2FNew%20Bitmap%20image.bmp?generation=1752831220338486&alt=media)

@@ -1,0 +1,61 @@
+&gt; This dataset provides health-related diagnostic records used to predict the likelihood of Type 2 Diabetes. It includes both the **original raw data** and a **cleaned version** where invalid medical entries have been handled. This dual-format approach helps learners and researchers explore data preprocessing, feature engineering, and binary classification modeling in healthcare.
+
+---
+
+### 🔑 Key Features:
+
+- **Dual Format**: Includes both the raw dataset with original values and a cleaned version with imputed medical fields.
+- **Medical Focus**: Columns reflect real diagnostic measurements such as glucose levels, BMI, insulin, and blood pressure.
+- **Ready for ML**: Cleaned dataset is ideal for training models without extra preprocessing steps.
+
+---
+
+### 🧾 Attributes:
+
+- **Pregnancies**: Number of times pregnant  
+- **Glucose**: Plasma glucose concentration  
+- **BloodPressure**: Diastolic blood pressure (mm Hg)  
+- **SkinThickness**: Triceps skin fold thickness (mm)  
+- **Insulin**: 2-Hour serum insulin (mu U/ml)  
+- **BMI**: Body mass index (weight in kg / height in m²)  
+- **DiabetesPedigreeFunction**: Likelihood of diabetes based on family history  
+- **Age**: Age in years  
+- **Outcome**: Target variable (1 = diabetic, 0 = non-diabetic)
+
+---
+
+### ⚙️ Data Processing:
+
+The raw dataset contains 0s in certain columns where zero values are medically impossible (e.g., Glucose, Insulin, BMI). These 0s were replaced with `NaN`, and then imputed using **median values** to produce the cleaned dataset. This process ensures better model performance and more reliable health predictions.
+
+---
+
+### 💡 Applications:
+
+- **Diabetes Risk Prediction**: Train ML models to predict diabetes onset.
+- **Healthcare Modeling**: Explore trends in patient diagnostics and health outcomes.
+- **Feature Engineering Practice**: Use both raw and cleaned versions to demonstrate preprocessing workflows.
+
+---
+
+&gt; This dataset is a powerful resource for data scientists, students, and researchers in healthcare AI. Its clean structure, medically relevant features, and dual-version availability make it perfect for building classification models and demonstrating responsible data preparation.
+
+
+
+=== About this file ===
+
+About this file
+Original dataset with 768 patient records and 9 medical attributes. Includes zero values in fields like Glucose, Blood Pressure, and BMI, which are medically implausible but left untouched for educational and preprocessing purposes.
+
+
+=== Columns & descriptions ===
+
+Pregnancies: Number of pregnancies
+Glucose: Plasma glucose concentration
+BloodPressure: Diastolic blood pressure (mm Hg)
+SkinThickness: Triceps skin fold thickness (mm)
+Insulin: 2-hour serum insulin (mu U/ml)
+BMI: Body mass index (kg/m²)
+DiabetesPedigreeFunction: Genetic likelihood of diabetes
+Age: Age in years
+Outcome: 0 = Non-diabetic, 1 = Diabetic

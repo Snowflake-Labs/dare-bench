@@ -1,0 +1,53 @@
+## Context:
+
+This database contains information on medical devices that were certified by the Food and Drug Administration (FDA) between 01/01/1998 and 01/01/2025 following the De Novo pathway.
+De Novo pathway means that the device has no substantial equivalent already certified on the market. This means that the manufacturer had to build the legal file for the device from scratch. You can find more information on the matter on: https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/de-novo-classification-request.
+
+## Column descriptions:
+
+- De Novo Number: unique identifier for the device.
+- Link: Link to the details of the medical device. (Site from which the row's information was extracted from.
+- Date Received: Date when the FDA received the De Novo certification request from the manufacturer. Format: dd/mm/yyyy.
+- Decision Date: Date when the FDA accepted the certification of the device. Format: dd/mm/yyyy.
+- Time to Certify (days): Time it took for the device to be certified in days (time between Date Received and Decision Date, calculated during the extraction of the data).
+- Time to Certify (months): Time it took for the device to be certified in months.
+- Manufacturer: Name and full address of the manufacturer of the device.
+- Device Classification:  Precise identification name for the device. Contains a brief description of the device. "Device Classification Name" in the database. 
+- Review Advisory Committee: Area of expertise of the review advisory committee. Gives information on the primary domain in which the device operates.
+- Bicode: Extracted bicode from the manufacturer address.
+- Country: Country of origin of the manufacturer. (Information extrapolated from the Bicode column).
+- Continent: Continent of origin of the manufacturer. (Information extrapolated from the Bicode column).
+
+## Provenance:
+
+This dataset was extracted following this code: https://www.kaggle.com/code/waszabbyryugami/fda-de-novo-scrapper.
+All the information was found on the database for medical devices that were certified to be sold on the market by the FDA following the De Novo certification pathway. 
+Since the most common way of certification for medical devices in the US is the 510(k) pathway, I could not find the De Novo database on the https://open.fda.gov/data/downloads/ website. That is why this data was extracted by scrapping the official database. 
+
+## Potential improvements of the database:
+
+More information can be extracted from the De Novo database by going through the link of the device. If one manages to find how to extract the ID linked to the device, there are more information that can be accessible through https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?id=id_of_the_device.
+Such information would be: Definition (a more in-depth description of the device), Physical state, Technical method, Target area and Device class.
+
+
+=== About this file ===
+
+About this file
+csv file with the data.
+
+
+=== Columns & descriptions ===
+
+: Index
+De Novo Number: unique identifier for the device.
+Link: Link to the details of the medical device. (Site from which the row's information was extracted from.
+Date Received: Date when the FDA received the De Novo certification request from the manufacturer. Format: dd/mm/yyyy.
+Decision Date: Date when the FDA accepted the certification of the device. Format: dd/mm/yyyy.
+Time to Certify (days): Time it took for the device to be certified in days (time between Date Received and Decision Date, calculated during the extraction of the data).
+Time to Certify (months): Time it took for the device to be certified in months.
+Manufacturer: Name and full address of the manufacturer of the device.
+Device Classification: Precise identification name for the device. Contains a brief description of the device. "Device Classification Name" in the database.
+Review Advisory Committee: Area of expertise of the review advisory committee. Gives information on the primary domain in which the device operates.
+bicode: Extracted bicode from the manufacturer address.
+Country: Country of origin of the manufacturer. (Information extrapolated from the Bicode column).
+Continent: Continent of origin of the manufacturer. (Information extrapolated from the Bicode column).

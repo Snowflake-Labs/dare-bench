@@ -1,0 +1,268 @@
+{
+    "question": {
+        "target": [
+            "exam_score"
+        ],
+        "target_candidates": [
+            "exam_score"
+        ],
+        "related_features": [
+            "age",
+            "diet_quality",
+            "part_time_job",
+            "sleep_hours",
+            "parental_education_level",
+            "study_hours_per_day",
+            "gender",
+            "mental_health_rating",
+            "extracurricular_participation",
+            "attendance_percentage",
+            "exercise_frequency",
+            "social_media_hours",
+            "internet_quality",
+            "netflix_hours"
+        ],
+        "not_filtered_related_features": [
+            "age",
+            "diet_quality",
+            "sleep_hours",
+            "parental_education_level",
+            "study_hours_per_day",
+            "gender",
+            "mental_health_rating",
+            "extracurricular_participation",
+            "attendance_percentage",
+            "exercise_frequency",
+            "social_media_hours",
+            "internet_quality",
+            "part_time_job",
+            "netflix_hours"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "age": [
+                17,
+                24
+            ],
+            "diet_quality": [
+                "Fair",
+                "Good",
+                "Poor"
+            ],
+            "sleep_hours": [
+                3.0,
+                10.0
+            ],
+            "parental_education_level": [
+                "Master",
+                "High School",
+                "Bachelor",
+                "None"
+            ],
+            "study_hours_per_day": [
+                0.0,
+                9.0
+            ],
+            "gender": [
+                "Female",
+                "Male",
+                "Other"
+            ],
+            "mental_health_rating": [
+                1,
+                10
+            ],
+            "extracurricular_participation": [
+                "Yes",
+                "No"
+            ],
+            "attendance_percentage": [
+                56.0,
+                100.0
+            ],
+            "exercise_frequency": [
+                0,
+                6
+            ],
+            "social_media_hours": [
+                0.0,
+                8.0
+            ],
+            "internet_quality": [
+                "Average",
+                "Poor",
+                "Good"
+            ],
+            "part_time_job": [
+                "No",
+                "Yes"
+            ],
+            "netflix_hours": [
+                0.0,
+                6.0
+            ]
+        },
+        "selected_features": [
+            "sleep_hours",
+            "netflix_hours",
+            "parental_education_level",
+            "internet_quality",
+            "mental_health_rating",
+            "attendance_percentage",
+            "age",
+            "social_media_hours",
+            "study_hours_per_day"
+        ],
+        "train_v2_save_file": "./jayaantanaath_student-habits-vs-academic-performance_reg/source/train_v2.csv",
+        "val_v2_save_file": "./jayaantanaath_student-habits-vs-academic-performance_reg/source/val_v2.csv",
+        "val_no_err_save_file": "./jayaantanaath_student-habits-vs-academic-performance_reg/source/val_v1.csv",
+        "train_no_err_save_file": "./jayaantanaath_student-habits-vs-academic-performance_reg/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./jayaantanaath_student-habits-vs-academic-performance_reg/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "mean",
+        "random_state": 3,
+        "model_type": "LinearRegression",
+        "output_file": "./jayaantanaath_student-habits-vs-academic-performance_reg/prediction.csv",
+        "ground_truth_file": "./jayaantanaath_student-habits-vs-academic-performance_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./jayaantanaath_student-habits-vs-academic-performance_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "student_id": "categorical",
+            "age": "numerical",
+            "gender": "categorical",
+            "study_hours_per_day": "numerical",
+            "social_media_hours": "numerical",
+            "netflix_hours": "numerical",
+            "part_time_job": "categorical",
+            "attendance_percentage": "numerical",
+            "sleep_hours": "numerical",
+            "diet_quality": "categorical",
+            "exercise_frequency": "numerical",
+            "parental_education_level": "categorical",
+            "internet_quality": "categorical",
+            "mental_health_rating": "numerical",
+            "extracurricular_participation": "categorical",
+            "exam_score": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "sleep_hours",
+            "netflix_hours",
+            "mental_health_rating",
+            "attendance_percentage",
+            "age",
+            "social_media_hours",
+            "study_hours_per_day"
+        ],
+        "categorical_features": [
+            "parental_education_level",
+            "internet_quality"
+        ]
+    },
+    "data_info": {
+        "id": 7122663,
+        "ref": "jayaantanaath/student-habits-vs-academic-performance",
+        "subtitle": "Great for regression, classification, EDA, visualization, and even ML practice.",
+        "creatorName": "Jayanta Nath",
+        "creatorUrl": "jayaantanaath",
+        "totalBytes": 19512,
+        "url": "https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance",
+        "lastUpdated": "2025-04-12T10:49:08.663Z",
+        "downloadCount": 50577,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Jayanta Nath",
+        "ownerRef": "jayaantanaath",
+        "kernelCount": 116,
+        "title": "Student Habits vs Academic Performance",
+        "viewCount": 181013,
+        "voteCount": 792,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "education",
+                "name": "education",
+                "description": "Education datasets and kernels relate to statistics on student performance, university rankings, and answers for all your homework questions.",
+                "fullPath": "subject > people and society > education",
+                "competitionCount": 57,
+                "datasetCount": 35552,
+                "scriptCount": 15076,
+                "totalCount": 50685
+            },
+            {
+                "ref": "computer science",
+                "name": "computer science",
+                "description": "There is one thing we can say for sure about computer science: Computer science leads to more computer games which leads to better GPUs which leads to smarter AI.",
+                "fullPath": "subject > science and technology > computer science",
+                "competitionCount": 10,
+                "datasetCount": 57851,
+                "scriptCount": 733,
+                "totalCount": 58594
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7122663,
+        "datasetSlug": "student-habits-vs-academic-performance",
+        "ownerUser": "jayaantanaath",
+        "usabilityRating": 1.0,
+        "totalViews": 170312,
+        "totalVotes": 766,
+        "totalDownloads": 47321,
+        "title": "Student Habits vs Academic Performance",
+        "subtitle": "Great for regression, classification, EDA, visualization, and even ML practice.",
+        "description": "This is a simulated dataset exploring how lifestyle habits affect academic performance in students. With 1,000 synthetic student records and 15+ features including study hours, sleep patterns, social media usage, diet quality, mental health, and final exam scores, it\u2019s perfect for ML projects, regression analysis, clustering, and data viz. Created using realistic patterns for educational practice.\n\nEver wondered how much Netflix, sleep, or TikTok scrolling affects your grades? \ud83d\udc40 This dataset simulates 1,000 students' daily habits\u2014from study time to mental health\u2014and compares them to final exam scores. It's like spying on your GPA through the lens of lifestyle. Perfect for EDA, ML practice, or just vibing with data while pretending to be productive.\n\n=== About this file ===\n\nAbout this file\nThis CSV file contains a simulated yet realistic dataset titled \u201cStudent Habits vs Academic Performance: A Simulated Study\u201d, featuring 1,000 student records. Each row represents an individual student, capturing daily lifestyle habits such as study time, sleep, social media use, diet quality, mental health rating, and more\u2014mapped against their final exam score. Designed for machine learning, regression, classification, EDA, and data visualization tasks, this dataset is ideal for educational analysis and experimentation in data science projects. It's structured, clean, and ready for exploration, modeling, and storytelling.\n\n\n=== Columns & descriptions ===\n\nstudent_id: Unique ID\nage: Age of student\ngender: Male/Female/Other\nstudy_hours_per_day: Avg. daily study time\nsocial_media_hours: Daily social media time\nnetflix_hours: Avg. daily Netflix/binging time\npart_time_job: Yes/No\nattendance_percentage: Class attendance (0\u2013100%)\nsleep_hours: Avg. daily sleep\ndiet_quality: Poor/Fair/Good\nexercise_frequency: Times per week\nparental_education_level: [no description]\ninternet_quality: [no description]\nmental_health_rating: scale 1\u201310\nextracurricular_participation: Yes/No\nexam_score: Final exam score (0\u2013100)\n",
+        "keywords": [
+            "education",
+            "computer science",
+            "exploratory data analysis",
+            "data visualization",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

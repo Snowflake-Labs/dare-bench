@@ -1,0 +1,267 @@
+{
+    "question": {
+        "target": [
+            "units_sold"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "date",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": true,
+        "related_features": [
+            "sku",
+            "brand",
+            "segment",
+            "category",
+            "channel",
+            "region",
+            "pack_type",
+            "price_unit",
+            "promotion_flag",
+            "delivery_days",
+            "stock_available",
+            "delivered_qty"
+        ],
+        "not_filtered_related_features": [
+            "brand",
+            "segment",
+            "category",
+            "channel",
+            "region",
+            "pack_type",
+            "price_unit",
+            "delivery_days",
+            "stock_available",
+            "delivered_qty"
+        ],
+        "selected_features": [
+            "segment",
+            "category",
+            "delivery_days",
+            "region",
+            "channel",
+            "brand"
+        ],
+        "expected_ranges": {
+            "brand": [
+                "MiBrand1",
+                "MiBrand4",
+                "YoBrand4",
+                "YoBrand2",
+                "YoBrand1",
+                "YoBrand3",
+                "ReBrand1",
+                "ReBrand4",
+                "MiBrand3",
+                "JuBrand3",
+                "SnBrand2",
+                "ReBrand2",
+                "SnBrand3",
+                "MiBrand2"
+            ],
+            "segment": [
+                "Milk-Seg3",
+                "Milk-Seg2",
+                "Yogurt-Seg2",
+                "Yogurt-Seg1",
+                "Yogurt-Seg3",
+                "ReadyMeal-Seg2",
+                "ReadyMeal-Seg1",
+                "Juice-Seg3",
+                "SnackBar-Seg3",
+                "ReadyMeal-Seg3",
+                "SnackBar-Seg2",
+                "SnackBar-Seg1",
+                "Milk-Seg1"
+            ],
+            "category": [
+                "Milk",
+                "Yogurt",
+                "ReadyMeal",
+                "Juice",
+                "SnackBar"
+            ],
+            "channel": [
+                "Retail",
+                "Discount",
+                "E-commerce"
+            ],
+            "region": [
+                "PL-Central",
+                "PL-North",
+                "PL-South"
+            ],
+            "pack_type": [
+                "Multipack",
+                "Single",
+                "Carton"
+            ],
+            "price_unit": [
+                1.5,
+                9.0
+            ],
+            "delivery_days": [
+                1,
+                5
+            ],
+            "stock_available": [
+                -12,
+                405
+            ],
+            "delivered_qty": [
+                -11,
+                366
+            ]
+        },
+        "column_type_inference": {
+            "date": "object",
+            "sku": "object",
+            "brand": "object",
+            "segment": "object",
+            "category": "object",
+            "channel": "object",
+            "region": "object",
+            "pack_type": "object",
+            "price_unit": "numeric",
+            "promotion_flag": "numeric",
+            "delivery_days": "numeric",
+            "stock_available": "numeric",
+            "delivered_qty": "numeric",
+            "units_sold": "numeric"
+        },
+        "train_save_file": "./beatafaron_fmcg-daily-sales-data-to-2022-2024_ts/source/train.csv",
+        "val_v1_save_file": "./beatafaron_fmcg-daily-sales-data-to-2022-2024_ts/source/val_v1.csv",
+        "val_v2_save_file": "./beatafaron_fmcg-daily-sales-data-to-2022-2024_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./beatafaron_fmcg-daily-sales-data-to-2022-2024_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./beatafaron_fmcg-daily-sales-data-to-2022-2024_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./beatafaron_fmcg-daily-sales-data-to-2022-2024_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 11,
+        "model_type": "Prophet",
+        "output_file": "./beatafaron_fmcg-daily-sales-data-to-2022-2024_ts/prediction.json",
+        "ground_truth_v1_file": "./beatafaron_fmcg-daily-sales-data-to-2022-2024_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./beatafaron_fmcg-daily-sales-data-to-2022-2024_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./beatafaron_fmcg-daily-sales-data-to-2022-2024_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2024-10-09 00:00:00",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 7787817,
+        "ref": "beatafaron/fmcg-daily-sales-data-to-2022-2024",
+        "subtitle": "FMCG Daily Sales Data (2022\u20132024) \u2013 Realistic Time Series for Forecasting",
+        "creatorName": "Beata Faron",
+        "creatorUrl": "beatafaron",
+        "totalBytes": 3872354,
+        "url": "https://www.kaggle.com/datasets/beatafaron/fmcg-daily-sales-data-to-2022-2024",
+        "lastUpdated": "2025-07-17T12:25:28.127Z",
+        "downloadCount": 2649,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Beata Faron",
+        "ownerRef": "beatafaron",
+        "kernelCount": 9,
+        "title": "FMCG Daily Sales Data (2022-2024) ",
+        "viewCount": 6849,
+        "voteCount": 33,
+        "currentVersionNumber": 16,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "statistical analysis",
+                "name": "statistical analysis",
+                "description": "",
+                "fullPath": "analysis > statistical analysis",
+                "competitionCount": 6,
+                "datasetCount": 1024,
+                "scriptCount": 3087,
+                "totalCount": 4117
+            },
+            {
+                "ref": "xgboost",
+                "name": "xgboost",
+                "description": "A library that implements the gradient boosting framework onto a wide range of problems including regression and classification. It is optimized for speed and efficiency.",
+                "fullPath": "packages > xgboost",
+                "competitionCount": 4,
+                "datasetCount": 186,
+                "scriptCount": 7771,
+                "totalCount": 7961
+            },
+            {
+                "ref": "social networks",
+                "name": "social networks",
+                "description": "",
+                "fullPath": "subject > science and technology > internet > online communities > social networks",
+                "competitionCount": 6,
+                "datasetCount": 7333,
+                "scriptCount": 4517,
+                "totalCount": 11856
+            },
+            {
+                "ref": "datetime",
+                "name": "datetime",
+                "description": "",
+                "fullPath": "packages > datetime",
+                "competitionCount": 1,
+                "datasetCount": 286,
+                "scriptCount": 676,
+                "totalCount": 963
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7787817,
+        "datasetSlug": "fmcg-daily-sales-data-to-2022-2024",
+        "ownerUser": "beatafaron",
+        "usabilityRating": 1.0,
+        "totalViews": 375,
+        "totalVotes": 1,
+        "totalDownloads": 104,
+        "title": "FMCG Daily Sales Data (2022-2024) ",
+        "subtitle": "FMCG Daily Sales Data (2022\u20132024) \u2013 Realistic Time Series for Forecasting",
+        "description": "This synthetic dataset simulates daily-level FMCG sales transactions for three consecutive years (2022, 2023, 2024), designed for practicing time series forecasting, demand planning, and machine learning in realistic business conditions.\n\nInspired by real-world scenarios (e.g. Nestl\u00e9, Unilever, P&G), it includes:\n- Product hierarchy: SKU \u2192 Brand \u2192 Segment \u2192 Category\n- Sales channels: Retail / Discount / E-commerce\n- Regions: Central, North, and South (Poland)\n- Daily sales quantities, prices, promotions, stock, delivery lag (lead time)\n- Pack types: Single / Multipack / Carton\n- Seasonality and product introductions:\n- New SKUs are introduced in 2024 only\n- Prices gradually increase over the years\n\nPossible Use Cases\n- Weekly sales forecasting\n- Promotion effect analysis\n- Seasonality and trend modeling\n- New product forecasting (cold start)\n- Feature engineering for ML models\n\n\n**Created by:** Beata Faron  \n[LinkedIn profile](https://www.linkedin.com/in/beata-faron-24764832/)  \n*Data Scientist working on demand forecasting, NLP, and business-oriented ML.*\n\n\n<a href=\"https://www.freepik.com/free-vector/fmcg-fast-moving-consumer-goods-acronym-quickly-moving-product-short-term-goods_8801900.htm#fromView=search&page=1&position=2&uuid=3553245e-46e2-4c03-84ef-7ab5e2d72339&query=fmcg\">Image by iuriimotov on Freepik</a>\n\n=== About this file ===\n\nAbout this file\nAbout This Dataset\nThis dataset simulates\ndaily-level transactional data\nfor products sold in the\nFast-Moving Consumer Goods (FMCG)\nsector between 2022 and 2024.\nIt is designed to support analysis of:\nSeasonality and product lifecycle\nPromotion and holiday effects\nStockouts and inventory dynamics\nDemand forecasting and feature engineering\nEach row represents one SKU on a specific day, across different sales channels and regions.\nIt is intended for\neducational and portfolio-building purposes\n\u2014 useful for exploring time series modeling, business analytics, or building dashboards.\nUse Cases\nProduct-level EDA and trend analysis\nPromo impact by channel or lifecycle stage\nStockout detection and visualization\nCalendar feature engineering (seasonality, holidays)\nLag/rolling feature generation for forecasting\n\n\n=== Columns & descriptions ===\n\ndate: Date of transaction (daily granularity)\nsku: Unique product identifier (e.g. `MI-006` for milk)\nbrand: Brand name of the product\nsegment: Segment classification (e.g. dairy, beverages)\ncategory: Product category (e.g. Milk, Juice)\nchannel: Sales channel (e.g. Retail, Discount, Online)\nregion: Sales region or geographic area\npack_type: Packaging type (e.g. Bottle, Carton)\nprice_unit: Unit price (average for the day)\npromotion_flag: Binary indicator: 1 if promotion was active, else 0\ndelivery_days: [no description]\nstock_available: [no description]\ndelivered_qty: [no description]\nunits_sold: [no description]\n",
+        "keywords": [
+            "business",
+            "time series analysis",
+            "statistical analysis",
+            "xgboost",
+            "social networks",
+            "datetime"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

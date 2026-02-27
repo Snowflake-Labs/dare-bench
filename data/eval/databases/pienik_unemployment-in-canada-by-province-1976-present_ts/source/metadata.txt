@@ -1,0 +1,57 @@
+# Unemployment in Canada, by Province (1976-Present)
+In this dataset, you can access **monthly labor market statistics**, such as **unemployment numbers and percentages** from 1976 to the present.
+
+The data is broken out by:
+- Canada and its provinces (not including territories)
+- Provides numbers and percentages
+- Suppresses some values due to privacy
+
+The data are compiled by month, making it a much more accessible version than the one available at a month-by-month level from the Statistics Canada website.
+
+## Dimensions
+The following dimensions are available:
+- **REF_DATE:**The reference period (by year, month)
+- **GEO:** The geographic area
+- **Sex:** The sex being investigated
+- **Age group:** The age group of the economic measure
+- **Employment:** Number of persons who, during the reference week, worked for pay or profit, or performed unpaid family work or had a job but were not at work due to own illness or disability, personal or family responsibilities, labour dispute, vacation, or other reason.
+- **Full-time employment:** Full-time employment consists of persons who usually work 30 hours or more per week at their main or only job.
+- **Labour force:** Number of civilian, non-institutionalized persons 15 years of age and over who, during the reference week, were employed or unemployed.
+- **Part-time employment:** Part-time employment consists of persons who usually work less than 30 hours per week at their main or only job. 
+Part-time employment consists of persons who usually work less than 30 hours per week at their main or only job. 
+- **Population:** Number of persons of working age, 15 years and over.
+- **Unemployment:** Number of persons who, during the reference week, were without work, had looked for work in the past four weeks, and were available for work. Those persons on layoff or who had a new job to start in four weeks or less are considered unemployed.
+- **Employment rate:** The employment rate is the number of persons employed expressed as a percentage of the population 15 years of age and over. 
+- **Participation rate:** The participation rate is the number of labour force participants expressed as a percentage of the population 15 years of age and over. 
+- **Unemployment rate:** The unemployment rate is the number of unemployed persons expressed as a percentage of the labour force. 
+
+## Source
+[Table 14-10-0287-03  Labour force characteristics by province, monthly, seasonally adjusted](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410028703)
+
+=== About this file ===
+
+About this file
+Remote source:
+https://raw.githubusercontent.com/datagy/data/main/Unemployment_Canada_1976_present.csv
+In this dataset, you can access
+monthly labor market statistics
+, such as
+unemployment numbers and percentages
+from 1976 to the present.
+
+
+=== Columns & descriptions ===
+
+REF_DATE: The reference period (by year, month)
+GEO: The geographic area
+Sex: The sex being investigated
+Age group: The age group of the economic measure
+Employment: Number of persons who, during the reference week, worked for pay or profit, or performed unpaid family work or had a job but were not at work due to own illness or disability, personal or family responsibilities, labour dispute, vacation, or other reason.
+Full-time employment: Full-time employment consists of persons who usually work 30 hours or more per week at their main or only job.
+Labour force: Number of civilian, non-institutionalized persons 15 years of age and over who, during the reference week, were employed or unemployed.
+Part-time employment: Part-time employment consists of persons who usually work less than 30 hours per week at their main or only job.
+Population: Number of persons of working age, 15 years and over.
+Unemployment: Number of persons who, during the reference week, were without work, had looked for work in the past four weeks, and were available for work. Those persons on layoff or who had a new job to start in four weeks or less are considered unemployed.
+Employment rate: The employment rate is the number of persons employed expressed as a percentage of the population 15 years of age and over.
+Participation rate: The participation rate is the number of labour force participants expressed as a percentage of the population 15 years of age and over.
+Unemployment rate: The unemployment rate is the number of unemployed persons expressed as a percentage of the labour force.

@@ -1,0 +1,252 @@
+![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F3317928%2Fadbc2108c2edb9d4dbfdf7dd44dfa26a%2Fwater_data_project_dataset.png?generation=1681253356612834&alt=media)
+
+This **Dataset** contains daily readings from **310 water sensors** (Reservoir Level Sensors, River Gauge Sensors, Pluviometer Sensors, and Aquifer Piezometer Sensors) placed around **Catalonia** (Spain). Everyday the readings from the previous day at 0:00h, 6:00h, 12:00h and 18:00h are collected and aggregated to each table with an automatically [Scheduled 🔧🗃️ETL Kaggle Notebook](https://www.kaggle.com/code/edomingo/etl-catalonia-water-resource-monitoring/notebook)   in order to extract this information from the public API of the [ACA - Agència Catalana de l'Aigua](https://aca.gencat.cat/) (Catalan Water Agency). This API serves the real-time value reads from the sensors, but it also contains detailed Metadata information for each sensor which has been extracted and saved from another supplementary [💾Notebook](https://www.kaggle.com/code/edomingo/metadata-cat-water-resource-monitoring) , and imported here into the `metadata/` folder.
+
+## Dataset Motivation and Context:
+
+In Catalonia, like in other Mediterranean regions, we are currently experiencing a **dry period**, characterized by **reduced precipitation and lower-than-average water levels** in reservoirs and rivers. It's not summer yet and we are already struggling in our water reserve levels, for this reason the local authorities are starting to plan a set of actions (e.g. water supply reductions/cuts) in the following months. Gathering this data, starting from early January and continuosly updating it day by day, will be a great source for further real-time Analysis of the situation, Visualizations of trends, and even the possibility to build short term Prediction Models. 🚰📉
+
+## Consider leaving an upvote to: 
+- this 🏞️💧Dataset
+- the [💾Metadata extraction and analysis Notebook](https://www.kaggle.com/code/edomingo/metadata-cat-water-resource-monitoring) 
+- the [Scheduled 🔧🗃️ETL Notebook](https://www.kaggle.com/code/edomingo/etl-catalonia-water-resource-monitoring/notebook)  
+
+if you found them interesting, and feel free to leave any question, suggestion or improvement in the comments. Thanks!! 🤗
+
+<br>
+
+## Sensor types, units, files and quantities
+
+### 1. Reservoir Sensors (33) 
+`reservoir_senors_reads.csv`, `metadata/reservoir_senors_metadata.csv`
+
+- Absolute level [masl]: 11
+- Reservoir volume [hm³]: 11
+- Percentage reservoir volume [%]: 11
+
+![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F3317928%2Fc84c6ec6892d16bc2eeaccbd621143f1%2Freservoir_plots.png?generation=1681346056471076&alt=media)
+
+### 2. Gauge Sensors (171)
+`gauge_senors_reads.csv`, `metadata/gauge_senors_metadata.csv`
+
+- River discharge [m³/s or l/s]: 80
+- River level [cm]: 74
+- Canal discharge [m³/s or l/s]: 16
+- Total discharge [m³/s or l/s]: 1
+
+![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F3317928%2Ffaf96107ea58e18437e447ca792ceba4%2Fgauge_plots.png?generation=1681346239663738&alt=media)
+
+### 3. Pluviometer Sensors (47)
+`pluviometer_senors_reads.csv`, `metadata/pluviometer_senors_metadata.csv`
+
+- Rainfall intensity [mm/h]: 47
+
+![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F3317928%2F27c344c46f1b5c0a784c02b08fe4294e%2Fpluviometer_plots.png?generation=1681346343651365&alt=media)
+
+### 4. Piezometer Sensors (59)
+`piezometer_senors_reads.csv`, `metadata/piezometer_senors_metadata.csv`
+
+- Absolute piezometric level [masl]: 36
+- Water temperature [°C]: 12
+- Conductivity [µS/cm]: 11
+
+![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F3317928%2F2d3e63807fce13ad46347d7f12e646a5%2Fpiezometer_plots.png?generation=1681346357514996&alt=media)
+
+<br>
+
+## License:
+
+https://web.gencat.cat/en/ajuda/avis_legal/index.html
+
+&gt;"The Government of Catalonia authorises the reuse of content and data worldwide, with no time limit or restriction, in the terms established by **the Open Licence to use information - Catalonia** or by the equivalent **CC0 Creative Commons** legal instrument, in accordance with the conditions and regime established by Article 17.1 of Law 19/2014 of 29 December on Transparency, Access to Public Information and Good Governance, and beyond the basic terms established in Article 8 of Law 37/2007 on the Reuse of Public Sector Information (ensuring that the source is cited, the information is not altered or distorted and that the date of the latest update is given), and provided that it is not contradictory to the licence or notice that a work may have and which prevails."
+
+
+=== About this file ===
+
+About this file
+Remote source:
+https://www.kaggle.com/code/edomingo/etl-catalonia-water-resource-monitoring
+CSV file where every row is the sensor read value at 00:00h, 06:00h, 12:00h, 18:00h for each day for everyone of the gauge sensors whose ids are in the column names. If the sensor is Out of Service, failing or there are no reads from it for the given time range, the cell will contain a Nan. You can find more info about the description, units, ranges, state, location, and more in the metadata file of the gauge sensors:
+metadata/gauge_sensors_metadata.csv
+
+
+=== Columns & descriptions ===
+
+: Timestamp of the sensor read
+080060-001-ANA01: Column ID gauge sensor read values
+080180-005-ANA001: [no description]
+080180-005-ANA002: [no description]
+081252-001-ANA02: [no description]
+171501-001-ANA001: [no description]
+171501-001-ANA002: [no description]
+171637-001-ANA01: [no description]
+171674-006-ANA004: [no description]
+171707-001-ANA010: [no description]
+171714-001-ANA01: [no description]
+171812-001-ANA001: [no description]
+171910-001-ANA001: [no description]
+251116-004-ANA01: [no description]
+251116-005-ANA01: [no description]
+251462-001-ANA02: [no description]
+430496-001-ANA003: [no description]
+430496-001-ANA006: [no description]
+430496-001-ANA007: [no description]
+430496-001-ANA018: [no description]
+430496-002-ANA009: [no description]
+430496-003-ANA01: [no description]
+431270-001-ANA01: [no description]
+431482-004-ANA01: [no description]
+431652-001-ANA001: [no description]
+CALC000001: [no description]
+CALC000007: [no description]
+CALC000008: [no description]
+CALC000085: [no description]
+CALC000088: [no description]
+CALC000719: [no description]
+CALC000736: [no description]
+CALC001096: [no description]
+CALC001097: [no description]
+CALC001100: [no description]
+CALC001101: [no description]
+CALC001103: [no description]
+CALC001110: [no description]
+CALC001130: [no description]
+CALC001139: [no description]
+CALC001144: [no description]
+CALC001145: [no description]
+CALC001175: [no description]
+CALC001176: [no description]
+CALC001201: [no description]
+CALC001204: [no description]
+CALC001206: [no description]
+CALC001209: [no description]
+CALC001210: [no description]
+CALC001211: [no description]
+CALC001212: [no description]
+CALC001213: [no description]
+CALC001218: [no description]
+CALC001219: [no description]
+CALC001222: [no description]
+CALC001228: [no description]
+CALC001230: [no description]
+CALC001237: [no description]
+CALC001241: [no description]
+CALC001244: [no description]
+CALC001249: [no description]
+CALC001266: [no description]
+CALC001270: [no description]
+CALC001274: [no description]
+CALC001304: [no description]
+CALC001363: [no description]
+CALC001367: [no description]
+CALC001389: [no description]
+CALC001440: [no description]
+CALC001442: [no description]
+CALC001446: [no description]
+CALC001510: [no description]
+CALC001514: [no description]
+CALC001532: [no description]
+CALC001538: [no description]
+CALC001543: [no description]
+CALC001550: [no description]
+CALC001553: [no description]
+CALC001554: [no description]
+CALC001590: [no description]
+CALC001598: [no description]
+CALC001623: [no description]
+CALC001624: [no description]
+CALC001626: [no description]
+CALC001627: [no description]
+CALC001630: [no description]
+CALC001632: [no description]
+CALC001635: [no description]
+CALC001643: [no description]
+CALC001658: [no description]
+CALC001660: [no description]
+080180-005-ANA005: [no description]
+080478-006-ANA001: [no description]
+080478-006-ANA003: [no description]
+080538-005-ANA001: [no description]
+080543-002-ANA001: [no description]
+080826-002-ANA001: [no description]
+080885-001-ANA001: [no description]
+080996-007-ANA010: [no description]
+081141-002-ANA001: [no description]
+081167-001-ANA002: [no description]
+081167-001-ANA006: [no description]
+081167-001-ANA001: [no description]
+081363-002-ANA001: [no description]
+081379-001-ANA01: [no description]
+081445-001-ANA002: [no description]
+081445-001-ANA003: [no description]
+081653-001-ANA01: [no description]
+081751-008-ANA01: [no description]
+081918-009-ANA001: [no description]
+082021-001-ANA002: [no description]
+082172-002-ANA010: [no description]
+082362-001-ANA001: [no description]
+082401-002-ANA001: [no description]
+082457-001-ANA001: [no description]
+082634-001-ANA013: [no description]
+082687-002-ANA01: [no description]
+082747-007-ANA001: [no description]
+082858-003-ANA01: [no description]
+082994-002-ANA01: [no description]
+170059-001-ANA001: [no description]
+170221-002-ANA001: [no description]
+170558-002-ANA019: [no description]
+170561-001-ANA01: [no description]
+170600-001-ANA008: [no description]
+170600-001-ANA024: [no description]
+170656-005-ANA001: [no description]
+170792-002-ANA001: [no description]
+171024-001-ANA01: [no description]
+171143-002-ANA001: [no description]
+171328-001-ANA001: [no description]
+171352-003-ANA001: [no description]
+CALC001682: [no description]
+CALC001369: [no description]
+CALC001665: [no description]
+171903-002-ANA01: [no description]
+172001-001-ANA01: [no description]
+080581-003-ANA01: [no description]
+CALC001670: [no description]
+CALC001261: [no description]
+080522-004-ANA01: [no description]
+CALC001223: [no description]
+CALC001126: [no description]
+CALC001669: [no description]
+CALC001661: [no description]
+CALC000737: [no description]
+430862-001-ANA001: [no description]
+CALC001368: [no description]
+CALC001441: [no description]
+CALC001573: [no description]
+171557-002-ANA007: [no description]
+080996-007-ANA006: [no description]
+171674-006-ANA007: [no description]
+CALC001770: [no description]
+CALC001256: [no description]
+081580-002-ANA007: [no description]
+CALC001622: [no description]
+082994-001-ANA01: [no description]
+170084-005-ANA001: [no description]
+CALC001512: [no description]
+CALC000181: [no description]
+CALC001641: [no description]
+CALC001757: [no description]
+081831-003-ANA01: [no description]
+CALC001179: [no description]
+170792-003-ANA001: [no description]
+CALC001185: [no description]
+CALC001186: [no description]
+CALC001214: [no description]
+081081-001-ANA002: [no description]
+CALC001836: [no description]
+CALC001664: [no description]
+CALC000166: [no description]
+081252-004-ANA001: [no description]
+080522-006-ANA001: [no description]
+081580-004-ANA002: [no description]
+170792-004-ANA006: [no description]
+CALC001229: [no description]

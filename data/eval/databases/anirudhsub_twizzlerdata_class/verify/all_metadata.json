@@ -1,0 +1,210 @@
+{
+    "question": {
+        "target": [
+            "Gender"
+        ],
+        "target_candidates": [
+            "Gender"
+        ],
+        "related_features": [
+            "TwizzlerRating",
+            "Income",
+            "SleepHours",
+            "TwizzlerFrequency",
+            "Education",
+            "WorkHoursPerWeek",
+            "Race"
+        ],
+        "not_filtered_related_features": [
+            "TwizzlerRating",
+            "SleepHours",
+            "TwizzlerFrequency",
+            "Education",
+            "WorkHoursPerWeek",
+            "Race"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "TwizzlerRating": [
+                0,
+                10
+            ],
+            "SleepHours": [
+                3.0,
+                10.0
+            ],
+            "TwizzlerFrequency": [
+                "<1 per year",
+                "1 per year",
+                "1 per month",
+                ">1 per day",
+                "1 per week",
+                ">1 per week"
+            ],
+            "Education": [
+                "<HS",
+                "Bachelor",
+                "HS",
+                "Masters",
+                "PhD"
+            ],
+            "WorkHoursPerWeek": [
+                0,
+                60
+            ],
+            "Race": [
+                "White",
+                "East Asian",
+                "Indian",
+                "Middle Eastern",
+                "Hispanic",
+                "Southeast Asian"
+            ]
+        },
+        "selected_features": [
+            "Race",
+            "WorkHoursPerWeek",
+            "TwizzlerFrequency",
+            "SleepHours"
+        ],
+        "train_v2_save_file": "./anirudhsub_twizzlerdata_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./anirudhsub_twizzlerdata_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./anirudhsub_twizzlerdata_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./anirudhsub_twizzlerdata_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./anirudhsub_twizzlerdata_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.8,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 84,
+        "model_type": "MLPClassifier",
+        "output_file": "./anirudhsub_twizzlerdata_class/prediction.csv",
+        "ground_truth_file": "./anirudhsub_twizzlerdata_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./anirudhsub_twizzlerdata_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Timestamp": "categorical",
+            "TwizzlerRating": "numerical",
+            "TwizzlerFrequency": "categorical",
+            "Race": "categorical",
+            "Gender": "categorical",
+            "Income": "numerical",
+            "Education": "categorical",
+            "SleepHours": "numerical",
+            "WorkHoursPerWeek": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "WorkHoursPerWeek",
+            "SleepHours"
+        ],
+        "categorical_features": [
+            "Race",
+            "TwizzlerFrequency"
+        ]
+    },
+    "data_info": {
+        "id": 7658099,
+        "ref": "anirudhsub/twizzlerdata",
+        "subtitle": "Correlating Twizzler Popularity to Demographic Factors in the Bay Area",
+        "creatorName": "Anirudh Subramanian",
+        "creatorUrl": "anirudhsub",
+        "totalBytes": 996,
+        "url": "https://www.kaggle.com/datasets/anirudhsub/twizzlerdata",
+        "lastUpdated": "2025-06-13T22:01:17.000Z",
+        "downloadCount": 476,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Anirudh Subramanian",
+        "ownerRef": "anirudhsub",
+        "kernelCount": 5,
+        "title": "Popularity of Twizzlers Dataset",
+        "viewCount": 2769,
+        "voteCount": 29,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "united states",
+                "name": "united states",
+                "description": "The top datasets and kernels in this tag are about mass shootings, AirBnB, homelessness, and witchcraft. That about sums it up.",
+                "fullPath": "geography and places > north america > united states",
+                "competitionCount": 2,
+                "datasetCount": 2639,
+                "scriptCount": 675,
+                "totalCount": 3316
+            },
+            {
+                "ref": "social science",
+                "name": "social science",
+                "description": "Social science is the collection of disciplines studying how humans interact with each other.",
+                "fullPath": "subject > people and society > social science",
+                "competitionCount": 3,
+                "datasetCount": 9541,
+                "scriptCount": 803,
+                "totalCount": 10347
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "english",
+                "name": "english",
+                "description": "",
+                "fullPath": "language > english",
+                "competitionCount": 21,
+                "datasetCount": 3546,
+                "scriptCount": 1179,
+                "totalCount": 4746
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7658099,
+        "datasetSlug": "twizzlerdata",
+        "ownerUser": "anirudhsub",
+        "usabilityRating": 1.0,
+        "totalViews": 2552,
+        "totalVotes": 29,
+        "totalDownloads": 458,
+        "title": "Popularity of Twizzlers Dataset",
+        "subtitle": "Correlating Twizzler Popularity to Demographic Factors in the Bay Area",
+        "description": "This is my first ever dataset! If you liked this, please consider clicking the \"upvote\" button in the top-right -- it's very encouraging to us data collectors to know when people appreciate our work.\n\nAll data was collected at the Westfield Valley Fair mall in Santa Clara, CA. A description of the fields we asked participants about is below.\n\n**TwizzlerRating**: A scale of 1 (worst) to 10 (best) of the Twizzlers snack, with 0 representing participants who are unfamiliar with Twizzlers\n\n**TwizzlerFrequency**: A categorical measure of how often the participant eats Twizzlers\n\n**Race**: The race of the participant\n\n**Gender**: The gender of the participant\n\n**Income**: A measure of the participant's yearly income (in dollars). Note that this question was optional to participants\n\n**Education**: The highest level of education the participant has completed\n\n**SleepHours**: The average number of hours the participant sleeps every night\n\n**WorkHoursPerWeek**: The average number of hours the participant works every week\n\n=== About this file ===\n\nAbout this file\nThis table consists of all the data we collected, including metrics of Twizzler popularity and various demographic factors\n\n\n=== Columns & descriptions ===\n\nTimestamp: [no description]\nTwizzlerRating: A scale of 1 (worst) to 10 (best) of the Twizzlers snack, with 0 representing participants who are unfamiliar with Twizzlers\nTwizzlerFrequency: A categorical measure of how often the participant eats Twizzlers\nRace: The race of the participant\nGender: The gender of the participant\nIncome: A measure of the participant's yearly income (in dollars). Note that this question was optional to participants\nEducation: The highest level of education the participant has completed\nSleepHours: The average number of hours the participant sleeps every night\nWorkHoursPerWeek: The average number of hours the participant works every week\n",
+        "keywords": [
+            "united states",
+            "social science",
+            "beginner",
+            "classification",
+            "english"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

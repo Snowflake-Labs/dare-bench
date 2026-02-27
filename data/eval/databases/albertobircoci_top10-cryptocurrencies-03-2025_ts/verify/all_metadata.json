@@ -1,0 +1,292 @@
+{
+  "question": {
+    "target": [
+      "btc_closing_price"
+    ],
+    "problem_type": "time_series_analysis",
+    "time_column": "Date",
+    "time_format": "%d/%m/%Y",
+    "is_resampled": false,
+    "related_features": [
+      "btc_volume",
+      "eth_closing_price",
+      "eth_volume",
+      "usdt_closing_price",
+      "usdt_volume",
+      "xrp_closing_price",
+      "xrp_volume",
+      "bnb_closing_price",
+      "bnb_volume",
+      "sol_closing_price",
+      "sol_volume",
+      "usdc_closing_price",
+      "usdc_volume",
+      "doge_closing_price",
+      "doge_volume",
+      "ada_closing_price",
+      "ada_volume",
+      "trx_closing_price",
+      "trx_volume"
+    ],
+    "not_filtered_related_features": [
+      "btc_volume",
+      "eth_closing_price",
+      "eth_volume",
+      "usdt_closing_price",
+      "usdt_volume",
+      "xrp_closing_price",
+      "xrp_volume",
+      "bnb_closing_price",
+      "bnb_volume",
+      "sol_closing_price",
+      "sol_volume",
+      "usdc_closing_price",
+      "usdc_volume",
+      "doge_closing_price",
+      "doge_volume",
+      "ada_closing_price",
+      "ada_volume",
+      "trx_closing_price",
+      "trx_volume"
+    ],
+    "selected_features": [
+      "sol_closing_price",
+      "btc_volume",
+      "xrp_closing_price",
+      "usdc_volume",
+      "eth_volume",
+      "trx_volume",
+      "bnb_volume",
+      "ada_closing_price",
+      "usdc_closing_price",
+      "xrp_volume",
+      "doge_volume",
+      "sol_volume"
+    ],
+    "expected_ranges": {
+      "btc_volume": [
+        5914570.0,
+        350968000000.0
+      ],
+      "eth_closing_price": [
+        84.3082962,
+        4812.087402
+      ],
+      "eth_volume": [
+        621732992.0,
+        92453553253.0
+      ],
+      "usdt_closing_price": [
+        0.966643989,
+        1.077880025
+      ],
+      "usdt_volume": [
+        358188000.0,
+        300669000000.0
+      ],
+      "xrp_closing_price": [
+        0.139634997,
+        3.377810001
+      ],
+      "xrp_volume": [
+        100294000.0,
+        51723383809.0
+      ],
+      "bnb_closing_price": [
+        1.510360003,
+        750.272644
+      ],
+      "bnb_volume": [
+        9284.0,
+        17982945189.0
+      ],
+      "sol_closing_price": [
+        0.515272975,
+        261.869751
+      ],
+      "sol_volume": [
+        652020.0,
+        33172955667.0
+      ],
+      "usdc_closing_price": [
+        0.970124006,
+        1.044028997
+      ],
+      "usdc_volume": [
+        108803.0,
+        83252100000000.0
+      ],
+      "doge_closing_price": [
+        0.001038,
+        0.684777021
+      ],
+      "doge_volume": [
+        1431720.0,
+        69410680685.0
+      ],
+      "ada_closing_price": [
+        0.023961,
+        2.968239069
+      ],
+      "ada_volume": [
+        2930550.0,
+        19141980288.0
+      ],
+      "trx_closing_price": [
+        0.001783,
+        0.425992012
+      ],
+      "trx_volume": [
+        1748460.0,
+        13973157818.0
+      ]
+    },
+    "column_type_inference": {
+      "Date": "object",
+      "btc_closing_price": "numeric",
+      "btc_volume": "numeric",
+      "eth_closing_price": "numeric",
+      "eth_volume": "numeric",
+      "usdt_closing_price": "numeric",
+      "usdt_volume": "numeric",
+      "xrp_closing_price": "numeric",
+      "xrp_volume": "numeric",
+      "bnb_closing_price": "numeric",
+      "bnb_volume": "numeric",
+      "sol_closing_price": "numeric",
+      "sol_volume": "numeric",
+      "usdc_closing_price": "numeric",
+      "usdc_volume": "numeric",
+      "doge_closing_price": "numeric",
+      "doge_volume": "numeric",
+      "ada_closing_price": "numeric",
+      "ada_volume": "numeric",
+      "trx_closing_price": "numeric",
+      "trx_volume": "numeric"
+    },
+    "train_save_file": "/data/yitwang/fan//fan_generated_data/debug1//albertobircoci_top10-cryptocurrencies-03-2025_ts/source/train.csv",
+    "val_v1_save_file": "/data/yitwang/fan//fan_generated_data/debug1//albertobircoci_top10-cryptocurrencies-03-2025_ts/source/val_v1.csv",
+    "val_v2_save_file": "/data/yitwang/fan//fan_generated_data/debug1//albertobircoci_top10-cryptocurrencies-03-2025_ts/source/val_v2.csv",
+    "val_no_err_save_file": "/data/yitwang/fan//fan_generated_data/debug1//albertobircoci_top10-cryptocurrencies-03-2025_ts/source/val_v1.csv",
+    "train_no_err_save_file": "/data/yitwang/fan//fan_generated_data/debug1//albertobircoci_top10-cryptocurrencies-03-2025_ts/source/train_v1_no_err.csv",
+    "train_err_split_save_file": "/data/yitwang/fan//fan_generated_data/debug1//albertobircoci_top10-cryptocurrencies-03-2025_ts/source/train_v1.csv",
+    "train_test_ratio": 0.7,
+    "save_file_type": "csv",
+    "imputer_type": "bfill_ffill",
+    "random_state": 0,
+    "model_type": "Prophet",
+    "output_file": "/data/yitwang/fan//fan_generated_data/debug1//albertobircoci_top10-cryptocurrencies-03-2025_ts/prediction.json",
+    "ground_truth_v1_file": "/data/yitwang/fan//fan_generated_data/debug1//albertobircoci_top10-cryptocurrencies-03-2025_ts/verify/ground_truth_v1.csv",
+    "ground_truth_v2_file": "/data/yitwang/fan//fan_generated_data/debug1//albertobircoci_top10-cryptocurrencies-03-2025_ts/verify/ground_truth_v2.csv",
+    "simulated_pred_file": "/data/yitwang/fan//fan_generated_data/debug1//albertobircoci_top10-cryptocurrencies-03-2025_ts/verify/simulated_pred.json",
+    "needed_files_v1": [
+      "train.csv",
+      "val_v1.csv",
+      "metadata.txt"
+    ],
+    "needed_files_v2": [
+      "train.csv",
+      "val_v2.csv",
+      "metadata.txt"
+    ],
+    "prediction_starting_time": "2024-04-22 00:00:00",
+    "contain_multiple_files": true
+  },
+  "data_info": {
+    "id": 7011697,
+    "ref": "albertobircoci/top10-cryptocurrencies-03-2025",
+    "subtitle": "Daily historical price and volume data for 10 top cryptocurrencies (market_cap)",
+    "creatorName": "Albert5913",
+    "creatorUrl": "albertobircoci",
+    "totalBytes": 612594,
+    "url": "https://www.kaggle.com/datasets/albertobircoci/top10-cryptocurrencies-03-2025",
+    "lastUpdated": "2025-04-29T15:18:16.497Z",
+    "downloadCount": 282,
+    "licenseName": "Database: Open Database, Contents: Database Contents",
+    "description": "",
+    "ownerName": "Albert5913",
+    "ownerRef": "albertobircoci",
+    "kernelCount": 2,
+    "title": "Top10_Cryptocurrencies_03_2025",
+    "viewCount": 1573,
+    "voteCount": 9,
+    "currentVersionNumber": 5,
+    "usabilityRating": 1.0,
+    "tags": [
+      {
+        "ref": "finance",
+        "name": "finance",
+        "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+        "fullPath": "subject > people and society > business > finance",
+        "competitionCount": 101,
+        "datasetCount": 12683,
+        "scriptCount": 4576,
+        "totalCount": 17360
+      },
+      {
+        "ref": "intermediate",
+        "name": "intermediate",
+        "description": "",
+        "fullPath": "audience > intermediate",
+        "competitionCount": 70,
+        "datasetCount": 5265,
+        "scriptCount": 6026,
+        "totalCount": 11361
+      },
+      {
+        "ref": "time series analysis",
+        "name": "time series analysis",
+        "description": "",
+        "fullPath": "technique > time series analysis",
+        "competitionCount": 626,
+        "datasetCount": 2924,
+        "scriptCount": 3882,
+        "totalCount": 7432
+      },
+      {
+        "ref": "deep learning",
+        "name": "deep learning",
+        "description": "",
+        "fullPath": "technique > deep learning",
+        "competitionCount": 70,
+        "datasetCount": 4482,
+        "scriptCount": 17709,
+        "totalCount": 22261
+      },
+      {
+        "ref": "currencies and foreign exchange",
+        "name": "currencies and foreign exchange",
+        "description": "",
+        "fullPath": "subject > people and society > business > finance > currencies and foreign exchange",
+        "competitionCount": 3,
+        "datasetCount": 6932,
+        "scriptCount": 2007,
+        "totalCount": 8942
+      }
+    ]
+  },
+  "meta_data": {
+    "datasetId": 7011697,
+    "datasetSlug": "top10-cryptocurrencies-03-2025",
+    "ownerUser": "albertobircoci",
+    "usabilityRating": 1.0,
+    "totalViews": 1544,
+    "totalVotes": 9,
+    "totalDownloads": 277,
+    "title": "Top10_Cryptocurrencies_03_2025",
+    "subtitle": "Daily historical price and volume data for 10 top cryptocurrencies (market_cap)",
+    "description": "This dataset provides daily historical data for 10 major cryptocurrencies. Each row represents a single trading day, covering the maximum range that was available at the time of extraction.\n\nKey Features\n\nClosing Price and Volume: For each cryptocurrency, two columns are provided:\n\nxxx_closing_price – The daily closing price in USD\n\nxxx_volume – The daily trading volume\n\nDate Format: Each date is listed in “dd/mm/yy” format for easy reading.\n\nTop 10 Cryptocurrencies: Includes well-known coins such as Bitcoin, Ethereum, and others with high market capitalization.\n\n- Potential Uses\n\n1.Exploratory data analysis or visualizations of crypto market trends\n\n2.Time-series modeling, forecasting, or anomaly detection\n\n3.Comparative studies between multiple cryptocurrencies\n\n=== About this file ===\n\nAbout this file\nThis CSV contains daily historical data for 10 popular cryptocurrencies, with columns for each coin’s closing price and trading volume (e.g., btc_closing_price, btc_volume). Dates are formatted in dd/mm/yy, and tickers (e.g., BTC-USD) identify which cryptocurrency pair the data belongs to.\n\n\n=== Columns & descriptions ===\n\nDate: Curriencies price\nbtc_closing_price: Daily closing price of Bitcoin (BTC) in USD.\nbtc_volume: Daily trading volume of Bitcoin.\neth_closing_price: Daily closing price of Ethereum (ETH) in USD.\neth_volume: Daily trading volume of Ethereum\nusdt_closing_price: Daily closing price of Tether (USDT) in USD.\nusdt_volume: Daily trading volume of Tether.\nxrp_closing_price: Daily closing price of XRP in USD.\nxrp_volume: Daily trading volume of XRP.\nbnb_closing_price: Daily closing price of BNB (Binance Coin) in USD.\nbnb_volume: Daily trading volume of BNB.\nsol_closing_price: Daily closing price of Solana (SOL) in USD\nsol_volume: Daily trading volume of Solana.\nusdc_closing_price: Daily closing price of USDC\nusdc_volume: Daily trading volume of USDC\ndoge_closing_price: Daily closing price of Dogecoin (DOGE) in USD.\ndoge_volume: Daily trading volume of Dogecoin.\nada_closing_price: Daily closing price of Cardano (ADA) in USD.\nada_volume: Daily trading volume of Cardano.\ntrx_closing_price: Daily closing price of TRON (TRX) in USD.\ntrx_volume: Daily trading volume of TRON.\n",
+    "keywords": [
+      "finance",
+      "intermediate",
+      "time series analysis",
+      "deep learning",
+      "currencies and foreign exchange"
+    ],
+    "licenses": [
+      {
+        "name": "DbCL-1.0"
+      }
+    ]
+  }
+}

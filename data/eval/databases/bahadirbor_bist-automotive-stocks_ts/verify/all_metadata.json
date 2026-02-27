@@ -1,0 +1,207 @@
+{
+    "question": {
+        "target": [
+            "close"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "date",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "stock_name",
+            "open",
+            "high",
+            "low",
+            "daily_return",
+            "adj_close",
+            "volume"
+        ],
+        "not_filtered_related_features": [
+            "stock_name",
+            "open",
+            "high",
+            "low",
+            "daily_return",
+            "adj_close",
+            "volume"
+        ],
+        "selected_features": [
+            "low",
+            "stock_name",
+            "daily_return",
+            "adj_close",
+            "open"
+        ],
+        "expected_ranges": {
+            "stock_name": [
+                "Anadolu Isuzu",
+                "Dogus Oto",
+                "Ford Otosan",
+                "Karsan",
+                "Otokar",
+                "Tofas",
+                "Tumosan",
+                "Turk Traktor"
+            ],
+            "open": [
+                2.47,
+                1060.0
+            ],
+            "high": [
+                2.77,
+                1082.0
+            ],
+            "low": [
+                2.27,
+                1044.0
+            ],
+            "daily_return": [
+                -15.048,
+                22.134
+            ],
+            "adj_close": [
+                2.52,
+                964.166
+            ],
+            "volume": [
+                0.0,
+                471250153.0
+            ]
+        },
+        "column_type_inference": {
+            "date": "object",
+            "stock_name": "object",
+            "open": "numeric",
+            "high": "numeric",
+            "low": "numeric",
+            "close": "numeric",
+            "daily_return": "numeric",
+            "adj_close": "numeric",
+            "volume": "numeric"
+        },
+        "train_save_file": "./bahadirbor_bist-automotive-stocks_ts/source/train.csv",
+        "val_v1_save_file": "./bahadirbor_bist-automotive-stocks_ts/source/val_v1.csv",
+        "val_v2_save_file": "./bahadirbor_bist-automotive-stocks_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./bahadirbor_bist-automotive-stocks_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./bahadirbor_bist-automotive-stocks_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./bahadirbor_bist-automotive-stocks_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 23,
+        "model_type": "Prophet",
+        "output_file": "./bahadirbor_bist-automotive-stocks_ts/prediction.json",
+        "ground_truth_v1_file": "./bahadirbor_bist-automotive-stocks_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./bahadirbor_bist-automotive-stocks_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./bahadirbor_bist-automotive-stocks_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2025-01-09 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7852282,
+        "ref": "bahadirbor/bist-automotive-stocks",
+        "subtitle": "Daily stock prices and trading data for Turkish automotive companies (2020-2025)",
+        "creatorName": "Bahad\u0131r B\u00f6r",
+        "creatorUrl": "bahadirbor",
+        "totalBytes": 233017,
+        "url": "https://www.kaggle.com/datasets/bahadirbor/bist-automotive-stocks",
+        "lastUpdated": "2025-07-12T10:10:40.183Z",
+        "downloadCount": 95,
+        "licenseName": "Attribution 4.0 International (CC BY 4.0)",
+        "description": "",
+        "ownerName": "Bahad\u0131r B\u00f6r",
+        "ownerRef": "bahadirbor",
+        "kernelCount": 1,
+        "title": "BIST Automotive Stocks",
+        "viewCount": 533,
+        "voteCount": 13,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "finance",
+                "name": "finance",
+                "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+                "fullPath": "subject > people and society > business > finance",
+                "competitionCount": 101,
+                "datasetCount": 12683,
+                "scriptCount": 4576,
+                "totalCount": 17360
+            },
+            {
+                "ref": "automobiles and vehicles",
+                "name": "automobiles and vehicles",
+                "description": "The automobile tag is everything about cars. Analyze insurance rates or how far you can go on one gallon of petrol.",
+                "fullPath": "subject > science and technology > transportation > automobiles and vehicles",
+                "competitionCount": 10,
+                "datasetCount": 14763,
+                "scriptCount": 1883,
+                "totalCount": 16656
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "investing",
+                "name": "investing",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > investing",
+                "competitionCount": 5,
+                "datasetCount": 11998,
+                "scriptCount": 18559,
+                "totalCount": 30562
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7852282,
+        "datasetSlug": "bist-automotive-stocks",
+        "ownerUser": "bahadirbor",
+        "usabilityRating": 1.0,
+        "totalViews": 107,
+        "totalVotes": 8,
+        "totalDownloads": 9,
+        "title": "BIST Automotive Stocks",
+        "subtitle": "Daily stock prices and trading data for Turkish automotive companies (2020-2025)",
+        "description": "This dataset contains comprehensive 5-year financial data for 8 major automotive companies listed on Borsa Istanbul (BIST). It includes daily trading information for leading Turkish automotive firms such as Anadolu Isuzu, Dogus Oto, Ford Otosan, Karsan, Otokar, Tofas, Tumosan, and Turk Traktor, covering the period from 2020 to 2025.\n\nThe dataset provides complete daily trading metrics for each stock, including opening and closing prices, daily highs and lows, daily returns, adjusted closing prices, and trading volumes. With 10,000 rows of data, it offers researchers and analysts a rich resource for in-depth examination of the Turkish automotive sector's financial performance over a significant time period.\n\nThis dataset serves as an ideal resource for various financial analysis studies, including time series analysis, stock price prediction, sector performance comparison, and portfolio optimization. The clean and structured format makes it readily usable for both academic research and practical investment analysis, providing valuable insights into one of Turkey's key industrial sectors.\n\n=== About this file ===\n\nAbout this file\nThe dataset contains daily stock market data organized in a tabular format where each row represents a single trading day for a specific automotive stock. The data is structured for immediate analysis without requiring additional preprocessing.\n\n\n=== Columns & descriptions ===\n\ndate: Trading date in standard format\nstock_name: Name of the automotive company\nopen: Opening price of the stock at the beginning of the trading day\nhigh: Highest price reached by the stock during the trading day\nlow: Lowest price reached by the stock during the trading day\nclose: Closing price of the stock at the end of the trading day\ndaily_return: Daily percentage return calculated as (close - previous_close) / previous_close\nadj_close: Adjusted closing price that accounts for dividends, stock splits, and other corporate actions\nvolume: Total number of shares traded during the trading day\n",
+        "keywords": [
+            "business",
+            "finance",
+            "automobiles and vehicles",
+            "time series analysis",
+            "investing"
+        ],
+        "licenses": [
+            {
+                "name": "Attribution 4.0 International (CC BY 4.0)"
+            }
+        ]
+    }
+}

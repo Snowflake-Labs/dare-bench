@@ -1,0 +1,179 @@
+{
+    "question": {
+        "target": [
+            "quality_label"
+        ],
+        "target_candidates": [
+            "quality_label"
+        ],
+        "related_features": [
+            "alcohol",
+            "residual_sugar",
+            "density",
+            "fixed_acidity"
+        ],
+        "not_filtered_related_features": [
+            "alcohol",
+            "residual_sugar",
+            "density",
+            "fixed_acidity"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "alcohol": [
+                8.0,
+                14.0
+            ],
+            "residual_sugar": [
+                0.0,
+                15.0
+            ],
+            "density": [
+                0.0,
+                2.0
+            ],
+            "fixed_acidity": [
+                4.0,
+                16.0
+            ]
+        },
+        "selected_features": [
+            "density",
+            "fixed_acidity",
+            "residual_sugar"
+        ],
+        "train_v2_save_file": "./sahideseker_wine-quality-classification_class/source/train_v2.parquet",
+        "val_v2_save_file": "./sahideseker_wine-quality-classification_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./sahideseker_wine-quality-classification_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./sahideseker_wine-quality-classification_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./sahideseker_wine-quality-classification_class/source/train_v1.parquet",
+        "train_test_ratio": 0.9,
+        "save_file_type": "parquet",
+        "imputer_type": "mean",
+        "random_state": 88,
+        "model_type": "MLPClassifier",
+        "output_file": "./sahideseker_wine-quality-classification_class/prediction.csv",
+        "ground_truth_file": "./sahideseker_wine-quality-classification_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./sahideseker_wine-quality-classification_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "fixed_acidity": "numerical",
+            "residual_sugar": "numerical",
+            "alcohol": "numerical",
+            "density": "numerical",
+            "quality_label": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "density",
+            "fixed_acidity",
+            "residual_sugar"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7018321,
+        "ref": "sahideseker/wine-quality-classification",
+        "subtitle": "Classify wine samples based on chemical features using ML models.",
+        "creatorName": "\ud83c\uddf9\ud83c\uddf7 \u015eahide \u015eeker, MSc",
+        "creatorUrl": "sahideseker",
+        "totalBytes": 7606,
+        "url": "https://www.kaggle.com/datasets/sahideseker/wine-quality-classification",
+        "lastUpdated": "2025-04-01T02:51:08.797Z",
+        "downloadCount": 2657,
+        "licenseName": "CC BY-SA 4.0",
+        "description": "",
+        "ownerName": "\ud83c\uddf9\ud83c\uddf7 \u015eahide \u015eeker, MSc",
+        "ownerRef": "sahideseker",
+        "kernelCount": 8,
+        "title": "Wine Quality Classification",
+        "viewCount": 10351,
+        "voteCount": 31,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "alcohol",
+                "name": "alcohol",
+                "description": "Here's to alcohol: the cause of, and solution to, all of life's problems. -- Homer J. Simpson",
+                "fullPath": "subject > health and fitness > food > alcohol",
+                "competitionCount": 1,
+                "datasetCount": 3221,
+                "scriptCount": 12730,
+                "totalCount": 15952
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "food",
+                "name": "food",
+                "description": "",
+                "fullPath": "subject > health and fitness > food",
+                "competitionCount": 10,
+                "datasetCount": 13083,
+                "scriptCount": 709,
+                "totalCount": 13802
+            },
+            {
+                "ref": "tabular classification",
+                "name": "tabular classification",
+                "description": "",
+                "fullPath": "task > tabular-classification",
+                "competitionCount": 8,
+                "datasetCount": 110,
+                "scriptCount": 205,
+                "totalCount": 323
+            },
+            {
+                "ref": "synthetic",
+                "name": "synthetic",
+                "description": "",
+                "fullPath": "data type > synthetic",
+                "competitionCount": 8,
+                "datasetCount": 510,
+                "scriptCount": 70,
+                "totalCount": 588
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7018321,
+        "datasetSlug": "wine-quality-classification",
+        "ownerUser": "sahideseker",
+        "usabilityRating": 1.0,
+        "totalViews": 10110,
+        "totalVotes": 29,
+        "totalDownloads": 2577,
+        "title": "Wine Quality Classification",
+        "subtitle": "Classify wine samples based on chemical features using ML models.",
+        "description": "**\ud83c\uddec\ud83c\udde7 English:**\n\nThis synthetic dataset is designed for classification tasks involving wine quality. It includes 1,000 samples with key chemical attributes such as acidity, sugar level, alcohol content, and density. Each sample is labeled with a wine quality class: low, medium, or high.\n\n**Use this dataset to:**\n\n- Train classification models like SVM, XGBoost, and Logistic Regression\n- Explore the impact of chemical features on wine quality\n- Practice ML tasks in a food and beverage context\n\n**Features:**\n\n- fixed_acidity: Level of fixed acidity\n- residual_sugar: Sugar level after fermentation\n- alcohol: Alcohol content (%)\n- density: Liquid density\n- quality_label: Wine quality class (low / medium / high)\n\n---\n\n**\ud83c\uddf9\ud83c\uddf7 T\u00fcrk\u00e7e:**\n\nBu sentetik veri seti, \u015farap kalitesini s\u0131n\u0131fland\u0131rmaya y\u00f6nelik makine \u00f6\u011frenmesi uygulamalar\u0131 i\u00e7in tasarlanm\u0131\u015ft\u0131r. 1.000 \u00f6rnekten olu\u015fan veri setinde asitlik, \u015feker oran\u0131, alkol y\u00fczdesi ve yo\u011funluk gibi kimyasal \u00f6zellikler yer almakta ve her \u00f6rnek d\u00fc\u015f\u00fck, orta veya y\u00fcksek kalite olarak etiketlenmi\u015ftir.\n\n**Bu veri seti sayesinde:**\n\n- SVM, XGBoost ve Lojistik Regresyon gibi s\u0131n\u0131fland\u0131rma algoritmalar\u0131 uygulanabilir\n- Kimyasal \u00f6zelliklerin \u015farap kalitesi \u00fczerindeki etkisi analiz edilebilir\n- G\u0131da ve i\u00e7ecek sekt\u00f6r\u00fcne y\u00f6nelik ML uygulamalar\u0131 geli\u015ftirilebilir\n\n**De\u011fi\u015fkenler:**\n\n- fixed_acidity: Sabit asit seviyesi\n- residual_sugar: Fermantasyon sonras\u0131 kalan \u015feker\n- alcohol: Alkol oran\u0131 (%)\n- density: Yo\u011funluk de\u011feri\n- quality_label: Kalite s\u0131n\u0131f\u0131 (low / medium / high)\n\n\n\n=== About this file ===\n\nAbout this file\nThis file contains 1,000 synthetic wine samples, each described by four key chemical features: fixed acidity, residual sugar, alcohol content, and density. Each sample is labeled with a wine quality class (low, medium, or high) based on a simulated quality scoring system.\n\n\n=== Columns & descriptions ===\n\nfixed_acidity: Level of fixed acidity\nresidual_sugar: Sugar level remaining after fermentation\nalcohol: Alcohol content of the wine in %\ndensity: Density of the wine sample\nquality_label: Quality label assigned (low, medium, high)\n",
+        "keywords": [
+            "alcohol",
+            "classification",
+            "food",
+            "tabular classification",
+            "synthetic"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-SA-4.0"
+            }
+        ]
+    }
+}

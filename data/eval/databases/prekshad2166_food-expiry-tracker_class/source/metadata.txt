@@ -1,0 +1,27 @@
+This Food Expiry Tracker dataset was created to analyze household food purchasing patterns and consumption behavior in relation to expiration dates. The dataset contains 500 entries tracking 15 variables across various food categories and storage methods, providing insights into how different factors influence whether food is consumed before expiry or wasted.
+
+Food waste is a critical global challenge - approximately 1.3 billion tonnes of food are wasted globally each year 1. Households are responsible for over 60% of this waste, making consumer-level tracking and prediction essential for developing effective waste reduction strategies.
+
+=== About this file ===
+
+About this file
+food_expiry_tracker.csv (500 rows, 15 columns) This file contains the primary dataset with 500 food purchase records tracking various attributes related to food expiry and consumption. Each row represents a single food item purchase event with associated temporal, categorical, and outcome variables.
+
+
+=== Columns & descriptions ===
+
+purchase_month: float64
+purchase_day_of_week: float64
+days_until_expiry: float64
+quantity: float64
+used_before_expiry: int64
+item_beverage: bool
+item_dairy: bool
+item_fruit: bool
+item_grain: bool
+item_meat: bool
+item_snack: [no description]
+item_vegetable: [no description]
+storage_freezer: [no description]
+storage_fridge: [no description]
+storage_pantry: [no description]

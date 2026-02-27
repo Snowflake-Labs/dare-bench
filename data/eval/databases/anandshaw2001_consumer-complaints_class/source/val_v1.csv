@@ -1,0 +1,2801 @@
+row_id,Submitted via,QTR (US FLY),Year,Product,Resolution time(in days)
+1,Web,Q1,2013,Credit reporting,0
+2,Phone,Q4,2013,Debt collection,3
+3,Web,Q1,2015,Student loan,32
+4,Web,Q2,2014,Credit card,0
+5,Postal mail,Q2,2014,Mortgage,1
+6,Web,Q3,2016,Consumer Loan,0
+7,Web,Q3,2015,Credit card,0
+8,Web,Q1,2016,Money transfers,0
+9,Web,Q3,2016,Credit reporting,0
+10,Phone,Q1,2014,Debt collection,10
+11,Web,Q4,2015,Credit reporting,0
+12,Web,Q2,2015,Mortgage,0
+13,Web,Q4,2014,Consumer Loan,0
+14,Web,Q3,2013,Credit card,0
+15,Web,Q2,2016,Bank account or service,0
+16,Web,Q2,2016,Credit reporting,0
+17,Postal mail,Q4,2013,Debt collection,1
+18,Web,Q1,2015,Bank account or service,0
+19,Web,Q3,2014,Credit reporting,0
+20,Postal mail,Q1,2016,Credit reporting,3
+21,Web,Q2,2016,Credit card,0
+22,Phone,Q3,2014,Debt collection,4
+23,Web,Q3,2016,Student loan,0
+24,Web,Q1,2013,Mortgage,0
+25,Web,Q2,2016,Debt collection,0
+26,Web,Q1,2014,Credit reporting,0
+27,Web,Q2,2016,Student loan,0
+28,Email,Q4,2015,Debt collection,5
+29,Email,Q1,2013,Mortgage,42
+30,Web,Q3,2015,Mortgage,0
+31,Web,Q1,2016,Debt collection,0
+32,Web,Q2,2016,Bank account or service,0
+33,Email,Q3,2015,Bank account or service,0
+34,Web,Q3,2014,Mortgage,1
+35,Web,Q2,2016,Bank account or service,0
+36,Web,Q3,2015,Credit card,0
+37,Web,Q3,2014,Consumer Loan,23
+38,Web,Q1,2015,Consumer Loan,0
+39,Web,Q3,2014,Debt collection,3
+40,Email,Q1,2014,Bank account or service,6
+41,Email,Q4,2013,Credit card,2
+42,Web,Q2,2014,Bank account or service,6
+43,Email,Q2,2016,Mortgage,2
+44,Web,Q3,2015,Credit card,0
+45,Web,Q4,2014,Consumer Loan,0
+46,Web,Q3,2016,Mortgage,0
+47,Web,Q1,2014,Bank account or service,0
+48,Web,Q1,2015,Credit reporting,0
+49,Web,Q1,2015,Credit card,0
+50,Web,Q1,2015,Payday loan,6
+51,Web,Q3,2014,Debt collection,0
+52,Web,Q1,2013,Mortgage,1
+53,Web,Q3,2015,Mortgage,0
+54,Email,Q2,2013,Mortgage,1
+55,Web,Q1,2015,Consumer Loan,4
+56,Web,Q3,2015,Debt collection,0
+57,Web,Q1,2014,Student loan,0
+58,Web,Q1,2016,Payday loan,2
+59,Web,Q4,2013,Mortgage,0
+60,Web,Q2,2015,Credit reporting,0
+61,Web,Q3,2016,Student loan,0
+62,Web,Q3,2014,Credit card,0
+63,Web,Q4,2013,Mortgage,28
+64,Web,Q2,2015,Debt collection,0
+65,Phone,Q4,2014,Credit card,5
+66,Web,Q3,2016,Debt collection,1
+67,Web,Q3,2016,Credit card,0
+68,Web,Q3,2016,Debt collection,0
+69,Web,Q2,2016,Debt collection,0
+70,Web,Q1,2015,Mortgage,0
+71,Web,Q4,2016,Credit card,0
+72,Web,Q2,2013,Mortgage,1
+73,Web,Q2,2016,Consumer Loan,3
+74,Web,Q1,2013,Bank account or service,3
+75,Phone,Q2,2016,Credit reporting,0
+76,Web,Q3,2015,Credit card,0
+77,Web,Q4,2015,Credit reporting,0
+78,Web,Q4,2015,Credit card,0
+79,Postal mail,Q4,2013,Credit card,4
+80,Web,Q4,2015,Debt collection,0
+81,Web,Q3,2016,Debt collection,61
+82,Web,Q1,2015,Debt collection,0
+83,Web,Q3,2016,Consumer Loan,0
+84,Web,Q3,2015,Debt collection,0
+85,Web,Q2,2016,Mortgage,0
+86,Web,Q3,2013,Credit card,0
+87,Fax,Q2,2014,Bank account or service,2
+88,Web,Q2,2016,Mortgage,2
+89,Web,Q2,2015,Mortgage,0
+90,Web,Q1,2014,Mortgage,0
+91,Web,Q3,2014,Credit reporting,0
+92,Web,Q4,2015,Student loan,0
+93,Phone,Q3,2015,Money transfers,2
+94,Web,Q4,2013,Mortgage,11
+95,Web,Q2,2013,Mortgage,0
+96,Fax,Q3,2016,Mortgage,2
+97,Web,Q2,2015,Credit card,0
+98,Web,Q2,2015,Credit reporting,0
+99,Web,Q3,2015,Mortgage,2
+100,Postal mail,Q1,2014,Debt collection,0
+101,Email,Q1,2016,Mortgage,2
+102,Web,Q3,2015,Student loan,0
+103,Web,Q3,2013,Mortgage,3
+104,Web,Q4,2015,Debt collection,0
+105,Web,Q4,2013,Student loan,1
+106,Web,Q4,2013,Bank account or service,0
+107,Web,Q2,2015,Mortgage,0
+108,Web,Q1,2015,Bank account or service,0
+109,Web,Q1,2013,Mortgage,0
+110,Email,Q3,2013,Bank account or service,1
+111,Web,Q4,2015,Other financial service,95
+112,Web,Q1,2015,Credit reporting,0
+113,Web,Q4,2015,Bank account or service,0
+114,Web,Q4,2015,Mortgage,0
+115,Web,Q3,2015,Bank account or service,0
+116,Web,Q2,2014,Mortgage,0
+117,Web,Q2,2013,Credit card,0
+118,Phone,Q3,2013,Debt collection,1
+119,Web,Q3,2013,Bank account or service,1
+120,Web,Q4,2015,Credit reporting,0
+121,Web,Q2,2014,Bank account or service,0
+122,Web,Q3,2013,Mortgage,2
+123,Web,Q2,2015,Credit card,0
+124,Phone,Q4,2015,Mortgage,0
+125,Web,Q2,2013,Bank account or service,0
+126,Web,Q3,2014,Mortgage,0
+127,Web,Q3,2014,Debt collection,3
+128,Fax,Q2,2016,Debt collection,0
+129,Phone,Q1,2014,Mortgage,2
+130,Web,Q4,2015,Bank account or service,0
+131,Web,Q4,2015,Credit reporting,0
+132,Web,Q3,2014,Bank account or service,0
+133,Web,Q2,2014,Mortgage,2
+134,Web,Q2,2013,Credit reporting,0
+135,Phone,Q2,2013,Mortgage,1
+136,Web,Q4,2015,Credit reporting,0
+137,Web,Q3,2014,Debt collection,5
+138,Web,Q4,2015,Mortgage,0
+139,Web,Q2,2015,Credit card,0
+140,Web,Q3,2014,Mortgage,0
+141,Postal mail,Q1,2013,Credit card,0
+142,Email,Q1,2016,Credit card,1
+143,Web,Q2,2013,Mortgage,1
+144,Web,Q3,2013,Bank account or service,1
+145,Email,Q3,2014,Credit card,2
+146,Web,Q3,2014,Credit reporting,0
+147,Web,Q1,2016,Consumer Loan,0
+148,Web,Q4,2015,Mortgage,0
+149,Email,Q3,2016,Debt collection,4
+150,Web,Q2,2013,Mortgage,1
+151,Postal mail,Q2,2016,Credit reporting,2
+152,Web,Q3,2016,Debt collection,0
+153,Web,Q2,2016,Consumer Loan,1
+154,Web,Q2,2015,Debt collection,0
+155,Web,Q1,2013,Mortgage,5
+156,Web,Q2,2013,Mortgage,0
+157,Web,Q2,2014,Consumer Loan,0
+158,Web,Q4,2015,Credit card,0
+159,Web,Q3,2014,Payday loan,3
+160,Web,Q4,2015,Mortgage,0
+161,Web,Q3,2013,Credit reporting,0
+162,Web,Q2,2015,Credit card,0
+163,Email,Q1,2013,Bank account or service,1
+164,Web,Q1,2015,Prepaid card,7
+165,Web,Q3,2014,Bank account or service,0
+166,Web,Q2,2016,Student loan,29
+167,Web,Q3,2016,Mortgage,0
+168,Web,Q3,2015,Mortgage,0
+169,Web,Q4,2016,Debt collection,0
+170,Web,Q2,2016,Credit card,0
+171,Web,Q4,2014,Money transfers,0
+172,Web,Q3,2015,Mortgage,0
+173,Web,Q1,2016,Consumer Loan,0
+174,Web,Q3,2015,Consumer Loan,0
+175,Web,Q4,2013,Money transfers,36
+176,Web,Q3,2013,Mortgage,10
+177,Web,Q1,2014,Debt collection,56
+178,Phone,Q4,2015,Credit card,4
+179,Web,Q1,2016,Bank account or service,0
+180,Web,Q4,2015,Mortgage,0
+181,Web,Q3,2015,Debt collection,0
+182,Web,Q2,2015,Credit card,2
+183,Postal mail,Q3,2016,Credit card,2
+184,Web,Q2,2015,Mortgage,0
+185,Phone,Q1,2014,Debt collection,1
+186,Web,Q3,2015,Bank account or service,0
+187,Phone,Q1,2016,Mortgage,3
+188,Web,Q1,2015,Consumer Loan,0
+189,Web,Q1,2016,Credit reporting,0
+190,Web,Q3,2014,Consumer Loan,0
+191,Email,Q4,2014,Mortgage,2
+192,Web,Q2,2016,Consumer Loan,0
+193,Web,Q2,2013,Mortgage,1
+194,Web,Q3,2014,Mortgage,0
+195,Web,Q3,2014,Consumer Loan,0
+196,Web,Q2,2015,Mortgage,0
+197,Phone,Q2,2014,Mortgage,2
+198,Web,Q3,2014,Credit card,5
+199,Web,Q3,2015,Credit card,0
+200,Email,Q1,2013,Bank account or service,3
+201,Web,Q1,2015,Payday loan,0
+202,Web,Q2,2016,Mortgage,2
+203,Web,Q1,2016,Consumer Loan,0
+204,Web,Q2,2016,Bank account or service,0
+205,Web,Q4,2013,Debt collection,7
+206,Phone,Q3,2014,Mortgage,5
+207,Email,Q2,2013,Bank account or service,1
+208,Email,Q2,2016,Consumer Loan,4
+209,Web,Q2,2016,Credit card,0
+210,Phone,Q1,2016,Bank account or service,0
+211,Web,Q1,2014,Credit reporting,0
+212,Web,Q4,2014,Mortgage,0
+213,Web,Q2,2014,Debt collection,32
+214,Web,Q2,2016,Credit card,0
+215,Phone,Q4,2013,Bank account or service,11
+216,Web,Q1,2016,Mortgage,0
+217,Web,Q1,2016,Credit card,0
+218,Phone,Q1,2016,Bank account or service,6
+219,Web,Q3,2016,Credit reporting,0
+220,Web,Q4,2015,Mortgage,2
+221,Web,Q2,2015,Credit card,0
+222,Web,Q2,2016,Bank account or service,0
+223,Email,Q3,2015,Consumer Loan,6
+224,Web,Q3,2014,Student loan,0
+225,Postal mail,Q4,2014,Mortgage,3
+226,Web,Q3,2013,Mortgage,1
+227,Fax,Q4,2013,Mortgage,3
+228,Web,Q1,2015,Credit card,0
+229,Web,Q3,2014,Mortgage,0
+230,Web,Q3,2015,Bank account or service,0
+231,Web,Q4,2013,Consumer Loan,1
+232,Web,Q4,2015,Debt collection,0
+233,Web,Q4,2016,Other financial service,0
+234,Web,Q1,2016,Mortgage,0
+235,Web,Q1,2014,Credit card,0
+236,Web,Q3,2015,Debt collection,4
+237,Web,Q1,2014,Credit reporting,0
+238,Postal mail,Q3,2013,Debt collection,61
+239,Web,Q2,2016,Consumer Loan,0
+240,Fax,Q2,2016,Mortgage,0
+241,Web,Q1,2016,Credit reporting,0
+242,Postal mail,Q3,2016,Credit reporting,2
+243,Web,Q1,2014,Bank account or service,2
+244,Web,Q1,2015,Mortgage,0
+245,Web,Q3,2016,Bank account or service,0
+246,Phone,Q4,2015,Student loan,0
+247,Postal mail,Q2,2016,Credit card,1
+248,Web,Q3,2016,Credit reporting,0
+249,Web,Q2,2015,Consumer Loan,2
+250,Email,Q2,2015,Bank account or service,1
+251,Web,Q3,2015,Bank account or service,0
+252,Email,Q1,2014,Bank account or service,1
+253,Web,Q1,2014,Debt collection,0
+254,Email,Q4,2013,Bank account or service,21
+255,Phone,Q1,2014,Bank account or service,5
+256,Web,Q2,2015,Credit reporting,0
+257,Email,Q3,2015,Other financial service,3
+258,Web,Q3,2016,Student loan,0
+259,Postal mail,Q2,2016,Consumer Loan,2
+260,Web,Q1,2014,Credit reporting,0
+261,Web,Q3,2014,Credit card,0
+262,Web,Q2,2016,Debt collection,1
+263,Web,Q1,2014,Debt collection,0
+264,Web,Q1,2015,Consumer Loan,8
+265,Web,Q3,2016,Credit card,0
+266,Web,Q1,2015,Bank account or service,5
+267,Web,Q3,2016,Bank account or service,0
+268,Web,Q4,2013,Bank account or service,3
+269,Postal mail,Q1,2014,Bank account or service,1
+270,Email,Q3,2016,Bank account or service,2
+271,Web,Q3,2015,Consumer Loan,9
+272,Web,Q3,2015,Student loan,0
+273,Web,Q3,2016,Credit card,0
+274,Web,Q1,2015,Debt collection,0
+275,Web,Q1,2015,Mortgage,0
+276,Web,Q3,2016,Mortgage,0
+277,Web,Q4,2015,Credit reporting,0
+278,Web,Q2,2015,Debt collection,0
+279,Web,Q1,2016,Mortgage,0
+280,Web,Q1,2013,Mortgage,1
+281,Web,Q4,2015,Debt collection,0
+282,Phone,Q4,2014,Debt collection,1
+283,Web,Q4,2016,Debt collection,0
+284,Web,Q4,2014,Credit card,7
+285,Web,Q3,2016,Credit card,0
+286,Web,Q2,2016,Consumer Loan,1
+287,Postal mail,Q3,2014,Credit reporting,17
+288,Web,Q4,2013,Credit card,2
+289,Web,Q2,2016,Debt collection,0
+290,Web,Q2,2016,Student loan,2
+291,Web,Q3,2014,Student loan,3
+292,Web,Q1,2016,Mortgage,0
+293,Web,Q2,2014,Mortgage,0
+294,Phone,Q2,2013,Bank account or service,3
+295,Web,Q1,2015,Debt collection,9
+296,Email,Q2,2013,Mortgage,2
+297,Web,Q4,2014,Credit card,4
+298,Web,Q3,2014,Debt collection,0
+299,Web,Q2,2015,Credit card,0
+300,Email,Q1,2016,Bank account or service,2
+301,Web,Q3,2015,Credit reporting,0
+302,Web,Q1,2015,Credit reporting,0
+303,Web,Q1,2016,Credit card,0
+304,Web,Q1,2014,Payday loan,0
+305,Phone,Q1,2015,Bank account or service,1
+306,Web,Q4,2013,Debt collection,5
+307,Web,Q1,2015,Credit reporting,0
+308,Web,Q2,2015,Consumer Loan,0
+309,Email,Q1,2015,Credit card,6
+310,Web,Q2,2013,Consumer Loan,2
+311,Web,Q2,2013,Money transfers,0
+312,Web,Q1,2016,Credit reporting,0
+313,Web,Q4,2014,Bank account or service,7
+314,Web,Q1,2013,Mortgage,7
+315,Web,Q1,2014,Mortgage,0
+316,Web,Q2,2015,Mortgage,0
+317,Web,Q3,2016,Payday loan,4
+318,Web,Q1,2014,Debt collection,9
+319,Web,Q3,2016,Mortgage,3
+320,Web,Q4,2014,Credit reporting,0
+321,Web,Q3,2016,Money transfers,11
+322,Email,Q2,2016,Debt collection,5
+323,Phone,Q3,2015,Money transfers,32
+324,Web,Q3,2014,Mortgage,0
+325,Web,Q3,2014,Debt collection,0
+326,Web,Q2,2016,Credit card,0
+327,Email,Q3,2014,Consumer Loan,5
+328,Web,Q3,2014,Debt collection,0
+329,Web,Q2,2015,Credit reporting,0
+330,Web,Q4,2016,Credit card,0
+331,Web,Q2,2016,Bank account or service,0
+332,Web,Q2,2014,Payday loan,0
+333,Email,Q2,2016,Debt collection,3
+334,Web,Q1,2013,Credit card,1
+335,Email,Q4,2014,Bank account or service,6
+336,Phone,Q2,2015,Credit card,3
+337,Web,Q1,2016,Credit card,4
+338,Web,Q1,2013,Credit card,4
+339,Web,Q1,2015,Debt collection,0
+340,Email,Q1,2015,Bank account or service,3
+341,Postal mail,Q4,2014,Debt collection,4
+342,Email,Q1,2014,Bank account or service,10
+343,Web,Q2,2014,Debt collection,11
+344,Email,Q3,2013,Credit card,1
+345,Web,Q2,2014,Debt collection,19
+346,Email,Q3,2013,Mortgage,1
+347,Web,Q1,2016,Mortgage,2
+348,Web,Q4,2013,Mortgage,0
+349,Web,Q3,2015,Mortgage,5
+350,Web,Q1,2016,Debt collection,0
+351,Web,Q1,2014,Credit card,0
+352,Web,Q3,2016,Credit reporting,0
+353,Email,Q4,2015,Student loan,2
+354,Web,Q4,2014,Mortgage,3
+355,Web,Q3,2016,Credit reporting,0
+356,Web,Q3,2015,Debt collection,0
+357,Web,Q3,2013,Credit card,0
+358,Email,Q1,2016,Bank account or service,4
+359,Phone,Q1,2013,Mortgage,1
+360,Email,Q1,2015,Bank account or service,4
+361,Web,Q1,2014,Credit reporting,0
+362,Web,Q4,2013,Debt collection,0
+363,Web,Q2,2016,Mortgage,2
+364,Web,Q2,2015,Mortgage,0
+365,Web,Q4,2014,Mortgage,0
+366,Web,Q1,2014,Debt collection,1
+367,Web,Q3,2016,Credit card,0
+368,Phone,Q2,2015,Mortgage,1
+369,Web,Q3,2016,Consumer Loan,0
+370,Web,Q1,2013,Mortgage,0
+371,Web,Q2,2015,Credit reporting,0
+372,Web,Q2,2015,Debt collection,0
+373,Web,Q4,2013,Bank account or service,0
+374,Web,Q4,2013,Credit card,0
+375,Email,Q1,2013,Bank account or service,1
+376,Web,Q4,2015,Credit card,0
+377,Email,Q2,2016,Bank account or service,2
+378,Web,Q3,2014,Credit reporting,0
+379,Web,Q3,2016,Mortgage,0
+380,Web,Q3,2014,Credit card,0
+381,Web,Q3,2013,Mortgage,0
+382,Web,Q2,2013,Mortgage,36
+383,Web,Q3,2015,Student loan,0
+384,Web,Q3,2014,Student loan,3
+385,Web,Q2,2016,Credit reporting,3
+386,Web,Q1,2016,Credit reporting,0
+387,Web,Q4,2014,Mortgage,0
+388,Email,Q2,2016,Debt collection,4
+389,Web,Q1,2014,Debt collection,0
+390,Web,Q3,2013,Credit card,0
+391,Web,Q2,2015,Consumer Loan,0
+392,Web,Q2,2016,Bank account or service,0
+393,Email,Q2,2014,Bank account or service,5
+394,Email,Q2,2014,Bank account or service,2
+395,Web,Q1,2016,Debt collection,5
+396,Web,Q1,2014,Student loan,0
+397,Web,Q2,2014,Consumer Loan,0
+398,Web,Q2,2015,Debt collection,0
+399,Web,Q4,2014,Debt collection,0
+400,Web,Q2,2016,Credit reporting,0
+401,Web,Q2,2015,Mortgage,0
+402,Email,Q2,2014,Mortgage,4
+403,Email,Q2,2015,Bank account or service,1
+404,Web,Q3,2015,Mortgage,0
+405,Phone,Q2,2014,Mortgage,1
+406,Web,Q1,2015,Debt collection,0
+407,Web,Q4,2016,Debt collection,0
+408,Web,Q1,2014,Bank account or service,0
+409,Postal mail,Q2,2016,Credit reporting,0
+410,Email,Q1,2013,Bank account or service,2
+411,Web,Q3,2015,Student loan,0
+412,Web,Q2,2014,Credit reporting,0
+413,Web,Q3,2016,Consumer Loan,1
+414,Web,Q2,2015,Mortgage,0
+415,Web,Q2,2016,Credit card,0
+416,Web,Q2,2013,Mortgage,1
+417,Web,Q1,2016,Consumer Loan,1
+418,Web,Q1,2015,Bank account or service,0
+419,Web,Q3,2015,Credit reporting,0
+420,Web,Q3,2014,Credit reporting,0
+421,Email,Q1,2014,Mortgage,2
+422,Web,Q1,2016,Mortgage,0
+423,Email,Q3,2015,Credit card,3
+424,Web,Q4,2014,Student loan,0
+425,Web,Q3,2015,Consumer Loan,0
+426,Web,Q3,2015,Credit reporting,2
+427,Web,Q1,2013,Bank account or service,1
+428,Email,Q1,2013,Mortgage,1
+429,Web,Q3,2014,Credit reporting,0
+430,Web,Q3,2016,Debt collection,0
+431,Postal mail,Q1,2016,Credit card,5
+432,Email,Q3,2015,Bank account or service,1
+433,Email,Q4,2015,Student loan,8
+434,Web,Q4,2016,Consumer Loan,0
+435,Web,Q1,2013,Mortgage,0
+436,Web,Q2,2016,Money transfers,2
+437,Postal mail,Q1,2016,Debt collection,1
+438,Web,Q1,2016,Mortgage,0
+439,Web,Q4,2013,Credit card,2
+440,Web,Q3,2014,Debt collection,0
+441,Web,Q2,2016,Debt collection,0
+442,Web,Q3,2013,Mortgage,1
+443,Web,Q3,2015,Payday loan,0
+444,Web,Q2,2015,Credit reporting,0
+445,Web,Q2,2014,Student loan,0
+446,Web,Q1,2014,Mortgage,0
+447,Web,Q3,2015,Credit card,0
+448,Phone,Q3,2016,Consumer Loan,0
+449,Web,Q1,2015,Mortgage,0
+450,Postal mail,Q1,2014,Credit reporting,2
+451,Web,Q2,2014,Mortgage,2
+452,Web,Q2,2014,Money transfers,0
+453,Web,Q2,2016,Mortgage,0
+454,Web,Q1,2016,Student loan,0
+455,Web,Q3,2016,Student loan,0
+456,Web,Q1,2015,Consumer Loan,0
+457,Web,Q1,2015,Credit reporting,0
+458,Web,Q4,2015,Mortgage,0
+459,Web,Q4,2015,Bank account or service,0
+460,Web,Q1,2014,Credit reporting,0
+461,Web,Q4,2013,Debt collection,1
+462,Web,Q1,2015,Debt collection,0
+463,Email,Q3,2015,Consumer Loan,5
+464,Email,Q4,2014,Credit card,7
+465,Phone,Q2,2015,Bank account or service,4
+466,Web,Q3,2014,Debt collection,2
+467,Phone,Q1,2015,Credit card,3
+468,Web,Q3,2014,Mortgage,3
+469,Web,Q3,2014,Credit reporting,0
+470,Web,Q4,2014,Mortgage,0
+471,Web,Q3,2015,Debt collection,2
+472,Web,Q1,2013,Credit reporting,0
+473,Web,Q3,2014,Credit card,0
+474,Web,Q3,2015,Consumer Loan,0
+475,Web,Q2,2016,Credit reporting,0
+476,Web,Q2,2015,Credit card,0
+477,Web,Q1,2013,Mortgage,0
+478,Phone,Q4,2014,Debt collection,1
+479,Web,Q3,2015,Credit reporting,0
+480,Web,Q1,2014,Debt collection,0
+481,Web,Q1,2013,Credit card,0
+482,Web,Q4,2014,Bank account or service,0
+483,Postal mail,Q4,2015,Mortgage,4
+484,Web,Q1,2015,Credit card,0
+485,Web,Q1,2014,Mortgage,0
+486,Phone,Q2,2015,Mortgage,0
+487,Web,Q2,2016,Credit card,2
+488,Web,Q2,2016,Credit card,2
+489,Web,Q1,2013,Consumer Loan,1
+490,Phone,Q3,2015,Consumer Loan,1
+491,Web,Q3,2015,Mortgage,0
+492,Web,Q3,2016,Credit card,0
+493,Email,Q2,2015,Bank account or service,5
+494,Web,Q1,2016,Credit card,0
+495,Web,Q1,2016,Credit card,0
+496,Web,Q2,2015,Mortgage,0
+497,Email,Q1,2014,Mortgage,5
+498,Web,Q1,2013,Credit card,1
+499,Web,Q2,2014,Debt collection,0
+500,Web,Q4,2013,Mortgage,3
+501,Web,Q2,2015,Credit reporting,0
+502,Web,Q2,2014,Debt collection,0
+503,Web,Q2,2016,Credit reporting,0
+504,Web,Q3,2014,Mortgage,0
+505,Web,Q4,2013,Debt collection,0
+506,Email,Q4,2015,Mortgage,4
+507,Web,Q1,2015,Bank account or service,4
+508,Web,Q4,2016,Credit reporting,0
+509,Web,Q1,2014,Credit card,0
+510,Web,Q3,2016,Credit card,0
+511,Web,Q2,2013,Credit reporting,0
+512,Web,Q4,2013,Mortgage,3
+513,Email,Q2,2016,Bank account or service,1
+514,Web,Q1,2016,Mortgage,3
+515,Web,Q4,2013,Mortgage,0
+516,Web,Q3,2014,Credit reporting,4
+517,Web,Q2,2013,Credit card,1
+518,Web,Q1,2015,Bank account or service,0
+519,Web,Q3,2014,Credit card,0
+520,Web,Q4,2015,Mortgage,0
+521,Postal mail,Q3,2015,Credit card,9
+522,Email,Q3,2015,Prepaid card,6
+523,Fax,Q3,2014,Credit reporting,5
+524,Web,Q2,2014,Student loan,0
+525,Web,Q4,2014,Mortgage,0
+526,Web,Q3,2015,Debt collection,0
+527,Web,Q4,2016,Mortgage,0
+528,Web,Q3,2013,Bank account or service,0
+529,Fax,Q1,2016,Debt collection,0
+530,Web,Q3,2015,Credit card,0
+531,Web,Q3,2016,Payday loan,0
+532,Web,Q4,2014,Credit card,0
+533,Web,Q1,2016,Credit reporting,0
+534,Web,Q3,2013,Debt collection,0
+535,Email,Q2,2016,Bank account or service,2
+536,Email,Q1,2013,Mortgage,3
+537,Postal mail,Q1,2016,Debt collection,2
+538,Web,Q3,2016,Debt collection,0
+539,Web,Q2,2014,Student loan,0
+540,Web,Q3,2015,Mortgage,0
+541,Web,Q1,2015,Debt collection,0
+542,Web,Q2,2016,Mortgage,0
+543,Phone,Q3,2014,Mortgage,6
+544,Web,Q1,2015,Credit reporting,0
+545,Web,Q4,2015,Mortgage,3
+546,Web,Q1,2014,Mortgage,0
+547,Web,Q1,2013,Mortgage,1
+548,Web,Q1,2015,Bank account or service,0
+549,Web,Q2,2014,Debt collection,0
+550,Web,Q2,2015,Student loan,2
+551,Web,Q3,2015,Mortgage,0
+552,Web,Q1,2013,Credit reporting,1
+553,Web,Q2,2015,Debt collection,2
+554,Web,Q1,2014,Mortgage,0
+555,Web,Q2,2015,Other financial service,5
+556,Email,Q1,2016,Bank account or service,1
+557,Web,Q2,2015,Debt collection,8
+558,Web,Q4,2015,Mortgage,0
+559,Web,Q2,2015,Debt collection,0
+560,Web,Q3,2015,Debt collection,0
+561,Web,Q3,2016,Mortgage,0
+562,Web,Q1,2016,Mortgage,0
+563,Web,Q2,2016,Credit reporting,1
+564,Web,Q3,2013,Debt collection,0
+565,Postal mail,Q3,2013,Credit reporting,16
+566,Web,Q4,2014,Mortgage,0
+567,Phone,Q4,2014,Bank account or service,0
+568,Email,Q3,2013,Mortgage,1
+569,Web,Q1,2013,Credit card,0
+570,Web,Q2,2013,Mortgage,0
+571,Web,Q2,2016,Credit reporting,0
+572,Web,Q4,2014,Bank account or service,0
+573,Phone,Q1,2014,Consumer Loan,5
+574,Email,Q4,2013,Debt collection,1
+575,Web,Q2,2016,Bank account or service,0
+576,Web,Q4,2015,Bank account or service,0
+577,Web,Q1,2016,Consumer Loan,1
+578,Web,Q3,2015,Credit reporting,0
+579,Email,Q2,2014,Credit card,2
+580,Web,Q1,2014,Mortgage,0
+581,Web,Q2,2016,Credit card,0
+582,Web,Q1,2015,Consumer Loan,0
+583,Web,Q1,2015,Mortgage,0
+584,Web,Q1,2016,Student loan,0
+585,Web,Q2,2016,Debt collection,0
+586,Web,Q2,2015,Mortgage,0
+587,Web,Q1,2014,Student loan,0
+588,Email,Q2,2016,Bank account or service,2
+589,Web,Q1,2015,Debt collection,0
+590,Web,Q1,2015,Bank account or service,12
+591,Web,Q4,2015,Debt collection,0
+592,Phone,Q4,2013,Bank account or service,3
+593,Web,Q2,2016,Mortgage,0
+594,Web,Q1,2014,Credit card,3
+595,Web,Q3,2016,Consumer Loan,29
+596,Web,Q3,2015,Debt collection,0
+597,Email,Q3,2015,Bank account or service,1
+598,Web,Q4,2013,Mortgage,0
+599,Web,Q3,2014,Mortgage,0
+600,Web,Q2,2016,Payday loan,2
+601,Web,Q3,2015,Mortgage,0
+602,Web,Q3,2015,Mortgage,0
+603,Web,Q1,2014,Credit card,3
+604,Web,Q2,2015,Credit reporting,2
+605,Phone,Q1,2015,Debt collection,0
+606,Web,Q2,2014,Consumer Loan,5
+607,Web,Q4,2015,Credit reporting,0
+608,Phone,Q1,2013,Bank account or service,0
+609,Web,Q4,2016,Debt collection,0
+610,Web,Q1,2013,Mortgage,1
+611,Web,Q3,2014,Bank account or service,0
+612,Web,Q3,2015,Student loan,0
+613,Web,Q1,2015,Bank account or service,0
+614,Web,Q4,2015,Consumer Loan,6
+615,Web,Q3,2015,Credit reporting,0
+616,Web,Q3,2015,Debt collection,0
+617,Web,Q3,2016,Debt collection,0
+618,Web,Q1,2016,Mortgage,0
+619,Web,Q2,2015,Mortgage,0
+620,Phone,Q3,2016,Student loan,0
+621,Web,Q4,2013,Debt collection,0
+622,Web,Q4,2014,Consumer Loan,0
+623,Web,Q3,2013,Bank account or service,3
+624,Web,Q3,2014,Bank account or service,0
+625,Web,Q3,2014,Payday loan,0
+626,Phone,Q1,2015,Debt collection,1
+627,Web,Q1,2016,Mortgage,0
+628,Email,Q3,2016,Bank account or service,5
+629,Web,Q2,2015,Debt collection,0
+630,Web,Q3,2015,Debt collection,0
+631,Web,Q4,2015,Consumer Loan,2
+632,Web,Q4,2014,Credit card,0
+633,Phone,Q2,2013,Credit card,4
+634,Web,Q3,2015,Mortgage,0
+635,Web,Q4,2015,Prepaid card,19
+636,Web,Q4,2014,Debt collection,0
+637,Email,Q2,2016,Mortgage,3
+638,Phone,Q2,2015,Mortgage,0
+639,Web,Q3,2015,Debt collection,0
+640,Web,Q4,2015,Payday loan,11
+641,Phone,Q3,2015,Money transfers,7
+642,Web,Q1,2015,Bank account or service,3
+643,Email,Q2,2013,Bank account or service,1
+644,Email,Q3,2013,Credit card,2
+645,Postal mail,Q2,2016,Bank account or service,2
+646,Web,Q2,2016,Credit card,0
+647,Web,Q1,2015,Mortgage,0
+648,Web,Q4,2013,Debt collection,10
+649,Web,Q1,2016,Credit card,3
+650,Phone,Q2,2014,Bank account or service,1
+651,Web,Q2,2016,Credit card,0
+652,Web,Q3,2014,Bank account or service,0
+653,Web,Q2,2014,Credit card,0
+654,Web,Q1,2013,Student loan,1
+655,Fax,Q4,2014,Bank account or service,0
+656,Web,Q3,2016,Credit card,0
+657,Email,Q2,2015,Bank account or service,1
+658,Web,Q1,2014,Debt collection,0
+659,Email,Q4,2013,Debt collection,64
+660,Web,Q4,2015,Credit card,0
+661,Web,Q4,2015,Prepaid card,21
+662,Web,Q2,2015,Credit card,0
+663,Web,Q3,2015,Credit reporting,10
+664,Web,Q2,2014,Mortgage,0
+665,Email,Q2,2016,Credit reporting,1
+666,Web,Q4,2015,Credit card,0
+667,Email,Q1,2015,Bank account or service,0
+668,Web,Q1,2015,Mortgage,0
+669,Web,Q2,2014,Mortgage,0
+670,Web,Q1,2014,Credit card,0
+671,Postal mail,Q1,2013,Credit card,2
+672,Web,Q1,2014,Credit reporting,0
+673,Web,Q4,2014,Mortgage,0
+674,Web,Q1,2016,Credit card,0
+675,Web,Q2,2014,Mortgage,0
+676,Email,Q1,2013,Credit card,1
+677,Phone,Q4,2013,Credit card,1
+678,Email,Q3,2014,Bank account or service,3
+679,Web,Q3,2015,Mortgage,0
+680,Postal mail,Q2,2013,Bank account or service,0
+681,Web,Q4,2015,Debt collection,0
+682,Web,Q4,2013,Credit reporting,0
+683,Email,Q1,2015,Bank account or service,1
+684,Email,Q3,2013,Bank account or service,3
+685,Web,Q3,2015,Mortgage,2
+686,Web,Q2,2015,Mortgage,0
+687,Web,Q2,2013,Credit card,4
+688,Web,Q2,2016,Debt collection,0
+689,Web,Q3,2015,Student loan,0
+690,Postal mail,Q3,2015,Credit card,9
+691,Web,Q4,2014,Mortgage,0
+692,Web,Q3,2016,Consumer Loan,3
+693,Web,Q1,2016,Prepaid card,2
+694,Web,Q4,2013,Consumer Loan,1
+695,Web,Q3,2014,Credit card,4
+696,Web,Q1,2016,Bank account or service,0
+697,Web,Q1,2016,Credit reporting,0
+698,Web,Q3,2016,Debt collection,0
+699,Web,Q2,2015,Mortgage,0
+700,Email,Q4,2015,Bank account or service,2
+701,Postal mail,Q2,2015,Prepaid card,4
+702,Web,Q2,2015,Credit reporting,0
+703,Web,Q4,2013,Mortgage,1
+704,Web,Q1,2014,Debt collection,0
+705,Postal mail,Q1,2015,Credit reporting,11
+706,Email,Q2,2015,Mortgage,3
+707,Web,Q3,2016,Credit reporting,3
+708,Web,Q2,2016,Credit card,0
+709,Web,Q4,2013,Credit card,8
+710,Web,Q2,2015,Debt collection,2
+711,Email,Q1,2016,Bank account or service,1
+712,Web,Q3,2016,Money transfers,0
+713,Email,Q4,2013,Credit card,4
+714,Web,Q3,2016,Bank account or service,0
+715,Web,Q4,2015,Consumer Loan,4
+716,Phone,Q1,2014,Credit card,1
+717,Web,Q2,2014,Bank account or service,0
+718,Web,Q3,2016,Consumer Loan,2
+719,Email,Q3,2016,Debt collection,2
+720,Web,Q2,2014,Credit reporting,1
+721,Web,Q1,2016,Bank account or service,0
+722,Web,Q4,2015,Mortgage,0
+723,Postal mail,Q3,2015,Mortgage,6
+724,Web,Q3,2014,Credit card,2
+725,Web,Q2,2016,Credit card,0
+726,Web,Q4,2014,Debt collection,0
+727,Web,Q3,2015,Credit card,0
+728,Web,Q3,2013,Credit card,0
+729,Web,Q2,2014,Mortgage,2
+730,Web,Q3,2014,Mortgage,3
+731,Web,Q1,2013,Mortgage,2
+732,Phone,Q3,2016,Credit card,0
+733,Web,Q1,2014,Debt collection,0
+734,Web,Q3,2013,Mortgage,2
+735,Web,Q3,2016,Consumer Loan,3
+736,Web,Q3,2016,Mortgage,0
+737,Web,Q4,2014,Debt collection,0
+738,Phone,Q3,2013,Bank account or service,1
+739,Web,Q1,2014,Debt collection,0
+740,Web,Q1,2015,Mortgage,0
+741,Email,Q3,2016,Bank account or service,3
+742,Web,Q2,2015,Mortgage,0
+743,Web,Q3,2014,Credit card,0
+744,Web,Q1,2016,Bank account or service,0
+745,Web,Q1,2016,Mortgage,0
+746,Postal mail,Q3,2013,Credit card,2
+747,Web,Q3,2014,Credit card,0
+748,Web,Q1,2015,Credit card,5
+749,Phone,Q3,2015,Consumer Loan,3
+750,Postal mail,Q3,2016,Mortgage,2
+751,Web,Q2,2014,Debt collection,0
+752,Web,Q3,2013,Credit card,0
+753,Web,Q2,2016,Student loan,0
+754,Web,Q3,2016,Consumer Loan,0
+755,Email,Q4,2014,Student loan,6
+756,Web,Q2,2013,Credit reporting,0
+757,Phone,Q4,2015,Consumer Loan,2
+758,Web,Q1,2013,Mortgage,0
+759,Web,Q3,2016,Mortgage,0
+760,Web,Q3,2015,Mortgage,0
+761,Web,Q4,2015,Debt collection,0
+762,Web,Q1,2016,Student loan,0
+763,Web,Q4,2014,Debt collection,5
+764,Email,Q2,2015,Credit card,5
+765,Web,Q1,2013,Mortgage,1
+766,Web,Q3,2016,Debt collection,2
+767,Web,Q3,2016,Consumer Loan,0
+768,Phone,Q2,2015,Bank account or service,1
+769,Web,Q2,2015,Credit card,0
+770,Email,Q2,2014,Bank account or service,1
+771,Web,Q2,2015,Mortgage,0
+772,Web,Q4,2013,Debt collection,0
+773,Web,Q3,2015,Debt collection,0
+774,Web,Q2,2015,Debt collection,0
+775,Web,Q3,2013,Mortgage,1
+776,Web,Q1,2016,Credit reporting,0
+777,Email,Q4,2015,Debt collection,2
+778,Web,Q1,2016,Bank account or service,0
+779,Web,Q4,2015,Mortgage,0
+780,Web,Q3,2016,Mortgage,0
+781,Web,Q2,2015,Mortgage,0
+782,Web,Q3,2014,Mortgage,5
+783,Web,Q1,2016,Bank account or service,0
+784,Web,Q2,2013,Mortgage,1
+785,Web,Q1,2016,Credit card,0
+786,Web,Q3,2014,Credit card,0
+787,Email,Q4,2014,Debt collection,7
+788,Web,Q2,2015,Credit card,3
+789,Web,Q4,2015,Bank account or service,0
+790,Email,Q3,2013,Mortgage,4
+791,Web,Q2,2016,Mortgage,0
+792,Web,Q2,2016,Debt collection,0
+793,Email,Q1,2016,Credit reporting,0
+794,Web,Q2,2015,Consumer Loan,0
+795,Web,Q2,2013,Credit reporting,0
+796,Web,Q3,2015,Consumer Loan,2
+797,Web,Q1,2014,Debt collection,0
+798,Web,Q2,2015,Mortgage,0
+799,Fax,Q3,2014,Bank account or service,2
+800,Web,Q4,2015,Debt collection,0
+801,Web,Q2,2015,Bank account or service,0
+802,Web,Q1,2016,Payday loan,0
+803,Email,Q3,2013,Bank account or service,3
+804,Web,Q1,2015,Debt collection,0
+805,Web,Q2,2015,Credit card,0
+806,Web,Q1,2014,Credit card,0
+807,Postal mail,Q4,2013,Debt collection,0
+808,Phone,Q4,2013,Bank account or service,0
+809,Web,Q3,2015,Consumer Loan,0
+810,Web,Q3,2016,Bank account or service,2
+811,Web,Q1,2014,Debt collection,0
+812,Web,Q4,2015,Bank account or service,0
+813,Web,Q1,2015,Debt collection,0
+814,Web,Q4,2014,Consumer Loan,4
+815,Web,Q1,2015,Credit reporting,0
+816,Web,Q2,2014,Debt collection,0
+817,Web,Q1,2014,Mortgage,0
+818,Web,Q4,2014,Mortgage,0
+819,Web,Q3,2014,Credit card,7
+820,Email,Q1,2013,Mortgage,1
+821,Web,Q4,2014,Consumer Loan,6
+822,Web,Q2,2014,Debt collection,0
+823,Web,Q4,2015,Mortgage,0
+824,Phone,Q3,2015,Bank account or service,3
+825,Web,Q3,2014,Credit reporting,0
+826,Web,Q1,2016,Debt collection,0
+827,Web,Q4,2013,Mortgage,2
+828,Web,Q1,2015,Bank account or service,0
+829,Web,Q1,2015,Credit card,0
+830,Email,Q2,2013,Credit card,1
+831,Web,Q1,2015,Credit card,0
+832,Email,Q3,2013,Mortgage,1
+833,Web,Q1,2013,Student loan,0
+834,Email,Q4,2014,Bank account or service,3
+835,Postal mail,Q2,2015,Bank account or service,3
+836,Web,Q2,2015,Mortgage,0
+837,Email,Q4,2015,Credit reporting,3
+838,Web,Q4,2014,Credit card,0
+839,Email,Q2,2014,Credit card,6
+840,Email,Q3,2015,Bank account or service,1
+841,Web,Q3,2013,Credit card,0
+842,Web,Q2,2014,Bank account or service,0
+843,Email,Q3,2016,Mortgage,1
+844,Web,Q2,2016,Credit card,0
+845,Web,Q3,2015,Mortgage,1
+846,Web,Q4,2014,Debt collection,0
+847,Web,Q3,2016,Bank account or service,0
+848,Web,Q1,2014,Mortgage,0
+849,Web,Q2,2014,Consumer Loan,2
+850,Web,Q4,2013,Debt collection,6
+851,Web,Q2,2016,Student loan,3
+852,Phone,Q2,2014,Mortgage,2
+853,Web,Q4,2015,Mortgage,0
+854,Web,Q2,2016,Credit card,0
+855,Postal mail,Q4,2013,Credit card,0
+856,Web,Q1,2014,Consumer Loan,5
+857,Web,Q1,2014,Debt collection,0
+858,Web,Q4,2013,Mortgage,0
+859,Web,Q2,2013,Consumer Loan,0
+860,Web,Q1,2016,Debt collection,0
+861,Web,Q3,2013,Mortgage,4
+862,Web,Q4,2014,Payday loan,0
+863,Email,Q3,2014,Consumer Loan,5
+864,Email,Q2,2014,Mortgage,12
+865,Email,Q3,2015,Mortgage,7
+866,Web,Q1,2015,Student loan,0
+867,Web,Q3,2014,Consumer Loan,0
+868,Web,Q2,2016,Mortgage,0
+869,Web,Q3,2015,Credit card,1
+870,Email,Q4,2013,Mortgage,5
+871,Web,Q1,2016,Debt collection,0
+872,Web,Q4,2014,Bank account or service,0
+873,Web,Q1,2014,Consumer Loan,4
+874,Postal mail,Q2,2014,Debt collection,2
+875,Email,Q1,2016,Bank account or service,0
+876,Web,Q3,2016,Mortgage,0
+877,Web,Q3,2014,Money transfers,3
+878,Web,Q2,2013,Mortgage,2
+879,Email,Q3,2013,Bank account or service,3
+880,Web,Q1,2014,Bank account or service,0
+881,Web,Q1,2014,Credit card,0
+882,Web,Q3,2016,Bank account or service,0
+883,Web,Q2,2016,Credit card,0
+884,Web,Q2,2016,Mortgage,0
+885,Web,Q3,2016,Credit card,0
+886,Web,Q3,2014,Credit reporting,0
+887,Web,Q2,2014,Mortgage,0
+888,Web,Q3,2015,Mortgage,0
+889,Web,Q3,2016,Bank account or service,0
+890,Email,Q3,2013,Mortgage,1
+891,Fax,Q4,2015,Mortgage,32
+892,Web,Q2,2015,Money transfers,1
+893,Web,Q3,2015,Debt collection,0
+894,Web,Q4,2014,Money transfers,0
+895,Web,Q1,2016,Bank account or service,0
+896,Web,Q1,2015,Payday loan,0
+897,Phone,Q1,2016,Consumer Loan,1
+898,Web,Q2,2016,Credit reporting,0
+899,Web,Q4,2014,Credit card,0
+900,Phone,Q3,2013,Debt collection,1
+901,Web,Q2,2016,Debt collection,0
+902,Web,Q2,2013,Mortgage,0
+903,Web,Q4,2014,Student loan,0
+904,Phone,Q3,2013,Bank account or service,1
+905,Web,Q4,2015,Debt collection,0
+906,Phone,Q3,2013,Bank account or service,2
+907,Web,Q3,2016,Credit reporting,0
+908,Web,Q2,2014,Mortgage,0
+909,Web,Q4,2015,Credit card,0
+910,Web,Q2,2014,Debt collection,0
+911,Web,Q2,2015,Debt collection,4
+912,Web,Q3,2016,Mortgage,0
+913,Web,Q2,2014,Debt collection,3
+914,Web,Q1,2014,Bank account or service,2
+915,Web,Q1,2014,Debt collection,0
+916,Email,Q3,2016,Debt collection,3
+917,Web,Q1,2014,Credit reporting,0
+918,Web,Q1,2015,Bank account or service,0
+919,Web,Q3,2014,Mortgage,0
+920,Web,Q2,2015,Bank account or service,0
+921,Web,Q2,2013,Bank account or service,1
+922,Web,Q1,2016,Debt collection,0
+923,Web,Q1,2014,Payday loan,0
+924,Web,Q1,2016,Credit card,0
+925,Web,Q4,2014,Credit card,0
+926,Web,Q4,2015,Bank account or service,0
+927,Web,Q3,2014,Student loan,0
+928,Web,Q4,2013,Debt collection,0
+929,Web,Q2,2016,Credit card,0
+930,Web,Q4,2015,Bank account or service,16
+931,Web,Q2,2014,Debt collection,1
+932,Web,Q3,2015,Consumer Loan,1
+933,Web,Q1,2016,Bank account or service,0
+934,Web,Q2,2016,Credit card,0
+935,Phone,Q2,2014,Mortgage,3
+936,Web,Q4,2014,Debt collection,0
+937,Web,Q2,2015,Debt collection,0
+938,Web,Q4,2015,Mortgage,0
+939,Phone,Q3,2015,Bank account or service,2
+940,Web,Q2,2014,Debt collection,0
+941,Web,Q4,2014,Mortgage,0
+942,Web,Q3,2013,Money transfers,0
+943,Web,Q2,2014,Consumer Loan,1
+944,Web,Q2,2014,Bank account or service,0
+945,Web,Q3,2015,Student loan,0
+946,Email,Q3,2013,Mortgage,1
+947,Web,Q3,2015,Credit card,0
+948,Web,Q3,2016,Mortgage,0
+949,Postal mail,Q1,2014,Debt collection,1
+950,Web,Q3,2015,Mortgage,0
+951,Postal mail,Q3,2016,Consumer Loan,2
+952,Web,Q2,2015,Debt collection,0
+953,Web,Q1,2016,Mortgage,0
+954,Web,Q2,2013,Student loan,0
+955,Web,Q2,2016,Debt collection,0
+956,Email,Q2,2016,Bank account or service,6
+957,Web,Q2,2015,Mortgage,0
+958,Fax,Q1,2014,Credit reporting,6
+959,Web,Q1,2013,Mortgage,1
+960,Web,Q2,2014,Debt collection,0
+961,Web,Q4,2015,Debt collection,0
+962,Postal mail,Q2,2015,Debt collection,0
+963,Postal mail,Q1,2013,Mortgage,3
+964,Postal mail,Q2,2016,Mortgage,0
+965,Postal mail,Q4,2013,Credit card,2
+966,Email,Q4,2014,Bank account or service,7
+967,Web,Q2,2016,Bank account or service,0
+968,Web,Q1,2016,Bank account or service,0
+969,Web,Q4,2015,Mortgage,0
+970,Phone,Q2,2016,Debt collection,0
+971,Web,Q1,2016,Consumer Loan,2
+972,Postal mail,Q3,2016,Mortgage,0
+973,Web,Q4,2016,Credit reporting,0
+974,Web,Q4,2013,Student loan,1
+975,Web,Q2,2015,Debt collection,0
+976,Web,Q1,2015,Debt collection,0
+977,Web,Q3,2014,Credit reporting,0
+978,Phone,Q2,2015,Debt collection,2
+979,Email,Q2,2016,Bank account or service,43
+980,Web,Q3,2016,Debt collection,0
+981,Email,Q3,2016,Bank account or service,3
+982,Email,Q3,2016,Debt collection,4
+983,Email,Q4,2013,Mortgage,0
+984,Web,Q3,2013,Credit reporting,1
+985,Web,Q1,2016,Debt collection,0
+986,Web,Q2,2014,Consumer Loan,0
+987,Web,Q3,2015,Bank account or service,0
+988,Fax,Q1,2016,Mortgage,8
+989,Web,Q4,2014,Credit reporting,0
+990,Email,Q4,2014,Debt collection,5
+991,Phone,Q4,2015,Bank account or service,1
+992,Web,Q3,2014,Debt collection,3
+993,Phone,Q4,2014,Mortgage,0
+994,Web,Q2,2016,Debt collection,0
+995,Web,Q2,2014,Credit reporting,0
+996,Phone,Q2,2014,Consumer Loan,1
+997,Web,Q1,2015,Mortgage,5
+998,Email,Q2,2013,Consumer Loan,6
+999,Web,Q4,2014,Mortgage,0
+1000,Web,Q4,2014,Mortgage,0
+1001,Web,Q1,2016,Student loan,2
+1002,Web,Q2,2014,Credit reporting,0
+1003,Web,Q2,2016,Debt collection,0
+1004,Web,Q1,2015,Credit reporting,0
+1005,Email,Q1,2013,Bank account or service,1
+1006,Web,Q3,2016,Mortgage,2
+1007,Web,Q2,2016,Credit reporting,0
+1008,Email,Q1,2016,Credit card,3
+1009,Web,Q4,2014,Debt collection,0
+1010,Web,Q3,2015,Bank account or service,0
+1011,Web,Q1,2016,Bank account or service,3
+1012,Web,Q1,2016,Mortgage,0
+1013,Web,Q2,2014,Student loan,0
+1014,Web,Q3,2015,Mortgage,0
+1015,Web,Q1,2014,Mortgage,0
+1016,Email,Q3,2016,Debt collection,2
+1017,Web,Q3,2016,Bank account or service,0
+1018,Postal mail,Q1,2014,Credit card,3
+1019,Web,Q2,2016,Bank account or service,0
+1020,Web,Q2,2016,Bank account or service,0
+1021,Web,Q2,2014,Money transfers,3
+1022,Web,Q3,2015,Mortgage,7
+1023,Web,Q2,2016,Mortgage,0
+1024,Email,Q3,2016,Debt collection,33
+1025,Email,Q2,2015,Credit card,2
+1026,Web,Q1,2016,Credit card,0
+1027,Web,Q1,2015,Debt collection,35
+1028,Web,Q3,2015,Debt collection,1
+1029,Email,Q3,2014,Debt collection,2
+1030,Phone,Q3,2013,Mortgage,2
+1031,Web,Q2,2015,Consumer Loan,0
+1032,Web,Q2,2015,Credit card,0
+1033,Email,Q3,2016,Bank account or service,1
+1034,Web,Q1,2015,Credit reporting,0
+1035,Email,Q2,2013,Credit card,1
+1036,Web,Q3,2016,Credit reporting,0
+1037,Fax,Q3,2016,Debt collection,3
+1038,Web,Q2,2016,Mortgage,2
+1039,Phone,Q2,2016,Mortgage,2
+1040,Web,Q3,2016,Mortgage,2
+1041,Web,Q1,2013,Credit card,0
+1042,Web,Q1,2016,Mortgage,0
+1043,Email,Q1,2013,Bank account or service,2
+1044,Email,Q4,2015,Debt collection,5
+1045,Email,Q1,2016,Mortgage,1
+1046,Web,Q1,2016,Debt collection,5
+1047,Email,Q2,2015,Debt collection,5
+1048,Web,Q3,2014,Debt collection,0
+1049,Email,Q2,2014,Mortgage,4
+1050,Web,Q2,2013,Consumer Loan,0
+1051,Web,Q2,2013,Money transfers,4
+1052,Web,Q1,2014,Mortgage,0
+1053,Web,Q3,2015,Debt collection,2
+1054,Phone,Q2,2016,Consumer Loan,0
+1055,Web,Q2,2016,Bank account or service,0
+1056,Web,Q4,2014,Credit reporting,31
+1057,Email,Q3,2013,Mortgage,3
+1058,Web,Q4,2015,Debt collection,24
+1059,Web,Q1,2014,Student loan,0
+1060,Web,Q4,2013,Consumer Loan,11
+1061,Web,Q4,2015,Debt collection,0
+1062,Web,Q1,2016,Credit card,0
+1063,Web,Q3,2016,Bank account or service,0
+1064,Web,Q4,2013,Mortgage,0
+1065,Postal mail,Q4,2014,Mortgage,1
+1066,Web,Q3,2014,Payday loan,0
+1067,Web,Q2,2016,Consumer Loan,0
+1068,Web,Q3,2016,Prepaid card,4
+1069,Web,Q2,2015,Payday loan,7
+1070,Web,Q4,2013,Debt collection,0
+1071,Web,Q3,2014,Student loan,0
+1072,Web,Q1,2014,Mortgage,0
+1073,Phone,Q2,2016,Credit card,0
+1074,Web,Q2,2016,Mortgage,2
+1075,Web,Q2,2016,Credit reporting,0
+1076,Web,Q3,2015,Credit reporting,0
+1077,Web,Q2,2016,Other financial service,70
+1078,Web,Q2,2013,Mortgage,1
+1079,Web,Q2,2016,Mortgage,0
+1080,Web,Q2,2015,Student loan,0
+1081,Web,Q1,2016,Mortgage,0
+1082,Web,Q2,2015,Bank account or service,0
+1083,Web,Q3,2015,Bank account or service,31
+1084,Email,Q1,2015,Bank account or service,1
+1085,Web,Q4,2013,Debt collection,0
+1086,Web,Q2,2016,Credit card,0
+1087,Web,Q1,2016,Bank account or service,0
+1088,Web,Q2,2013,Bank account or service,1
+1089,Web,Q3,2016,Consumer Loan,0
+1090,Email,Q2,2015,Bank account or service,1
+1091,Web,Q3,2015,Credit card,0
+1092,Web,Q2,2015,Bank account or service,3
+1093,Web,Q3,2016,Credit card,0
+1094,Web,Q4,2015,Debt collection,0
+1095,Web,Q3,2016,Mortgage,0
+1096,Web,Q4,2014,Mortgage,0
+1097,Web,Q1,2016,Mortgage,0
+1098,Email,Q1,2016,Student loan,0
+1099,Web,Q4,2014,Mortgage,11
+1100,Web,Q3,2014,Mortgage,0
+1101,Web,Q4,2015,Bank account or service,0
+1102,Web,Q2,2015,Student loan,0
+1103,Phone,Q2,2013,Bank account or service,2
+1104,Web,Q4,2013,Credit card,1
+1105,Web,Q4,2015,Mortgage,0
+1106,Web,Q3,2016,Credit card,0
+1107,Web,Q2,2016,Mortgage,0
+1108,Web,Q4,2016,Debt collection,0
+1109,Email,Q2,2013,Mortgage,1
+1110,Phone,Q4,2015,Bank account or service,0
+1111,Web,Q4,2015,Bank account or service,0
+1112,Web,Q3,2013,Mortgage,1
+1113,Web,Q2,2015,Mortgage,0
+1114,Web,Q3,2015,Debt collection,0
+1115,Email,Q3,2014,Bank account or service,3
+1116,Web,Q1,2016,Credit reporting,0
+1117,Web,Q1,2013,Bank account or service,1
+1118,Web,Q4,2015,Money transfers,1
+1119,Web,Q4,2015,Debt collection,0
+1120,Phone,Q4,2014,Consumer Loan,6
+1121,Web,Q2,2014,Bank account or service,0
+1122,Postal mail,Q1,2016,Credit reporting,0
+1123,Web,Q2,2016,Bank account or service,0
+1124,Web,Q4,2015,Mortgage,0
+1125,Web,Q1,2015,Credit card,0
+1126,Web,Q4,2015,Student loan,0
+1127,Email,Q2,2015,Bank account or service,1
+1128,Email,Q2,2015,Student loan,1
+1129,Web,Q1,2014,Credit reporting,0
+1130,Web,Q4,2014,Mortgage,0
+1131,Web,Q4,2015,Credit card,0
+1132,Web,Q2,2016,Student loan,0
+1133,Web,Q2,2015,Credit reporting,0
+1134,Web,Q1,2015,Consumer Loan,5
+1135,Web,Q3,2016,Debt collection,0
+1136,Email,Q1,2016,Mortgage,3
+1137,Phone,Q1,2014,Mortgage,3
+1138,Email,Q1,2013,Bank account or service,1
+1139,Web,Q3,2016,Debt collection,0
+1140,Email,Q2,2013,Mortgage,4
+1141,Web,Q2,2014,Debt collection,0
+1142,Web,Q3,2015,Bank account or service,0
+1143,Web,Q3,2013,Debt collection,14
+1144,Postal mail,Q1,2013,Bank account or service,2
+1145,Web,Q1,2015,Debt collection,0
+1146,Email,Q2,2013,Credit card,36
+1147,Postal mail,Q3,2015,Debt collection,11
+1148,Email,Q3,2013,Mortgage,2
+1149,Email,Q1,2015,Credit card,6
+1150,Phone,Q4,2014,Bank account or service,4
+1151,Web,Q1,2014,Credit card,0
+1152,Email,Q1,2013,Mortgage,4
+1153,Web,Q1,2015,Mortgage,0
+1154,Web,Q1,2016,Credit reporting,0
+1155,Email,Q1,2014,Mortgage,1
+1156,Web,Q3,2014,Credit reporting,0
+1157,Web,Q3,2013,Mortgage,2
+1158,Web,Q2,2015,Credit card,0
+1159,Postal mail,Q2,2014,Bank account or service,3
+1160,Email,Q2,2014,Bank account or service,3
+1161,Web,Q3,2016,Debt collection,0
+1162,Web,Q3,2014,Credit card,0
+1163,Web,Q2,2015,Mortgage,0
+1164,Web,Q2,2016,Mortgage,0
+1165,Web,Q2,2015,Credit card,1
+1166,Web,Q3,2015,Credit reporting,5
+1167,Web,Q3,2013,Mortgage,2
+1168,Web,Q1,2013,Credit card,0
+1169,Email,Q3,2015,Bank account or service,15
+1170,Web,Q2,2014,Debt collection,3
+1171,Phone,Q1,2014,Bank account or service,8
+1172,Web,Q1,2014,Mortgage,2
+1173,Web,Q2,2015,Mortgage,0
+1174,Web,Q1,2015,Mortgage,0
+1175,Phone,Q2,2015,Debt collection,5
+1176,Web,Q4,2014,Consumer Loan,0
+1177,Web,Q4,2014,Debt collection,0
+1178,Email,Q3,2016,Bank account or service,4
+1179,Web,Q2,2016,Bank account or service,0
+1180,Web,Q2,2016,Debt collection,0
+1181,Email,Q4,2013,Credit card,1
+1182,Web,Q1,2016,Debt collection,0
+1183,Email,Q4,2015,Credit card,2
+1184,Web,Q3,2015,Mortgage,0
+1185,Web,Q4,2015,Bank account or service,1
+1186,Email,Q1,2016,Bank account or service,2
+1187,Email,Q3,2016,Mortgage,2
+1188,Phone,Q2,2014,Bank account or service,1
+1189,Web,Q2,2015,Bank account or service,0
+1190,Web,Q3,2016,Consumer Loan,0
+1191,Web,Q4,2014,Credit card,0
+1192,Web,Q4,2015,Consumer Loan,0
+1193,Web,Q4,2014,Mortgage,0
+1194,Web,Q2,2015,Credit reporting,0
+1195,Web,Q4,2013,Credit card,0
+1196,Web,Q2,2015,Debt collection,0
+1197,Postal mail,Q3,2016,Credit reporting,1
+1198,Web,Q3,2015,Debt collection,0
+1199,Email,Q1,2016,Debt collection,0
+1200,Web,Q2,2016,Consumer Loan,1
+1201,Web,Q2,2016,Debt collection,2
+1202,Web,Q2,2015,Credit reporting,0
+1203,Web,Q3,2013,Bank account or service,2
+1204,Phone,Q2,2016,Bank account or service,0
+1205,Web,Q2,2015,Bank account or service,0
+1206,Web,Q3,2016,Credit reporting,0
+1207,Email,Q3,2015,Bank account or service,5
+1208,Web,Q3,2015,Debt collection,0
+1209,Web,Q4,2013,Mortgage,0
+1210,Phone,Q3,2013,Bank account or service,3
+1211,Web,Q4,2015,Payday loan,0
+1212,Web,Q3,2013,Bank account or service,0
+1213,Web,Q4,2015,Credit reporting,0
+1214,Web,Q2,2015,Bank account or service,0
+1215,Web,Q2,2015,Credit card,0
+1216,Web,Q1,2016,Bank account or service,5
+1217,Web,Q1,2014,Debt collection,0
+1218,Web,Q2,2014,Debt collection,0
+1219,Web,Q1,2016,Mortgage,0
+1220,Email,Q2,2014,Bank account or service,4
+1221,Web,Q3,2015,Mortgage,0
+1222,Web,Q1,2014,Mortgage,0
+1223,Web,Q3,2016,Credit reporting,3
+1224,Web,Q2,2016,Mortgage,0
+1225,Web,Q2,2014,Mortgage,3
+1226,Web,Q3,2013,Debt collection,0
+1227,Phone,Q3,2013,Debt collection,0
+1228,Web,Q4,2013,Student loan,1
+1229,Web,Q1,2016,Mortgage,0
+1230,Web,Q3,2015,Credit card,0
+1231,Web,Q2,2016,Prepaid card,3
+1232,Web,Q3,2016,Credit reporting,1
+1233,Web,Q2,2016,Debt collection,0
+1234,Web,Q1,2015,Credit card,0
+1235,Web,Q3,2015,Bank account or service,0
+1236,Web,Q4,2016,Mortgage,0
+1237,Postal mail,Q1,2015,Payday loan,0
+1238,Web,Q1,2016,Credit reporting,0
+1239,Web,Q2,2015,Debt collection,0
+1240,Phone,Q2,2014,Debt collection,5
+1241,Web,Q3,2015,Credit card,0
+1242,Web,Q4,2014,Mortgage,0
+1243,Postal mail,Q3,2013,Consumer Loan,7
+1244,Postal mail,Q4,2013,Mortgage,0
+1245,Web,Q1,2015,Debt collection,0
+1246,Web,Q2,2013,Mortgage,13
+1247,Web,Q2,2013,Mortgage,1
+1248,Web,Q1,2013,Bank account or service,2
+1249,Web,Q1,2015,Mortgage,0
+1250,Web,Q2,2015,Debt collection,0
+1251,Web,Q3,2016,Student loan,0
+1252,Phone,Q2,2015,Payday loan,7
+1253,Web,Q3,2016,Debt collection,0
+1254,Email,Q1,2016,Bank account or service,0
+1255,Web,Q1,2016,Mortgage,0
+1256,Postal mail,Q3,2016,Debt collection,2
+1257,Web,Q3,2016,Student loan,0
+1258,Web,Q3,2015,Bank account or service,0
+1259,Email,Q1,2016,Bank account or service,7
+1260,Web,Q3,2014,Mortgage,0
+1261,Email,Q1,2015,Bank account or service,2
+1262,Web,Q3,2014,Debt collection,0
+1263,Web,Q1,2015,Credit reporting,6
+1264,Web,Q2,2013,Bank account or service,0
+1265,Web,Q4,2015,Debt collection,2
+1266,Phone,Q3,2015,Bank account or service,0
+1267,Web,Q3,2016,Student loan,4
+1268,Web,Q2,2014,Credit card,2
+1269,Web,Q4,2013,Mortgage,1
+1270,Web,Q3,2016,Debt collection,0
+1271,Web,Q3,2015,Credit reporting,0
+1272,Web,Q3,2013,Bank account or service,2
+1273,Phone,Q2,2013,Credit card,1
+1274,Web,Q2,2015,Credit card,2
+1275,Web,Q2,2015,Mortgage,0
+1276,Phone,Q1,2014,Money transfers,2
+1277,Email,Q3,2013,Credit card,1
+1278,Web,Q2,2014,Bank account or service,0
+1279,Web,Q4,2014,Debt collection,0
+1280,Web,Q1,2015,Debt collection,0
+1281,Web,Q1,2016,Debt collection,0
+1282,Web,Q1,2013,Bank account or service,0
+1283,Postal mail,Q4,2014,Bank account or service,1
+1284,Phone,Q1,2016,Credit reporting,0
+1285,Web,Q4,2014,Debt collection,0
+1286,Web,Q2,2016,Mortgage,0
+1287,Web,Q3,2014,Mortgage,4
+1288,Web,Q4,2014,Student loan,35
+1289,Phone,Q4,2015,Mortgage,2
+1290,Web,Q4,2013,Mortgage,0
+1291,Web,Q4,2016,Bank account or service,0
+1292,Web,Q2,2014,Debt collection,0
+1293,Web,Q3,2016,Debt collection,0
+1294,Web,Q4,2015,Debt collection,0
+1295,Web,Q4,2014,Credit card,0
+1296,Web,Q2,2014,Debt collection,23
+1297,Web,Q4,2014,Debt collection,6
+1298,Web,Q3,2016,Student loan,0
+1299,Web,Q2,2014,Bank account or service,0
+1300,Web,Q2,2015,Credit card,0
+1301,Web,Q2,2014,Bank account or service,0
+1302,Web,Q1,2015,Debt collection,0
+1303,Web,Q3,2014,Bank account or service,0
+1304,Web,Q3,2013,Bank account or service,2
+1305,Web,Q2,2015,Debt collection,51
+1306,Web,Q1,2014,Consumer Loan,0
+1307,Phone,Q2,2016,Bank account or service,0
+1308,Web,Q4,2013,Bank account or service,2
+1309,Web,Q3,2014,Credit reporting,0
+1310,Web,Q2,2015,Mortgage,0
+1311,Web,Q2,2015,Debt collection,0
+1312,Web,Q2,2013,Student loan,0
+1313,Web,Q3,2015,Student loan,0
+1314,Web,Q3,2013,Debt collection,0
+1315,Web,Q1,2015,Student loan,0
+1316,Email,Q4,2014,Bank account or service,6
+1317,Web,Q3,2016,Debt collection,1
+1318,Web,Q3,2015,Student loan,0
+1319,Web,Q2,2016,Student loan,0
+1320,Web,Q1,2016,Debt collection,5
+1321,Web,Q2,2015,Bank account or service,0
+1322,Phone,Q4,2015,Other financial service,4
+1323,Web,Q2,2015,Debt collection,0
+1324,Web,Q1,2015,Credit card,0
+1325,Web,Q2,2015,Bank account or service,0
+1326,Postal mail,Q4,2015,Credit card,28
+1327,Email,Q3,2013,Bank account or service,1
+1328,Email,Q3,2016,Consumer Loan,8
+1329,Web,Q3,2014,Consumer Loan,0
+1330,Web,Q4,2015,Credit reporting,0
+1331,Web,Q2,2014,Student loan,6
+1332,Web,Q3,2015,Bank account or service,0
+1333,Web,Q4,2014,Consumer Loan,0
+1334,Web,Q1,2013,Credit reporting,1
+1335,Email,Q3,2015,Debt collection,4
+1336,Web,Q2,2014,Bank account or service,0
+1337,Email,Q3,2016,Bank account or service,2
+1338,Web,Q1,2015,Credit reporting,0
+1339,Web,Q4,2013,Consumer Loan,6
+1340,Web,Q1,2016,Mortgage,0
+1341,Web,Q3,2015,Debt collection,0
+1342,Phone,Q4,2013,Debt collection,7
+1343,Web,Q3,2015,Debt collection,0
+1344,Web,Q2,2015,Credit card,0
+1345,Phone,Q3,2013,Credit card,1
+1346,Web,Q3,2014,Credit card,0
+1347,Web,Q3,2013,Consumer Loan,1
+1348,Web,Q1,2016,Consumer Loan,4
+1349,Web,Q3,2015,Debt collection,0
+1350,Web,Q3,2016,Debt collection,0
+1351,Web,Q2,2015,Debt collection,8
+1352,Web,Q4,2015,Debt collection,0
+1353,Web,Q2,2016,Credit card,0
+1354,Web,Q1,2015,Debt collection,0
+1355,Web,Q2,2016,Credit card,0
+1356,Email,Q1,2013,Mortgage,2
+1357,Web,Q2,2016,Student loan,0
+1358,Web,Q1,2013,Bank account or service,1
+1359,Web,Q3,2016,Credit card,0
+1360,Web,Q4,2013,Mortgage,0
+1361,Email,Q4,2015,Bank account or service,3
+1362,Email,Q1,2013,Credit card,0
+1363,Web,Q2,2015,Debt collection,6
+1364,Web,Q2,2015,Debt collection,0
+1365,Web,Q1,2014,Credit reporting,0
+1366,Web,Q2,2015,Credit card,0
+1367,Email,Q1,2015,Bank account or service,1
+1368,Email,Q1,2013,Mortgage,1
+1369,Web,Q4,2015,Student loan,0
+1370,Phone,Q1,2016,Debt collection,20
+1371,Web,Q2,2014,Debt collection,2
+1372,Web,Q1,2016,Debt collection,1
+1373,Web,Q1,2016,Student loan,0
+1374,Web,Q2,2016,Credit reporting,0
+1375,Web,Q4,2015,Credit reporting,0
+1376,Web,Q3,2016,Credit card,0
+1377,Web,Q2,2015,Credit card,0
+1378,Web,Q1,2014,Credit reporting,0
+1379,Phone,Q1,2016,Credit reporting,0
+1380,Web,Q3,2016,Credit card,0
+1381,Web,Q4,2014,Mortgage,0
+1382,Web,Q4,2013,Consumer Loan,1
+1383,Web,Q2,2016,Mortgage,0
+1384,Web,Q4,2015,Credit reporting,0
+1385,Email,Q4,2015,Credit reporting,19
+1386,Web,Q3,2014,Bank account or service,0
+1387,Phone,Q1,2016,Bank account or service,7
+1388,Web,Q3,2015,Student loan,0
+1389,Web,Q4,2014,Credit reporting,0
+1390,Email,Q3,2015,Bank account or service,1
+1391,Web,Q2,2015,Mortgage,0
+1392,Web,Q2,2014,Student loan,0
+1393,Web,Q4,2013,Bank account or service,0
+1394,Web,Q4,2013,Mortgage,0
+1395,Web,Q1,2016,Consumer Loan,0
+1396,Web,Q3,2014,Debt collection,3
+1397,Phone,Q1,2016,Credit reporting,0
+1398,Web,Q1,2015,Credit reporting,0
+1399,Web,Q1,2016,Credit card,0
+1400,Web,Q1,2015,Mortgage,0
+1401,Web,Q2,2014,Mortgage,0
+1402,Web,Q1,2015,Consumer Loan,0
+1403,Web,Q2,2014,Mortgage,2
+1404,Phone,Q1,2014,Mortgage,9
+1405,Web,Q2,2014,Debt collection,0
+1406,Web,Q3,2014,Consumer Loan,0
+1407,Web,Q3,2014,Mortgage,0
+1408,Web,Q2,2016,Mortgage,0
+1409,Web,Q3,2014,Bank account or service,2
+1410,Web,Q3,2015,Consumer Loan,0
+1411,Web,Q3,2016,Bank account or service,0
+1412,Email,Q1,2016,Credit card,1
+1413,Web,Q1,2013,Credit card,0
+1414,Email,Q2,2013,Credit card,1
+1415,Web,Q3,2014,Debt collection,0
+1416,Web,Q1,2013,Credit card,4
+1417,Web,Q1,2015,Debt collection,0
+1418,Web,Q2,2014,Credit card,0
+1419,Web,Q2,2016,Consumer Loan,0
+1420,Web,Q1,2016,Credit reporting,0
+1421,Web,Q4,2014,Mortgage,0
+1422,Web,Q3,2015,Student loan,0
+1423,Web,Q2,2016,Credit card,0
+1424,Web,Q2,2014,Mortgage,0
+1425,Email,Q2,2016,Credit reporting,1
+1426,Email,Q1,2015,Mortgage,7
+1427,Web,Q3,2016,Credit card,0
+1428,Email,Q4,2013,Consumer Loan,0
+1429,Web,Q3,2015,Mortgage,1
+1430,Web,Q3,2016,Credit reporting,0
+1431,Web,Q1,2016,Bank account or service,0
+1432,Web,Q2,2013,Credit card,0
+1433,Phone,Q3,2013,Bank account or service,4
+1434,Web,Q1,2015,Debt collection,0
+1435,Phone,Q3,2015,Debt collection,7
+1436,Web,Q2,2015,Bank account or service,0
+1437,Email,Q1,2014,Credit card,1
+1438,Web,Q3,2015,Debt collection,0
+1439,Email,Q4,2014,Mortgage,5
+1440,Web,Q2,2014,Credit card,0
+1441,Email,Q1,2013,Mortgage,0
+1442,Web,Q3,2014,Credit card,6
+1443,Email,Q2,2013,Bank account or service,2
+1444,Phone,Q2,2016,Debt collection,4
+1445,Web,Q2,2015,Credit card,0
+1446,Web,Q1,2015,Credit reporting,0
+1447,Web,Q2,2015,Prepaid card,1
+1448,Web,Q3,2016,Mortgage,0
+1449,Web,Q2,2016,Credit card,29
+1450,Email,Q1,2016,Mortgage,2
+1451,Web,Q2,2015,Mortgage,0
+1452,Web,Q1,2016,Mortgage,0
+1453,Web,Q1,2016,Debt collection,0
+1454,Web,Q3,2013,Debt collection,1
+1455,Web,Q2,2015,Mortgage,0
+1456,Web,Q4,2014,Credit reporting,0
+1457,Web,Q2,2016,Bank account or service,0
+1458,Email,Q2,2016,Credit card,17
+1459,Web,Q3,2013,Credit card,1
+1460,Web,Q2,2016,Credit reporting,0
+1461,Web,Q4,2015,Mortgage,2
+1462,Web,Q1,2015,Credit reporting,0
+1463,Web,Q3,2016,Mortgage,0
+1464,Web,Q1,2013,Student loan,0
+1465,Web,Q2,2015,Debt collection,0
+1466,Web,Q2,2014,Bank account or service,0
+1467,Web,Q1,2015,Credit card,0
+1468,Web,Q1,2014,Bank account or service,0
+1469,Web,Q1,2016,Bank account or service,0
+1470,Web,Q3,2013,Student loan,0
+1471,Web,Q3,2013,Consumer Loan,0
+1472,Web,Q1,2015,Debt collection,0
+1473,Web,Q1,2016,Debt collection,8
+1474,Web,Q3,2014,Debt collection,22
+1475,Web,Q4,2013,Debt collection,0
+1476,Web,Q4,2015,Credit reporting,0
+1477,Web,Q4,2014,Mortgage,0
+1478,Web,Q2,2014,Bank account or service,0
+1479,Web,Q4,2013,Credit reporting,0
+1480,Web,Q2,2015,Credit reporting,0
+1481,Web,Q1,2015,Debt collection,0
+1482,Web,Q3,2016,Bank account or service,1
+1483,Web,Q2,2013,Student loan,0
+1484,Web,Q4,2015,Mortgage,1
+1485,Web,Q3,2015,Credit reporting,1
+1486,Web,Q4,2013,Mortgage,8
+1487,Phone,Q2,2016,Credit card,0
+1488,Web,Q2,2016,Mortgage,0
+1489,Email,Q4,2014,Mortgage,7
+1490,Email,Q3,2016,Credit card,3
+1491,Web,Q4,2014,Debt collection,2
+1492,Web,Q2,2014,Debt collection,0
+1493,Web,Q3,2015,Credit card,5
+1494,Email,Q2,2015,Bank account or service,1
+1495,Web,Q3,2015,Debt collection,0
+1496,Web,Q3,2014,Debt collection,0
+1497,Web,Q4,2015,Credit card,0
+1498,Web,Q2,2014,Debt collection,0
+1499,Email,Q1,2016,Credit card,2
+1500,Web,Q4,2013,Mortgage,0
+1501,Web,Q2,2016,Debt collection,0
+1502,Fax,Q2,2013,Credit card,4
+1503,Web,Q3,2016,Mortgage,0
+1504,Web,Q3,2014,Student loan,0
+1505,Web,Q2,2016,Bank account or service,0
+1506,Phone,Q4,2015,Money transfers,4
+1507,Web,Q3,2016,Mortgage,0
+1508,Web,Q3,2013,Mortgage,2
+1509,Web,Q1,2016,Mortgage,0
+1510,Email,Q4,2015,Bank account or service,2
+1511,Web,Q1,2016,Student loan,0
+1512,Web,Q1,2014,Mortgage,3
+1513,Web,Q3,2016,Mortgage,3
+1514,Web,Q1,2015,Debt collection,0
+1515,Web,Q3,2016,Mortgage,0
+1516,Email,Q1,2016,Mortgage,5
+1517,Web,Q3,2015,Mortgage,0
+1518,Web,Q2,2015,Debt collection,0
+1519,Web,Q1,2015,Mortgage,6
+1520,Web,Q3,2016,Mortgage,0
+1521,Email,Q1,2015,Debt collection,6
+1522,Web,Q4,2015,Credit reporting,0
+1523,Web,Q1,2014,Debt collection,6
+1524,Email,Q1,2013,Consumer Loan,0
+1525,Web,Q3,2015,Mortgage,0
+1526,Email,Q1,2013,Credit card,1
+1527,Web,Q3,2015,Credit reporting,0
+1528,Postal mail,Q1,2013,Mortgage,1
+1529,Web,Q1,2015,Credit reporting,3
+1530,Web,Q3,2014,Credit reporting,2
+1531,Web,Q4,2013,Mortgage,6
+1532,Web,Q1,2016,Mortgage,0
+1533,Web,Q1,2014,Bank account or service,0
+1534,Web,Q2,2015,Mortgage,1
+1535,Web,Q2,2014,Debt collection,0
+1536,Web,Q4,2013,Bank account or service,0
+1537,Web,Q3,2015,Credit card,0
+1538,Web,Q3,2013,Mortgage,7
+1539,Web,Q2,2016,Debt collection,0
+1540,Web,Q1,2015,Payday loan,7
+1541,Web,Q3,2016,Bank account or service,1
+1542,Email,Q4,2015,Mortgage,2
+1543,Web,Q4,2014,Credit reporting,0
+1544,Web,Q4,2015,Student loan,0
+1545,Postal mail,Q3,2016,Credit reporting,2
+1546,Web,Q3,2014,Debt collection,0
+1547,Web,Q4,2015,Bank account or service,0
+1548,Web,Q4,2015,Credit card,0
+1549,Web,Q4,2014,Debt collection,7
+1550,Web,Q4,2015,Debt collection,0
+1551,Web,Q2,2015,Bank account or service,0
+1552,Web,Q3,2014,Bank account or service,0
+1553,Postal mail,Q1,2016,Debt collection,5
+1554,Web,Q2,2016,Bank account or service,0
+1555,Web,Q2,2014,Mortgage,0
+1556,Web,Q2,2014,Bank account or service,0
+1557,Web,Q4,2014,Debt collection,0
+1558,Email,Q1,2013,Mortgage,1
+1559,Fax,Q1,2013,Bank account or service,1
+1560,Email,Q3,2016,Bank account or service,1
+1561,Web,Q3,2016,Credit reporting,0
+1562,Web,Q3,2014,Student loan,4
+1563,Web,Q2,2016,Student loan,0
+1564,Web,Q4,2015,Consumer Loan,0
+1565,Web,Q3,2014,Credit card,0
+1566,Postal mail,Q4,2013,Mortgage,1
+1567,Web,Q2,2015,Mortgage,0
+1568,Web,Q3,2013,Credit card,2
+1569,Email,Q3,2013,Credit card,4
+1570,Web,Q1,2015,Student loan,5
+1571,Web,Q3,2016,Credit card,0
+1572,Web,Q1,2016,Mortgage,5
+1573,Email,Q2,2016,Credit card,4
+1574,Web,Q3,2015,Credit reporting,0
+1575,Web,Q3,2016,Debt collection,0
+1576,Email,Q2,2013,Consumer Loan,1
+1577,Web,Q2,2015,Student loan,0
+1578,Web,Q1,2016,Mortgage,7
+1579,Web,Q4,2014,Bank account or service,0
+1580,Web,Q3,2016,Mortgage,0
+1581,Web,Q4,2015,Debt collection,3
+1582,Email,Q3,2015,Bank account or service,1
+1583,Web,Q4,2014,Debt collection,0
+1584,Fax,Q1,2014,Consumer Loan,5
+1585,Web,Q2,2014,Credit reporting,0
+1586,Web,Q1,2015,Mortgage,0
+1587,Phone,Q2,2014,Mortgage,2
+1588,Web,Q1,2016,Mortgage,0
+1589,Web,Q2,2016,Student loan,0
+1590,Web,Q1,2014,Bank account or service,0
+1591,Web,Q4,2015,Bank account or service,0
+1592,Web,Q1,2014,Credit reporting,0
+1593,Web,Q1,2015,Credit card,0
+1594,Web,Q4,2013,Credit reporting,0
+1595,Web,Q4,2013,Mortgage,1
+1596,Web,Q2,2013,Bank account or service,1
+1597,Web,Q2,2014,Credit reporting,4
+1598,Web,Q3,2015,Mortgage,0
+1599,Web,Q4,2015,Credit reporting,0
+1600,Web,Q1,2015,Debt collection,0
+1601,Web,Q4,2015,Mortgage,0
+1602,Phone,Q2,2016,Debt collection,1
+1603,Web,Q3,2015,Payday loan,0
+1604,Web,Q1,2016,Credit reporting,3
+1605,Web,Q1,2016,Bank account or service,0
+1606,Web,Q1,2015,Mortgage,0
+1607,Web,Q3,2014,Mortgage,0
+1608,Web,Q4,2014,Credit card,0
+1609,Postal mail,Q1,2013,Credit card,0
+1610,Web,Q4,2015,Bank account or service,0
+1611,Fax,Q3,2013,Bank account or service,4
+1612,Web,Q1,2014,Debt collection,0
+1613,Web,Q1,2016,Credit reporting,35
+1614,Fax,Q1,2016,Bank account or service,1
+1615,Web,Q2,2016,Mortgage,0
+1616,Web,Q4,2015,Credit card,0
+1617,Phone,Q3,2015,Mortgage,1
+1618,Phone,Q1,2016,Consumer Loan,2
+1619,Web,Q2,2013,Credit reporting,0
+1620,Phone,Q3,2015,Debt collection,1
+1621,Web,Q4,2014,Debt collection,0
+1622,Web,Q1,2015,Bank account or service,0
+1623,Web,Q2,2013,Credit card,0
+1624,Web,Q4,2014,Mortgage,0
+1625,Web,Q3,2013,Consumer Loan,1
+1626,Web,Q2,2014,Mortgage,0
+1627,Email,Q1,2016,Bank account or service,4
+1628,Web,Q3,2016,Credit reporting,1
+1629,Web,Q1,2013,Bank account or service,0
+1630,Web,Q3,2016,Debt collection,2
+1631,Fax,Q2,2013,Mortgage,1
+1632,Email,Q2,2015,Consumer Loan,2
+1633,Web,Q4,2016,Bank account or service,0
+1634,Web,Q4,2013,Credit card,0
+1635,Web,Q1,2015,Mortgage,0
+1636,Web,Q3,2016,Mortgage,0
+1637,Phone,Q4,2015,Mortgage,0
+1638,Web,Q3,2014,Mortgage,0
+1639,Web,Q2,2014,Bank account or service,0
+1640,Web,Q4,2013,Student loan,0
+1641,Web,Q1,2014,Mortgage,0
+1642,Web,Q2,2015,Student loan,0
+1643,Email,Q3,2016,Mortgage,1
+1644,Web,Q3,2013,Bank account or service,1
+1645,Web,Q1,2015,Mortgage,0
+1646,Web,Q1,2016,Credit reporting,0
+1647,Web,Q3,2015,Credit card,0
+1648,Web,Q3,2013,Mortgage,1
+1649,Email,Q1,2014,Mortgage,5
+1650,Web,Q1,2016,Mortgage,46
+1651,Web,Q1,2015,Credit reporting,0
+1652,Web,Q1,2015,Debt collection,0
+1653,Web,Q4,2015,Bank account or service,0
+1654,Web,Q3,2015,Credit card,6
+1655,Web,Q4,2015,Debt collection,0
+1656,Phone,Q3,2014,Credit card,2
+1657,Web,Q1,2015,Debt collection,0
+1658,Web,Q3,2015,Credit card,1
+1659,Web,Q4,2013,Bank account or service,0
+1660,Web,Q4,2014,Mortgage,0
+1661,Email,Q1,2015,Prepaid card,3
+1662,Web,Q2,2016,Bank account or service,0
+1663,Web,Q4,2016,Credit reporting,0
+1664,Web,Q2,2016,Consumer Loan,0
+1665,Phone,Q4,2014,Bank account or service,0
+1666,Web,Q1,2015,Bank account or service,0
+1667,Web,Q2,2016,Bank account or service,0
+1668,Web,Q3,2016,Credit reporting,0
+1669,Web,Q4,2014,Credit reporting,5
+1670,Web,Q3,2015,Debt collection,0
+1671,Web,Q1,2015,Credit reporting,0
+1672,Web,Q4,2014,Debt collection,0
+1673,Web,Q4,2014,Consumer Loan,0
+1674,Email,Q4,2013,Mortgage,4
+1675,Fax,Q1,2015,Debt collection,6
+1676,Phone,Q4,2014,Credit card,3
+1677,Web,Q3,2015,Debt collection,0
+1678,Phone,Q1,2016,Other financial service,3
+1679,Web,Q3,2016,Student loan,0
+1680,Web,Q3,2015,Prepaid card,0
+1681,Web,Q1,2014,Mortgage,0
+1682,Web,Q1,2016,Debt collection,0
+1683,Web,Q1,2015,Prepaid card,0
+1684,Web,Q2,2015,Credit reporting,0
+1685,Web,Q2,2014,Mortgage,0
+1686,Phone,Q2,2016,Payday loan,2
+1687,Phone,Q4,2013,Bank account or service,1
+1688,Web,Q3,2014,Consumer Loan,0
+1689,Web,Q4,2013,Debt collection,0
+1690,Web,Q3,2015,Bank account or service,0
+1691,Phone,Q2,2014,Credit card,2
+1692,Web,Q3,2016,Student loan,0
+1693,Web,Q3,2015,Debt collection,0
+1694,Web,Q4,2015,Mortgage,0
+1695,Web,Q4,2013,Debt collection,0
+1696,Web,Q2,2014,Mortgage,0
+1697,Web,Q3,2015,Mortgage,0
+1698,Web,Q1,2014,Consumer Loan,45
+1699,Email,Q3,2014,Credit card,3
+1700,Email,Q3,2015,Bank account or service,1
+1701,Email,Q2,2014,Mortgage,4
+1702,Web,Q3,2015,Mortgage,0
+1703,Web,Q2,2016,Bank account or service,0
+1704,Email,Q3,2014,Mortgage,5
+1705,Web,Q3,2016,Debt collection,0
+1706,Email,Q3,2016,Debt collection,1
+1707,Web,Q3,2014,Debt collection,0
+1708,Web,Q1,2013,Mortgage,0
+1709,Email,Q3,2013,Credit reporting,0
+1710,Web,Q2,2014,Mortgage,0
+1711,Phone,Q1,2014,Debt collection,6
+1712,Web,Q3,2016,Student loan,0
+1713,Web,Q4,2015,Credit card,0
+1714,Web,Q1,2016,Credit reporting,0
+1715,Web,Q2,2016,Bank account or service,0
+1716,Web,Q4,2014,Mortgage,0
+1717,Web,Q2,2013,Credit reporting,1
+1718,Web,Q1,2016,Mortgage,0
+1719,Web,Q2,2016,Debt collection,4
+1720,Web,Q1,2015,Bank account or service,0
+1721,Email,Q4,2016,Mortgage,3
+1722,Web,Q2,2015,Debt collection,0
+1723,Web,Q2,2016,Bank account or service,0
+1724,Email,Q3,2016,Bank account or service,3
+1725,Web,Q1,2014,Debt collection,4
+1726,Web,Q1,2015,Debt collection,0
+1727,Web,Q1,2016,Debt collection,0
+1728,Phone,Q1,2013,Mortgage,0
+1729,Web,Q4,2015,Mortgage,0
+1730,Web,Q4,2015,Prepaid card,21
+1731,Web,Q3,2016,Bank account or service,0
+1732,Postal mail,Q2,2013,Bank account or service,1
+1733,Web,Q3,2016,Mortgage,0
+1734,Web,Q3,2013,Bank account or service,1
+1735,Web,Q4,2014,Mortgage,0
+1736,Postal mail,Q2,2016,Credit card,3
+1737,Postal mail,Q2,2014,Mortgage,2
+1738,Web,Q1,2014,Debt collection,4
+1739,Web,Q3,2013,Credit card,0
+1740,Fax,Q2,2016,Consumer Loan,1
+1741,Web,Q2,2016,Bank account or service,0
+1742,Web,Q1,2016,Mortgage,35
+1743,Web,Q4,2015,Debt collection,0
+1744,Web,Q4,2013,Debt collection,2
+1745,Web,Q4,2013,Mortgage,3
+1746,Web,Q4,2014,Credit reporting,6
+1747,Phone,Q1,2014,Mortgage,1
+1748,Web,Q3,2013,Debt collection,0
+1749,Web,Q2,2014,Student loan,2
+1750,Postal mail,Q2,2016,Consumer Loan,25
+1751,Web,Q1,2015,Debt collection,0
+1752,Web,Q2,2016,Consumer Loan,2
+1753,Email,Q3,2015,Mortgage,6
+1754,Phone,Q3,2015,Debt collection,5
+1755,Postal mail,Q4,2015,Consumer Loan,1
+1756,Web,Q1,2015,Mortgage,0
+1757,Web,Q4,2015,Bank account or service,4
+1758,Web,Q3,2013,Mortgage,1
+1759,Web,Q3,2013,Credit reporting,0
+1760,Web,Q2,2015,Debt collection,0
+1761,Web,Q2,2014,Bank account or service,0
+1762,Email,Q3,2013,Mortgage,1
+1763,Web,Q2,2016,Mortgage,2
+1764,Web,Q3,2016,Credit card,0
+1765,Web,Q2,2016,Debt collection,0
+1766,Web,Q4,2014,Mortgage,0
+1767,Web,Q4,2016,Bank account or service,0
+1768,Postal mail,Q2,2013,Mortgage,0
+1769,Fax,Q1,2015,Bank account or service,3
+1770,Web,Q2,2015,Mortgage,0
+1771,Web,Q4,2013,Mortgage,0
+1772,Web,Q2,2015,Payday loan,2
+1773,Phone,Q1,2015,Consumer Loan,1
+1774,Web,Q2,2015,Credit card,0
+1775,Web,Q4,2014,Debt collection,0
+1776,Web,Q1,2016,Payday loan,0
+1777,Web,Q2,2016,Bank account or service,2
+1778,Web,Q4,2015,Mortgage,0
+1779,Email,Q2,2015,Bank account or service,2
+1780,Web,Q1,2013,Credit reporting,0
+1781,Phone,Q3,2015,Bank account or service,0
+1782,Web,Q4,2013,Debt collection,7
+1783,Web,Q4,2014,Debt collection,0
+1784,Web,Q3,2016,Bank account or service,0
+1785,Email,Q2,2014,Student loan,3
+1786,Web,Q1,2014,Mortgage,1
+1787,Email,Q2,2013,Credit card,1
+1788,Web,Q4,2015,Bank account or service,0
+1789,Phone,Q1,2013,Mortgage,5
+1790,Web,Q4,2015,Debt collection,0
+1791,Postal mail,Q3,2016,Credit reporting,12
+1792,Web,Q3,2014,Credit card,0
+1793,Web,Q2,2014,Debt collection,0
+1794,Web,Q2,2013,Mortgage,1
+1795,Web,Q1,2013,Mortgage,2
+1796,Web,Q4,2015,Credit card,0
+1797,Web,Q3,2013,Credit card,0
+1798,Web,Q2,2015,Debt collection,63
+1799,Phone,Q4,2015,Credit card,0
+1800,Web,Q2,2016,Consumer Loan,1
+1801,Web,Q1,2014,Mortgage,0
+1802,Email,Q1,2016,Debt collection,1
+1803,Web,Q2,2016,Credit card,0
+1804,Web,Q3,2015,Debt collection,4
+1805,Email,Q3,2013,Credit card,2
+1806,Web,Q4,2015,Debt collection,0
+1807,Web,Q1,2013,Credit reporting,0
+1808,Email,Q2,2016,Credit reporting,2
+1809,Web,Q1,2014,Debt collection,8
+1810,Web,Q3,2015,Credit reporting,0
+1811,Web,Q3,2014,Consumer Loan,0
+1812,Web,Q1,2016,Student loan,0
+1813,Web,Q3,2015,Mortgage,0
+1814,Email,Q4,2013,Bank account or service,1
+1815,Email,Q1,2015,Bank account or service,0
+1816,Web,Q1,2015,Debt collection,0
+1817,Phone,Q3,2013,Bank account or service,1
+1818,Postal mail,Q2,2013,Bank account or service,1
+1819,Phone,Q3,2013,Mortgage,3
+1820,Email,Q2,2013,Mortgage,3
+1821,Phone,Q2,2014,Debt collection,1
+1822,Web,Q4,2013,Debt collection,6
+1823,Postal mail,Q4,2015,Bank account or service,1
+1824,Web,Q2,2016,Mortgage,0
+1825,Web,Q3,2016,Bank account or service,0
+1826,Web,Q4,2015,Debt collection,0
+1827,Web,Q3,2015,Student loan,28
+1828,Postal mail,Q3,2016,Student loan,1
+1829,Phone,Q2,2014,Bank account or service,5
+1830,Web,Q2,2013,Credit card,1
+1831,Web,Q2,2014,Consumer Loan,0
+1832,Web,Q4,2014,Student loan,0
+1833,Web,Q4,2013,Credit card,0
+1834,Postal mail,Q1,2014,Bank account or service,2
+1835,Web,Q1,2015,Mortgage,0
+1836,Web,Q3,2015,Mortgage,0
+1837,Web,Q1,2015,Mortgage,0
+1838,Web,Q1,2014,Mortgage,0
+1839,Phone,Q2,2016,Bank account or service,0
+1840,Postal mail,Q1,2016,Debt collection,2
+1841,Email,Q2,2013,Bank account or service,1
+1842,Web,Q2,2014,Credit reporting,0
+1843,Phone,Q1,2015,Bank account or service,1
+1844,Phone,Q4,2013,Bank account or service,1
+1845,Email,Q3,2013,Mortgage,2
+1846,Email,Q1,2014,Mortgage,7
+1847,Web,Q2,2013,Mortgage,1
+1848,Web,Q4,2015,Student loan,0
+1849,Web,Q1,2013,Credit reporting,0
+1850,Web,Q3,2015,Debt collection,0
+1851,Web,Q3,2016,Credit reporting,0
+1852,Email,Q1,2013,Credit card,0
+1853,Web,Q3,2014,Debt collection,0
+1854,Email,Q4,2014,Mortgage,6
+1855,Web,Q4,2015,Mortgage,0
+1856,Web,Q3,2016,Student loan,0
+1857,Web,Q1,2015,Bank account or service,5
+1858,Web,Q3,2013,Mortgage,2
+1859,Fax,Q2,2015,Mortgage,2
+1860,Web,Q3,2014,Bank account or service,2
+1861,Web,Q3,2015,Credit card,2
+1862,Web,Q3,2015,Debt collection,0
+1863,Email,Q4,2013,Bank account or service,0
+1864,Web,Q2,2016,Debt collection,0
+1865,Web,Q1,2016,Consumer Loan,3
+1866,Email,Q2,2016,Mortgage,2
+1867,Web,Q2,2013,Credit card,3
+1868,Web,Q4,2015,Credit card,0
+1869,Web,Q4,2015,Credit reporting,0
+1870,Web,Q1,2016,Debt collection,0
+1871,Web,Q1,2016,Debt collection,0
+1872,Web,Q3,2014,Credit reporting,0
+1873,Web,Q1,2016,Mortgage,0
+1874,Web,Q1,2016,Debt collection,1
+1875,Web,Q4,2015,Debt collection,7
+1876,Email,Q4,2014,Bank account or service,6
+1877,Web,Q2,2014,Bank account or service,0
+1878,Web,Q3,2015,Bank account or service,0
+1879,Web,Q2,2016,Credit card,0
+1880,Web,Q3,2016,Bank account or service,0
+1881,Email,Q1,2016,Bank account or service,3
+1882,Web,Q4,2013,Student loan,8
+1883,Web,Q2,2014,Mortgage,0
+1884,Web,Q1,2014,Mortgage,0
+1885,Web,Q2,2014,Debt collection,2
+1886,Web,Q1,2015,Student loan,0
+1887,Web,Q3,2014,Debt collection,1
+1888,Email,Q1,2013,Bank account or service,1
+1889,Web,Q4,2015,Credit reporting,0
+1890,Email,Q1,2013,Bank account or service,2
+1891,Web,Q3,2016,Credit card,0
+1892,Web,Q2,2014,Debt collection,2
+1893,Web,Q4,2015,Mortgage,0
+1894,Web,Q3,2015,Credit card,2
+1895,Phone,Q3,2014,Bank account or service,2
+1896,Email,Q2,2016,Bank account or service,2
+1897,Postal mail,Q2,2016,Bank account or service,0
+1898,Web,Q3,2013,Credit card,0
+1899,Web,Q4,2015,Debt collection,0
+1900,Web,Q3,2016,Bank account or service,4
+1901,Web,Q3,2015,Credit card,0
+1902,Web,Q2,2015,Debt collection,0
+1903,Web,Q1,2015,Credit card,0
+1904,Web,Q2,2013,Mortgage,65
+1905,Web,Q4,2015,Credit reporting,0
+1906,Web,Q2,2015,Mortgage,0
+1907,Web,Q3,2014,Student loan,5
+1908,Web,Q3,2015,Credit reporting,0
+1909,Web,Q3,2015,Mortgage,0
+1910,Web,Q2,2016,Debt collection,2
+1911,Web,Q3,2016,Money transfers,0
+1912,Web,Q3,2015,Mortgage,0
+1913,Phone,Q1,2014,Mortgage,1
+1914,Web,Q4,2014,Mortgage,0
+1915,Web,Q4,2014,Mortgage,0
+1916,Web,Q4,2013,Debt collection,0
+1917,Web,Q1,2015,Bank account or service,0
+1918,Web,Q1,2015,Mortgage,0
+1919,Web,Q1,2016,Debt collection,0
+1920,Email,Q1,2013,Credit card,1
+1921,Phone,Q2,2016,Mortgage,2
+1922,Web,Q4,2015,Debt collection,0
+1923,Web,Q4,2015,Mortgage,0
+1924,Web,Q1,2015,Mortgage,0
+1925,Web,Q1,2016,Bank account or service,3
+1926,Web,Q4,2015,Bank account or service,0
+1927,Web,Q2,2015,Debt collection,0
+1928,Phone,Q3,2016,Mortgage,1
+1929,Web,Q4,2014,Mortgage,0
+1930,Web,Q2,2016,Student loan,0
+1931,Postal mail,Q1,2015,Credit card,5
+1932,Email,Q3,2014,Debt collection,11
+1933,Email,Q4,2013,Bank account or service,2
+1934,Web,Q4,2015,Credit card,0
+1935,Web,Q3,2016,Credit card,3
+1936,Web,Q2,2015,Student loan,1
+1937,Web,Q3,2015,Debt collection,3
+1938,Web,Q4,2016,Bank account or service,0
+1939,Web,Q1,2016,Mortgage,2
+1940,Fax,Q4,2014,Mortgage,7
+1941,Web,Q2,2016,Bank account or service,0
+1942,Web,Q3,2015,Credit card,1
+1943,Web,Q1,2016,Credit card,0
+1944,Web,Q1,2015,Debt collection,0
+1945,Web,Q4,2014,Payday loan,0
+1946,Phone,Q2,2013,Mortgage,1
+1947,Web,Q3,2016,Student loan,0
+1948,Web,Q1,2013,Mortgage,1
+1949,Email,Q2,2016,Mortgage,3
+1950,Web,Q3,2015,Consumer Loan,0
+1951,Email,Q4,2014,Bank account or service,67
+1952,Web,Q2,2015,Mortgage,0
+1953,Email,Q1,2015,Debt collection,2
+1954,Web,Q2,2013,Mortgage,1
+1955,Email,Q4,2015,Credit reporting,0
+1956,Postal mail,Q4,2013,Debt collection,1
+1957,Web,Q1,2013,Mortgage,0
+1958,Email,Q3,2013,Mortgage,0
+1959,Web,Q2,2015,Mortgage,6
+1960,Web,Q2,2014,Mortgage,0
+1961,Web,Q1,2015,Prepaid card,8
+1962,Web,Q2,2016,Credit reporting,0
+1963,Web,Q4,2013,Debt collection,0
+1964,Phone,Q3,2016,Bank account or service,0
+1965,Web,Q3,2016,Debt collection,0
+1966,Web,Q2,2013,Student loan,0
+1967,Web,Q4,2015,Mortgage,0
+1968,Web,Q1,2016,Bank account or service,0
+1969,Email,Q2,2014,Mortgage,3
+1970,Web,Q3,2016,Mortgage,2
+1971,Web,Q3,2016,Debt collection,39
+1972,Postal mail,Q4,2015,Bank account or service,0
+1973,Web,Q1,2014,Mortgage,2
+1974,Web,Q1,2015,Debt collection,0
+1975,Web,Q4,2014,Debt collection,0
+1976,Phone,Q4,2014,Credit card,6
+1977,Email,Q2,2016,Bank account or service,2
+1978,Web,Q1,2016,Debt collection,2
+1979,Email,Q3,2013,Mortgage,14
+1980,Web,Q2,2013,Credit reporting,0
+1981,Web,Q2,2015,Bank account or service,0
+1982,Web,Q4,2015,Credit reporting,0
+1983,Web,Q1,2014,Mortgage,0
+1984,Web,Q3,2016,Debt collection,0
+1985,Web,Q2,2016,Credit card,0
+1986,Email,Q3,2013,Consumer Loan,1
+1987,Email,Q3,2015,Bank account or service,0
+1988,Fax,Q3,2013,Bank account or service,1
+1989,Web,Q1,2013,Credit reporting,0
+1990,Web,Q3,2015,Debt collection,8
+1991,Email,Q4,2015,Debt collection,8
+1992,Web,Q1,2016,Mortgage,3
+1993,Web,Q4,2016,Credit reporting,0
+1994,Web,Q3,2016,Payday loan,12
+1995,Web,Q1,2016,Student loan,0
+1996,Web,Q3,2015,Consumer Loan,0
+1997,Web,Q4,2013,Credit reporting,0
+1998,Web,Q3,2014,Debt collection,0
+1999,Email,Q4,2015,Credit card,2
+2000,Phone,Q1,2016,Debt collection,0
+2001,Web,Q1,2015,Consumer Loan,0
+2002,Email,Q3,2015,Mortgage,6
+2003,Email,Q1,2016,Credit card,0
+2004,Web,Q2,2016,Debt collection,0
+2005,Web,Q1,2014,Debt collection,0
+2006,Web,Q3,2014,Debt collection,7
+2007,Email,Q2,2016,Credit card,4
+2008,Email,Q2,2016,Mortgage,1
+2009,Email,Q3,2013,Consumer Loan,2
+2010,Web,Q2,2013,Mortgage,0
+2011,Web,Q4,2014,Bank account or service,5
+2012,Web,Q2,2013,Mortgage,0
+2013,Web,Q2,2013,Bank account or service,0
+2014,Web,Q2,2016,Credit card,0
+2015,Web,Q3,2014,Student loan,0
+2016,Web,Q1,2016,Bank account or service,0
+2017,Web,Q4,2015,Consumer Loan,0
+2018,Web,Q2,2014,Credit reporting,0
+2019,Web,Q4,2014,Consumer Loan,3
+2020,Web,Q4,2013,Bank account or service,0
+2021,Web,Q3,2015,Bank account or service,0
+2022,Web,Q2,2016,Credit card,0
+2023,Email,Q4,2015,Mortgage,0
+2024,Web,Q3,2015,Mortgage,0
+2025,Web,Q3,2015,Consumer Loan,0
+2026,Web,Q4,2014,Credit card,4
+2027,Web,Q3,2013,Credit reporting,0
+2028,Web,Q3,2016,Mortgage,0
+2029,Web,Q4,2015,Bank account or service,0
+2030,Phone,Q3,2013,Credit card,1
+2031,Phone,Q3,2015,Bank account or service,0
+2032,Web,Q3,2013,Credit card,1
+2033,Email,Q2,2015,Bank account or service,2
+2034,Web,Q4,2015,Credit card,0
+2035,Web,Q3,2015,Credit reporting,9
+2036,Web,Q3,2015,Debt collection,0
+2037,Web,Q2,2014,Credit card,0
+2038,Web,Q3,2015,Money transfers,12
+2039,Web,Q4,2014,Debt collection,7
+2040,Web,Q2,2016,Mortgage,0
+2041,Web,Q3,2014,Bank account or service,3
+2042,Web,Q2,2015,Credit card,0
+2043,Phone,Q3,2014,Money transfers,3
+2044,Web,Q3,2014,Payday loan,0
+2045,Web,Q2,2015,Credit reporting,0
+2046,Web,Q1,2014,Consumer Loan,0
+2047,Web,Q3,2015,Mortgage,0
+2048,Web,Q1,2014,Credit card,0
+2049,Web,Q1,2016,Credit card,3
+2050,Web,Q2,2013,Mortgage,1
+2051,Web,Q4,2014,Student loan,3
+2052,Web,Q2,2014,Mortgage,0
+2053,Email,Q2,2013,Mortgage,1
+2054,Web,Q2,2013,Mortgage,4
+2055,Web,Q2,2014,Debt collection,0
+2056,Web,Q3,2015,Consumer Loan,0
+2057,Web,Q3,2016,Bank account or service,0
+2058,Email,Q4,2015,Mortgage,5
+2059,Web,Q2,2014,Debt collection,0
+2060,Web,Q3,2013,Consumer Loan,1
+2061,Web,Q4,2015,Consumer Loan,0
+2062,Web,Q3,2015,Credit reporting,0
+2063,Web,Q1,2016,Mortgage,0
+2064,Email,Q1,2014,Mortgage,7
+2065,Web,Q3,2015,Debt collection,7
+2066,Web,Q1,2015,Bank account or service,0
+2067,Web,Q4,2015,Credit reporting,0
+2068,Web,Q2,2015,Credit card,0
+2069,Email,Q2,2013,Mortgage,0
+2070,Web,Q3,2014,Debt collection,7
+2071,Phone,Q4,2013,Bank account or service,1
+2072,Phone,Q3,2015,Consumer Loan,6
+2073,Web,Q4,2014,Bank account or service,0
+2074,Web,Q3,2013,Credit card,4
+2075,Web,Q3,2015,Credit card,0
+2076,Postal mail,Q4,2013,Bank account or service,6
+2077,Web,Q3,2016,Mortgage,0
+2078,Web,Q4,2015,Bank account or service,0
+2079,Web,Q3,2016,Student loan,0
+2080,Phone,Q2,2013,Mortgage,1
+2081,Web,Q3,2015,Consumer Loan,4
+2082,Web,Q1,2016,Bank account or service,0
+2083,Web,Q3,2013,Mortgage,1
+2084,Email,Q1,2013,Bank account or service,1
+2085,Web,Q1,2015,Credit reporting,0
+2086,Phone,Q2,2014,Debt collection,8
+2087,Web,Q2,2015,Debt collection,0
+2088,Phone,Q2,2016,Debt collection,0
+2089,Web,Q1,2016,Credit card,0
+2090,Web,Q3,2015,Consumer Loan,0
+2091,Web,Q2,2014,Student loan,0
+2092,Web,Q2,2014,Mortgage,0
+2093,Web,Q1,2014,Mortgage,0
+2094,Web,Q1,2016,Mortgage,0
+2095,Web,Q2,2016,Mortgage,0
+2096,Web,Q2,2015,Mortgage,0
+2097,Web,Q1,2015,Bank account or service,0
+2098,Web,Q4,2015,Mortgage,0
+2099,Web,Q2,2014,Bank account or service,0
+2100,Phone,Q2,2016,Debt collection,40
+2101,Web,Q1,2015,Mortgage,0
+2102,Postal mail,Q2,2014,Mortgage,23
+2103,Web,Q3,2015,Mortgage,0
+2104,Web,Q4,2013,Credit card,1
+2105,Web,Q1,2015,Debt collection,0
+2106,Web,Q1,2013,Credit reporting,2
+2107,Web,Q2,2016,Credit reporting,0
+2108,Web,Q1,2015,Student loan,0
+2109,Web,Q1,2014,Debt collection,3
+2110,Web,Q4,2014,Credit card,0
+2111,Web,Q1,2015,Debt collection,0
+2112,Email,Q4,2014,Mortgage,2
+2113,Phone,Q3,2016,Credit card,0
+2114,Web,Q4,2014,Debt collection,0
+2115,Email,Q2,2013,Bank account or service,1
+2116,Email,Q3,2013,Bank account or service,0
+2117,Web,Q4,2014,Bank account or service,0
+2118,Web,Q2,2013,Bank account or service,0
+2119,Web,Q3,2015,Mortgage,0
+2120,Web,Q4,2013,Debt collection,10
+2121,Web,Q3,2013,Credit card,0
+2122,Postal mail,Q1,2016,Money transfers,10
+2123,Web,Q3,2016,Mortgage,0
+2124,Web,Q2,2014,Bank account or service,0
+2125,Email,Q4,2013,Bank account or service,6
+2126,Web,Q3,2016,Debt collection,0
+2127,Email,Q1,2015,Mortgage,6
+2128,Email,Q2,2014,Debt collection,3
+2129,Web,Q2,2015,Mortgage,0
+2130,Web,Q4,2013,Mortgage,0
+2131,Web,Q3,2014,Credit card,0
+2132,Web,Q2,2016,Debt collection,2
+2133,Web,Q4,2014,Mortgage,0
+2134,Web,Q1,2014,Credit card,0
+2135,Web,Q2,2015,Mortgage,0
+2136,Web,Q1,2013,Bank account or service,3
+2137,Web,Q1,2016,Consumer Loan,0
+2138,Web,Q2,2015,Debt collection,0
+2139,Web,Q3,2013,Credit card,0
+2140,Web,Q1,2016,Consumer Loan,0
+2141,Web,Q2,2013,Credit card,1
+2142,Web,Q3,2015,Credit reporting,0
+2143,Postal mail,Q3,2016,Bank account or service,5
+2144,Web,Q1,2016,Bank account or service,0
+2145,Email,Q2,2016,Mortgage,1
+2146,Email,Q2,2013,Consumer Loan,1
+2147,Web,Q3,2015,Credit card,0
+2148,Email,Q4,2013,Mortgage,1
+2149,Web,Q2,2016,Debt collection,0
+2150,Web,Q1,2015,Prepaid card,3
+2151,Web,Q2,2014,Bank account or service,6
+2152,Web,Q1,2014,Consumer Loan,0
+2153,Web,Q4,2015,Credit card,0
+2154,Phone,Q3,2015,Debt collection,4
+2155,Web,Q1,2016,Mortgage,0
+2156,Web,Q2,2013,Mortgage,1
+2157,Web,Q3,2013,Bank account or service,1
+2158,Phone,Q4,2015,Mortgage,0
+2159,Web,Q1,2014,Debt collection,0
+2160,Web,Q3,2016,Credit reporting,0
+2161,Web,Q2,2015,Consumer Loan,0
+2162,Web,Q2,2015,Mortgage,0
+2163,Postal mail,Q4,2014,Credit card,3
+2164,Web,Q2,2013,Student loan,3
+2165,Web,Q2,2014,Mortgage,0
+2166,Web,Q1,2016,Mortgage,0
+2167,Web,Q1,2016,Mortgage,0
+2168,Web,Q1,2015,Credit reporting,0
+2169,Web,Q4,2013,Debt collection,0
+2170,Web,Q3,2016,Credit reporting,0
+2171,Web,Q4,2015,Virtual currency,0
+2172,Email,Q2,2013,Mortgage,1
+2173,Web,Q1,2014,Credit reporting,0
+2174,Web,Q3,2015,Student loan,0
+2175,Web,Q4,2013,Mortgage,0
+2176,Web,Q4,2014,Debt collection,6
+2177,Web,Q3,2014,Debt collection,2
+2178,Email,Q2,2014,Consumer Loan,2
+2179,Phone,Q2,2016,Bank account or service,0
+2180,Web,Q2,2014,Debt collection,0
+2181,Web,Q2,2016,Debt collection,0
+2182,Web,Q4,2014,Student loan,2
+2183,Email,Q4,2014,Credit card,3
+2184,Web,Q1,2013,Credit reporting,0
+2185,Web,Q4,2014,Credit reporting,0
+2186,Web,Q2,2016,Mortgage,0
+2187,Web,Q4,2014,Consumer Loan,0
+2188,Web,Q4,2014,Debt collection,0
+2189,Web,Q3,2015,Credit card,0
+2190,Web,Q3,2014,Consumer Loan,0
+2191,Web,Q1,2014,Debt collection,3
+2192,Web,Q2,2014,Mortgage,0
+2193,Web,Q4,2015,Credit reporting,0
+2194,Web,Q3,2015,Credit card,0
+2195,Email,Q2,2013,Mortgage,2
+2196,Phone,Q3,2016,Credit card,0
+2197,Web,Q4,2015,Mortgage,0
+2198,Web,Q3,2015,Bank account or service,0
+2199,Web,Q3,2016,Bank account or service,0
+2200,Web,Q2,2015,Money transfers,7
+2201,Web,Q3,2016,Mortgage,0
+2202,Phone,Q4,2013,Bank account or service,0
+2203,Web,Q4,2014,Consumer Loan,0
+2204,Web,Q2,2016,Credit reporting,0
+2205,Email,Q3,2016,Debt collection,0
+2206,Email,Q2,2016,Bank account or service,3
+2207,Web,Q3,2015,Debt collection,0
+2208,Web,Q4,2014,Student loan,0
+2209,Email,Q4,2015,Mortgage,3
+2210,Postal mail,Q3,2016,Credit reporting,1
+2211,Web,Q1,2014,Debt collection,0
+2212,Web,Q2,2016,Debt collection,0
+2213,Web,Q2,2014,Debt collection,0
+2214,Web,Q2,2014,Debt collection,0
+2215,Postal mail,Q4,2014,Bank account or service,9
+2216,Web,Q4,2014,Student loan,0
+2217,Web,Q3,2016,Mortgage,0
+2218,Email,Q2,2013,Credit card,9
+2219,Web,Q1,2016,Consumer Loan,0
+2220,Web,Q1,2013,Mortgage,1
+2221,Web,Q3,2013,Mortgage,0
+2222,Web,Q1,2015,Mortgage,0
+2223,Phone,Q1,2014,Mortgage,4
+2224,Web,Q1,2014,Debt collection,41
+2225,Web,Q2,2016,Debt collection,0
+2226,Web,Q2,2015,Credit card,0
+2227,Postal mail,Q3,2016,Bank account or service,2
+2228,Web,Q4,2014,Credit card,0
+2229,Web,Q4,2014,Credit card,0
+2230,Email,Q1,2016,Credit card,1
+2231,Web,Q1,2013,Credit reporting,0
+2232,Web,Q1,2016,Mortgage,3
+2233,Web,Q3,2015,Mortgage,0
+2234,Web,Q3,2016,Credit reporting,0
+2235,Web,Q2,2014,Mortgage,4
+2236,Web,Q1,2016,Payday loan,39
+2237,Web,Q4,2014,Credit reporting,7
+2238,Web,Q1,2016,Consumer Loan,0
+2239,Email,Q3,2014,Credit card,3
+2240,Web,Q1,2014,Bank account or service,0
+2241,Email,Q2,2013,Bank account or service,1
+2242,Web,Q4,2014,Debt collection,0
+2243,Phone,Q4,2014,Mortgage,2
+2244,Web,Q4,2014,Debt collection,0
+2245,Postal mail,Q2,2013,Bank account or service,1
+2246,Web,Q3,2015,Consumer Loan,0
+2247,Web,Q3,2014,Student loan,0
+2248,Web,Q3,2015,Credit card,3
+2249,Web,Q3,2015,Consumer Loan,0
+2250,Web,Q2,2016,Credit reporting,0
+2251,Web,Q2,2016,Mortgage,0
+2252,Web,Q4,2015,Student loan,0
+2253,Web,Q3,2015,Debt collection,0
+2254,Web,Q1,2014,Credit card,0
+2255,Web,Q3,2016,Debt collection,0
+2256,Web,Q3,2015,Mortgage,1
+2257,Web,Q1,2015,Mortgage,0
+2258,Web,Q3,2016,Debt collection,0
+2259,Web,Q1,2013,Credit reporting,0
+2260,Email,Q4,2014,Student loan,3
+2261,Web,Q2,2015,Consumer Loan,0
+2262,Web,Q4,2015,Mortgage,0
+2263,Email,Q2,2014,Mortgage,5
+2264,Email,Q3,2014,Credit card,2
+2265,Web,Q3,2016,Money transfers,0
+2266,Web,Q3,2016,Bank account or service,0
+2267,Web,Q3,2015,Credit card,0
+2268,Phone,Q3,2016,Debt collection,43
+2269,Email,Q3,2014,Debt collection,1
+2270,Email,Q2,2014,Mortgage,3
+2271,Web,Q1,2014,Debt collection,7
+2272,Web,Q2,2013,Money transfers,0
+2273,Web,Q3,2016,Student loan,0
+2274,Web,Q3,2014,Money transfers,0
+2275,Web,Q1,2015,Mortgage,0
+2276,Web,Q3,2016,Bank account or service,0
+2277,Web,Q2,2014,Debt collection,0
+2278,Web,Q3,2014,Credit card,0
+2279,Web,Q1,2016,Credit card,0
+2280,Web,Q2,2015,Credit reporting,0
+2281,Web,Q3,2014,Debt collection,1
+2282,Web,Q3,2015,Mortgage,0
+2283,Web,Q2,2015,Prepaid card,3
+2284,Phone,Q4,2015,Bank account or service,2
+2285,Web,Q1,2015,Debt collection,0
+2286,Email,Q4,2014,Bank account or service,1
+2287,Web,Q3,2014,Debt collection,0
+2288,Web,Q4,2014,Payday loan,0
+2289,Web,Q4,2015,Bank account or service,0
+2290,Phone,Q1,2016,Debt collection,0
+2291,Web,Q2,2015,Consumer Loan,4
+2292,Web,Q4,2013,Debt collection,0
+2293,Web,Q1,2014,Mortgage,0
+2294,Web,Q1,2016,Mortgage,0
+2295,Web,Q2,2016,Credit card,0
+2296,Web,Q1,2016,Credit reporting,0
+2297,Email,Q4,2015,Mortgage,3
+2298,Web,Q4,2015,Mortgage,2
+2299,Web,Q3,2015,Debt collection,0
+2300,Web,Q2,2015,Mortgage,0
+2301,Web,Q4,2014,Debt collection,0
+2302,Web,Q1,2013,Credit card,0
+2303,Web,Q2,2014,Mortgage,0
+2304,Email,Q4,2015,Credit card,2
+2305,Web,Q1,2016,Credit reporting,0
+2306,Web,Q4,2015,Bank account or service,0
+2307,Web,Q2,2016,Bank account or service,0
+2308,Email,Q3,2015,Mortgage,12
+2309,Web,Q3,2015,Credit reporting,0
+2310,Web,Q2,2016,Student loan,0
+2311,Web,Q2,2016,Credit card,0
+2312,Web,Q3,2016,Credit card,0
+2313,Web,Q2,2016,Consumer Loan,1
+2314,Web,Q4,2015,Bank account or service,0
+2315,Web,Q1,2013,Mortgage,4
+2316,Web,Q1,2015,Consumer Loan,0
+2317,Web,Q3,2013,Student loan,3
+2318,Web,Q3,2013,Mortgage,1
+2319,Web,Q3,2015,Consumer Loan,0
+2320,Web,Q2,2015,Money transfers,0
+2321,Web,Q2,2015,Bank account or service,0
+2322,Web,Q2,2015,Credit card,0
+2323,Web,Q4,2014,Credit reporting,0
+2324,Web,Q4,2015,Credit card,0
+2325,Web,Q1,2015,Credit reporting,0
+2326,Web,Q3,2013,Credit card,0
+2327,Email,Q3,2016,Credit card,2
+2328,Web,Q3,2016,Debt collection,0
+2329,Web,Q4,2015,Consumer Loan,0
+2330,Web,Q3,2014,Debt collection,0
+2331,Web,Q3,2015,Mortgage,0
+2332,Email,Q2,2016,Credit card,1
+2333,Web,Q3,2016,Debt collection,0
+2334,Postal mail,Q3,2013,Bank account or service,1
+2335,Web,Q2,2015,Student loan,0
+2336,Web,Q2,2013,Credit card,1
+2337,Web,Q1,2015,Debt collection,0
+2338,Web,Q3,2013,Mortgage,1
+2339,Web,Q4,2015,Mortgage,0
+2340,Web,Q4,2014,Credit reporting,0
+2341,Phone,Q4,2015,Bank account or service,0
+2342,Web,Q3,2016,Credit card,0
+2343,Web,Q2,2016,Credit card,3
+2344,Web,Q1,2016,Mortgage,0
+2345,Web,Q1,2014,Debt collection,0
+2346,Web,Q3,2015,Credit reporting,0
+2347,Phone,Q2,2014,Bank account or service,3
+2348,Web,Q3,2016,Student loan,3
+2349,Email,Q1,2014,Mortgage,4
+2350,Phone,Q2,2015,Debt collection,6
+2351,Web,Q1,2013,Bank account or service,1
+2352,Web,Q4,2015,Consumer Loan,0
+2353,Web,Q3,2015,Debt collection,0
+2354,Web,Q1,2014,Credit card,0
+2355,Web,Q3,2014,Mortgage,5
+2356,Web,Q1,2016,Debt collection,2
+2357,Web,Q1,2013,Credit card,2
+2358,Phone,Q4,2014,Student loan,1
+2359,Web,Q4,2014,Student loan,0
+2360,Web,Q4,2015,Mortgage,0
+2361,Web,Q2,2014,Credit reporting,0
+2362,Email,Q2,2013,Credit card,1
+2363,Email,Q3,2016,Bank account or service,4
+2364,Web,Q2,2014,Mortgage,0
+2365,Web,Q2,2016,Credit card,0
+2366,Web,Q4,2013,Credit reporting,0
+2367,Web,Q2,2016,Debt collection,0
+2368,Web,Q1,2014,Bank account or service,0
+2369,Web,Q1,2014,Debt collection,0
+2370,Web,Q1,2013,Student loan,1
+2371,Web,Q2,2015,Mortgage,0
+2372,Email,Q1,2013,Bank account or service,4
+2373,Web,Q2,2013,Mortgage,1
+2374,Web,Q4,2015,Bank account or service,0
+2375,Web,Q1,2016,Mortgage,0
+2376,Web,Q1,2016,Credit card,0
+2377,Phone,Q4,2013,Bank account or service,1
+2378,Web,Q4,2014,Debt collection,20
+2379,Web,Q2,2015,Debt collection,0
+2380,Web,Q3,2015,Credit card,0
+2381,Web,Q3,2014,Debt collection,0
+2382,Web,Q3,2015,Mortgage,0
+2383,Web,Q2,2014,Mortgage,4
+2384,Email,Q4,2015,Bank account or service,1
+2385,Email,Q4,2013,Mortgage,4
+2386,Web,Q3,2016,Other financial service,1
+2387,Phone,Q3,2016,Bank account or service,0
+2388,Web,Q3,2013,Debt collection,0
+2389,Web,Q4,2016,Mortgage,0
+2390,Email,Q4,2015,Bank account or service,5
+2391,Postal mail,Q1,2016,Consumer Loan,1
+2392,Web,Q2,2016,Bank account or service,0
+2393,Web,Q1,2015,Mortgage,5
+2394,Web,Q3,2016,Bank account or service,0
+2395,Phone,Q2,2015,Mortgage,2
+2396,Web,Q1,2015,Bank account or service,0
+2397,Web,Q3,2013,Credit reporting,0
+2398,Web,Q2,2015,Mortgage,0
+2399,Web,Q1,2015,Credit card,0
+2400,Web,Q1,2015,Mortgage,0
+2401,Web,Q1,2016,Debt collection,0
+2402,Web,Q2,2015,Bank account or service,0
+2403,Web,Q3,2014,Credit reporting,0
+2404,Web,Q3,2013,Consumer Loan,14
+2405,Web,Q3,2016,Mortgage,0
+2406,Web,Q2,2016,Bank account or service,0
+2407,Web,Q2,2015,Mortgage,0
+2408,Web,Q1,2016,Payday loan,5
+2409,Web,Q4,2014,Debt collection,0
+2410,Web,Q2,2016,Bank account or service,0
+2411,Web,Q2,2015,Debt collection,0
+2412,Web,Q4,2013,Mortgage,6
+2413,Web,Q1,2016,Mortgage,0
+2414,Web,Q3,2014,Debt collection,0
+2415,Web,Q1,2014,Mortgage,7
+2416,Web,Q1,2015,Bank account or service,0
+2417,Web,Q3,2015,Prepaid card,0
+2418,Web,Q1,2016,Debt collection,0
+2419,Web,Q1,2015,Debt collection,0
+2420,Web,Q4,2016,Mortgage,0
+2421,Postal mail,Q2,2015,Credit card,0
+2422,Web,Q1,2014,Debt collection,0
+2423,Web,Q1,2015,Bank account or service,0
+2424,Web,Q2,2016,Debt collection,0
+2425,Web,Q2,2014,Debt collection,3
+2426,Web,Q2,2014,Debt collection,0
+2427,Web,Q2,2015,Mortgage,0
+2428,Email,Q1,2015,Mortgage,6
+2429,Phone,Q2,2015,Credit card,2
+2430,Web,Q2,2014,Debt collection,0
+2431,Phone,Q4,2015,Bank account or service,2
+2432,Email,Q2,2015,Debt collection,3
+2433,Web,Q3,2014,Bank account or service,0
+2434,Web,Q3,2016,Student loan,0
+2435,Web,Q3,2014,Debt collection,0
+2436,Web,Q1,2013,Bank account or service,1
+2437,Web,Q3,2013,Debt collection,0
+2438,Web,Q3,2016,Consumer Loan,4
+2439,Web,Q3,2016,Mortgage,0
+2440,Web,Q1,2014,Mortgage,0
+2441,Email,Q2,2013,Bank account or service,3
+2442,Email,Q3,2014,Bank account or service,4
+2443,Phone,Q2,2016,Bank account or service,0
+2444,Web,Q2,2016,Bank account or service,0
+2445,Web,Q3,2013,Mortgage,5
+2446,Web,Q3,2013,Credit reporting,2
+2447,Web,Q4,2015,Consumer Loan,2
+2448,Web,Q2,2015,Money transfers,0
+2449,Postal mail,Q2,2014,Debt collection,2
+2450,Web,Q4,2013,Bank account or service,1
+2451,Web,Q3,2015,Debt collection,5
+2452,Web,Q3,2016,Credit card,0
+2453,Web,Q1,2015,Debt collection,0
+2454,Web,Q2,2016,Bank account or service,2
+2455,Web,Q1,2015,Credit reporting,0
+2456,Web,Q1,2014,Debt collection,0
+2457,Web,Q2,2016,Money transfers,4
+2458,Web,Q2,2016,Mortgage,0
+2459,Web,Q4,2015,Mortgage,0
+2460,Web,Q3,2016,Mortgage,0
+2461,Web,Q2,2016,Credit card,0
+2462,Web,Q4,2015,Credit reporting,0
+2463,Web,Q2,2013,Student loan,1
+2464,Web,Q1,2016,Credit card,0
+2465,Web,Q4,2013,Mortgage,0
+2466,Web,Q1,2015,Credit card,0
+2467,Web,Q4,2015,Bank account or service,0
+2468,Web,Q4,2015,Consumer Loan,0
+2469,Email,Q3,2014,Mortgage,27
+2470,Web,Q4,2014,Debt collection,11
+2471,Web,Q2,2016,Credit reporting,0
+2472,Postal mail,Q4,2015,Consumer Loan,1
+2473,Email,Q1,2016,Bank account or service,1
+2474,Web,Q3,2015,Debt collection,0
+2475,Web,Q4,2016,Mortgage,5
+2476,Web,Q3,2014,Student loan,0
+2477,Web,Q4,2015,Credit reporting,0
+2478,Web,Q3,2016,Credit card,0
+2479,Web,Q3,2014,Credit reporting,0
+2480,Web,Q3,2016,Credit reporting,0
+2481,Web,Q3,2013,Consumer Loan,0
+2482,Phone,Q4,2015,Bank account or service,0
+2483,Web,Q1,2016,Money transfers,0
+2484,Phone,Q1,2013,Bank account or service,1
+2485,Web,Q3,2015,Debt collection,7
+2486,Web,Q1,2016,Debt collection,0
+2487,Web,Q3,2016,Credit card,0
+2488,Email,Q4,2015,Credit card,5
+2489,Phone,Q2,2014,Debt collection,2
+2490,Web,Q1,2014,Consumer Loan,1
+2491,Postal mail,Q4,2014,Debt collection,4
+2492,Web,Q3,2015,Debt collection,0
+2493,Web,Q2,2013,Credit card,0
+2494,Web,Q1,2014,Bank account or service,0
+2495,Web,Q3,2015,Mortgage,0
+2496,Web,Q3,2013,Debt collection,0
+2497,Phone,Q1,2016,Credit card,0
+2498,Web,Q4,2015,Debt collection,0
+2499,Web,Q3,2015,Debt collection,0
+2500,Web,Q1,2014,Credit card,1
+2501,Email,Q1,2016,Bank account or service,3
+2502,Web,Q4,2013,Mortgage,0
+2503,Web,Q3,2016,Debt collection,0
+2504,Web,Q3,2015,Mortgage,0
+2505,Web,Q1,2014,Mortgage,7
+2506,Web,Q4,2015,Credit card,0
+2507,Web,Q4,2014,Debt collection,7
+2508,Web,Q2,2015,Credit card,0
+2509,Web,Q1,2015,Debt collection,0
+2510,Web,Q4,2014,Debt collection,7
+2511,Web,Q1,2015,Debt collection,0
+2512,Web,Q1,2014,Consumer Loan,0
+2513,Web,Q4,2013,Student loan,22
+2514,Web,Q4,2015,Mortgage,0
+2515,Web,Q2,2016,Credit reporting,0
+2516,Email,Q1,2016,Bank account or service,0
+2517,Email,Q2,2016,Debt collection,0
+2518,Web,Q2,2014,Student loan,0
+2519,Web,Q2,2015,Student loan,0
+2520,Web,Q3,2014,Bank account or service,0
+2521,Web,Q3,2016,Bank account or service,2
+2522,Web,Q4,2014,Mortgage,7
+2523,Web,Q3,2013,Mortgage,2
+2524,Web,Q3,2015,Debt collection,0
+2525,Phone,Q3,2015,Debt collection,0
+2526,Web,Q1,2015,Mortgage,0
+2527,Web,Q2,2014,Mortgage,0
+2528,Web,Q1,2016,Mortgage,0
+2529,Web,Q4,2013,Bank account or service,0
+2530,Web,Q2,2014,Consumer Loan,0
+2531,Web,Q1,2016,Debt collection,29
+2532,Web,Q2,2015,Mortgage,0
+2533,Postal mail,Q2,2016,Mortgage,1
+2534,Fax,Q2,2015,Mortgage,3
+2535,Postal mail,Q3,2016,Credit reporting,8
+2536,Phone,Q1,2013,Bank account or service,3
+2537,Web,Q1,2016,Debt collection,0
+2538,Web,Q4,2015,Credit reporting,0
+2539,Email,Q2,2016,Bank account or service,1
+2540,Phone,Q1,2015,Bank account or service,0
+2541,Web,Q1,2015,Debt collection,0
+2542,Email,Q3,2014,Mortgage,2
+2543,Web,Q3,2016,Credit card,0
+2544,Web,Q2,2014,Consumer Loan,0
+2545,Web,Q2,2015,Mortgage,0
+2546,Web,Q4,2013,Bank account or service,11
+2547,Phone,Q3,2015,Bank account or service,3
+2548,Web,Q4,2015,Bank account or service,0
+2549,Web,Q1,2016,Student loan,1
+2550,Phone,Q2,2016,Mortgage,2
+2551,Web,Q1,2013,Mortgage,5
+2552,Web,Q1,2015,Debt collection,9
+2553,Web,Q1,2016,Student loan,0
+2554,Web,Q2,2016,Credit card,1
+2555,Web,Q4,2015,Debt collection,0
+2556,Web,Q2,2015,Student loan,0
+2557,Email,Q4,2015,Credit card,3
+2558,Web,Q1,2013,Credit card,1
+2559,Web,Q1,2015,Bank account or service,0
+2560,Postal mail,Q3,2014,Mortgage,4
+2561,Email,Q3,2014,Debt collection,29
+2562,Web,Q4,2015,Credit card,4
+2563,Web,Q4,2014,Mortgage,0
+2564,Web,Q3,2015,Debt collection,0
+2565,Web,Q1,2013,Credit card,0
+2566,Web,Q1,2014,Debt collection,0
+2567,Email,Q2,2014,Mortgage,2
+2568,Web,Q4,2014,Credit reporting,0
+2569,Fax,Q3,2014,Bank account or service,3
+2570,Web,Q1,2015,Consumer Loan,6
+2571,Web,Q2,2014,Credit reporting,0
+2572,Web,Q3,2015,Debt collection,7
+2573,Phone,Q1,2013,Bank account or service,1
+2574,Web,Q4,2013,Mortgage,0
+2575,Web,Q2,2016,Credit reporting,0
+2576,Web,Q1,2016,Mortgage,0
+2577,Web,Q2,2015,Student loan,0
+2578,Web,Q4,2015,Debt collection,0
+2579,Web,Q3,2014,Debt collection,0
+2580,Web,Q2,2014,Credit card,0
+2581,Web,Q4,2013,Debt collection,0
+2582,Email,Q3,2014,Bank account or service,5
+2583,Web,Q3,2015,Debt collection,0
+2584,Phone,Q4,2015,Bank account or service,1
+2585,Web,Q1,2013,Consumer Loan,0
+2586,Web,Q1,2016,Student loan,0
+2587,Web,Q3,2014,Mortgage,0
+2588,Web,Q1,2014,Credit card,0
+2589,Phone,Q4,2014,Debt collection,6
+2590,Postal mail,Q4,2015,Debt collection,2
+2591,Postal mail,Q2,2016,Bank account or service,2
+2592,Email,Q3,2015,Mortgage,6
+2593,Email,Q2,2016,Mortgage,4
+2594,Web,Q3,2015,Credit card,0
+2595,Web,Q1,2016,Debt collection,0
+2596,Web,Q2,2013,Credit reporting,1
+2597,Web,Q2,2016,Mortgage,2
+2598,Web,Q4,2015,Bank account or service,0
+2599,Email,Q2,2016,Bank account or service,6
+2600,Web,Q2,2016,Mortgage,0
+2601,Web,Q3,2016,Bank account or service,0
+2602,Web,Q1,2015,Debt collection,0
+2603,Web,Q3,2015,Mortgage,0
+2604,Web,Q1,2013,Mortgage,3
+2605,Web,Q2,2016,Credit reporting,0
+2606,Web,Q4,2015,Consumer Loan,0
+2607,Web,Q4,2015,Mortgage,0
+2608,Web,Q3,2013,Credit reporting,0
+2609,Web,Q3,2016,Credit reporting,0
+2610,Web,Q1,2016,Credit card,0
+2611,Web,Q2,2014,Bank account or service,0
+2612,Web,Q4,2015,Debt collection,6
+2613,Web,Q1,2016,Debt collection,0
+2614,Web,Q1,2016,Mortgage,0
+2615,Web,Q3,2014,Consumer Loan,0
+2616,Phone,Q2,2016,Bank account or service,0
+2617,Web,Q2,2016,Mortgage,0
+2618,Web,Q2,2015,Debt collection,0
+2619,Web,Q2,2015,Mortgage,0
+2620,Web,Q3,2014,Debt collection,0
+2621,Web,Q3,2015,Credit card,0
+2622,Web,Q3,2015,Mortgage,0
+2623,Web,Q1,2015,Credit reporting,0
+2624,Web,Q2,2015,Debt collection,2
+2625,Web,Q3,2013,Bank account or service,3
+2626,Email,Q1,2016,Credit card,2
+2627,Web,Q2,2015,Mortgage,0
+2628,Web,Q2,2016,Credit card,0
+2629,Email,Q3,2015,Bank account or service,13
+2630,Web,Q3,2014,Bank account or service,0
+2631,Web,Q2,2015,Credit card,0
+2632,Web,Q3,2013,Credit card,0
+2633,Web,Q2,2014,Debt collection,0
+2634,Web,Q3,2014,Debt collection,0
+2635,Web,Q2,2013,Mortgage,1
+2636,Web,Q4,2015,Debt collection,2
+2637,Web,Q3,2015,Student loan,0
+2638,Web,Q3,2013,Mortgage,2
+2639,Web,Q2,2016,Bank account or service,0
+2640,Web,Q2,2015,Mortgage,0
+2641,Web,Q1,2015,Bank account or service,0
+2642,Web,Q2,2015,Debt collection,0
+2643,Email,Q3,2015,Bank account or service,1
+2644,Web,Q1,2015,Bank account or service,0
+2645,Web,Q2,2015,Debt collection,0
+2646,Web,Q3,2016,Credit card,0
+2647,Web,Q1,2014,Mortgage,0
+2648,Web,Q3,2013,Credit reporting,0
+2649,Web,Q4,2014,Credit card,0
+2650,Web,Q1,2016,Credit reporting,1
+2651,Web,Q2,2016,Mortgage,0
+2652,Web,Q4,2014,Mortgage,0
+2653,Web,Q2,2014,Debt collection,0
+2654,Phone,Q3,2014,Bank account or service,2
+2655,Web,Q3,2016,Bank account or service,0
+2656,Web,Q1,2013,Mortgage,1
+2657,Web,Q4,2013,Debt collection,0
+2658,Web,Q1,2015,Bank account or service,0
+2659,Web,Q1,2015,Debt collection,0
+2660,Phone,Q2,2016,Credit card,0
+2661,Phone,Q3,2015,Mortgage,6
+2662,Web,Q2,2015,Mortgage,0
+2663,Web,Q2,2015,Consumer Loan,1
+2664,Web,Q3,2015,Credit reporting,0
+2665,Web,Q2,2016,Mortgage,0
+2666,Web,Q1,2016,Bank account or service,0
+2667,Web,Q2,2016,Credit card,0
+2668,Web,Q3,2016,Debt collection,0
+2669,Web,Q1,2016,Payday loan,2
+2670,Email,Q2,2016,Mortgage,0
+2671,Web,Q4,2013,Debt collection,0
+2672,Phone,Q4,2014,Student loan,1
+2673,Web,Q2,2016,Debt collection,0
+2674,Web,Q4,2015,Student loan,0
+2675,Email,Q2,2013,Bank account or service,1
+2676,Web,Q3,2016,Debt collection,2
+2677,Web,Q1,2016,Consumer Loan,0
+2678,Web,Q2,2015,Mortgage,2
+2679,Postal mail,Q4,2014,Mortgage,16
+2680,Web,Q1,2016,Bank account or service,0
+2681,Web,Q4,2013,Mortgage,0
+2682,Phone,Q2,2015,Bank account or service,1
+2683,Web,Q3,2015,Credit card,3
+2684,Email,Q1,2016,Mortgage,2
+2685,Web,Q4,2015,Consumer Loan,3
+2686,Web,Q3,2015,Debt collection,2
+2687,Web,Q2,2015,Bank account or service,0
+2688,Postal mail,Q2,2013,Mortgage,1
+2689,Web,Q3,2016,Mortgage,0
+2690,Web,Q4,2013,Consumer Loan,7
+2691,Web,Q2,2013,Credit card,0
+2692,Phone,Q3,2015,Credit card,8
+2693,Web,Q1,2016,Credit card,0
+2694,Web,Q2,2015,Student loan,0
+2695,Web,Q3,2015,Bank account or service,9
+2696,Web,Q1,2016,Mortgage,1
+2697,Phone,Q2,2016,Credit reporting,0
+2698,Web,Q2,2016,Credit reporting,0
+2699,Web,Q2,2014,Consumer Loan,0
+2700,Email,Q4,2014,Bank account or service,4
+2701,Web,Q3,2016,Mortgage,0
+2702,Web,Q1,2015,Debt collection,5
+2703,Web,Q3,2013,Credit card,3
+2704,Web,Q2,2014,Bank account or service,0
+2705,Web,Q4,2015,Credit card,0
+2706,Web,Q1,2015,Debt collection,7
+2707,Web,Q3,2016,Debt collection,0
+2708,Web,Q1,2015,Mortgage,0
+2709,Postal mail,Q1,2014,Credit card,8
+2710,Web,Q1,2014,Credit reporting,0
+2711,Web,Q4,2015,Mortgage,0
+2712,Web,Q3,2015,Credit reporting,0
+2713,Web,Q3,2013,Debt collection,0
+2714,Phone,Q1,2014,Mortgage,3
+2715,Web,Q4,2013,Mortgage,3
+2716,Web,Q1,2013,Credit card,1
+2717,Web,Q1,2014,Debt collection,0
+2718,Web,Q2,2016,Credit reporting,0
+2719,Web,Q1,2016,Bank account or service,0
+2720,Web,Q3,2016,Credit reporting,0
+2721,Web,Q3,2015,Mortgage,0
+2722,Web,Q3,2016,Student loan,0
+2723,Web,Q1,2015,Mortgage,0
+2724,Web,Q3,2016,Mortgage,0
+2725,Web,Q3,2015,Debt collection,0
+2726,Postal mail,Q2,2015,Payday loan,3
+2727,Phone,Q2,2013,Bank account or service,1
+2728,Web,Q1,2013,Credit card,3
+2729,Web,Q2,2015,Mortgage,0
+2730,Phone,Q4,2015,Money transfers,0
+2731,Email,Q4,2013,Mortgage,1
+2732,Email,Q1,2013,Bank account or service,3
+2733,Web,Q2,2015,Debt collection,3
+2734,Web,Q3,2016,Consumer Loan,0
+2735,Email,Q3,2014,Mortgage,41
+2736,Web,Q2,2016,Mortgage,0
+2737,Web,Q2,2014,Bank account or service,0
+2738,Phone,Q3,2014,Bank account or service,3
+2739,Web,Q3,2014,Credit reporting,0
+2740,Web,Q1,2014,Mortgage,0
+2741,Web,Q3,2015,Debt collection,0
+2742,Web,Q3,2015,Mortgage,0
+2743,Email,Q3,2016,Bank account or service,6
+2744,Web,Q1,2013,Mortgage,1
+2745,Web,Q1,2016,Credit reporting,0
+2746,Web,Q1,2015,Debt collection,0
+2747,Web,Q2,2016,Credit card,0
+2748,Web,Q2,2016,Bank account or service,0
+2749,Email,Q1,2015,Bank account or service,2
+2750,Postal mail,Q1,2016,Bank account or service,8
+2751,Web,Q3,2013,Mortgage,0
+2752,Web,Q2,2013,Credit card,0
+2753,Email,Q4,2014,Bank account or service,5
+2754,Web,Q1,2013,Mortgage,1
+2755,Web,Q2,2016,Bank account or service,0
+2756,Phone,Q3,2013,Debt collection,1
+2757,Web,Q4,2015,Bank account or service,0
+2758,Web,Q1,2015,Bank account or service,0
+2759,Phone,Q1,2016,Bank account or service,0
+2760,Web,Q1,2015,Credit card,0
+2761,Web,Q3,2015,Debt collection,7
+2762,Web,Q2,2013,Mortgage,2
+2763,Web,Q4,2013,Bank account or service,0
+2764,Web,Q1,2014,Mortgage,0
+2765,Web,Q4,2015,Mortgage,0
+2766,Web,Q2,2014,Consumer Loan,0
+2767,Web,Q2,2016,Mortgage,0
+2768,Email,Q4,2014,Bank account or service,6
+2769,Web,Q4,2014,Mortgage,0
+2770,Email,Q1,2016,Mortgage,3
+2771,Web,Q4,2015,Credit card,6
+2772,Phone,Q2,2014,Student loan,2
+2773,Web,Q4,2014,Bank account or service,4
+2774,Web,Q2,2016,Bank account or service,0
+2775,Phone,Q3,2015,Debt collection,3
+2776,Web,Q2,2015,Credit reporting,0
+2777,Web,Q3,2013,Consumer Loan,3
+2778,Phone,Q1,2016,Bank account or service,1
+2779,Web,Q3,2016,Credit reporting,0
+2780,Web,Q3,2015,Bank account or service,0
+2781,Web,Q1,2014,Mortgage,0
+2782,Web,Q2,2014,Mortgage,0
+2783,Web,Q4,2015,Bank account or service,0
+2784,Email,Q1,2016,Credit card,1
+2785,Web,Q3,2016,Credit card,0
+2786,Web,Q1,2014,Debt collection,6
+2787,Web,Q2,2013,Mortgage,4
+2788,Web,Q3,2016,Debt collection,0
+2789,Web,Q4,2014,Debt collection,0
+2790,Postal mail,Q3,2014,Mortgage,5
+2791,Web,Q4,2014,Debt collection,0
+2792,Email,Q1,2014,Mortgage,6
+2793,Web,Q1,2014,Mortgage,2
+2794,Email,Q2,2016,Bank account or service,4
+2795,Web,Q3,2013,Bank account or service,1
+2796,Phone,Q1,2016,Debt collection,3
+2797,Phone,Q1,2015,Student loan,1
+2798,Web,Q3,2015,Bank account or service,0
+2799,Web,Q3,2015,Credit reporting,0
+2800,Postal mail,Q3,2015,Debt collection,5

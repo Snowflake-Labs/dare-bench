@@ -1,0 +1,158 @@
+{
+    "question": {
+        "target": [
+            "Time to Certify (days)"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date Received",
+        "time_format": "%m/%d/%Y",
+        "is_resampled": true,
+        "related_features": [
+            "Country",
+            "Continent",
+            "Review Advisory Committee",
+            "Device Classification"
+        ],
+        "not_filtered_related_features": [
+            "Continent"
+        ],
+        "selected_features": [
+            "Continent"
+        ],
+        "expected_ranges": {
+            "Continent": [
+                "North America",
+                "Europe",
+                "Asia",
+                "South America",
+                "Oceania"
+            ]
+        },
+        "column_type_inference": {
+            "Unnamed: 0": "numeric",
+            "De Novo Number": "object",
+            "Link": "object",
+            "Date Received": "object",
+            "Decision Date": "object",
+            "Time to Certify (days)": "numeric",
+            "Time to Certify (months)": "numeric",
+            "Manufacturer": "object",
+            "Device Classification": "object",
+            "Review Advisory Committee": "object",
+            "bicode": "object",
+            "Country": "object",
+            "Continent": "object"
+        },
+        "train_save_file": "./waszabbyryugami_fda-medical-device-with-de-novo-certification_ts/source/train.csv",
+        "val_v1_save_file": "./waszabbyryugami_fda-medical-device-with-de-novo-certification_ts/source/val_v1.csv",
+        "val_v2_save_file": "./waszabbyryugami_fda-medical-device-with-de-novo-certification_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./waszabbyryugami_fda-medical-device-with-de-novo-certification_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./waszabbyryugami_fda-medical-device-with-de-novo-certification_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./waszabbyryugami_fda-medical-device-with-de-novo-certification_ts/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 13,
+        "model_type": "Prophet",
+        "output_file": "./waszabbyryugami_fda-medical-device-with-de-novo-certification_ts/prediction.json",
+        "ground_truth_v1_file": "./waszabbyryugami_fda-medical-device-with-de-novo-certification_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./waszabbyryugami_fda-medical-device-with-de-novo-certification_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./waszabbyryugami_fda-medical-device-with-de-novo-certification_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2023-09-19 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 6803492,
+        "ref": "waszabbyryugami/fda-medical-device-with-de-novo-certification",
+        "subtitle": "Extracted information on medical devices certified between 1998 and end of 2024",
+        "creatorName": "Yoann Attar",
+        "creatorUrl": "waszabbyryugami",
+        "totalBytes": 36039,
+        "url": "https://www.kaggle.com/datasets/waszabbyryugami/fda-medical-device-with-de-novo-certification",
+        "lastUpdated": "2025-03-06T11:03:43.000Z",
+        "downloadCount": 27,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Yoann Attar",
+        "ownerRef": "waszabbyryugami",
+        "kernelCount": 1,
+        "title": "FDA Medical device with De Novo certification",
+        "viewCount": 154,
+        "currentVersionNumber": 3,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "healthcare",
+                "name": "healthcare",
+                "description": "AI in healthcare is a growing interest. One of the major problems is simply converting research into an application. Should be easy, right?",
+                "fullPath": "subject > health and fitness > health > healthcare",
+                "competitionCount": 26,
+                "datasetCount": 2131,
+                "scriptCount": 1942,
+                "totalCount": 4099
+            },
+            {
+                "ref": "health",
+                "name": "health",
+                "description": "Consider the health tag your data science gym. Get in there and work out those data science muscles on health analytics. Analyze heart disease until you sweat. Then recover with with a nice candy production dataset.",
+                "fullPath": "subject > health and fitness > health",
+                "competitionCount": 402,
+                "datasetCount": 23200,
+                "scriptCount": 8160,
+                "totalCount": 31762
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6803492,
+        "datasetSlug": "fda-medical-device-with-de-novo-certification",
+        "ownerUser": "waszabbyryugami",
+        "usabilityRating": 1.0,
+        "totalViews": 136,
+        "totalDownloads": 23,
+        "title": "FDA Medical device with De Novo certification",
+        "subtitle": "Extracted information on medical devices certified between 1998 and end of 2024",
+        "description": "## Context:\n\nThis database contains information on medical devices that were certified by the Food and Drug Administration (FDA) between 01/01/1998 and 01/01/2025 following the De Novo pathway.\nDe Novo pathway means that the device has no substantial equivalent already certified on the market. This means that the manufacturer had to build the legal file for the device from scratch. You can find more information on the matter on: https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/de-novo-classification-request.\n\n## Column descriptions:\n\n- De Novo Number: unique identifier for the device.\n- Link: Link to the details of the medical device. (Site from which the row's information was extracted from.\n- Date Received: Date when the FDA received the De Novo certification request from the manufacturer. Format: dd/mm/yyyy.\n- Decision Date: Date when the FDA accepted the certification of the device. Format: dd/mm/yyyy.\n- Time to Certify (days): Time it took for the device to be certified in days (time between Date Received and Decision Date, calculated during the extraction of the data).\n- Time to Certify (months): Time it took for the device to be certified in months.\n- Manufacturer: Name and full address of the manufacturer of the device.\n- Device Classification:  Precise identification name for the device. Contains a brief description of the device. \"Device Classification Name\" in the database. \n- Review Advisory Committee: Area of expertise of the review advisory committee. Gives information on the primary domain in which the device operates.\n- Bicode: Extracted bicode from the manufacturer address.\n- Country: Country of origin of the manufacturer. (Information extrapolated from the Bicode column).\n- Continent: Continent of origin of the manufacturer. (Information extrapolated from the Bicode column).\n\n## Provenance:\n\nThis dataset was extracted following this code: https://www.kaggle.com/code/waszabbyryugami/fda-de-novo-scrapper.\nAll the information was found on the database for medical devices that were certified to be sold on the market by the FDA following the De Novo certification pathway. \nSince the most common way of certification for medical devices in the US is the 510(k) pathway, I could not find the De Novo database on the https://open.fda.gov/data/downloads/ website. That is why this data was extracted by scrapping the official database. \n\n## Potential improvements of the database:\n\nMore information can be extracted from the De Novo database by going through the link of the device. If one manages to find how to extract the ID linked to the device, there are more information that can be accessible through https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?id=id_of_the_device.\nSuch information would be: Definition (a more in-depth description of the device), Physical state, Technical method, Target area and Device class.\n\n\n=== About this file ===\n\nAbout this file\ncsv file with the data.\n\n\n=== Columns & descriptions ===\n\n: Index\nDe Novo Number: unique identifier for the device.\nLink: Link to the details of the medical device. (Site from which the row's information was extracted from.\nDate Received: Date when the FDA received the De Novo certification request from the manufacturer. Format: dd/mm/yyyy.\nDecision Date: Date when the FDA accepted the certification of the device. Format: dd/mm/yyyy.\nTime to Certify (days): Time it took for the device to be certified in days (time between Date Received and Decision Date, calculated during the extraction of the data).\nTime to Certify (months): Time it took for the device to be certified in months.\nManufacturer: Name and full address of the manufacturer of the device.\nDevice Classification: Precise identification name for the device. Contains a brief description of the device. \"Device Classification Name\" in the database.\nReview Advisory Committee: Area of expertise of the review advisory committee. Gives information on the primary domain in which the device operates.\nbicode: Extracted bicode from the manufacturer address.\nCountry: Country of origin of the manufacturer. (Information extrapolated from the Bicode column).\nContinent: Continent of origin of the manufacturer. (Information extrapolated from the Bicode column).\n",
+        "keywords": [
+            "healthcare",
+            "health",
+            "exploratory data analysis",
+            "time series analysis"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

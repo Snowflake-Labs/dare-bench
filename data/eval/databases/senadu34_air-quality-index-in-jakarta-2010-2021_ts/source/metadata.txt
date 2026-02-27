@@ -1,0 +1,40 @@
+## Description
+This dataset contains the Air Quality Index (AQI) or Indeks Standar Pencemaran Udara (ISPU) measured from 5 air quality monitoring stations (SPKU) in DKI Jakarta from January 2010 to February 2025. This data is sourced from [Satu Data Jakarta](https://satudata.jakarta.go.id/search?q=ispu&halaman=all&kategori=dataset&topik=all&organisasi=all&status=all&sort=desc&page_no=1&show_filter=true&lang=id).
+
+## File description
+In this dataset, there are 2 types of files:
+- **ispu_dki*x***: This file represents the AQI measurement results from each monitoring station. The **“x”** is the station sequence number. This file contains measurements from **January 2010 to February 2025 (except 2022)**.
+- **ispu_dki_all**: This file is the combined results of AQI measurements from each station where the highest AQI will represent Jakarta's air quality on that day. This file contains measurement results from **January 2010 to February 2025**.
+
+## Explanation of variables
+1. tanggal : The date when the AQI measurement was recorded.
+2. stasiun : The name or identifier of the monitoring station where the measurement was taken.
+3. pm25 : The concentration of particulate matter with a diameter of 2.5 micrometers or less (PM2.5), measured in micrograms per cubic meter (µg/m³).
+4. pm10 : The concentration of particulate matter with a diameter of 10 micrometers or less (PM10), measured in micrograms per cubic meter (µg/m³).
+5. so2 : The concentration of sulfur dioxide (SO2), measured in parts per million (ppm).
+6. co : The concentration of carbon monoxide (CO), measured in parts per million (ppm).
+7. o3 : The concentration of ozone (O3), measured in parts per million (ppm).
+8. no2 : The concentration of nitrogen dioxide (NO2), measured in parts per million (ppm).
+9. max : The maximum value recorded among the pollutants for that particular date and station. This value represents the highest concentration among PM25, PM10, SO2, CO, O3, and NO2.
+10. critical: The pollutant that had the highest concentration for that date and station.
+11. category : The air quality category based on the 'max' value that describes the air quality level.
+
+=== About this file ===
+
+About this file
+This file contains the daily Air Quality Index from Stasiun DKI 1 Bundaran HI (Bundaran HI Station)
+
+
+=== Columns & descriptions ===
+
+tanggal: The date when the AQI measurement was recorded
+stasiun: The name or identifier of the monitoring station where the measurement was taken
+pm25: The concentration of particulate matter with a diameter of 2.5 micrometers or less (PM2.5), measured in micrograms per cubic meter (µg/m³)
+pm10: The concentration of particulate matter with a diameter of 10 micrometers or less (PM10), measured in micrograms per cubic meter (µg/m³)
+so2: The concentration of sulfur dioxide (SO2), measured in parts per million (ppm)
+co: The concentration of carbon monoxide (CO), measured in parts per million (ppm)
+o3: The concentration of ozone (O3), measured in parts per million (ppm)
+no2: The concentration of nitrogen dioxide (NO2), measured in parts per million (ppm)
+max: The pollutant that had the highest concentration for that date and station
+critical: The pollutant that had the highest concentration for that date and station
+categori: The air quality category based on the 'max' value. It describes the air quality level

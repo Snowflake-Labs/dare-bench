@@ -1,0 +1,249 @@
+{
+    "question": {
+        "target": [
+            "Demand"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "Store ID",
+            "Product ID",
+            "Category",
+            "Region",
+            "Inventory Level",
+            "Units Sold",
+            "Units Ordered",
+            "Price",
+            "Discount",
+            "Weather Condition",
+            "Promotion",
+            "Competitor Pricing",
+            "Seasonality",
+            "Epidemic"
+        ],
+        "not_filtered_related_features": [
+            "Store ID",
+            "Category",
+            "Region",
+            "Inventory Level",
+            "Units Sold",
+            "Units Ordered",
+            "Price",
+            "Discount",
+            "Weather Condition",
+            "Competitor Pricing",
+            "Seasonality"
+        ],
+        "selected_features": [
+            "Units Sold",
+            "Weather Condition",
+            "Discount",
+            "Competitor Pricing",
+            "Region",
+            "Inventory Level",
+            "Units Ordered"
+        ],
+        "expected_ranges": {
+            "Store ID": [
+                "S001",
+                "S002",
+                "S003",
+                "S004",
+                "S005"
+            ],
+            "Category": [
+                "Electronics",
+                "Clothing",
+                "Groceries",
+                "Toys",
+                "Furniture"
+            ],
+            "Region": [
+                "North",
+                "South",
+                "East",
+                "West"
+            ],
+            "Inventory Level": [
+                0,
+                2267
+            ],
+            "Units Sold": [
+                0,
+                426
+            ],
+            "Units Ordered": [
+                0,
+                1616
+            ],
+            "Price": [
+                4.74,
+                228.03
+            ],
+            "Discount": [
+                0,
+                25
+            ],
+            "Weather Condition": [
+                "Snowy",
+                "Cloudy",
+                "Sunny",
+                "Rainy"
+            ],
+            "Competitor Pricing": [
+                4.29,
+                261.22
+            ],
+            "Seasonality": [
+                "Winter",
+                "Spring",
+                "Summer",
+                "Autumn"
+            ]
+        },
+        "column_type_inference": {
+            "Date": "object",
+            "Store ID": "object",
+            "Product ID": "object",
+            "Category": "object",
+            "Region": "object",
+            "Inventory Level": "numeric",
+            "Units Sold": "numeric",
+            "Units Ordered": "numeric",
+            "Price": "numeric",
+            "Discount": "numeric",
+            "Weather Condition": "object",
+            "Promotion": "numeric",
+            "Competitor Pricing": "numeric",
+            "Seasonality": "object",
+            "Epidemic": "numeric",
+            "Demand": "numeric"
+        },
+        "train_save_file": "./atomicd_retail-store-inventory-and-demand-forecasting_ts/source/train.csv",
+        "val_v1_save_file": "./atomicd_retail-store-inventory-and-demand-forecasting_ts/source/val_v1.csv",
+        "val_v2_save_file": "./atomicd_retail-store-inventory-and-demand-forecasting_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./atomicd_retail-store-inventory-and-demand-forecasting_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./atomicd_retail-store-inventory-and-demand-forecasting_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./atomicd_retail-store-inventory-and-demand-forecasting_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 34,
+        "model_type": "Prophet",
+        "output_file": "./atomicd_retail-store-inventory-and-demand-forecasting_ts/prediction.json",
+        "ground_truth_v1_file": "./atomicd_retail-store-inventory-and-demand-forecasting_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./atomicd_retail-store-inventory-and-demand-forecasting_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./atomicd_retail-store-inventory-and-demand-forecasting_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2023-11-16 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7386309,
+        "ref": "atomicd/retail-store-inventory-and-demand-forecasting",
+        "subtitle": "A synthetic dataset for inventory and demand forecasting.",
+        "creatorName": "Wavelet",
+        "creatorUrl": "atomicd",
+        "totalBytes": 1424032,
+        "url": "https://www.kaggle.com/datasets/atomicd/retail-store-inventory-and-demand-forecasting",
+        "lastUpdated": "2025-05-21T10:51:54.783Z",
+        "downloadCount": 5014,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Wavelet",
+        "ownerRef": "atomicd",
+        "kernelCount": 20,
+        "title": "Retail Store Inventory and Demand Forecasting",
+        "viewCount": 17577,
+        "voteCount": 45,
+        "currentVersionNumber": 8,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "linear regression",
+                "name": "linear regression",
+                "description": "",
+                "fullPath": "task > linear regression",
+                "competitionCount": 11,
+                "datasetCount": 850,
+                "scriptCount": 5938,
+                "totalCount": 6799
+            },
+            {
+                "ref": "retail and shopping",
+                "name": "retail and shopping",
+                "description": "",
+                "fullPath": "subject > people and society > people > retail and shopping",
+                "competitionCount": 6,
+                "datasetCount": 12258,
+                "scriptCount": 588,
+                "totalCount": 12852
+            },
+            {
+                "ref": "synthetic",
+                "name": "synthetic",
+                "description": "",
+                "fullPath": "data type > synthetic",
+                "competitionCount": 8,
+                "datasetCount": 510,
+                "scriptCount": 70,
+                "totalCount": 588
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7386309,
+        "datasetSlug": "retail-store-inventory-and-demand-forecasting",
+        "ownerUser": "atomicd",
+        "usabilityRating": 1.0,
+        "totalViews": 15809,
+        "totalVotes": 45,
+        "totalDownloads": 4612,
+        "title": "Retail Store Inventory and Demand Forecasting",
+        "subtitle": "A synthetic dataset for inventory and demand forecasting.",
+        "description": "This dataset follows the format of the [Retail Store Inventory Forecasting Dataset](https://www.kaggle.com/datasets/anirudhchauhan/retail-store-inventory-forecasting-datasetl) and corrects mislabeled entries such as store and product IDs. Additionally, it includes an **Epidemic** feature to simulate retail conditions during the COVID-19 pandemic period, enhancing the realism and practical value of the data. These improvements are aimed at making the dataset more suitable for **time series forecasting** tasks.\n\n---\n\n* **Date**: Date of the record.\n* **Store ID**: Unique identifier for the store.\n* **Product ID**: Unique identifier for the product.\n* **Category**: Product category.\n* **Region**: Geographical region of the store.\n* **Inventory Level**: Units available in stock.\n* **Units Sold**: Units sold on that day.\n* **Units Ordered**: Units ordered for restocking.\n* **Price**: Product price.\n* **Discount**: Discount applied, if any.\n* **Weather Condition**: Weather on the day of the record.\n* **Promotion**: `1` if there was a promotion, `0` otherwise.\n* **Competitor Pricing**: Price of a similar product from a competitor.\n* **Seasonality**: Season (e.g., Winter, Spring).\n* **Epidemic**: `1` if an epidemic occurred, `0` otherwise.\n* **Demand**: Daily estimated demand for the product\n\n=== About this file ===\n\nAbout this file\nRetail Store Inventory and Demand Forecasting\n\n\n=== Columns & descriptions ===\n\nDate: Date of the record\nStore ID: Unique identifier for the store\nProduct ID: Unique identifier for the product\nCategory: Product category\nRegion: Geographical region of the store\nInventory Level: [no description]\nUnits Sold: [no description]\nUnits Ordered: [no description]\nPrice: [no description]\nDiscount: [no description]\nWeather Condition: [no description]\nPromotion: [no description]\nCompetitor Pricing: [no description]\nSeasonality: [no description]\nEpidemic: [no description]\nDemand: [no description]\n",
+        "keywords": [
+            "business",
+            "time series analysis",
+            "linear regression",
+            "retail and shopping",
+            "synthetic"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

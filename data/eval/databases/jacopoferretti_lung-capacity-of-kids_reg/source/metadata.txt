@@ -1,0 +1,17 @@
+The dataset provides information on the lung capacity of children and kids between 3 and 19 y.o. plus other features, including the gender, height, smoking habits ... This dataset can be used to do either a regression or a statistical analysis (or both). It is also interesting to find out what are the effects of smoking on the lung capacity.
+
+=== About this file ===
+
+About this file
+Lung capacity vs other features
+
+
+=== Columns & descriptions ===
+
+: row number
+LungCap: lung capacity
+Age: age of the kid
+Height: kid's height
+Smoke: does he/she smoke?
+Gender: male or female
+Caesarean: born by caesarean: yes or no

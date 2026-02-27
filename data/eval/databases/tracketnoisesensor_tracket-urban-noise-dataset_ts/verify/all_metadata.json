@@ -1,0 +1,172 @@
+{
+    "question": {
+        "target": [
+            "mean"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "timestamp",
+        "time_format": "%Y-%m-%dT%H:%M:%S%z",
+        "is_resampled": false,
+        "related_features": [
+            "min",
+            "max"
+        ],
+        "not_filtered_related_features": [
+            "min",
+            "max"
+        ],
+        "selected_features": [
+            "max",
+            "min"
+        ],
+        "expected_ranges": {
+            "min": [
+                56,
+                85
+            ],
+            "max": [
+                67,
+                108
+            ]
+        },
+        "column_type_inference": {
+            "timestamp": "object",
+            "min": "numeric",
+            "max": "numeric",
+            "mean": "numeric"
+        },
+        "train_save_file": "./tracketnoisesensor_tracket-urban-noise-dataset_ts/source/train.csv",
+        "val_v1_save_file": "./tracketnoisesensor_tracket-urban-noise-dataset_ts/source/val_v1.csv",
+        "val_v2_save_file": "./tracketnoisesensor_tracket-urban-noise-dataset_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./tracketnoisesensor_tracket-urban-noise-dataset_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./tracketnoisesensor_tracket-urban-noise-dataset_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./tracketnoisesensor_tracket-urban-noise-dataset_ts/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 46,
+        "model_type": "Prophet",
+        "output_file": "./tracketnoisesensor_tracket-urban-noise-dataset_ts/prediction.json",
+        "ground_truth_v1_file": "./tracketnoisesensor_tracket-urban-noise-dataset_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./tracketnoisesensor_tracket-urban-noise-dataset_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./tracketnoisesensor_tracket-urban-noise-dataset_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2025-06-07 20:58:15-04:00",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 7328266,
+        "ref": "tracketnoisesensor/tracket-urban-noise-dataset",
+        "subtitle": "Live IoT sensor data on urban noise levels",
+        "creatorName": "tRacket",
+        "creatorUrl": "tracketnoisesensor",
+        "totalBytes": 531921,
+        "url": "https://www.kaggle.com/datasets/tracketnoisesensor/tracket-urban-noise-dataset",
+        "lastUpdated": "2025-08-17T20:57:54.567Z",
+        "downloadCount": 12,
+        "licenseName": "CC BY-NC-SA 4.0",
+        "description": "",
+        "ownerName": "tRacket",
+        "ownerRef": "tracketnoisesensor",
+        "kernelCount": 1,
+        "title": "tRacket Urban Noise Dataset",
+        "viewCount": 102,
+        "currentVersionNumber": 20,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "cities and urban areas",
+                "name": "cities and urban areas",
+                "description": "In this tag you will find datasets and kernels about various cities around the world.",
+                "fullPath": "subject > earth and nature > environment > cities and urban areas",
+                "competitionCount": 10,
+                "datasetCount": 979,
+                "scriptCount": 212,
+                "totalCount": 1201
+            },
+            {
+                "ref": "environment",
+                "name": "environment",
+                "description": "The environment tag is chock full of datasets and kernels that are generally showing how poorly we are treating the planet. One positive side to this tag is that it wasn't printed on paper.",
+                "fullPath": "subject > earth and nature > environment",
+                "competitionCount": 24,
+                "datasetCount": 1605,
+                "scriptCount": 612,
+                "totalCount": 2241
+            },
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "outlier analysis",
+                "name": "outlier analysis",
+                "description": "",
+                "fullPath": "technique > outlier analysis",
+                "competitionCount": 7,
+                "datasetCount": 102,
+                "scriptCount": 719,
+                "totalCount": 828
+            },
+            {
+                "ref": "data storytelling",
+                "name": "data storytelling",
+                "description": "",
+                "fullPath": "technique > data storytelling",
+                "competitionCount": 2,
+                "datasetCount": 1033,
+                "scriptCount": 1613,
+                "totalCount": 2648
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7328266,
+        "datasetSlug": "tracket-urban-noise-dataset",
+        "ownerUser": "tracketnoisesensor",
+        "usabilityRating": 1.0,
+        "totalViews": 67,
+        "totalDownloads": 3,
+        "title": "tRacket Urban Noise Dataset",
+        "subtitle": "Live IoT sensor data on urban noise levels",
+        "description": "# tRacket Noise Data\n\nThis dataset is a 3-month snapshot of data collected by tRacket noise sensors in various urban locations. The data set is great for visual story telling, time series analysis, forecasting, or outlier detection.\n\n## Description\n\nThe IoT sensors send data at 5-minute granularity, capturing minimum, maximum and average noise levels over the log periods in dBA units. Each sensor is at a fixed location, please see the `locations.csv` file for approximate lat/lon coordinates. \n\nWe set the dataset to update weekly, loading the most recent 3 months worth of data for all sensors that recorded any data in the period.\n\n## More Data & Updates\n\nPlease check the source notebook below - you can load data for other time periods yourself by rerunning the notebook with different parameters.\n\nThe data can be explored here on Kaggle or using the tRacket dashboard at https://dashboard.tracket.info/locations\n\n## More Info\n\nPlease find more info about the tRacket project & sensors below and feel free to contribute:\n\nProject Website: https://tracket.info/\nGithub: https://github.com/CivicTechTO/tRacket-directory-START-HERE\n",
+        "keywords": [
+            "cities and urban areas",
+            "environment",
+            "business",
+            "time series analysis",
+            "outlier analysis",
+            "data storytelling"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-NC-SA-4.0"
+            }
+        ]
+    }
+}

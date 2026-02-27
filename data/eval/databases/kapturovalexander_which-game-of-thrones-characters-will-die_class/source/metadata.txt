@@ -1,0 +1,64 @@
+## ℹ️ Dataset Description:
+# This dataset contains information about characters from the universe of *Game of Thrones* and aims to predict whether a character will die or survive.
+
+### 🪶 Features:
+
+- **name**: Character's name
+- **Title**: Social status or nobility title
+- **House**: House to which the character belongs
+- **Culture**: Social group associated with the character
+- **book1/2/3/4/5**: Indicator of the character's appearance in each book
+- **Is noble**: Nobility status based on title
+- **Age**: Character's age (year reference: 305 AC)
+- **male**: Gender of the character (1 = Male, 0 = Female)
+- **dateOfBirth**: Character's birth year
+- **Spouse**: Name of the character's spouse
+- **Father**: Name of the character's father
+- **Mother**: Name of the character's mother
+- **Heir**: Name of the character's heir
+- **Is married**: Whether the character is married (1 = Yes, 0 = No)
+- **Is spouse alive**: Whether the character's spouse is alive (1 = Yes, 0 = No)
+- **Is mother alive**: Whether the character's mother is alive (1 = Yes, 0 = No)
+- **Is heir alive**: Whether the character's heir is alive (1 = Yes, 0 = No)
+- **Is father alive**: Whether the character's father is alive (1 = Yes, 0 = No)
+- **Number dead relations**: Number of known deceased relations of the character
+- **Popularity score**: Number of internal incoming and outgoing links to the character's wiki page ([source](http://awoiaf.westeros.org))
+
+### 🏹 Target Variable:
+- **isAlive**: Indicates whether the character is alive in the book (1 = Alive, 0 = Deceased)
+
+![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F10074224%2Fc229a55bd09f6a84b9301fe26fb53002%2F2025-02-17%20134618.png?generation=1739789485381676&alt=media)
+
+=== About this file ===
+
+About this file
+This dataset contains information about characters from the universe of Game of Thrones and aims to predict whether a character will die or survive.
+
+
+=== Columns & descriptions ===
+
+S.No: [no description]
+name: Character's name
+title: Social status or nobility title
+male: Gender of the character (1 = Male, 0 = Female)
+culture: Social group associated with the character
+dateOfBirth: Character's birth year
+mother: Name of the character's mother
+father: Name of the character's father
+heir: Name of the character's heir
+house: [no description]
+spouse: [no description]
+book1: [no description]
+book2: [no description]
+book3: [no description]
+book4: [no description]
+book5: [no description]
+isAliveMother: [no description]
+isAliveFather: [no description]
+isAliveHeir: [no description]
+isAliveSpouse: [no description]
+isMarried: [no description]
+isNoble: [no description]
+age: [no description]
+numDeadRelations: [no description]
+popularity: [no description]

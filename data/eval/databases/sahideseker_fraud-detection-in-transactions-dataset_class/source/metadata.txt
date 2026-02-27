@@ -1,0 +1,37 @@
+**🇬🇧 English:**
+
+This dataset contains 1,000 synthetic financial transactions designed for fraud detection experiments. Each record includes transaction amount, merchant category, device type, and a binary label indicating whether the transaction is fraudulent. Only 5% of transactions are marked as fraud to reflect a real-world class imbalance.
+
+**Use this dataset to:**
+
+- Train fraud detection models with class imbalance
+- Apply techniques like XGBoost, SMOTE, or Isolation Forest
+- Explore anomaly detection and fraud pattern analysis
+
+---
+
+**🇹🇷 Türkçe:**
+
+Bu sentetik veri seti, dolandırıcılık tespiti çalışmalarına uygun olacak şekilde oluşturulmuştur. Toplamda 1.000 işlem bilgisi içerir ve her işlem, tutar, satıcı türü, cihaz türü gibi alanlarla birlikte gelir. Yalnızca %5 oranında işlem dolandırıcılık olarak işaretlenmiştir.
+
+**Bu veri setiyle:**
+
+- Dengesiz veri kümelerinde sınıflandırma yapılabilir
+- SMOTE, XGBoost, Isolation Forest gibi algoritmalar uygulanabilir
+- Anomali tespiti ve sahtekarlık analizleri gerçekleştirilebilir
+
+
+
+=== About this file ===
+
+About this file
+This file includes 1,000 synthetic transactions, including 5% fraudulent cases. Created to simulate real-world fraud detection scenarios using machine learning.
+
+
+=== Columns & descriptions ===
+
+transaction_id: Unique identifier for each transaction
+amount: Transaction amount in USD
+merchant_type: Type of merchant (e.g., groceries, travel)
+device_type: Device used for the transaction
+label: 1 = Fraudulent, 0 = Normal

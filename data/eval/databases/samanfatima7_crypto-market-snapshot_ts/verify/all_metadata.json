@@ -1,0 +1,188 @@
+{
+    "question": {
+        "target": [
+            "current_price"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "timestamp",
+        "time_format": "%Y-%m-%dT%H:%M:%S.%f",
+        "is_resampled": true,
+        "related_features": [
+            "market_cap",
+            "total_volume",
+            "high_24h",
+            "low_24h",
+            "price_change_percentage_24h"
+        ],
+        "not_filtered_related_features": [
+            "market_cap",
+            "total_volume",
+            "high_24h",
+            "low_24h",
+            "price_change_percentage_24h"
+        ],
+        "selected_features": [
+            "low_24h",
+            "market_cap",
+            "total_volume"
+        ],
+        "expected_ranges": {
+            "market_cap": [
+                243182834,
+                2098476006498
+            ],
+            "total_volume": [
+                0.0,
+                31044062866.0
+            ],
+            "high_24h": [
+                4.1633e-07,
+                106326.0
+            ],
+            "low_24h": [
+                4.12934e-07,
+                104004.0
+            ],
+            "price_change_percentage_24h": [
+                -7.5577,
+                14.32874
+            ]
+        },
+        "column_type_inference": {
+            "timestamp": "object",
+            "id": "object",
+            "symbol": "object",
+            "name": "object",
+            "current_price": "numeric",
+            "market_cap": "numeric",
+            "total_volume": "numeric",
+            "high_24h": "numeric",
+            "low_24h": "numeric",
+            "price_change_percentage_24h": "numeric"
+        },
+        "train_save_file": "./samanfatima7_crypto-market-snapshot_ts/source/train.csv",
+        "val_v1_save_file": "./samanfatima7_crypto-market-snapshot_ts/source/val_v1.csv",
+        "val_v2_save_file": "./samanfatima7_crypto-market-snapshot_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./samanfatima7_crypto-market-snapshot_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./samanfatima7_crypto-market-snapshot_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./samanfatima7_crypto-market-snapshot_ts/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 39,
+        "model_type": "Prophet",
+        "output_file": "./samanfatima7_crypto-market-snapshot_ts/prediction.json",
+        "ground_truth_v1_file": "./samanfatima7_crypto-market-snapshot_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./samanfatima7_crypto-market-snapshot_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./samanfatima7_crypto-market-snapshot_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2025-06-20 07:46:19.048487",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7703899,
+        "ref": "samanfatima7/crypto-market-snapshot",
+        "subtitle": "\ud83d\ude80 One-Hour Crypto Market Snapshot \u2014 70K+ Live Ticks from Top 250 Coins!",
+        "creatorName": "Saman Fatima",
+        "creatorUrl": "samanfatima7",
+        "totalBytes": 576824,
+        "url": "https://www.kaggle.com/datasets/samanfatima7/crypto-market-snapshot",
+        "lastUpdated": "2025-06-20T11:00:52.000Z",
+        "downloadCount": 97,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Saman Fatima",
+        "ownerRef": "samanfatima7",
+        "kernelCount": 3,
+        "title": "\ud83e\ude99\ud83d\udcb8Latest Crypto Market Snapshot",
+        "viewCount": 714,
+        "voteCount": 13,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "investing",
+                "name": "investing",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > investing",
+                "competitionCount": 5,
+                "datasetCount": 11998,
+                "scriptCount": 18559,
+                "totalCount": 30562
+            },
+            {
+                "ref": "currencies and foreign exchange",
+                "name": "currencies and foreign exchange",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > currencies and foreign exchange",
+                "competitionCount": 3,
+                "datasetCount": 6932,
+                "scriptCount": 2007,
+                "totalCount": 8942
+            },
+            {
+                "ref": "datetime",
+                "name": "datetime",
+                "description": "",
+                "fullPath": "packages > datetime",
+                "competitionCount": 1,
+                "datasetCount": 286,
+                "scriptCount": 676,
+                "totalCount": 963
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7703899,
+        "datasetSlug": "crypto-market-snapshot",
+        "ownerUser": "samanfatima7",
+        "usabilityRating": 1.0,
+        "totalViews": 596,
+        "totalVotes": 9,
+        "totalDownloads": 81,
+        "title": "\ud83e\ude99\ud83d\udcb8Latest Crypto Market Snapshot",
+        "subtitle": "\ud83d\ude80 One-Hour Crypto Market Snapshot \u2014 70K+ Live Ticks from Top 250 Coins!",
+        "description": "## \ud83d\ude80 Title: **One-Hour High-Frequency Crypto Snapshot \u2013 Top\u202f250 Coins, ~75K Ticks**\n\n### \ud83d\udcdd Overview\nThis dataset captures **live market snapshots every 12 seconds** for the **top 250 cryptocurrencies**, all fetched over a **one-hour period** using the CoinGecko Demo API. Perfect for real-time trend tracking, volatility analysis, and comparison across major coins.\n\n---\n\n### \ud83d\udcca Schema Summary\n\n| **Column**                      | **Type**     | **Description**                                           |\n|--------------------------------|--------------|-----------------------------------------------------------|\n| `timestamp`                    | datetime     | UTC timestamp of the market snapshot (ISO format)         |\n| `id`                           | string       | CoinGecko ID (e.g., `bitcoin`)                           |\n| `symbol`                       | string       | Coin symbol (e.g., `btc`)                                |\n| `name`                         | string       | Coin name (e.g., `Bitcoin`)                              |\n| `current_price`                | float (USD)  | Real-time price in USD                                   |\n| `market_cap`                   | float (USD)  | Market capitalization in USD                             |\n| `total_volume`                 | float (USD)  | 24-hour trading volume                                   |\n| `high_24h`                     | float (USD)  | Highest price in the last 24 hours                       |\n| `low_24h`                      | float (USD)  | Lowest price in the last 24 hours                        |\n| `price_change_percentage_24h`  | float (%)    | Percent change in price over the past 24 hours           |\n\n---\n\n### \ud83c\udfaf Use Cases\n\n- Visualize **real-time price evolution** for Bitcoin, Ethereum, and other major coins\n- Compute **rolling averages** and **short-term volatility**\n- Perform **coin-to-coin comparisons** (price dynamics, volume trends)\n- Explore **volume-price correlations**, and flag **anomaly detection**\n- Build **heatmaps**, **live dashboards**, or **time-series models**\n\n---\n\n### \ud83d\udccc Attribution & Licensing\n\n&gt; Data collected via CoinGecko API\u2014**Data powered by CoinGecko**  \n\n---\n\n\n=== About this file ===\n\nAbout this file\nA one-hour, high-frequency dataset capturing ~75,000 live ticks of real-time market data for the top 250 cryptocurrencies, sampled every 12 seconds via the CoinGecko API. Each entry includes timestamped price, volume, market cap, 24-hour high/low, and percent price change\u2014perfect for time-series analysis, trend detection, volatility measurement, and comparative studies. (Data powered by CoinGecko API.)\n\n\n=== Columns & descriptions ===\n\ntimestamp: 2025-06-20 2025-06-20\nid: id\nsymbol: symbol\nname: name\ncurrent_price: current_price\nmarket_cap: market_cap\ntotal_volume: total_volume\nhigh_24h: high_24\nlow_24h: low_24h\nprice_change_percentage_24h: price_change_percentage_24h\n",
+        "keywords": [
+            "business",
+            "time series analysis",
+            "investing",
+            "currencies and foreign exchange",
+            "datetime"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

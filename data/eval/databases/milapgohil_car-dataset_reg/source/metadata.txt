@@ -1,0 +1,47 @@
+This dataset provides a comprehensive view of the **used car market in India**, offering detailed records of car listings across brands, fuel types, transmission modes, and price points. It is **ideal for performing regression modeling, trend analysis, and automotive market exploration.**
+
+Each row represents a single car listed for sale, and includes relevant attributes such as the brand, model, variant, manufacturing year, fuel type, transmission, ownership history, kilometers driven, location, seller type, and the actual selling price.
+
+-------
+
+# **🔍 Key Features:**
+- Cleaned and preprocessed for ML-readiness
+- Includes realistic brand-model-variant combinations
+- Reflects regional and brand-based price variations across Indian states
+- Designed to support price prediction, resale value analysis, and EDA
+
+-------
+
+# **📈 Example use cases:**
+- Building regression models to predict car prices
+- Evaluating the effect of brand, ownership, and city on pricing
+- Exploring how fuel type or kilometers driven impact car value
+- Visualizing trends across different states and car types
+
+-------
+
+## **Consider Upvoting if you like it 🙌🏻**
+
+=== About this file ===
+
+About this file
+Filename: Car Sell Dataset.csv
+Format: CSV (UTF-8 encoded)
+Rows: 140904
+Columns: 12
+
+
+=== Columns & descriptions ===
+
+Brand: The manufacturer of the car (e.g., Mahindra, Skoda, Maruti Suzuki)
+Model Name: The name of the specific model (e.g., Alto, Dzire, Grand i10)
+Model Variant: The trim or variant level (e.g., Magna, AX5, Style, Z)
+Car Type: Type of car body (e.g., SUV, Sedan, Hatchback)
+Transmission: Gearbox type: either Manual or Automatic
+Fuel Type: Type of fuel the car uses: Petrol, Diesel, CNG, etc.
+Year: Manufacturing year of the vehicle
+Kilometers: Total distance the car has been driven, in kilometers
+Owner: Ownership status (e.g., 1st, 2nd, 3rd+) indicating how many previous owners
+State: ndian state where the vehicle is registered/listed
+Accidental: Indicates whether the vehicle has had an accident (Yes or No)
+Price: Selling price of the car in Indian Rupees (INR)

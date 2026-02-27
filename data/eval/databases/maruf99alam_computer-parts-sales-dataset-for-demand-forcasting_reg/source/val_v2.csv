@@ -1,0 +1,13 @@
+row_id,Date,Part,Region
+1,2025-06-20,GPU,Khulna
+2,2025-06-17,GPU,Khulna
+3,2025-06-16,Cooling Fan,Chattogram
+4,2025-06-27,HDD,Dhaka
+5,2025-06-05,HDD,Chattogram
+6,2025-06-13,Power Supply,Dhaka
+7,2025-07-08,RAM,Dhaka
+8,2025-06-28,RAM,Dhaka
+9,2025-07-10,HDD,Rajshahi
+10,2025-06-07,Power Supply,Rajshahi
+11,2025-06-26,HDD,Khulna
+12,2025-06-10,GPU,Rajshahi

@@ -1,0 +1,190 @@
+{
+    "question": {
+        "target": [
+            "FloodOccurrence"
+        ],
+        "target_candidates": [
+            "FloodOccurrence"
+        ],
+        "related_features": [
+            "Rainfall_mm",
+            "Elevation_m",
+            "SoilMoisture_pct",
+            "Location",
+            "WaterLevel_m"
+        ],
+        "not_filtered_related_features": [
+            "Rainfall_mm",
+            "Elevation_m",
+            "SoilMoisture_pct",
+            "Location",
+            "WaterLevel_m"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Rainfall_mm": [
+                0.0,
+                53.0
+            ],
+            "Elevation_m": [
+                5,
+                43
+            ],
+            "SoilMoisture_pct": [
+                5.0,
+                40.0
+            ],
+            "Location": [
+                "Quezon City",
+                "Marikina",
+                "Manila",
+                "Pasig"
+            ],
+            "WaterLevel_m": [
+                0.0,
+                7.0
+            ]
+        },
+        "selected_features": [
+            "Location",
+            "SoilMoisture_pct",
+            "Elevation_m"
+        ],
+        "train_v2_save_file": "./denvermagtibay_metro-manila-flood-prediction-20162020-daily_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./denvermagtibay_metro-manila-flood-prediction-20162020-daily_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./denvermagtibay_metro-manila-flood-prediction-20162020-daily_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./denvermagtibay_metro-manila-flood-prediction-20162020-daily_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./denvermagtibay_metro-manila-flood-prediction-20162020-daily_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.7,
+        "save_file_type": "sqlite",
+        "imputer_type": "median",
+        "random_state": 91,
+        "model_type": "LogisticRegression",
+        "output_file": "./denvermagtibay_metro-manila-flood-prediction-20162020-daily_class/prediction.csv",
+        "ground_truth_file": "./denvermagtibay_metro-manila-flood-prediction-20162020-daily_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./denvermagtibay_metro-manila-flood-prediction-20162020-daily_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Date": "categorical",
+            "Location": "categorical",
+            "Rainfall_mm": "numerical",
+            "WaterLevel_m": "numerical",
+            "SoilMoisture_pct": "numerical",
+            "Elevation_m": "numerical",
+            "FloodOccurrence": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "SoilMoisture_pct",
+            "Elevation_m"
+        ],
+        "categorical_features": [
+            "Location"
+        ]
+    },
+    "data_info": {
+        "id": 7916570,
+        "ref": "denvermagtibay/metro-manila-flood-prediction-20162020-daily",
+        "subtitle": "A 5-year daily dataset to help predict the next flood before it strikes.",
+        "creatorName": "Denver Magtibay",
+        "creatorUrl": "denvermagtibay",
+        "totalBytes": 58768,
+        "url": "https://www.kaggle.com/datasets/denvermagtibay/metro-manila-flood-prediction-20162020-daily",
+        "lastUpdated": "2025-07-22T03:18:21.307Z",
+        "downloadCount": 146,
+        "licenseName": "Attribution 4.0 International (CC BY 4.0)",
+        "description": "",
+        "ownerName": "Denver Magtibay",
+        "ownerRef": "denvermagtibay",
+        "kernelCount": 2,
+        "title": "Metro Manila Flood Prediction (2016\u20132020, Daily)",
+        "viewCount": 342,
+        "voteCount": 4,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "asia",
+                "name": "asia",
+                "description": "Asia is Earth's largest and most populous continent, located primarily in the Eastern and Northern Hemispheres.",
+                "fullPath": "geography and places > asia",
+                "competitionCount": 4,
+                "datasetCount": 1228,
+                "scriptCount": 193,
+                "totalCount": 1425
+            },
+            {
+                "ref": "weather and climate",
+                "name": "weather and climate",
+                "description": "Weather datasets and kernels come in all wind speeds and directions. You have weather data about hurricanes and other inclement phenomena, hourly readings, and general weather for various cities.",
+                "fullPath": "subject > earth and nature > environment > weather and climate",
+                "competitionCount": 42,
+                "datasetCount": 1439,
+                "scriptCount": 667,
+                "totalCount": 2148
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "binary classification",
+                "name": "binary classification",
+                "description": "",
+                "fullPath": "task > binary-classification",
+                "competitionCount": 11364,
+                "datasetCount": 1560,
+                "scriptCount": 7641,
+                "totalCount": 20565
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7916570,
+        "datasetSlug": "metro-manila-flood-prediction-20162020-daily",
+        "ownerUser": "denvermagtibay",
+        "usabilityRating": 1.0,
+        "totalViews": 35,
+        "totalVotes": 1,
+        "totalDownloads": 15,
+        "title": "Metro Manila Flood Prediction (2016\u20132020, Daily)",
+        "subtitle": "A 5-year daily dataset to help predict the next flood before it strikes.",
+        "description": "This dataset is a daily time-series compilation from 2016 to 2020 designed to support flood prediction modeling in Metro Manila (NCR), Philippines \u2014 one of the most flood-prone megacities in Southeast Asia.\n\nIt integrates rainfall, river water levels, and soil moisture, along with static geographic features like elevation. The target variable FloodOccurrence is labeled using science-based thresholds derived from PAGASA advisories, Marikina River flood alarm levels, and hydrological research on urban flooding.\n\n=== About this file ===\n\nAbout this file\nThis CSV file contains daily flood-related data from 2016 to 2020 for four major cities in Metro Manila: Quezon City, Marikina, Pasig, and Manila. Each row represents one day of environmental observations for a specific city, including:\nRainfall (mm)\nRiver Water Level (m)\nSoil Moisture (%)\nElevation (m)\nFloodOccurrence (0 or 1)\nFlood events are labeled based on rainfall \u2265 30 mm or river level \u2265 10 m, allowing the file to be used for supervised machine learning, early warning systems, or urban flood risk analysis.\n\n\n=== Columns & descriptions ===\n\nDate: Daily timestamp from 2016\u20132020\nLocation: One of four NCR cities \u2014 Quezon City, Marikina, Pasig, or Manila\nRainfall_mm: Total rainfall per day (mm)\nWaterLevel_m: River stage at the nearest monitoring station (m)\nSoilMoisture_pct: Surface soil moisture estimate from satellite sources (%)\nElevation_m: Static elevation above sea level (m)\nFloodOccurrence: Binary indicator (1 = flood occurred, 0 = no flood), labeled using expert-informed criteria\n",
+        "keywords": [
+            "asia",
+            "weather and climate",
+            "beginner",
+            "classification",
+            "binary classification"
+        ],
+        "licenses": [
+            {
+                "name": "Attribution 4.0 International (CC BY 4.0)"
+            }
+        ]
+    }
+}

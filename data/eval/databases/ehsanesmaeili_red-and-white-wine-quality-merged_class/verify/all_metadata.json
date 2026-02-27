@@ -1,0 +1,223 @@
+{
+    "question": {
+        "target": [
+            "type"
+        ],
+        "target_candidates": [
+            "type"
+        ],
+        "related_features": [
+            "total sulfur dioxide",
+            "volatile acidity",
+            "sulphates",
+            "residual sugar",
+            "citric acid",
+            "chlorides",
+            "alcohol",
+            "density",
+            "pH",
+            "fixed acidity",
+            "free sulfur dioxide",
+            "quality"
+        ],
+        "not_filtered_related_features": [
+            "volatile acidity",
+            "total sulfur dioxide",
+            "sulphates",
+            "residual sugar",
+            "citric acid",
+            "chlorides",
+            "alcohol",
+            "density",
+            "pH",
+            "fixed acidity",
+            "free sulfur dioxide",
+            "quality"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "volatile acidity": [
+                0.0,
+                2.0
+            ],
+            "total sulfur dioxide": [
+                6.0,
+                440.0
+            ],
+            "sulphates": [
+                0.0,
+                2.0
+            ],
+            "residual sugar": [
+                0.0,
+                66.0
+            ],
+            "citric acid": [
+                0.0,
+                2.0
+            ],
+            "chlorides": [
+                0.0,
+                1.0
+            ],
+            "alcohol": [
+                8.0,
+                15.0
+            ],
+            "density": [
+                0.0,
+                2.0
+            ],
+            "pH": [
+                2.0,
+                5.0
+            ],
+            "fixed acidity": [
+                3.0,
+                16.0
+            ],
+            "free sulfur dioxide": [
+                1.0,
+                289.0
+            ],
+            "quality": [
+                3,
+                9
+            ]
+        },
+        "selected_features": [
+            "density",
+            "residual sugar",
+            "total sulfur dioxide",
+            "sulphates",
+            "alcohol",
+            "citric acid",
+            "fixed acidity",
+            "quality"
+        ],
+        "train_v2_save_file": "./ehsanesmaeili_red-and-white-wine-quality-merged_class/source/train_v2.parquet",
+        "val_v2_save_file": "./ehsanesmaeili_red-and-white-wine-quality-merged_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./ehsanesmaeili_red-and-white-wine-quality-merged_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./ehsanesmaeili_red-and-white-wine-quality-merged_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./ehsanesmaeili_red-and-white-wine-quality-merged_class/source/train_v1.parquet",
+        "train_test_ratio": 0.9,
+        "save_file_type": "parquet",
+        "imputer_type": "mean",
+        "random_state": 44,
+        "model_type": "GaussianNB",
+        "output_file": "./ehsanesmaeili_red-and-white-wine-quality-merged_class/prediction.csv",
+        "ground_truth_file": "./ehsanesmaeili_red-and-white-wine-quality-merged_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./ehsanesmaeili_red-and-white-wine-quality-merged_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "fixed acidity": "numerical",
+            "volatile acidity": "numerical",
+            "citric acid": "numerical",
+            "residual sugar": "numerical",
+            "chlorides": "numerical",
+            "free sulfur dioxide": "numerical",
+            "total sulfur dioxide": "numerical",
+            "density": "numerical",
+            "pH": "numerical",
+            "sulphates": "numerical",
+            "alcohol": "numerical",
+            "quality": "numerical",
+            "type": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "density",
+            "residual sugar",
+            "total sulfur dioxide",
+            "sulphates",
+            "alcohol",
+            "citric acid",
+            "fixed acidity",
+            "quality"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 8062515,
+        "ref": "ehsanesmaeili/red-and-white-wine-quality-merged",
+        "subtitle": "A Combined Dataset of Red and White Wine Characteristics for Type Classification",
+        "creatorName": "Ehsan Esmaeili",
+        "creatorUrl": "ehsanesmaeili",
+        "totalBytes": 102351,
+        "url": "https://www.kaggle.com/datasets/ehsanesmaeili/red-and-white-wine-quality-merged",
+        "lastUpdated": "2025-08-13T12:14:13.000Z",
+        "downloadCount": 124,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Ehsan Esmaeili",
+        "ownerRef": "ehsanesmaeili",
+        "kernelCount": 2,
+        "title": "Wine Type Classification Dataset",
+        "viewCount": 548,
+        "voteCount": 38,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "alcohol",
+                "name": "alcohol",
+                "description": "Here's to alcohol: the cause of, and solution to, all of life's problems. -- Homer J. Simpson",
+                "fullPath": "subject > health and fitness > food > alcohol",
+                "competitionCount": 1,
+                "datasetCount": 3221,
+                "scriptCount": 12730,
+                "totalCount": 15952
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 8062515,
+        "datasetSlug": "red-and-white-wine-quality-merged",
+        "ownerUser": "ehsanesmaeili",
+        "usabilityRating": 1.0,
+        "totalViews": 549,
+        "totalVotes": 38,
+        "totalDownloads": 125,
+        "title": "Wine Type Classification Dataset",
+        "subtitle": "A Combined Dataset of Red and White Wine Characteristics for Type Classification",
+        "description": "The Wine Type Classification Dataset contains 6,497 samples of red and white wines, with 13 features describing their chemical properties and quality. The dataset is designed for tasks such as wine type classification (red or white) and quality prediction. Each sample includes the following features:\n\nfixed acidity: Fixed acidity level of the wine\nvolatile acidity: Volatile acidity level of the wine\ncitric acid: Citric acid content\nresidual sugar: Amount of residual sugar\nchlorides: Chloride content\nfree sulfur dioxide: Free sulfur dioxide level\ntotal sulfur dioxide: Total sulfur dioxide level\ndensity: Density of the wine\npH: pH level of the wine\nsulphates: Sulphate content\nalcohol: Alcohol percentage\nquality: Wine quality score (numerical)\ntype: Wine type (Red or White)\n\nThis dataset is ideal for machine learning tasks such as binary classification (predicting wine type), regression (predicting quality), or exploratory data analysis to uncover relationships between chemical properties and wine characteristics. It combines data from red and white wine datasets, making it a versatile resource for researchers, data scientists, and wine enthusiasts.\n\nThis data set is a combined version of the two separate files (distinct red and white wine data sets) originally shared in the UCI Machine Learning Repository.\n\n=== About this file ===\n\nAbout this file\nThis dataset contains 6,497 samples of red and white wines, with 13 features describing their chemical properties and quality.\n\n\n=== Columns & descriptions ===\n\nfixed acidity: The amount of acetic acid in wine\nvolatile acidity: The amount of acetic acid in wine\ncitric acid: The amount of citric acid in wine\nresidual sugar: The amount of sugar remaining after fermentation s\nchlorides: The amount of chloride in the wine\nfree sulfur dioxide: The amount of free sulfur dioxide in the wine\ntotal sulfur dioxide: The amount of total sulfur dioxide in the wine\ndensity: The density of water is close to that of water depending on the percent alcohol and sugar content\npH: Describes how acidic or basic a wine is on a scale from 0 (very acidic) to 14 (very basic); most wines are between 3-4 on the\nsulphates: A wine additive which can contribute to sulfur dioxide gas (S02) levels, wich acts as an antimicrobial and\nalcohol: [no description]\nquality: [no description]\ntype: [no description]\n",
+        "keywords": [
+            "alcohol",
+            "beginner",
+            "classification"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

@@ -1,0 +1,205 @@
+{
+    "question": {
+        "target": [
+            "Unemployment"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "REF_DATE",
+        "time_format": "%Y-%m",
+        "is_resampled": false,
+        "related_features": [
+            "Employment",
+            "Full-time employment",
+            "Labour force",
+            "Part-time employment",
+            "Population",
+            "Employment rate",
+            "Participation rate"
+        ],
+        "not_filtered_related_features": [
+            "Employment",
+            "Full-time employment",
+            "Labour force",
+            "Part-time employment",
+            "Population",
+            "Employment rate",
+            "Participation rate"
+        ],
+        "selected_features": [
+            "Full-time employment",
+            "Labour force",
+            "Employment",
+            "Employment rate",
+            "Part-time employment"
+        ],
+        "expected_ranges": {
+            "Employment": [
+                5000.0,
+                20032300.0
+            ],
+            "Full-time employment": [
+                4100.0,
+                16437000.0
+            ],
+            "Labour force": [
+                5700.0,
+                21078300.0
+            ],
+            "Part-time employment": [
+                500.0,
+                3677100.0
+            ],
+            "Population": [
+                17700.0,
+                32070400.0
+            ],
+            "Employment rate": [
+                11.6,
+                87.8
+            ],
+            "Participation rate": [
+                13.9,
+                91.6
+            ]
+        },
+        "column_type_inference": {
+            "REF_DATE": "object",
+            "GEO": "object",
+            "Sex": "object",
+            "Age group": "object",
+            "Employment": "numeric",
+            "Full-time employment": "numeric",
+            "Labour force": "numeric",
+            "Part-time employment": "numeric",
+            "Population": "numeric",
+            "Unemployment": "numeric",
+            "Employment rate": "numeric",
+            "Participation rate": "numeric",
+            "Unemployment rate": "numeric"
+        },
+        "train_save_file": "./pienik_unemployment-in-canada-by-province-1976-present_ts/source/train.csv",
+        "val_v1_save_file": "./pienik_unemployment-in-canada-by-province-1976-present_ts/source/val_v1.csv",
+        "val_v2_save_file": "./pienik_unemployment-in-canada-by-province-1976-present_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./pienik_unemployment-in-canada-by-province-1976-present_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./pienik_unemployment-in-canada-by-province-1976-present_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./pienik_unemployment-in-canada-by-province-1976-present_ts/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 40,
+        "model_type": "Prophet",
+        "output_file": "./pienik_unemployment-in-canada-by-province-1976-present_ts/prediction.json",
+        "ground_truth_v1_file": "./pienik_unemployment-in-canada-by-province-1976-present_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./pienik_unemployment-in-canada-by-province-1976-present_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./pienik_unemployment-in-canada-by-province-1976-present_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2008-12-01 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 3076326,
+        "ref": "pienik/unemployment-in-canada-by-province-1976-present",
+        "subtitle": "Labor Force Statistics in Canada, by Province (1976-Present)",
+        "creatorName": "Nik",
+        "creatorUrl": "pienik",
+        "totalBytes": 1017180,
+        "url": "https://www.kaggle.com/datasets/pienik/unemployment-in-canada-by-province-1976-present",
+        "lastUpdated": "2025-08-18T06:01:53.913Z",
+        "downloadCount": 1287,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Nik",
+        "ownerRef": "pienik",
+        "kernelCount": 3,
+        "title": "Unemployment in Canada, by Province (1976-Present)",
+        "viewCount": 5835,
+        "voteCount": 12,
+        "currentVersionNumber": 29,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "employment",
+                "name": "employment",
+                "description": "Where does it pay to attend college? What impacts employee satisfaction and what makes them quit their jobs? Explore these questions and others in kernels and datasets with this tag.",
+                "fullPath": "subject > people and society > jobs and career > employment",
+                "competitionCount": 1,
+                "datasetCount": 703,
+                "scriptCount": 262,
+                "totalCount": 966
+            },
+            {
+                "ref": "social science",
+                "name": "social science",
+                "description": "Social science is the collection of disciplines studying how humans interact with each other.",
+                "fullPath": "subject > people and society > social science",
+                "competitionCount": 3,
+                "datasetCount": 9541,
+                "scriptCount": 803,
+                "totalCount": 10347
+            },
+            {
+                "ref": "economics",
+                "name": "economics",
+                "description": "The economics tag contains resources for analyzing the production, consumption, and transfer of wealth.",
+                "fullPath": "subject > people and society > social science > economics",
+                "competitionCount": 3,
+                "datasetCount": 3842,
+                "scriptCount": 844,
+                "totalCount": 4689
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "canada",
+                "name": "canada",
+                "description": "",
+                "fullPath": "geography and places > north america > canada",
+                "competitionCount": 6,
+                "datasetCount": 259,
+                "scriptCount": 98,
+                "totalCount": 363
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 3076326,
+        "datasetSlug": "unemployment-in-canada-by-province-1976-present",
+        "ownerUser": "pienik",
+        "usabilityRating": 1.0,
+        "totalViews": 5749,
+        "totalVotes": 12,
+        "totalDownloads": 1268,
+        "title": "Unemployment in Canada, by Province (1976-Present)",
+        "subtitle": "Labor Force Statistics in Canada, by Province (1976-Present)",
+        "description": "# Unemployment in Canada, by Province (1976-Present)\nIn this dataset, you can access **monthly labor market statistics**, such as **unemployment numbers and percentages** from 1976 to the present.\n\nThe data is broken out by:\n- Canada and its provinces (not including territories)\n- Provides numbers and percentages\n- Suppresses some values due to privacy\n\nThe data are compiled by month, making it a much more accessible version than the one available at a month-by-month level from the Statistics Canada website.\n\n## Dimensions\nThe following dimensions are available:\n- **REF_DATE:**The reference period (by year, month)\n- **GEO:** The geographic area\n- **Sex:** The sex being investigated\n- **Age group:** The age group of the economic measure\n- **Employment:** Number of persons who, during the reference week, worked for pay or profit, or performed unpaid family work or had a job but were not at work due to own illness or disability, personal or family responsibilities, labour dispute, vacation, or other reason.\n- **Full-time employment:** Full-time employment consists of persons who usually work 30 hours or more per week at their main or only job.\n- **Labour force:** Number of civilian, non-institutionalized persons 15 years of age and over who, during the reference week, were employed or unemployed.\n- **Part-time employment:** Part-time employment consists of persons who usually work less than 30 hours per week at their main or only job. \nPart-time employment consists of persons who usually work less than 30 hours per week at their main or only job. \n- **Population:** Number of persons of working age, 15 years and over.\n- **Unemployment:** Number of persons who, during the reference week, were without work, had looked for work in the past four weeks, and were available for work. Those persons on layoff or who had a new job to start in four weeks or less are considered unemployed.\n- **Employment rate:** The employment rate is the number of persons employed expressed as a percentage of the population 15 years of age and over. \n- **Participation rate:** The participation rate is the number of labour force participants expressed as a percentage of the population 15 years of age and over. \n- **Unemployment rate:** The unemployment rate is the number of unemployed persons expressed as a percentage of the labour force. \n\n## Source\n[Table 14-10-0287-03  Labour force characteristics by province, monthly, seasonally adjusted](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410028703)\n\n=== About this file ===\n\nAbout this file\nRemote source:\nhttps://raw.githubusercontent.com/datagy/data/main/Unemployment_Canada_1976_present.csv\nIn this dataset, you can access\nmonthly labor market statistics\n, such as\nunemployment numbers and percentages\nfrom 1976 to the present.\n\n\n=== Columns & descriptions ===\n\nREF_DATE: The reference period (by year, month)\nGEO: The geographic area\nSex: The sex being investigated\nAge group: The age group of the economic measure\nEmployment: Number of persons who, during the reference week, worked for pay or profit, or performed unpaid family work or had a job but were not at work due to own illness or disability, personal or family responsibilities, labour dispute, vacation, or other reason.\nFull-time employment: Full-time employment consists of persons who usually work 30 hours or more per week at their main or only job.\nLabour force: Number of civilian, non-institutionalized persons 15 years of age and over who, during the reference week, were employed or unemployed.\nPart-time employment: Part-time employment consists of persons who usually work less than 30 hours per week at their main or only job.\nPopulation: Number of persons of working age, 15 years and over.\nUnemployment: Number of persons who, during the reference week, were without work, had looked for work in the past four weeks, and were available for work. Those persons on layoff or who had a new job to start in four weeks or less are considered unemployed.\nEmployment rate: The employment rate is the number of persons employed expressed as a percentage of the population 15 years of age and over.\nParticipation rate: The participation rate is the number of labour force participants expressed as a percentage of the population 15 years of age and over.\nUnemployment rate: The unemployment rate is the number of unemployed persons expressed as a percentage of the labour force.\n",
+        "keywords": [
+            "employment",
+            "social science",
+            "economics",
+            "time series analysis",
+            "canada"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

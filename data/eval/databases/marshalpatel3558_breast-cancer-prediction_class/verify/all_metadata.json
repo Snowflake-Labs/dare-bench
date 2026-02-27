@@ -1,0 +1,277 @@
+{
+    "question": {
+        "target": [
+            "Status"
+        ],
+        "target_candidates": [
+            "Status"
+        ],
+        "related_features": [
+            "Reginol Node Positive",
+            "Age",
+            "Marital Status",
+            "Tumor Size",
+            "Estrogen Status",
+            "Regional Node Examined",
+            "Grade",
+            "A Stage",
+            "6th Stage",
+            "Progesterone Status",
+            "differentiate",
+            "T Stage",
+            "Race",
+            "N Stage"
+        ],
+        "not_filtered_related_features": [
+            "Reginol Node Positive",
+            "Age",
+            "Tumor Size",
+            "Estrogen Status",
+            "Regional Node Examined",
+            "differentiate",
+            "Grade",
+            "A Stage",
+            "6th Stage",
+            "Progesterone Status",
+            "Marital Status",
+            "T Stage",
+            "Race",
+            "N Stage"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Reginol Node Positive": [
+                1,
+                46
+            ],
+            "Age": [
+                30,
+                69
+            ],
+            "Tumor Size": [
+                1,
+                140
+            ],
+            "Estrogen Status": [
+                "Positive",
+                "Negative"
+            ],
+            "Regional Node Examined": [
+                1,
+                61
+            ],
+            "differentiate": [
+                "Poorly differentiated",
+                "Moderately differentiated",
+                "Well differentiated",
+                "Undifferentiated"
+            ],
+            "Grade": [
+                "3",
+                "2",
+                "1",
+                "anaplastic; Grade IV"
+            ],
+            "A Stage": [
+                "Regional",
+                "Distant"
+            ],
+            "6th Stage": [
+                "IIA",
+                "IIIA",
+                "IIIC",
+                "IIB",
+                "IIIB"
+            ],
+            "Progesterone Status": [
+                "Positive",
+                "Negative"
+            ],
+            "Marital Status": [
+                "Married",
+                "Divorced",
+                "Single",
+                "Widowed",
+                "Separated"
+            ],
+            "T Stage": [
+                "T1",
+                "T2",
+                "T3",
+                "T4"
+            ],
+            "Race": [
+                "White",
+                "Black",
+                "Other"
+            ],
+            "N Stage": [
+                "N1",
+                "N2",
+                "N3"
+            ]
+        },
+        "selected_features": [
+            "Progesterone Status",
+            "Marital Status",
+            "A Stage",
+            "Grade",
+            "differentiate",
+            "Regional Node Examined",
+            "Race",
+            "Reginol Node Positive",
+            "Estrogen Status"
+        ],
+        "train_v2_save_file": "./marshalpatel3558_breast-cancer-prediction_class/source/train_v2.parquet",
+        "val_v2_save_file": "./marshalpatel3558_breast-cancer-prediction_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./marshalpatel3558_breast-cancer-prediction_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./marshalpatel3558_breast-cancer-prediction_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./marshalpatel3558_breast-cancer-prediction_class/source/train_v1.parquet",
+        "train_test_ratio": 0.9,
+        "save_file_type": "parquet",
+        "imputer_type": "most_frequent",
+        "random_state": 24,
+        "model_type": "DecisionTreeClassifier",
+        "output_file": "./marshalpatel3558_breast-cancer-prediction_class/prediction.csv",
+        "ground_truth_file": "./marshalpatel3558_breast-cancer-prediction_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./marshalpatel3558_breast-cancer-prediction_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Age": "numerical",
+            "Race": "categorical",
+            "Marital Status": "categorical",
+            "T Stage": "categorical",
+            "N Stage": "categorical",
+            "6th Stage": "categorical",
+            "differentiate": "categorical",
+            "Grade": "categorical",
+            "A Stage": "categorical",
+            "Tumor Size": "numerical",
+            "Estrogen Status": "categorical",
+            "Progesterone Status": "categorical",
+            "Regional Node Examined": "numerical",
+            "Reginol Node Positive": "numerical",
+            "Survival Months": "numerical",
+            "Status": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Regional Node Examined",
+            "Reginol Node Positive"
+        ],
+        "categorical_features": [
+            "Progesterone Status",
+            "Marital Status",
+            "A Stage",
+            "Grade",
+            "differentiate",
+            "Race",
+            "Estrogen Status"
+        ]
+    },
+    "data_info": {
+        "id": 7078442,
+        "ref": "marshalpatel3558/breast-cancer-prediction",
+        "subtitle": "For Robust analysis for breast cancer research",
+        "creatorName": "Marshal Patel3558",
+        "creatorUrl": "marshalpatel3558",
+        "totalBytes": 43831,
+        "url": "https://www.kaggle.com/datasets/marshalpatel3558/breast-cancer-prediction",
+        "lastUpdated": "2025-04-07T23:56:39.657Z",
+        "downloadCount": 486,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Marshal Patel3558",
+        "ownerRef": "marshalpatel3558",
+        "kernelCount": 1,
+        "title": "Breast Cancer Prediction",
+        "viewCount": 1754,
+        "voteCount": 4,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "healthcare",
+                "name": "healthcare",
+                "description": "AI in healthcare is a growing interest. One of the major problems is simply converting research into an application. Should be easy, right?",
+                "fullPath": "subject > health and fitness > health > healthcare",
+                "competitionCount": 26,
+                "datasetCount": 2131,
+                "scriptCount": 1942,
+                "totalCount": 4099
+            },
+            {
+                "ref": "health",
+                "name": "health",
+                "description": "Consider the health tag your data science gym. Get in there and work out those data science muscles on health analytics. Analyze heart disease until you sweat. Then recover with with a nice candy production dataset.",
+                "fullPath": "subject > health and fitness > health",
+                "competitionCount": 402,
+                "datasetCount": 23200,
+                "scriptCount": 8160,
+                "totalCount": 31762
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "health conditions",
+                "name": "health conditions",
+                "description": "",
+                "fullPath": "subject > health and fitness > health > health conditions",
+                "competitionCount": 43,
+                "datasetCount": 11011,
+                "scriptCount": 1984,
+                "totalCount": 13038
+            },
+            {
+                "ref": "cancer",
+                "name": "cancer",
+                "description": "",
+                "fullPath": "subject > health and fitness > health > health conditions > cancer",
+                "competitionCount": 18,
+                "datasetCount": 16285,
+                "scriptCount": 3462,
+                "totalCount": 19765
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7078442,
+        "datasetSlug": "breast-cancer-prediction",
+        "ownerUser": "marshalpatel3558",
+        "usabilityRating": 1.0,
+        "totalViews": 1631,
+        "totalVotes": 4,
+        "totalDownloads": 452,
+        "title": "Breast Cancer Prediction",
+        "subtitle": "For Robust analysis for breast cancer research",
+        "description": "## Detailed Description of the Breast Cancer Dataset\n\nThis dataset contains clinical and pathological information for breast cancer patients. Each row represents an individual patient, and each column provides a specific attribute related to their diagnosis, treatment, or outcome. Below is a detailed description of each feature:\n\n| Column Name                 | Description                                                                                  | Example Values                |\n|-----------------------------|---------------------------------------------------------------------------------------------|-------------------------------|\n| Age                         | Age of the patient at diagnosis (years)                                                     | 68, 50, 58                    |\n| Race                        | Ethnicity of the patient                                                                    | White, Black, Other           |\n| Marital Status              | Marital status at time of diagnosis                                                         | Married, Single, Divorced     |\n| T Stage                     | Tumor size/stage (TNM classification)                                                       | T1, T2, T3, T4                |\n| N Stage                     | Lymph node involvement (TNM classification)                                                 | N1, N2, N3                    |\n| 6th Stage                   | Overall cancer stage according to the 6th edition of the AJCC staging system                | IIA, IIB, IIIA, IIIC, IIIB    |\n| differentiate               | Tumor cell differentiation                                                                  | Well differentiated, Moderately differentiated, Poorly differentiated |\n| Grade                       | Histological grade of the tumor (numeric)                                                   | 1, 2, 3                       |\n| A Stage                     | Anatomical stage of cancer                                                                  | Regional, Distant             |\n| Tumor Size                  | Size of the tumor (mm or cm, depending on dataset)                                          | 4, 35, 63                     |\n| Estrogen Status             | Estrogen receptor status of the tumor                                                       | Positive, Negative            |\n| Progesterone Status         | Progesterone receptor status of the tumor                                                   | Positive, Negative            |\n| Regional Node Examined      | Number of regional lymph nodes examined during surgery                                      | 24, 14, 2                     |\n| Reginol Node Positive       | Number of regional lymph nodes found to be positive for cancer                              | 1, 5, 7                       |\n| Survival Months             | Duration (in months) that the patient survived after diagnosis                              | 60, 62, 75                    |\n| Status                      | Survival status at last follow-up                                                           | Alive, Dead                   |\n\n### Key Points\n\n- **Data Type**: Tabular, with both categorical (e.g., Race, Marital Status) and numerical (e.g., Age, Tumor Size) features.\n- **Target Variable**: The `Status` column (Alive/Dead) is typically used as the target for survival prediction or classification tasks.\n- **Clinical Relevance**: Features such as hormone receptor status (Estrogen/Progesterone), tumor size, and lymph node involvement are critical for prognosis and treatment decisions.\n- **Potential Use Cases**: Survival analysis, risk stratification, outcome prediction, and supporting clinical decision-making.\n\n\n\nThis comprehensive dataset enables robust analysis for breast cancer research, including machine learning model development for survival and risk prediction.\n\n=== About this file ===\n\nAbout this file\nPlease Upvote, if you like the dataset.\nAny sort of review is appreciated.\nThis comprehensive dataset enables robust analysis for breast cancer research, including machine learning model development for survival and risk prediction.\n\n\n=== Columns & descriptions ===\n\nAge: Age of the patient at diagnosis (years)\nRace: Ethnicity of the patient\nMarital Status: Marital status at time of diagnosis\nT Stage: Tumor size/stage (TNM classification)\nN Stage: Lymph node involvement (TNM classification)\n6th Stage: Overall cancer stage according to the 6th edition of the AJCC staging system\ndifferentiate: Tumor cell differentiation\nGrade: Histological grade of the tumor (numeric)\nA Stage: Anatomical stage of cancer\nTumor Size: Size of the tumor (mm or cm, depending on dataset)\nEstrogen Status: Estrogen receptor status of the tumor\nProgesterone Status: Progesterone receptor status of the tumor\nRegional Node Examined: Number of regional lymph nodes examined during surgery\nReginol Node Positive: Number of regional lymph nodes found to be positive for cancer\nSurvival Months: Duration (in months) that the patient survived after diagnosis\nStatus: Survival status at last follow-up\n",
+        "keywords": [
+            "healthcare",
+            "health",
+            "classification",
+            "health conditions",
+            "cancer"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

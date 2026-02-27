@@ -1,0 +1,131 @@
+# **AI-Generated Ghibli-Style Image Trends (2025)**  
+
+## **Overview**  
+This dataset captures trends in AI-generated Studio Ghibli-style images, including user engagement, generation metrics, and platform-specific interactions. It is designed to help researchers, data scientists, and AI enthusiasts analyze the impact of AI-generated art on social media and the performance of AI models in generating high-quality images.  
+
+&gt; **Disclaimer:** This dataset is entirely synthetic and was generated using AI. It does not represent real users, platforms, or engagement data. It is intended for research and educational purposes only.  
+
+---
+
+## **Columns & Data Dictionary**  
+
+| **Column Name**         | **Description** | **Data Type** | **Measurement Unit** |
+|-------------------------|----------------|--------------|--------------------|
+| `image_id`              | Unique identifier for each generated image. | String | N/A |
+| `user_id`               | Anonymized unique identifier for the user who generated the image. | String | N/A |
+| `prompt`               | Text prompt used to generate the image. | String | N/A |
+| `likes`                | Number of likes the image received on social media. | Integer | Count |
+| `shares`               | Number of times the image was shared across platforms. | Integer | Count |
+| `comments`             | Number of comments the image received. | Integer | Count |
+| `platform`             | Platform where the image was shared (e.g., Instagram, Twitter). | String | N/A |
+| `generation_time`      | Time taken to generate the image. | Float | Seconds |
+| `gpu_usage`           | Estimated GPU usage during image generation. | Integer | Percentage (%) |
+| `file_size_kb`        | Size of the generated image file. | Integer | Kilobytes (KB) |
+| `resolution`          | Image resolution (e.g., 1024x1024, 2048x2048). | String | Pixels (width x height) |
+| `style_accuracy_score` | A score representing how closely the image resembles a Studio Ghibli animation, evaluated by models or user votes. | Integer | Scale (0-100) |
+| `is_hand_edited`      | Whether the user made manual edits after generation (Yes/No). | String | N/A |
+| `ethical_concerns_flag` | Whether the image was flagged for ethical concerns (e.g., copyright issues). | String | Yes/No |
+| `creation_date`        | Date the image was created. | String | YYYY-MM-DD |
+| `top_comment`         | The most upvoted or popular comment on the image. | String | N/A |
+
+---
+
+## **Use Cases**  
+
+### **1. Trend Analysis:**  
+- Analyze which AI-generated Ghibli-style prompts perform best in terms of likes, shares, and comments.  
+- Identify seasonal or time-based variations in AI-generated art trends.  
+
+### **2. AI Performance Benchmarking:**  
+- Evaluate how GPU usage, generation time, and resolution impact the quality of AI-generated images.  
+- Compare different AI image generation models based on engagement metrics.  
+
+### **3. Social Media Impact:**  
+- Understand which platforms (Instagram, Twitter, etc.) drive the highest engagement for AI-generated content.  
+- Investigate the correlation between prompt creativity and user interactions.  
+
+### **4. Ethical and Copyright Considerations:**  
+- Identify patterns in flagged images to assess AI-generated art's ethical concerns.  
+- Understand whether hand-edited images receive higher engagement compared to purely AI-generated ones.  
+
+### **5. Image Aesthetic & AI Creativity:**  
+- Assess how different prompts influence the style accuracy score.  
+- Explore how resolution and file size impact the perception of AI-generated art.  
+
+---
+
+This dataset is ideal for researchers in AI art, social media analysts, and machine learning engineers looking to understand how AI-generated images are received and how they perform across different platforms. 🚀
+
+
+=== About this file ===
+
+About this file
+Columns & Data Dictionary
+|
+image_id
+| Unique identifier for each generated image. | String | N/A |
+|
+user_id
+| Anonymized unique identifier for the user who generated the image. | String | N/A |
+|
+prompt
+| Text prompt used to generate the image. | String | N/A |
+|
+likes
+| Number of likes the image received on social media. | Integer | Count |
+|
+shares
+| Number of times the image was shared across platforms. | Integer | Count |
+|
+comments
+| Number of comments the image received. | Integer | Count |
+|
+platform
+| Platform where the image was shared (e.g., Instagram, Twitter). | String | N/A |
+|
+generation_time
+| Time taken to generate the image. | Float | Seconds |
+|
+gpu_usage
+| Estimated GPU usage during image generation. | Integer | Percentage (%) |
+|
+file_size_kb
+| Size of the generated image file. | Integer | Kilobytes (KB) |
+|
+resolution
+| Image resolution (e.g., 1024x1024, 2048x2048). | String | Pixels (width x height) |
+|
+style_accuracy_score
+| A score representing how closely the image resembles a Studio Ghibli animation, evaluated by models or user votes. | Integer | Scale (0-100) |
+|
+is_hand_edited
+| Whether the user made manual edits after generation (Yes/No). | String | N/A |
+|
+ethical_concerns_flag
+| Whether the image was flagged for ethical concerns (e.g., copyright issues). | String | Yes/No |
+|
+creation_date
+| Date the image was created. | String | YYYY-MM-DD |
+|
+top_comment
+| The most upvoted or popular comment on the image. | String | N/A |
+
+
+=== Columns & descriptions ===
+
+image_id: ID
+user_id: ID
+prompt: [no description]
+likes: [no description]
+shares: [no description]
+comments: [no description]
+platform: [no description]
+generation_time: [no description]
+gpu_usage: [no description]
+file_size_kb: [no description]
+resolution: [no description]
+style_accuracy_score: [no description]
+is_hand_edited: [no description]
+ethical_concerns_flag: [no description]
+creation_date: [no description]
+top_comment: [no description]

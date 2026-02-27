@@ -1,0 +1,185 @@
+{
+    "question": {
+        "target": [
+            "label"
+        ],
+        "target_candidates": [
+            "label"
+        ],
+        "related_features": [
+            "merchant_type",
+            "device_type",
+            "amount"
+        ],
+        "not_filtered_related_features": [
+            "merchant_type",
+            "device_type",
+            "amount"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "merchant_type": [
+                "travel",
+                "groceries",
+                "others",
+                "electronics",
+                "clothing"
+            ],
+            "device_type": [
+                "tablet",
+                "desktop",
+                "mobile"
+            ],
+            "amount": [
+                0.0,
+                818.0
+            ]
+        },
+        "selected_features": [
+            "device_type",
+            "amount"
+        ],
+        "train_v2_save_file": "./sahideseker_fraud-detection-in-transactions-dataset_class/source/train_v2.parquet",
+        "val_v2_save_file": "./sahideseker_fraud-detection-in-transactions-dataset_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./sahideseker_fraud-detection-in-transactions-dataset_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./sahideseker_fraud-detection-in-transactions-dataset_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./sahideseker_fraud-detection-in-transactions-dataset_class/source/train_v1.parquet",
+        "train_test_ratio": 0.8,
+        "save_file_type": "parquet",
+        "imputer_type": "most_frequent",
+        "random_state": 43,
+        "model_type": "MLPClassifier",
+        "output_file": "./sahideseker_fraud-detection-in-transactions-dataset_class/prediction.csv",
+        "ground_truth_file": "./sahideseker_fraud-detection-in-transactions-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./sahideseker_fraud-detection-in-transactions-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "transaction_id": "categorical",
+            "amount": "numerical",
+            "merchant_type": "categorical",
+            "device_type": "categorical",
+            "label": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "amount"
+        ],
+        "categorical_features": [
+            "device_type"
+        ]
+    },
+    "data_info": {
+        "id": 7018088,
+        "ref": "sahideseker/fraud-detection-in-transactions-dataset",
+        "subtitle": "1,000 simulated financial transactions for binary classification and anomaly det",
+        "creatorName": "\ud83c\uddf9\ud83c\uddf7 \u015eahide \u015eeker, MSc",
+        "creatorUrl": "sahideseker",
+        "totalBytes": 7084,
+        "url": "https://www.kaggle.com/datasets/sahideseker/fraud-detection-in-transactions-dataset",
+        "lastUpdated": "2025-04-01T01:55:06.733Z",
+        "downloadCount": 487,
+        "licenseName": "CC BY-SA 4.0",
+        "description": "",
+        "ownerName": "\ud83c\uddf9\ud83c\uddf7 \u015eahide \u015eeker, MSc",
+        "ownerRef": "sahideseker",
+        "kernelCount": 5,
+        "title": "Fraud Detection in Transactions Dataset",
+        "viewCount": 3131,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "finance",
+                "name": "finance",
+                "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+                "fullPath": "subject > people and society > business > finance",
+                "competitionCount": 101,
+                "datasetCount": 12682,
+                "scriptCount": 4576,
+                "totalCount": 17359
+            },
+            {
+                "ref": "economics",
+                "name": "economics",
+                "description": "The economics tag contains resources for analyzing the production, consumption, and transfer of wealth.",
+                "fullPath": "subject > people and society > social science > economics",
+                "competitionCount": 3,
+                "datasetCount": 3842,
+                "scriptCount": 844,
+                "totalCount": 4689
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "investing",
+                "name": "investing",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > investing",
+                "competitionCount": 5,
+                "datasetCount": 11998,
+                "scriptCount": 18559,
+                "totalCount": 30562
+            },
+            {
+                "ref": "synthetic",
+                "name": "synthetic",
+                "description": "",
+                "fullPath": "data type > synthetic",
+                "competitionCount": 8,
+                "datasetCount": 510,
+                "scriptCount": 70,
+                "totalCount": 588
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7018088,
+        "datasetSlug": "fraud-detection-in-transactions-dataset",
+        "ownerUser": "sahideseker",
+        "usabilityRating": 1.0,
+        "totalViews": 2698,
+        "totalDownloads": 390,
+        "title": "Fraud Detection in Transactions Dataset",
+        "subtitle": "1,000 simulated financial transactions for binary classification and anomaly det",
+        "description": "**\ud83c\uddec\ud83c\udde7 English:**\n\nThis dataset contains 1,000 synthetic financial transactions designed for fraud detection experiments. Each record includes transaction amount, merchant category, device type, and a binary label indicating whether the transaction is fraudulent. Only 5% of transactions are marked as fraud to reflect a real-world class imbalance.\n\n**Use this dataset to:**\n\n- Train fraud detection models with class imbalance\n- Apply techniques like XGBoost, SMOTE, or Isolation Forest\n- Explore anomaly detection and fraud pattern analysis\n\n---\n\n**\ud83c\uddf9\ud83c\uddf7 T\u00fcrk\u00e7e:**\n\nBu sentetik veri seti, doland\u0131r\u0131c\u0131l\u0131k tespiti \u00e7al\u0131\u015fmalar\u0131na uygun olacak \u015fekilde olu\u015fturulmu\u015ftur. Toplamda 1.000 i\u015flem bilgisi i\u00e7erir ve her i\u015flem, tutar, sat\u0131c\u0131 t\u00fcr\u00fc, cihaz t\u00fcr\u00fc gibi alanlarla birlikte gelir. Yaln\u0131zca %5 oran\u0131nda i\u015flem doland\u0131r\u0131c\u0131l\u0131k olarak i\u015faretlenmi\u015ftir.\n\n**Bu veri setiyle:**\n\n- Dengesiz veri k\u00fcmelerinde s\u0131n\u0131fland\u0131rma yap\u0131labilir\n- SMOTE, XGBoost, Isolation Forest gibi algoritmalar uygulanabilir\n- Anomali tespiti ve sahtekarl\u0131k analizleri ger\u00e7ekle\u015ftirilebilir\n\n\n\n=== About this file ===\n\nAbout this file\nThis file includes 1,000 synthetic transactions, including 5% fraudulent cases. Created to simulate real-world fraud detection scenarios using machine learning.\n\n\n=== Columns & descriptions ===\n\ntransaction_id: Unique identifier for each transaction\namount: Transaction amount in USD\nmerchant_type: Type of merchant (e.g., groceries, travel)\ndevice_type: Device used for the transaction\nlabel: 1 = Fraudulent, 0 = Normal\n",
+        "keywords": [
+            "finance",
+            "economics",
+            "classification",
+            "tabular",
+            "investing",
+            "synthetic"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-SA-4.0"
+            }
+        ]
+    }
+}

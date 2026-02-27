@@ -1,0 +1,44 @@
+Parametric Terahertz Metamaterial Absorber Dataset
+
+**Description:**
+This dataset contains 9,018 simulated measurements of a terahertz metamaterial absorber. Each record includes two geometric parameters (`p`, `m`), the excitation frequency, and the resulting absorptance. The data is well-structured with no missing values and covers frequency values from 0.0 to 18.0, with absorptance ranging from near zero to almost unity. It can be used for parametric analysis, regression modeling, and optimization studies in absorber design.
+
+**Dataset Overview:**
+- **Shape:** (9018, 4)
+- **Columns:** `p`, `m`, `Frequency`, `Absorptance`
+- **Data Types:** `int64`, `int64`, `float64`, `float64`
+- **Missing Values:** None
+- **Frequency Range:** 0.0 to 18.0
+- **Absorptance Range:** ~0.0 to ~1.0
+
+
+📝 Citation
+```bibtex
+@article{anjum2025performance,
+  title={Performance Benchmarking of Machine Learning Models for Terahertz Metamaterial Absorber Prediction},
+  author={Anjum, Nafisa and Hasan, Robiul},
+  journal={arXiv preprint arXiv:2508.08611},
+  year={2025}
+}
+```
+
+=== About this file ===
+
+About this file
+Dataset shape: (9018, 4)
+Column names:
+['p', 'm', 'Frequency', 'Absorptance']
+Data types:
+p                int64
+m                int64
+Frequency      float64
+Absorptance    float64
+dtype: object
+
+
+=== Columns & descriptions ===
+
+p: Periodic Dimension
+m: Dielectric Thickness
+Frequency: Frequency
+Absorptance: Absorbance

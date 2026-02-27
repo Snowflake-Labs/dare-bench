@@ -1,0 +1,21 @@
+1886 observations by Galton on 934 children and their 205 families.
+
+The main goal of this study was to establish a relation between children and parents heights. Galton also wanted to find out whether marriage selection indicates a relationship between a husband's and his wife's heights.
+
+=== About this file ===
+
+About this file
+Galton's data
+
+
+=== Columns & descriptions ===
+
+rownames: [no description]
+family: [no description]
+father: father's height
+mother: mother's height
+midparentHeight: mid-parent height, calculated as (father + 1.08*mother)/2
+children: number of children in this family
+childNum: number of this child within family. Children are listed in decreasing order of height for boys followed by girls
+gender: child gender
+childHeight: child's height

@@ -1,0 +1,38 @@
+This dataset was created to support machine learning applications in game AI, especially supervised learning models for paddle control in a ping pong game.
+
+Three players participated in a controlled gameplay session, each playing for approximately one hour. During gameplay, the following features were recorded frame-by-frame:
+- **ball_x**: Horizontal position of the ball
+- **ball_y**: Vertical position of the ball
+- **ball_dx**: Horizontal velocity of the ball
+- **ball_dy**: Vertical velocity of the ball
+- **paddle_y**: Vertical position of the paddle
+- **action**: Player's action (e.g., move up, move down, stay)
+
+The goal of this dataset is to train models that can predict optimal paddle movements based on the state of the ball and paddle. It can be used in classification or reinforcement learning environments.
+
+**Potential Use Cases**:
+- Training supervised learning models for paddle control
+- Building intelligent agents in ping pong simulations
+- Reinforcement learning behavior cloning
+- Game AI prototyping and behavior analysis
+
+**Format**: CSV
+**Rows**: 411059
+**License**: CC BY 4.0
+
+We hope this dataset will be useful for the community working on game AI and dynamic movement prediction!
+
+=== About this file ===
+
+About this file
+This CSV file contains gameplay data collected from a custom-made ping pong game, designed for training supervised learning models. Each row represents a snapshot of the game state at a given time, captured during real human gameplay.
+
+
+=== Columns & descriptions ===
+
+ball_x: Horizontal position of the ball on the screen (float or integer value depending on coordinate system).
+ball_y: Vertical position of the ball on the screen.
+ball_dx: Change in the ball’s horizontal position (i.e., horizontal velocity). Positive = right, Negative = left.
+ball_dy: Change in the ball’s vertical position (i.e., vertical velocity). Positive = down, Negative = up.
+paddle_y: Vertical position of the player's paddle at the current frame.
+action: Player’s action at that frame — typically an integer or label indicating movement: e.g., 0 = stay, 1 = move up, 2 = move down.

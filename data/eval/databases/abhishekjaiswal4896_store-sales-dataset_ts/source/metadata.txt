@@ -1,0 +1,44 @@
+
+
+This dataset contains **simulated daily sales records** for 10 retail stores across a two-year period (2022–2023). It is designed specifically for practicing and showcasing **time series forecasting**, **seasonal analysis**, and **retail trend modeling**.
+
+Each record includes:
+
+* 📅 **Date**: Daily sales timestamp
+* 🏪 **Store ID**: Identifier for each store (1–10)
+* 💵 **Sales**: Total sales in ₹ for that day
+* 🎯 **Promo**: Binary flag indicating whether a promotion was active
+* 🎉 **Holiday**: Binary flag for holidays (national/festival days)
+
+---
+
+### 🔍 **Use Case Ideas:**
+
+* Time series forecasting with ARIMA, Prophet, LSTM, etc.
+* Promotion and holiday impact analysis
+* Per-store performance comparison
+* Seasonal decomposition and trend detection
+* Multivariate time series modeling
+
+---
+
+=== About this file ===
+
+About this file
+This CSV file contains daily sales data for 10 retail stores from January 1, 2022 to December 31, 2023. Each row represents one store’s sales on a particular date, along with indicators for promotional events and holidays.
+🧾 Columns:
+date – Date of the sales record
+store – Store ID (1 to 10)
+sales – Total sales amount in ₹
+promo – 1 if a promotion was active, else 0
+holiday – 1 if the day was a holiday, else 0
+This file is ideal for time series analysis, forecasting models, and exploring the impact of promotions and holidays on retail sales
+
+
+=== Columns & descriptions ===
+
+date: Date of the sales record
+store: Store ID (1 to 10)
+sales: Total sales amount in ₹
+promo: 1 if a promotion was active, else 0
+holiday: 1 if the day was a holiday, else 0

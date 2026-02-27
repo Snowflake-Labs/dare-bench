@@ -1,0 +1,30 @@
+"Computer Parts Sales Dataset for demand forcasting", is an educational custom dataset. The purpose of this dataset is to provide a realistic, synthetic sample of computer hardware part sales across different regions in Bangladesh. It is designed to help data scientists, students, and analysts:
+
+1. Build and train supervised machine learning models (especially linear regression)
+2. Predict future demand for specific hardware parts such as CPUs, GPUs, RAM, etc.
+3. Analyze sales trends across time and regions
+4. Make stock planning decisions based on sales behavior
+5. Practice feature engineering and demand forecasting with a structured dataset
+
+This dataset is especially useful for educational purposes, time-series regression tasks, and retail demand modeling experiments. You will also see the result of Linear regrssion on Notebook and how I proved Linear Regression is not a good option for Randomized data.
+
+=== About this file ===
+
+About this file
+There are 4 columns and 40 rows.
+1. Date
+- consist of random dates.
+2. Parts
+- consist of PC parts.
+3. Region
+- Areas of Bangladesh.
+4. Unit_Sold
+- Indicated solding units.
+
+
+=== Columns & descriptions ===
+
+Date: Data
+Part: Part
+Region: Region
+Units_Sold: Unit_Sold

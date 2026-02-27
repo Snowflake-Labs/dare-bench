@@ -1,0 +1,231 @@
+{
+    "question": {
+        "target": [
+            "W"
+        ],
+        "target_candidates": [
+            "W"
+        ],
+        "related_features": [
+            "Amp",
+            "AltBearing_NDE_Temp",
+            "V",
+            "Mech_Load",
+            "AltBearing_DE_Temp",
+            "Pf",
+            "Hz",
+            "GenBearing_NDE_Temp",
+            "GenBearing_DE_Temp"
+        ],
+        "not_filtered_related_features": [
+            "Amp",
+            "AltBearing_NDE_Temp",
+            "V",
+            "Mech_Load",
+            "AltBearing_DE_Temp",
+            "Pf",
+            "Hz",
+            "GenBearing_NDE_Temp",
+            "GenBearing_DE_Temp"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "Amp": [
+                738.0,
+                10522.0
+            ],
+            "AltBearing_NDE_Temp": [
+                50.0,
+                110.0
+            ],
+            "V": [
+                440.0,
+                440.0
+            ],
+            "Mech_Load": [
+                30.0,
+                120.0
+            ],
+            "AltBearing_DE_Temp": [
+                50.0,
+                120.0
+            ],
+            "Pf": [
+                0.0,
+                1.0
+            ],
+            "Hz": [
+                48.0,
+                52.0
+            ],
+            "GenBearing_NDE_Temp": [
+                50.0,
+                110.0
+            ],
+            "GenBearing_DE_Temp": [
+                50.0,
+                120.0
+            ]
+        },
+        "selected_features": [
+            "GenBearing_DE_Temp",
+            "Pf",
+            "AltBearing_DE_Temp",
+            "GenBearing_NDE_Temp",
+            "V",
+            "Mech_Load"
+        ],
+        "train_v2_save_file": "./electromarine_steam-alternator-generator-log-2005-synthetic_reg/source/train_v2.sqlite",
+        "val_v2_save_file": "./electromarine_steam-alternator-generator-log-2005-synthetic_reg/source/val_v2.sqlite",
+        "val_no_err_save_file": "./electromarine_steam-alternator-generator-log-2005-synthetic_reg/source/val_v1.sqlite",
+        "train_no_err_save_file": "./electromarine_steam-alternator-generator-log-2005-synthetic_reg/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./electromarine_steam-alternator-generator-log-2005-synthetic_reg/source/train_v1.sqlite",
+        "train_test_ratio": 0.7,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 84,
+        "model_type": "Lasso",
+        "output_file": "./electromarine_steam-alternator-generator-log-2005-synthetic_reg/prediction.csv",
+        "ground_truth_file": "./electromarine_steam-alternator-generator-log-2005-synthetic_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./electromarine_steam-alternator-generator-log-2005-synthetic_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "LogDate": "categorical",
+            "LogTime": "categorical",
+            "V": "numerical",
+            "Amp": "numerical",
+            "W": "numerical",
+            "Pf": "numerical",
+            "Hz": "numerical",
+            "Mech_Load": "numerical",
+            "GenBearing_DE_Temp": "numerical",
+            "GenBearing_NDE_Temp": "numerical",
+            "AltBearing_DE_Temp": "numerical",
+            "AltBearing_NDE_Temp": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "GenBearing_DE_Temp",
+            "Pf",
+            "AltBearing_DE_Temp",
+            "GenBearing_NDE_Temp",
+            "V",
+            "Mech_Load"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7187875,
+        "ref": "electromarine/steam-alternator-generator-log-2005-synthetic",
+        "subtitle": "Inferring abnormalities through electrical and mechanical data analysis",
+        "creatorName": "Rakesh Kumar Sahoo",
+        "creatorUrl": "electromarine",
+        "totalBytes": 564667,
+        "url": "https://www.kaggle.com/datasets/electromarine/steam-alternator-generator-log-2005-synthetic",
+        "lastUpdated": "2025-04-19T06:43:45.697Z",
+        "downloadCount": 20,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Rakesh Kumar Sahoo",
+        "ownerRef": "electromarine",
+        "kernelCount": 1,
+        "title": "Steam_Alternator_Generator_Log_2005_Synthetic",
+        "viewCount": 139,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "earth and nature",
+                "name": "earth and nature",
+                "description": "",
+                "fullPath": "subject > earth and nature",
+                "competitionCount": 19,
+                "datasetCount": 79489,
+                "scriptCount": 394,
+                "totalCount": 79902
+            },
+            {
+                "ref": "engineering",
+                "name": "engineering",
+                "description": "Engineering is the application of mathematics, science, economics, empirical evidence, social, and practical knowledge to invent, innovate, design, build, maintain, research, and improve structures, machines, tools, systems, components, materials, processes, solutions, and organizations.",
+                "fullPath": "subject > science and technology > engineering",
+                "competitionCount": 4,
+                "datasetCount": 484,
+                "scriptCount": 174,
+                "totalCount": 662
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            },
+            {
+                "ref": "electricity",
+                "name": "electricity",
+                "description": "",
+                "fullPath": "subject > science and technology > energy > electricity",
+                "competitionCount": 2,
+                "datasetCount": 2112,
+                "scriptCount": 204,
+                "totalCount": 2318
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7187875,
+        "datasetSlug": "steam-alternator-generator-log-2005-synthetic",
+        "ownerUser": "electromarine",
+        "usabilityRating": 1.0,
+        "totalViews": 103,
+        "totalDownloads": 12,
+        "title": "Steam_Alternator_Generator_Log_2005_Synthetic",
+        "subtitle": "Inferring abnormalities through electrical and mechanical data analysis",
+        "description": "This dataset, **Steam_Alternator_Generator_Log_2005_Synthetic**, contains synthetic hourly logs of key electrical and mechanical metrics from a 1500kW, 440V, slip-ring type alternator over one year. The data includes readings for voltage, current, power output, power factor, frequency, mechanical load, and temperatures of critical components such as generator and alternator bearings.\nCarefully designed, the dataset reflects realistic operational behavior and fluctuations encountered in industrial settings. It incorporates periods of downtime and maintenance, offering a robust foundation for exploratory analysis and modeling tasks.\nThis dataset is ideal for machine learning practitioners, researchers, and engineers seeking challenges in anomaly detection, pattern recognition, and performance optimization. It presents an intriguing opportunity to uncover insights from synthetic data grounded in physics-based simulations.\n\n\n=== About this file ===\n\nAbout this file\nMetadata about the main dataset\n\n\n=== Columns & descriptions ===\n\nColumn Name: Generator- Alternator Parameters\nData Type: Parameter Range and Unit\nDescription: Parameter description\n",
+        "keywords": [
+            "earth and nature",
+            "engineering",
+            "exploratory data analysis",
+            "time series analysis",
+            "regression",
+            "electricity"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

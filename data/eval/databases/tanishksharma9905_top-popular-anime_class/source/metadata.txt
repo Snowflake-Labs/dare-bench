@@ -1,0 +1,88 @@
+📖 Description
+
+This dataset contains detailed information about the top anime series and movies as ranked on MyAnimeList, sourced through the Jikan API — an unofficial REST API for MyAnimeList.
+
+It includes data from over 1,100+ pages (more than 22,000 anime entries), making it one of the most comprehensive open-source anime datasets available.
+
+The dataset was collected using a custom Python script that respects API rate limits and includes logging, error handling, and structured ingestion into a SQL database.
+
+📈 Potential Uses:-
+
+Anime recommendation systems
+
+Data visualization and trend analysis
+
+Natural Language Processing (NLP) on synopses
+
+Anime clustering by genres or ratings
+
+Studio performance analytics
+
+=== About this file ===
+
+About this file
+⚠️ Notes on Missing Values
+Some values may be null due to unavailability in the source:
+Some anime do not have English titles (name)
+New or niche anime might not have scores, trailers, or episode duration
+aired_to will be null for currently airing anime
+Column
+Description
+id
+Unique identifier (MyAnimeList ID)
+name
+English title of the anime (fallback to original or Japanese title)
+genres
+Comma-separated list of genres
+type
+Type of anime (e.g. TV, Movie, OVA)
+episodes
+Number of episodes
+status
+Airing status (Finished, Airing, Upcoming)
+aired_from
+Start date of airing
+aired_to
+End date of airing
+duration_per_ep
+Duration per episode
+score
+User score (rating out of 10)
+scored_by
+Number of users who rated it
+rank
+Rank on MyAnimeList
+rating
+Age rating (e.g., PG-13, R)
+studios
+Studios involved in production
+producers
+Producers listed
+image
+URL to the cover image
+trailer
+URL to the trailer video
+synopsis
+Short plot summary
+
+
+=== Columns & descriptions ===
+
+id: Unique identifier (MyAnimeList ID)
+name: English title of the anime (fallback to original or Japanese title)
+genres: Comma-separated list of genres
+type: Type of anime (e.g. TV, Movie, OVA)
+episodes: Number of episodes
+status: Airing status (Finished, Airing, Upcoming)
+aired_from: Start date of airing
+aired_to: End date of airing
+duration_per_ep: Duration per episode
+score: User score (rating out of 10)
+scored_by: [no description]
+rank: [no description]
+rating: [no description]
+studios: [no description]
+producers: [no description]
+image: [no description]
+trailer: [no description]
+synopsis: [no description]

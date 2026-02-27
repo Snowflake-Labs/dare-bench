@@ -1,0 +1,241 @@
+{
+    "question": {
+        "target": [
+            "Price"
+        ],
+        "target_candidates": [
+            "Price"
+        ],
+        "related_features": [
+            "State",
+            "Model Variant",
+            "Year",
+            "Fuel Type",
+            "Owner",
+            "Model Name",
+            "Brand",
+            "Car Type",
+            "Accidental",
+            "Kilometers",
+            "Transmission"
+        ],
+        "not_filtered_related_features": [
+            "Year",
+            "Fuel Type",
+            "Owner",
+            "Brand",
+            "Car Type",
+            "Accidental",
+            "Kilometers",
+            "Transmission"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "Year": [
+                2000,
+                2023
+            ],
+            "Fuel Type": [
+                "CNG",
+                "Petrol",
+                "Diesel",
+                "Electric",
+                "Hybrid"
+            ],
+            "Owner": [
+                "1st",
+                "3rd+",
+                "2nd"
+            ],
+            "Brand": [
+                "Mahindra",
+                "Skoda",
+                "Maruti Suzuki",
+                "Hyundai",
+                "MG",
+                "Audi",
+                "Toyota",
+                "Honda",
+                "Tata",
+                "Ford",
+                "Chevrolet",
+                "BMW",
+                "Volkswagen",
+                "Jaguar",
+                "Renault",
+                "Kia",
+                "Range Rover",
+                "Nissan"
+            ],
+            "Car Type": [
+                "SUV",
+                "Sedan",
+                "Hatchback",
+                "MPV",
+                "Luxury"
+            ],
+            "Accidental": [
+                "No",
+                "Yes"
+            ],
+            "Kilometers": [
+                10000,
+                179998
+            ],
+            "Transmission": [
+                "Manual",
+                "Automatic"
+            ]
+        },
+        "selected_features": [
+            "Transmission",
+            "Year",
+            "Brand",
+            "Owner",
+            "Kilometers"
+        ],
+        "train_v2_save_file": "./milapgohil_car-dataset_reg/source/train_v2.csv",
+        "val_v2_save_file": "./milapgohil_car-dataset_reg/source/val_v2.csv",
+        "val_no_err_save_file": "./milapgohil_car-dataset_reg/source/val_v1.csv",
+        "train_no_err_save_file": "./milapgohil_car-dataset_reg/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./milapgohil_car-dataset_reg/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "mean",
+        "random_state": 41,
+        "model_type": "LinearRegression",
+        "output_file": "./milapgohil_car-dataset_reg/prediction.csv",
+        "ground_truth_file": "./milapgohil_car-dataset_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./milapgohil_car-dataset_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Brand": "categorical",
+            "Model Name": "categorical",
+            "Model Variant": "categorical",
+            "Car Type": "categorical",
+            "Transmission": "categorical",
+            "Fuel Type": "categorical",
+            "Year": "numerical",
+            "Kilometers": "numerical",
+            "Owner": "categorical",
+            "State": "categorical",
+            "Accidental": "categorical",
+            "Price": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Year",
+            "Kilometers"
+        ],
+        "categorical_features": [
+            "Transmission",
+            "Brand",
+            "Owner"
+        ]
+    },
+    "data_info": {
+        "id": 7696850,
+        "ref": "milapgohil/car-dataset",
+        "subtitle": "Detailed Indian car listings for ML, pricing analysis, and classification tasks",
+        "creatorName": "Milap Gohil",
+        "creatorUrl": "milapgohil",
+        "totalBytes": 2234822,
+        "url": "https://www.kaggle.com/datasets/milapgohil/car-dataset",
+        "lastUpdated": "2025-06-20T09:15:34.000Z",
+        "downloadCount": 1922,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Milap Gohil",
+        "ownerRef": "milapgohil",
+        "kernelCount": 11,
+        "title": "Indian Car Sell Dataset \ud83d\ude97 - Brand, Model & Price ",
+        "viewCount": 6455,
+        "voteCount": 36,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "india",
+                "name": "india",
+                "description": "This tag will take you to the wonderful land of datasets and kernels related to India. You will find topics that range far and wide. There's education, travel, weather, and crime, too.",
+                "fullPath": "geography and places > asia > india",
+                "competitionCount": 4,
+                "datasetCount": 2433,
+                "scriptCount": 945,
+                "totalCount": 3382
+            },
+            {
+                "ref": "automobiles and vehicles",
+                "name": "automobiles and vehicles",
+                "description": "The automobile tag is everything about cars. Analyze insurance rates or how far you can go on one gallon of petrol.",
+                "fullPath": "subject > science and technology > transportation > automobiles and vehicles",
+                "competitionCount": 10,
+                "datasetCount": 14763,
+                "scriptCount": 1883,
+                "totalCount": 16656
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7696850,
+        "datasetSlug": "car-dataset",
+        "ownerUser": "milapgohil",
+        "usabilityRating": 1.0,
+        "totalViews": 4935,
+        "totalVotes": 35,
+        "totalDownloads": 1494,
+        "title": "Indian Car Sell Dataset \ud83d\ude97 - Brand, Model & Price ",
+        "subtitle": "Detailed Indian car listings for ML, pricing analysis, and classification tasks",
+        "description": "This dataset provides a comprehensive view of the **used car market in India**, offering detailed records of car listings across brands, fuel types, transmission modes, and price points. It is **ideal for performing regression modeling, trend analysis, and automotive market exploration.**\n\nEach row represents a single car listed for sale, and includes relevant attributes such as the brand, model, variant, manufacturing year, fuel type, transmission, ownership history, kilometers driven, location, seller type, and the actual selling price.\n\n-------\n\n# **\ud83d\udd0d Key Features:**\n- Cleaned and preprocessed for ML-readiness\n- Includes realistic brand-model-variant combinations\n- Reflects regional and brand-based price variations across Indian states\n- Designed to support price prediction, resale value analysis, and EDA\n\n-------\n\n# **\ud83d\udcc8 Example use cases:**\n- Building regression models to predict car prices\n- Evaluating the effect of brand, ownership, and city on pricing\n- Exploring how fuel type or kilometers driven impact car value\n- Visualizing trends across different states and car types\n\n-------\n\n## **Consider Upvoting if you like it \ud83d\ude4c\ud83c\udffb**\n\n=== About this file ===\n\nAbout this file\nFilename: Car Sell Dataset.csv\nFormat: CSV (UTF-8 encoded)\nRows: 140904\nColumns: 12\n\n\n=== Columns & descriptions ===\n\nBrand: The manufacturer of the car (e.g., Mahindra, Skoda, Maruti Suzuki)\nModel Name: The name of the specific model (e.g., Alto, Dzire, Grand i10)\nModel Variant: The trim or variant level (e.g., Magna, AX5, Style, Z)\nCar Type: Type of car body (e.g., SUV, Sedan, Hatchback)\nTransmission: Gearbox type: either Manual or Automatic\nFuel Type: Type of fuel the car uses: Petrol, Diesel, CNG, etc.\nYear: Manufacturing year of the vehicle\nKilometers: Total distance the car has been driven, in kilometers\nOwner: Ownership status (e.g., 1st, 2nd, 3rd+) indicating how many previous owners\nState: ndian state where the vehicle is registered/listed\nAccidental: Indicates whether the vehicle has had an accident (Yes or No)\nPrice: Selling price of the car in Indian Rupees (INR)\n",
+        "keywords": [
+            "india",
+            "automobiles and vehicles",
+            "exploratory data analysis",
+            "tabular",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

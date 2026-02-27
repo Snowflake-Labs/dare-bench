@@ -1,0 +1,28 @@
+&gt;Lake Kariba is the world's largest artificial lake and reservoir by volume. It lies 1,300 kilometers (810 mi) upstream from the Indian Ocean, along the border between Zambia and Zimbabwe. Lake Kariba was filled between 1958 and 1963 following the completion of the Kariba Dam at its northeastern end, flooding the Kariba Gorge on the Zambezi River.
+
+The source of the data is Zambezi River Authority.
+
+File contains 6 daily time series in time frame 01/01/2020 - 28/02/2023:
+
+- Lake level (m)
+- Usable Storage (%)
+- Live Storage x 109m3
+- Turbine Discharge (m3/s)
+- Spillage (m3/s)
+- Total Outflow (m3/s)
+
+=== About this file ===
+
+About this file
+Data from Zambezi River Authority
+
+
+=== Columns & descriptions ===
+
+date: [no description]
+lake_level: Lake Level (m)
+usable_storage: Usable Storage (%)
+live_storage: Live Storage x 109m3
+turbine_discharge: Turbine Discharge (m3/s)
+spillage: Spillage (m3/s)
+total_outflow: Total Outflow (m3/s)

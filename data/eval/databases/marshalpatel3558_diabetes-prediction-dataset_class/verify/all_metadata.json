@@ -1,0 +1,314 @@
+{
+    "question": {
+        "target": [
+            "Previous_Gestational_Diabetes"
+        ],
+        "target_candidates": [
+            "Family_History_of_Diabetes",
+            "Previous_Gestational_Diabetes"
+        ],
+        "related_features": [
+            "Cholesterol_Total",
+            "Serum_Urate",
+            "Dietary_Intake_Calories",
+            "Age",
+            "Ethnicity",
+            "Physical_Activity_Level",
+            "Alcohol_Consumption",
+            "Cholesterol_LDL",
+            "Cholesterol_HDL",
+            "Sex",
+            "Waist_Circumference",
+            "Blood_Pressure_Diastolic",
+            "Blood_Pressure_Systolic",
+            "Fasting_Blood_Glucose",
+            "GGT",
+            "HbA1c",
+            "Family_History_of_Diabetes",
+            "Smoking_Status",
+            "BMI"
+        ],
+        "not_filtered_related_features": [
+            "HbA1c",
+            "Waist_Circumference",
+            "Cholesterol_Total",
+            "Serum_Urate",
+            "Alcohol_Consumption",
+            "Dietary_Intake_Calories",
+            "Cholesterol_LDL",
+            "Age",
+            "Cholesterol_HDL",
+            "Smoking_Status",
+            "BMI",
+            "Blood_Pressure_Diastolic",
+            "Blood_Pressure_Systolic",
+            "Sex",
+            "Fasting_Blood_Glucose",
+            "Ethnicity",
+            "GGT",
+            "Physical_Activity_Level"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "HbA1c": [
+                4.0,
+                15.0
+            ],
+            "Waist_Circumference": [
+                70.0,
+                120.0
+            ],
+            "Cholesterol_Total": [
+                150.0,
+                300.0
+            ],
+            "Serum_Urate": [
+                3.0,
+                8.0
+            ],
+            "Alcohol_Consumption": [
+                "Moderate",
+                "Heavy",
+                "None"
+            ],
+            "Dietary_Intake_Calories": [
+                1500,
+                3999
+            ],
+            "Cholesterol_LDL": [
+                70.0,
+                200.0
+            ],
+            "Age": [
+                20,
+                69
+            ],
+            "Cholesterol_HDL": [
+                30.0,
+                80.0
+            ],
+            "Smoking_Status": [
+                "Never",
+                "Current",
+                "Former"
+            ],
+            "BMI": [
+                18.0,
+                40.0
+            ],
+            "Blood_Pressure_Diastolic": [
+                60,
+                119
+            ],
+            "Blood_Pressure_Systolic": [
+                90,
+                179
+            ],
+            "Sex": [
+                "Female",
+                "Male"
+            ],
+            "Fasting_Blood_Glucose": [
+                70.0,
+                200.0
+            ],
+            "Ethnicity": [
+                "White",
+                "Asian",
+                "Black",
+                "Hispanic"
+            ],
+            "GGT": [
+                10.0,
+                100.0
+            ],
+            "Physical_Activity_Level": [
+                "Moderate",
+                "Low",
+                "High"
+            ]
+        },
+        "selected_features": [
+            "Sex",
+            "Fasting_Blood_Glucose",
+            "Blood_Pressure_Systolic",
+            "Dietary_Intake_Calories",
+            "Serum_Urate",
+            "BMI",
+            "Physical_Activity_Level",
+            "HbA1c",
+            "GGT",
+            "Waist_Circumference",
+            "Blood_Pressure_Diastolic"
+        ],
+        "train_v2_save_file": "./marshalpatel3558_diabetes-prediction-dataset_class/source/train_v2.parquet",
+        "val_v2_save_file": "./marshalpatel3558_diabetes-prediction-dataset_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./marshalpatel3558_diabetes-prediction-dataset_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./marshalpatel3558_diabetes-prediction-dataset_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./marshalpatel3558_diabetes-prediction-dataset_class/source/train_v1.parquet",
+        "train_test_ratio": 0.9,
+        "save_file_type": "parquet",
+        "imputer_type": "median",
+        "random_state": 63,
+        "model_type": "GaussianNB",
+        "output_file": "./marshalpatel3558_diabetes-prediction-dataset_class/prediction.csv",
+        "ground_truth_file": "./marshalpatel3558_diabetes-prediction-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./marshalpatel3558_diabetes-prediction-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Unnamed: 0": "numerical",
+            "Age": "numerical",
+            "Sex": "categorical",
+            "Ethnicity": "categorical",
+            "BMI": "numerical",
+            "Waist_Circumference": "numerical",
+            "Fasting_Blood_Glucose": "numerical",
+            "HbA1c": "numerical",
+            "Blood_Pressure_Systolic": "numerical",
+            "Blood_Pressure_Diastolic": "numerical",
+            "Cholesterol_Total": "numerical",
+            "Cholesterol_HDL": "numerical",
+            "Cholesterol_LDL": "numerical",
+            "GGT": "numerical",
+            "Serum_Urate": "numerical",
+            "Physical_Activity_Level": "categorical",
+            "Dietary_Intake_Calories": "numerical",
+            "Alcohol_Consumption": "categorical",
+            "Smoking_Status": "categorical",
+            "Family_History_of_Diabetes": "categorical",
+            "Previous_Gestational_Diabetes": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Fasting_Blood_Glucose",
+            "Blood_Pressure_Systolic",
+            "Dietary_Intake_Calories",
+            "Serum_Urate",
+            "BMI",
+            "HbA1c",
+            "GGT",
+            "Waist_Circumference",
+            "Blood_Pressure_Diastolic"
+        ],
+        "categorical_features": [
+            "Sex",
+            "Physical_Activity_Level"
+        ]
+    },
+    "data_info": {
+        "id": 6934503,
+        "ref": "marshalpatel3558/diabetes-prediction-dataset",
+        "subtitle": "A Comprehensive Dataset for Diabetes Prediction with various parameters",
+        "creatorName": "Marshal Patel3558",
+        "creatorUrl": "marshalpatel3558",
+        "totalBytes": 326543,
+        "url": "https://www.kaggle.com/datasets/marshalpatel3558/diabetes-prediction-dataset",
+        "lastUpdated": "2025-03-21T19:50:19.707Z",
+        "downloadCount": 7677,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Marshal Patel3558",
+        "ownerRef": "marshalpatel3558",
+        "kernelCount": 14,
+        "title": "Diabetes_prediction_dataset",
+        "viewCount": 30036,
+        "voteCount": 88,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "social science",
+                "name": "social science",
+                "description": "Social science is the collection of disciplines studying how humans interact with each other.",
+                "fullPath": "subject > people and society > social science",
+                "competitionCount": 3,
+                "datasetCount": 9541,
+                "scriptCount": 803,
+                "totalCount": 10347
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "clustering",
+                "name": "clustering",
+                "description": "",
+                "fullPath": "task > clustering",
+                "competitionCount": 25,
+                "datasetCount": 1011,
+                "scriptCount": 2949,
+                "totalCount": 3985
+            },
+            {
+                "ref": "diabetes",
+                "name": "diabetes",
+                "description": "",
+                "fullPath": "subject > health and fitness > health > health conditions > diabetes",
+                "competitionCount": 1,
+                "datasetCount": 6488,
+                "scriptCount": 767,
+                "totalCount": 7256
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6934503,
+        "datasetSlug": "diabetes-prediction-dataset",
+        "ownerUser": "marshalpatel3558",
+        "usabilityRating": 1.0,
+        "totalViews": 29112,
+        "totalVotes": 88,
+        "totalDownloads": 7399,
+        "title": "Diabetes_prediction_dataset",
+        "subtitle": "A Comprehensive Dataset for Diabetes Prediction with various parameters",
+        "description": "### Detailed Description of the Dataset\n\nThe provided dataset, named *diabetes_dataset.csv*, contains information related to diabetes risk factors and associated health metrics. Below is a detailed description of the dataset:\n\n---\n\n#### **Dataset Overview**\n- **Number of Columns:** 20\n- **Number of Rows:** 152 (including the header row)\n- **Type of Data:** Tabular data with mixed numerical and categorical variables.\n- **Purpose:** The dataset appears to be designed for studying diabetes risk factors, including demographic, lifestyle, and clinical measures.\n\n---\n\n#### Column Descriptions\n\n1. **Age**:  \n   - Type: Numerical  \n   - Description: Age of the individual in years.\n\n2. **Sex**:  \n   - Type: Categorical  \n   - Description: Gender of the individual (e.g., Male, Female).\n\n3. **Ethnicity**:  \n   - Type: Categorical  \n   - Description: Ethnic background (e.g., White, Asian, Black, Hispanic).\n\n4. **BMI (Body Mass Index)**:  \n   - Type: Numerical  \n   - Description: A measure of body fat based on weight and height.\n\n5. **Waist Circumference**:  \n   - Type: Numerical  \n   - Description: Measurement of waist size in centimeters.\n\n6. **Fasting Blood Glucose**:  \n   - Type: Numerical  \n   - Description: Blood glucose levels after fasting, measured in mg/dL.\n\n7. **HbA1c**:  \n   - Type: Numerical  \n   - Description: Glycated hemoglobin percentage, indicating average blood sugar levels over the past 2\u20133 months.\n\n8. **Blood Pressure Systolic**:  \n   - Type: Numerical  \n   - Description: Systolic blood pressure (top number), measured in mmHg.\n\n9. **Blood Pressure Diastolic**:  \n   - Type: Numerical  \n   - Description: Diastolic blood pressure (bottom number), measured in mmHg.\n\n10. **Cholesterol Total**:  \n    - Type: Numerical  \n    - Description: Total cholesterol level in mg/dL.\n\n11. **Cholesterol HDL** (High-Density Lipoprotein):  \n    - Type: Numerical  \n    - Description: \"Good\" cholesterol level in mg/dL.\n\n12. **Cholesterol LDL** (Low-Density Lipoprotein):  \n    - Type: Numerical  \n    - Description: \"Bad\" cholesterol level in mg/dL.\n\n13. **GGT (Gamma-Glutamyl Transferase)**:  \n    - Type: Numerical  \n    - Description: Liver enzyme level indicative of liver function or damage.\n\n14. **Serum Urate**:\n    - Type: Numerical\n    - Description: Uric acid levels in the blood, measured in mg/dL.\n\n15. **Physical Activity Level**:\n    - Type: Categorical\n    - Description: Level of physical activity (e.g., Low, Moderate, High).\n\n16. **Dietary Intake Calories**:\n    - Type: Numerical\n    - Description: Daily calorie intake in kilocalories.\n\n17. **Alcohol Consumption**:\n    - Type: Categorical\n    - Description: Alcohol consumption level (e.g., None, Moderate, Heavy).\n\n18. **Smoking Status**:\n    - Type: Categorical\n    - Description: Smoking habits (e.g., Never, Former, Current).\n\n19. **Family History of Diabetes**:\n    - Type: Binary (0 or 1)\n    - Description:\n      1 = Family history present; 0 = No family history of diabetes.\n\n20. **Previous Gestational Diabetes**:\n    - Type: Binary (0 or 1)\n    - Description:\n      1 = History of gestational diabetes; 0 = No history.\n\n---\n\n#### **Sample Data**\nThe dataset includes diverse demographic groups and a wide range of health metrics:\n\n=== About this file ===\n\nAbout this file\n\ud83d\udcc4 Diabetes Prediction Dataset\nFile Format:\n\ud83d\udcca\nCSV\n(Comma-Separated Values)\nSize & Structure:\n\u2705 Contains\nX rows\nand\n21 columns\n\u2705 Well-structured for easy data analysis and visualization\nColumns & Description:\nHere is the information you requested:\nColumn Name\nDescription\nAge\nAge of the person\nSex\nGender of the person\nEthnicity\nEthnic background of the person\nBMI\nBody Mass Index, a measure of body fat based on height and weight\nWaist_Circumference\nMeasurement of waist circumference\nFasting_Blood_Glucose\nBlood glucose level after a period of fasting\nHbA1c\nHemoglobin A1c, a measure of average blood sugar levels over the past 2-3 months\nBlood_Pressure_Systolic\nSystolic blood pressure reading\nBlood_Pressure_Diastolic\nDiastolic blood pressure reading\nCholesterol_Total\nTotal cholesterol level in the blood\n\n\n=== Columns & descriptions ===\n\n: Id\nAge: Age of the person\nSex: Gender of the person\nEthnicity: Ethnic background of the person\nBMI: Body Mass Index, a measure of body fat based on height and weight\nWaist_Circumference: Measurement of waist circumference\nFasting_Blood_Glucose: Blood glucose level after a period of fasting\nHbA1c: Hemoglobin A1c, a measure of average blood sugar levels over the past 2-3 months\nBlood_Pressure_Systolic: Systolic blood pressure reading\nBlood_Pressure_Diastolic: Diastolic blood pressure reading\nCholesterol_Total: [no description]\nCholesterol_HDL: [no description]\nCholesterol_LDL: [no description]\nGGT: [no description]\nSerum_Urate: [no description]\nPhysical_Activity_Level: [no description]\nDietary_Intake_Calories: [no description]\nAlcohol_Consumption: [no description]\nSmoking_Status: [no description]\nFamily_History_of_Diabetes: [no description]\nPrevious_Gestational_Diabetes: [no description]\n",
+        "keywords": [
+            "social science",
+            "exploratory data analysis",
+            "data visualization",
+            "classification",
+            "clustering",
+            "diabetes"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

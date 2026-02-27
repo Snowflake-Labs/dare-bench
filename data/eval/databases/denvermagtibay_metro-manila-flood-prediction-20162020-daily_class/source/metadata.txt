@@ -1,0 +1,25 @@
+This dataset is a daily time-series compilation from 2016 to 2020 designed to support flood prediction modeling in Metro Manila (NCR), Philippines — one of the most flood-prone megacities in Southeast Asia.
+
+It integrates rainfall, river water levels, and soil moisture, along with static geographic features like elevation. The target variable FloodOccurrence is labeled using science-based thresholds derived from PAGASA advisories, Marikina River flood alarm levels, and hydrological research on urban flooding.
+
+=== About this file ===
+
+About this file
+This CSV file contains daily flood-related data from 2016 to 2020 for four major cities in Metro Manila: Quezon City, Marikina, Pasig, and Manila. Each row represents one day of environmental observations for a specific city, including:
+Rainfall (mm)
+River Water Level (m)
+Soil Moisture (%)
+Elevation (m)
+FloodOccurrence (0 or 1)
+Flood events are labeled based on rainfall ≥ 30 mm or river level ≥ 10 m, allowing the file to be used for supervised machine learning, early warning systems, or urban flood risk analysis.
+
+
+=== Columns & descriptions ===
+
+Date: Daily timestamp from 2016–2020
+Location: One of four NCR cities — Quezon City, Marikina, Pasig, or Manila
+Rainfall_mm: Total rainfall per day (mm)
+WaterLevel_m: River stage at the nearest monitoring station (m)
+SoilMoisture_pct: Surface soil moisture estimate from satellite sources (%)
+Elevation_m: Static elevation above sea level (m)
+FloodOccurrence: Binary indicator (1 = flood occurred, 0 = no flood), labeled using expert-informed criteria

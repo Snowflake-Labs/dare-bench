@@ -1,0 +1,197 @@
+{
+    "question": {
+        "target": [
+            "preferred_taste"
+        ],
+        "target_candidates": [
+            "preferred_taste"
+        ],
+        "related_features": [
+            "historical_cuisine_exposure",
+            "exercise_habits",
+            "age",
+            "climate_zone",
+            "sleep_cycle"
+        ],
+        "not_filtered_related_features": [
+            "historical_cuisine_exposure",
+            "exercise_habits",
+            "age",
+            "climate_zone"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "historical_cuisine_exposure": [
+                "Asian",
+                "Mixed",
+                "Mediterranean"
+            ],
+            "exercise_habits": [
+                "Heavy",
+                "Moderate",
+                "Light"
+            ],
+            "age": [
+                18.0,
+                69.0
+            ],
+            "climate_zone": [
+                "Temperate",
+                "Cold",
+                "Dry",
+                "Tropical"
+            ]
+        },
+        "selected_features": [
+            "climate_zone",
+            "exercise_habits",
+            "age"
+        ],
+        "train_v2_save_file": "./milapgohil_flavorsense-tastes-predicted-by-life-and-climate_class/source/train_v2.parquet",
+        "val_v2_save_file": "./milapgohil_flavorsense-tastes-predicted-by-life-and-climate_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./milapgohil_flavorsense-tastes-predicted-by-life-and-climate_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./milapgohil_flavorsense-tastes-predicted-by-life-and-climate_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./milapgohil_flavorsense-tastes-predicted-by-life-and-climate_class/source/train_v1.parquet",
+        "train_test_ratio": 0.7,
+        "save_file_type": "parquet",
+        "imputer_type": "median",
+        "random_state": 33,
+        "model_type": "DecisionTreeClassifier",
+        "output_file": "./milapgohil_flavorsense-tastes-predicted-by-life-and-climate_class/prediction.csv",
+        "ground_truth_file": "./milapgohil_flavorsense-tastes-predicted-by-life-and-climate_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./milapgohil_flavorsense-tastes-predicted-by-life-and-climate_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "age": "numerical",
+            "sleep_cycle": "numerical",
+            "exercise_habits": "categorical",
+            "climate_zone": "categorical",
+            "historical_cuisine_exposure": "categorical",
+            "preferred_taste": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "age"
+        ],
+        "categorical_features": [
+            "climate_zone",
+            "exercise_habits"
+        ]
+    },
+    "data_info": {
+        "id": 7666669,
+        "ref": "milapgohil/flavorsense-tastes-predicted-by-life-and-climate",
+        "subtitle": "Classify food tastes using life routines, geography & upbringing cuisine",
+        "creatorName": "Milap Gohil",
+        "creatorUrl": "milapgohil",
+        "totalBytes": 45106,
+        "url": "https://www.kaggle.com/datasets/milapgohil/flavorsense-tastes-predicted-by-life-and-climate",
+        "lastUpdated": "2025-06-16T06:25:53.117Z",
+        "downloadCount": 883,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Milap Gohil",
+        "ownerRef": "milapgohil",
+        "kernelCount": 9,
+        "title": "\ud83c\udf7d\ufe0fFlavorSense: Tastes Predicted by Life & Climate",
+        "viewCount": 4573,
+        "voteCount": 26,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "earth and nature",
+                "name": "earth and nature",
+                "description": "",
+                "fullPath": "subject > earth and nature",
+                "competitionCount": 19,
+                "datasetCount": 79487,
+                "scriptCount": 394,
+                "totalCount": 79900
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "food",
+                "name": "food",
+                "description": "",
+                "fullPath": "subject > health and fitness > food",
+                "competitionCount": 10,
+                "datasetCount": 13083,
+                "scriptCount": 709,
+                "totalCount": 13802
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7666669,
+        "datasetSlug": "flavorsense-tastes-predicted-by-life-and-climate",
+        "ownerUser": "milapgohil",
+        "usabilityRating": 1.0,
+        "totalViews": 1980,
+        "totalVotes": 11,
+        "totalDownloads": 355,
+        "title": "\ud83c\udf7d\ufe0fFlavorSense: Tastes Predicted by Life & Climate",
+        "subtitle": "Classify food tastes using life routines, geography & upbringing cuisine",
+        "description": "Dive into a unique synthetic dataset that **predicts food taste preferences**\u2014Spicy, Sweet, Sour, or Salty\u2014based on lifestyle habits, sleep cycles, exercise levels, climate zones, and cultural cuisine exposure. Perfect for classification projects, EDA practice, or building recommendation systems with a flavorful twist!\n\n1.Multi-class Classification: Predict `preferred_taste` using all features.\n\n2.EDA & Visualization: Explore **how lifestyle and climate impact food preferences.**\n\n3.Missing Value Handling: Practice imputation techniques (SimpleImputer, KNN, etc.)\n\n4.Cultural Feature Encoding: Encode `historical_cuisine` creatively (OneHot, Embedding).\n\n5.Model Comparison: Test Decision Trees, SVM, XGBoost, or Neural Nets.\n\n6.Recommendation System: Build a basic taste preference recommender.\n\n=== About this file ===\n\nAbout this file\nShape : 10000 Rows * 6 Columns\nFormate : CSV\nMissing values : Present\n\n\n=== Columns & descriptions ===\n\nage: Age can influence metabolism, taste sensitivity, and food preferences (e.g., younger people may prefer sweeter flavors).\nsleep_cycle: Circadian rhythms and sleep patterns can influence hormone levels, hunger, and cravings.\nexercise_habits: Active people may prefer salty/spicy due to sodium loss from sweating or increased metabolic demand.\nclimate_zone: Climate influences traditional diets. Spicy food is more common in hot and humid climates (e.g., India, Mexico).\nhistorical_cuisine_exposure: Cuisine history reflects taste conditioning\u2014someone exposed to Mediterranean food may prefer salty/sour, while Asian might prefer spicy or umami.\npreferred_taste: preferred_taste: Categorical label with 4 classes \u2013 'Spicy', 'Sweet', 'Sour', 'Salty'\n",
+        "keywords": [
+            "earth and nature",
+            "beginner",
+            "exploratory data analysis",
+            "classification",
+            "tabular",
+            "food"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

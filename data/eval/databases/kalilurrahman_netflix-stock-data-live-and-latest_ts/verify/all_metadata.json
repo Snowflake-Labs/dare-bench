@@ -1,0 +1,215 @@
+{
+    "question": {
+        "target": [
+            "Close"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%Y-%m-%d %H:%M:%S%z",
+        "is_resampled": false,
+        "related_features": [
+            "Open",
+            "High",
+            "Low",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+        ],
+        "not_filtered_related_features": [
+            "Open",
+            "High",
+            "Low",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+        ],
+        "selected_features": [
+            "Low",
+            "Volume",
+            "Dividends",
+            "High"
+        ],
+        "expected_ranges": {
+            "Open": [
+                0.3778569996356964,
+                1060.0
+            ],
+            "High": [
+                0.4107140004634857,
+                1064.5
+            ],
+            "Low": [
+                0.3464289903640747,
+                1041.68994140625
+            ],
+            "Volume": [
+                285600,
+                323414000
+            ],
+            "Dividends": [
+                0.0,
+                0.0
+            ],
+            "Stock Splits": [
+                0.0,
+                7.0
+            ]
+        },
+        "column_type_inference": {
+            "Date": "object",
+            "Open": "numeric",
+            "High": "numeric",
+            "Low": "numeric",
+            "Close": "numeric",
+            "Volume": "numeric",
+            "Dividends": "numeric",
+            "Stock Splits": "numeric"
+        },
+        "train_save_file": "./kalilurrahman_netflix-stock-data-live-and-latest_ts/source/train.csv",
+        "val_v1_save_file": "./kalilurrahman_netflix-stock-data-live-and-latest_ts/source/val_v1.csv",
+        "val_v2_save_file": "./kalilurrahman_netflix-stock-data-live-and-latest_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./kalilurrahman_netflix-stock-data-live-and-latest_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./kalilurrahman_netflix-stock-data-live-and-latest_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./kalilurrahman_netflix-stock-data-live-and-latest_ts/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 8,
+        "model_type": "Prophet",
+        "output_file": "./kalilurrahman_netflix-stock-data-live-and-latest_ts/prediction.json",
+        "ground_truth_v1_file": "./kalilurrahman_netflix-stock-data-live-and-latest_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./kalilurrahman_netflix-stock-data-live-and-latest_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./kalilurrahman_netflix-stock-data-live-and-latest_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2020-08-20 00:00:00-04:00",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 1612616,
+        "ref": "kalilurrahman/netflix-stock-data-live-and-latest",
+        "subtitle": "Regular Updates from Yahoo! Finance Downloaded data",
+        "creatorName": "Kalilur Rahman",
+        "creatorUrl": "kalilurrahman",
+        "totalBytes": 133733,
+        "url": "https://www.kaggle.com/datasets/kalilurrahman/netflix-stock-data-live-and-latest",
+        "lastUpdated": "2025-08-21T08:12:57.327Z",
+        "downloadCount": 4312,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Kalilur Rahman",
+        "ownerRef": "kalilurrahman",
+        "kernelCount": 7,
+        "title": "Netflix Stock Data - Live and Latest",
+        "viewCount": 37138,
+        "voteCount": 92,
+        "currentVersionNumber": 917,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "finance",
+                "name": "finance",
+                "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+                "fullPath": "subject > people and society > business > finance",
+                "competitionCount": 101,
+                "datasetCount": 12683,
+                "scriptCount": 4576,
+                "totalCount": 17360
+            },
+            {
+                "ref": "computer science",
+                "name": "computer science",
+                "description": "There is one thing we can say for sure about computer science: Computer science leads to more computer games which leads to better GPUs which leads to smarter AI.",
+                "fullPath": "subject > science and technology > computer science",
+                "competitionCount": 10,
+                "datasetCount": 57853,
+                "scriptCount": 733,
+                "totalCount": 58596
+            },
+            {
+                "ref": "programming",
+                "name": "programming",
+                "description": "The programming tag contains datsets and kernels from coder surveys, revision histories, and bug triaging.",
+                "fullPath": "subject > science and technology > computer science > programming",
+                "competitionCount": 4,
+                "datasetCount": 14255,
+                "scriptCount": 83343,
+                "totalCount": 97602
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "linear regression",
+                "name": "linear regression",
+                "description": "",
+                "fullPath": "task > linear regression",
+                "competitionCount": 11,
+                "datasetCount": 850,
+                "scriptCount": 5938,
+                "totalCount": 6799
+            },
+            {
+                "ref": "investing",
+                "name": "investing",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > investing",
+                "competitionCount": 5,
+                "datasetCount": 11998,
+                "scriptCount": 18559,
+                "totalCount": 30562
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 1612616,
+        "datasetSlug": "netflix-stock-data-live-and-latest",
+        "ownerUser": "kalilurrahman",
+        "usabilityRating": 1.0,
+        "totalViews": 36668,
+        "totalVotes": 92,
+        "totalDownloads": 4235,
+        "title": "Netflix Stock Data - Live and Latest",
+        "subtitle": "Regular Updates from Yahoo! Finance Downloaded data",
+        "description": "![Netflix Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/340px-Netflix_2015_logo.svg.png)\n\n###### Source: Wikipedia\nNetflix, Inc. is an American over-the-top media service and original programming production company. It offers subscription-based video on demand from a library of films and television series, 40% of which is Netflix original programming produced in-house. Netflix has also played a prominent role in independent film distribution. As of July 2021, Netflix had 209 million subscribers, including 72 million in the United States and Canada. \n\nNetflix was founded in 1997 by Reed Hastings and Marc Randolph in Scotts Valley, California. Netflix's initial business model included DVD sales and rental by mail.\n\nThe company is ranked 164th on the Fortune 500[11] and 284th on the Forbes Global 2000. It is the largest entertainment/media company by market capitalization. In 2021, Netflix was ranked as the 8th most trusted brand globally by Morning Consult. During the 2010s decade, Netflix was the top-performing stock in the S&P 500 stock market index, with a total return of 3,693%.\n\n### Context\n\nNetflix is a booming stock.  Netflix stock Analysis will be a great eye-treat.\n\n### Content\n\nDownloaded using a python script, the source is gathered through Yahoo! Finance API\n\n\n=== About this file ===\n\nAbout this file\nRemote source:\nhttps://github.com/kalilurrahman/nflxstockdata\nStock actions taken\n\n\n=== Columns & descriptions ===\n\nDate: [no description]\nDividends: [no description]\nStock Splits: [no description]\n",
+        "keywords": [
+            "finance",
+            "computer science",
+            "programming",
+            "data visualization",
+            "time series analysis",
+            "linear regression",
+            "investing"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

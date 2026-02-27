@@ -1,0 +1,153 @@
+This dataset contains year-wise macroeconomic indicators for over 200 countries from 2010 to 2025, extracted programmatically using the World Bank Open Data API.
+
+It includes key indicators critical for policy makers, economists, data scientists, and financial analysts. The data has been cleaned, structured, and exported as a CSV — making it ready for analysis, dashboards, and forecasting models.
+
+## 📦 Included Indicators
+- Inflation (Consumer Price Index %)
+- GDP (Current USD)
+- GDP per Capita
+- GDP Growth (% Annual)
+- Unemployment Rate
+- Real Interest Rate
+- Public Debt (% of GDP)
+- Government Expense and Revenue
+- Current Account Balance
+- Gross National Income
+- Tax Revenue
+
+## 📊 Columns Overview
+| Column Name           | Description                              |
+|------------------------|------------------------------------------|
+| country_name           | Full country name                        |
+| country_id             | ISO 2-character country code             |
+| year                   | Year (2010–2025)                         |
+| GDP (Current USD)      | Total national GDP in USD                |
+| Inflation (CPI %)      | Consumer price inflation                 |
+| Unemployment Rate (%)  | Total unemployment rate                  |
+| Interest Rate (Real, %) | Inflation-adjusted lending rate        |
+| ...                    | (see data dictionary below)              |
+
+## 📈 Use Cases
+- Economic trend visualization
+- Country comparison dashboards
+- Machine learning forecasting models
+- Macroeconomic policy analysis
+
+## 📡 Data Source
+- API: [World Bank Open Data](https://data.worldbank.org)
+- Extracted using: Python, requests, pandas, SQLAlchemy
+
+## 🧠 Ideal For
+- Data scientists
+- Policy researchers
+- Students in economics or finance
+- Kaggle forecasting competitions
+
+## ✅ Format
+- CSV format (UTF-8)
+- 200+ countries × 15 years × 13 indicators = ~40,000+ rows
+
+
+=== About this file ===
+
+About this file
+📄 About This File:
+world_bank_data_2025.csv
+🔍 Overview
+This file contains
+structured, multi-year macroeconomic data
+collected from the
+World Bank Open Data API
+. It tracks the
+key economic indicators
+for over 200 countries from
+2010 to 2025
+.
+Each row represents the
+economic profile of a country for a specific year
+.
+📊 Columns in the Dataset
+Column Name
+Description
+country_name
+Full name of the country (e.g., India, United States)
+country_id
+ISO 2-letter country code (e.g., IN, US)
+year
+The year the data corresponds to (from 2010 to 2025)
+Inflation (CPI %)
+Annual consumer price inflation
+GDP (Current USD)
+Gross Domestic Product in current USD
+GDP per Capita (Current USD)
+GDP divided by total population in current USD
+Unemployment Rate (%)
+Percentage of labor force unemployed
+Interest Rate (Real, %)
+Lending interest rate adjusted for inflation
+Inflation (GDP Deflator, %)
+Inflation based on the GDP deflator
+GDP Growth (% Annual)
+Year-over-year GDP growth rate
+Current Account Balance (% GDP)
+Net flow of current transactions as a % of GDP
+Government Expense (% of GDP)
+Government total expenditure as a share of GDP
+Government Revenue (% of GDP)
+Government total revenue as a share of GDP
+Tax Revenue (% of GDP)
+Share of GDP collected in taxes
+Gross National Income (USD)
+Total income received by residents of a country
+Public Debt (% of GDP)
+Total government debt as a percentage of GDP
+🔢 Number of Records
+🌍 ~200+ countries
+📆 2010–2025 (16 years)
+📈 13 economic indicators
+🧾 Total rows: ~32,000+ (depending on missing data)
+🧹 Cleaning Notes
+Missing data is retained as
+NaN
+to preserve original structure.
+Country names and codes standardized via World Bank metadata.
+Date range and indicators fully aligned across countries and years.
+🧠 Use Cases
+This dataset is perfect for:
+Time-series forecasting
+Inflation and interest rate modeling
+Macroeconomic comparison dashboards
+Economic growth analysis
+Public policy research
+Machine learning regression tasks
+📁 Source
+Extracted via the
+World Bank API
+Processed using Python (
+requests
+,
+pandas
+,
+SQLAlchemy
+)
+Exported from a MySQL-backed ETL pipeline
+
+
+=== Columns & descriptions ===
+
+country_name: Full name of the country (e.g., India, United States)
+country_id: SO 2-letter country code (e.g., IN, US)
+year: The year the data corresponds to (from 2010 to 2025)
+Inflation (CPI %): Annual consumer price inflation
+GDP (Current USD): Gross Domestic Product in current USD
+GDP per Capita (Current USD): GDP divided by total population in current USD
+Unemployment Rate (%): Percentage of labor force unemployed
+Interest Rate (Real, %): Lending interest rate adjusted for inflation
+Inflation (GDP Deflator, %): Inflation based on the GDP deflator
+GDP Growth (% Annual): Year-over-year GDP growth rate Year-over-year GDP growth rate
+Current Account Balance (% GDP): [no description]
+Government Expense (% of GDP): [no description]
+Government Revenue (% of GDP): [no description]
+Tax Revenue (% of GDP): [no description]
+Gross National Income (USD): [no description]
+Public Debt (% of GDP): [no description]

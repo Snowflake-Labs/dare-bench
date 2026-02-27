@@ -1,0 +1,171 @@
+{
+    "question": {
+        "target": [
+            "Units_Sold"
+        ],
+        "target_candidates": [
+            "Units_Sold"
+        ],
+        "related_features": [
+            "Date",
+            "Region",
+            "Part"
+        ],
+        "not_filtered_related_features": [
+            "Region",
+            "Part"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "Region": [
+                "Dhaka",
+                "Khulna",
+                "Chattogram",
+                "Rajshahi"
+            ],
+            "Part": [
+                "Power Supply",
+                "SSD",
+                "RAM",
+                "HDD",
+                "CPU",
+                "GPU",
+                "Motherboard",
+                "Cooling Fan"
+            ]
+        },
+        "selected_features": [
+            "Part",
+            "Region"
+        ],
+        "train_v2_save_file": "./maruf99alam_computer-parts-sales-dataset-for-demand-forcasting_reg/source/train_v2.csv",
+        "val_v2_save_file": "./maruf99alam_computer-parts-sales-dataset-for-demand-forcasting_reg/source/val_v2.csv",
+        "val_no_err_save_file": "./maruf99alam_computer-parts-sales-dataset-for-demand-forcasting_reg/source/val_v1.csv",
+        "train_no_err_save_file": "./maruf99alam_computer-parts-sales-dataset-for-demand-forcasting_reg/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./maruf99alam_computer-parts-sales-dataset-for-demand-forcasting_reg/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "mean",
+        "random_state": 18,
+        "model_type": "LinearRegression",
+        "output_file": "./maruf99alam_computer-parts-sales-dataset-for-demand-forcasting_reg/prediction.csv",
+        "ground_truth_file": "./maruf99alam_computer-parts-sales-dataset-for-demand-forcasting_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./maruf99alam_computer-parts-sales-dataset-for-demand-forcasting_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Date": "categorical",
+            "Part": "categorical",
+            "Region": "categorical",
+            "Units_Sold": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [],
+        "categorical_features": [
+            "Part",
+            "Region"
+        ]
+    },
+    "data_info": {
+        "id": 7898664,
+        "ref": "maruf99alam/computer-parts-sales-dataset-for-demand-forcasting",
+        "subtitle": "A time-series dataset of 40 real-world-like sales records across Bangladesh",
+        "creatorName": "Al Maruf Bin Alam",
+        "creatorUrl": "maruf99alam",
+        "totalBytes": 564,
+        "url": "https://www.kaggle.com/datasets/maruf99alam/computer-parts-sales-dataset-for-demand-forcasting",
+        "lastUpdated": "2025-07-19T06:46:17.023Z",
+        "downloadCount": 10,
+        "licenseName": "CC BY-SA 4.0",
+        "description": "",
+        "ownerName": "Al Maruf Bin Alam",
+        "ownerRef": "maruf99alam",
+        "kernelCount": 1,
+        "title": "Computer Parts Sales Dataset for demand forcasting",
+        "viewCount": 116,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "categorical",
+                "name": "categorical",
+                "description": "Categorical data are observations that fall into discrete categories, like dog breed, dog color or whether or not a dog likes chew toys.",
+                "fullPath": "data type > categorical",
+                "competitionCount": 40,
+                "datasetCount": 2985,
+                "scriptCount": 2411,
+                "totalCount": 5436
+            },
+            {
+                "ref": "computer science",
+                "name": "computer science",
+                "description": "There is one thing we can say for sure about computer science: Computer science leads to more computer games which leads to better GPUs which leads to smarter AI.",
+                "fullPath": "subject > science and technology > computer science",
+                "competitionCount": 10,
+                "datasetCount": 57851,
+                "scriptCount": 733,
+                "totalCount": 58594
+            },
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "data analytics",
+                "name": "data analytics",
+                "description": "",
+                "fullPath": "technique > data analytics",
+                "competitionCount": 32,
+                "datasetCount": 9201,
+                "scriptCount": 15324,
+                "totalCount": 24557
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7898664,
+        "datasetSlug": "computer-parts-sales-dataset-for-demand-forcasting",
+        "ownerUser": "maruf99alam",
+        "usabilityRating": 1.0,
+        "totalViews": 116,
+        "totalDownloads": 11,
+        "title": "Computer Parts Sales Dataset for demand forcasting",
+        "subtitle": "A time-series dataset of 40 real-world-like sales records across Bangladesh",
+        "description": "\"Computer Parts Sales Dataset for demand forcasting\", is an educational custom dataset. The purpose of this dataset is to provide a realistic, synthetic sample of computer hardware part sales across different regions in Bangladesh. It is designed to help data scientists, students, and analysts:\n\n1. Build and train supervised machine learning models (especially linear regression)\n2. Predict future demand for specific hardware parts such as CPUs, GPUs, RAM, etc.\n3. Analyze sales trends across time and regions\n4. Make stock planning decisions based on sales behavior\n5. Practice feature engineering and demand forecasting with a structured dataset\n\nThis dataset is especially useful for educational purposes, time-series regression tasks, and retail demand modeling experiments. You will also see the result of Linear regrssion on Notebook and how I proved Linear Regression is not a good option for Randomized data.\n\n=== About this file ===\n\nAbout this file\nThere are 4 columns and 40 rows.\n1. Date\n- consist of random dates.\n2. Parts\n- consist of PC parts.\n3. Region\n- Areas of Bangladesh.\n4. Unit_Sold\n- Indicated solding units.\n\n\n=== Columns & descriptions ===\n\nDate: Data\nPart: Part\nRegion: Region\nUnits_Sold: Unit_Sold\n",
+        "keywords": [
+            "categorical",
+            "computer science",
+            "intermediate",
+            "data analytics",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-SA-4.0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,214 @@
+{
+    "question": {
+        "target": [
+            "isAlive"
+        ],
+        "target_candidates": [
+            "isAlive"
+        ],
+        "related_features": [
+            "male",
+            "isAliveMother",
+            "book2",
+            "isAliveSpouse",
+            "book3",
+            "isMarried",
+            "age",
+            "dateOfBirth",
+            "book4",
+            "house",
+            "culture",
+            "isAliveFather",
+            "book5",
+            "isAliveHeir",
+            "isNoble",
+            "numDeadRelations",
+            "popularity",
+            "book1"
+        ],
+        "not_filtered_related_features": [
+            "age",
+            "dateOfBirth",
+            "numDeadRelations",
+            "popularity"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "age": [
+                0.0,
+                100.0
+            ],
+            "dateOfBirth": [
+                -25.0,
+                299.0
+            ],
+            "numDeadRelations": [
+                0,
+                15
+            ],
+            "popularity": [
+                0.0,
+                1.0
+            ]
+        },
+        "selected_features": [
+            "age",
+            "numDeadRelations",
+            "dateOfBirth"
+        ],
+        "train_v2_save_file": "./kapturovalexander_which-game-of-thrones-characters-will-die_class/source/train_v2.parquet",
+        "val_v2_save_file": "./kapturovalexander_which-game-of-thrones-characters-will-die_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./kapturovalexander_which-game-of-thrones-characters-will-die_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./kapturovalexander_which-game-of-thrones-characters-will-die_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./kapturovalexander_which-game-of-thrones-characters-will-die_class/source/train_v1.parquet",
+        "train_test_ratio": 0.9,
+        "save_file_type": "parquet",
+        "imputer_type": "median",
+        "random_state": 87,
+        "model_type": "LinearSVC",
+        "output_file": "./kapturovalexander_which-game-of-thrones-characters-will-die_class/prediction.csv",
+        "ground_truth_file": "./kapturovalexander_which-game-of-thrones-characters-will-die_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./kapturovalexander_which-game-of-thrones-characters-will-die_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "S.No": "categorical",
+            "name": "categorical",
+            "title": "categorical",
+            "male": "categorical",
+            "culture": "categorical",
+            "dateOfBirth": "numerical",
+            "mother": "categorical",
+            "father": "categorical",
+            "heir": "categorical",
+            "house": "categorical",
+            "spouse": "categorical",
+            "book1": "categorical",
+            "book2": "categorical",
+            "book3": "categorical",
+            "book4": "categorical",
+            "book5": "categorical",
+            "isAliveMother": "categorical",
+            "isAliveFather": "categorical",
+            "isAliveHeir": "categorical",
+            "isAliveSpouse": "categorical",
+            "isMarried": "categorical",
+            "isNoble": "categorical",
+            "age": "numerical",
+            "numDeadRelations": "numerical",
+            "popularity": "numerical",
+            "isAlive": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "age",
+            "numDeadRelations",
+            "dateOfBirth"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 6683336,
+        "ref": "kapturovalexander/which-game-of-thrones-characters-will-die",
+        "subtitle": "You have to predict which characters will die and which will survive",
+        "creatorName": "Alexander Kapturov",
+        "creatorUrl": "kapturovalexander",
+        "totalBytes": 43205,
+        "url": "https://www.kaggle.com/datasets/kapturovalexander/which-game-of-thrones-characters-will-die",
+        "lastUpdated": "2025-06-23T11:14:12.597Z",
+        "downloadCount": 134,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Alexander Kapturov",
+        "ownerRef": "kapturovalexander",
+        "kernelCount": 1,
+        "title": "\ud83d\udc51\ud83c\udff0\u2620\ufe0f Game of Thrones - which characters will die",
+        "viewCount": 988,
+        "voteCount": 4,
+        "currentVersionNumber": 10,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "arts and entertainment",
+                "name": "arts and entertainment",
+                "description": "Activities that holds the attention and interest of an audience, or gives pleasure and delight. It can be an idea or a task, but is more likely to be one of the activities or events that have developed over thousands of years specifically for the purpose of keeping an audience's attention.",
+                "fullPath": "subject > arts and entertainment",
+                "competitionCount": 3,
+                "datasetCount": 72636,
+                "scriptCount": 22779,
+                "totalCount": 95418
+            },
+            {
+                "ref": "movies and tv shows",
+                "name": "movies and tv shows",
+                "description": "Grab a bucket of popcorn and come analyze these movie ratings. The world must know which blockbuster film is the blockbuster film of all time!",
+                "fullPath": "subject > arts and entertainment > movies and tv shows",
+                "competitionCount": 9,
+                "datasetCount": 22841,
+                "scriptCount": 2274,
+                "totalCount": 25124
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6683336,
+        "datasetSlug": "which-game-of-thrones-characters-will-die",
+        "ownerUser": "kapturovalexander",
+        "usabilityRating": 1.0,
+        "totalViews": 927,
+        "totalVotes": 4,
+        "totalDownloads": 129,
+        "title": "\ud83d\udc51\ud83c\udff0\u2620\ufe0f Game of Thrones - which characters will die",
+        "subtitle": "You have to predict which characters will die and which will survive",
+        "description": "## \u2139\ufe0f Dataset Description:\n# This dataset contains information about characters from the universe of *Game of Thrones* and aims to predict whether a character will die or survive.\n\n### \ud83e\udeb6 Features:\n\n- **name**: Character's name\n- **Title**: Social status or nobility title\n- **House**: House to which the character belongs\n- **Culture**: Social group associated with the character\n- **book1/2/3/4/5**: Indicator of the character's appearance in each book\n- **Is noble**: Nobility status based on title\n- **Age**: Character's age (year reference: 305 AC)\n- **male**: Gender of the character (1 = Male, 0 = Female)\n- **dateOfBirth**: Character's birth year\n- **Spouse**: Name of the character's spouse\n- **Father**: Name of the character's father\n- **Mother**: Name of the character's mother\n- **Heir**: Name of the character's heir\n- **Is married**: Whether the character is married (1 = Yes, 0 = No)\n- **Is spouse alive**: Whether the character's spouse is alive (1 = Yes, 0 = No)\n- **Is mother alive**: Whether the character's mother is alive (1 = Yes, 0 = No)\n- **Is heir alive**: Whether the character's heir is alive (1 = Yes, 0 = No)\n- **Is father alive**: Whether the character's father is alive (1 = Yes, 0 = No)\n- **Number dead relations**: Number of known deceased relations of the character\n- **Popularity score**: Number of internal incoming and outgoing links to the character's wiki page ([source](http://awoiaf.westeros.org))\n\n### \ud83c\udff9 Target Variable:\n- **isAlive**: Indicates whether the character is alive in the book (1 = Alive, 0 = Deceased)\n\n![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F10074224%2Fc229a55bd09f6a84b9301fe26fb53002%2F2025-02-17%20134618.png?generation=1739789485381676&alt=media)\n\n=== About this file ===\n\nAbout this file\nThis dataset contains information about characters from the universe of Game of Thrones and aims to predict whether a character will die or survive.\n\n\n=== Columns & descriptions ===\n\nS.No: [no description]\nname: Character's name\ntitle: Social status or nobility title\nmale: Gender of the character (1 = Male, 0 = Female)\nculture: Social group associated with the character\ndateOfBirth: Character's birth year\nmother: Name of the character's mother\nfather: Name of the character's father\nheir: Name of the character's heir\nhouse: [no description]\nspouse: [no description]\nbook1: [no description]\nbook2: [no description]\nbook3: [no description]\nbook4: [no description]\nbook5: [no description]\nisAliveMother: [no description]\nisAliveFather: [no description]\nisAliveHeir: [no description]\nisAliveSpouse: [no description]\nisMarried: [no description]\nisNoble: [no description]\nage: [no description]\nnumDeadRelations: [no description]\npopularity: [no description]\n",
+        "keywords": [
+            "arts and entertainment",
+            "movies and tv shows",
+            "beginner",
+            "intermediate",
+            "classification"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

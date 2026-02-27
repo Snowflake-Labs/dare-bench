@@ -1,0 +1,33 @@
+This dataset contains information related to patients with Polycystic Ovary Syndrome (PCOS), a common hormonal disorder affecting women of reproductive age. The dataset consists of 1000 entries, each representing a patient, and includes five key features that are typically associated with the diagnosis and risk factors of PCOS. The features provide valuable insights into patients' health and can be used for exploratory data analysis (EDA), feature engineering, and machine learning model development for predicting PCOS diagnoses.
+
+Features:
+Age (years): The age of the patient, ranging from 18 to 45 years.
+BMI (kg/m²): The Body Mass Index, which is a measure of body fat based on height and weight, ranging from 18 to 35.
+Menstrual Irregularity (binary): A binary indicator showing whether the patient has irregular menstrual cycles (0 = No, 1 = Yes).
+Testosterone Level (ng/dL): The level of testosterone in the patient's blood, an important hormonal indicator of PCOS, ranging from 20 to 100 ng/dL.
+Antral Follicle Count: The number of antral follicles detected during an ultrasound, ranging from 5 to 30, which helps in assessing ovarian reserve and PCOS presence.
+Target Variable:
+PCOS Diagnosis (binary): A binary indicator of whether the patient has been diagnosed with PCOS (0 = No, 1 = Yes), based on a combination of risk factors such as high BMI, testosterone levels, menstrual irregularity, and antral follicle count.
+
+=== About this file ===
+
+About this file
+This dataset contains information related to patients with Polycystic Ovary Syndrome (PCOS), a common hormonal disorder affecting women of reproductive age. The dataset consists of 1000 entries, each representing a patient, and includes five key features that are typically associated with the diagnosis and risk factors of PCOS. The features provide valuable insights into patients' health and can be used for exploratory data analysis (EDA), feature engineering, and machine learning model development for predicting PCOS diagnoses.
+Features:
+Age (years): The age of the patient, ranging from 18 to 45 years.
+BMI (kg/m²): The Body Mass Index, which is a measure of body fat based on height and weight, ranging from 18 to 35.
+Menstrual Irregularity (binary): A binary indicator showing whether the patient has irregular menstrual cycles (0 = No, 1 = Yes).
+Testosterone Level (ng/dL): The level of testosterone in the patient's blood, an important hormonal indicator of PCOS, ranging from 20 to 100 ng/dL.
+Antral Follicle Count: The number of antral follicles detected during an ultrasound, ranging from 5 to 30, which helps in assessing ovarian reserve and PCOS presence.
+Target Variable:
+PCOS Diagnosis (binary): A binary indicator of whether the patient has been diagnosed with PCOS (0 = No, 1 = Yes), based on a combination of risk factors such as high BMI, testosterone levels, menstrual irregularity, and antral follicle count.
+
+
+=== Columns & descriptions ===
+
+Age: The age of the patient, ranging from 18 to 45 years.
+BMI: The Body Mass Index, which is a measure of body fat based on height and weight, ranging from 18 to 35.
+Menstrual_Irregularity: A binary indicator showing whether the patient has irregular menstrual cycles (0 = No, 1 = Yes).
+Testosterone_Level(ng/dL): The level of testosterone in the patient's blood, an important hormonal indicator of PCOS, ranging from 20 to 100 ng/dL.
+Antral_Follicle_Count: The number of antral follicles detected during an ultrasound, ranging from 5 to 30, which helps in assessing ovarian reserve and PCOS presence.
+PCOS_Diagnosis: [no description]

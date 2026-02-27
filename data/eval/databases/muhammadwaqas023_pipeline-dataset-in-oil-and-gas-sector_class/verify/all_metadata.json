@@ -1,0 +1,253 @@
+{
+    "question": {
+        "target": [
+            "Condition"
+        ],
+        "target_candidates": [
+            "Condition"
+        ],
+        "related_features": [
+            "Diameter_mm",
+            "Thickness_mm",
+            "Temperature_C",
+            "Material",
+            "Max_Pressure_Bar",
+            "Thickness_Loss_mm",
+            "Grade",
+            "Material_Loss_Percent",
+            "Time_Years",
+            "Strength_MPa",
+            "Corrosion_Impact_Percent",
+            "Pipe_Size_mm"
+        ],
+        "not_filtered_related_features": [
+            "Diameter_mm",
+            "Thickness_mm",
+            "Temperature_C",
+            "Material",
+            "Max_Pressure_Bar",
+            "Thickness_Loss_mm",
+            "Grade",
+            "Material_Loss_Percent",
+            "Time_Years",
+            "Strength_MPa",
+            "Corrosion_Impact_Percent",
+            "Pipe_Size_mm"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Diameter_mm": [
+                104,
+                1999
+            ],
+            "Thickness_mm": [
+                3.0,
+                30.0
+            ],
+            "Temperature_C": [
+                -40.0,
+                120.0
+            ],
+            "Material": [
+                "Copper",
+                "Cast Iron",
+                "Aluminum",
+                "Steel",
+                "PVC"
+            ],
+            "Max_Pressure_Bar": [
+                10.0,
+                200.0
+            ],
+            "Thickness_Loss_mm": [
+                0.0,
+                10.0
+            ],
+            "Grade": [
+                "B",
+                "A",
+                "C",
+                "D",
+                "E"
+            ],
+            "Material_Loss_Percent": [
+                0.0,
+                10.0
+            ],
+            "Time_Years": [
+                1,
+                24
+            ],
+            "Strength_MPa": [
+                201.0,
+                800.0
+            ],
+            "Corrosion_Impact_Percent": [
+                0.0,
+                20.0
+            ],
+            "Pipe_Size_mm": [
+                53,
+                1499
+            ]
+        },
+        "selected_features": [
+            "Thickness_Loss_mm",
+            "Max_Pressure_Bar",
+            "Temperature_C",
+            "Grade",
+            "Strength_MPa",
+            "Corrosion_Impact_Percent",
+            "Time_Years",
+            "Material_Loss_Percent"
+        ],
+        "train_v2_save_file": "./muhammadwaqas023_pipeline-dataset-in-oil-and-gas-sector_class/source/train_v2.csv",
+        "val_v2_save_file": "./muhammadwaqas023_pipeline-dataset-in-oil-and-gas-sector_class/source/val_v2.csv",
+        "val_no_err_save_file": "./muhammadwaqas023_pipeline-dataset-in-oil-and-gas-sector_class/source/val_v1.csv",
+        "train_no_err_save_file": "./muhammadwaqas023_pipeline-dataset-in-oil-and-gas-sector_class/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./muhammadwaqas023_pipeline-dataset-in-oil-and-gas-sector_class/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "mean",
+        "random_state": 77,
+        "model_type": "DecisionTreeClassifier",
+        "output_file": "./muhammadwaqas023_pipeline-dataset-in-oil-and-gas-sector_class/prediction.csv",
+        "ground_truth_file": "./muhammadwaqas023_pipeline-dataset-in-oil-and-gas-sector_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./muhammadwaqas023_pipeline-dataset-in-oil-and-gas-sector_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Pipe_ID": "categorical",
+            "Pipe_Size_mm": "numerical",
+            "Diameter_mm": "numerical",
+            "Thickness_mm": "numerical",
+            "Material": "categorical",
+            "Strength_MPa": "numerical",
+            "Grade": "categorical",
+            "Max_Pressure_Bar": "numerical",
+            "Corrosion_Impact_Percent": "numerical",
+            "Thickness_Loss_mm": "numerical",
+            "Material_Loss_Percent": "numerical",
+            "Time_Years": "numerical",
+            "Temperature_C": "numerical",
+            "Condition": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Thickness_Loss_mm",
+            "Max_Pressure_Bar",
+            "Temperature_C",
+            "Strength_MPa",
+            "Corrosion_Impact_Percent",
+            "Time_Years",
+            "Material_Loss_Percent"
+        ],
+        "categorical_features": [
+            "Grade"
+        ]
+    },
+    "data_info": {
+        "id": 7545476,
+        "ref": "muhammadwaqas023/pipeline-dataset-in-oil-and-gas-sector",
+        "subtitle": "Dataset about pipelines that used in oil and gas sector and also in fertilizers",
+        "creatorName": "Muhammad Waqas",
+        "creatorUrl": "muhammadwaqas023",
+        "totalBytes": 29261,
+        "url": "https://www.kaggle.com/datasets/muhammadwaqas023/pipeline-dataset-in-oil-and-gas-sector",
+        "lastUpdated": "2025-05-29T12:17:12.000Z",
+        "downloadCount": 341,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Muhammad Waqas",
+        "ownerRef": "muhammadwaqas023",
+        "kernelCount": 2,
+        "title": "Pipeline dataset in oil and gas sector/fertilizer",
+        "viewCount": 1992,
+        "voteCount": 8,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "engineering",
+                "name": "engineering",
+                "description": "Engineering is the application of mathematics, science, economics, empirical evidence, social, and practical knowledge to invent, innovate, design, build, maintain, research, and improve structures, machines, tools, systems, components, materials, processes, solutions, and organizations.",
+                "fullPath": "subject > science and technology > engineering",
+                "competitionCount": 4,
+                "datasetCount": 484,
+                "scriptCount": 174,
+                "totalCount": 662
+            },
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "oil and gas",
+                "name": "oil and gas",
+                "description": "",
+                "fullPath": "subject > science and technology > energy > oil and gas",
+                "competitionCount": 1,
+                "datasetCount": 1744,
+                "scriptCount": 133,
+                "totalCount": 1878
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7545476,
+        "datasetSlug": "pipeline-dataset-in-oil-and-gas-sector",
+        "ownerUser": "muhammadwaqas023",
+        "usabilityRating": 1.0,
+        "totalViews": 1645,
+        "totalVotes": 8,
+        "totalDownloads": 284,
+        "title": "Pipeline dataset in oil and gas sector/fertilizer",
+        "subtitle": "Dataset about pipelines that used in oil and gas sector and also in fertilizers",
+        "description": "This pipeline dataset used in different sector like oil and gas sector and fertilizers. This dataset is about 1000 pipeline dataset with different pipe size, materials, material grade, corrosion impact etc\n\n=== About this file ===\n\nAbout this file\nThis is a CSV file that contains pipeline dataset 1000 rows and 14 columns\n\n\n=== Columns & descriptions ===\n\nPipe_ID: Pipe length\nPipe_Size_mm: Pipe size\nDiameter_mm: Diameter of pipe\nThickness_mm: Thickness of pipe\nMaterial: Material of pipe\nStrength_MPa: Strength of pipe\nGrade: Grade of pipe\nMax_Pressure_Bar: Maximum pressure\nCorrosion_Impact_Percent: Corrosion impact\nThickness_Loss_mm: Thickness loss percentage\nMaterial_Loss_Percent: [no description]\nTime_Years: [no description]\nTemperature_C: [no description]\nCondition: [no description]\n",
+        "keywords": [
+            "engineering",
+            "intermediate",
+            "classification",
+            "tabular",
+            "oil and gas"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

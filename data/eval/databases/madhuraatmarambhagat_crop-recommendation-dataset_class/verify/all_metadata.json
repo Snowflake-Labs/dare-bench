@@ -1,0 +1,215 @@
+{
+    "question": {
+        "target": [
+            "label"
+        ],
+        "target_candidates": [
+            "label"
+        ],
+        "related_features": [
+            "humidity",
+            "N",
+            "rainfall",
+            "ph",
+            "temperature",
+            "P",
+            "K"
+        ],
+        "not_filtered_related_features": [
+            "humidity",
+            "N",
+            "rainfall",
+            "ph",
+            "temperature",
+            "P",
+            "K"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "humidity": [
+                14.0,
+                100.0
+            ],
+            "N": [
+                0,
+                140
+            ],
+            "rainfall": [
+                20.0,
+                299.0
+            ],
+            "ph": [
+                3.0,
+                10.0
+            ],
+            "temperature": [
+                8.0,
+                44.0
+            ],
+            "P": [
+                5,
+                145
+            ],
+            "K": [
+                5,
+                205
+            ]
+        },
+        "selected_features": [
+            "K",
+            "humidity",
+            "P",
+            "temperature",
+            "ph"
+        ],
+        "train_v2_save_file": "./madhuraatmarambhagat_crop-recommendation-dataset_class/source/train_v2.csv",
+        "val_v2_save_file": "./madhuraatmarambhagat_crop-recommendation-dataset_class/source/val_v2.csv",
+        "val_no_err_save_file": "./madhuraatmarambhagat_crop-recommendation-dataset_class/source/val_v1.csv",
+        "train_no_err_save_file": "./madhuraatmarambhagat_crop-recommendation-dataset_class/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./madhuraatmarambhagat_crop-recommendation-dataset_class/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "most_frequent",
+        "random_state": 67,
+        "model_type": "LinearSVC",
+        "output_file": "./madhuraatmarambhagat_crop-recommendation-dataset_class/prediction.csv",
+        "ground_truth_file": "./madhuraatmarambhagat_crop-recommendation-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./madhuraatmarambhagat_crop-recommendation-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "N": "numerical",
+            "P": "numerical",
+            "K": "numerical",
+            "temperature": "numerical",
+            "humidity": "numerical",
+            "ph": "numerical",
+            "rainfall": "numerical",
+            "label": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "K",
+            "humidity",
+            "P",
+            "temperature",
+            "ph"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7367814,
+        "ref": "madhuraatmarambhagat/crop-recommendation-dataset",
+        "subtitle": "Classification Problem dataset",
+        "creatorName": "Madhura Atmaram Bhagat",
+        "creatorUrl": "madhuraatmarambhagat",
+        "totalBytes": 65234,
+        "url": "https://www.kaggle.com/datasets/madhuraatmarambhagat/crop-recommendation-dataset",
+        "lastUpdated": "2025-05-08T17:02:09.397Z",
+        "downloadCount": 4425,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Madhura Atmaram Bhagat",
+        "ownerRef": "madhuraatmarambhagat",
+        "kernelCount": 44,
+        "title": "Crop Recommendation Dataset",
+        "viewCount": 16158,
+        "voteCount": 71,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114015,
+                "scriptCount": 25612,
+                "totalCount": 139665
+            },
+            {
+                "ref": "agriculture",
+                "name": "agriculture",
+                "description": "You could be well on your way to creating the next big precision agriculture company with the resources in this tag. At the very least, you can use Weekly Corn Prices to make more informed decisions about your purchases at the store.",
+                "fullPath": "subject > earth and nature > environment > agriculture",
+                "competitionCount": 5,
+                "datasetCount": 1460,
+                "scriptCount": 549,
+                "totalCount": 2014
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "advanced",
+                "name": "advanced",
+                "description": "",
+                "fullPath": "audience > advanced",
+                "competitionCount": 14,
+                "datasetCount": 1866,
+                "scriptCount": 2299,
+                "totalCount": 4179
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7367814,
+        "datasetSlug": "crop-recommendation-dataset",
+        "ownerUser": "madhuraatmarambhagat",
+        "usabilityRating": 1.0,
+        "totalViews": 14862,
+        "totalVotes": 66,
+        "totalDownloads": 3939,
+        "title": "Crop Recommendation Dataset",
+        "subtitle": "Classification Problem dataset",
+        "description": "\ud83c\udf3e Context\nThis dataset is structured to predict the most suitable crop to grow based on several agro-climatic parameters. It is typically used in precision agriculture and machine learning applications aimed at supporting farmers, agricultural advisors, and policymakers.\n\nFeatures (Inputs):\n\nN \u2013 Nitrogen content in the soil (in mg/kg)\nP \u2013 Phosphorus content in the soil (in mg/kg)\nK \u2013 Potassium content in the soil (in mg/kg)\ntemperature \u2013 Average temperature in \u00b0C\nhumidity \u2013 Average relative humidity in %\nph \u2013 Soil pH value\nrainfall \u2013 Rainfall in mm\nLabel (Output):\n\nlabel \u2013 The crop most suited to the given conditions (e.g., rice, maize, cotton, etc.)\n\n=== About this file ===\n\nAbout this file\nThe dataset is designed to predict the most suitable crop to cultivate based on various environmental and soil conditions. It contains multiple agricultural features that influence the growth and yield of different crops. The goal is to use machine learning algorithms to analyze the relationship between these features and recommend the most appropriate crop.\n\n\n=== Columns & descriptions ===\n\nN: int\nP: int\nK: int\ntemperature: int\nhumidity: int\nph: int\nrainfall: int\nlabel: object\n",
+        "keywords": [
+            "business",
+            "agriculture",
+            "beginner",
+            "intermediate",
+            "advanced",
+            "classification"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

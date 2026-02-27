@@ -1,0 +1,305 @@
+{
+    "question": {
+        "target": [
+            "IsDefault"
+        ],
+        "target_candidates": [
+            "IsDefault"
+        ],
+        "related_features": [
+            "Asset liability ratio",
+            "ROE",
+            "Company nature (state owned assets 0, others 1)",
+            "Share pledge ratio of controlling shareholders",
+            "ROA",
+            "Net cash flow from operations has been negative for three consecutive years",
+            "Pledge ratio of limited sale shares",
+            "Z-SCORE",
+            "P/B ratio",
+            "audit opinion",
+            "Pledge ratio of unlimited shares",
+            "P/E ratio",
+            "Current ratio",
+            "Stock Volatility",
+            "Downgrade or negative",
+            "Stock price rise and fall in the last year",
+            "Cash ratio",
+            "Annual turnover rate"
+        ],
+        "not_filtered_related_features": [
+            "ROE",
+            "Asset liability ratio",
+            "Share pledge ratio of controlling shareholders",
+            "ROA",
+            "Pledge ratio of limited sale shares",
+            "Z-SCORE",
+            "P/B ratio",
+            "Pledge ratio of unlimited shares",
+            "Current ratio",
+            "Stock Volatility",
+            "Stock price rise and fall in the last year",
+            "Cash ratio",
+            "Annual turnover rate"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "ROE": [
+                -7.0,
+                2.0
+            ],
+            "Asset liability ratio": [
+                0.0,
+                2.0
+            ],
+            "Share pledge ratio of controlling shareholders": [
+                0.0,
+                1.0
+            ],
+            "ROA": [
+                -1.0,
+                1.0
+            ],
+            "Pledge ratio of limited sale shares": [
+                0.0,
+                1.0
+            ],
+            "Z-SCORE": [
+                -36.0,
+                351.0
+            ],
+            "P/B ratio": [
+                -389.0,
+                1330.0
+            ],
+            "Pledge ratio of unlimited shares": [
+                0.0,
+                1.0
+            ],
+            "Current ratio": [
+                0.0,
+                1.0
+            ],
+            "Stock Volatility": [
+                0.0,
+                350.0
+            ],
+            "Stock price rise and fall in the last year": [
+                -1.0,
+                9.0
+            ],
+            "Cash ratio": [
+                0.0,
+                41.0
+            ],
+            "Annual turnover rate": [
+                0.0,
+                52.0
+            ]
+        },
+        "selected_features": [
+            "Current ratio",
+            "Pledge ratio of limited sale shares",
+            "P/B ratio",
+            "Annual turnover rate",
+            "Pledge ratio of unlimited shares",
+            "Z-SCORE",
+            "Cash ratio",
+            "Stock Volatility"
+        ],
+        "train_v2_save_file": "./jiaoyouzhang_stock-pledge-defaults-prediction_class/source/train_v2.parquet",
+        "val_v2_save_file": "./jiaoyouzhang_stock-pledge-defaults-prediction_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./jiaoyouzhang_stock-pledge-defaults-prediction_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./jiaoyouzhang_stock-pledge-defaults-prediction_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./jiaoyouzhang_stock-pledge-defaults-prediction_class/source/train_v1.parquet",
+        "train_test_ratio": 0.7,
+        "save_file_type": "parquet",
+        "imputer_type": "mean",
+        "random_state": 88,
+        "model_type": "LinearSVC",
+        "output_file": "./jiaoyouzhang_stock-pledge-defaults-prediction_class/prediction.csv",
+        "ground_truth_file": "./jiaoyouzhang_stock-pledge-defaults-prediction_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./jiaoyouzhang_stock-pledge-defaults-prediction_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Stock code": "categorical",
+            "Z-SCORE": "numerical",
+            "Share pledge ratio of controlling shareholders": "numerical",
+            "Pledge ratio of limited sale shares": "numerical",
+            "Pledge ratio of unlimited shares": "numerical",
+            "Stock Volatility": "numerical",
+            "P/E ratio": "numerical",
+            "P/B ratio": "numerical",
+            "Stock price rise and fall in the last year": "numerical",
+            "Annual turnover rate": "numerical",
+            "ST": "categorical",
+            "ROA": "numerical",
+            "ROE": "numerical",
+            "changes in net assets": "numerical",
+            "changes in operating income": "numerical",
+            "Gross profit margin on sales": "numerical",
+            "Net business cycle (days)": "numerical",
+            "Turnover rate of accounts receivable (Times)": "numerical",
+            "Inventory turnover rate (Times)": "numerical",
+            "Total asset turnover rate (Times)": "numerical",
+            "Current ratio": "numerical",
+            "Cash ratio": "numerical",
+            "Asset liability ratio": "numerical",
+            "Asset liability ratio (excluding advance receipts)": "numerical",
+            "Asset liability ratio (total liabilities - contract liabilities - advance receipts)/(total assets - goodwill - contract liabilities - advance receipts)": "numerical",
+            "Current liabilities/total liabilities": "numerical",
+            "Monetary capital/short-term debt": "numerical",
+            "EBITDA/interest bearing debt": "numerical",
+            "EBIT interest cover": "numerical",
+            "EBITDA interest cover": "numerical",
+            "Net cash flow from operations has been negative for three consecutive years": "categorical",
+            "Average cash income ratio in recent three years": "numerical",
+            "Cash income ratio": "numerical",
+            "Ratio of accounts receivable to operating income": "numerical",
+            "Ratio of prepayments to operating income": "numerical",
+            "Ratio of other receivables to total assets": "numerical",
+            "Ratio of construction in progress to total assets": "numerical",
+            "Minority shareholders' equity/owners' equity": "numerical",
+            "The proportion of goodwill in total assets exceeds": "categorical",
+            "Downgrade or negative": "categorical",
+            "audit opinion": "categorical",
+            "Company nature (state owned assets 0, others 1)": "categorical",
+            "High deposit and loan of 90p": "categorical",
+            "Company size (LN)": "numerical",
+            "Whether there are four major audits": "categorical",
+            "Proportion of independent directors": "numerical",
+            "Equity checks and balances (2-5 large/1 large)": "categorical",
+            "Two positions in one (1 for the same, 0 for the different)": "categorical",
+            "Equity concentration (the first largest shareholder)": "numerical",
+            "Total institutional shareholding ratio": "numerical",
+            "Audit fee": "numerical",
+            "Tobin Q": "numerical",
+            "Debt financing costs": "numerical",
+            "Enterprise age": "numerical",
+            "Goodwill impairment ratio": "numerical",
+            "Asset quality index": "numerical",
+            "SG&A Expense": "numerical",
+            "Number of key audit matters": "numerical",
+            "Number of research institutions concerned": "numerical",
+            "Number of research reports (+1 LN)": "numerical",
+            "Financial cycle m2/gdp": "numerical",
+            "IsDefault": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Current ratio",
+            "Pledge ratio of limited sale shares",
+            "P/B ratio",
+            "Annual turnover rate",
+            "Pledge ratio of unlimited shares",
+            "Z-SCORE",
+            "Cash ratio",
+            "Stock Volatility"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 5828914,
+        "ref": "jiaoyouzhang/stock-pledge-defaults-prediction",
+        "subtitle": "Regarding the financing default of controlling shareholders of listed companies",
+        "creatorName": "Less submissions",
+        "creatorUrl": "jiaoyouzhang",
+        "totalBytes": 327953,
+        "url": "https://www.kaggle.com/datasets/jiaoyouzhang/stock-pledge-defaults-prediction",
+        "lastUpdated": "2025-02-22T15:16:56.000Z",
+        "downloadCount": 886,
+        "licenseName": "Database: Open Database, Contents: Database Contents",
+        "description": "",
+        "ownerName": "Less submissions",
+        "ownerRef": "jiaoyouzhang",
+        "kernelCount": 21,
+        "title": "Stock pledge defaults prediction",
+        "viewCount": 5550,
+        "voteCount": 31,
+        "currentVersionNumber": 10,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "finance",
+                "name": "finance",
+                "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+                "fullPath": "subject > people and society > business > finance",
+                "competitionCount": 101,
+                "datasetCount": 12682,
+                "scriptCount": 4576,
+                "totalCount": 17359
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "gradient boosting",
+                "name": "gradient boosting",
+                "description": "",
+                "fullPath": "technique > gradient boosting",
+                "competitionCount": 4,
+                "datasetCount": 128,
+                "scriptCount": 2611,
+                "totalCount": 2743
+            },
+            {
+                "ref": "decision tree",
+                "name": "decision tree",
+                "description": "",
+                "fullPath": "technique > decision tree",
+                "competitionCount": 4,
+                "datasetCount": 366,
+                "scriptCount": 3966,
+                "totalCount": 4336
+            },
+            {
+                "ref": "investing",
+                "name": "investing",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > investing",
+                "competitionCount": 5,
+                "datasetCount": 11998,
+                "scriptCount": 18559,
+                "totalCount": 30562
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 5828914,
+        "datasetSlug": "stock-pledge-defaults-prediction",
+        "ownerUser": "jiaoyouzhang",
+        "usabilityRating": 1.0,
+        "totalViews": 4674,
+        "totalVotes": 31,
+        "totalDownloads": 650,
+        "title": "Stock pledge defaults prediction",
+        "subtitle": "Regarding the financing default of controlling shareholders of listed companies",
+        "description": "Equity pledge is a common financing method, especially for listed companies whose stocks have clear ownership, good liquidity, and fair prices, which are more easily accepted by financial institutions. Therefore, equity pledge financing of listed companies is more active in the capital market. Although equity pledge can effectively meet the financing needs of shareholders of listed companies, it also faces high credit risk. How to effectively manage the risks of equity pledge financing has become an important issue that urgently needs to be addressed.This data set contains information on the default status of pledge financing of controlling shareholders of Chinese listed companies from 2017 to 2022. The column IsDefault has two statuses: 1 represents default status, 0 represents normal status.\n\nIf it is valuable, please upvote.\n",
+        "keywords": [
+            "finance",
+            "classification",
+            "gradient boosting",
+            "decision tree",
+            "investing"
+        ],
+        "licenses": [
+            {
+                "name": "DbCL-1.0"
+            }
+        ]
+    }
+}

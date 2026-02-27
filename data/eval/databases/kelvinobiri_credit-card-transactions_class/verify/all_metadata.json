@@ -1,0 +1,198 @@
+{
+    "question": {
+        "target": [
+            "isFraud"
+        ],
+        "target_candidates": [
+            "isFraud"
+        ],
+        "related_features": [
+            "oldbalanceOrg",
+            "oldbalanceDest",
+            "newbalanceOrig",
+            "amount",
+            "step",
+            "type",
+            "newbalanceDest"
+        ],
+        "not_filtered_related_features": [
+            "oldbalanceOrg",
+            "oldbalanceDest",
+            "newbalanceOrig",
+            "amount",
+            "step",
+            "type",
+            "newbalanceDest"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "oldbalanceOrg": [
+                0.0,
+                50399046.0
+            ],
+            "oldbalanceDest": [
+                0.0,
+                235932694.0
+            ],
+            "newbalanceOrig": [
+                0.0,
+                40399046.0
+            ],
+            "amount": [
+                0.0,
+                52042804.0
+            ],
+            "step": [
+                1,
+                741
+            ],
+            "type": [
+                "CASH_OUT",
+                "CASH_IN",
+                "PAYMENT",
+                "TRANSFER",
+                "DEBIT"
+            ],
+            "newbalanceDest": [
+                0.0,
+                311404902.0
+            ]
+        },
+        "selected_features": [
+            "oldbalanceDest",
+            "oldbalanceOrg",
+            "newbalanceDest",
+            "newbalanceOrig",
+            "amount"
+        ],
+        "train_v2_save_file": "./kelvinobiri_credit-card-transactions_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./kelvinobiri_credit-card-transactions_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./kelvinobiri_credit-card-transactions_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./kelvinobiri_credit-card-transactions_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./kelvinobiri_credit-card-transactions_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.7,
+        "save_file_type": "sqlite",
+        "imputer_type": "median",
+        "random_state": 95,
+        "model_type": "DecisionTreeClassifier",
+        "output_file": "./kelvinobiri_credit-card-transactions_class/prediction.csv",
+        "ground_truth_file": "./kelvinobiri_credit-card-transactions_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./kelvinobiri_credit-card-transactions_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "step": "numerical",
+            "type": "categorical",
+            "amount": "numerical",
+            "nameOrig": "categorical",
+            "oldbalanceOrg": "numerical",
+            "newbalanceOrig": "numerical",
+            "nameDest": "categorical",
+            "oldbalanceDest": "numerical",
+            "newbalanceDest": "numerical",
+            "isFraud": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "oldbalanceDest",
+            "oldbalanceOrg",
+            "newbalanceDest",
+            "newbalanceOrig",
+            "amount"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7759152,
+        "ref": "kelvinobiri/credit-card-transactions",
+        "subtitle": "Credit_Card_Transactions",
+        "creatorName": "Kelvin Obiri",
+        "creatorUrl": "kelvinobiri",
+        "totalBytes": 6249108,
+        "url": "https://www.kaggle.com/datasets/kelvinobiri/credit-card-transactions",
+        "lastUpdated": "2025-06-28T09:33:12.000Z",
+        "downloadCount": 1701,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Kelvin Obiri",
+        "ownerRef": "kelvinobiri",
+        "kernelCount": 8,
+        "title": "Credit_Card_Transactions",
+        "viewCount": 7400,
+        "voteCount": 29,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "finance",
+                "name": "finance",
+                "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+                "fullPath": "subject > people and society > business > finance",
+                "competitionCount": 101,
+                "datasetCount": 12682,
+                "scriptCount": 4576,
+                "totalCount": 17359
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7759152,
+        "datasetSlug": "credit-card-transactions",
+        "ownerUser": "kelvinobiri",
+        "usabilityRating": 0.9411764705882353,
+        "totalViews": 229,
+        "totalVotes": 2,
+        "totalDownloads": 35,
+        "title": "Credit_Card_Transactions",
+        "subtitle": "Credit_Card_Transactions",
+        "description": "# \ud83e\uddfe Financial Transactions \n\nThis inn dataset provides a small but representative sample of anonymized financial transactions for building and testing fraud detection models.\n\nEach record corresponds to a single transaction and includes detailed information such as transaction type, amount, sender and receiver account balances, and fraud indicators. It is suitable for binary classification, anomaly detection, and other machine learning tasks related to financial security.\n\n## \u26a0\ufe0f Class Imbalance Notice\n\n&gt; **Important:**  \n&gt; This dataset is **highly imbalanced** \u2014 the number of fraudulent transactions (`isFraud = 1`) is much lower compared to non-fraudulent ones.  \n&gt; This reflects real-world financial data and may affect model performance if not handled properly.\n\nTo improve results, consider:\n- **Resampling techniques** like SMOTE or undersampling\n- Using **evaluation metrics** like precision, recall, F1-score, or ROC-AUC instead of just accuracy\n\n---\n\n=== About this file ===\n\nAbout this file\n\ud83e\uddfe Financial Transactions Dataset\nThis dataset provides a small but representative sample of anonymized financial transactions intended for building and testing\nfraud detection models\n.\nEach record represents a\nsingle transaction\n, including:\nTransaction type (e.g.,\nCASH_OUT\n,\nTRANSFER\n)\nTransaction amount\nSender and receiver account balances before and after the transaction\nFraud indicator flags\nIt is suitable for:\nBinary classification\nAnomaly detection\nMachine learning tasks related to\nfinancial security\n\ud83d\udce6 Dataset Structure\nColumn Name\nDescription\nstep\nTime step of the transaction\ntype\nType of transaction (e.g.,\nTRANSFER\n,\nCASH_OUT\n)\namount\nAmount involved in the transaction\nnameOrig\nID of sender account\noldbalanceOrg\nSender\u2019s balance before the transaction\nnewbalanceOrig\nSender\u2019s balance after the transaction\nnameDest\nID of receiver account\noldbalanceDest\nReceiver\u2019s balance before the transaction\nnewbalanceDest\nReceiver\u2019s balance after the transaction\nisFraud\nTarget variable\n: 1 if fraudulent, 0 otherwise\nisPayment\nIndicates if the transaction is a payment\nisMovement\nIndicates if it involved a balance change\naccountDiff\nDifference in account balances (derived feature)\n\u26a0\ufe0f Class Imbalance Notice\nImportant:\nThis dataset is\nhighly imbalanced\n\u2014 the number of fraudulent transactions (\nisFraud = 1\n) is much lower compared to non-fraudulent ones.\nThis reflects real-world financial data and may affect model performance if not handled properly.\nTo improve results, consider:\nResampling techniques\nlike SMOTE or undersampling\nUsing\nevaluation metrics\nlike precision, recall, F1-score, or ROC-AUC instead of just accuracy\n\ud83d\udca1 Inspiration\nThis dataset can help you explore:\nHow fraud differs from legitimate behavior\nTechniques to detect rare but critical patterns\nHow to evaluate models fairly when fraud is rare\n\ud83d\udccc Disclaimer\nThis dataset is\nanonymized\nand for\neducational and research purposes only\n. It does\nnot\ncontain any real personal data.\n\n\n=== Columns & descriptions ===\n\nstep: [no description]\ntype: [no description]\namount: [no description]\nnameOrig: [no description]\noldbalanceOrg: [no description]\nnewbalanceOrig: [no description]\nnameDest: string\noldbalanceDest: float\nnewbalanceDest: float\nisFraud: integer\n",
+        "keywords": [
+            "finance",
+            "beginner",
+            "intermediate",
+            "classification"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

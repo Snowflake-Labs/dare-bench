@@ -1,0 +1,77 @@
+# Hybrid Nanofluid Density Prediction Dataset
+
+&gt;Please ensure to cite the paper when utilizing the dataset in a research study. Refer to the paper link or BibTeX provided below.
+
+Hybrid nanofluids are advanced materials that are increasingly utilized in a wide range of innovative applications. Their exceptional thermal and physical properties make them essential in various fields, including heat exchangers, solar thermal collectors, automotive engine cooling systems, microprocessor and chip cooling, data center cooling systems, and battery cooling systems. These applications highlight the critical importance of studying hybrid nanofluids to optimize their performance.
+
+Understanding the density of hybrid nanofluids is particularly significant as it directly influences their thermal efficiency, design optimization, and operational safety. Accurate density data is invaluable for researchers and engineers in improving the efficiency of hybrid nanofluid-based systems. This dataset is designed to support scientific investigations by providing comprehensive and reliable information that facilitates predictive modeling and enhances our understanding of hybrid nanofluid density.
+
+# About Dataset
+
+This dataset is for predicting hybrid nanofluid density using various parameters. The experimental dataset consists of **436 samples** extracted from peer-reviewed literature. Each sample is characterized by:
+
+- **Input Parameters:** Nanoparticle type, base fluid, temperature (°C), volume concentration (φ), base fluid density (ρ), density of primary (ρ) and secondary nanoparticles (ρ), and volume mixture ratios.
+- **Output Parameter:** Hybrid nanofluid density (ρ).
+
+# Research Paper
+
+### [A Computational Intelligence Framework Integrating Data Augmentation and Meta-Heuristic Optimization Algorithms for Enhanced Hybrid Nanofluid Density Prediction Through Machine and Deep Learning Paradigms](https://doi.org/10.1109/ACCESS.2025.3543475)
+
+#### Links:
+
+- **[Paper](https://doi.org/10.1109/ACCESS.2025.3543475)**
+- **[Code](https://github.com/AI4A-lab/Hybrid-ML-DL_Nanofluid-Density-Predictor)**
+
+#### The dataset is also available to be downloaded from following sites, given the paper is referenced in the study:
+
+- **[GitHub](https://github.com/AI4A-lab/Hybrid-Nanofluid-Density-Prediction-Dataset)**
+- **[HuggingFace](https://.com)**
+
+## Citation
+
+If you are using the dataset, please cite using this BibTeX:
+```bibtex
+@ARTICLE{10892114,
+  author={Mathur, Priya and Shaikh, Hammad and Sheth, Farhan and Kumar, Dheeraj and Gupta, Amit Kumar},
+  journal={IEEE Access}, 
+  title={A Computational Intelligence Framework Integrating Data Augmentation and Meta-Heuristic Optimization Algorithms for Enhanced Hybrid Nanofluid Density Prediction Through Machine and Deep Learning Paradigms}, 
+  year={2025},
+  volume={13},
+  number={},
+  pages={35750-35779},
+  keywords={Autoencoders;Nanoparticles;Predictive models;Machine learning;Fluids;Prediction algorithms;Gaussian noise;Deep learning;Data models;Data augmentation;Density prediction;hybrid nanofluids;machine learning;deep learning;data augmentation;meta-heuristic optimization;optimization algorithms;thermal engineering},
+  doi={10.1109/ACCESS.2025.3543475}}
+```
+
+=== About this file ===
+
+About this file
+The dataset for hybrid nanofluid density prediction. It consists of 436 samples, each characterized by multiple key parameters essential for accurate density prediction. The dataset includes:
+Input Parameters
+:
+Nanoparticle type
+Base fluid
+Temperature (°C)
+Volume concentration (φ)
+Base fluid density (ρ)
+Density of primary nanoparticle (ρ₁)
+Density of secondary nanoparticle (ρ₂)
+Volume mixture ratios of particles
+Output Parameter
+:
+Hybrid nanofluid density (ρ)
+The dataset is a valuable resource for predictive modeling and scientific analysis, facilitating advancements in fields such as thermal engineering, automotive cooling systems, and data center cooling systems. Its comprehensive structure allows for detailed exploration and machine learning applications.
+
+
+=== Columns & descriptions ===
+
+Nano Particle: Name of the nanoparticle
+Base Fluid: The type of base fluid
+Temperature (°C): The temperature
+Volume Concentration (ϕ): The volume concentration
+Density of Nano Particle 1 (ρnp): Density of the primary nanoparticle
+Density of Nano Particle 2 (ρnp): Density of the secondary nanoparticle
+Density of Base Fluid (ρbf): Density of the base fluid
+Volume Mixture of Particle 1: Volume mixture of first particle
+Volume Mixture of Particle 2: Volume mixture of second particle
+Density (ρ): Output density

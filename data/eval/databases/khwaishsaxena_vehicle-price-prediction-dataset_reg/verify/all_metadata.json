@@ -1,0 +1,232 @@
+{
+    "question": {
+        "target": [
+            "price"
+        ],
+        "target_candidates": [
+            "price"
+        ],
+        "related_features": [
+            "engine",
+            "interior_color",
+            "mileage",
+            "cylinders",
+            "body",
+            "model",
+            "trim",
+            "doors",
+            "exterior_color",
+            "transmission",
+            "drivetrain",
+            "year",
+            "fuel",
+            "make"
+        ],
+        "not_filtered_related_features": [
+            "cylinders",
+            "mileage",
+            "body",
+            "doors",
+            "drivetrain",
+            "year",
+            "fuel"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "cylinders": [
+                0.0,
+                8.0
+            ],
+            "mileage": [
+                0.0,
+                9711.0
+            ],
+            "body": [
+                "SUV",
+                "Pickup Truck",
+                "Sedan",
+                "Passenger Van",
+                "Cargo Van",
+                "Hatchback",
+                "Convertible",
+                "Minivan"
+            ],
+            "doors": [
+                2.0,
+                5.0
+            ],
+            "drivetrain": [
+                "Four-wheel Drive",
+                "All-wheel Drive",
+                "Rear-wheel Drive",
+                "Front-wheel Drive"
+            ],
+            "year": [
+                2023,
+                2025
+            ],
+            "fuel": [
+                "Gasoline",
+                "Diesel",
+                "Hybrid",
+                "Electric",
+                "E85 Flex Fuel",
+                "PHEV Hybrid Fuel",
+                "Diesel (B20 capable)"
+            ]
+        },
+        "selected_features": [
+            "mileage",
+            "body",
+            "drivetrain",
+            "fuel",
+            "doors"
+        ],
+        "train_v2_save_file": "./khwaishsaxena_vehicle-price-prediction-dataset_reg/source/train_v2.csv",
+        "val_v2_save_file": "./khwaishsaxena_vehicle-price-prediction-dataset_reg/source/val_v2.csv",
+        "val_no_err_save_file": "./khwaishsaxena_vehicle-price-prediction-dataset_reg/source/val_v1.csv",
+        "train_no_err_save_file": "./khwaishsaxena_vehicle-price-prediction-dataset_reg/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./khwaishsaxena_vehicle-price-prediction-dataset_reg/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "mean",
+        "random_state": 66,
+        "model_type": "MLPRegressor",
+        "output_file": "./khwaishsaxena_vehicle-price-prediction-dataset_reg/prediction.csv",
+        "ground_truth_file": "./khwaishsaxena_vehicle-price-prediction-dataset_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./khwaishsaxena_vehicle-price-prediction-dataset_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "name": "categorical",
+            "description": "categorical",
+            "make": "categorical",
+            "model": "categorical",
+            "year": "numerical",
+            "price": "numerical",
+            "engine": "categorical",
+            "cylinders": "numerical",
+            "fuel": "categorical",
+            "mileage": "numerical",
+            "transmission": "categorical",
+            "trim": "categorical",
+            "body": "categorical",
+            "doors": "numerical",
+            "exterior_color": "categorical",
+            "interior_color": "categorical",
+            "drivetrain": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "mileage",
+            "doors"
+        ],
+        "categorical_features": [
+            "body",
+            "drivetrain",
+            "fuel"
+        ]
+    },
+    "data_info": {
+        "id": 7720255,
+        "ref": "khwaishsaxena/vehicle-price-prediction-dataset",
+        "subtitle": " This dataset contains data on various vehicles, their features, and prices.",
+        "creatorName": "Khwaish Saxena",
+        "creatorUrl": "khwaishsaxena",
+        "totalBytes": 307492,
+        "url": "https://www.kaggle.com/datasets/khwaishsaxena/vehicle-price-prediction-dataset",
+        "lastUpdated": "2025-06-23T05:12:07.013Z",
+        "downloadCount": 1996,
+        "licenseName": "CC BY-NC-SA 4.0",
+        "description": "",
+        "ownerName": "Khwaish Saxena",
+        "ownerRef": "khwaishsaxena",
+        "kernelCount": 18,
+        "title": "Vehicle Price Prediction Dataset",
+        "viewCount": 7153,
+        "voteCount": 34,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114018,
+                "scriptCount": 25612,
+                "totalCount": 139668
+            },
+            {
+                "ref": "education",
+                "name": "education",
+                "description": "Education datasets and kernels relate to statistics on student performance, university rankings, and answers for all your homework questions.",
+                "fullPath": "subject > people and society > education",
+                "competitionCount": 57,
+                "datasetCount": 35552,
+                "scriptCount": 15076,
+                "totalCount": 50685
+            },
+            {
+                "ref": "automobiles and vehicles",
+                "name": "automobiles and vehicles",
+                "description": "The automobile tag is everything about cars. Analyze insurance rates or how far you can go on one gallon of petrol.",
+                "fullPath": "subject > science and technology > transportation > automobiles and vehicles",
+                "competitionCount": 10,
+                "datasetCount": 14763,
+                "scriptCount": 1883,
+                "totalCount": 16656
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            },
+            {
+                "ref": "synthetic",
+                "name": "synthetic",
+                "description": "",
+                "fullPath": "data type > synthetic",
+                "competitionCount": 8,
+                "datasetCount": 510,
+                "scriptCount": 70,
+                "totalCount": 588
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7720255,
+        "datasetSlug": "vehicle-price-prediction-dataset",
+        "ownerUser": "khwaishsaxena",
+        "usabilityRating": 1.0,
+        "totalViews": 4637,
+        "totalVotes": 27,
+        "totalDownloads": 1328,
+        "title": "Vehicle Price Prediction Dataset",
+        "subtitle": " This dataset contains data on various vehicles, their features, and prices.",
+        "description": " This dataset contains data on various vehicles, their features, and prices.\n\n ## Description of columns:\n\n * **name**: The full name of the vehicle, including make, model, and trim.\n * **description**:  A brief description of the vehicle, often including key features and selling\n points.\n * **make**: The manufacturer of the vehicle (e.g., Ford, Toyota, BMW).\n * **model**: The model name of the vehicle.\n * **year**: The year the vehicle was manufactured.\n * **price**: The price of the vehicle in USD.\n * **engine**: Details about the engine, including type and specifications.\n * **cylinders**: The number of cylinders in the vehicle's engine.\n * **fuel**: The type of fuel used by the vehicle (e.g., Gasoline, Diesel, Electric).\n * **mileage**: The mileage of the vehicle, typically in miles.\n * **transmission**: The type of transmission (e.g., Automatic, Manual).\n * **trim**: The trim level of the vehicle, indicating different feature sets or packages.\n * **body**: The body style of the vehicle (e.g., SUV, Sedan, Pickup Truck)\n * **doors**: The number of doors on the vehicle.\n * **exterior_color**: The exterior color of the vehicle.\n * **interior_color**: The interior color of the vehicle.\n * **drivetrain**: The drivetrain of the vehicle (e.g., All-wheel Drive, Front-wheel Drive).\n\n\n## File Information\nA single CSV file containing 1002 rows and 17 columns.\n\n=== About this file ===\n\nAbout this file\nThis dataset contains data on various vehicles, their features, and prices.\n\n\n=== Columns & descriptions ===\n\nname: Thefull name of the vehicle, including make, model, and trim.\ndescription: A brief description of the vehicle, often including key features and selling  points.\nmake: The manufacturer of the vehicle (e.g., Ford, Toyota, BMW).\nmodel: The model name of the vehicle.\nyear: The year the vehicle was manufactured.\nprice: The price of the vehicle in USD.\nengine: Details about the engine, including type and specifications\ncylinders: The number of cylinders in the vehicle's engine.\nfuel: The type of fuel used by the vehicle (e.g., Gasoline, Diesel, Electric).\nmileage: The mileage of the vehicle, typically in miles.\ntransmission: The type of transmission (e.g., Automatic, Manual).\ntrim: The trim level of the vehicle, indicating different feature sets or packages.\nbody: Thebody style of the vehicle (e.g., SUV, Sedan, Pickup Truck)\ndoors: The number of doors on the vehicle.\nexterior_color: The exterior color of the vehicle\ninterior_color: The interior color of the vehicle.\ndrivetrain: The drivetrain of the vehicle (e.g., All-wheel Drive, Front-wheel Drive)\n",
+        "keywords": [
+            "business",
+            "automobiles and vehicles",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "Community Data License Agreement - Sharing - Version 1.0"
+            }
+        ]
+    }
+}

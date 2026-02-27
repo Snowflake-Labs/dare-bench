@@ -1,0 +1,265 @@
+{
+    "question": {
+        "target": [
+            "price"
+        ],
+        "target_candidates": [
+            "price"
+        ],
+        "related_features": [
+            "no_of_owners",
+            "mileage",
+            "color",
+            "make_year",
+            "model",
+            "latest_publish_date",
+            "variant",
+            "fuel_type",
+            "transmission",
+            "body_type",
+            "registration_year",
+            "make",
+            "city"
+        ],
+        "not_filtered_related_features": [
+            "body_type",
+            "mileage",
+            "color",
+            "make_year",
+            "fuel_type",
+            "transmission",
+            "no_of_owners",
+            "registration_year",
+            "city"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "body_type": [
+                "hatchback",
+                "suv",
+                "sedan",
+                "muv",
+                "wagon",
+                "crossover"
+            ],
+            "mileage": [
+                167,
+                149792
+            ],
+            "color": [
+                "silver",
+                "red",
+                "grey",
+                "white",
+                "blue",
+                "black",
+                "brown",
+                "golden",
+                "beige",
+                "orange",
+                "green",
+                "bronze",
+                "maroon",
+                "violet",
+                "yellow",
+                "purple"
+            ],
+            "make_year": [
+                2011,
+                2025
+            ],
+            "fuel_type": [
+                "petrol",
+                "cng",
+                "diesel",
+                "hybrid",
+                "petrol+cng",
+                "Petrol"
+            ],
+            "transmission": [
+                "manual",
+                "automatic"
+            ],
+            "no_of_owners": [
+                1,
+                3
+            ],
+            "registration_year": [
+                2011,
+                2025
+            ],
+            "city": [
+                "delhi-ncr",
+                "hyderabad",
+                "noida",
+                "gurgaon",
+                "delhi",
+                "ahmedabad",
+                "chennai",
+                "kolkata",
+                "bangalore",
+                "pune",
+                "mumbai",
+                "jaipur",
+                "lucknow",
+                "chandigarh",
+                "faridabad",
+                "ghaziabad"
+            ]
+        },
+        "selected_features": [
+            "fuel_type",
+            "transmission",
+            "color",
+            "make_year",
+            "registration_year",
+            "mileage"
+        ],
+        "train_v2_save_file": "./abhiramasdf_indian-used-cars-dataset_reg/source/train_v2.csv",
+        "val_v2_save_file": "./abhiramasdf_indian-used-cars-dataset_reg/source/val_v2.csv",
+        "val_no_err_save_file": "./abhiramasdf_indian-used-cars-dataset_reg/source/val_v1.csv",
+        "train_no_err_save_file": "./abhiramasdf_indian-used-cars-dataset_reg/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./abhiramasdf_indian-used-cars-dataset_reg/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "most_frequent",
+        "random_state": 22,
+        "model_type": "DecisionTreeRegressor",
+        "output_file": "./abhiramasdf_indian-used-cars-dataset_reg/prediction.csv",
+        "ground_truth_file": "./abhiramasdf_indian-used-cars-dataset_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./abhiramasdf_indian-used-cars-dataset_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "city": "categorical",
+            "make": "categorical",
+            "model": "categorical",
+            "variant": "categorical",
+            "mileage": "numerical",
+            "make_year": "numerical",
+            "price": "numerical",
+            "fuel_type": "categorical",
+            "no_of_owners": "numerical",
+            "color": "categorical",
+            "body_type": "categorical",
+            "transmission": "categorical",
+            "registration_year": "numerical",
+            "latest_publish_date": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "make_year",
+            "registration_year",
+            "mileage"
+        ],
+        "categorical_features": [
+            "fuel_type",
+            "transmission",
+            "color"
+        ]
+    },
+    "data_info": {
+        "id": 8091074,
+        "ref": "abhiramasdf/indian-used-cars-dataset",
+        "subtitle": "Vehicle listing from August 2025",
+        "creatorName": "Abhiram_29",
+        "creatorUrl": "abhiramasdf",
+        "totalBytes": 200339,
+        "url": "https://www.kaggle.com/datasets/abhiramasdf/indian-used-cars-dataset",
+        "lastUpdated": "2025-08-18T14:48:45.397Z",
+        "downloadCount": 4,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Abhiram_29",
+        "ownerRef": "abhiramasdf",
+        "kernelCount": 1,
+        "title": "Indian used cars dataset",
+        "viewCount": 22,
+        "voteCount": 1,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "categorical",
+                "name": "categorical",
+                "description": "Categorical data are observations that fall into discrete categories, like dog breed, dog color or whether or not a dog likes chew toys.",
+                "fullPath": "data type > categorical",
+                "competitionCount": 40,
+                "datasetCount": 2985,
+                "scriptCount": 2411,
+                "totalCount": 5436
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "data analytics",
+                "name": "data analytics",
+                "description": "",
+                "fullPath": "technique > data analytics",
+                "competitionCount": 32,
+                "datasetCount": 9201,
+                "scriptCount": 15324,
+                "totalCount": 24557
+            },
+            {
+                "ref": "text",
+                "name": "text",
+                "description": "",
+                "fullPath": "data type > text",
+                "competitionCount": 150,
+                "datasetCount": 8582,
+                "scriptCount": 4570,
+                "totalCount": 13302
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 8091074,
+        "datasetSlug": "indian-used-cars-dataset",
+        "ownerUser": "abhiramasdf",
+        "usabilityRating": 1.0,
+        "totalViews": 22,
+        "totalVotes": 1,
+        "totalDownloads": 5,
+        "title": "Indian used cars dataset",
+        "subtitle": "Vehicle listing from August 2025",
+        "description": "This dataset comprises a collection of used car listings from Spinny, a prominent Indian car-reseller. It offers valuable information for various analytical tasks, particularly for predicting the resale value of a car. The dataset contains details about 8104 cars with 14 features ranging from car model to number of previous owners.\n\nKey features of this dataset include:\n\nVehicle Details: Make, model, and variant, which are crucial for assessing a car's market value.\n\nCar Specifications: Features such as the number of previous owners, body type, transmission type, and registration year, all of which significantly influence resale value.\n\nGeographical Data: The dataset can be used to analyze how resale values vary across different Indian states. For example, it could be used to investigate why certain regions, like Delhi, might have a lower resale value for used cars.\n\nMarket Insights: This dataset also provides a basis for understanding car-buyer preferences in the Indian market, such as popular models, body types, and transmission choices.\n\n=== About this file ===\n\nAbout this file\nThe file contains details about 8104 used cars. Each car has 14 features associated with it.\n\n\n=== Columns & descriptions ===\n\ncity: City in which the car is being sold\nmake: Manufacturer of the car\nmodel: Model name of the car\nvariant: Specific variant of the car\nmileage: Number of kilometers driven\nmake_year: Manufacturing year of the car\nprice: List price of the car\nfuel_type: fuel type: petrol/diesel/CNG\nno_of_owners: Number of previous owners of the car\ncolor: Exterior color of the car\nbody_type: [no description]\ntransmission: [no description]\nregistration_year: [no description]\nlatest_publish_date: [no description]\n",
+        "keywords": [
+            "categorical",
+            "data visualization",
+            "data analytics",
+            "text",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

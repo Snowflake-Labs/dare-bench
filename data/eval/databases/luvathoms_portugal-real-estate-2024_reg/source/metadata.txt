@@ -1,0 +1,95 @@
+### Portuguese Real Estate Listings
+
+This **weekly updated** dataset contains the more than 100k real **asking prices** for real estate properties listed on **Portuguese real estate websites**. The data was legally and ethically scraped from several online platforms, ensuring compliance with the platforms' terms and conditions.
+
+The dataset includes detailed information about each property listing, such as:
+
+- **Price**: The asking price of the property in Euros.
+- **District, City, Town**: The geographical location of the property, allowing for regional analysis.
+- **Type**: The type of property (e.g., Apartment, House, Garage, Land).
+- **EnergyCertificate**: The energy efficiency rating of the property, according to Portuguese energy certification standards.
+- **Area Measurements**: Several columns related to the size and area of the property, including:
+  - **GrossPrivateArea**: The private gross area of the property.
+  - **UsableArea**: The area that can be used for living.
+  - **LivingArea**: The actual livable space inside the property.
+  - **LotSize**: The size of the land associated with the property.
+  - **BuiltArea**: The total constructed area of the property.
+- **Rooms, Bedrooms, Bathrooms, WCs**: Detailed breakdowns of the number of rooms, bedrooms, bathrooms, and water closets in the property.
+- **Floor**: The floor on which the property is located.
+- **Parking, Garage**: Information on parking availability and the presence of a garage.
+- **Additional Features**: Whether the property includes amenities like elevators or electric car charging stations.
+- **ConstructionYear**: The year the property was built.
+- **PublishDate**: The date when the listing was published.
+
+The dataset is suitable for a variety of analyses, including:
+- **Price trends**: Understanding the relationship between location, property features, and asking prices.
+- **Energy efficiency**: Investigating how energy certification impacts property values.
+- **Geographical analysis**: Exploring regional differences in real estate pricing across Portugal.
+
+This dataset offers a comprehensive snapshot of the Portuguese real estate market, enabling users to gain insights into current pricing, property types, and location-based factors influencing the market.
+
+=== About this file ===
+
+About this file
+The dataset includes detailed information about each property listing, such as:
+Price
+: The asking price of the property in Euros.
+District, City, Town
+: The geographical location of the property, allowing for regional analysis.
+Type
+: The type of property (e.g., Apartment, House, Garage, Land).
+EnergyCertificate
+: The energy efficiency rating of the property, according to Portuguese energy certification standards.
+Area Measurements
+: Several columns related to the size and area of the property, including:
+GrossPrivateArea
+: The private gross area of the property.
+UsableArea
+: The area that can be used for living.
+LivingArea
+: The actual livable space inside the property.
+LotSize
+: The size of the land associated with the property.
+BuiltArea
+: The total constructed area of the property.
+Rooms, Bedrooms, Bathrooms, WCs
+: Detailed breakdowns of the number of rooms, bedrooms, bathrooms, and water closets in the property.
+Floor
+: The floor on which the property is located.
+Parking, Garage
+: Information on parking availability and the presence of a garage.
+Additional Features
+: Whether the property includes amenities like elevators or electric car charging stations.
+ConstructionYear
+: The year the property was built.
+PublishDate
+: The date when the listing was published.
+
+
+=== Columns & descriptions ===
+
+Price: [no description]
+District: [no description]
+City: Name of City
+Town: [no description]
+Type: [no description]
+EnergyCertificate: [no description]
+GrossArea: [no description]
+TotalArea: [no description]
+Parking: [no description]
+HasParking: [no description]
+Floor: [no description]
+ConstructionYear: [no description]
+EnergyEfficiencyLevel: [no description]
+PublishDate: [no description]
+Garage: [no description]
+Elevator: [no description]
+ElectricCarsCharging: [no description]
+TotalRooms: [no description]
+NumberOfBedrooms: [no description]
+NumberOfWC: [no description]
+ConservationStatus: [no description]
+LivingArea: [no description]
+LotSize: [no description]
+BuiltArea: [no description]
+NumberOfBathrooms: [no description]

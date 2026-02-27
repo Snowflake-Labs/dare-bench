@@ -1,0 +1,151 @@
+{
+    "question": {
+        "target": [
+            "country"
+        ],
+        "target_candidates": [
+            "country"
+        ],
+        "related_features": [
+            "mothers aged 10-19",
+            "mothers aged 40-49",
+            "mothers aged 30-39",
+            "mothers aged 20-29",
+            "Year"
+        ],
+        "not_filtered_related_features": [
+            "Year"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Year": [
+                1950,
+                2023
+            ]
+        },
+        "selected_features": [
+            "Year"
+        ],
+        "train_v2_save_file": "./willianoliveiragibin_europe-mothers_class/source/train_v2.parquet",
+        "val_v2_save_file": "./willianoliveiragibin_europe-mothers_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./willianoliveiragibin_europe-mothers_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./willianoliveiragibin_europe-mothers_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./willianoliveiragibin_europe-mothers_class/source/train_v1.parquet",
+        "train_test_ratio": 0.7,
+        "save_file_type": "parquet",
+        "imputer_type": "most_frequent",
+        "random_state": 4,
+        "model_type": "GaussianNB",
+        "output_file": "./willianoliveiragibin_europe-mothers_class/prediction.csv",
+        "ground_truth_file": "./willianoliveiragibin_europe-mothers_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./willianoliveiragibin_europe-mothers_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "country": "categorical",
+            "Year": "numerical",
+            "mothers aged 10-19": "numerical",
+            "mothers aged 20-29": "numerical",
+            "mothers aged 30-39": "numerical",
+            "mothers aged 40-49": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Year"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 6967102,
+        "ref": "willianoliveiragibin/europe-mothers",
+        "subtitle": "Share of births by age of mother, United States. ",
+        "creatorName": "willian  oliveira",
+        "creatorUrl": "willianoliveiragibin",
+        "totalBytes": 417358,
+        "url": "https://www.kaggle.com/datasets/willianoliveiragibin/europe-mothers",
+        "lastUpdated": "2025-03-27T00:08:11.273Z",
+        "downloadCount": 30,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "willian  oliveira",
+        "ownerRef": "willianoliveiragibin",
+        "kernelCount": 1,
+        "title": "Europe mothers",
+        "viewCount": 233,
+        "voteCount": 1,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "data analytics",
+                "name": "data analytics",
+                "description": "",
+                "fullPath": "technique > data analytics",
+                "competitionCount": 32,
+                "datasetCount": 9201,
+                "scriptCount": 15324,
+                "totalCount": 24557
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "deep learning",
+                "name": "deep learning",
+                "description": "",
+                "fullPath": "technique > deep learning",
+                "competitionCount": 70,
+                "datasetCount": 4482,
+                "scriptCount": 17708,
+                "totalCount": 22260
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6967102,
+        "datasetSlug": "europe-mothers",
+        "ownerUser": "willianoliveiragibin",
+        "usabilityRating": 1.0,
+        "totalViews": 204,
+        "totalVotes": 1,
+        "totalDownloads": 24,
+        "title": "Europe mothers",
+        "subtitle": "Share of births by age of mother, United States. ",
+        "description": "SH_LGR_ACSRHEC5 - (S.2.C.5) Extent to which countries have laws and regulations that guarantee full \nand equal access to women and men aged 15 years and older to sexual and reproductive health care, \ninformation and education: Component 5: Contraceptive Services [5.6.2]\nSH_LGR_ACSRHEC6 - (S.2.C.6) Extent to which countries have laws and regulations that guarantee full \nand equal access to women and men aged 15 years and older to sexual and reproductive health care, \ninformation and education: Component 6: Contraceptive Consent [5.6.2]\nSH_LGR_ACSRHEC7 - (S.2.C.7) Extent to which countries have laws and regulations that guarantee full \nand equal access to women and men aged 15 years and older to sexual and reproductive health care, \ninformation and education: Component 7: Emergency Contraception [5.6.2]\nSH_LGR_ACSRHEC8 - (S.3.C.8) Extent to which countries have laws and regulations that guarantee full \nand equal access to women and men aged 15 years and older to sexual and reproductive health care, \ninformation and education: Component 8: Sexuality Education Curriculum Laws [5.6.2]\nSH_LGR_ACSRHEC9 - (S.3.C.9) Extent to which countries have laws and regulations that guarantee full \nand equal access to women and men aged 15 years and older to sexual and reproductive health care, \ninformation and education: Component 9: Sexuality Education Curriculum Topi [5.6.2]\nSH_LGR_ACSRHES1 - (S.1) Extent to which countries have laws and regulations that guarantee full and \nequal access to women and men aged 15 years and older to sexual and reproductive health care, \ninformation and education: Section 1: Maternity Care [5.6.2]\nSH_LGR_ACSRHES2 - (S.2) Extent to which countries have laws and regulations that guarantee full and \nequal access to women and men aged 15 years and older to sexual and reproductive health care, \ninformation and education: Section 2: Contraceptive and Family Planning [5.6.2]\nSH_LGR_ACSRHES3 - (S.3) Extent to which countries have laws and regulations that guarantee full and \nequal access to women and men aged 15 years and older to sexual and reproductive health care, \ninformation and education: Section 3: Sexuality Education [5.6.2]\nSH_LGR_ACSRHES4 - (S.4) Extent to which countries have laws and regulations that guarantee full and \nequal access to women and men aged 15 years and older to sexual and reproductive health care, \ninformation and education: Section 4: HIV and HPV [5.6.2]\n0.e. Metadata update (META_LAST_UPDATE)\n2024-07-29\n0.f. Related indicators (SDG_RELATED_INDICATORS)\nIndicator 3.1.1: Maternal mortality ratio\nIndicator 3.1.2: Proportion of births attended by skilled health personnel\nIndicator 3.3.1: Number of new HIV infections per 1,000 uninfected population, by sex, age and key \npopulations\nIndicator 3.7.1: Proportion of women of reproductive age (aged 15\u201349 years) who have their need for \nfamily planning satisfied with modern methods\nIndicator 3.7.2: Adolescent birth rate (aged 10\u201314 years; aged 15\u201319 years) per 1,000 women in that age \ngroup\nIndicator 5.2.1: Proportion of ever-partnered women and girls aged 15 years and older subjected to \nphysical, sexual or psychological violence by a current or former intimate partner in the previous 12 \nmonths, by form of violence and by age\nIndicator 5.6.1: Proportion of women aged 15-49 years who make their own informed decisions regarding\n\n=== About this file ===\n\nAbout this file\nProportion of births attended by skilled health personnel Indicator.\n\n\n=== Columns & descriptions ===\n\ncountry: 1\nYear: 2\nmothers aged 10-19: 3\nmothers aged 20-29: 4\nmothers aged 30-39: 5\nmothers aged 40-49: 6\n",
+        "keywords": [
+            "data visualization",
+            "data analytics",
+            "classification",
+            "deep learning"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

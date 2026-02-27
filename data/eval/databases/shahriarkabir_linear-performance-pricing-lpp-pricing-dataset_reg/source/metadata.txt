@@ -1,0 +1,41 @@
+# Linear Performance Pricing (LPP) Pipe Pricing Dataset
+
+This synthetic dataset simulates **supplier quotes for iron pipes** of varying lengths. It is designed to demonstrate **Linear Performance Pricing (LPP)**, a procurement analytics technique used to identify cost-saving opportunities by correlating product prices with performance parameters (e.g., pipe length). The dataset includes:
+- **Real-world variations**: Noise, outliers, and multiple suppliers.
+- **Target prices**: Calculated using market trends (`target_price_market`) and best-practice benchmarks (`target_price_benchmark`).
+
+Inspired by the example from "Data-Driven Spend Management" (Chapter 3).
+## **Suggested Analysis Tasks**
+1. **Regression Analysis**: Replicate the market line (`P^M = 1.465 + 1.076L`) using linear regression.  
+2. **Outlier Detection**: Identify overpriced quotes using Z-scores or IQR.  
+3. **Savings Calculation**: Compute total savings if prices are negotiated down to the benchmark.  
+4. **Supplier Comparison**: Analyze pricing strategies of S1 vs S2 vs S3 vs S4.  
+5. **Visualization**: Plot price vs. length with market/benchmark lines. 
+
+---
+# **Support This Dataset** 🚀
+
+Help this dataset reach more learners and practitioners in procurement analytics! **If you find this dataset useful**, consider:  
+
+`**Upvoting** this dataset on Kaggle – it boosts visibility and helps others discover it. `
+
+Your support keeps datasets like this **free and open-source** for the community! 🌟  
+---
+
+
+=== About this file ===
+
+About this file
+Synthetic iron pipe pricing dataset for Linear Performance Pricing (LPP) analysis, featuring pipe lengths, supplier quotes, and target prices. Ideal for regression modeling, outlier detection, and procurement cost-saving strategies in supply chain analytics.
+
+
+=== Columns & descriptions ===
+
+pipe_id: Unique identifier for each pipe quote.
+pipe_length_m: Length of the pipe in meters (performance parameter).
+price_eur: Quoted price of the pipe in Euros (simulated with noise).
+supplier_id: Supplier ID (S1, S2, S3, S4).
+is_outlier: `True` if the quote is an artificially inflated outlier
+target_price_market: Market price calculated via regression.
+target_price_benchmark: Best-practice benchmark price.
+negotiation_room: Potential savings.

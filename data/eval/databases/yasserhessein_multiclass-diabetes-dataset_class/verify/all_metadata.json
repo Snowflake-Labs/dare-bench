@@ -1,0 +1,240 @@
+{
+    "question": {
+        "target": [
+            "Class"
+        ],
+        "target_candidates": [
+            "Class"
+        ],
+        "related_features": [
+            "HbA1c",
+            "Urea",
+            "Gender",
+            "Cr",
+            "LDL",
+            "BMI",
+            "AGE",
+            "HDL",
+            "VLDL",
+            "Chol",
+            "TG"
+        ],
+        "not_filtered_related_features": [
+            "HbA1c",
+            "TG",
+            "Cr",
+            "LDL",
+            "BMI",
+            "AGE",
+            "HDL",
+            "VLDL",
+            "Chol",
+            "Urea"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "HbA1c": [
+                0.0,
+                15.0
+            ],
+            "TG": [
+                0.0,
+                9.0
+            ],
+            "Cr": [
+                6,
+                800
+            ],
+            "LDL": [
+                0.0,
+                6.0
+            ],
+            "BMI": [
+                19.0,
+                44.0
+            ],
+            "AGE": [
+                25,
+                77
+            ],
+            "HDL": [
+                0.0,
+                4.0
+            ],
+            "VLDL": [
+                0.0,
+                32.0
+            ],
+            "Chol": [
+                0.0,
+                10.0
+            ],
+            "Urea": [
+                1.0,
+                27.0
+            ]
+        },
+        "selected_features": [
+            "AGE",
+            "HDL",
+            "BMI",
+            "TG",
+            "Chol",
+            "LDL"
+        ],
+        "train_v2_save_file": "./yasserhessein_multiclass-diabetes-dataset_class/source/train_v2.csv",
+        "val_v2_save_file": "./yasserhessein_multiclass-diabetes-dataset_class/source/val_v2.csv",
+        "val_no_err_save_file": "./yasserhessein_multiclass-diabetes-dataset_class/source/val_v1.csv",
+        "train_no_err_save_file": "./yasserhessein_multiclass-diabetes-dataset_class/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./yasserhessein_multiclass-diabetes-dataset_class/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "median",
+        "random_state": 90,
+        "model_type": "DecisionTreeClassifier",
+        "output_file": "./yasserhessein_multiclass-diabetes-dataset_class/prediction.csv",
+        "ground_truth_file": "./yasserhessein_multiclass-diabetes-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./yasserhessein_multiclass-diabetes-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Gender": "categorical",
+            "AGE": "numerical",
+            "Urea": "numerical",
+            "Cr": "numerical",
+            "HbA1c": "numerical",
+            "Chol": "numerical",
+            "TG": "numerical",
+            "HDL": "numerical",
+            "LDL": "numerical",
+            "VLDL": "numerical",
+            "BMI": "numerical",
+            "Class": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "AGE",
+            "HDL",
+            "BMI",
+            "TG",
+            "Chol",
+            "LDL"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7893517,
+        "ref": "yasserhessein/multiclass-diabetes-dataset",
+        "subtitle": "Multiclass Diabetes Dataset ",
+        "creatorName": "Yasir Hussein Shakir",
+        "creatorUrl": "yasserhessein",
+        "totalBytes": 3755,
+        "url": "https://www.kaggle.com/datasets/yasserhessein/multiclass-diabetes-dataset",
+        "lastUpdated": "2025-07-18T09:17:03.757Z",
+        "downloadCount": 2607,
+        "licenseName": "Attribution 4.0 International (CC BY 4.0)",
+        "description": "",
+        "ownerName": "Yasir Hussein Shakir",
+        "ownerRef": "yasserhessein",
+        "kernelCount": 42,
+        "title": "Multiclass Diabetes Dataset",
+        "viewCount": 11456,
+        "voteCount": 58,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "healthcare",
+                "name": "healthcare",
+                "description": "AI in healthcare is a growing interest. One of the major problems is simply converting research into an application. Should be easy, right?",
+                "fullPath": "subject > health and fitness > health > healthcare",
+                "competitionCount": 26,
+                "datasetCount": 2131,
+                "scriptCount": 1942,
+                "totalCount": 4099
+            },
+            {
+                "ref": "categorical",
+                "name": "categorical",
+                "description": "Categorical data are observations that fall into discrete categories, like dog breed, dog color or whether or not a dog likes chew toys.",
+                "fullPath": "data type > categorical",
+                "competitionCount": 40,
+                "datasetCount": 2985,
+                "scriptCount": 2411,
+                "totalCount": 5436
+            },
+            {
+                "ref": "artificial intelligence",
+                "name": "artificial intelligence",
+                "description": "This tag has datasets and kernels where people come together and use cutting-edge research to train models on pictures of cats.",
+                "fullPath": "subject > science and technology > computer science > artificial intelligence",
+                "competitionCount": 57,
+                "datasetCount": 2969,
+                "scriptCount": 2948,
+                "totalCount": 5974
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "diabetes",
+                "name": "diabetes",
+                "description": "",
+                "fullPath": "subject > health and fitness > health > health conditions > diabetes",
+                "competitionCount": 1,
+                "datasetCount": 6488,
+                "scriptCount": 767,
+                "totalCount": 7256
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7893517,
+        "datasetSlug": "multiclass-diabetes-dataset",
+        "ownerUser": "yasserhessein",
+        "usabilityRating": 1.0,
+        "totalViews": 3062,
+        "totalVotes": 25,
+        "totalDownloads": 657,
+        "title": "Multiclass Diabetes Dataset",
+        "subtitle": "Multiclass Diabetes Dataset ",
+        "description": "This refined dataset is originally based on the \"Diabetes Dataset\" uploaded by Ahlam Rashid in Mendeley Data. The link to the original dataset is: https://data.mendeley.com/datasets/wj9rwkp9c2/1. The original dataset contains a total of 1000 subjects divided into three classes: diabetic, non-diabetic, and predict-diabetic.\n\nAmong the 1000 subjects, 844 are diabetic, 103 are non-diabetic, and 53 are predict-diabetic, resulting in an extreme class imbalance. We found a total of 174 duplicate subjects in the original dataset, which we subsequently removed. After removing the duplicate subjects, there were 690 diabetic, 96 non-diabetic, and 40 predict-diabetic subjects remaining.\n\n\n![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F4333519%2F974f67ff59d86f6afd50ed276836308b%2FNew%20Bitmap%20image.bmp?generation=1752831220338486&alt=media)\n",
+        "keywords": [
+            "healthcare",
+            "categorical",
+            "artificial intelligence",
+            "data visualization",
+            "classification",
+            "diabetes"
+        ],
+        "licenses": [
+            {
+                "name": "Attribution 4.0 International (CC BY 4.0)"
+            }
+        ]
+    }
+}

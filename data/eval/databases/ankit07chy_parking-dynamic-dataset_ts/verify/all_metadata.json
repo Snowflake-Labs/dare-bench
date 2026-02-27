@@ -1,0 +1,230 @@
+{
+    "question": {
+        "target": [
+            "Occupancy"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Timestamp",
+        "time_format": "%Y-%m-%d %H:%M:%S",
+        "is_resampled": true,
+        "related_features": [
+            "SystemCodeNumber",
+            "Capacity",
+            "Latitude",
+            "Longitude",
+            "VehicleType",
+            "TrafficConditionNearby",
+            "QueueLength",
+            "IsSpecialDay"
+        ],
+        "not_filtered_related_features": [
+            "SystemCodeNumber",
+            "Capacity",
+            "Latitude",
+            "Longitude",
+            "VehicleType",
+            "TrafficConditionNearby",
+            "QueueLength"
+        ],
+        "selected_features": [
+            "QueueLength",
+            "TrafficConditionNearby",
+            "Capacity",
+            "VehicleType",
+            "Latitude"
+        ],
+        "expected_ranges": {
+            "SystemCodeNumber": [
+                "BHMBCCMKT01",
+                "BHMNCPHST01",
+                "BHMMBMMBX01",
+                "BHMNCPNST01",
+                "Shopping",
+                "BHMEURBRD01",
+                "Broad Street",
+                "Others-CCCPS8",
+                "Others-CCCPS105a",
+                "Others-CCCPS119a",
+                "BHMBCCTHL01",
+                "Others-CCCPS135a",
+                "Others-CCCPS202",
+                "Others-CCCPS98"
+            ],
+            "Capacity": [
+                387,
+                3883
+            ],
+            "Latitude": [
+                20.0000347,
+                26.15050395
+            ],
+            "Longitude": [
+                78.00000286,
+                91.74099445
+            ],
+            "VehicleType": [
+                "car",
+                "bike",
+                "cycle",
+                "truck"
+            ],
+            "TrafficConditionNearby": [
+                "low",
+                "average",
+                "high"
+            ],
+            "QueueLength": [
+                0,
+                15
+            ]
+        },
+        "column_type_inference": {
+            "ID": "numeric",
+            "SystemCodeNumber": "object",
+            "Capacity": "numeric",
+            "Latitude": "numeric",
+            "Longitude": "numeric",
+            "Occupancy": "numeric",
+            "VehicleType": "object",
+            "TrafficConditionNearby": "object",
+            "QueueLength": "numeric",
+            "IsSpecialDay": "numeric",
+            "Timestamp": "object"
+        },
+        "train_save_file": "./ankit07chy_parking-dynamic-dataset_ts/source/train.csv",
+        "val_v1_save_file": "./ankit07chy_parking-dynamic-dataset_ts/source/val_v1.csv",
+        "val_v2_save_file": "./ankit07chy_parking-dynamic-dataset_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./ankit07chy_parking-dynamic-dataset_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./ankit07chy_parking-dynamic-dataset_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./ankit07chy_parking-dynamic-dataset_ts/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 72,
+        "model_type": "Prophet",
+        "output_file": "./ankit07chy_parking-dynamic-dataset_ts/prediction.json",
+        "ground_truth_v1_file": "./ankit07chy_parking-dynamic-dataset_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./ankit07chy_parking-dynamic-dataset_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./ankit07chy_parking-dynamic-dataset_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2016-11-26 08:01:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7802607,
+        "ref": "ankit07chy/parking-dynamic-dataset",
+        "subtitle": "Real-time parking lot utilization and traffic stream data for Urban areas.",
+        "creatorName": "Ankit",
+        "creatorUrl": "ankit07chy",
+        "totalBytes": 177495,
+        "url": "https://www.kaggle.com/datasets/ankit07chy/parking-dynamic-dataset",
+        "lastUpdated": "2025-07-04T17:25:44.000Z",
+        "downloadCount": 79,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Ankit",
+        "ownerRef": "ankit07chy",
+        "kernelCount": 1,
+        "title": "Parking Dynamic Dataset",
+        "viewCount": 408,
+        "voteCount": 8,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "transportation",
+                "name": "transportation",
+                "description": "Most of the various modes of transport are all covered in this tag. Not all though because so far there are no kernels or datasets about teleportation.",
+                "fullPath": "subject > science and technology > transportation",
+                "competitionCount": 7,
+                "datasetCount": 12016,
+                "scriptCount": 604,
+                "totalCount": 12627
+            },
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "text",
+                "name": "text",
+                "description": "",
+                "fullPath": "data type > text",
+                "competitionCount": 150,
+                "datasetCount": 8582,
+                "scriptCount": 4570,
+                "totalCount": 13302
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7802607,
+        "datasetSlug": "parking-dynamic-dataset",
+        "ownerUser": "ankit07chy",
+        "usabilityRating": 0.9411764705882353,
+        "totalViews": 21,
+        "totalVotes": 2,
+        "totalDownloads": 2,
+        "title": "Parking Dynamic Dataset",
+        "subtitle": "Real-time parking lot utilization and traffic stream data for Urban areas.",
+        "description": "This dataset captures detailed information about urban parking activity, traffic conditions, and vehicle types over time. With over 18,400 entries spread across 11 columns, it offers a sizable and rich set of observations\u2014ideal for anyone looking to explore parking trends, analyze traffic flow, or build models to predict parking availability.\n\nWhat\u2019s Inside:\n\nTimestamps: Each entry is time-stamped (from October 4 to December 19, 2016), making this a time-series dataset. That means you can track how parking behavior changes over days, weeks, or months\u2014like identifying peak hours or weekend patterns.\n\nUnique Events: Every row comes with a unique ID, so each record represents a single moment or observation. That ensures clean data without duplicates.\n\nParking Locations: The SystemCodeNumber column identifies where each record came from\u2014there are 14 different locations or systems in total. Codes like BHMBONCSTB1, Broad Street, and Others-OCCSP119A show that data comes from multiple spots, which helps in comparing how parking demand varies by area.\n\nCapacity vs. Occupancy: Two of the most important columns show how many parking spaces were available (Capacity) and how many were filled (Occupancy) at any given time. Together, they tell us how full a lot was and help track usage levels. Some locations had space for thousands of cars, while others were much smaller.\n\nGeolocation: Latitude and longitude are included, meaning you can map every observation. This is especially helpful if you're working with GIS tools or want to visualize parking availability across a city.\n\nVehicle Types: Most vehicles in the data are cars (81%), followed by bikes (20%) and a small number of other types (about 13%, or 3,578 entries). This breakdown can help in designing parking facilities or allocating space differently based on need.\n\nTraffic Conditions: The TrafficCondition column categorizes how busy the surrounding roads were: low (42%), average (35%), and high (23%). These conditions can be correlated with parking occupancy\u2014like whether traffic is worse when lots are full.\n\nQueue Length: This column tracks how many vehicles were waiting for a spot (from 0 to 15), giving insight into where and when demand exceeded supply.\n\nSpecial Days: There\u2019s also a flag (IsSpecialDay) indicating whether a day was out of the ordinary\u2014perhaps due to an event, holiday, or other factor affecting usual patterns.\n\n=== About this file ===\n\nAbout this file\nThe parkingStream.csv dataset is a comprehensive time-series dataset capturing a wide range of information regarding urban parking activity, vehicle types, traffic conditions, geolocation, and timestamped observations. Designed to support analysis related to parking management, traffic monitoring, and urban planning, this dataset provides rich insights that can inform both descriptive analytics and predictive modeling. This detailed overview will explore the dataset's structure, highlight the meaning and utility of each column, and discuss potential use cases and analytical directions.\n\n\n=== Columns & descriptions ===\n\nID: Description: A unique identifier for each record or observation in the dataset.  Data Type: Numerical (integer, based on the range up to 18.4K).  Unique Values: 18.4K (indicating each row is a distinct observation).  Example Values: 0, 5248, 2936, 6568, 17855, etc.  Purpose: Essential for record-keeping and ensuring the uniqueness of each data entry.\nSystemCodeNumber: Description: Identifies the specific parking system or location where the data was collected.  Data Type: Categorical (string).  Unique Values: 14 distinct system codes.  Distribution: No specific distribution percentage is shown, but different codes are present.  Example Values: BHMBONCSTB1, BHMNORRB1, BHMSHORB1, Broad Street, Others-OCCSP119A, Others-OCCSP218A, Others-OCCSP219A, etc.  Purpose: Allows for comparative analysis across different parking zones or facilities.\nCapacity: Description: The total number of available parking spaces at a given SystemCodeNumber at the time of observation.  Data Type: Numerical (integer).  Range: Varies widely, from small capacities (e.g., 20) to larger ones (e.g., 3883).  Example Values: 387, 3883, 577, 1398, 687, 485, 1628, 478, 690, 1322, 389, 3883, 195.  Purpose: Fundamental for calculating parking utilization and understanding the supply side of parking.\nLatitude: Description: The geographical latitude coordinate of the parking location.  Data Type: Numerical (float).  Range: Varies, typically within a specific city or region (e.g., around 26 degrees North latitude, given the example values).  Example Values: 26.1453614, 26.1468136, 26.0890347, 26.1488473, 26.1568095, 26.1498095, 26.1379575, 26.1475486, 26.147299, 26.1475486.  Purpose: Enables spatial analysis and mapping of parking data.\nLongitude: Description: The geographical longitude coordinate of the parking location.  Data Type: Numerical (float).  Range: Varies, typically within a specific city or region (e.g., around 91 degrees East longitude, given the example values).  Example Values: 91.73987216, 91.73999967, 78.00000036, 91.73987233, 91.73339189, 91.7335805, 91.74099445, 91.73279519, 91.73284914, 91.73279519.  Purpose: Enables spatial analysis and mapping of parking data.\nOccupancy: Description: The number of parking spaces currently occupied at a given SystemCodeNumber at the time of observation.  Data Type: Numerical (integer).  Range: Varies, from low numbers to higher ones (e.g., 2 to 917).  Example Values: 917, 2, 237, 264, 249, 614, 117, 178, 445, 789, 195.  Purpose: Crucial for determining parking utilization and identifying parking availability.\nVehicleType: Description: The type of vehicle occupying a parking space.  Data Type: Categorical (string).  Distribution:  car: 81%  bike: 20%  other: 13% (3578 instances)  Example Values: car, bike, cycl2a (likely a specific type of cycle or vehicle under 'other').  Purpose: Helps understand the composition of parking demand and can inform infrastructure planning.\nTrafficConditionNearby: Description: The observed traffic flow condition at the time of the parking observation.  Data Type: Categorical (string).  Distribution:  low: 42%  average: 35%  high: 23%  Other: (4137 instances, potentially indicating another category or unclassified data).  Example Values: low, average, high.  Purpose: Provides context for parking behavior, as traffic can influence parking choices and availability.\nQueueLength: Description: The number of vehicles waiting in a queue for a parking spot.  Data Type: Numerical (integer).  Range: From 0 to 15.  Example Values: 1, 2, 3, 0.  Purpose: Direct indicator of parking demand exceeding supply and potential congestion.\nIsSpecialDay: Description: A flag indicating whether the observation occurred on a special day (e.g., holiday, event).  Data Type: Categorical/Binary (likely boolean or integer 0/1).  Distribution: Shown as two distinct categories in the bar graph, implying True/False or similar.  Example Values: (Not explicitly shown as values, but implied by the graph).  Purpose: Helps identify how special events impact parking demand and traffic patterns.\nTimestamp: Description: The exact date and time when the observation was recorded.  Data Type: Datetime.  Format: YYYY-MM-DD HH:MM:SS (e.g., 2016-10-04 07:59:00).  Range: From 2016-10-04 to 2016-12-19, indicating over two months of data.  Purpose: Essential for time-series analysis, identifying temporal patterns, and understanding trends.\n",
+        "keywords": [
+            "business",
+            "transportation",
+            "intermediate",
+            "exploratory data analysis",
+            "time series analysis",
+            "text"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

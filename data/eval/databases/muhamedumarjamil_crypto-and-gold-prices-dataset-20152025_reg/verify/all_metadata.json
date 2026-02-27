@@ -1,0 +1,193 @@
+{
+    "question": {
+        "target": [
+            "Gold (USD per oz)"
+        ],
+        "target_candidates": [
+            "Bitcoin (USD)",
+            "Ethereum (USD)",
+            "Gold (USD per oz)"
+        ],
+        "related_features": [
+            "Cardano (ADA)",
+            "Dogecoin (DOGE)",
+            "Ethereum (USD)",
+            "Ripple (XRP)",
+            "Bitcoin (USD)",
+            "Binance Coin (BNB)",
+            "Solana (SOL)"
+        ],
+        "not_filtered_related_features": [
+            "Dogecoin (DOGE)",
+            "Cardano (ADA)",
+            "Ripple (XRP)",
+            "Binance Coin (BNB)",
+            "Solana (SOL)"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "Dogecoin (DOGE)": [
+                0.0,
+                8.0
+            ],
+            "Cardano (ADA)": [
+                0.0,
+                82.0
+            ],
+            "Ripple (XRP)": [
+                0.0,
+                38.0
+            ],
+            "Binance Coin (BNB)": [
+                19.0,
+                1220.0
+            ],
+            "Solana (SOL)": [
+                5.0,
+                1867.0
+            ]
+        },
+        "selected_features": [
+            "Ripple (XRP)",
+            "Dogecoin (DOGE)",
+            "Solana (SOL)"
+        ],
+        "train_v2_save_file": "./muhamedumarjamil_crypto-and-gold-prices-dataset-20152025_reg/source/train_v2.parquet",
+        "val_v2_save_file": "./muhamedumarjamil_crypto-and-gold-prices-dataset-20152025_reg/source/val_v2.parquet",
+        "val_no_err_save_file": "./muhamedumarjamil_crypto-and-gold-prices-dataset-20152025_reg/source/val_v1.parquet",
+        "train_no_err_save_file": "./muhamedumarjamil_crypto-and-gold-prices-dataset-20152025_reg/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./muhamedumarjamil_crypto-and-gold-prices-dataset-20152025_reg/source/train_v1.parquet",
+        "train_test_ratio": 0.7,
+        "save_file_type": "parquet",
+        "imputer_type": "median",
+        "random_state": 54,
+        "model_type": "Ridge",
+        "output_file": "./muhamedumarjamil_crypto-and-gold-prices-dataset-20152025_reg/prediction.csv",
+        "ground_truth_file": "./muhamedumarjamil_crypto-and-gold-prices-dataset-20152025_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./muhamedumarjamil_crypto-and-gold-prices-dataset-20152025_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Date": "categorical",
+            "Bitcoin (USD)": "numerical",
+            "Ethereum (USD)": "numerical",
+            "Gold (USD per oz)": "numerical",
+            "Cardano (ADA)": "numerical",
+            "Binance Coin (BNB)": "numerical",
+            "Ripple (XRP)": "numerical",
+            "Dogecoin (DOGE)": "numerical",
+            "Solana (SOL)": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Ripple (XRP)",
+            "Dogecoin (DOGE)",
+            "Solana (SOL)"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7936835,
+        "ref": "muhamedumarjamil/crypto-and-gold-prices-dataset-20152025",
+        "subtitle": "Simulated daily USD prices for BTC, ETH, ADA, BNB, XRP, DOGE, SOL, and gold",
+        "creatorName": "M.Umar.Jamil",
+        "creatorUrl": "muhamedumarjamil",
+        "totalBytes": 286015,
+        "url": "https://www.kaggle.com/datasets/muhamedumarjamil/crypto-and-gold-prices-dataset-20152025",
+        "lastUpdated": "2025-07-24T18:17:09.453Z",
+        "downloadCount": 567,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "M.Umar.Jamil",
+        "ownerRef": "muhamedumarjamil",
+        "kernelCount": 2,
+        "title": "Crypto and Gold Prices Dataset (2015\u20132025)",
+        "viewCount": 2192,
+        "voteCount": 18,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "finance",
+                "name": "finance",
+                "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+                "fullPath": "subject > people and society > business > finance",
+                "competitionCount": 101,
+                "datasetCount": 12682,
+                "scriptCount": 4576,
+                "totalCount": 17359
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            },
+            {
+                "ref": "investing",
+                "name": "investing",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > investing",
+                "competitionCount": 5,
+                "datasetCount": 11998,
+                "scriptCount": 18559,
+                "totalCount": 30562
+            },
+            {
+                "ref": "currencies and foreign exchange",
+                "name": "currencies and foreign exchange",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > currencies and foreign exchange",
+                "competitionCount": 3,
+                "datasetCount": 6932,
+                "scriptCount": 2007,
+                "totalCount": 8942
+            },
+            {
+                "ref": "graph",
+                "name": "graph",
+                "description": "",
+                "fullPath": "data type > graph",
+                "competitionCount": 10,
+                "datasetCount": 481,
+                "scriptCount": 299,
+                "totalCount": 790
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7936835,
+        "datasetSlug": "crypto-and-gold-prices-dataset-20152025",
+        "ownerUser": "muhamedumarjamil",
+        "usabilityRating": 1.0,
+        "totalViews": 2203,
+        "totalVotes": 18,
+        "totalDownloads": 572,
+        "title": "Crypto and Gold Prices Dataset (2015\u20132025)",
+        "subtitle": "Simulated daily USD prices for BTC, ETH, ADA, BNB, XRP, DOGE, SOL, and gold",
+        "description": "This dataset contains simulated daily closing prices in USD for major cryptocurrencies \u2014 Bitcoin (BTC), Ethereum (ETH), Cardano (ADA), Binance Coin (BNB), Ripple (XRP), Dogecoin (DOGE), Solana (SOL) \u2014 along with gold prices per ounce. The data spans from January 1, 2015, through July 24, 2025. It is intended for research, analysis, and modeling purposes where real historical price patterns are approximated to simulate market behavior over time.\n\n=== About this file ===\n\nAbout this file\nThis CSV file contains daily simulated price data from January 1, 2015, to July 24, 2025. Each row represents a single date with corresponding closing prices (in USD) for seven major cryptocurrencies and gold. The dataset is ideal for testing trading strategies, performing time-series analysis, or educational purposes where real market data is not required.\n\n\n=== Columns & descriptions ===\n\nDate: Trading date\nBitcoin (USD): BTC price\nEthereum (USD): ETH price\nGold (USD per oz): Gold price\nCardano (ADA): ADA price\nBinance Coin (BNB): BNB price\nRipple (XRP): XRP price\nDogecoin (DOGE): DOGE price\nSolana (SOL): SOL price\n",
+        "keywords": [
+            "finance",
+            "regression",
+            "investing",
+            "currencies and foreign exchange",
+            "graph"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

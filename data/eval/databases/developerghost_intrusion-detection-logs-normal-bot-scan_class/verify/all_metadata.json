@@ -1,0 +1,204 @@
+{
+    "question": {
+        "target": [
+            "Intrusion"
+        ],
+        "target_candidates": [
+            "Intrusion"
+        ],
+        "related_features": [
+            "Destination_IP",
+            "Port",
+            "Protocol",
+            "Request_Type",
+            "Payload_Size",
+            "Status",
+            "Source_IP",
+            "User_Agent"
+        ],
+        "not_filtered_related_features": [
+            "User_Agent",
+            "Protocol",
+            "Request_Type",
+            "Status",
+            "Payload_Size"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "User_Agent": [
+                "Mozilla/5.0",
+                "Wget/1.20.3",
+                "nmap/7.80",
+                "curl/7.68.0",
+                "python-requests/2.25.1",
+                "Nikto/2.1.6"
+            ],
+            "Protocol": [
+                "ICMP",
+                "UDP",
+                "TCP"
+            ],
+            "Request_Type": [
+                "SSH",
+                "FTP",
+                "HTTP",
+                "Telnet",
+                "HTTPS",
+                "SMTP",
+                "DNS"
+            ],
+            "Status": [
+                "Success",
+                "Failure"
+            ],
+            "Payload_Size": [
+                0,
+                4991
+            ]
+        },
+        "selected_features": [
+            "Request_Type",
+            "Protocol",
+            "User_Agent"
+        ],
+        "train_v2_save_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_class/source/train_v2.parquet",
+        "val_v2_save_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_class/source/train_v1.parquet",
+        "train_test_ratio": 0.8,
+        "save_file_type": "parquet",
+        "imputer_type": "most_frequent",
+        "random_state": 52,
+        "model_type": "LinearSVC",
+        "output_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_class/prediction.csv",
+        "ground_truth_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Timestamp": "numerical",
+            "Source_IP": "categorical",
+            "Destination_IP": "categorical",
+            "Port": "categorical",
+            "Request_Type": "categorical",
+            "Protocol": "categorical",
+            "Payload_Size": "numerical",
+            "User_Agent": "categorical",
+            "Status": "categorical",
+            "Intrusion": "categorical",
+            "Scan_Type": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [],
+        "categorical_features": [
+            "Request_Type",
+            "Protocol",
+            "User_Agent"
+        ]
+    },
+    "data_info": {
+        "id": 7784502,
+        "ref": "developerghost/intrusion-detection-logs-normal-bot-scan",
+        "subtitle": "Includes both time-based and non-time-series synthetic network logs ",
+        "creatorName": "DeveloperGhost",
+        "creatorUrl": "developerghost",
+        "totalBytes": 357290,
+        "url": "https://www.kaggle.com/datasets/developerghost/intrusion-detection-logs-normal-bot-scan",
+        "lastUpdated": "2025-07-02T07:04:22.937Z",
+        "downloadCount": 670,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "DeveloperGhost",
+        "ownerRef": "developerghost",
+        "kernelCount": 6,
+        "title": "Intrusion Detection Logs (Normal, Bot, Scan)",
+        "viewCount": 3270,
+        "voteCount": 20,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "internet",
+                "name": "internet",
+                "description": "An interconnected network of tubes that connects the entire world together. This tag covers a broad range of tags; anything from cryptocurrency to website analytics.",
+                "fullPath": "subject > science and technology > internet",
+                "competitionCount": 19,
+                "datasetCount": 29693,
+                "scriptCount": 2621,
+                "totalCount": 32333
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "multiclass classification",
+                "name": "multiclass classification",
+                "description": "",
+                "fullPath": "task > multiclass classification",
+                "competitionCount": 831,
+                "datasetCount": 1470,
+                "scriptCount": 3846,
+                "totalCount": 6147
+            },
+            {
+                "ref": "cyber security",
+                "name": "cyber security",
+                "description": "",
+                "fullPath": "subject > cyber security",
+                "competitionCount": 9,
+                "datasetCount": 391,
+                "scriptCount": 103,
+                "totalCount": 503
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7784502,
+        "datasetSlug": "intrusion-detection-logs-normal-bot-scan",
+        "ownerUser": "developerghost",
+        "usabilityRating": 1.0,
+        "totalViews": 249,
+        "totalVotes": 5,
+        "totalDownloads": 42,
+        "title": "Intrusion Detection Logs (Normal, Bot, Scan)",
+        "subtitle": "Includes both time-based and non-time-series synthetic network logs ",
+        "description": "This dataset contains realistic synthetic network logs simulating both normal and malicious activity over a one-week period.\n\nIt includes two versions: \n1.  Time-series version (with timestamps): Ideal for sequential modeling, intrusion tracking, and temporal anomaly detection.\n2.  Non-time-series version (without timestamps): Suitable for standard classification or anomaly detection pipelines.\n\nInspiration:\nReal-world network intrusion logs are often private or restricted. This synthetic dataset provides a realistic yet accessible alternative for researchers, students, and ML engineers to build and benchmark intrusion detection systems.\n\n\n=== About this file ===\n\nAbout this file\nThis version removes the Timestamp column, making it ideal for:\nTraditional classification tasks\nAnomaly detection models that do not rely on time-based features\nLightweight or non-sequential ML pipelines\nLabels:\nIntrusion: Binary target (0 = Normal, 1 = Attack)\nScan_Type: Traffic type (Normal, PortScan, BotAttack)\n\n\n=== Columns & descriptions ===\n\nSource_IP: [no description]\nDestination_IP: [no description]\nPort: [no description]\nRequest_Type: [no description]\nProtocol: [no description]\nPayload_Size: [no description]\nUser_Agent: [no description]\nStatus: [no description]\nIntrusion: [no description]\nScan_Type: [no description]\n",
+        "keywords": [
+            "internet",
+            "time series analysis",
+            "classification",
+            "multiclass classification",
+            "cyber security"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

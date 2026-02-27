@@ -1,0 +1,39 @@
+This dataset contains monthly household energy consumption records from 1991 to 2000, enriched with features such as average temperature, Cooling and Heating Degree Days (CDD & HDD), property size, and equipment changes (pump/meter). The data is cleaned and structured to support seasonal analysis, electricity bill simulation, and predictive modeling using techniques like SARIMA and XGBoost.
+
+Perfect for:
+
+Forecasting energy usage and utility costs
+
+Exploring seasonal patterns and climate impact on consumption
+
+Conducting anomaly detection and evaluating energy efficiency
+
+Building machine learning pipelines with real-world utility data
+
+Ideal for data practitioners, energy researchers, and freelancers seeking to showcase forecasting and optimization skills with authentic time series data.
+
+=== About this file ===
+
+About this file
+This dataset contains monthly household energy usage records from January 1991 to December 2000, designed for forecasting and modeling tasks like SARIMA and XGBoost.
+
+
+=== Columns & descriptions ===
+
+NUM: Observation number
+YEAR: Year
+MONTH: Month
+BILL: Amount of bill (in dollars), includes 5% sales tax
+TEMP: Average temperature (in degrees Fahrenheit)
+HDD: Heating Degree Days
+CDD: Cooling Degree Days
+SIZE: Number of family members at home
+METER: New meter? (indicator variable, 1 = yes)
+PUMP1: New heat pump 1? (indicator variable, 1= new)
+PUMP2: New heat pump 2? (indicator variable, 1= new)
+RIDER TOTAL: Total charge (per kwh) for all riders
+CONSUMPTION: Calculated consumption (in kwh)
+date: [no description]
+BILL_CONSUMPTION_DEVIATION: [no description]
+ESTIMATED_TIERED_BILL: [no description]
+ENERGY_EFFICIENCY_PER_OCCUPANT: [no description]

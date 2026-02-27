@@ -1,0 +1,214 @@
+{
+    "question": {
+        "target": [
+            "SuDurumu_m3"
+        ],
+        "target_candidates": [
+            "DolulukOrani_Yuzde",
+            "SuDurumu_m3"
+        ],
+        "related_features": [
+            "Turist_Sayisi",
+            "Nufus",
+            "Yagis_mm",
+            "Sicaklik_Ort",
+            "Su_Tuketim_Aylik_m3",
+            "DolulukOrani_Yuzde",
+            "URETIM_MIKTARI"
+        ],
+        "not_filtered_related_features": [
+            "Turist_Sayisi",
+            "Nufus",
+            "Yagis_mm",
+            "Sicaklik_Ort",
+            "Su_Tuketim_Aylik_m3",
+            "URETIM_MIKTARI"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "Turist_Sayisi": [
+                27200,
+                315000
+            ],
+            "Nufus": [
+                4279677,
+                4535123
+            ],
+            "Yagis_mm": [
+                4.0,
+                189.0
+            ],
+            "Sicaklik_Ort": [
+                5.0,
+                34.0
+            ],
+            "Su_Tuketim_Aylik_m3": [
+                16575000.0,
+                32876318.0
+            ],
+            "URETIM_MIKTARI": [
+                15197664,
+                59879337
+            ]
+        },
+        "selected_features": [
+            "URETIM_MIKTARI",
+            "Turist_Sayisi",
+            "Yagis_mm",
+            "Su_Tuketim_Aylik_m3"
+        ],
+        "train_v2_save_file": "./ahmetarifsari_izmir-water_reg/source/train_v2.sqlite",
+        "val_v2_save_file": "./ahmetarifsari_izmir-water_reg/source/val_v2.sqlite",
+        "val_no_err_save_file": "./ahmetarifsari_izmir-water_reg/source/val_v1.sqlite",
+        "train_no_err_save_file": "./ahmetarifsari_izmir-water_reg/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./ahmetarifsari_izmir-water_reg/source/train_v1.sqlite",
+        "train_test_ratio": 0.7,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 77,
+        "model_type": "DecisionTreeRegressor",
+        "output_file": "./ahmetarifsari_izmir-water_reg/prediction.csv",
+        "ground_truth_file": "./ahmetarifsari_izmir-water_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./ahmetarifsari_izmir-water_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Tarih": "categorical",
+            "DolulukOrani_Yuzde": "numerical",
+            "SuDurumu_m3": "numerical",
+            "Nufus": "numerical",
+            "Sicaklik_Ort": "numerical",
+            "Yagis_mm": "numerical",
+            "Su_Tuketim_Aylik_m3": "numerical",
+            "URETIM_MIKTARI": "numerical",
+            "Turist_Sayisi": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "URETIM_MIKTARI",
+            "Turist_Sayisi",
+            "Yagis_mm",
+            "Su_Tuketim_Aylik_m3"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 8068837,
+        "ref": "ahmetarifsari/izmir-water",
+        "subtitle": "\u0130zmir ili baraj doluluk oran\u0131 ve su miktar\u0131 tahminine y\u00f6nelik ge\u00e7mi\u015f 10 y\u0131l",
+        "creatorName": "Ahmet Arif SARI",
+        "creatorUrl": "ahmetarifsari",
+        "totalBytes": 3694,
+        "url": "https://www.kaggle.com/datasets/ahmetarifsari/izmir-water",
+        "lastUpdated": "2025-08-14T11:58:33.927Z",
+        "licenseName": "CC BY-SA 4.0",
+        "description": "",
+        "ownerName": "Ahmet Arif SARI",
+        "ownerRef": "ahmetarifsari",
+        "kernelCount": 1,
+        "title": "\u0130zmir_Water_Amount",
+        "viewCount": 42,
+        "voteCount": 1,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "environment",
+                "name": "environment",
+                "description": "The environment tag is chock full of datasets and kernels that are generally showing how poorly we are treating the planet. One positive side to this tag is that it wasn't printed on paper.",
+                "fullPath": "subject > earth and nature > environment",
+                "competitionCount": 24,
+                "datasetCount": 1605,
+                "scriptCount": 612,
+                "totalCount": 2241
+            },
+            {
+                "ref": "weather and climate",
+                "name": "weather and climate",
+                "description": "Weather datasets and kernels come in all wind speeds and directions. You have weather data about hurricanes and other inclement phenomena, hourly readings, and general weather for various cities.",
+                "fullPath": "subject > earth and nature > environment > weather and climate",
+                "competitionCount": 42,
+                "datasetCount": 1439,
+                "scriptCount": 667,
+                "totalCount": 2148
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            },
+            {
+                "ref": "turkish",
+                "name": "turkish",
+                "description": "",
+                "fullPath": "language > turkish",
+                "datasetCount": 170,
+                "scriptCount": 99,
+                "totalCount": 269
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 8068837,
+        "datasetSlug": "izmir-water",
+        "ownerUser": "ahmetarifsari",
+        "usabilityRating": 1.0,
+        "totalViews": 42,
+        "totalVotes": 1,
+        "totalDownloads": 1,
+        "title": "\u0130zmir_Water_Amount",
+        "subtitle": "\u0130zmir ili baraj doluluk oran\u0131 ve su miktar\u0131 tahminine y\u00f6nelik ge\u00e7mi\u015f 10 y\u0131l",
+        "description": "## \ud83d\udcc4 A\u00e7\u0131klama\n\nBu veri seti, \u0130zmir iline ait **2015\u20132024** y\u0131llar\u0131 aras\u0131ndaki ayl\u0131k baraj doluluk oran\u0131 (**DolulukOrani_Yuzde**) ve barajlardaki su miktar\u0131 (**SuDurumu_m3**) verilerini i\u00e7ermektedir.  \n\nVeriler; **\u0130ZSU (\u0130zmir Su ve Kanalizasyon \u0130daresi)** ve **T\u00dc\u0130K (T\u00fcrkiye \u0130statistik Kurumu)** kaynaklar\u0131ndan derlenmi\u015f, ek olarak:\n- N\u00fcfus\n- Ortalama s\u0131cakl\u0131k\n- Ya\u011f\u0131\u015f\n- Ayl\u0131k su t\u00fcketimi\n- Ayl\u0131k su \u00fcretimi\n- Turist say\u0131s\u0131 \n\nbilgilerini de kapsamaktad\u0131r.  \n\nBu s\u00fcr\u00fcm, modelleme s\u00fcrecinde **mevsimsel \u00f6zellikler**, **lag (\u00f6nceki ay)** ve **rolling (3 ayl\u0131k ortalama)** de\u011fi\u015fkenleri eklenmeden \u00f6nceki **hamla\u015ft\u0131r\u0131lm\u0131\u015f** veridir.  \n\n**Kullan\u0131m Alanlar\u0131:**\n- \ud83d\udcc8 Zaman serisi analizi\n- \ud83d\udd0d Regresyon tabanl\u0131 tahmin modelleri\n- \ud83c\udf26 Mevsimsellik ve iklim etkilerinin incelenmesi\n- \ud83d\udca7 Su kaynaklar\u0131 y\u00f6netimi senaryo \u00e7al\u0131\u015fmalar\u0131\n\n\n=== About this file ===\n\nAbout this file\n\ud83d\udcc2 Dosya Bilgisi\nDosya ad\u0131:\nmodellemeson.csv\nBoyut:\n~KB seviyesinde\nSat\u0131r say\u0131s\u0131:\n120\nS\u00fctun say\u0131s\u0131:\n9\nFrekans:\nAyl\u0131k veriler (2015\u20132024, 10 y\u0131l x 12 ay)\n\n\n=== Columns & descriptions ===\n\nTarih: Ayl\u0131k tarih bilgisi (YYYY-MM-DD format\u0131nda, her ay\u0131n ilk g\u00fcn\u00fc)\nDolulukOrani_Yuzde: Baraj doluluk oran\u0131 (%)\nSuDurumu_m3: Barajlardaki toplam su miktar\u0131 (m\u00b3)\nNufus: \u0130zmir ili toplam n\u00fcfusu (y\u0131ll\u0131k, t\u00fcm aylara ayn\u0131 de\u011fer yans\u0131t\u0131l\u0131r)\nSicaklik_Ort: Ayl\u0131k ortalama s\u0131cakl\u0131k (\u00b0C)\nYagis_mm: Ayl\u0131k toplam ya\u011f\u0131\u015f miktar\u0131 (mm)\nSu_Tuketim_Aylik_m3: Ayl\u0131k toplam su t\u00fcketimi (m\u00b3)\nURETIM_MIKTARI: Ayl\u0131k toplam su \u00fcretimi (m\u00b3)\nTurist_Sayisi: Turist say\u0131s\u0131(y\u0131ll\u0131k, t\u00fcm aylara ayn\u0131 de\u011fer yans\u0131t\u0131l\u0131r)\n",
+        "keywords": [
+            "environment",
+            "weather and climate",
+            "time series analysis",
+            "regression",
+            "turkish"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-SA-4.0"
+            }
+        ],
+        "collaborators": [
+            {
+                "username": "zeynepedaztrk",
+                "groupSlug": "",
+                "role": "ADMIN"
+            },
+            {
+                "username": "slaakgn",
+                "groupSlug": "",
+                "role": "ADMIN"
+            },
+            {
+                "username": "hazarekinuan",
+                "groupSlug": "",
+                "role": "ADMIN"
+            }
+        ]
+    }
+}

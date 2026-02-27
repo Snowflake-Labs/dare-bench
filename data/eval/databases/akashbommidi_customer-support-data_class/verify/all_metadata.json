@@ -1,0 +1,265 @@
+{
+    "question": {
+        "target": [
+            "CSAT Score"
+        ],
+        "target_candidates": [
+            "CSAT Score"
+        ],
+        "related_features": [
+            "Agent Shift",
+            "Customer_City",
+            "Tenure Bucket",
+            "connected_handling_time",
+            "category",
+            "Item_price",
+            "Product_category",
+            "channel_name",
+            "Sub-category"
+        ],
+        "not_filtered_related_features": [
+            "Agent Shift",
+            "Tenure Bucket",
+            "connected_handling_time",
+            "category",
+            "Item_price",
+            "Product_category",
+            "channel_name"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Agent Shift": [
+                "Morning",
+                "Evening",
+                "Split",
+                "Afternoon",
+                "Night"
+            ],
+            "Tenure Bucket": [
+                "On Job Training",
+                ">90",
+                "0-30",
+                "31-60",
+                "61-90"
+            ],
+            "connected_handling_time": [
+                0.0,
+                1986.0
+            ],
+            "category": [
+                "Product Queries",
+                "Order Related",
+                "Returns",
+                "Cancellation",
+                "Shopzilla Related",
+                "Payments related",
+                "Refund Related",
+                "Feedback",
+                "Offers & Cashback",
+                "Onboarding related",
+                "Others",
+                "App/website"
+            ],
+            "Item_price": [
+                0.0,
+                164999.0
+            ],
+            "Product_category": [
+                "LifeStyle",
+                "Electronics",
+                "Mobile",
+                "Home Appliences",
+                "Furniture",
+                "Home",
+                "Books & General merchandise",
+                "GiftCard",
+                "Affiliates"
+            ],
+            "channel_name": [
+                "Outcall",
+                "Inbound",
+                "Email"
+            ]
+        },
+        "selected_features": [
+            "connected_handling_time",
+            "Agent Shift",
+            "Tenure Bucket",
+            "Item_price",
+            "Product_category"
+        ],
+        "train_v2_save_file": "./akashbommidi_customer-support-data_class/source/train_v2.csv",
+        "val_v2_save_file": "./akashbommidi_customer-support-data_class/source/val_v2.csv",
+        "val_no_err_save_file": "./akashbommidi_customer-support-data_class/source/val_v1.csv",
+        "train_no_err_save_file": "./akashbommidi_customer-support-data_class/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./akashbommidi_customer-support-data_class/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "mean",
+        "random_state": 8,
+        "model_type": "LogisticRegression",
+        "output_file": "./akashbommidi_customer-support-data_class/prediction.csv",
+        "ground_truth_file": "./akashbommidi_customer-support-data_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./akashbommidi_customer-support-data_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Unique id": "categorical",
+            "channel_name": "categorical",
+            "category": "categorical",
+            "Sub-category": "categorical",
+            "Customer Remarks": "categorical",
+            "Order_id": "categorical",
+            "order_date_time": "categorical",
+            "Issue_reported at": "categorical",
+            "issue_responded": "categorical",
+            "Survey_response_Date": "categorical",
+            "Customer_City": "categorical",
+            "Product_category": "categorical",
+            "Item_price": "numerical",
+            "connected_handling_time": "numerical",
+            "Agent_name": "categorical",
+            "Supervisor": "categorical",
+            "Manager": "categorical",
+            "Tenure Bucket": "categorical",
+            "Agent Shift": "categorical",
+            "CSAT Score": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "connected_handling_time",
+            "Item_price"
+        ],
+        "categorical_features": [
+            "Agent Shift",
+            "Tenure Bucket",
+            "Product_category"
+        ]
+    },
+    "data_info": {
+        "id": 7460459,
+        "ref": "akashbommidi/customer-support-data",
+        "subtitle": "This dataset contains the Customer given feedback for Flipkart orders",
+        "creatorName": "Akash Bommidi",
+        "creatorUrl": "akashbommidi",
+        "totalBytes": 6567106,
+        "url": "https://www.kaggle.com/datasets/akashbommidi/customer-support-data",
+        "lastUpdated": "2025-05-19T12:56:37.000Z",
+        "downloadCount": 478,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Akash Bommidi",
+        "ownerRef": "akashbommidi",
+        "kernelCount": 1,
+        "title": "Customer_support_data",
+        "viewCount": 2152,
+        "voteCount": 10,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114015,
+                "scriptCount": 25612,
+                "totalCount": 139665
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "feature engineering",
+                "name": "feature engineering",
+                "description": "",
+                "fullPath": "technique > feature engineering",
+                "competitionCount": 21,
+                "datasetCount": 880,
+                "scriptCount": 8963,
+                "totalCount": 9864
+            },
+            {
+                "ref": "model comparison",
+                "name": "model comparison",
+                "description": "",
+                "fullPath": "technique > model comparison",
+                "competitionCount": 5,
+                "datasetCount": 245,
+                "scriptCount": 3908,
+                "totalCount": 4158
+            },
+            {
+                "ref": "e-commerce services",
+                "name": "e-commerce services",
+                "description": "",
+                "fullPath": "subject > people and society > business > e-commerce services",
+                "competitionCount": 6,
+                "datasetCount": 3467,
+                "scriptCount": 579,
+                "totalCount": 4052
+            },
+            {
+                "ref": "standardized testing",
+                "name": "standardized testing",
+                "description": "",
+                "fullPath": "subject > people and society > education > standardized testing",
+                "competitionCount": 2,
+                "datasetCount": 12007,
+                "scriptCount": 436,
+                "totalCount": 12445
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7460459,
+        "datasetSlug": "customer-support-data",
+        "ownerUser": "akashbommidi",
+        "usabilityRating": 1.0,
+        "totalViews": 868,
+        "totalVotes": 6,
+        "totalDownloads": 194,
+        "title": "Customer_support_data",
+        "subtitle": "This dataset contains the Customer given feedback for Flipkart orders",
+        "description": "This dataset contains detailed records of customer interactions handled by a customer service team through various communication channels such as inbound calls, outbound calls, and digital touchpoints. It includes over 85,000 entries with information related to the nature of the issue, product categories, agent details, and customer satisfaction scores (CSAT).\n\nKey features include:\n\n**Issue Metadata:** Timestamps for when the issue was reported and responded to.\n\n**Categorization:** High-level and sub-level issue categories for better analysis.\n\n**Agent Information:** Names, supervisors, managers, shift, and tenure bucket.\n\n**Customer Feedback:** CSAT scores and free-text customer remarks.\n\n**Transactional Data:**Order IDs, product categories, item prices, and customer city.\n\nThis dataset is ideal for exploratory data analysis (EDA), natural language processing (NLP), time-to-resolution analysis, customer satisfaction prediction, and performance benchmarking of service agents.\n\n### Feature-wise Explanation\n\n- **Unique id**: A unique identifier for each customer support ticket. Used for tracking, not used in modeling.  \n- **channel_name**: The communication channel used by the customer (e.g., Email, Chat, Phone), which influences response quality and time.  \n- **category**: Broad classification of the support issue (e.g., Technical, Billing, Account), useful in understanding issue trends.  \n- **Sub-category**: More specific issue label under each category (e.g., \"Login Failure\" under Technical) to capture granular insights.  \n- **Customer Remarks**: Free-text input from customers about their issue; useful for sentiment analysis or NLP-based features.  \n- **Order_id**: The ID of the order associated with the issue; may not be directly useful unless joined with order metadata.  \n- **order_date_time**: Timestamp of the order; can be used to derive delays or time gaps relative to issue date.  \n- **Issue_reported at**: Time when the customer reported the issue; helps calculate response and resolution delays.  \n- **issue_responded**: Time when the support agent responded; combined with report time to calculate response duration.  \n- **Survey_response_Date**: Date when customer gave the CSAT feedback; useful to understand follow-up timing, but not always predictive.  \n- **Customer_City**: The city where the customer resides; can identify location-based trends or systemic issues.  \n- **Product_category**: The type of product involved in the support ticket; some product types may result in higher or lower CSAT.  \n- **Item_price**: Price of the item involved; higher prices might lead to higher customer expectations and affect satisfaction.  \n- **connected_handling_time**: Total time spent by the agent resolving the issue; excessive durations may signal complexity or inefficiency.  \n- **Agent_name**: Name of the support agent handling the ticket; can be encoded to understand individual performance impact.  \n- **Supervisor**: The agent\u2019s supervisor; useful to analyze team-level trends in CSAT.  \n- **Manager**: The manager overseeing the support process; can help identify management-level influence on support quality.  \n- **Tenure Bucket**: Agent experience group (e.g., 0\u20136 months, 6\u201312 months); more experienced agents might resolve issues better.  \n- **Agent Shift**: Time shift during which the case was handled (e.g., Day, Night); night shifts might see different trends in CSAT.  \n- **CSAT Score** *(Target Variable)*: Customer satisfaction score (1 to 5); the main variable we aim to classify using other features.\n\n\n=== About this file ===\n\nAbout this file\nThis dataset captures over 85,000 customer service interactions across various channels, including call logs, issue categories, agent details, and CSAT scores. It is well-suited for analyzing customer support performance, satisfaction trends, and agent efficiency.\n\n\n=== Columns & descriptions ===\n\nUnique id: A unique identifier for each customer support ticket. Used for tracking, not used in modeling.\nchannel_name: The communication channel used by the customer (e.g., Email, Chat, Phone), which influences response quality and time.\ncategory: Broad classification of the support issue (e.g., Technical, Billing, Account), useful in understanding issue trends.\nSub-category: More specific issue label under each category (e.g., \"Login Failure\" under Technical) to capture granular insights.\nCustomer Remarks: Free-text input from customers about their issue; useful for sentiment analysis or NLP-based features.\nOrder_id: The ID of the order associated with the issue; may not be directly useful unless joined with order metadata.\norder_date_time: Timestamp of the order; can be used to derive delays or time gaps relative to issue date.\nIssue_reported at: Time when the customer reported the issue; helps calculate response and resolution delays.\nissue_responded: Time when the support agent responded; combined with report time to calculate response duration.\nSurvey_response_Date: Date when customer gave the CSAT feedback; useful to understand follow-up timing, but not always predictive.\nCustomer_City: The city where the customer resides; can identify location-based trends or systemic issues.\nProduct_category: The type of product involved in the support ticket; some product types may result in higher or lower CSAT.\nItem_price: Price of the item involved; higher prices might lead to higher customer expectations and affect satisfaction.\nconnected_handling_time: Total time spent by the agent resolving the issue; excessive durations may signal complexity or inefficiency.\nAgent_name: Name of the support agent handling the ticket; can be encoded to understand individual performance impact.\nSupervisor: The agent\u2019s supervisor; useful to analyze team-level trends in CSAT.\nManager: The manager overseeing the support process; can help identify management-level influence on support quality.\nTenure Bucket: Agent experience group (e.g., 0\u20136 months, 6\u201312 months); more experienced agents might resolve issues better.\nAgent Shift: Time shift during which the case was handled (e.g., Day, Night); night shifts might see different trends in CSAT.\nCSAT Score: Customer satisfaction score (1 to 5); the main variable we aim to classify using other features.\n",
+        "keywords": [
+            "business",
+            "exploratory data analysis",
+            "classification",
+            "feature engineering",
+            "model comparison",
+            "e-commerce services",
+            "standardized testing"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

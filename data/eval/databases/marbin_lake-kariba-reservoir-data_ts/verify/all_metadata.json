@@ -1,0 +1,174 @@
+{
+    "question": {
+        "target": [
+            "lake_level"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "date",
+        "time_format": "%d/%m/%Y",
+        "is_resampled": false,
+        "related_features": [
+            "usable_storage",
+            "live_storage",
+            "turbine_discharge",
+            "spillage",
+            "total_outflow"
+        ],
+        "not_filtered_related_features": [
+            "usable_storage",
+            "live_storage",
+            "turbine_discharge",
+            "spillage",
+            "total_outflow"
+        ],
+        "selected_features": [
+            "turbine_discharge",
+            "live_storage",
+            "usable_storage"
+        ],
+        "expected_ranges": {
+            "usable_storage": [
+                0.77,
+                53.36
+            ],
+            "live_storage": [
+                0.07,
+                34.57
+            ],
+            "turbine_discharge": [
+                438,
+                2109
+            ],
+            "spillage": [
+                0,
+                0
+            ],
+            "total_outflow": [
+                438,
+                2109
+            ]
+        },
+        "column_type_inference": {
+            "date": "object",
+            "lake_level": "numeric",
+            "usable_storage": "numeric",
+            "live_storage": "numeric",
+            "turbine_discharge": "numeric",
+            "spillage": "numeric",
+            "total_outflow": "numeric"
+        },
+        "train_save_file": "./marbin_lake-kariba-reservoir-data_ts/source/train.csv",
+        "val_v1_save_file": "./marbin_lake-kariba-reservoir-data_ts/source/val_v1.csv",
+        "val_v2_save_file": "./marbin_lake-kariba-reservoir-data_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./marbin_lake-kariba-reservoir-data_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./marbin_lake-kariba-reservoir-data_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./marbin_lake-kariba-reservoir-data_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 60,
+        "model_type": "Prophet",
+        "output_file": "./marbin_lake-kariba-reservoir-data_ts/prediction.json",
+        "ground_truth_v1_file": "./marbin_lake-kariba-reservoir-data_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./marbin_lake-kariba-reservoir-data_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./marbin_lake-kariba-reservoir-data_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2022-04-28 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 2885271,
+        "ref": "marbin/lake-kariba-reservoir-data",
+        "subtitle": "Time series for world's largest artificial lake and reservoir by volume",
+        "creatorName": "Marta Binkowska",
+        "creatorUrl": "marbin",
+        "totalBytes": 13522,
+        "url": "https://www.kaggle.com/datasets/marbin/lake-kariba-reservoir-data",
+        "lastUpdated": "2025-03-30T10:03:42.207Z",
+        "downloadCount": 142,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Marta Binkowska",
+        "ownerRef": "marbin",
+        "kernelCount": 2,
+        "title": "Lake Kariba Reservoir Data",
+        "viewCount": 644,
+        "voteCount": 8,
+        "currentVersionNumber": 6,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "africa",
+                "name": "africa",
+                "description": "Africa is the world's second largest and second most-populous continent. At about 30.3 million km2 including adjacent islands, it covers 6% of Earth's total surface area and 20.4% of its total land area.",
+                "fullPath": "geography and places > africa",
+                "competitionCount": 6,
+                "datasetCount": 411,
+                "scriptCount": 100,
+                "totalCount": 517
+            },
+            {
+                "ref": "environment",
+                "name": "environment",
+                "description": "The environment tag is chock full of datasets and kernels that are generally showing how poorly we are treating the planet. One positive side to this tag is that it wasn't printed on paper.",
+                "fullPath": "subject > earth and nature > environment",
+                "competitionCount": 24,
+                "datasetCount": 1605,
+                "scriptCount": 612,
+                "totalCount": 2241
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14200,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34359
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 2885271,
+        "datasetSlug": "lake-kariba-reservoir-data",
+        "ownerUser": "marbin",
+        "usabilityRating": 1.0,
+        "totalViews": 623,
+        "totalVotes": 8,
+        "totalDownloads": 136,
+        "title": "Lake Kariba Reservoir Data",
+        "subtitle": "Time series for world's largest artificial lake and reservoir by volume",
+        "description": "&gt;Lake Kariba is the world's largest artificial lake and reservoir by volume. It lies 1,300 kilometers (810 mi) upstream from the Indian Ocean, along the border between Zambia and Zimbabwe. Lake Kariba was filled between 1958 and 1963 following the completion of the Kariba Dam at its northeastern end, flooding the Kariba Gorge on the Zambezi River.\n\nThe source of the data is Zambezi River Authority.\n\nFile contains 6 daily time series in time frame 01/01/2020 - 28/02/2023:\n\n- Lake level (m)\n- Usable Storage (%)\n- Live Storage x 109m3\n- Turbine Discharge (m3/s)\n- Spillage (m3/s)\n- Total Outflow (m3/s)\n\n=== About this file ===\n\nAbout this file\nData from Zambezi River Authority\n\n\n=== Columns & descriptions ===\n\ndate: [no description]\nlake_level: Lake Level (m)\nusable_storage: Usable Storage (%)\nlive_storage: Live Storage x 109m3\nturbine_discharge: Turbine Discharge (m3/s)\nspillage: Spillage (m3/s)\ntotal_outflow: Total Outflow (m3/s)\n",
+        "keywords": [
+            "africa",
+            "environment",
+            "time series analysis",
+            "tabular"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

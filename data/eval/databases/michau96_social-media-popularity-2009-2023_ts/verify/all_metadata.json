@@ -1,0 +1,296 @@
+{
+    "question": {
+        "target": [
+            "Facebook"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%Y-%m",
+        "is_resampled": false,
+        "related_features": [
+            "Pinterest",
+            "Twitter",
+            "YouTube",
+            "StumbleUpon",
+            "Instagram",
+            "Tumblr",
+            "reddit",
+            "VKontakte",
+            "LinkedIn",
+            "Google+",
+            "Digg",
+            "MySpace",
+            "Fark",
+            "NowPublic",
+            "iWiW",
+            "news.ycombinator.com",
+            "Delicious",
+            "orkut",
+            "Odnoklassniki",
+            "Vimeo",
+            "Other"
+        ],
+        "not_filtered_related_features": [
+            "Pinterest",
+            "Twitter",
+            "YouTube",
+            "StumbleUpon",
+            "Instagram",
+            "Tumblr",
+            "reddit",
+            "VKontakte",
+            "LinkedIn",
+            "Google+",
+            "Digg",
+            "MySpace",
+            "Fark",
+            "NowPublic",
+            "iWiW",
+            "news.ycombinator.com",
+            "Delicious",
+            "orkut",
+            "Odnoklassniki",
+            "Vimeo",
+            "Other"
+        ],
+        "selected_features": [
+            "VKontakte",
+            "LinkedIn",
+            "Vimeo",
+            "Google+",
+            "Odnoklassniki",
+            "MySpace",
+            "Digg",
+            "Instagram",
+            "Other",
+            "Fark",
+            "Twitter",
+            "YouTube",
+            "iWiW"
+        ],
+        "expected_ranges": {
+            "Pinterest": [
+                0.0,
+                16.96
+            ],
+            "Twitter": [
+                0.0,
+                15.48
+            ],
+            "YouTube": [
+                0.0,
+                11.04
+            ],
+            "StumbleUpon": [
+                0.0,
+                36.79
+            ],
+            "Instagram": [
+                0.0,
+                14.32
+            ],
+            "Tumblr": [
+                0.0,
+                10.25
+            ],
+            "reddit": [
+                0.0,
+                12.13
+            ],
+            "VKontakte": [
+                0.0,
+                0.88
+            ],
+            "LinkedIn": [
+                0.0,
+                0.64
+            ],
+            "Google+": [
+                0.0,
+                0.41
+            ],
+            "Digg": [
+                0.0,
+                7.34
+            ],
+            "MySpace": [
+                0.0,
+                14.81
+            ],
+            "Fark": [
+                0.0,
+                0.66
+            ],
+            "NowPublic": [
+                0.0,
+                1.43
+            ],
+            "iWiW": [
+                0.0,
+                2.35
+            ],
+            "news.ycombinator.com": [
+                0.0,
+                0.14
+            ],
+            "Delicious": [
+                0.0,
+                0.58
+            ],
+            "orkut": [
+                0.0,
+                1.77
+            ],
+            "Odnoklassniki": [
+                0.0,
+                0.17
+            ],
+            "Vimeo": [
+                0.0,
+                0.52
+            ],
+            "Other": [
+                0.0,
+                2.83
+            ]
+        },
+        "column_type_inference": {
+            "Date": "object",
+            "Facebook": "numeric",
+            "Pinterest": "numeric",
+            "Twitter": "numeric",
+            "YouTube": "numeric",
+            "StumbleUpon": "numeric",
+            "Instagram": "numeric",
+            "Tumblr": "numeric",
+            "reddit": "numeric",
+            "VKontakte": "numeric",
+            "LinkedIn": "numeric",
+            "Google+": "numeric",
+            "Digg": "numeric",
+            "MySpace": "numeric",
+            "Fark": "numeric",
+            "NowPublic": "numeric",
+            "iWiW": "numeric",
+            "news.ycombinator.com": "numeric",
+            "Delicious": "numeric",
+            "orkut": "numeric",
+            "Odnoklassniki": "numeric",
+            "Vimeo": "numeric",
+            "Other": "numeric"
+        },
+        "train_save_file": "./michau96_social-media-popularity-2009-2023_ts/source/train.csv",
+        "val_v1_save_file": "./michau96_social-media-popularity-2009-2023_ts/source/val_v1.csv",
+        "val_v2_save_file": "./michau96_social-media-popularity-2009-2023_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./michau96_social-media-popularity-2009-2023_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./michau96_social-media-popularity-2009-2023_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./michau96_social-media-popularity-2009-2023_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 97,
+        "model_type": "Prophet",
+        "output_file": "./michau96_social-media-popularity-2009-2023_ts/prediction.json",
+        "ground_truth_v1_file": "./michau96_social-media-popularity-2009-2023_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./michau96_social-media-popularity-2009-2023_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./michau96_social-media-popularity-2009-2023_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2023-08-01 00:00:00",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 4313568,
+        "ref": "michau96/social-media-popularity-2009-2023",
+        "subtitle": "Worldwide in last 15 years",
+        "creatorName": "Michal Bogacz",
+        "creatorUrl": "michau96",
+        "totalBytes": 22819,
+        "url": "https://www.kaggle.com/datasets/michau96/social-media-popularity-2009-2023",
+        "lastUpdated": "2025-04-26T11:11:20.757Z",
+        "downloadCount": 3325,
+        "licenseName": "CC BY-SA 3.0",
+        "description": "",
+        "ownerName": "Michal Bogacz",
+        "ownerRef": "michau96",
+        "kernelCount": 2,
+        "title": "Social media popularity (2009 - 2025)",
+        "viewCount": 14776,
+        "voteCount": 44,
+        "currentVersionNumber": 4,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "internet",
+                "name": "internet",
+                "description": "An interconnected network of tubes that connects the entire world together. This tag covers a broad range of tags; anything from cryptocurrency to website analytics.",
+                "fullPath": "subject > science and technology > internet",
+                "competitionCount": 19,
+                "datasetCount": 29695,
+                "scriptCount": 2621,
+                "totalCount": 32335
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14200,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34359
+            },
+            {
+                "ref": "social networks",
+                "name": "social networks",
+                "description": "",
+                "fullPath": "subject > science and technology > internet > online communities > social networks",
+                "competitionCount": 6,
+                "datasetCount": 7333,
+                "scriptCount": 4517,
+                "totalCount": 11856
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 4313568,
+        "datasetSlug": "social-media-popularity-2009-2023",
+        "ownerUser": "michau96",
+        "usabilityRating": 1.0,
+        "totalViews": 14610,
+        "totalVotes": 44,
+        "totalDownloads": 3294,
+        "title": "Social media popularity (2009 - 2025)",
+        "subtitle": "Worldwide in last 15 years",
+        "description": "## Context\nSocial media are today a very popular way of exchanging information with other people via the Internet. It's hard not to notice that over the years new ones are created and old ones \"die\". The database below presents the popularity of various social networking sites since 2009, showing the percentage of their share in the social media market.\n\n## Content\nThe database saved in .csv form contains several columns. The first column contains the date (YYYY-MM) of the measurement period. Each subsequent column contains the percentage of share in the social media market, given as a percentage, rounded to 2 decimal places (if the share is less than 0.5%, the value 0 remains, even though it may constitute a very small percentage of the share). We have almost 180 rows, 15 years of data for monthly periods.\n\n## Source\nThe database comes from the [Statcounter](https://gs.statcounter.com/) and is made available in the operation with CC BY-SA 3.0 license which allows to copy, use and disseminate data also for commercial purposes after providing the source.\n\n=== About this file ===\n\nAbout this file\nDataset\n\n\n=== Columns & descriptions ===\n\nDate: YYYY-DD\nFacebook: Share in %\nPinterest: Share in %\nTwitter: Share in %\nStumbleUpon: Share in %\nYouTube: Share in %\nInstagram: Share in %\nTumblr: Share in %\nreddit: Share in %\nVKontakte: Share in %\nLinkedIn: Share in %\nGoogle+: Share in %\nDigg: Share in %\nMySpace: Share in %\nFark: Share in %\nNowPublic: Share in %\niWiW: Share in %\nnews.ycombinator.com: Share in %\nDelicious: Share in %\norkut: Share in %\nOdnoklassniki: Share in %\nVimeo: Share in %\nOther: Share in %\n",
+        "keywords": [
+            "internet",
+            "time series analysis",
+            "tabular",
+            "social networks"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-SA-3.0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,185 @@
+{
+    "question": {
+        "target": [
+            "used_before_expiry"
+        ],
+        "target_candidates": [
+            "used_before_expiry"
+        ],
+        "related_features": [
+            "days_until_expiry",
+            "purchase_month",
+            "item_snack",
+            "item_grain",
+            "storage_fridge",
+            "item_beverage",
+            "item_dairy",
+            "item_fruit",
+            "item_vegetable",
+            "purchase_day_of_week",
+            "storage_pantry",
+            "quantity",
+            "storage_freezer",
+            "item_meat"
+        ],
+        "not_filtered_related_features": [
+            "days_until_expiry",
+            "quantity"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "days_until_expiry": [
+                0.0,
+                1.0
+            ],
+            "quantity": [
+                0.0,
+                1.0
+            ]
+        },
+        "selected_features": [
+            "days_until_expiry",
+            "quantity"
+        ],
+        "train_v2_save_file": "./prekshad2166_food-expiry-tracker_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./prekshad2166_food-expiry-tracker_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./prekshad2166_food-expiry-tracker_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./prekshad2166_food-expiry-tracker_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./prekshad2166_food-expiry-tracker_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.8,
+        "save_file_type": "sqlite",
+        "imputer_type": "median",
+        "random_state": 67,
+        "model_type": "DecisionTreeClassifier",
+        "output_file": "./prekshad2166_food-expiry-tracker_class/prediction.csv",
+        "ground_truth_file": "./prekshad2166_food-expiry-tracker_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./prekshad2166_food-expiry-tracker_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "purchase_month": "categorical",
+            "purchase_day_of_week": "categorical",
+            "days_until_expiry": "numerical",
+            "quantity": "numerical",
+            "used_before_expiry": "categorical",
+            "item_beverage": "categorical",
+            "item_dairy": "categorical",
+            "item_fruit": "categorical",
+            "item_grain": "categorical",
+            "item_meat": "categorical",
+            "item_snack": "categorical",
+            "item_vegetable": "categorical",
+            "storage_freezer": "categorical",
+            "storage_fridge": "categorical",
+            "storage_pantry": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "days_until_expiry",
+            "quantity"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7445922,
+        "ref": "prekshad2166/food-expiry-tracker",
+        "subtitle": "Track purchase patterns, expiration dates, and consumption behavior to minimize ",
+        "creatorName": "Preksha Dewoolkar",
+        "creatorUrl": "prekshad2166",
+        "totalBytes": 6287,
+        "url": "https://www.kaggle.com/datasets/prekshad2166/food-expiry-tracker",
+        "lastUpdated": "2025-05-17T16:51:00.623Z",
+        "downloadCount": 74,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Preksha Dewoolkar",
+        "ownerRef": "prekshad2166",
+        "kernelCount": 1,
+        "title": "Food expiry tracker",
+        "viewCount": 498,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114016,
+                "scriptCount": 25612,
+                "totalCount": 139666
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "food",
+                "name": "food",
+                "description": "",
+                "fullPath": "subject > health and fitness > food",
+                "competitionCount": 10,
+                "datasetCount": 13083,
+                "scriptCount": 709,
+                "totalCount": 13802
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7445922,
+        "datasetSlug": "food-expiry-tracker",
+        "ownerUser": "prekshad2166",
+        "usabilityRating": 1.0,
+        "totalViews": 339,
+        "totalDownloads": 53,
+        "title": "Food expiry tracker",
+        "subtitle": "Track purchase patterns, expiration dates, and consumption behavior to minimize ",
+        "description": "This Food Expiry Tracker dataset was created to analyze household food purchasing patterns and consumption behavior in relation to expiration dates. The dataset contains 500 entries tracking 15 variables across various food categories and storage methods, providing insights into how different factors influence whether food is consumed before expiry or wasted.\n\nFood waste is a critical global challenge - approximately 1.3 billion tonnes of food are wasted globally each year 1. Households are responsible for over 60% of this waste, making consumer-level tracking and prediction essential for developing effective waste reduction strategies.\n\n=== About this file ===\n\nAbout this file\nfood_expiry_tracker.csv (500 rows, 15 columns) This file contains the primary dataset with 500 food purchase records tracking various attributes related to food expiry and consumption. Each row represents a single food item purchase event with associated temporal, categorical, and outcome variables.\n\n\n=== Columns & descriptions ===\n\npurchase_month: float64\npurchase_day_of_week: float64\ndays_until_expiry: float64\nquantity: float64\nused_before_expiry: int64\nitem_beverage: bool\nitem_dairy: bool\nitem_fruit: bool\nitem_grain: bool\nitem_meat: bool\nitem_snack: [no description]\nitem_vegetable: [no description]\nstorage_freezer: [no description]\nstorage_fridge: [no description]\nstorage_pantry: [no description]\n",
+        "keywords": [
+            "business",
+            "beginner",
+            "time series analysis",
+            "classification",
+            "food"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

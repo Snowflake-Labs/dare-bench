@@ -1,0 +1,166 @@
+### Detailed Description of the Dataset
+
+The provided dataset, named *diabetes_dataset.csv*, contains information related to diabetes risk factors and associated health metrics. Below is a detailed description of the dataset:
+
+---
+
+#### **Dataset Overview**
+- **Number of Columns:** 20
+- **Number of Rows:** 152 (including the header row)
+- **Type of Data:** Tabular data with mixed numerical and categorical variables.
+- **Purpose:** The dataset appears to be designed for studying diabetes risk factors, including demographic, lifestyle, and clinical measures.
+
+---
+
+#### Column Descriptions
+
+1. **Age**:  
+   - Type: Numerical  
+   - Description: Age of the individual in years.
+
+2. **Sex**:  
+   - Type: Categorical  
+   - Description: Gender of the individual (e.g., Male, Female).
+
+3. **Ethnicity**:  
+   - Type: Categorical  
+   - Description: Ethnic background (e.g., White, Asian, Black, Hispanic).
+
+4. **BMI (Body Mass Index)**:  
+   - Type: Numerical  
+   - Description: A measure of body fat based on weight and height.
+
+5. **Waist Circumference**:  
+   - Type: Numerical  
+   - Description: Measurement of waist size in centimeters.
+
+6. **Fasting Blood Glucose**:  
+   - Type: Numerical  
+   - Description: Blood glucose levels after fasting, measured in mg/dL.
+
+7. **HbA1c**:  
+   - Type: Numerical  
+   - Description: Glycated hemoglobin percentage, indicating average blood sugar levels over the past 2–3 months.
+
+8. **Blood Pressure Systolic**:  
+   - Type: Numerical  
+   - Description: Systolic blood pressure (top number), measured in mmHg.
+
+9. **Blood Pressure Diastolic**:  
+   - Type: Numerical  
+   - Description: Diastolic blood pressure (bottom number), measured in mmHg.
+
+10. **Cholesterol Total**:  
+    - Type: Numerical  
+    - Description: Total cholesterol level in mg/dL.
+
+11. **Cholesterol HDL** (High-Density Lipoprotein):  
+    - Type: Numerical  
+    - Description: "Good" cholesterol level in mg/dL.
+
+12. **Cholesterol LDL** (Low-Density Lipoprotein):  
+    - Type: Numerical  
+    - Description: "Bad" cholesterol level in mg/dL.
+
+13. **GGT (Gamma-Glutamyl Transferase)**:  
+    - Type: Numerical  
+    - Description: Liver enzyme level indicative of liver function or damage.
+
+14. **Serum Urate**:
+    - Type: Numerical
+    - Description: Uric acid levels in the blood, measured in mg/dL.
+
+15. **Physical Activity Level**:
+    - Type: Categorical
+    - Description: Level of physical activity (e.g., Low, Moderate, High).
+
+16. **Dietary Intake Calories**:
+    - Type: Numerical
+    - Description: Daily calorie intake in kilocalories.
+
+17. **Alcohol Consumption**:
+    - Type: Categorical
+    - Description: Alcohol consumption level (e.g., None, Moderate, Heavy).
+
+18. **Smoking Status**:
+    - Type: Categorical
+    - Description: Smoking habits (e.g., Never, Former, Current).
+
+19. **Family History of Diabetes**:
+    - Type: Binary (0 or 1)
+    - Description:
+      1 = Family history present; 0 = No family history of diabetes.
+
+20. **Previous Gestational Diabetes**:
+    - Type: Binary (0 or 1)
+    - Description:
+      1 = History of gestational diabetes; 0 = No history.
+
+---
+
+#### **Sample Data**
+The dataset includes diverse demographic groups and a wide range of health metrics:
+
+=== About this file ===
+
+About this file
+📄 Diabetes Prediction Dataset
+File Format:
+📊
+CSV
+(Comma-Separated Values)
+Size & Structure:
+✅ Contains
+X rows
+and
+21 columns
+✅ Well-structured for easy data analysis and visualization
+Columns & Description:
+Here is the information you requested:
+Column Name
+Description
+Age
+Age of the person
+Sex
+Gender of the person
+Ethnicity
+Ethnic background of the person
+BMI
+Body Mass Index, a measure of body fat based on height and weight
+Waist_Circumference
+Measurement of waist circumference
+Fasting_Blood_Glucose
+Blood glucose level after a period of fasting
+HbA1c
+Hemoglobin A1c, a measure of average blood sugar levels over the past 2-3 months
+Blood_Pressure_Systolic
+Systolic blood pressure reading
+Blood_Pressure_Diastolic
+Diastolic blood pressure reading
+Cholesterol_Total
+Total cholesterol level in the blood
+
+
+=== Columns & descriptions ===
+
+: Id
+Age: Age of the person
+Sex: Gender of the person
+Ethnicity: Ethnic background of the person
+BMI: Body Mass Index, a measure of body fat based on height and weight
+Waist_Circumference: Measurement of waist circumference
+Fasting_Blood_Glucose: Blood glucose level after a period of fasting
+HbA1c: Hemoglobin A1c, a measure of average blood sugar levels over the past 2-3 months
+Blood_Pressure_Systolic: Systolic blood pressure reading
+Blood_Pressure_Diastolic: Diastolic blood pressure reading
+Cholesterol_Total: [no description]
+Cholesterol_HDL: [no description]
+Cholesterol_LDL: [no description]
+GGT: [no description]
+Serum_Urate: [no description]
+Physical_Activity_Level: [no description]
+Dietary_Intake_Calories: [no description]
+Alcohol_Consumption: [no description]
+Smoking_Status: [no description]
+Family_History_of_Diabetes: [no description]
+Previous_Gestational_Diabetes: [no description]

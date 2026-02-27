@@ -1,0 +1,271 @@
+{
+    "question": {
+        "target": [
+            "diagnosis"
+        ],
+        "target_candidates": [
+            "diagnosis"
+        ],
+        "related_features": [
+            "depression_phq9_score",
+            "pem_present",
+            "gender",
+            "brain_fog_level",
+            "exercise_frequency",
+            "age",
+            "physical_pain_score",
+            "meditation_or_mindfulness",
+            "stress_level",
+            "pem_duration_hours",
+            "hours_of_sleep_per_night",
+            "fatigue_severity_scale_score",
+            "social_activity_level",
+            "work_status",
+            "sleep_quality_index"
+        ],
+        "not_filtered_related_features": [
+            "depression_phq9_score",
+            "gender",
+            "brain_fog_level",
+            "exercise_frequency",
+            "age",
+            "physical_pain_score",
+            "meditation_or_mindfulness",
+            "stress_level",
+            "pem_duration_hours",
+            "hours_of_sleep_per_night",
+            "fatigue_severity_scale_score",
+            "social_activity_level",
+            "work_status",
+            "sleep_quality_index"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "depression_phq9_score": [
+                0.0,
+                27.0
+            ],
+            "gender": [
+                "Male",
+                "Female"
+            ],
+            "brain_fog_level": [
+                1.0,
+                10.0
+            ],
+            "exercise_frequency": [
+                "Daily",
+                "Often",
+                "Rarely",
+                "Never",
+                "Sometimes"
+            ],
+            "age": [
+                18,
+                70
+            ],
+            "physical_pain_score": [
+                1.0,
+                10.0
+            ],
+            "meditation_or_mindfulness": [
+                "Yes",
+                "No"
+            ],
+            "stress_level": [
+                1.0,
+                10.0
+            ],
+            "pem_duration_hours": [
+                0.0,
+                47.0
+            ],
+            "hours_of_sleep_per_night": [
+                3.0,
+                10.0
+            ],
+            "fatigue_severity_scale_score": [
+                0.0,
+                10.0
+            ],
+            "social_activity_level": [
+                "Low",
+                "High",
+                "Medium",
+                "Very low",
+                "Very high"
+            ],
+            "work_status": [
+                "Working",
+                "Partially working",
+                "Not working"
+            ],
+            "sleep_quality_index": [
+                1.0,
+                10.0
+            ]
+        },
+        "selected_features": [
+            "physical_pain_score",
+            "social_activity_level",
+            "sleep_quality_index",
+            "pem_duration_hours",
+            "brain_fog_level",
+            "exercise_frequency",
+            "depression_phq9_score",
+            "meditation_or_mindfulness",
+            "work_status"
+        ],
+        "train_v2_save_file": "./storytellerman_mecfs-vs-depression-classification-dataset_class/source/train_v2.parquet",
+        "val_v2_save_file": "./storytellerman_mecfs-vs-depression-classification-dataset_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./storytellerman_mecfs-vs-depression-classification-dataset_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./storytellerman_mecfs-vs-depression-classification-dataset_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./storytellerman_mecfs-vs-depression-classification-dataset_class/source/train_v1.parquet",
+        "train_test_ratio": 0.7,
+        "save_file_type": "parquet",
+        "imputer_type": "mean",
+        "random_state": 89,
+        "model_type": "MLPClassifier",
+        "output_file": "./storytellerman_mecfs-vs-depression-classification-dataset_class/prediction.csv",
+        "ground_truth_file": "./storytellerman_mecfs-vs-depression-classification-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./storytellerman_mecfs-vs-depression-classification-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "age": "numerical",
+            "gender": "categorical",
+            "sleep_quality_index": "numerical",
+            "brain_fog_level": "numerical",
+            "physical_pain_score": "numerical",
+            "stress_level": "numerical",
+            "depression_phq9_score": "numerical",
+            "fatigue_severity_scale_score": "numerical",
+            "pem_duration_hours": "numerical",
+            "hours_of_sleep_per_night": "numerical",
+            "pem_present": "categorical",
+            "work_status": "categorical",
+            "social_activity_level": "categorical",
+            "exercise_frequency": "categorical",
+            "meditation_or_mindfulness": "categorical",
+            "diagnosis": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "physical_pain_score",
+            "sleep_quality_index",
+            "pem_duration_hours",
+            "brain_fog_level",
+            "depression_phq9_score"
+        ],
+        "categorical_features": [
+            "social_activity_level",
+            "exercise_frequency",
+            "meditation_or_mindfulness",
+            "work_status"
+        ]
+    },
+    "data_info": {
+        "id": 7616497,
+        "ref": "storytellerman/mecfs-vs-depression-classification-dataset",
+        "subtitle": "\"A synthetic dataset for differential diagnosis between ME/CFS and depression\"",
+        "creatorName": "Arshad Aliyev",
+        "creatorUrl": "storytellerman",
+        "totalBytes": 18667,
+        "url": "https://www.kaggle.com/datasets/storytellerman/mecfs-vs-depression-classification-dataset",
+        "lastUpdated": "2025-06-08T14:26:25.000Z",
+        "downloadCount": 865,
+        "licenseName": "CC BY-NC-SA 4.0",
+        "description": "",
+        "ownerName": "Arshad Aliyev",
+        "ownerRef": "storytellerman",
+        "kernelCount": 18,
+        "title": "ME/CFS vs Depression Classification Dataset",
+        "viewCount": 4194,
+        "voteCount": 28,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "mental health",
+                "name": "mental health",
+                "description": "Mental health is a level of psychological well-being, or an absence of mental illness.",
+                "fullPath": "subject > health and fitness > health > health conditions > mental health",
+                "competitionCount": 1,
+                "datasetCount": 2391,
+                "scriptCount": 371,
+                "totalCount": 2763
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "multiclass classification",
+                "name": "multiclass classification",
+                "description": "",
+                "fullPath": "task > multiclass classification",
+                "competitionCount": 831,
+                "datasetCount": 1470,
+                "scriptCount": 3846,
+                "totalCount": 6147
+            },
+            {
+                "ref": "synthetic",
+                "name": "synthetic",
+                "description": "",
+                "fullPath": "data type > synthetic",
+                "competitionCount": 8,
+                "datasetCount": 510,
+                "scriptCount": 70,
+                "totalCount": 588
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7616497,
+        "datasetSlug": "mecfs-vs-depression-classification-dataset",
+        "ownerUser": "storytellerman",
+        "usabilityRating": 1.0,
+        "totalViews": 3175,
+        "totalVotes": 23,
+        "totalDownloads": 702,
+        "title": "ME/CFS vs Depression Classification Dataset",
+        "subtitle": "\"A synthetic dataset for differential diagnosis between ME/CFS and depression\"",
+        "description": "# ME/CFS vs Depression Dataset\n\nWelcome to a synthetic dataset designed for classification tasks between **Myalgic Encephalomyelitis / Chronic Fatigue Syndrome (ME/CFS)** and **Depression**.  \nThis is the first dataset of its kind created specifically to help beginners and researchers explore complex cases of differential diagnosis in mental and chronic health conditions.\n\n---\n\n## \ud83c\udfaf Objective\n\nPredict whether a patient has:\n- `ME/CFS`\n- `Depression`\n- Or both (`Both`)\n\nBased on behavioral, clinical, and symptomatic features.\n\n---\n\n## \ud83d\udccb Features\n\n| Feature Name | Description |\n|--------------|-------------|\n| `age` | Patient's age |\n| `gender` | Gender (Male / Female / Other) |\n| `fatigue_severity_scale_score` | Fatigue Severity Scale (FSS), 0\u201310 |\n| `depression_phq9_score` | PHQ-9 depression score, 0\u201327 |\n| `pem_present` | Whether Post-Exertional Malaise (PEM) is present (Yes/No or 1/0) |\n| `pem_duration_hours` | Duration of PEM in hours |\n| `sleep_quality_index` | Sleep quality (1\u201310 scale) |\n| `brain_fog_level` | Brain fog level (1\u201310) |\n| `physical_pain_score` | Physical pain intensity (1\u201310) |\n| `stress_level` | Stress level (1\u201310) |\n| `work_status` | Work status: Working / Partially working / Not working |\n| `social_activity_level` | Social activity: Very low \u2013 Very high |\n| `exercise_frequency` | Exercise frequency: Never \u2013 Daily |\n| `meditation_or_mindfulness` | Does the patient practice mindfulness or meditation? Yes/No |\n| `hours_of_sleep_per_night` | Average sleep duration per night |\n| `diagnosis` | Target variable: `ME/CFS`, `Depression`, `Both` |\n\n---\n\n## \u26a0\ufe0f Key Characteristics\n\n- Contains **missing values (`NaN`)** in most features (1\u20135%), simulating real-world data collection issues.\n- All numeric features contain **controlled noise** to prevent perfect class separation.\n- Diagnosis logic is based on **clinical-like heuristics**, making it suitable for training models that could support real-world decisions.\n\n---\n\n## \ud83d\udee0 Suggested Use Cases\n\n- Binary classification: `ME/CFS` vs `Depression`\n- Multiclass classification: `ME/CFS`, `Depression`, `Both`\n- EDA and feature engineering practice\n- Missing data imputation techniques\n- Medical ML modeling and interpretability\n\n---\n\n## \ud83d\udce6 Format\n\n- CSV file\n- ~1,000 rows\n- UTF-8 encoding\n\n---\n\n## \ud83d\ude4c Author\n\nCreated with \u2764\ufe0f for the Kaggle community.\n\nIf you like this dataset \u2014 please upvote!  \nIf you have any suggestions or improvements \u2014 feel free to comment.\n\n=== About this file ===\n\nAbout this file\nThis dataset is designed to help machine learning practitioners and researchers explore the challenging task of differential diagnosis between Myalgic Encephalomyelitis / Chronic Fatigue Syndrome (ME/CFS) and Depression.\nThe data is synthetic but modeled after real-world clinical features such as fatigue severity, depression scores, sleep quality, cognitive symptoms, and lifestyle factors. It includes realistic noise and missing values to simulate conditions found in actual medical datasets.\nAll features are generated with clinically inspired logic to ensure meaningful patterns for model training and analysis.\n\n\n=== Columns & descriptions ===\n\nage: Age of the patient in years\ngender: (Male / Female)\nsleep_quality_index: (1\u201310 scale)\nbrain_fog_level: level (1\u201310)\nphysical_pain_score: level (1\u201310)\nstress_level: level (1\u201310)\ndepression_phq9_score: level (0\u201310)\nfatigue_severity_scale_score: (FSS) 0\u201310\npem_duration_hours: in hours\nhours_of_sleep_per_night: in hours\npem_present: [no description]\nwork_status: [no description]\nsocial_activity_level: [no description]\nexercise_frequency: [no description]\nmeditation_or_mindfulness: [no description]\ndiagnosis: [no description]\n",
+        "keywords": [
+            "mental health",
+            "exploratory data analysis",
+            "classification",
+            "multiclass classification",
+            "synthetic"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-NC-SA-4.0"
+            }
+        ]
+    }
+}

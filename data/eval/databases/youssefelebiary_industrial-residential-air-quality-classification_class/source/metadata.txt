@@ -1,0 +1,53 @@
+# Context
+Air pollution is a global concern, contributing to **7 million premature deaths annually** (WHO). This dataset enables researchers and data scientists to:
+- Analyze air quality differences between industrial and residential areas
+- Develop classification models to predict area types based on pollution levels
+- Investigate environmental impacts of urban zoning
+
+# Overview
+| Category        | Detail                          |
+|-----------------|---------------------------------|
+| Records         | 10,000+ daily measurements     |
+| Timeframe       | January - December 2024 GMT Time Zone       |
+| Locations       | Moscow, Delhi, Beijing, Zurich, Vancouver, Stockholm   |
+| Pollutants      | CO, NO₂, SO₂, O₃, PM2.5, PM10  |
+| Classification  | Industrial or Residential labels |
+
+# Files
+* `City_Types.csv`
+   - All locations with `Location` and `Classification` (Industrial/Residential) identifiers
+   - Complete 2024 daily records
+
+# Key Features
+1. **Temporal Coverage**: Daily data for all of 2024.
+2. **Classification Labels**: Each record labeled as "Industrial" or "Residential" for machine learning tasks.
+3. **Geographical Diversity**: Includes urban areas with varied industrial and residential zoning.
+4. **Standardized Units**: Explicitly documented (e.g., CO₂ in ppm, others in µg/m³).
+
+# Uses
+This dataset is suitable for a wide range of tasks, including:
+- **Classification Modeling**: Build models to predict industrial vs. residential areas based on air quality metrics.
+- **Pollutant Correlation Analysis**: Identify which pollutants (e.g., PM2.5, NO₂) most distinguish industrial from residential zones.
+- **Environmental Impact Studies**: Compare air quality trends between industrial and residential areas.
+- **Policy Analysis**: Link pollutant levels to urban planning and zoning regulations.
+
+## Licensing
+This dataset is published under the **MIT License**, allowing free use for both personal and commercial purposes. Attribution is encouraged but not required.
+
+=== About this file ===
+
+About this file
+Contains over 52,000 entries representing the air quality of 3 industrial cities and 3 residential cities.
+
+
+=== Columns & descriptions ===
+
+Date: Date of the reading
+City: City of reading
+CO: Carbon Monoxide Concentration in µg/m³
+NO2: Nitrogen Dioxide Concentration in µg/m³
+SO2: Sulphur Dioxide Concentration in µg/m³
+O3: Ozone Concentration in µg/m³
+PM2.5: Particulate Matter 2.5 Concentration in µg/m³
+PM10: Particulate Matter 10 Concentration in µg/m³
+Type: Type of city

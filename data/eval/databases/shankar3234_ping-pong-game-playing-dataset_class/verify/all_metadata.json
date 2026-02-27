@@ -1,0 +1,198 @@
+{
+    "question": {
+        "target": [
+            "action"
+        ],
+        "target_candidates": [
+            "action"
+        ],
+        "related_features": [
+            "ball_dx",
+            "ball_y",
+            "paddle_y",
+            "ball_dy",
+            "ball_x"
+        ],
+        "not_filtered_related_features": [
+            "ball_dx",
+            "ball_y",
+            "paddle_y",
+            "ball_dy",
+            "ball_x"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "ball_dx": [
+                -4,
+                4
+            ],
+            "ball_y": [
+                -3,
+                593
+            ],
+            "paddle_y": [
+                0,
+                500
+            ],
+            "ball_dy": [
+                -4,
+                4
+            ],
+            "ball_x": [
+                0,
+                792
+            ]
+        },
+        "selected_features": [
+            "ball_dx",
+            "paddle_y",
+            "ball_y"
+        ],
+        "train_v2_save_file": "./shankar3234_ping-pong-game-playing-dataset_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./shankar3234_ping-pong-game-playing-dataset_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./shankar3234_ping-pong-game-playing-dataset_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./shankar3234_ping-pong-game-playing-dataset_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./shankar3234_ping-pong-game-playing-dataset_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.9,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 54,
+        "model_type": "GaussianNB",
+        "output_file": "./shankar3234_ping-pong-game-playing-dataset_class/prediction.csv",
+        "ground_truth_file": "./shankar3234_ping-pong-game-playing-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./shankar3234_ping-pong-game-playing-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "ball_x": "numerical",
+            "ball_y": "numerical",
+            "ball_dx": "numerical",
+            "ball_dy": "numerical",
+            "paddle_y": "numerical",
+            "action": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "ball_dx",
+            "paddle_y",
+            "ball_y"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7903586,
+        "ref": "shankar3234/ping-pong-game-playing-dataset",
+        "subtitle": "Ball and Paddle Position Dataset Collected from Human Gameplay for Training SL",
+        "creatorName": "shankar lal",
+        "creatorUrl": "shankar3234",
+        "totalBytes": 1947948,
+        "url": "https://www.kaggle.com/datasets/shankar3234/ping-pong-game-playing-dataset",
+        "lastUpdated": "2025-07-20T02:42:47.000Z",
+        "downloadCount": 10,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "shankar lal",
+        "ownerRef": "shankar3234",
+        "kernelCount": 1,
+        "title": "Ping Pong Game Movement Dataset for SL",
+        "viewCount": 72,
+        "voteCount": 1,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "games",
+                "name": "games",
+                "description": "One of the hallmarks of intelligence is the use of games and toys to occupy free time and develop intellectually. Often stored in Mom's basement.",
+                "fullPath": "subject > culture and humanities > games",
+                "competitionCount": 9,
+                "datasetCount": 10746,
+                "scriptCount": 34440,
+                "totalCount": 45195
+            },
+            {
+                "ref": "categorical",
+                "name": "categorical",
+                "description": "Categorical data are observations that fall into discrete categories, like dog breed, dog color or whether or not a dog likes chew toys.",
+                "fullPath": "data type > categorical",
+                "competitionCount": 40,
+                "datasetCount": 2985,
+                "scriptCount": 2411,
+                "totalCount": 5436
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7903586,
+        "datasetSlug": "ping-pong-game-playing-dataset",
+        "ownerUser": "shankar3234",
+        "usabilityRating": 1.0,
+        "totalViews": 31,
+        "totalVotes": 1,
+        "totalDownloads": 1,
+        "title": "Ping Pong Game Movement Dataset for SL",
+        "subtitle": "Ball and Paddle Position Dataset Collected from Human Gameplay for Training SL",
+        "description": "This dataset was created to support machine learning applications in game AI, especially supervised learning models for paddle control in a ping pong game.\n\nThree players participated in a controlled gameplay session, each playing for approximately one hour. During gameplay, the following features were recorded frame-by-frame:\n- **ball_x**: Horizontal position of the ball\n- **ball_y**: Vertical position of the ball\n- **ball_dx**: Horizontal velocity of the ball\n- **ball_dy**: Vertical velocity of the ball\n- **paddle_y**: Vertical position of the paddle\n- **action**: Player's action (e.g., move up, move down, stay)\n\nThe goal of this dataset is to train models that can predict optimal paddle movements based on the state of the ball and paddle. It can be used in classification or reinforcement learning environments.\n\n**Potential Use Cases**:\n- Training supervised learning models for paddle control\n- Building intelligent agents in ping pong simulations\n- Reinforcement learning behavior cloning\n- Game AI prototyping and behavior analysis\n\n**Format**: CSV\n**Rows**: 411059\n**License**: CC BY 4.0\n\nWe hope this dataset will be useful for the community working on game AI and dynamic movement prediction!\n\n=== About this file ===\n\nAbout this file\nThis CSV file contains gameplay data collected from a custom-made ping pong game, designed for training supervised learning models. Each row represents a snapshot of the game state at a given time, captured during real human gameplay.\n\n\n=== Columns & descriptions ===\n\nball_x: Horizontal position of the ball on the screen (float or integer value depending on coordinate system).\nball_y: Vertical position of the ball on the screen.\nball_dx: Change in the ball\u2019s horizontal position (i.e., horizontal velocity). Positive = right, Negative = left.\nball_dy: Change in the ball\u2019s vertical position (i.e., vertical velocity). Positive = down, Negative = up.\npaddle_y: Vertical position of the player's paddle at the current frame.\naction: Player\u2019s action at that frame \u2014 typically an integer or label indicating movement: e.g., 0 = stay, 1 = move up, 2 = move down.\n",
+        "keywords": [
+            "games",
+            "categorical",
+            "beginner",
+            "classification",
+            "tabular"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ],
+        "collaborators": [
+            {
+                "username": "alisher11656",
+                "groupSlug": "",
+                "role": "ADMIN"
+            },
+            {
+                "username": "manishdodeja",
+                "groupSlug": "",
+                "role": "ADMIN"
+            }
+        ]
+    }
+}

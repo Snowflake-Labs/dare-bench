@@ -1,0 +1,23 @@
+This data has 15 minute interval simulated thermal power-station generated electricity load data for a particular grid from Indian Power Generation Company. This data mainly serves for forecasting playground to achieve greater ac-curacies (+-5%).
+1) Day_Interval - "%d-%b-%Y %H:%M" format for every 15 Minute Interval.
+2) Frequency_in_Hz - Electricity generated measured in Hz frequency.
+3) Penalty for under generation in Indian Rupees.
+
+Other Datasets by Author:
+Daily Store Sales and Revenue of 600 plus SKUs - [Link](https://www.kaggle.com/datasets/pradeep13/daily-store-sales-and-revenue-of-600-plus-skus)
+
+=== About this file ===
+
+About this file
+It has three columns:
+1) Day_Interval - "%d-%b-%Y %H:%M" format for every 15 Minute Interval.
+2) Frequency_in_Hz - Electricity generated measured in Hz frequency.
+3) Penalty for under generation in Indian Rupees.
+PS: Sort Day_Interval after converting to appropriate Date-Time format.
+
+
+=== Columns & descriptions ===
+
+Day_Interval: 03-Mar-2018 00:15
+Frequency_in_Hz: 49.9
+UI_Penalty_INR_per_kwh: 3006.5

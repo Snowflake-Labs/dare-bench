@@ -1,0 +1,180 @@
+{
+    "question": {
+        "target": [
+            "GLD"
+        ],
+        "target_candidates": [
+            "GLD"
+        ],
+        "related_features": [
+            "SPX",
+            "USO",
+            "EUR/USD",
+            "SLV"
+        ],
+        "not_filtered_related_features": [
+            "SPX",
+            "SLV",
+            "EUR/USD",
+            "USO"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "SPX": [
+                676.0,
+                2873.0
+            ],
+            "SLV": [
+                8.0,
+                48.0
+            ],
+            "EUR/USD": [
+                1.0,
+                2.0
+            ],
+            "USO": [
+                7.0,
+                118.0
+            ]
+        },
+        "selected_features": [
+            "EUR/USD",
+            "SLV",
+            "SPX"
+        ],
+        "train_v2_save_file": "./ayushmanyashaswi_gold-price-2000-rows-of-data-yashaswi_reg/source/train_v2.parquet",
+        "val_v2_save_file": "./ayushmanyashaswi_gold-price-2000-rows-of-data-yashaswi_reg/source/val_v2.parquet",
+        "val_no_err_save_file": "./ayushmanyashaswi_gold-price-2000-rows-of-data-yashaswi_reg/source/val_v1.parquet",
+        "train_no_err_save_file": "./ayushmanyashaswi_gold-price-2000-rows-of-data-yashaswi_reg/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./ayushmanyashaswi_gold-price-2000-rows-of-data-yashaswi_reg/source/train_v1.parquet",
+        "train_test_ratio": 0.9,
+        "save_file_type": "parquet",
+        "imputer_type": "mean",
+        "random_state": 12,
+        "model_type": "DecisionTreeRegressor",
+        "output_file": "./ayushmanyashaswi_gold-price-2000-rows-of-data-yashaswi_reg/prediction.csv",
+        "ground_truth_file": "./ayushmanyashaswi_gold-price-2000-rows-of-data-yashaswi_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./ayushmanyashaswi_gold-price-2000-rows-of-data-yashaswi_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Date": "categorical",
+            "SPX": "numerical",
+            "GLD": "numerical",
+            "USO": "numerical",
+            "SLV": "numerical",
+            "EUR/USD": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "EUR/USD",
+            "SLV",
+            "SPX"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7749198,
+        "ref": "ayushmanyashaswi/gold-price-2000-rows-of-data-yashaswi",
+        "subtitle": "A dataset with simple datas to predict the price of the gold",
+        "creatorName": "Ayushman Yashaswi",
+        "creatorUrl": "ayushmanyashaswi",
+        "totalBytes": 42904,
+        "url": "https://www.kaggle.com/datasets/ayushmanyashaswi/gold-price-2000-rows-of-data-yashaswi",
+        "lastUpdated": "2025-06-26T17:57:15.000Z",
+        "downloadCount": 85,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Ayushman Yashaswi",
+        "ownerRef": "ayushmanyashaswi",
+        "kernelCount": 3,
+        "title": "Gold Price | 2000+ rows of data | yashaswi",
+        "viewCount": 498,
+        "voteCount": 2,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "xgboost",
+                "name": "xgboost",
+                "description": "A library that implements the gradient boosting framework onto a wide range of problems including regression and classification. It is optimized for speed and efficiency.",
+                "fullPath": "packages > xgboost",
+                "competitionCount": 4,
+                "datasetCount": 186,
+                "scriptCount": 7771,
+                "totalCount": 7961
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            },
+            {
+                "ref": "optimization",
+                "name": "optimization",
+                "description": "",
+                "fullPath": "technique > optimization",
+                "competitionCount": 20,
+                "datasetCount": 164,
+                "scriptCount": 1357,
+                "totalCount": 1541
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7749198,
+        "datasetSlug": "gold-price-2000-rows-of-data-yashaswi",
+        "ownerUser": "ayushmanyashaswi",
+        "usabilityRating": 1.0,
+        "totalViews": 105,
+        "totalVotes": 1,
+        "totalDownloads": 22,
+        "title": "Gold Price | 2000+ rows of data | yashaswi",
+        "subtitle": "A dataset with simple datas to predict the price of the gold",
+        "description": "### \ud83d\udcca Gold Price Data (2008\u20132018)\n\nThis dataset contains over 2,000 rows of historical financial data collected between **January 2008 and May 2018**. It is ideal for time series modeling, correlation studies, and building regression models to **predict gold prices (GLD)** using related financial indicators.\n\n---\n\n#### \ud83d\udcc1 Columns:\n\n* **Date**: Trading date (MM/DD/YYYY)\n* **SPX**: S\\&P 500 Index closing value\n* **GLD**: SPDR Gold ETF price (target variable)\n* **USO**: United States Oil Fund (oil price proxy)\n* **SLV**: iShares Silver Trust (silver prices)\n* **EUR/USD**: Euro to USD exchange rate\n\n---\n\n### \u2705 Use Cases:\n\n* Gold price prediction\n* Feature engineering & ML model tuning\n* Model performance benchmarking\n* Regression-based forecasting\n\n\n=== About this file ===\n\nAbout this file\ndataset on gold price\n\n\n=== Columns & descriptions ===\n\nDate: Trading date (MM/DD/YYYY)\nSPX: S\\&P 500 Index closing value\nGLD: SPDR Gold ETF price (target variable)\nUSO: United States Oil Fund (oil price proxy)\nSLV: iShares Silver Trust (silver prices)\nEUR/USD: Euro to USD exchange rate\n",
+        "keywords": [
+            "intermediate",
+            "data visualization",
+            "xgboost",
+            "regression",
+            "optimization"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

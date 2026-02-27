@@ -1,0 +1,38 @@
+Real-time Beamforming Optimization for Next-Gen Wireless Networks
+
+A synthetic dataset for machine learning-based real-time beam direction selection, incorporating user mobility, channel state information, and historical network performance.
+
+=== About this file ===
+
+About this file
+The dataset contains the following key features, collected over simulated time steps:
+
+
+=== Columns & descriptions ===
+
+sample_id: Unique identifier for each data sample/time instance.
+user_loc_hist_x_0: 2D Cartesian coordinates (x, y) representing the user's past N locations. This captures user mobility patterns.
+user_loc_hist_y_0: Integer indices (0 to num_beams-1) representing the beam direction chosen by the system at past N time steps. This provides contextual information about previous beam choices.
+user_loc_hist_x_1: [no description]
+user_loc_hist_y_1: [no description]
+user_loc_hist_x_2: A scalar value (in dB) indicating the overall signal quality at the user's location. A higher SINR generally means better communication.
+user_loc_hist_y_2: Simplified representation: A vector of channel gains or strengths associated with each of the M potential beam directions. Higher values indicate stronger signal paths.
+user_loc_hist_x_3: Simplified representation: A vector of channel gains or strengths associated with each of the M potential beam directions. Higher values indicate stronger signal paths.
+user_loc_hist_y_3: Simplified representation: A vector of channel gains or strengths associated with each of the M potential beam directions. Higher values indicate stronger signal paths.
+user_loc_hist_x_4: Simplified representation: A vector of channel gains or strengths associated with each of the M potential beam directions. Higher values indicate stronger signal paths.
+user_loc_hist_y_4: [no description]
+csi_beam_0: [no description]
+csi_beam_1: [no description]
+csi_beam_2: [no description]
+csi_beam_3: [no description]
+csi_beam_4: [no description]
+csi_beam_5: [no description]
+csi_beam_6: [no description]
+csi_beam_7: [no description]
+beam_hist_0: [no description]
+beam_hist_1: [no description]
+beam_hist_2: [no description]
+beam_hist_3: [no description]
+beam_hist_4: [no description]
+sinr: [no description]
+optimal_beam_index: [no description]

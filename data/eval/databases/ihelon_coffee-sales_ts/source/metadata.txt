@@ -1,0 +1,31 @@
+# Overview
+This dataset contains detailed records of coffee sales from a vending machine. 
+The vending machine is the work of a dataset author who is committed to providing an open dataset to the community.
+It is intended for analysis of purchasing patterns, sales trends, and customer preferences related to coffee products.
+
+# Data Collection Period
+The dataset spans from March 2024 to Present time, capturing daily transaction data. And new information continues to be added.
+
+# Tasks
+- Time Series Exploratory Data Analysis
+- Next day/week/month sales
+- Specific customer purchases
+
+# Author
+Yaroslav Isaienkov @ihelon
+
+
+=== About this file ===
+
+About this file
+All cash and card transactions about purchasing coffee (machine_1)
+
+
+=== Columns & descriptions ===
+
+date: Date of purchasing
+datetime: Datetime of purchasing
+cash_type: Cash or card purchasing
+card: Anonymous card number
+money: Amount of money in Ukrainian hryvnias
+coffee_name: Coffee type

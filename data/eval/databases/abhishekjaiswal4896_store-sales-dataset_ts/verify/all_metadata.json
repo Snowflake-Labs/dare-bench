@@ -1,0 +1,139 @@
+{
+    "question": {
+        "target": [
+            "sales"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "date",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "store",
+            "promo",
+            "holiday"
+        ],
+        "not_filtered_related_features": [],
+        "selected_features": [],
+        "expected_ranges": {},
+        "column_type_inference": {
+            "date": "object",
+            "store": "numeric",
+            "sales": "numeric",
+            "promo": "numeric",
+            "holiday": "numeric"
+        },
+        "train_save_file": "./abhishekjaiswal4896_store-sales-dataset_ts/source/train.csv",
+        "val_v1_save_file": "./abhishekjaiswal4896_store-sales-dataset_ts/source/val_v1.csv",
+        "val_v2_save_file": "./abhishekjaiswal4896_store-sales-dataset_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./abhishekjaiswal4896_store-sales-dataset_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./abhishekjaiswal4896_store-sales-dataset_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./abhishekjaiswal4896_store-sales-dataset_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 31,
+        "model_type": "Prophet",
+        "output_file": "./abhishekjaiswal4896_store-sales-dataset_ts/prediction.json",
+        "ground_truth_v1_file": "./abhishekjaiswal4896_store-sales-dataset_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./abhishekjaiswal4896_store-sales-dataset_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./abhishekjaiswal4896_store-sales-dataset_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2023-10-20 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7805458,
+        "ref": "abhishekjaiswal4896/store-sales-dataset",
+        "subtitle": "Simulated daily sales data across multiple retail stores.",
+        "creatorName": "Abhishek Jaiswal",
+        "creatorUrl": "abhishekjaiswal4896",
+        "totalBytes": 42940,
+        "url": "https://www.kaggle.com/datasets/abhishekjaiswal4896/store-sales-dataset",
+        "lastUpdated": "2025-07-05T08:40:49.373Z",
+        "downloadCount": 1859,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Abhishek Jaiswal",
+        "ownerRef": "abhishekjaiswal4896",
+        "kernelCount": 11,
+        "title": "Store sales dataset",
+        "viewCount": 7555,
+        "voteCount": 29,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "multiclass classification",
+                "name": "multiclass classification",
+                "description": "",
+                "fullPath": "task > multiclass classification",
+                "competitionCount": 831,
+                "datasetCount": 1470,
+                "scriptCount": 3846,
+                "totalCount": 6147
+            },
+            {
+                "ref": "retail and shopping",
+                "name": "retail and shopping",
+                "description": "",
+                "fullPath": "subject > people and society > people > retail and shopping",
+                "competitionCount": 6,
+                "datasetCount": 12258,
+                "scriptCount": 588,
+                "totalCount": 12852
+            },
+            {
+                "ref": "python",
+                "name": "python",
+                "description": "",
+                "fullPath": "subject > science and technology > computer science > programming > python",
+                "competitionCount": 11,
+                "datasetCount": 1976,
+                "scriptCount": 13190,
+                "totalCount": 15177
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7805458,
+        "datasetSlug": "store-sales-dataset",
+        "ownerUser": "abhishekjaiswal4896",
+        "usabilityRating": 1.0,
+        "totalViews": 471,
+        "totalVotes": 2,
+        "totalDownloads": 73,
+        "title": "Store sales dataset",
+        "subtitle": "Simulated daily sales data across multiple retail stores.",
+        "description": "\n\nThis dataset contains **simulated daily sales records** for 10 retail stores across a two-year period (2022\u20132023). It is designed specifically for practicing and showcasing **time series forecasting**, **seasonal analysis**, and **retail trend modeling**.\n\nEach record includes:\n\n* \ud83d\udcc5 **Date**: Daily sales timestamp\n* \ud83c\udfea **Store ID**: Identifier for each store (1\u201310)\n* \ud83d\udcb5 **Sales**: Total sales in \u20b9 for that day\n* \ud83c\udfaf **Promo**: Binary flag indicating whether a promotion was active\n* \ud83c\udf89 **Holiday**: Binary flag for holidays (national/festival days)\n\n---\n\n### \ud83d\udd0d **Use Case Ideas:**\n\n* Time series forecasting with ARIMA, Prophet, LSTM, etc.\n* Promotion and holiday impact analysis\n* Per-store performance comparison\n* Seasonal decomposition and trend detection\n* Multivariate time series modeling\n\n---\n\n=== About this file ===\n\nAbout this file\nThis CSV file contains daily sales data for 10 retail stores from January 1, 2022 to December 31, 2023. Each row represents one store\u2019s sales on a particular date, along with indicators for promotional events and holidays.\n\ud83e\uddfe Columns:\ndate \u2013 Date of the sales record\nstore \u2013 Store ID (1 to 10)\nsales \u2013 Total sales amount in \u20b9\npromo \u2013 1 if a promotion was active, else 0\nholiday \u2013 1 if the day was a holiday, else 0\nThis file is ideal for time series analysis, forecasting models, and exploring the impact of promotions and holidays on retail sales\n\n\n=== Columns & descriptions ===\n\ndate: Date of the sales record\nstore: Store ID (1 to 10)\nsales: Total sales amount in \u20b9\npromo: 1 if a promotion was active, else 0\nholiday: 1 if the day was a holiday, else 0\n",
+        "keywords": [
+            "time series analysis",
+            "multiclass classification",
+            "retail and shopping",
+            "python"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

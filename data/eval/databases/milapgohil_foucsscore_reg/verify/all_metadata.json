@@ -1,0 +1,202 @@
+{
+    "question": {
+        "target": [
+            "focus_score"
+        ],
+        "target_candidates": [
+            "focus_score"
+        ],
+        "related_features": [
+            "work_environment",
+            "caffeine_mg",
+            "task_type",
+            "noise_level_db",
+            "hours_slept"
+        ],
+        "not_filtered_related_features": [
+            "work_environment",
+            "caffeine_mg",
+            "task_type",
+            "noise_level_db",
+            "hours_slept"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "work_environment": [
+                "Co-working",
+                "Office",
+                "Home",
+                "Cafe"
+            ],
+            "caffeine_mg": [
+                0.0,
+                600.0
+            ],
+            "task_type": [
+                "Managerial",
+                "Analytical",
+                "Routine",
+                "Creative"
+            ],
+            "noise_level_db": [
+                20.0,
+                77.0
+            ],
+            "hours_slept": [
+                3.0,
+                10.0
+            ]
+        },
+        "selected_features": [
+            "hours_slept",
+            "caffeine_mg",
+            "task_type"
+        ],
+        "train_v2_save_file": "./milapgohil_foucsscore_reg/source/train_v2.csv",
+        "val_v2_save_file": "./milapgohil_foucsscore_reg/source/val_v2.csv",
+        "val_no_err_save_file": "./milapgohil_foucsscore_reg/source/val_v1.csv",
+        "train_no_err_save_file": "./milapgohil_foucsscore_reg/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./milapgohil_foucsscore_reg/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "median",
+        "random_state": 77,
+        "model_type": "DecisionTreeRegressor",
+        "output_file": "./milapgohil_foucsscore_reg/prediction.csv",
+        "ground_truth_file": "./milapgohil_foucsscore_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./milapgohil_foucsscore_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "hours_slept": "numerical",
+            "caffeine_mg": "numerical",
+            "noise_level_db": "numerical",
+            "task_type": "categorical",
+            "work_environment": "categorical",
+            "focus_score": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "hours_slept",
+            "caffeine_mg"
+        ],
+        "categorical_features": [
+            "task_type"
+        ]
+    },
+    "data_info": {
+        "id": 7737882,
+        "ref": "milapgohil/foucsscore",
+        "subtitle": "Predict focus score using sleep, caffeine, environment & task type",
+        "creatorName": "Milap Gohil",
+        "creatorUrl": "milapgohil",
+        "totalBytes": 95287,
+        "url": "https://www.kaggle.com/datasets/milapgohil/foucsscore",
+        "lastUpdated": "2025-06-25T10:29:18.000Z",
+        "downloadCount": 18,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Milap Gohil",
+        "ownerRef": "milapgohil",
+        "kernelCount": 1,
+        "title": "FocusSense : Focus Score Prediction \ud83e\udde0",
+        "viewCount": 113,
+        "voteCount": 1,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "earth and nature",
+                "name": "earth and nature",
+                "description": "",
+                "fullPath": "subject > earth and nature",
+                "competitionCount": 19,
+                "datasetCount": 79488,
+                "scriptCount": 394,
+                "totalCount": 79901
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "feature engineering",
+                "name": "feature engineering",
+                "description": "",
+                "fullPath": "technique > feature engineering",
+                "competitionCount": 21,
+                "datasetCount": 880,
+                "scriptCount": 8963,
+                "totalCount": 9864
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7737882,
+        "datasetSlug": "foucsscore",
+        "ownerUser": "milapgohil",
+        "usabilityRating": 1.0,
+        "totalViews": 43,
+        "totalVotes": 1,
+        "totalDownloads": 9,
+        "title": "FocusSense : Focus Score Prediction \ud83e\udde0",
+        "subtitle": "Predict focus score using sleep, caffeine, environment & task type",
+        "description": "I created this dataset to explore how lifestyle and environmental factors influence human productivity, measured as a **\"Focus score\"** on a scale from **0 to 100**. The data was generated using logic-driven simulation techniques to mimic realistic patterns based on sleep, caffeine intake, environmental conditions, and work habits.\n\nThis dataset is ideal for practicing **regression modeling, feature engineering, and end-to-end ML pipelines**. Feature correlations are intentionally embedded to help learners understand how structured inputs can drive model performance.\n\n---\n\n## \ud83d\udcc8 Use Cases : \n\ud83d\udd39Regression modeling\n\n\ud83d\udd39Feature importance analysis\n\n\ud83d\udd39EDA & preprocessing practice\n\n\ud83d\udd39ML pipeline building\n\n\ud83d\udd39Hyperparameter tuning\n\n---\n\n### \ud83d\udca1 Useful? Drop a quick upvote to support!\n\n\n=== About this file ===\n\nAbout this file\nFormat: CSV (Encoding: UTF-8)\nRows: 10,000\nColumns: 6 (including target focus_score)\nMissing Values:  Present\n\n\n=== Columns & descriptions ===\n\nhours_slept: Total hours slept in the last 24 hours (range: 3\u201310)\ncaffeine_mg: Total caffeine intake in mg (range: 0\u2013500)\nnoise_level_db: Ambient noise level (in decibels)\ntask_type: Type of work: Creative, Analytical, Routine, Managerial\nwork_environment: Where work happens: Home, Office, Cafe, Co-working\nfocus_score: Final focus/productivity score (0\u2013100)\n",
+        "keywords": [
+            "earth and nature",
+            "beginner",
+            "exploratory data analysis",
+            "feature engineering",
+            "tabular",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

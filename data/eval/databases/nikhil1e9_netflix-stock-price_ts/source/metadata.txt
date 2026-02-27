@@ -1,0 +1,36 @@
+## Description
+&gt; This dataset contains the full historical data of the stock prices for **MAANG** companies since their Initial Public Offering (IPO). **MAANG** is an acronym that stands for ***Meta, Amazon, Apple, Netflix, and Google***. The dataset contains daily, weekly, and monthly stock prices for each company and is automatically updated daily with the latest data obtained from [Yahoo Finance](https://finance.yahoo.com/).
+
+## Features
+&gt; - **Date**: The specific date on which the stock price was recorded.
+&gt; - **Open**: The opening price of the company's stock on that particular day.
+&gt; - **High**: The highest trading price of the company's stock on that day.
+&gt; - **Low**: The lowest trading price of the company's stock on that day.
+&gt; - **Close**: The closing price of the company's stock on that day.
+&gt; - **Adj Close**: The adjusted closing price of the company's stock on that day.
+&gt; - **Volume**: The total number of shares traded on that day.
+
+## Use cases
+&gt; This dataset can be utilized for a wide range of applications, including but not limited to:
+- **Market Analysis**: Conduct comprehensive market studies, analyze trends, and spot seasonal patterns.
+- **Investment Strategies**: Develop and backtest investment strategies based on historical price movements.
+- **Forecasting**: Build predictive models to forecast future stock prices and make informed decisions.
+- **Trading Algorithms**: Design and test trading algorithms to capitalize on market opportunities.
+
+Please, provide an upvote👍if the dataset was useful for your task. It would be much appreciated😄
+
+=== About this file ===
+
+About this file
+This file contains daily stock prices of Amazon since its IPO
+
+
+=== Columns & descriptions ===
+
+Date: [no description]
+Open: Opening price of the stock on a given date
+High: Highest price of the stock on a given date
+Low: Lowest price of the stock on a given date
+Close: Closing price of the stock on a given date
+Adj Close: Adjusted closing price of the stock on a given date
+Volume: Total number of shares traded on a given date

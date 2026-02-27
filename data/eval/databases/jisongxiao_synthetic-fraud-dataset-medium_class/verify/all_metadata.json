@@ -1,0 +1,211 @@
+{
+    "question": {
+        "target": [
+            "Fraud_Label"
+        ],
+        "target_candidates": [
+            "Fraud_Label"
+        ],
+        "related_features": [
+            "currency",
+            "transaction_type",
+            "city",
+            "credit_limit",
+            "transaction_amount",
+            "merchant_type"
+        ],
+        "not_filtered_related_features": [
+            "currency",
+            "transaction_type",
+            "city",
+            "credit_limit",
+            "transaction_amount",
+            "merchant_type"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "currency": [
+                "USD",
+                "CDN",
+                "RMB",
+                "EURO",
+                "JPN"
+            ],
+            "transaction_type": [
+                "Online",
+                "Digital Wallet",
+                "POS"
+            ],
+            "city": [
+                "Toronto",
+                "Calgary",
+                "Vancouver"
+            ],
+            "credit_limit": [
+                1000,
+                8500
+            ],
+            "transaction_amount": [
+                5.0,
+                5374.0
+            ],
+            "merchant_type": [
+                "Online Retail",
+                "Restaurant",
+                "Grocery",
+                "Electronics",
+                "Clothing",
+                "Gas Station",
+                "Online Stores",
+                "Health",
+                "Utilities",
+                "Entertainment"
+            ]
+        },
+        "selected_features": [
+            "transaction_amount",
+            "merchant_type",
+            "credit_limit",
+            "city"
+        ],
+        "train_v2_save_file": "./jisongxiao_synthetic-fraud-dataset-medium_class/source/train_v2.parquet",
+        "val_v2_save_file": "./jisongxiao_synthetic-fraud-dataset-medium_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./jisongxiao_synthetic-fraud-dataset-medium_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./jisongxiao_synthetic-fraud-dataset-medium_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./jisongxiao_synthetic-fraud-dataset-medium_class/source/train_v1.parquet",
+        "train_test_ratio": 0.7,
+        "save_file_type": "parquet",
+        "imputer_type": "mean",
+        "random_state": 12,
+        "model_type": "MLPClassifier",
+        "output_file": "./jisongxiao_synthetic-fraud-dataset-medium_class/prediction.csv",
+        "ground_truth_file": "./jisongxiao_synthetic-fraud-dataset-medium_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./jisongxiao_synthetic-fraud-dataset-medium_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "client_id": "categorical",
+            "transaction_id": "categorical",
+            "timestamp": "categorical",
+            "transaction_amount": "numerical",
+            "merchant_type": "categorical",
+            "transaction_type": "categorical",
+            "currency": "categorical",
+            "city": "categorical",
+            "email_address": "categorical",
+            "Fraud_Label": "categorical",
+            "credit_limit": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "transaction_amount",
+            "credit_limit"
+        ],
+        "categorical_features": [
+            "merchant_type",
+            "city"
+        ]
+    },
+    "data_info": {
+        "id": 7155192,
+        "ref": "jisongxiao/synthetic-fraud-dataset-medium",
+        "subtitle": "Generated from coding common fraud scenarios. Suitable for most ML models.",
+        "creatorName": "Jisong Xiao",
+        "creatorUrl": "jisongxiao",
+        "totalBytes": 18053580,
+        "url": "https://www.kaggle.com/datasets/jisongxiao/synthetic-fraud-dataset-medium",
+        "lastUpdated": "2025-04-15T18:01:56.000Z",
+        "downloadCount": 74,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Jisong Xiao",
+        "ownerRef": "jisongxiao",
+        "kernelCount": 1,
+        "title": "Synthetic Fraud Dataset_Medium",
+        "viewCount": 270,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "finance",
+                "name": "finance",
+                "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+                "fullPath": "subject > people and society > business > finance",
+                "competitionCount": 101,
+                "datasetCount": 12682,
+                "scriptCount": 4576,
+                "totalCount": 17359
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "deep learning",
+                "name": "deep learning",
+                "description": "",
+                "fullPath": "technique > deep learning",
+                "competitionCount": 70,
+                "datasetCount": 4482,
+                "scriptCount": 17708,
+                "totalCount": 22260
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "synthetic",
+                "name": "synthetic",
+                "description": "",
+                "fullPath": "data type > synthetic",
+                "competitionCount": 8,
+                "datasetCount": 510,
+                "scriptCount": 70,
+                "totalCount": 588
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7155192,
+        "datasetSlug": "synthetic-fraud-dataset-medium",
+        "ownerUser": "jisongxiao",
+        "usabilityRating": 1.0,
+        "totalViews": 233,
+        "totalDownloads": 69,
+        "title": "Synthetic Fraud Dataset_Medium",
+        "subtitle": "Generated from coding common fraud scenarios. Suitable for most ML models.",
+        "description": "This is a dataset that is generated by stimulating common fraud patterns, and is intended to simulate some of the nuisances when dealing with fraud detection.\n\nCommon fraud detection patterns used in the dataset includes:\n- unusual transactions\n- identity theft\n- high frequency transactions\n- \"testing water\" (unusual small transactions followed by large transaction).\n\nThis is further complicated by stimulating both common and uncommon non-fraud purchase patterns in clients.\nBoth fraud and legitimate transactions can have dependencies with each other.\n\n=== About this file ===\n\nAbout this file\nData simulates 1 year of transactions for 3,000 clients.\n\n\n=== Columns & descriptions ===\n\nclient_id: unique ID of client\ntransaction_id: Unique ID of transaction\ntimestamp: Time stamp of transaction in system time\ntransaction_amount: amount in transaction\nmerchant_type: type of merchant transaction is for\ntransaction_type: What system is used to execute transaction\ncurrency: currency of the transaction\ncity: Canadian City where transaction occurred\nemail_address: email address of the client on file at the time of transaction\nFraud_Label: Binary Label for whether the transaction is fraudulent or not\ncredit_limit: [no description]\n",
+        "keywords": [
+            "finance",
+            "classification",
+            "deep learning",
+            "tabular",
+            "synthetic"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

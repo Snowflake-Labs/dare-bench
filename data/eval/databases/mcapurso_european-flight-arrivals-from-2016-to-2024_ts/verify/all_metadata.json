@@ -1,0 +1,131 @@
+{
+    "question": {
+        "target": [
+            "FLT_ARR_1"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "FLT_DATE",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [],
+        "not_filtered_related_features": [],
+        "selected_features": [],
+        "expected_ranges": {},
+        "column_type_inference": {
+            "Unnamed: 0": "numeric",
+            "FLT_ARR_1": "numeric",
+            "FLT_DATE": "object"
+        },
+        "train_save_file": "./mcapurso_european-flight-arrivals-from-2016-to-2024_ts/source/train.csv",
+        "val_v1_save_file": "./mcapurso_european-flight-arrivals-from-2016-to-2024_ts/source/val_v1.csv",
+        "val_v2_save_file": "./mcapurso_european-flight-arrivals-from-2016-to-2024_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./mcapurso_european-flight-arrivals-from-2016-to-2024_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./mcapurso_european-flight-arrivals-from-2016-to-2024_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./mcapurso_european-flight-arrivals-from-2016-to-2024_ts/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 18,
+        "model_type": "Prophet",
+        "output_file": "./mcapurso_european-flight-arrivals-from-2016-to-2024_ts/prediction.json",
+        "ground_truth_v1_file": "./mcapurso_european-flight-arrivals-from-2016-to-2024_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./mcapurso_european-flight-arrivals-from-2016-to-2024_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./mcapurso_european-flight-arrivals-from-2016-to-2024_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2023-03-31 00:00:00",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 6851146,
+        "ref": "mcapurso/european-flight-arrivals-from-2016-to-2024",
+        "subtitle": "Are you able to predict arrivals for 2025 ?",
+        "creatorName": "mcapurso",
+        "creatorUrl": "mcapurso",
+        "totalBytes": 44169,
+        "url": "https://www.kaggle.com/datasets/mcapurso/european-flight-arrivals-from-2016-to-2024",
+        "lastUpdated": "2025-03-12T10:14:49.663Z",
+        "downloadCount": 44,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "mcapurso",
+        "ownerRef": "mcapurso",
+        "kernelCount": 3,
+        "title": "European flight arrivals from 2016 to 2024",
+        "viewCount": 260,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "europe",
+                "name": "europe",
+                "description": "You can find some European linguistic type datasets here as well as other European-like datasets and kernels.",
+                "fullPath": "geography and places > europe",
+                "competitionCount": 3,
+                "datasetCount": 1529,
+                "scriptCount": 298,
+                "totalCount": 1830
+            },
+            {
+                "ref": "transportation",
+                "name": "transportation",
+                "description": "Most of the various modes of transport are all covered in this tag. Not all though because so far there are no kernels or datasets about teleportation.",
+                "fullPath": "subject > science and technology > transportation",
+                "competitionCount": 7,
+                "datasetCount": 12016,
+                "scriptCount": 604,
+                "totalCount": 12627
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6851146,
+        "datasetSlug": "european-flight-arrivals-from-2016-to-2024",
+        "ownerUser": "mcapurso",
+        "usabilityRating": 1.0,
+        "totalViews": 244,
+        "totalDownloads": 36,
+        "title": "European flight arrivals from 2016 to 2024",
+        "subtitle": "Are you able to predict arrivals for 2025 ?",
+        "description": "The dataset is the result of the notebook Beyond the Surface: Forecasting 2025 AirTraffic , from data coming from the dataset made available by Eurocontrol on its Aviation Intelligence Portal at [https://ansperformance.eu] . It summarise **total flight arrivals** in European airports , day by day, for the period 2016-204 .\n\n=== About this file ===\n\nAbout this file\nRemote source:\nhttps://www.kaggle.com/code/mcapurso/beyond-the-surface-forecasting-2025-airtraffic\nArrivals in Brindisi airport, Italy , from 2016 to 2024, day by day\n\n\n=== Columns & descriptions ===\n\n: [no description]\nFLT_ARR_1: Number of flights arriving\nFLT_DATE: Fight date\n",
+        "keywords": [
+            "europe",
+            "transportation",
+            "time series analysis",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

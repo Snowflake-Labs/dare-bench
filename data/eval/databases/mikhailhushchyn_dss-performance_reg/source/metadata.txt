@@ -1,0 +1,47 @@
+This is the official dataset for paper "Performance Modeling of Data Storage Systems using Generative Models"  in IEEE Access [[journal]](https://doi.org/10.1109/ACCESS.2025.3552409) [[arxiv]](https://arxiv.org/abs/2307.02073).
+
+Keywords: regression, uncertainty estimation, generative models on tabular data, surrogate modeling 
+
+
+Data storage systems (DSS) play a critical role in today's world. Performance modeling is important during the development process of such systems. This modeling enables engineers to evaluate how the system behaves under various conditions and aids in identifying its optimal design. Another application lies in diagnostics and predictive maintenance, where model predictions are compared against real-world measurements to identify failures and anomalies.
+
+
+A typical DSS comprises three main components: controllers, high-speed cache memory, and storage pools. All data resides within these pools, composed of multiple hard disk drives (HDDs) or solid-state drives (SSDs) organized using RAID configurations. The cache accelerates read and write operations for frequently accessed data blocks.
+
+
+Performance is measured by the number of input/output operations per second (IOPS) and the average latency of those operations. Data load characteristics include factors like load type, I/O type, read fraction, block size, job count, and queue depth per job. Our dataset considers two load types—random and sequential. Each data load involves a combination of read and write operations. Each operation handles a single data block of predefined size, while data loads are generated through multiple jobs, each with a specific queue depth. Storage pools employing HDDs or SSDs come with configurable parameters, including the total number of disks in the pool and the RAID scheme, defined by the quantity of data and parity blocks.
+
+
+## Columns description
+
+* **iops**: (target) the number of input and output (IO) operations per second;
+* **lat**: (target) the average latencies of input and output operations;
+* **block_size**: the size of one data block processed per one IO operation;
+* **n_jobs**: the number of processes in parallel used to process a IO dataload;
+* **iodepth**: the IO queue size per job;
+* **read_fraction**: the fraction of read operations in the dataload;
+* **load_type**: sequential or random dataload;
+* **io_type**: read or write operations;
+* **raid**: RAID scheme used in HDD or SSD pools. It is defined by the number of data (K) and parity (M) blocks in K+M format;
+* **n_disks**: the number of HDD or SSD disks used in the pools;
+* **device_type**: name of a device. Can be ignored;
+* **offset**: constant value. Can be ignored;
+* **id**: IDs of dataloads in the samples.
+
+## Citation
+If you use the dataset in a scientific publication, we would appreciate citations to the paper:
+```
+A. R. Al-Maeeni, A. Temirkhanov, A. Ryzhikov and M. Hushchyn, "Performance Modeling of Data Storage Systems Using Generative Models," in IEEE Access, vol. 13, pp. 49643-49658, 2025, doi: 10.1109/ACCESS.2025.3552409
+```
+or using BibTeX:
+```
+@ARTICLE{10930879,
+  author={Al-Maeeni, Abdalaziz R. and Temirkhanov, Aziz and Ryzhikov, Artem and Hushchyn, Mikhail},
+  journal={IEEE Access}, 
+  title={Performance Modeling of Data Storage Systems Using Generative Models}, 
+  year={2025},
+  volume={13},
+  number={},
+  pages={49643-49658},
+  doi={10.1109/ACCESS.2025.3552409}}
+```

@@ -1,0 +1,207 @@
+{
+    "question": {
+        "target": [
+            "temp_max_celsius"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "time",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "location_name",
+            "timezone",
+            "latitude",
+            "longitude",
+            "temp_min_celsius"
+        ],
+        "not_filtered_related_features": [
+            "location_name",
+            "timezone",
+            "latitude",
+            "longitude",
+            "temp_min_celsius"
+        ],
+        "selected_features": [
+            "timezone",
+            "location_name",
+            "temp_min_celsius"
+        ],
+        "expected_ranges": {
+            "location_name": [
+                "South Launceston"
+            ],
+            "timezone": [
+                "Australia/Hobart"
+            ],
+            "latitude": [
+                -41.465,
+                -41.465
+            ],
+            "longitude": [
+                147.148,
+                147.148
+            ],
+            "temp_min_celsius": [
+                -3.1,
+                19.8
+            ]
+        },
+        "column_type_inference": {
+            "location_name": "object",
+            "time": "object",
+            "timezone": "object",
+            "latitude": "numeric",
+            "longitude": "numeric",
+            "temp_min_celsius": "numeric",
+            "temp_max_celsius": "numeric",
+            "temp_min_fahrenheit": "numeric",
+            "temp_max_fahrenheit": "numeric"
+        },
+        "train_save_file": "./farukece_tasmania-temp-aq-data_ts/source/train.csv",
+        "val_v1_save_file": "./farukece_tasmania-temp-aq-data_ts/source/val_v1.csv",
+        "val_v2_save_file": "./farukece_tasmania-temp-aq-data_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./farukece_tasmania-temp-aq-data_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./farukece_tasmania-temp-aq-data_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./farukece_tasmania-temp-aq-data_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 86,
+        "model_type": "Prophet",
+        "output_file": "./farukece_tasmania-temp-aq-data_ts/prediction.json",
+        "ground_truth_v1_file": "./farukece_tasmania-temp-aq-data_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./farukece_tasmania-temp-aq-data_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./farukece_tasmania-temp-aq-data_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2024-10-10 00:00:00",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 7992403,
+        "ref": "farukece/tasmania-temp-aq-data",
+        "subtitle": "Historical temperature and air quality indicators across Tasmanian (2017-2025)",
+        "creatorName": "O. Faruk Beygo",
+        "creatorUrl": "farukece",
+        "totalBytes": 419085,
+        "url": "https://www.kaggle.com/datasets/farukece/tasmania-temp-aq-data",
+        "lastUpdated": "2025-08-01T22:46:18.383Z",
+        "downloadCount": 50,
+        "licenseName": "CC BY-SA 4.0",
+        "description": "",
+        "ownerName": "O. Faruk Beygo",
+        "ownerRef": "farukece",
+        "kernelCount": 2,
+        "title": "Tasmania Temperature & Air Quality Dataset",
+        "viewCount": 334,
+        "voteCount": 10,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "australia",
+                "name": "australia",
+                "description": "This tag contains information on Australia: AKA the smallest continent, the land down under, Oz, Terra Australis or Straya.",
+                "fullPath": "geography and places > oceania > australia",
+                "competitionCount": 4,
+                "datasetCount": 235,
+                "scriptCount": 90,
+                "totalCount": 329
+            },
+            {
+                "ref": "earth science",
+                "name": "earth science",
+                "description": "Geology, geography and oceanography. If it's on the Earth and not a plant or animal, this the tag for it.",
+                "fullPath": "subject > earth and nature > earth science",
+                "competitionCount": 148,
+                "datasetCount": 3492,
+                "scriptCount": 830,
+                "totalCount": 4470
+            },
+            {
+                "ref": "atmospheric science",
+                "name": "atmospheric science",
+                "description": "",
+                "fullPath": "subject > earth and nature > earth science > atmospheric science",
+                "competitionCount": 6,
+                "datasetCount": 1964,
+                "scriptCount": 381,
+                "totalCount": 2351
+            },
+            {
+                "ref": "social science",
+                "name": "social science",
+                "description": "Social science is the collection of disciplines studying how humans interact with each other.",
+                "fullPath": "subject > people and society > social science",
+                "competitionCount": 3,
+                "datasetCount": 9541,
+                "scriptCount": 803,
+                "totalCount": 10347
+            },
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14200,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34359
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7992403,
+        "datasetSlug": "tasmania-temp-aq-data",
+        "ownerUser": "farukece",
+        "usabilityRating": 1.0,
+        "totalViews": 102,
+        "totalVotes": 2,
+        "totalDownloads": 6,
+        "title": "Tasmania Temperature & Air Quality Dataset",
+        "subtitle": "Historical temperature and air quality indicators across Tasmanian (2017-2025)",
+        "description": "# Tasmania Temperature & Air Quality Dataset (2017\u20132025)\n\nTasmania is often recognized as having some of the cleanest air in the world. However, with increasing impacts of climate change, this dataset investigates how air quality in the region is evolving. Given Tasmania\u2019s proximity to the South Pole \u2014 a region highly sensitive to environmental shifts \u2014 it serves as a valuable location for atmospheric and climate-related analysis.\n\nThis dataset includes air quality measurements collected via the OpenAQ API across Tasmania\u2019s most populated regions between 2017 and 2025. It focuses on two key pollutants: **PM10** and **PM2.5**, both widely recognized indicators of air quality.\n\nIn addition, the dataset provides **daily minimum and maximum temperature readings** (in both Celsius and Fahrenheit) from the same locations. Numerous studies have shown a correlation between temperature and particulate matter concentration (measured in \u00b5g/m\u00b3), which this dataset can help explore.\n\n---\n\n## Scientific Definitions\n\n### PM10 (Particulate Matter \u2264 10 micrometer)\nUltrafine particles with diameters of 10 micrometer or smaller. Due to their extremely small size, PM10 particles can travel even further into the respiratory system than PM2.5, and are considered potentially more harmful, though they are less frequently monitored.\n\n### PM2.5 (Particulate Matter \u2264 2.5 micrometers)\nFine inhalable particles with diameters of 2.5 micrometers or smaller. These particles can penetrate deep into the lungs and even enter the bloodstream, posing serious health risks, particularly for individuals with respiratory or cardiovascular conditions.\n\nBoth PM10 and PM2.5 are measured in micrograms per cubic meter (\u00b5g/m\u00b3) and are key indicators of air pollution and public health.\n\n---\n\n## Monitored Locations & Estimated Populations (2017\u20132025)\n\n| Region             | Estimated Population (2017) | Estimated Population (2025) |\n|--------------------|-----------------------------|-----------------------------|\n| Hobart             | 225,000                     | 245,000                     |\n| Devonport          | 26,000                      | 28,000                      |\n| Mornington         | 4,000                       | 4,200                       |\n| South Launceston   | 7,000                       | 7,500                       |\n| Ti Tree Bend       | 2,000                       | 2,200                       |\n| West Ulverstone    | 4,500                       | 4,700                       |\n| Wynyard            | 5,000                       | 5,200                       |\n\n&gt; **Note:** Population estimates are approximate and based on regional growth trends and census projections.\n\n---\n\n## Dataset Structure\n\ntas_data/  \n\u251c\u2500\u2500 dataset-metadata.json  \n\u251c\u2500\u2500 tas_air_quality/  \n\u2502   \u251c\u2500\u2500 devonport.csv  \n\u2502   \u251c\u2500\u2500 hobart.csv  \n\u2502   \u251c\u2500\u2500 mornington.csv  \n\u2502   \u251c\u2500\u2500 south_launceston.csv  \n\u2502   \u251c\u2500\u2500 ti_tree_bend.csv  \n\u2502   \u251c\u2500\u2500 west_ulverstone.csv  \n\u2502   \u2514\u2500\u2500 wynyard.csv  \n\u2514\u2500\u2500 tas_temperature/  \n    \u251c\u2500\u2500 devonport.csv  \n    \u251c\u2500\u2500 hobart.csv  \n    \u251c\u2500\u2500 mornington.csv  \n    \u251c\u2500\u2500 south_launceston.csv  \n    \u251c\u2500\u2500 ti_tree_bend.csv  \n    \u251c\u2500\u2500 west_ulverstone.csv  \n    \u2514\u2500\u2500 wynyard.csv  \n\n### File Details\n**tas_air_quality/*.csv** contains:\n  - `date`\n  - `pm10` (\u00b5g/m\u00b3)\n  - `pm25` (\u00b5g/m\u00b3)\n\n\n**tas_temperature/*.csv** contains:\n  - `date`\n  - `temperature_c`\n  - `temperature_f`\n\n## Contributions & Feedback\n\nThis dataset is intended for research and analysis. If you encounter issues or have suggestions, feel free to reach out.\n",
+        "keywords": [
+            "australia",
+            "earth science",
+            "atmospheric science",
+            "social science",
+            "intermediate",
+            "time series analysis",
+            "tabular"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-SA-4.0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+# Housing Prices in CDMX
+
+This dataset provides a snapshot of housing prices in Mexico City (CDMX), captured during a period when the Mexican Peso was approximately 18.80 against the US Dollar. It offers a clear view into the residential real estate market within CDMX, a dynamic and influential urban center. The data includes key variables such as property type, specific locality within the city, pricing details, and surface area. This combination allows for a focused analysis of how these core characteristics influence property values in a significant Latin American metropolis under specific economic conditions.
+
+This cleaned and refined dataset is derived from the original work of [Omar Faruk](https://www.kaggle.com/omarnot2far). While the foundational information comes from his valuable contribution, I've undertaken a significant process of **data cleaning** and **feature reduction**. My aim was to enhance the dataset's **readability** and **usability**, making it more accessible for researchers, data scientists, and anyone interested in real estate trends in CDMX. By focusing on the most relevant features and ensuring data integrity, this version is streamlined for more direct and efficient analysis.
+
+Whether you're exploring urban economics, real estate analytics, or simply curious about housing market dynamics in Mexico City, this dataset offers a practical starting point. It's designed to facilitate straightforward exploratory data analysis and basic predictive modeling, providing foundational insights into pricing structures amidst specific currency exchange rates. Your feedback and findings are highly encouraged!
+
+
+## Features
+| **Feature**                  | **Description**                                                        |
+| ---------------------------- | ---------------------------------------------------------------------- |
+| `property_type`              | Type of property (e.g., 'apartment', 'house', 'PH', 'store').          |
+| `places`                     | Name of the location (borough or neighborhood) within Mexico City.     |
+| `lat-lon`                    | Latitude and longitude pair representing the location of the property. |
+| `price`                      | Original price as listed by the seller.                                |
+| `price_aprox_local_currency` | Approximate price in Mexican Pesos (MXN).                              |
+| `price_aprox_usd`            | Approximate price in US Dollars.                                       |
+| `surface_total_in_m2`        | Total surface area of the property in square meters.                   |
+| `surface_covered_in_m2`      | Covered (built) area of the property in square meters.                 |
+| `price_usd_per_m2`           | Price per square meter in USD.                                         |
+| `price_per_m2`               | Price per square meter in MXN.                                         |
+
+
+Notes:
+1. For listings missing geographic coordinates, we imputed latitude and longitude values using official territorial references from INEGI (Mexico's National Institute of Statistics and Geography).
+2. Second version have two additional features. Since there was several values in 'lat-lon' that were wrongly separated, I fixed that. Also, while maintaining the original feature, I separated the latitude and longitud values for mapping flexibility (the 2 extras features).
+3. If you found this project valuable or insightful, I invite you to support it by giving it an upvote. Your encouragement helps amplify meaningful work and motivates continued research and sharing of open data resources.
+
+=== About this file ===
+
+About this file
+This dataset contains detailed information on real estate listings in Mexico City (CDMX), including property type, location, surface areas, prices in both local currency (MXN) and USD. All listings are geolocated and can be categorized by boroughs or neighborhoods. The dataset has been cleaned to remove missing, zero, or infinite values, making it suitable for regression modeling, price prediction, and geospatial analysis.
+
+
+=== Columns & descriptions ===
+
+property_type: Type of property (e.g., 'apartment', 'house', 'PH', 'store').
+places: Name of the location
+lat-lon: Latitude and longitude
+price: Original price as listed by the seller.
+currency: MXN or USD
+price_aprox_local_currency: Approximate price in Mexican Pesos (MXN).
+price_aprox_usd: Approximate price in US Dollars.
+surface_total_in_m2: Total surface area of the property in square meters.
+surface_covered_in_m2: Covered (built) area of the property in square meters.
+price_usd_per_m2: Price per square meter in USD.
+price_per_m2: Price per square meter in MXN.

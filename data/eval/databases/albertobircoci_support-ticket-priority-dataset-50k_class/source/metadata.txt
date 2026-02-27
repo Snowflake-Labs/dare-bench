@@ -1,0 +1,106 @@
+**Overview**
+
+Synthetic tabular dataset of 50,000 support tickets from 25 companies used to study priority classification (low, medium, high). Companies differ by size and industry; large companies operate across multiple regions. Features mix numeric and categorical signals commonly available at ticket intake. Data is fully artificial—no real users, systems, or proprietary logs.
+
+Intended use: benchmarking supervised learning for tabular classification (e.g., Gradient Boosting, XGBoost, LightGBM, AdaBoost, SVM, Naive Bayes), feature engineering, handling mixed types, class imbalance, and mild label noise.
+
+**File & schema**
+
+**Identifiers & time**
+
+-ticket_id (int64): unique ticket identifier (randomized order)
+
+-day_of_week (Mon–Sun), day_of_week_num (1–7; Mon=1)
+
+**Company profile (replicated per row)**
+
+-company_id (int), company_size (Small/Medium/Large + _cat),
+
+-industry (7 categories + _cat),
+
+-customer_tier (Basic/Plus/Enterprise + _cat),
+
+-org_users (int): active user seats (Large up to ~10,000)
+
+**Context**
+
+-region (AMER/EMEA/APAC + _cat)
+
+-past_30d_tickets (int), past_90d_incidents (int)
+
+**Product & channel**
+
+-product_area (auth, billing, mobile, data_pipeline, analytics, notifications + _cat)
+
+-booking_channel (web, email, chat, phone + _cat)
+
+-reported_by_role (support, devops, product_manager, finance, c_level + _cat)
+
+**Impact & flags**
+
+-customers_affected (int, heavy-tailed)
+
+-error_rate_pct (float, 0–100; sometimes 0.0 as “unmeasured”)
+
+-downtime_min (int, 0 when only degraded)
+
+-payment_impact_flag, security_incident_flag, data_loss_flag, has_runbook (0/1)
+
+**Text proxy**
+
+-customer_sentiment (negative/neutral/positive + _cat with 0 = missing)
+
+-description_length (int, 20–2000)
+
+**Target**
+
+-priority (low/medium/high + priority_cat = 1/2/3)
+
+**Notes & limitations**
+
+- Fully synthetic; suitable for education, benchmarking, and tutorials.
+- No temporal ordering or post-resolution fields are included, avoiding label leakage.
+- The noise level is tuned for ~97–98% ceiling performance with well-optimized models, not perfect separability.
+
+
+=== About this file ===
+
+About this file
+Single CSV with 50,000 synthetic support tickets and priority labels (low/med/high).
+
+
+=== Columns & descriptions ===
+
+ticket_id: ticket id
+day_of_week: day of week
+day_of_week_num: day of week cat
+company_id: company id
+company_size: company size
+company_size_cat: company size cat
+industry: industry
+industry_cat: industry cat
+customer_tier: customer tier
+customer_tier_cat: customer tier cat
+org_users: org users
+region: region
+region_cat: region cat
+past_30d_tickets: past 30d
+past_90d_incidents: past 90d
+product_area: prod area
+product_area_cat: prod area cat
+booking_channel: booking channel
+booking_channel_cat: booking cat
+reported_by_role: reported by role
+reported_by_role_cat: reported cat
+customers_affected: customer affected
+error_rate_pct: error rate pct
+downtime_min: downtine min
+payment_impact_flag: payment impact
+security_incident_flag: security incident
+data_loss_flag: data loss flag
+has_runbook: has runbook
+customer_sentiment: customer sentiment
+customer_sentiment_cat: customer sentiment cat
+description_length: description lenght
+priority: priority
+priority_cat: priority cat

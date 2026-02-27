@@ -1,0 +1,208 @@
+{
+    "question": {
+        "target": [
+            "Highest Price"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Month",
+        "time_format": "%Y/%m",
+        "is_resampled": false,
+        "related_features": [
+            "Total Current Assets",
+            "Total Non-Current Assets",
+            "Total Current Liabilities",
+            "Total Long-term Liabilities",
+            "Total Equity",
+            "P/E",
+            "SMA",
+            "RSI"
+        ],
+        "not_filtered_related_features": [
+            "Total Current Assets",
+            "Total Non-Current Assets",
+            "Total Current Liabilities",
+            "Total Long-term Liabilities",
+            "Total Equity",
+            "P/E",
+            "SMA",
+            "RSI"
+        ],
+        "selected_features": [
+            "Total Equity",
+            "SMA",
+            "P/E",
+            "Total Non-Current Assets",
+            "Total Current Assets"
+        ],
+        "expected_ranges": {
+            "Total Current Assets": [
+                9429000000.0,
+                221000000000.0
+            ],
+            "Total Non-Current Assets": [
+                42987000000.0,
+                633000000000.0
+            ],
+            "Total Current Liabilities": [
+                12201000000.0,
+                249000000000.0
+            ],
+            "Total Long-term Liabilities": [
+                27363000000.0,
+                336000000000.0
+            ],
+            "Total Equity": [
+                12852000000.0,
+                269000000000.0
+            ],
+            "P/E": [
+                2.76,
+                177.93
+            ],
+            "SMA": [
+                3.13,
+                184.14
+            ],
+            "RSI": [
+                9.46,
+                79.98
+            ]
+        },
+        "column_type_inference": {
+            "Month": "object",
+            "Total Current Assets": "numeric",
+            "Total Non-Current Assets": "numeric",
+            "Total Current Liabilities": "numeric",
+            "Total Long-term Liabilities": "numeric",
+            "Total Equity": "numeric",
+            "P/E": "numeric",
+            "SMA": "numeric",
+            "RSI": "numeric",
+            "Highest Price": "numeric"
+        },
+        "train_save_file": "./ozanguneyli_turkish-airlines-thyao-dataset-for-ml-models_ts/source/train.csv",
+        "val_v1_save_file": "./ozanguneyli_turkish-airlines-thyao-dataset-for-ml-models_ts/source/val_v1.csv",
+        "val_v2_save_file": "./ozanguneyli_turkish-airlines-thyao-dataset-for-ml-models_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./ozanguneyli_turkish-airlines-thyao-dataset-for-ml-models_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./ozanguneyli_turkish-airlines-thyao-dataset-for-ml-models_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./ozanguneyli_turkish-airlines-thyao-dataset-for-ml-models_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 11,
+        "model_type": "Prophet",
+        "output_file": "./ozanguneyli_turkish-airlines-thyao-dataset-for-ml-models_ts/prediction.json",
+        "ground_truth_v1_file": "./ozanguneyli_turkish-airlines-thyao-dataset-for-ml-models_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./ozanguneyli_turkish-airlines-thyao-dataset-for-ml-models_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./ozanguneyli_turkish-airlines-thyao-dataset-for-ml-models_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2022-09-01 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7192181,
+        "ref": "ozanguneyli/turkish-airlines-thyao-dataset-for-ml-models",
+        "subtitle": "A curated monthly financial and technical dataset for Turkish Airlines (THYAO), ",
+        "creatorName": "Ozan G\u00fcneyli",
+        "creatorUrl": "ozanguneyli",
+        "totalBytes": 2204,
+        "url": "https://www.kaggle.com/datasets/ozanguneyli/turkish-airlines-thyao-dataset-for-ml-models",
+        "lastUpdated": "2025-04-19T15:40:12.000Z",
+        "downloadCount": 23,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Ozan G\u00fcneyli",
+        "ownerRef": "ozanguneyli",
+        "kernelCount": 2,
+        "title": "THYAO Financial & Technical Regression Dataset",
+        "viewCount": 96,
+        "voteCount": 1,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "artificial intelligence",
+                "name": "artificial intelligence",
+                "description": "This tag has datasets and kernels where people come together and use cutting-edge research to train models on pictures of cats.",
+                "fullPath": "subject > science and technology > computer science > artificial intelligence",
+                "competitionCount": 57,
+                "datasetCount": 2969,
+                "scriptCount": 2949,
+                "totalCount": 5975
+            },
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "data analytics",
+                "name": "data analytics",
+                "description": "",
+                "fullPath": "technique > data analytics",
+                "competitionCount": 32,
+                "datasetCount": 9201,
+                "scriptCount": 15324,
+                "totalCount": 24557
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7192181,
+        "datasetSlug": "turkish-airlines-thyao-dataset-for-ml-models",
+        "ownerUser": "ozanguneyli",
+        "usabilityRating": 1.0,
+        "totalViews": 84,
+        "totalVotes": 1,
+        "totalDownloads": 18,
+        "title": "THYAO Financial & Technical Regression Dataset",
+        "subtitle": "A curated monthly financial and technical dataset for Turkish Airlines (THYAO), ",
+        "description": "This dataset was collected, curated, and organized by myself from various reliable financial sources. It contains monthly financial and technical indicators for THYAO (Turkish Airlines Inc.), including features such as total assets, liabilities, equity, P/E ratio, SMA, RSI, and the target variable \"Highest Price\". All preprocessing and feature engineering steps were performed to ensure the dataset's suitability for regression modeling and time series analysis.\n\n=== About this file ===\n\nAbout this file\nThis dataset contains monthly financial and technical indicators for Turkish Airlines (THYAO). The data includes key balance sheet items, P/E ratio, technical indicators (SMA, RSI), and the highest monthly stock price as the target variable. All financial data was collected and compiled from official and reliable sources. SMA and RSI values were calculated using the collected data and added to the dataset. This file is suitable for regression and time series modeling tasks in financial analysis.\n\n\n=== Columns & descriptions ===\n\nMonth: The reporting period in year/month format (YYYY/MM).\nTotal Current Assets: Total current assets of Turkish Airlines for the given month (in TRY).\nTotal Non-Current Assets: Total non-current (long-term) assets for the given month (in TRY).\nTotal Current Liabilities: Total current liabilities for the given month (in TRY).\nTotal Long-term Liabilities: Total long-term liabilities for the given month (in TRY).\nTotal Equity: Total equity (shareholders\u2019 equity) for the given month (in TRY).\nP/E: Price-to-Earnings ratio for Turkish Airlines in the given month.\nSMA: Simple Moving Average, a technical indicator calculated from the closing prices.\nRSI: Relative Strength Index, a technical indicator measuring the speed and change of price movements.\nHighest Price: The highest stock price of Turkish Airlines in the given month (target variable).\n",
+        "keywords": [
+            "artificial intelligence",
+            "intermediate",
+            "time series analysis",
+            "data analytics",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

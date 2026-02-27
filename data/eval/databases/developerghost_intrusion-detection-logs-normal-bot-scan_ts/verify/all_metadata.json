@@ -1,0 +1,170 @@
+{
+    "question": {
+        "target": [
+            "Intrusion"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Timestamp",
+        "time_format": "%Y-%m-%d %H:%M:%S",
+        "is_resampled": true,
+        "related_features": [
+            "Port",
+            "Payload_Size"
+        ],
+        "not_filtered_related_features": [
+            "Port",
+            "Payload_Size"
+        ],
+        "selected_features": [
+            "Port",
+            "Payload_Size"
+        ],
+        "expected_ranges": {
+            "Port": [
+                21,
+                31337
+            ],
+            "Payload_Size": [
+                0,
+                4991
+            ]
+        },
+        "column_type_inference": {
+            "Timestamp": "object",
+            "Source_IP": "object",
+            "Destination_IP": "object",
+            "Port": "numeric",
+            "Request_Type": "object",
+            "Protocol": "object",
+            "Payload_Size": "numeric",
+            "User_Agent": "object",
+            "Status": "object",
+            "Intrusion": "numeric",
+            "Scan_Type": "object"
+        },
+        "train_save_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_ts/source/train.csv",
+        "val_v1_save_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_ts/source/val_v1.csv",
+        "val_v2_save_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 75,
+        "model_type": "Prophet",
+        "output_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_ts/prediction.json",
+        "ground_truth_v1_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./developerghost_intrusion-detection-logs-normal-bot-scan_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2025-06-06 09:39:46",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 7784502,
+        "ref": "developerghost/intrusion-detection-logs-normal-bot-scan",
+        "subtitle": "Includes both time-based and non-time-series synthetic network logs ",
+        "creatorName": "DeveloperGhost",
+        "creatorUrl": "developerghost",
+        "totalBytes": 357290,
+        "url": "https://www.kaggle.com/datasets/developerghost/intrusion-detection-logs-normal-bot-scan",
+        "lastUpdated": "2025-07-02T07:04:22.937Z",
+        "downloadCount": 672,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "DeveloperGhost",
+        "ownerRef": "developerghost",
+        "kernelCount": 6,
+        "title": "Intrusion Detection Logs (Normal, Bot, Scan)",
+        "viewCount": 3270,
+        "voteCount": 20,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "internet",
+                "name": "internet",
+                "description": "An interconnected network of tubes that connects the entire world together. This tag covers a broad range of tags; anything from cryptocurrency to website analytics.",
+                "fullPath": "subject > science and technology > internet",
+                "competitionCount": 19,
+                "datasetCount": 29695,
+                "scriptCount": 2621,
+                "totalCount": 32335
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "multiclass classification",
+                "name": "multiclass classification",
+                "description": "",
+                "fullPath": "task > multiclass classification",
+                "competitionCount": 831,
+                "datasetCount": 1470,
+                "scriptCount": 3846,
+                "totalCount": 6147
+            },
+            {
+                "ref": "cyber security",
+                "name": "cyber security",
+                "description": "",
+                "fullPath": "subject > cyber security",
+                "competitionCount": 9,
+                "datasetCount": 391,
+                "scriptCount": 103,
+                "totalCount": 503
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7784502,
+        "datasetSlug": "intrusion-detection-logs-normal-bot-scan",
+        "ownerUser": "developerghost",
+        "usabilityRating": 1.0,
+        "totalViews": 249,
+        "totalVotes": 5,
+        "totalDownloads": 42,
+        "title": "Intrusion Detection Logs (Normal, Bot, Scan)",
+        "subtitle": "Includes both time-based and non-time-series synthetic network logs ",
+        "description": "This dataset contains realistic synthetic network logs simulating both normal and malicious activity over a one-week period.\n\nIt includes two versions: \n1.  Time-series version (with timestamps): Ideal for sequential modeling, intrusion tracking, and temporal anomaly detection.\n2.  Non-time-series version (without timestamps): Suitable for standard classification or anomaly detection pipelines.\n\nInspiration:\nReal-world network intrusion logs are often private or restricted. This synthetic dataset provides a realistic yet accessible alternative for researchers, students, and ML engineers to build and benchmark intrusion detection systems.\n\n\n=== About this file ===\n\nAbout this file\nThis version removes the Timestamp column, making it ideal for:\nTraditional classification tasks\nAnomaly detection models that do not rely on time-based features\nLightweight or non-sequential ML pipelines\nLabels:\nIntrusion: Binary target (0 = Normal, 1 = Attack)\nScan_Type: Traffic type (Normal, PortScan, BotAttack)\n\n\n=== Columns & descriptions ===\n\nSource_IP: [no description]\nDestination_IP: [no description]\nPort: [no description]\nRequest_Type: [no description]\nProtocol: [no description]\nPayload_Size: [no description]\nUser_Agent: [no description]\nStatus: [no description]\nIntrusion: [no description]\nScan_Type: [no description]\n",
+        "keywords": [
+            "internet",
+            "time series analysis",
+            "classification",
+            "multiclass classification",
+            "cyber security"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

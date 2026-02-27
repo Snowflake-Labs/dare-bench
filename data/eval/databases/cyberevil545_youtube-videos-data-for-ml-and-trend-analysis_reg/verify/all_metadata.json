@@ -1,0 +1,259 @@
+{
+    "question": {
+        "target": [
+            "views",
+            "comments",
+            "likes"
+        ],
+        "target_candidates": [
+            "views",
+            "likes",
+            "comments"
+        ],
+        "related_features": [
+            "frame rate",
+            "bitrate",
+            "height",
+            "category",
+            "codec",
+            "duration",
+            "frame rate(est.)",
+            "bitrate(video)",
+            "width"
+        ],
+        "not_filtered_related_features": [
+            "frame rate",
+            "bitrate",
+            "height",
+            "category",
+            "codec",
+            "duration",
+            "frame rate(est.)",
+            "bitrate(video)",
+            "width"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "frame rate": [
+                3.0,
+                60.0
+            ],
+            "bitrate": [
+                0,
+                22421
+            ],
+            "height": [
+                108,
+                2592
+            ],
+            "category": [
+                "News & Politics",
+                "Gaming",
+                "Comedy",
+                "People & Blogs",
+                "Entertainment",
+                "Music",
+                "Education",
+                "Nonprofits & Activis",
+                "Sports",
+                "Autos & Vehicles",
+                "Howto & Style",
+                "Travel & Events",
+                "Film & Animation",
+                "Science & Technology",
+                "Pets & Animals",
+                "Shows"
+            ],
+            "codec": [
+                "h264",
+                "vp8",
+                "flv1",
+                "mpeg4"
+            ],
+            "duration": [
+                1,
+                25845
+            ],
+            "frame rate(est.)": [
+                0.0,
+                30.0
+            ],
+            "bitrate(video)": [
+                0,
+                22229
+            ],
+            "width": [
+                88,
+                1944
+            ]
+        },
+        "selected_features": [
+            "bitrate",
+            "frame rate",
+            "duration",
+            "frame rate(est.)",
+            "codec",
+            "width"
+        ],
+        "train_v2_save_file": "./cyberevil545_youtube-videos-data-for-ml-and-trend-analysis_reg/source/train_v2.sqlite",
+        "val_v2_save_file": "./cyberevil545_youtube-videos-data-for-ml-and-trend-analysis_reg/source/val_v2.sqlite",
+        "val_no_err_save_file": "./cyberevil545_youtube-videos-data-for-ml-and-trend-analysis_reg/source/val_v1.sqlite",
+        "train_no_err_save_file": "./cyberevil545_youtube-videos-data-for-ml-and-trend-analysis_reg/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./cyberevil545_youtube-videos-data-for-ml-and-trend-analysis_reg/source/train_v1.sqlite",
+        "train_test_ratio": 0.7,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 35,
+        "model_type": "LinearRegression",
+        "output_file": "./cyberevil545_youtube-videos-data-for-ml-and-trend-analysis_reg/prediction.csv",
+        "ground_truth_file": "./cyberevil545_youtube-videos-data-for-ml-and-trend-analysis_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./cyberevil545_youtube-videos-data-for-ml-and-trend-analysis_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "video_id": "categorical",
+            "duration": "numerical",
+            "bitrate": "numerical",
+            "bitrate(video)": "numerical",
+            "height": "numerical",
+            "width": "numerical",
+            "frame rate": "numerical",
+            "frame rate(est.)": "numerical",
+            "codec": "categorical",
+            "category": "categorical",
+            "url": "categorical",
+            "title": "categorical",
+            "description": "categorical",
+            "hashtags": "categorical",
+            "views": "numerical",
+            "likes": "numerical",
+            "comments": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "bitrate",
+            "frame rate",
+            "duration",
+            "frame rate(est.)",
+            "width"
+        ],
+        "categorical_features": [
+            "codec"
+        ]
+    },
+    "data_info": {
+        "id": 8060583,
+        "ref": "cyberevil545/youtube-videos-data-for-ml-and-trend-analysis",
+        "subtitle": "YouTube videos dataset with views, likes, comments, & video details for analysis",
+        "creatorName": "Imran Shah",
+        "creatorUrl": "cyberevil545",
+        "totalBytes": 2775129,
+        "url": "https://www.kaggle.com/datasets/cyberevil545/youtube-videos-data-for-ml-and-trend-analysis",
+        "lastUpdated": "2025-08-13T07:07:12.393Z",
+        "downloadCount": 72,
+        "licenseName": "Attribution 4.0 International (CC BY 4.0)",
+        "description": "",
+        "ownerName": "Imran Shah",
+        "ownerRef": "cyberevil545",
+        "kernelCount": 1,
+        "title": "YouTube Videos Data for ML and Trend Analysis",
+        "viewCount": 483,
+        "voteCount": 5,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "arts and entertainment",
+                "name": "arts and entertainment",
+                "description": "Activities that holds the attention and interest of an audience, or gives pleasure and delight. It can be an idea or a task, but is more likely to be one of the activities or events that have developed over thousands of years specifically for the purpose of keeping an audience's attention.",
+                "fullPath": "subject > arts and entertainment",
+                "competitionCount": 3,
+                "datasetCount": 72640,
+                "scriptCount": 22779,
+                "totalCount": 95422
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "data analytics",
+                "name": "data analytics",
+                "description": "",
+                "fullPath": "technique > data analytics",
+                "competitionCount": 32,
+                "datasetCount": 9201,
+                "scriptCount": 15324,
+                "totalCount": 24557
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            },
+            {
+                "ref": "social networks",
+                "name": "social networks",
+                "description": "",
+                "fullPath": "subject > science and technology > internet > online communities > social networks",
+                "competitionCount": 6,
+                "datasetCount": 7333,
+                "scriptCount": 4517,
+                "totalCount": 11856
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 8060583,
+        "datasetSlug": "youtube-videos-data-for-ml-and-trend-analysis",
+        "ownerUser": "cyberevil545",
+        "usabilityRating": 1.0,
+        "totalViews": 488,
+        "totalVotes": 5,
+        "totalDownloads": 78,
+        "title": "YouTube Videos Data for ML and Trend Analysis",
+        "subtitle": "YouTube videos dataset with views, likes, comments, & video details for analysis",
+        "description": "## Description:\nThis dataset contains a diverse collection of randomly selected YouTube videos, retrieved directly from the YouTube Data API. It includes videos from all categories, from small videos with just tens or hundreds of views to popular videos with millions of views.\n\n### Data Fields:\n- Video ID & Title\n- Duration (in seconds)\n- Resolution (height & width)\n- Bitrate & Frame rate\n- Codec information\n- Video category & hashtags\n- Engagement metrics (views, likes, comments)\n- Original video URLs\n\n### Source:\nCollected using the YouTube Data API v3. Only publicly available video metadata is included \u2014 no copyrighted video content.\n\n### Inspiration & Use Cases:\n\nData Visualization \u2192 Explore engagement patterns, category trends, and video quality distribution.\n\nMachine Learning \u2192 Predict video popularity or category, build recommendation models.\n\nSocial Network Research \u2192 Study content trends across communities.\n\nDigital Media Analysis \u2192 Compare metrics across video genres.\n\n### Why This Dataset?\nMost YouTube datasets focus on trending or specific topics \u2014 this one offers a completely random selection from YouTube, enabling unbiased analysis and experimentation\n\n=== About this file ===\n\nAbout this file\nFile:\nyoutube_videos.csv\nThis file contains details of randomly selected YouTube videos collected via the YouTube Data API.\nColumns\nvideo_id\n\u2014 Unique YouTube video identifier.\ntitle\n\u2014 Title of the video.\ndescription\n\u2014 Description provided by the uploader.\ncategory\n\u2014 The category of the video on YouTube.\nduration\n\u2014 Length of the video in seconds.\nbitrate\n\u2014 Video bitrate in kbps.\nheight\n\u2014 Video resolution height in pixels.\nwidth\n\u2014 Video resolution width in pixels.\nframe_rate\n\u2014 Frames per second (FPS).\ncodec\n\u2014 Video encoding format.\nhashtags\n\u2014 Any hashtags associated with the video.\nviews\n\u2014 Total number of views.\nlikes\n\u2014 Total number of likes.\ncomments\n\u2014 Number of comments.\nurl\n\u2014 Direct link to the video.\n\n\n=== Columns & descriptions ===\n\nvideo_id: Unique identifier for the YouTube video.\nduration: Length of the video in seconds.\nbitrate: Overall video bitrate in kbps.\nbitrate(video): Bitrate of the video stream only (kbps).\nheight: Video resolution height in pixels.\nwidth: Video resolution width in pixels.\nframe rate: Actual frame rate of the video (FPS).\nframe rate(est.): Estimated frame rate based on analysis.\ncodec: Video encoding format used.\ncategory: YouTube category of the video.\nurl: Direct link to the video.\ntitle: Title of the video.\ndescription: Text description provided by the uploader.\nhashtags: Any hashtags associated with the video.\nviews: Total number of views.\nlikes: Total number of likes.\ncomments: Number of comments.\n",
+        "keywords": [
+            "arts and entertainment",
+            "data visualization",
+            "data analytics",
+            "tabular",
+            "regression",
+            "social networks"
+        ],
+        "licenses": [
+            {
+                "name": "Attribution 4.0 International (CC BY 4.0)"
+            }
+        ]
+    }
+}

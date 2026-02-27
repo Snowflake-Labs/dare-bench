@@ -1,0 +1,913 @@
+Matchday,Date,Time,Home Team,homeScore,homeXG,awayScore,awayXG,Away Team,Attendance,Referee,Stadium,Result,*Additional Stats
+2,2022-08-13,15:00,Southampton,2.0,1.2,2.0,1.8,Leeds United,"30,815",Tony Harrington,St. Mary's Stadium,D,https://fbref.com//en/matches/54b33a13/Southampton-Leeds-United-August-13-2022-Premier-League
+21,2024-01-14,14:00,Everton,0.0,1.1,0.0,1.2,Aston Villa,"39,284",David Coote,Goodison Park,D,https://fbref.com//en/matches/1628c63e/Everton-Aston-Villa-January-14-2024-Premier-League
+25,2025-02-15,15:00,Fulham,2.0,2.1,1.0,0.4,Nott'ham Forest,"27,164",Thomas Bramall,Craven Cottage,H,https://fbref.com//en/matches/5968d7ad/Fulham-Nottingham-Forest-February-15-2025-Premier-League
+13,2023-11-25,15:00,Burnley,1.0,1.3,2.0,0.9,West Ham,"21,319",Samuel Barrott,Turf Moor,A,https://fbref.com//en/matches/36a64522/Burnley-West-Ham-United-November-25-2023-Premier-League
+33,2023-04-26,19:45,Chelsea,0.0,1.3,2.0,1.1,Brentford,"39,929",Andy Madley,Stamford Bridge,A,https://fbref.com//en/matches/071b5820/Chelsea-Brentford-April-26-2023-Premier-League
+30,2023-04-08,12:30,Manchester Utd,2.0,3.4,0.0,1.0,Everton,"73,509",Michael Oliver,Old Trafford,H,https://fbref.com//en/matches/e217ed2c/Manchester-United-Everton-April-8-2023-Premier-League
+30,2024-03-30,15:00,Chelsea,2.0,4.2,2.0,1.6,Burnley,"39,535",Darren England,Stamford Bridge,D,https://fbref.com//en/matches/e68ec2a9/Chelsea-Burnley-March-30-2024-Premier-League
+23,2025-01-26,19:00,Fulham,0.0,0.7,1.0,0.3,Manchester Utd,"27,288",Anthony Taylor,Craven Cottage,A,https://fbref.com//en/matches/eb14e391/Fulham-Manchester-United-January-26-2025-Premier-League
+32,2025-04-12,15:00,Brighton,,,,,Leicester City,,,The American Express Stadium,,
+20,2023-01-15,14:00,Chelsea,1.0,1.5,0.0,0.7,Crystal Palace,"40,075",Peter Bankes,Stamford Bridge,H,https://fbref.com//en/matches/564d2893/Chelsea-Crystal-Palace-January-15-2023-Premier-League
+6,2024-09-28,17:30,Wolves,1.0,0.6,2.0,2.5,Liverpool,"31,413",Anthony Taylor,Molineux Stadium,A,https://fbref.com//en/matches/f2633f1d/Wolverhampton-Wanderers-Liverpool-September-28-2024-Premier-League
+38,2024-05-19,16:00,Arsenal,2.0,2.9,1.0,0.6,Everton,"60,312",Michael Oliver,Emirates Stadium,H,https://fbref.com//en/matches/3e33bd98/Arsenal-Everton-May-19-2024-Premier-League
+29,2024-04-24,20:00,Everton,2.0,1.2,0.0,2.1,Liverpool,"38,222",Andy Madley,Goodison Park,H,https://fbref.com//en/matches/971e0a29/Merseyside-Derby-Everton-Liverpool-April-24-2024-Premier-League
+36,2023-05-13,15:00,Southampton,0.0,0.4,2.0,1.4,Fulham,"28,978",Thomas Bramall,St. Mary's Stadium,A,https://fbref.com//en/matches/e05f67be/Southampton-Fulham-May-13-2023-Premier-League
+7,2023-09-30,12:30,Aston Villa,6.0,1.6,1.0,1.7,Brighton,"40,636",Andy Madley,Villa Park,H,https://fbref.com//en/matches/2df9a3a1/Aston-Villa-Brighton-and-Hove-Albion-September-30-2023-Premier-League
+3,2023-08-26,15:00,Arsenal,2.0,3.2,2.0,0.6,Fulham,"59,961",Paul Tierney,Emirates Stadium,D,https://fbref.com//en/matches/d8f8f8ad/Arsenal-Fulham-August-26-2023-Premier-League
+35,2023-05-08,20:00,Nott'ham Forest,4.0,1.8,3.0,3.1,Southampton,"29,154",Michael Oliver,The City Ground,H,https://fbref.com//en/matches/23e7953f/Nottingham-Forest-Southampton-May-8-2023-Premier-League
+31,2025-04-05,17:30,Aston Villa,,,,,Nott'ham Forest,,,Villa Park,,
+24,2024-02-10,17:30,Nott'ham Forest,2.0,1.5,3.0,0.5,Newcastle Utd,"29,451",Anthony Taylor,The City Ground,A,https://fbref.com//en/matches/1c53666a/Nottingham-Forest-Newcastle-United-February-10-2024-Premier-League
+31,2024-04-03,19:30,Brentford,0.0,0.6,0.0,1.1,Brighton,"17,024",Andy Madley,Gtech Community Stadium,D,https://fbref.com//en/matches/8ec55f05/Brentford-Brighton-and-Hove-Albion-April-3-2024-Premier-League
+6,2024-09-28,15:00,Arsenal,4.0,4.4,2.0,0.3,Leicester City,"60,323",Samuel Barrott,Emirates Stadium,H,https://fbref.com//en/matches/2ee60ac7/Arsenal-Leicester-City-September-28-2024-Premier-League
+1,2024-08-17,15:00,Arsenal,2.0,1.2,0.0,0.5,Wolves,"60,261",Jarred Gillett,Emirates Stadium,H,https://fbref.com//en/matches/c0e3342a/Arsenal-Wolverhampton-Wanderers-August-17-2024-Premier-League
+31,2024-04-03,19:30,Arsenal,2.0,0.7,0.0,0.3,Luton Town,"60,262",Craig Pawson,Emirates Stadium,H,https://fbref.com//en/matches/77d7e2d6/Arsenal-Luton-Town-April-3-2024-Premier-League
+3,2024-08-31,12:30,Arsenal,1.0,2.1,1.0,1.7,Brighton,"60,326",Chris Kavanagh,Emirates Stadium,D,https://fbref.com//en/matches/a843d023/Arsenal-Brighton-and-Hove-Albion-August-31-2024-Premier-League
+29,2023-04-02,14:00,West Ham,1.0,1.4,0.0,0.3,Southampton,"62,498",Paul Tierney,London Stadium,H,https://fbref.com//en/matches/42e1f38d/West-Ham-United-Southampton-April-2-2023-Premier-League
+25,2023-02-25,19:45,Crystal Palace,0.0,0.7,0.0,0.9,Liverpool,"25,842",Darren England,Selhurst Park,D,https://fbref.com//en/matches/8a59c49c/Crystal-Palace-Liverpool-February-25-2023-Premier-League
+31,2024-04-02,19:45,Bournemouth,1.0,1.1,0.0,0.2,Crystal Palace,"11,058",Graham Scott,Vitality Stadium,H,https://fbref.com//en/matches/1ef36f8d/Bournemouth-Crystal-Palace-April-2-2024-Premier-League
+14,2024-12-04,20:15,Arsenal,2.0,2.1,0.0,0.2,Manchester Utd,"60,256",Samuel Barrott,Emirates Stadium,H,https://fbref.com//en/matches/9938aa27/Arsenal-Manchester-United-December-4-2024-Premier-League
+1,2022-08-06,15:00,Tottenham,4.0,1.5,1.0,0.5,Southampton,"61,732",Andre Marriner,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/09d8a999/Tottenham-Hotspur-Southampton-August-6-2022-Premier-League
+1,2022-08-06,17:30,Everton,0.0,0.7,1.0,1.5,Chelsea,"39,254",Craig Pawson,Goodison Park,A,https://fbref.com//en/matches/3a917cee/Everton-Chelsea-August-6-2022-Premier-League
+15,2024-12-07,17:30,Manchester Utd,2.0,1.6,3.0,0.8,Nott'ham Forest,"73,778",Darren England,Old Trafford,A,https://fbref.com//en/matches/08966ea6/Manchester-United-Nottingham-Forest-December-7-2024-Premier-League
+21,2024-01-20,12:30,Arsenal,5.0,3.3,0.0,0.3,Crystal Palace,"60,284",Paul Tierney,Emirates Stadium,H,https://fbref.com//en/matches/006fb5b5/Arsenal-Crystal-Palace-January-20-2024-Premier-League
+37,2023-05-22,20:00,Newcastle Utd,0.0,2.1,0.0,0.1,Leicester City,"52,152",Andre Marriner,St James' Park,D,https://fbref.com//en/matches/807863d8/Newcastle-United-Leicester-City-May-22-2023-Premier-League
+23,2023-02-11,15:00,Fulham,2.0,1.5,0.0,0.7,Nott'ham Forest,"24,244",Andy Madley,Craven Cottage,H,https://fbref.com//en/matches/ee86dc99/Fulham-Nottingham-Forest-February-11-2023-Premier-League
+10,2023-10-29,14:00,Brighton,1.0,1.4,1.0,0.7,Fulham,"31,550",Michael Salisbury,The American Express Community Stadium,D,https://fbref.com//en/matches/a0c422e9/Brighton-and-Hove-Albion-Fulham-October-29-2023-Premier-League
+7,2023-10-02,20:00,Fulham,0.0,1.1,2.0,1.7,Chelsea,"24,445",Tim Robinson,Craven Cottage,A,https://fbref.com//en/matches/c9787e60/Fulham-Chelsea-October-2-2023-Premier-League
+10,2023-10-29,15:30,Manchester Utd,0.0,0.9,3.0,4.0,Manchester City,"73,502",Paul Tierney,Old Trafford,A,https://fbref.com//en/matches/f6bfec82/Manchester-Derby-Manchester-United-Manchester-City-October-29-2023-Premier-League
+17,2023-12-17,16:30,Liverpool,0.0,2.3,0.0,0.8,Manchester Utd,"57,158",Michael Oliver,Anfield,D,https://fbref.com//en/matches/18e98d77/North-West-Derby-Liverpool-Manchester-United-December-17-2023-Premier-League
+22,2024-01-31,20:15,Liverpool,4.0,2.9,1.0,0.6,Chelsea,"57,524",Paul Tierney,Anfield,H,https://fbref.com//en/matches/1836d9bd/Liverpool-Chelsea-January-31-2024-Premier-League
+32,2024-04-07,15:30,Manchester Utd,2.0,0.7,2.0,3.6,Liverpool,"73,501",Anthony Taylor,Old Trafford,D,https://fbref.com//en/matches/d57ffe1a/North-West-Derby-Manchester-United-Liverpool-April-7-2024-Premier-League
+36,2023-05-13,15:00,Manchester Utd,2.0,3.2,0.0,0.3,Wolves,"73,570",John Brooks,Old Trafford,H,https://fbref.com//en/matches/f5d61382/Manchester-United-Wolverhampton-Wanderers-May-13-2023-Premier-League
+23,2025-01-25,15:00,Wolves,0.0,0.7,1.0,1.0,Arsenal,"31,503",Michael Oliver,Molineux Stadium,A,https://fbref.com//en/matches/0b39252e/Wolverhampton-Wanderers-Arsenal-January-25-2025-Premier-League
+19,2024-12-29,15:00,Crystal Palace,2.0,2.0,1.0,0.9,Southampton,"25,130",Michael Salisbury,Selhurst Park,H,https://fbref.com//en/matches/6d06b29c/Crystal-Palace-Southampton-December-29-2024-Premier-League
+19,2024-12-29,15:00,Everton,0.0,0.9,2.0,1.5,Nott'ham Forest,"25,414",Tony Harrington,Goodison Park,A,https://fbref.com//en/matches/5fa986dc/Everton-Nottingham-Forest-December-29-2024-Premier-League
+32,2023-04-22,15:00,Brentford,1.0,2.7,1.0,1.5,Aston Villa,"17,098",Michael Salisbury,Brentford Community Stadium,D,https://fbref.com//en/matches/2b51686a/Brentford-Aston-Villa-April-22-2023-Premier-League
+27,2023-03-11,17:30,Crystal Palace,0.0,0.2,1.0,2.1,Manchester City,"25,844",Robert Jones,Selhurst Park,A,https://fbref.com//en/matches/d29fe1d9/Crystal-Palace-Manchester-City-March-11-2023-Premier-League
+3,2022-08-20,17:30,Bournemouth,0.0,0.3,3.0,1.3,Arsenal,"10,423",Craig Pawson,Vitality Stadium,A,https://fbref.com//en/matches/7f11dd9e/Bournemouth-Arsenal-August-20-2022-Premier-League
+25,2024-02-17,15:00,Fulham,1.0,1.5,2.0,1.5,Aston Villa,"24,401",Lewis Smith,Craven Cottage,A,https://fbref.com//en/matches/796ff9f0/Fulham-Aston-Villa-February-17-2024-Premier-League
+5,2022-08-31,19:45,West Ham,1.0,1.2,1.0,0.6,Tottenham,"62,450",Peter Bankes,London Stadium,D,https://fbref.com//en/matches/9f221621/West-Ham-United-Tottenham-Hotspur-August-31-2022-Premier-League
+13,2022-10-22,12:30,Nott'ham Forest,1.0,1.9,0.0,1.6,Liverpool,"29,245",Paul Tierney,The City Ground,H,https://fbref.com//en/matches/f92b67c2/Nottingham-Forest-Liverpool-October-22-2022-Premier-League
+6,2022-09-03,15:00,Tottenham,2.0,2.9,1.0,0.7,Fulham,"61,641",Stuart Attwell,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/a497b725/Tottenham-Hotspur-Fulham-September-3-2022-Premier-League
+7,2023-09-30,15:00,Everton,1.0,2.9,2.0,0.9,Luton Town,"39,289",Anthony Taylor,Goodison Park,A,https://fbref.com//en/matches/921d5f17/Everton-Luton-Town-September-30-2023-Premier-League
+23,2023-02-11,15:00,Arsenal,1.0,1.6,1.0,2.0,Brentford,"60,254",Peter Bankes,Emirates Stadium,D,https://fbref.com//en/matches/7caa56bc/Arsenal-Brentford-February-11-2023-Premier-League
+14,2022-10-29,15:00,Brighton,4.0,2.4,1.0,1.4,Chelsea,"31,746",Andy Madley,The American Express Community Stadium,H,https://fbref.com//en/matches/ac6abad1/Brighton-and-Hove-Albion-Chelsea-October-29-2022-Premier-League
+11,2023-11-04,15:00,Everton,1.0,0.7,1.0,0.5,Brighton,"38,683",Tim Robinson,Goodison Park,D,https://fbref.com//en/matches/6ecb53ac/Everton-Brighton-and-Hove-Albion-November-4-2023-Premier-League
+35,2024-04-27,20:00,Aston Villa,2.0,1.1,2.0,1.6,Chelsea,"42,354",Craig Pawson,Villa Park,D,https://fbref.com//en/matches/a88dc35f/Aston-Villa-Chelsea-April-27-2024-Premier-League
+33,2025-04-20,14:00,Manchester Utd,,,,,Wolves,,,Old Trafford,,
+9,2022-10-01,15:00,Bournemouth,0.0,0.4,0.0,0.9,Brentford,"10,126",Thomas Bramall,Vitality Stadium,D,https://fbref.com//en/matches/f2e86b27/Bournemouth-Brentford-October-1-2022-Premier-League
+29,2024-03-16,15:00,Burnley,2.0,2.8,1.0,1.1,Brentford,"20,431",Darren Bond,Turf Moor,H,https://fbref.com//en/matches/b280b66a/Burnley-Brentford-March-16-2024-Premier-League
+1,2023-08-12,12:30,Arsenal,2.0,0.8,1.0,1.2,Nott'ham Forest,"59,984",Michael Oliver,Emirates Stadium,H,https://fbref.com//en/matches/26a7f90c/Arsenal-Nottingham-Forest-August-12-2023-Premier-League
+1,2024-08-17,12:30,Ipswich Town,0.0,0.5,2.0,2.6,Liverpool,"30,014",Tim Robinson,Portman Road Stadium,A,https://fbref.com//en/matches/a1d0d529/Ipswich-Town-Liverpool-August-17-2024-Premier-League
+6,2023-09-23,20:00,Burnley,0.0,1.1,1.0,1.0,Manchester Utd,"21,593",Tony Harrington,Turf Moor,A,https://fbref.com//en/matches/8e26793d/Burnley-Manchester-United-September-23-2023-Premier-League
+9,2023-10-21,20:00,Sheffield Utd,1.0,1.4,2.0,1.1,Manchester Utd,"31,543",Michael Oliver,Bramall Lane,A,https://fbref.com//en/matches/d95b42eb/Sheffield-United-Manchester-United-October-21-2023-Premier-League
+11,2023-11-04,15:00,Brentford,3.0,1.5,2.0,1.8,West Ham,"17,103",Thomas Bramall,Gtech Community Stadium,H,https://fbref.com//en/matches/3235dd6e/Brentford-West-Ham-United-November-4-2023-Premier-League
+34,2023-04-30,14:00,Bournemouth,4.0,1.9,1.0,1.6,Leeds United,"10,434",Chris Kavanagh,Vitality Stadium,H,https://fbref.com//en/matches/0b0733ce/Bournemouth-Leeds-United-April-30-2023-Premier-League
+26,2024-02-25,13:30,Wolves,1.0,1.3,0.0,0.6,Sheffield Utd,"30,789",Darren Bond,Molineux Stadium,H,https://fbref.com//en/matches/ada09dda/Wolverhampton-Wanderers-Sheffield-United-February-25-2024-Premier-League
+7,2024-10-06,14:00,Aston Villa,0.0,0.5,0.0,0.6,Manchester Utd,"42,682",Robert Jones,Villa Park,D,https://fbref.com//en/matches/abef5f2a/Aston-Villa-Manchester-United-October-6-2024-Premier-League
+18,2023-12-21,20:00,Crystal Palace,1.0,1.3,1.0,1.2,Brighton,"24,171",John Brooks,Selhurst Park,D,https://fbref.com//en/matches/7340be7a/Crystal-Palace-Brighton-and-Hove-Albion-December-21-2023-Premier-League
+36,2024-05-04,17:30,Manchester City,5.0,3.7,1.0,0.3,Wolves,"52,439",Craig Pawson,Etihad Stadium,H,https://fbref.com//en/matches/5a9032bf/Manchester-City-Wolverhampton-Wanderers-May-4-2024-Premier-League
+24,2024-02-11,14:00,West Ham,0.0,0.2,6.0,3.6,Arsenal,"62,475",Craig Pawson,London Stadium,A,https://fbref.com//en/matches/a1da23dc/West-Ham-United-Arsenal-February-11-2024-Premier-League
+12,2024-11-23,15:00,Bournemouth,1.0,1.6,2.0,0.9,Brighton,"11,196",Stuart Attwell,Vitality Stadium,A,https://fbref.com//en/matches/4708a5bf/Bournemouth-Brighton-and-Hove-Albion-November-23-2024-Premier-League
+24,2025-02-01,15:00,Bournemouth,0.0,1.6,2.0,2.5,Liverpool,"11,239",Darren England,Vitality Stadium,A,https://fbref.com//en/matches/886603cd/Bournemouth-Liverpool-February-1-2025-Premier-League
+24,2024-02-12,20:00,Crystal Palace,1.0,0.6,3.0,1.4,Chelsea,"25,110",Michael Oliver,Selhurst Park,A,https://fbref.com//en/matches/1206b952/Crystal-Palace-Chelsea-February-12-2024-Premier-League
+8,2022-09-16,20:00,Aston Villa,1.0,1.5,0.0,0.3,Southampton,"40,758",Tony Harrington,Villa Park,H,https://fbref.com//en/matches/1219daa1/Aston-Villa-Southampton-September-16-2022-Premier-League
+16,2023-12-10,14:00,Luton Town,1.0,0.3,2.0,1.6,Manchester City,"11,047",Tim Robinson,Kenilworth Road Stadium,A,https://fbref.com//en/matches/f6155857/Luton-Town-Manchester-City-December-10-2023-Premier-League
+11,2022-10-16,14:00,Southampton,1.0,0.5,1.0,1.7,West Ham,"29,159",Peter Bankes,St. Mary's Stadium,D,https://fbref.com//en/matches/2f5adfad/Southampton-West-Ham-United-October-16-2022-Premier-League
+38,2024-05-19,16:00,Brentford,2.0,1.1,4.0,3.4,Newcastle Utd,"17,124",Simon Hooper,Gtech Community Stadium,A,https://fbref.com//en/matches/546e1a3d/Brentford-Newcastle-United-May-19-2024-Premier-League
+32,2023-04-21,20:00,Arsenal,3.0,2.4,3.0,1.3,Southampton,"60,175",Simon Hooper,Emirates Stadium,D,https://fbref.com//en/matches/12efc7dd/Arsenal-Southampton-April-21-2023-Premier-League
+7,2024-10-05,15:00,West Ham,4.0,3.6,1.0,0.6,Ipswich Town,"62,467",Anthony Taylor,London Stadium,H,https://fbref.com//en/matches/93e19c5e/West-Ham-United-Ipswich-Town-October-5-2024-Premier-League
+7,2023-04-04,19:45,Leeds United,2.0,1.8,1.0,0.8,Nott'ham Forest,"36,740",Robert Jones,Elland Road,H,https://fbref.com//en/matches/1251d1c0/Leeds-United-Nottingham-Forest-April-4-2023-Premier-League
+15,2024-12-07,15:00,Aston Villa,1.0,2.3,0.0,0.3,Southampton,"42,453",Darren Bond,Villa Park,H,https://fbref.com//en/matches/92cfde2c/Aston-Villa-Southampton-December-7-2024-Premier-League
+8,2023-10-08,14:00,Wolves,1.0,1.7,1.0,1.6,Aston Villa,"31,425",Robert Jones,Molineux Stadium,D,https://fbref.com//en/matches/3292ed35/Wolverhampton-Wanderers-Aston-Villa-October-8-2023-Premier-League
+5,2023-09-18,19:45,Nott'ham Forest,1.0,0.7,1.0,0.5,Burnley,"28,958",Robert Jones,The City Ground,D,https://fbref.com//en/matches/ad7ecfad/Nottingham-Forest-Burnley-September-18-2023-Premier-League
+20,2023-01-14,15:00,Brighton,3.0,1.9,0.0,1.0,Liverpool,"31,645",Darren England,The American Express Community Stadium,H,https://fbref.com//en/matches/cfc2a193/Brighton-and-Hove-Albion-Liverpool-January-14-2023-Premier-League
+35,2024-04-27,17:30,Everton,1.0,0.8,0.0,0.9,Brentford,"39,098",Darren England,Goodison Park,H,https://fbref.com//en/matches/c813a2ae/Everton-Brentford-April-27-2024-Premier-League
+28,2023-05-04,20:00,Brighton,1.0,2.3,0.0,1.4,Manchester Utd,"31,577",Andre Marriner,The American Express Community Stadium,H,https://fbref.com//en/matches/16209587/Brighton-and-Hove-Albion-Manchester-United-May-4-2023-Premier-League
+13,2022-10-23,14:00,Aston Villa,4.0,2.8,0.0,0.9,Brentford,"41,693",Darren England,Villa Park,H,https://fbref.com//en/matches/7764ca02/Aston-Villa-Brentford-October-23-2022-Premier-League
+6,2023-09-24,14:00,Chelsea,0.0,1.3,1.0,1.0,Aston Villa,"39,700",Jarred Gillett,Stamford Bridge,A,https://fbref.com//en/matches/7d2c5e05/Chelsea-Aston-Villa-September-24-2023-Premier-League
+18,2024-02-20,19:30,Manchester City,1.0,2.3,0.0,0.4,Brentford,"52,247",Darren England,Etihad Stadium,H,https://fbref.com//en/matches/af88a1aa/Manchester-City-Brentford-February-20-2024-Premier-League
+19,2023-12-26,12:30,Newcastle Utd,1.0,2.4,3.0,3.5,Nott'ham Forest,"52,207",Chris Kavanagh,St James' Park,A,https://fbref.com//en/matches/f22a20f0/Newcastle-United-Nottingham-Forest-December-26-2023-Premier-League
+22,2024-02-01,19:30,West Ham,1.0,1.4,1.0,1.2,Bournemouth,"62,478",Tim Robinson,London Stadium,D,https://fbref.com//en/matches/16dc9951/West-Ham-United-Bournemouth-February-1-2024-Premier-League
+23,2025-01-25,17:30,Manchester City,3.0,2.2,1.0,1.8,Chelsea,"52,687",John Brooks,Etihad Stadium,H,https://fbref.com//en/matches/bfd54040/Manchester-City-Chelsea-January-25-2025-Premier-League
+35,2025-05-03,15:00,Brentford,,,,,Manchester Utd,,,Gtech Community Stadium,,
+7,2023-03-15,19:30,Southampton,0.0,0.5,2.0,1.9,Brentford,"30,438",Michael Salisbury,St. Mary's Stadium,A,https://fbref.com//en/matches/a4202b5b/Southampton-Brentford-March-15-2023-Premier-League
+20,2023-12-30,15:00,Crystal Palace,3.0,1.0,1.0,1.4,Brentford,"25,472",Robert Jones,Selhurst Park,H,https://fbref.com//en/matches/e9d5dd9b/Crystal-Palace-Brentford-December-30-2023-Premier-League
+26,2024-02-24,15:00,Crystal Palace,3.0,2.4,0.0,0.1,Burnley,"24,042",Lewis Smith,Selhurst Park,H,https://fbref.com//en/matches/89cd2d5e/Crystal-Palace-Burnley-February-24-2024-Premier-League
+22,2024-01-31,19:30,Tottenham,3.0,2.9,2.0,1.6,Brentford,"61,210",David Coote,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/79ffec97/Tottenham-Hotspur-Brentford-January-31-2024-Premier-League
+17,2024-12-21,15:00,West Ham,1.0,1.2,1.0,0.9,Brighton,"62,460",Robert Jones,London Stadium,D,https://fbref.com//en/matches/04be8e87/West-Ham-United-Brighton-and-Hove-Albion-December-21-2024-Premier-League
+16,2022-11-12,15:00,Tottenham,4.0,1.8,3.0,1.1,Leeds United,"61,667",Michael Salisbury,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/0030e686/Tottenham-Hotspur-Leeds-United-November-12-2022-Premier-League
+25,2024-02-18,16:30,Luton Town,1.0,1.8,2.0,2.9,Manchester Utd,"11,483",David Coote,Kenilworth Road Stadium,A,https://fbref.com//en/matches/49523b04/Luton-Town-Manchester-United-February-18-2024-Premier-League
+7,2024-10-05,15:00,Leicester City,1.0,0.8,0.0,2.1,Bournemouth,"31,706",Darren Bond,King Power Stadium,H,https://fbref.com//en/matches/d153872e/Leicester-City-Bournemouth-October-5-2024-Premier-League
+19,2024-12-29,17:15,West Ham,0.0,0.4,5.0,3.1,Liverpool,"62,476",Anthony Taylor,London Stadium,A,https://fbref.com//en/matches/c1a66ac0/West-Ham-United-Liverpool-December-29-2024-Premier-League
+30,2025-04-02,19:45,Manchester City,,,,,Leicester City,,,Etihad Stadium,,
+33,2024-04-14,14:00,West Ham,0.0,0.9,2.0,3.2,Fulham,"62,459",Stuart Attwell,London Stadium,A,https://fbref.com//en/matches/bd62891f/West-Ham-United-Fulham-April-14-2024-Premier-League
+31,2024-04-02,19:30,Newcastle Utd,1.0,2.4,1.0,1.4,Everton,"52,135",Tony Harrington,St James' Park,D,https://fbref.com//en/matches/52846bc3/Newcastle-United-Everton-April-2-2024-Premier-League
+3,2022-08-22,20:00,Manchester Utd,2.0,1.8,1.0,1.3,Liverpool,"74,147",Michael Oliver,Old Trafford,H,https://fbref.com//en/matches/3c9a8f71/North-West-Derby-Manchester-United-Liverpool-August-22-2022-Premier-League
+17,2023-12-16,15:00,Chelsea,2.0,3.1,0.0,0.4,Sheffield Utd,"39,599",Andy Madley,Stamford Bridge,H,https://fbref.com//en/matches/3bbbaf15/Chelsea-Sheffield-United-December-16-2023-Premier-League
+18,2023-01-01,16:30,Nott'ham Forest,1.0,1.4,1.0,0.9,Chelsea,"29,229",Peter Bankes,The City Ground,D,https://fbref.com//en/matches/c31cf944/Nottingham-Forest-Chelsea-January-1-2023-Premier-League
+26,2023-03-05,14:00,Nott'ham Forest,2.0,0.8,2.0,1.7,Everton,"29,353",John Brooks,The City Ground,D,https://fbref.com//en/matches/ec770341/Nottingham-Forest-Everton-March-5-2023-Premier-League
+32,2023-04-22,12:30,Fulham,2.0,1.7,1.0,0.8,Leeds United,"24,356",Peter Bankes,Craven Cottage,H,https://fbref.com//en/matches/f2d8700d/Fulham-Leeds-United-April-22-2023-Premier-League
+28,2023-05-03,20:00,Liverpool,1.0,1.8,0.0,0.9,Fulham,"52,602",Stuart Attwell,Anfield,H,https://fbref.com//en/matches/24fb8eca/Liverpool-Fulham-May-3-2023-Premier-League
+35,2025-05-03,15:00,Everton,,,,,Ipswich Town,,,Goodison Park,,
+26,2025-02-21,20:00,Leicester City,0.0,0.5,4.0,1.5,Brentford,"31,077",Tony Harrington,King Power Stadium,A,https://fbref.com//en/matches/da5a149a/Leicester-City-Brentford-February-21-2025-Premier-League
+36,2024-05-06,20:00,Crystal Palace,4.0,1.7,0.0,0.4,Manchester Utd,"25,190",Jarred Gillett,Selhurst Park,H,https://fbref.com//en/matches/8c4bf9e7/Crystal-Palace-Manchester-United-May-6-2024-Premier-League
+37,2023-05-20,15:00,Wolves,1.0,1.6,1.0,2.0,Everton,"31,684",David Coote,Molineux Stadium,D,https://fbref.com//en/matches/ff2b58c3/Wolverhampton-Wanderers-Everton-May-20-2023-Premier-League
+16,2024-12-15,19:00,Southampton,0.0,0.8,5.0,2.3,Tottenham,"31,090",Darren England,St Mary's Stadium,A,https://fbref.com//en/matches/37afd6da/Southampton-Tottenham-Hotspur-December-15-2024-Premier-League
+38,2025-05-25,16:00,Fulham,,,,,Manchester City,,,Craven Cottage,,
+12,2023-11-11,12:30,Wolves,2.0,2.1,1.0,0.7,Tottenham,"31,642",Tim Robinson,Molineux Stadium,H,https://fbref.com//en/matches/1634f066/Wolverhampton-Wanderers-Tottenham-Hotspur-November-11-2023-Premier-League
+29,2024-04-25,20:00,Brighton,0.0,0.6,4.0,1.4,Manchester City,"31,596",Jarred Gillett,The American Express Community Stadium,A,https://fbref.com//en/matches/45bb8cac/Brighton-and-Hove-Albion-Manchester-City-April-25-2024-Premier-League
+34,2024-04-21,15:00,Crystal Palace,5.0,2.4,2.0,1.3,West Ham,"25,145",Graham Scott,Selhurst Park,H,https://fbref.com//en/matches/6ef6966a/Crystal-Palace-West-Ham-United-April-21-2024-Premier-League
+12,2024-11-24,14:00,Southampton,2.0,1.3,3.0,3.1,Liverpool,"31,278",Samuel Barrott,St Mary's Stadium,A,https://fbref.com//en/matches/eb6f8e39/Southampton-Liverpool-November-24-2024-Premier-League
+8,2022-09-18,12:00,Brentford,0.0,0.5,3.0,1.5,Arsenal,"17,122",David Coote,Brentford Community Stadium,A,https://fbref.com//en/matches/fd5626e6/Brentford-Arsenal-September-18-2022-Premier-League
+9,2023-10-21,12:30,Liverpool,2.0,2.2,0.0,0.1,Everton,"50,201",Craig Pawson,Anfield,H,https://fbref.com//en/matches/e747ddb3/Merseyside-Derby-Liverpool-Everton-October-21-2023-Premier-League
+38,2024-05-19,16:00,Brighton,0.0,1.7,2.0,1.3,Manchester Utd,"31,662",Craig Pawson,The American Express Community Stadium,A,https://fbref.com//en/matches/47ecdc19/Brighton-and-Hove-Albion-Manchester-United-May-19-2024-Premier-League
+27,2025-02-27,20:00,West Ham,2.0,1.3,0.0,0.4,Leicester City,"62,455",Anthony Taylor,London Stadium,H,https://fbref.com//en/matches/08b1b7de/West-Ham-United-Leicester-City-February-27-2025-Premier-League
+5,2023-09-16,17:30,Newcastle Utd,1.0,1.4,0.0,0.5,Brentford,"51,670",Craig Pawson,St James' Park,H,https://fbref.com//en/matches/71b7e5e2/Newcastle-United-Brentford-September-16-2023-Premier-League
+27,2023-03-11,15:00,Leicester City,1.0,2.4,3.0,1.6,Chelsea,"32,170",Andre Marriner,King Power Stadium,A,https://fbref.com//en/matches/bd5571a1/Leicester-City-Chelsea-March-11-2023-Premier-League
+9,2024-10-26,15:00,Manchester City,1.0,2.9,0.0,0.2,Southampton,"52,844",Tony Harrington,Etihad Stadium,H,https://fbref.com//en/matches/b66f6389/Manchester-City-Southampton-October-26-2024-Premier-League
+32,2023-04-23,14:00,Bournemouth,0.0,1.5,4.0,2.4,West Ham,"10,465",Anthony Taylor,Vitality Stadium,A,https://fbref.com//en/matches/3306d30f/Bournemouth-West-Ham-United-April-23-2023-Premier-League
+25,2025-02-15,12:30,Leicester City,0.0,0.2,2.0,1.4,Arsenal,"31,968",Samuel Barrott,King Power Stadium,A,https://fbref.com//en/matches/af8aa0dd/Leicester-City-Arsenal-February-15-2025-Premier-League
+24,2023-02-18,12:30,Aston Villa,2.0,0.5,4.0,3.2,Arsenal,"42,066",Simon Hooper,Villa Park,A,https://fbref.com//en/matches/e50bfcf8/Aston-Villa-Arsenal-February-18-2023-Premier-League
+25,2023-02-25,15:00,Leeds United,1.0,0.9,0.0,0.4,Southampton,"36,641",Peter Bankes,Elland Road,H,https://fbref.com//en/matches/9edb32a3/Leeds-United-Southampton-February-25-2023-Premier-League
+29,2025-03-16,13:30,Fulham,2.0,1.0,0.0,0.9,Tottenham,"27,182",Andy Madley,Craven Cottage,H,https://fbref.com//en/matches/61428001/Fulham-Tottenham-Hotspur-March-16-2025-Premier-League
+23,2025-01-25,15:00,Brighton,0.0,0.7,1.0,0.8,Everton,"31,087",Tim Robinson,The American Express Stadium,A,https://fbref.com//en/matches/b54aac79/Brighton-and-Hove-Albion-Everton-January-25-2025-Premier-League
+31,2023-04-17,20:00,Leeds United,1.0,1.4,6.0,2.7,Liverpool,"36,657",Craig Pawson,Elland Road,A,https://fbref.com//en/matches/fd3d05f5/Leeds-United-Liverpool-April-17-2023-Premier-League
+6,2023-09-23,15:00,Luton Town,1.0,2.1,1.0,0.6,Wolves,"10,893",Joshua Smith,Kenilworth Road Stadium,D,https://fbref.com//en/matches/76a1421e/Luton-Town-Wolverhampton-Wanderers-September-23-2023-Premier-League
+31,2024-04-04,20:15,Chelsea,4.0,3.0,3.0,1.5,Manchester Utd,"39,694",Jarred Gillett,Stamford Bridge,H,https://fbref.com//en/matches/c6079c2f/Chelsea-Manchester-United-April-4-2024-Premier-League
+33,2025-04-19,15:00,West Ham,,,,,Southampton,,,London Stadium,,
+26,2023-03-05,16:30,Liverpool,7.0,2.8,0.0,0.8,Manchester Utd,"53,001",Andy Madley,Anfield,H,https://fbref.com//en/matches/756e8036/North-West-Derby-Liverpool-Manchester-United-March-5-2023-Premier-League
+17,2024-12-22,14:00,Leicester City,0.0,0.8,3.0,1.1,Wolves,"31,818",Anthony Taylor,King Power Stadium,A,https://fbref.com//en/matches/ecd6cb1d/Leicester-City-Wolverhampton-Wanderers-December-22-2024-Premier-League
+15,2023-12-06,19:30,Fulham,5.0,2.5,0.0,0.3,Nott'ham Forest,"24,105",Joshua Smith,Craven Cottage,H,https://fbref.com//en/matches/fd5606da/Fulham-Nottingham-Forest-December-6-2023-Premier-League
+9,2022-10-01,15:00,Fulham,1.0,0.5,4.0,3.3,Newcastle Utd,"22,913",Darren England,Craven Cottage,A,https://fbref.com//en/matches/dcde1172/Fulham-Newcastle-United-October-1-2022-Premier-League
+11,2022-10-16,14:00,Leeds United,0.0,1.8,1.0,0.5,Arsenal,"36,700",Chris Kavanagh,Elland Road,A,https://fbref.com//en/matches/92885cfc/Leeds-United-Arsenal-October-16-2022-Premier-League
+15,2024-12-07,15:00,Crystal Palace,2.0,1.3,2.0,1.4,Manchester City,"25,142",Robert Jones,Selhurst Park,D,https://fbref.com//en/matches/6b7fbda1/Crystal-Palace-Manchester-City-December-7-2024-Premier-League
+4,2022-08-27,15:00,Chelsea,2.0,1.8,1.0,2.5,Leicester City,"39,953",Paul Tierney,Stamford Bridge,H,https://fbref.com//en/matches/b737a3a7/Chelsea-Leicester-City-August-27-2022-Premier-League
+38,2024-05-19,16:00,Liverpool,2.0,4.5,0.0,0.5,Wolves,"60,059",Chris Kavanagh,Anfield,H,https://fbref.com//en/matches/d4823ed5/Liverpool-Wolverhampton-Wanderers-May-19-2024-Premier-League
+9,2024-10-26,15:00,Brighton,2.0,1.3,2.0,1.3,Wolves,"31,840",Michael Oliver,The American Express Stadium,D,https://fbref.com//en/matches/9487e056/Brighton-and-Hove-Albion-Wolverhampton-Wanderers-October-26-2024-Premier-League
+27,2023-03-12,14:00,West Ham,1.0,2.1,1.0,1.5,Aston Villa,"62,472",Chris Kavanagh,London Stadium,D,https://fbref.com//en/matches/df6f054e/West-Ham-United-Aston-Villa-March-12-2023-Premier-League
+22,2023-02-04,15:00,Brighton,1.0,2.2,0.0,1.1,Bournemouth,"31,600",Craig Pawson,The American Express Community Stadium,H,https://fbref.com//en/matches/dccc53ae/Brighton-and-Hove-Albion-Bournemouth-February-4-2023-Premier-League
+25,2024-02-17,15:00,Tottenham,1.0,1.6,2.0,1.8,Wolves,"61,532",Anthony Taylor,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/30193251/Tottenham-Hotspur-Wolverhampton-Wanderers-February-17-2024-Premier-League
+17,2024-12-22,16:30,Tottenham,3.0,1.3,6.0,5.6,Liverpool,"61,439",Samuel Barrott,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/1e1cea4c/Tottenham-Hotspur-Liverpool-December-22-2024-Premier-League
+36,2025-05-10,15:00,Ipswich Town,,,,,Brentford,,,Portman Road Stadium,,
+37,2023-05-21,14:00,Brighton,3.0,2.5,1.0,0.6,Southampton,"31,507",Paul Tierney,The American Express Community Stadium,H,https://fbref.com//en/matches/017addef/Brighton-and-Hove-Albion-Southampton-May-21-2023-Premier-League
+10,2022-10-08,15:00,Bournemouth,2.0,1.1,1.0,1.0,Leicester City,"10,272",Michael Salisbury,Vitality Stadium,H,https://fbref.com//en/matches/7db2a40a/Bournemouth-Leicester-City-October-8-2022-Premier-League
+10,2022-10-09,16:30,Arsenal,3.0,2.7,2.0,1.1,Liverpool,"60,059",Michael Oliver,Emirates Stadium,H,https://fbref.com//en/matches/84a48413/Arsenal-Liverpool-October-9-2022-Premier-League
+35,2025-05-03,15:00,Arsenal,,,,,Bournemouth,,,Emirates Stadium,,
+10,2022-10-09,14:00,West Ham,3.0,2.4,1.0,0.7,Fulham,"62,407",Chris Kavanagh,London Stadium,H,https://fbref.com//en/matches/42e38f9d/West-Ham-United-Fulham-October-9-2022-Premier-League
+33,2025-04-19,15:00,Brentford,,,,,Brighton,,,Gtech Community Stadium,,
+33,2024-04-14,16:30,Arsenal,0.0,1.6,2.0,0.9,Aston Villa,"60,350",David Coote,Emirates Stadium,A,https://fbref.com//en/matches/c1739ced/Arsenal-Aston-Villa-April-14-2024-Premier-League
+29,2024-04-24,20:00,Manchester Utd,4.0,2.9,2.0,0.8,Sheffield Utd,"73,549",Michael Salisbury,Old Trafford,H,https://fbref.com//en/matches/70770e72/Manchester-United-Sheffield-United-April-24-2024-Premier-League
+11,2024-11-10,14:00,Nott'ham Forest,1.0,0.6,3.0,1.6,Newcastle Utd,"30,145",Anthony Taylor,The City Ground,A,https://fbref.com//en/matches/a41ce5c3/Nottingham-Forest-Newcastle-United-November-10-2024-Premier-League
+9,2024-10-26,15:00,Brentford,4.0,4.0,3.0,1.3,Ipswich Town,"17,109",Lewis Smith,Gtech Community Stadium,H,https://fbref.com//en/matches/1fb2dcde/Brentford-Ipswich-Town-October-26-2024-Premier-League
+9,2023-10-21,15:00,Newcastle Utd,4.0,2.4,0.0,1.2,Crystal Palace,"52,189",Tim Robinson,St James' Park,H,https://fbref.com//en/matches/21625dde/Newcastle-United-Crystal-Palace-October-21-2023-Premier-League
+19,2023-12-26,17:30,Burnley,0.0,0.8,2.0,1.8,Liverpool,"21,624",Paul Tierney,Turf Moor,A,https://fbref.com//en/matches/c0904954/Burnley-Liverpool-December-26-2023-Premier-League
+36,2023-05-13,15:00,Crystal Palace,2.0,1.5,0.0,0.3,Bournemouth,"25,034",Michael Salisbury,Selhurst Park,H,https://fbref.com//en/matches/a4ffd11f/Crystal-Palace-Bournemouth-May-13-2023-Premier-League
+26,2024-02-24,17:30,Bournemouth,0.0,0.9,1.0,1.6,Manchester City,"11,184",Jarred Gillett,Vitality Stadium,A,https://fbref.com//en/matches/f6d6a212/Bournemouth-Manchester-City-February-24-2024-Premier-League
+1,2022-08-06,15:00,Bournemouth,2.0,0.6,0.0,0.7,Aston Villa,"11,013",Peter Bankes,Vitality Stadium,H,https://fbref.com//en/matches/877e3193/Bournemouth-Aston-Villa-August-6-2022-Premier-League
+32,2023-04-22,15:00,Liverpool,3.0,2.8,2.0,0.9,Nott'ham Forest,"53,254",Michael Oliver,Anfield,H,https://fbref.com//en/matches/99bfc321/Liverpool-Nottingham-Forest-April-22-2023-Premier-League
+18,2024-12-26,15:00,Nott'ham Forest,1.0,1.1,0.0,0.9,Tottenham,"30,200",Craig Pawson,The City Ground,H,https://fbref.com//en/matches/eb738106/Nottingham-Forest-Tottenham-Hotspur-December-26-2024-Premier-League
+20,2023-12-31,14:00,Fulham,2.0,1.2,1.0,1.6,Arsenal,"24,444",Joshua Smith,Craven Cottage,H,https://fbref.com//en/matches/6c1b6ffc/Fulham-Arsenal-December-31-2023-Premier-League
+12,2022-10-20,19:30,Fulham,3.0,2.1,0.0,1.2,Aston Villa,"23,508",Michael Oliver,Craven Cottage,H,https://fbref.com//en/matches/e6102606/Fulham-Aston-Villa-October-20-2022-Premier-League
+12,2022-10-18,19:30,Brighton,0.0,1.7,0.0,0.1,Nott'ham Forest,"31,463",Darren England,The American Express Community Stadium,D,https://fbref.com//en/matches/4f876daa/Brighton-and-Hove-Albion-Nottingham-Forest-October-18-2022-Premier-League
+4,2023-09-01,20:00,Luton Town,1.0,1.4,2.0,1.0,West Ham,"10,802",Paul Tierney,Kenilworth Road Stadium,A,https://fbref.com//en/matches/e929e225/Luton-Town-West-Ham-United-September-1-2023-Premier-League
+20,2025-01-04,15:00,Southampton,0.0,0.3,5.0,4.4,Brentford,"31,001",Stuart Attwell,St Mary's Stadium,A,https://fbref.com//en/matches/36fc576a/Southampton-Brentford-January-4-2025-Premier-League
+33,2023-04-25,19:30,Wolves,2.0,1.4,0.0,0.8,Crystal Palace,"30,294",Robert Jones,Molineux Stadium,H,https://fbref.com//en/matches/825c78f1/Wolverhampton-Wanderers-Crystal-Palace-April-25-2023-Premier-League
+16,2023-12-10,16:30,Tottenham,4.0,3.8,1.0,1.7,Newcastle Utd,"61,171",Chris Kavanagh,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/be6d1aac/Tottenham-Hotspur-Newcastle-United-December-10-2023-Premier-League
+16,2023-12-09,17:30,Aston Villa,1.0,0.6,0.0,1.4,Arsenal,"42,000",Jarred Gillett,Villa Park,H,https://fbref.com//en/matches/8cf29e50/Aston-Villa-Arsenal-December-9-2023-Premier-League
+8,2022-09-17,12:30,Wolves,0.0,0.4,3.0,1.1,Manchester City,"31,578",Anthony Taylor,Molineux Stadium,A,https://fbref.com//en/matches/96b5cc15/Wolverhampton-Wanderers-Manchester-City-September-17-2022-Premier-League
+7,2023-04-04,19:45,Bournemouth,0.0,1.7,2.0,2.7,Brighton,"10,266",Darren Bond,Vitality Stadium,A,https://fbref.com//en/matches/95a97dc6/Bournemouth-Brighton-and-Hove-Albion-April-4-2023-Premier-League
+28,2024-03-11,20:00,Chelsea,3.0,1.6,2.0,0.7,Newcastle Utd,"37,753",John Brooks,Stamford Bridge,H,https://fbref.com//en/matches/d4b4c06f/Chelsea-Newcastle-United-March-11-2024-Premier-League
+28,2023-03-18,15:00,Aston Villa,3.0,3.5,0.0,1.3,Bournemouth,"41,021",Robert Jones,Villa Park,H,https://fbref.com//en/matches/88981274/Aston-Villa-Bournemouth-March-18-2023-Premier-League
+22,2024-01-30,19:30,Nott'ham Forest,1.0,0.5,2.0,1.2,Arsenal,"29,387",Simon Hooper,The City Ground,A,https://fbref.com//en/matches/20a16b44/Nottingham-Forest-Arsenal-January-30-2024-Premier-League
+25,2023-02-26,13:30,Tottenham,2.0,0.8,0.0,0.4,Chelsea,"61,613",Stuart Attwell,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/8eff71b5/Tottenham-Hotspur-Chelsea-February-26-2023-Premier-League
+9,2023-10-21,15:00,Nott'ham Forest,2.0,2.9,2.0,1.7,Luton Town,"29,361",Samuel Barrott,The City Ground,D,https://fbref.com//en/matches/d1671efa/Nottingham-Forest-Luton-Town-October-21-2023-Premier-League
+16,2022-11-13,16:30,Fulham,1.0,1.4,2.0,2.5,Manchester Utd,"24,246",Paul Tierney,Craven Cottage,A,https://fbref.com//en/matches/af75b6b0/Fulham-Manchester-United-November-13-2022-Premier-League
+31,2025-04-05,15:00,Crystal Palace,,,,,Brighton,,,Selhurst Park,,
+14,2024-12-05,19:30,Fulham,3.0,1.1,1.0,1.4,Brighton,"26,368",Peter Bankes,Craven Cottage,H,https://fbref.com//en/matches/32aaf579/Fulham-Brighton-and-Hove-Albion-December-5-2024-Premier-League
+30,2025-04-02,19:45,Bournemouth,,,,,Ipswich Town,,,Vitality Stadium,,
+14,2022-10-29,15:00,Crystal Palace,1.0,0.9,0.0,1.3,Southampton,"25,130",Michael Salisbury,Selhurst Park,H,https://fbref.com//en/matches/4be07239/Crystal-Palace-Southampton-October-29-2022-Premier-League
+17,2024-12-22,14:00,Everton,0.0,1.0,0.0,1.2,Chelsea,"39,358",Chris Kavanagh,Goodison Park,D,https://fbref.com//en/matches/de72140c/Everton-Chelsea-December-22-2024-Premier-League
+26,2025-02-22,15:00,Bournemouth,0.0,0.9,1.0,2.0,Wolves,"11,206",Michael Salisbury,Vitality Stadium,A,https://fbref.com//en/matches/ccdda6d3/Bournemouth-Wolverhampton-Wanderers-February-22-2025-Premier-League
+26,2023-03-06,20:00,Brentford,3.0,2.1,2.0,1.4,Fulham,"17,025",Anthony Taylor,Brentford Community Stadium,H,https://fbref.com//en/matches/3dce3a24/Brentford-Fulham-March-6-2023-Premier-League
+34,2025-04-27,14:00,Bournemouth,,,,,Manchester Utd,,,Vitality Stadium,,
+25,2023-04-05,20:00,Manchester Utd,1.0,1.2,0.0,0.7,Brentford,"73,309",John Brooks,Old Trafford,H,https://fbref.com//en/matches/f3e6e475/Manchester-United-Brentford-April-5-2023-Premier-League
+37,2024-05-12,16:30,Manchester Utd,0.0,0.5,1.0,1.5,Arsenal,"73,600",Paul Tierney,Old Trafford,A,https://fbref.com//en/matches/ab9827f2/Manchester-United-Arsenal-May-12-2024-Premier-League
+1,2022-08-07,16:30,West Ham,0.0,0.5,2.0,2.2,Manchester City,"62,443",Michael Oliver,London Stadium,A,https://fbref.com//en/matches/ece62baf/West-Ham-United-Manchester-City-August-7-2022-Premier-League
+34,2025-04-26,15:00,Wolves,,,,,Leicester City,,,Molineux Stadium,,
+16,2024-12-15,14:00,Brighton,1.0,1.0,3.0,2.2,Crystal Palace,"30,893",Michael Oliver,The American Express Stadium,A,https://fbref.com//en/matches/c8314a05/Brighton-and-Hove-Albion-Crystal-Palace-December-15-2024-Premier-League
+21,2023-01-22,14:00,Leeds United,0.0,0.5,0.0,0.4,Brentford,"36,260",Peter Bankes,Elland Road,D,https://fbref.com//en/matches/f0e7d8a8/Leeds-United-Brentford-January-22-2023-Premier-League
+1,2024-08-18,16:30,Chelsea,0.0,1.0,2.0,0.8,Manchester City,"39,818",Anthony Taylor,Stamford Bridge,A,https://fbref.com//en/matches/67a0c715/Chelsea-Manchester-City-August-18-2024-Premier-League
+38,2023-05-28,16:30,Crystal Palace,1.0,1.4,1.0,0.5,Nott'ham Forest,"25,198",Thomas Bramall,Selhurst Park,D,https://fbref.com//en/matches/181fd119/Crystal-Palace-Nottingham-Forest-May-28-2023-Premier-League
+10,2022-10-08,17:30,Brighton,0.0,0.7,1.0,0.8,Tottenham,"31,498",Tony Harrington,The American Express Community Stadium,A,https://fbref.com//en/matches/3eeefbc5/Brighton-and-Hove-Albion-Tottenham-Hotspur-October-8-2022-Premier-League
+1,2023-08-14,20:00,Manchester Utd,1.0,2.2,0.0,2.2,Wolves,"73,358",Simon Hooper,Old Trafford,H,https://fbref.com//en/matches/f1ecda2c/Manchester-United-Wolverhampton-Wanderers-August-14-2023-Premier-League
+18,2023-12-23,15:00,Tottenham,2.0,1.5,1.0,1.8,Everton,"61,808",Stuart Attwell,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/849071fe/Tottenham-Hotspur-Everton-December-23-2023-Premier-League
+14,2024-12-03,19:30,Ipswich Town,0.0,0.5,1.0,1.6,Crystal Palace,"29,533",Craig Pawson,Portman Road Stadium,A,https://fbref.com//en/matches/f7a96e82/Ipswich-Town-Crystal-Palace-December-3-2024-Premier-League
+3,2024-08-31,17:30,West Ham,1.0,0.7,3.0,3.0,Manchester City,"62,469",Michael Oliver,London Stadium,A,https://fbref.com//en/matches/97ce60d4/West-Ham-United-Manchester-City-August-31-2024-Premier-League
+22,2024-01-30,19:45,Luton Town,4.0,3.1,0.0,0.9,Brighton,"10,994",Robert Jones,Kenilworth Road Stadium,H,https://fbref.com//en/matches/381f12be/Luton-Town-Brighton-and-Hove-Albion-January-30-2024-Premier-League
+16,2024-12-14,15:00,Liverpool,2.0,2.1,2.0,1.2,Fulham,"60,333",Tony Harrington,Anfield,D,https://fbref.com//en/matches/a436996c/Liverpool-Fulham-December-14-2024-Premier-League
+7,2023-03-01,19:45,Arsenal,4.0,2.4,0.0,1.2,Everton,"60,213",Michael Oliver,Emirates Stadium,H,https://fbref.com//en/matches/705a2f3c/Arsenal-Everton-March-1-2023-Premier-League
+7,2023-10-01,14:00,Nott'ham Forest,1.0,0.5,1.0,1.6,Brentford,"29,004",Paul Tierney,The City Ground,D,https://fbref.com//en/matches/923467c5/Nottingham-Forest-Brentford-October-1-2023-Premier-League
+23,2023-02-11,15:00,Leicester City,4.0,1.7,1.0,1.3,Tottenham,"32,184",Michael Salisbury,King Power Stadium,H,https://fbref.com//en/matches/390c7b85/Leicester-City-Tottenham-Hotspur-February-11-2023-Premier-League
+13,2023-11-25,17:30,Brentford,0.0,1.1,1.0,1.6,Arsenal,"17,201",Tim Robinson,Gtech Community Stadium,A,https://fbref.com//en/matches/626c6561/Brentford-Arsenal-November-25-2023-Premier-League
+15,2024-12-08,14:00,Ipswich Town,1.0,1.3,2.0,3.2,Bournemouth,"29,180",Michael Salisbury,Portman Road Stadium,A,https://fbref.com//en/matches/392c7b1f/Ipswich-Town-Bournemouth-December-8-2024-Premier-League
+16,2022-11-13,14:00,Brighton,1.0,0.6,2.0,1.5,Aston Villa,"31,581",Chris Kavanagh,The American Express Community Stadium,A,https://fbref.com//en/matches/a7031cbd/Brighton-and-Hove-Albion-Aston-Villa-November-13-2022-Premier-League
+22,2025-01-18,17:30,Arsenal,2.0,1.3,2.0,1.0,Aston Villa,"60,067",Chris Kavanagh,Emirates Stadium,D,https://fbref.com//en/matches/1fdaaaba/Arsenal-Aston-Villa-January-18-2025-Premier-League
+33,2024-04-13,15:00,Nott'ham Forest,2.0,1.9,2.0,1.0,Wolves,"29,604",Craig Pawson,The City Ground,D,https://fbref.com//en/matches/4460b6c5/Nottingham-Forest-Wolverhampton-Wanderers-April-13-2024-Premier-League
+24,2023-02-18,15:00,Brentford,1.0,0.9,1.0,1.1,Crystal Palace,"17,122",Paul Tierney,Brentford Community Stadium,D,https://fbref.com//en/matches/f6370484/Brentford-Crystal-Palace-February-18-2023-Premier-League
+30,2025-04-02,19:45,Brighton,,,,,Aston Villa,,,The American Express Stadium,,
+28,2024-03-09,17:30,Arsenal,2.0,1.3,1.0,1.0,Brentford,"60,331",Robert Jones,Emirates Stadium,H,https://fbref.com//en/matches/0e9002ec/Arsenal-Brentford-March-9-2024-Premier-League
+28,2024-03-09,15:00,Wolves,2.0,0.8,1.0,2.6,Fulham,"30,860",Tony Harrington,Molineux Stadium,H,https://fbref.com//en/matches/b606cbde/Wolverhampton-Wanderers-Fulham-March-9-2024-Premier-League
+15,2025-02-12,19:30,Everton,2.0,1.0,2.0,0.6,Liverpool,"39,280",Michael Oliver,Goodison Park,D,https://fbref.com//en/matches/92627434/Merseyside-Derby-Everton-Liverpool-February-12-2025-Premier-League
+20,2023-01-13,20:00,Aston Villa,2.0,1.2,1.0,2.4,Leeds United,"42,008",Michael Oliver,Villa Park,H,https://fbref.com//en/matches/ea58bf24/Aston-Villa-Leeds-United-January-13-2023-Premier-League
+34,2025-04-28,20:00,Manchester City,,,,,Aston Villa,,,Etihad Stadium,,
+20,2023-12-30,15:00,Wolves,3.0,1.9,0.0,0.4,Everton,"31,639",Thomas Bramall,Molineux Stadium,H,https://fbref.com//en/matches/7dfc59ca/Wolverhampton-Wanderers-Everton-December-30-2023-Premier-League
+15,2022-11-06,16:30,Tottenham,1.0,1.2,2.0,1.2,Liverpool,"62,008",Andy Madley,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/2954504d/Tottenham-Hotspur-Liverpool-November-6-2022-Premier-League
+25,2024-02-17,12:30,Brentford,1.0,1.6,4.0,2.8,Liverpool,"17,193",Michael Oliver,Gtech Community Stadium,A,https://fbref.com//en/matches/ca1e26a0/Brentford-Liverpool-February-17-2024-Premier-League
+13,2024-12-01,13:30,Manchester Utd,4.0,1.1,0.0,0.6,Everton,"73,817",John Brooks,Old Trafford,H,https://fbref.com//en/matches/e6eef20f/Manchester-United-Everton-December-1-2024-Premier-League
+14,2023-12-02,20:00,Newcastle Utd,1.0,2.4,0.0,0.5,Manchester Utd,"52,214",Robert Jones,St James' Park,H,https://fbref.com//en/matches/66a1f3ac/Newcastle-United-Manchester-United-December-2-2023-Premier-League
+38,2025-05-25,16:00,Newcastle Utd,,,,,Everton,,,St James' Park,,
+1,2022-08-07,14:00,Leicester City,2.0,0.6,2.0,0.8,Brentford,"31,794",Jarred Gillett,King Power Stadium,D,https://fbref.com//en/matches/3249ba27/Leicester-City-Brentford-August-7-2022-Premier-League
+14,2023-12-03,16:30,Manchester City,3.0,2.6,3.0,0.5,Tottenham,"53,473",Simon Hooper,Etihad Stadium,D,https://fbref.com//en/matches/0e39f016/Manchester-City-Tottenham-Hotspur-December-3-2023-Premier-League
+17,2022-12-28,20:00,Leeds United,1.0,0.6,3.0,4.3,Manchester City,"36,889",Stuart Attwell,Elland Road,A,https://fbref.com//en/matches/a85ef749/Leeds-United-Manchester-City-December-28-2022-Premier-League
+3,2024-08-31,15:00,Leicester City,1.0,0.4,2.0,1.4,Aston Villa,"31,725",David Coote,King Power Stadium,A,https://fbref.com//en/matches/5af68b76/Leicester-City-Aston-Villa-August-31-2024-Premier-League
+21,2025-01-16,20:00,Manchester Utd,3.0,3.4,1.0,1.4,Southampton,"73,722",John Brooks,Old Trafford,H,https://fbref.com//en/matches/f443a602/Manchester-United-Southampton-January-16-2025-Premier-League
+25,2023-05-18,19:30,Newcastle Utd,4.0,3.6,1.0,0.5,Brighton,"52,122",Robert Jones,St James' Park,H,https://fbref.com//en/matches/e265430e/Newcastle-United-Brighton-and-Hove-Albion-May-18-2023-Premier-League
+18,2023-12-23,15:00,Luton Town,1.0,1.4,0.0,1.4,Newcastle Utd,"11,042",Darren England,Kenilworth Road Stadium,H,https://fbref.com//en/matches/46bfb645/Luton-Town-Newcastle-United-December-23-2023-Premier-League
+31,2024-04-02,20:15,West Ham,1.0,1.5,1.0,1.0,Tottenham,"62,469",John Brooks,London Stadium,D,https://fbref.com//en/matches/2600ff86/West-Ham-United-Tottenham-Hotspur-April-2-2024-Premier-League
+24,2023-02-18,15:00,Nott'ham Forest,1.0,0.9,1.0,2.4,Manchester City,"29,365",Graham Scott,The City Ground,D,https://fbref.com//en/matches/7f12d9aa/Nottingham-Forest-Manchester-City-February-18-2023-Premier-League
+34,2023-04-30,14:00,Newcastle Utd,3.0,4.3,1.0,0.8,Southampton,"52,234",Anthony Taylor,St James' Park,H,https://fbref.com//en/matches/b16063b6/Newcastle-United-Southampton-April-30-2023-Premier-League
+9,2024-10-27,16:30,Arsenal,2.0,0.9,2.0,0.8,Liverpool,"60,383",Anthony Taylor,Emirates Stadium,D,https://fbref.com//en/matches/68aa1099/Arsenal-Liverpool-October-27-2024-Premier-League
+8,2023-10-08,14:00,Brighton,2.0,2.3,2.0,2.3,Liverpool,"31,752",Anthony Taylor,The American Express Community Stadium,D,https://fbref.com//en/matches/3b1ec657/Brighton-and-Hove-Albion-Liverpool-October-8-2023-Premier-League
+33,2025-04-20,14:00,Fulham,,,,,Chelsea,,,Craven Cottage,,
+1,2024-08-17,15:00,Everton,0.0,0.5,3.0,1.4,Brighton,"39,217",Simon Hooper,Goodison Park,A,https://fbref.com//en/matches/71618ace/Everton-Brighton-and-Hove-Albion-August-17-2024-Premier-League
+20,2023-12-30,12:30,Luton Town,2.0,2.3,3.0,1.5,Chelsea,"11,041",Paul Tierney,Kenilworth Road Stadium,A,https://fbref.com//en/matches/8e04572c/Luton-Town-Chelsea-December-30-2023-Premier-League
+22,2025-01-19,16:30,Ipswich Town,0.0,0.5,6.0,3.0,Manchester City,"29,841",Samuel Barrott,Portman Road Stadium,A,https://fbref.com//en/matches/6c829b8f/Ipswich-Town-Manchester-City-January-19-2025-Premier-League
+12,2023-11-11,15:00,Crystal Palace,2.0,2.2,3.0,1.5,Everton,"25,103",Samuel Barrott,Selhurst Park,A,https://fbref.com//en/matches/a4795b68/Crystal-Palace-Everton-November-11-2023-Premier-League
+35,2024-04-27,12:30,West Ham,2.0,0.7,2.0,1.7,Liverpool,"62,474",Anthony Taylor,London Stadium,D,https://fbref.com//en/matches/ba04d7d8/West-Ham-United-Liverpool-April-27-2024-Premier-League
+3,2024-08-31,15:00,Brentford,3.0,2.8,1.0,1.5,Southampton,"16,955",Joshua Smith,Gtech Community Stadium,H,https://fbref.com//en/matches/fec3438b/Brentford-Southampton-August-31-2024-Premier-League
+25,2025-02-14,20:00,Brighton,3.0,1.4,0.0,0.5,Chelsea,"31,324",Chris Kavanagh,The American Express Stadium,H,https://fbref.com//en/matches/ed780e1d/Brighton-and-Hove-Albion-Chelsea-February-14-2025-Premier-League
+16,2023-12-09,12:30,Crystal Palace,1.0,1.7,2.0,1.2,Liverpool,"25,103",Andy Madley,Selhurst Park,A,https://fbref.com//en/matches/a1b18af3/Crystal-Palace-Liverpool-December-9-2023-Premier-League
+27,2025-02-25,19:30,Wolves,1.0,1.3,2.0,1.7,Fulham,"28,708",Peter Bankes,Molineux Stadium,A,https://fbref.com//en/matches/7aecfc4c/Wolverhampton-Wanderers-Fulham-February-25-2025-Premier-League
+34,2025-04-27,16:30,Liverpool,,,,,Tottenham,,,Anfield,,
+8,2024-10-19,15:00,Fulham,1.0,1.8,3.0,1.6,Aston Villa,"26,743",Darren England,Craven Cottage,A,https://fbref.com//en/matches/615d637e/Fulham-Aston-Villa-October-19-2024-Premier-League
+21,2024-01-21,14:00,Sheffield Utd,2.0,2.5,2.0,2.3,West Ham,"29,164",Michael Salisbury,Bramall Lane,D,https://fbref.com//en/matches/abd525b4/Sheffield-United-West-Ham-United-January-21-2024-Premier-League
+36,2024-05-04,12:30,Arsenal,3.0,3.3,0.0,0.5,Bournemouth,"60,348",David Coote,Emirates Stadium,H,https://fbref.com//en/matches/00bcfc31/Arsenal-Bournemouth-May-4-2024-Premier-League
+33,2025-04-19,15:00,Everton,,,,,Manchester City,,,Goodison Park,,
+7,2023-09-30,15:00,Wolves,2.0,0.4,1.0,0.9,Manchester City,"31,415",Craig Pawson,Molineux Stadium,H,https://fbref.com//en/matches/60ce29cd/Wolverhampton-Wanderers-Manchester-City-September-30-2023-Premier-League
+37,2024-05-11,15:00,West Ham,3.0,3.2,1.0,0.3,Luton Town,"62,475",Michael Oliver,London Stadium,H,https://fbref.com//en/matches/17e9dbbf/West-Ham-United-Luton-Town-May-11-2024-Premier-League
+14,2024-12-04,19:30,Newcastle Utd,3.0,2.1,3.0,1.9,Liverpool,"52,237",Andy Madley,St James' Park,D,https://fbref.com//en/matches/ca898c29/Newcastle-United-Liverpool-December-4-2024-Premier-League
+9,2024-10-26,15:00,Aston Villa,1.0,1.8,1.0,0.3,Bournemouth,"42,165",Chris Kavanagh,Villa Park,D,https://fbref.com//en/matches/bce300b2/Aston-Villa-Bournemouth-October-26-2024-Premier-League
+18,2022-12-31,17:30,Brighton,2.0,1.2,4.0,2.9,Arsenal,"31,647",Anthony Taylor,The American Express Community Stadium,A,https://fbref.com//en/matches/dd50a429/Brighton-and-Hove-Albion-Arsenal-December-31-2022-Premier-League
+24,2023-02-18,17:30,Newcastle Utd,0.0,2.0,2.0,1.9,Liverpool,"52,758",Anthony Taylor,St James' Park,A,https://fbref.com//en/matches/2f909763/Newcastle-United-Liverpool-February-18-2023-Premier-League
+16,2023-12-09,15:00,Manchester Utd,0.0,1.1,3.0,1.5,Bournemouth,"73,427",Peter Bankes,Old Trafford,A,https://fbref.com//en/matches/0760a568/Manchester-United-Bournemouth-December-9-2023-Premier-League
+17,2024-12-21,15:00,Brentford,0.0,0.7,2.0,0.9,Nott'ham Forest,"17,115",Michael Oliver,Gtech Community Stadium,A,https://fbref.com//en/matches/1c60d037/Brentford-Nottingham-Forest-December-21-2024-Premier-League
+23,2023-02-11,15:00,Crystal Palace,1.0,1.1,1.0,2.5,Brighton,"24,827",Michael Oliver,Selhurst Park,D,https://fbref.com//en/matches/5d5deba7/Crystal-Palace-Brighton-and-Hove-Albion-February-11-2023-Premier-League
+21,2025-01-15,19:30,Everton,0.0,1.1,1.0,1.2,Aston Villa,"39,085",Samuel Barrott,Goodison Park,A,https://fbref.com//en/matches/3e70b855/Everton-Aston-Villa-January-15-2025-Premier-League
+10,2022-10-08,15:00,Manchester City,4.0,2.4,0.0,0.2,Southampton,"53,365",Andy Madley,Etihad Stadium,H,https://fbref.com//en/matches/864294c0/Manchester-City-Southampton-October-8-2022-Premier-League
+17,2022-12-26,15:00,Leicester City,0.0,0.5,3.0,1.9,Newcastle Utd,"32,185",Jarred Gillett,King Power Stadium,A,https://fbref.com//en/matches/8e186153/Leicester-City-Newcastle-United-December-26-2022-Premier-League
+31,2023-04-15,17:30,Manchester City,3.0,1.6,1.0,2.3,Leicester City,"53,329",Darren England,Etihad Stadium,H,https://fbref.com//en/matches/ce8df388/Manchester-City-Leicester-City-April-15-2023-Premier-League
+33,2023-04-25,20:00,Leeds United,1.0,1.5,1.0,2.1,Leicester City,"36,666",Paul Tierney,Elland Road,D,https://fbref.com//en/matches/56c70cf7/Leeds-United-Leicester-City-April-25-2023-Premier-League
+35,2025-05-03,15:00,Leicester City,,,,,Southampton,,,King Power Stadium,,
+38,2024-05-19,16:00,Chelsea,2.0,1.1,1.0,2.2,Bournemouth,"39,724",Anthony Taylor,Stamford Bridge,H,https://fbref.com//en/matches/7c034003/Chelsea-Bournemouth-May-19-2024-Premier-League
+15,2023-12-06,19:30,Sheffield Utd,0.0,1.0,2.0,1.7,Liverpool,"31,406",Simon Hooper,Bramall Lane,A,https://fbref.com//en/matches/01aca132/Sheffield-United-Liverpool-December-6-2023-Premier-League
+5,2022-08-30,20:00,Leeds United,1.0,1.0,1.0,1.0,Everton,"36,338",Darren England,Elland Road,D,https://fbref.com//en/matches/42d294e5/Leeds-United-Everton-August-30-2022-Premier-League
+31,2025-04-05,15:00,Ipswich Town,,,,,Wolves,,,Portman Road Stadium,,
+15,2022-11-06,14:00,Southampton,1.0,1.7,4.0,0.9,Newcastle Utd,"30,402",Stuart Attwell,St. Mary's Stadium,A,https://fbref.com//en/matches/57f9bcc9/Southampton-Newcastle-United-November-6-2022-Premier-League
+35,2024-04-27,15:00,Fulham,1.0,1.1,1.0,1.0,Crystal Palace,"24,142",Stuart Attwell,Craven Cottage,D,https://fbref.com//en/matches/9fe4ec6e/Fulham-Crystal-Palace-April-27-2024-Premier-League
+17,2023-12-16,15:00,Newcastle Utd,3.0,3.5,0.0,0.3,Fulham,"52,055",Samuel Barrott,St James' Park,H,https://fbref.com//en/matches/5db0f25b/Newcastle-United-Fulham-December-16-2023-Premier-League
+26,2024-02-24,15:00,Manchester Utd,1.0,1.7,2.0,1.2,Fulham,"73,487",Michael Oliver,Old Trafford,A,https://fbref.com//en/matches/45f67948/Manchester-United-Fulham-February-24-2024-Premier-League
+32,2023-04-22,15:00,Leicester City,2.0,2.4,1.0,0.9,Wolves,"32,053",Andy Madley,King Power Stadium,H,https://fbref.com//en/matches/b87e66b4/Leicester-City-Wolverhampton-Wanderers-April-22-2023-Premier-League
+3,2023-08-27,16:30,Newcastle Utd,1.0,2.0,2.0,0.9,Liverpool,"52,214",John Brooks,St James' Park,A,https://fbref.com//en/matches/b31156ab/Newcastle-United-Liverpool-August-27-2023-Premier-League
+22,2024-02-01,20:15,Wolves,3.0,2.1,4.0,3.3,Manchester Utd,"31,641",Jarred Gillett,Molineux Stadium,A,https://fbref.com//en/matches/457203bc/Wolverhampton-Wanderers-Manchester-United-February-1-2024-Premier-League
+13,2023-11-26,14:00,Tottenham,1.0,2.3,2.0,1.7,Aston Villa,"61,679",Robert Jones,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/83db7754/Tottenham-Hotspur-Aston-Villa-November-26-2023-Premier-League
+2,2024-08-24,15:00,Tottenham,4.0,2.4,0.0,1.0,Everton,"61,357",Anthony Taylor,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/1eef1717/Tottenham-Hotspur-Everton-August-24-2024-Premier-League
+13,2023-11-25,15:00,Newcastle Utd,4.0,2.4,1.0,0.5,Chelsea,"52,227",Simon Hooper,St James' Park,H,https://fbref.com//en/matches/8c8f48f4/Newcastle-United-Chelsea-November-25-2023-Premier-League
+23,2024-02-03,15:00,Newcastle Utd,4.0,2.3,4.0,2.4,Luton Town,"52,211",Thomas Bramall,St James' Park,D,https://fbref.com//en/matches/67cb7a4e/Newcastle-United-Luton-Town-February-3-2024-Premier-League
+24,2025-02-01,15:00,Ipswich Town,1.0,1.8,2.0,0.9,Southampton,"29,902",Michael Oliver,Portman Road Stadium,A,https://fbref.com//en/matches/1098cac0/Ipswich-Town-Southampton-February-1-2025-Premier-League
+19,2025-01-01,17:30,Brentford,1.0,0.3,3.0,1.9,Arsenal,"47,190",Peter Bankes,Gtech Community Stadium,A,https://fbref.com//en/matches/7e6892e4/Brentford-Arsenal-January-1-2025-Premier-League
+1,2022-08-05,20:00,Crystal Palace,0.0,1.2,2.0,1.0,Arsenal,"25,286",Anthony Taylor,Selhurst Park,A,https://fbref.com//en/matches/e62f6e78/Crystal-Palace-Arsenal-August-5-2022-Premier-League
+37,2023-05-20,15:00,Fulham,2.0,1.7,2.0,1.6,Crystal Palace,"24,356",Joshua Smith,Craven Cottage,D,https://fbref.com//en/matches/844f2c37/Fulham-Crystal-Palace-May-20-2023-Premier-League
+22,2025-01-19,14:00,Manchester Utd,1.0,1.5,3.0,1.9,Brighton,"73,758",Peter Bankes,Old Trafford,A,https://fbref.com//en/matches/45028d5b/Manchester-United-Brighton-and-Hove-Albion-January-19-2025-Premier-League
+10,2023-10-29,13:00,West Ham,0.0,0.7,1.0,0.8,Everton,"62,469",Stuart Attwell,London Stadium,A,https://fbref.com//en/matches/868a89be/West-Ham-United-Everton-October-29-2023-Premier-League
+13,2024-12-01,16:00,Liverpool,2.0,3.4,0.0,0.8,Manchester City,"60,248",Chris Kavanagh,Anfield,H,https://fbref.com//en/matches/0bd6ad44/Liverpool-Manchester-City-December-1-2024-Premier-League
+30,2024-03-30,15:00,Nott'ham Forest,1.0,0.9,1.0,1.2,Crystal Palace,"29,520",Chris Kavanagh,The City Ground,D,https://fbref.com//en/matches/791fc95a/Nottingham-Forest-Crystal-Palace-March-30-2024-Premier-League
+19,2023-01-04,19:45,Leeds United,2.0,1.6,2.0,1.4,West Ham,"36,173",David Coote,Elland Road,D,https://fbref.com//en/matches/068406dc/Leeds-United-West-Ham-United-January-4-2023-Premier-League
+8,2023-10-07,12:30,Luton Town,0.0,0.8,1.0,1.9,Tottenham,"10,290",John Brooks,Kenilworth Road Stadium,A,https://fbref.com//en/matches/d021f28f/Luton-Town-Tottenham-Hotspur-October-7-2023-Premier-League
+14,2022-10-30,16:15,Manchester Utd,1.0,1.2,0.0,1.1,West Ham,"73,682",Chris Kavanagh,Old Trafford,H,https://fbref.com//en/matches/cd0f59f6/Manchester-United-West-Ham-United-October-30-2022-Premier-League
+19,2023-12-28,20:15,Arsenal,0.0,2.7,2.0,1.4,West Ham,"60,261",Michael Oliver,Emirates Stadium,A,https://fbref.com//en/matches/ba570015/Arsenal-West-Ham-United-December-28-2023-Premier-League
+11,2022-10-15,15:00,Wolves,1.0,1.3,0.0,1.5,Nott'ham Forest,"31,554",Thomas Bramall,Molineux Stadium,H,https://fbref.com//en/matches/c9f8e7e9/Wolverhampton-Wanderers-Nottingham-Forest-October-15-2022-Premier-League
+35,2025-05-03,15:00,Manchester City,,,,,Wolves,,,Etihad Stadium,,
+20,2023-01-14,15:00,Nott'ham Forest,2.0,2.4,0.0,1.0,Leicester City,"29,301",Paul Tierney,The City Ground,H,https://fbref.com//en/matches/95d3b457/Nottingham-Forest-Leicester-City-January-14-2023-Premier-League
+10,2024-11-02,12:30,Newcastle Utd,1.0,0.5,0.0,1.1,Arsenal,"52,249",John Brooks,St James' Park,H,https://fbref.com//en/matches/cc960c22/Newcastle-United-Arsenal-November-2-2024-Premier-League
+12,2024-11-25,20:00,Newcastle Utd,0.0,1.6,2.0,0.9,West Ham,"52,094",Craig Pawson,St James' Park,A,https://fbref.com//en/matches/79f46eec/Newcastle-United-West-Ham-United-November-25-2024-Premier-League
+27,2023-03-11,12:30,Bournemouth,1.0,0.9,0.0,1.7,Liverpool,"10,536",John Brooks,Vitality Stadium,H,https://fbref.com//en/matches/d376dff8/Bournemouth-Liverpool-March-11-2023-Premier-League
+9,2022-10-01,15:00,Crystal Palace,1.0,0.4,2.0,1.1,Chelsea,"25,198",Chris Kavanagh,Selhurst Park,A,https://fbref.com//en/matches/372249f3/Crystal-Palace-Chelsea-October-1-2022-Premier-League
+15,2022-11-06,12:00,Chelsea,0.0,0.3,1.0,2.1,Arsenal,"40,142",Michael Oliver,Stamford Bridge,A,https://fbref.com//en/matches/af9dc838/North-West-London-Derby-Chelsea-Arsenal-November-6-2022-Premier-League
+31,2023-04-15,15:00,Tottenham,2.0,2.2,3.0,1.3,Bournemouth,"61,369",Andy Madley,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/bfc49d95/Tottenham-Hotspur-Bournemouth-April-15-2023-Premier-League
+22,2024-01-31,19:30,Manchester City,3.0,1.7,1.0,1.4,Burnley,"52,143",Samuel Barrott,Etihad Stadium,H,https://fbref.com//en/matches/d10aaae8/Manchester-City-Burnley-January-31-2024-Premier-League
+34,2023-04-29,15:00,Brentford,2.0,1.6,1.0,0.7,Nott'ham Forest,"17,080",Peter Bankes,Brentford Community Stadium,H,https://fbref.com//en/matches/3aeacbaa/Brentford-Nottingham-Forest-April-29-2023-Premier-League
+14,2024-12-04,19:30,Manchester City,3.0,2.4,0.0,1.0,Nott'ham Forest,"51,764",Michael Oliver,Etihad Stadium,H,https://fbref.com//en/matches/dedb0eee/Manchester-City-Nottingham-Forest-December-4-2024-Premier-League
+12,2023-11-12,16:30,Chelsea,4.0,2.9,4.0,2.9,Manchester City,"39,532",Anthony Taylor,Stamford Bridge,D,https://fbref.com//en/matches/53bb8f30/Chelsea-Manchester-City-November-12-2023-Premier-League
+22,2024-01-30,20:00,Crystal Palace,3.0,1.1,2.0,0.8,Sheffield Utd,"24,781",Tony Harrington,Selhurst Park,H,https://fbref.com//en/matches/9f51ce03/Crystal-Palace-Sheffield-United-January-30-2024-Premier-League
+6,2024-09-28,12:30,Newcastle Utd,1.0,1.6,1.0,0.9,Manchester City,"52,248",Jarred Gillett,St James' Park,D,https://fbref.com//en/matches/b4df0bca/Newcastle-United-Manchester-City-September-28-2024-Premier-League
+12,2023-11-12,14:00,West Ham,3.0,1.8,2.0,1.7,Nott'ham Forest,"62,470",Michael Salisbury,London Stadium,H,https://fbref.com//en/matches/76b8e568/West-Ham-United-Nottingham-Forest-November-12-2023-Premier-League
+35,2023-05-06,15:00,Wolves,1.0,0.8,0.0,1.5,Aston Villa,"31,641",Stuart Attwell,Molineux Stadium,H,https://fbref.com//en/matches/217a7faf/Wolverhampton-Wanderers-Aston-Villa-May-6-2023-Premier-League
+9,2024-10-27,14:00,West Ham,2.0,2.8,1.0,2.3,Manchester Utd,"62,474",David Coote,London Stadium,H,https://fbref.com//en/matches/38c31a07/West-Ham-United-Manchester-United-October-27-2024-Premier-League
+18,2023-01-01,14:00,Tottenham,0.0,0.7,2.0,1.0,Aston Villa,"61,651",John Brooks,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/63e8eaf8/Tottenham-Hotspur-Aston-Villa-January-1-2023-Premier-League
+3,2022-08-21,16:30,Newcastle Utd,3.0,1.8,3.0,2.1,Manchester City,"52,258",Jarred Gillett,St James' Park,D,https://fbref.com//en/matches/b513d9fe/Newcastle-United-Manchester-City-August-21-2022-Premier-League
+14,2023-12-03,14:00,Liverpool,4.0,2.1,3.0,1.2,Fulham,"50,124",Stuart Attwell,Anfield,H,https://fbref.com//en/matches/4b7e6f44/Liverpool-Fulham-December-3-2023-Premier-League
+21,2023-01-21,15:00,West Ham,2.0,2.2,0.0,0.5,Everton,"62,470",Stuart Attwell,London Stadium,H,https://fbref.com//en/matches/db9cdba8/West-Ham-United-Everton-January-21-2023-Premier-League
+32,2024-04-06,17:30,Brighton,0.0,0.5,3.0,3.4,Arsenal,"31,677",John Brooks,The American Express Community Stadium,A,https://fbref.com//en/matches/2047cc32/Brighton-and-Hove-Albion-Arsenal-April-6-2024-Premier-League
+19,2023-01-03,19:45,Arsenal,0.0,1.1,0.0,1.0,Newcastle Utd,"60,319",Andy Madley,Emirates Stadium,D,https://fbref.com//en/matches/ceebd643/Arsenal-Newcastle-United-January-3-2023-Premier-League
+26,2024-02-21,19:30,Liverpool,4.0,3.3,1.0,0.9,Luton Town,"59,713",Andy Madley,Anfield,H,https://fbref.com//en/matches/58636a1e/Liverpool-Luton-Town-February-21-2024-Premier-League
+19,2023-01-04,20:00,Aston Villa,1.0,1.8,1.0,0.9,Wolves,"39,978",Jarred Gillett,Villa Park,D,https://fbref.com//en/matches/895a1c1f/Aston-Villa-Wolverhampton-Wanderers-January-4-2023-Premier-League
+14,2023-12-03,14:00,West Ham,1.0,1.1,1.0,0.9,Crystal Palace,"62,414",Michael Oliver,London Stadium,D,https://fbref.com//en/matches/f7fb8049/West-Ham-United-Crystal-Palace-December-3-2023-Premier-League
+6,2024-09-28,15:00,Chelsea,4.0,4.2,2.0,1.1,Brighton,"39,495",Peter Bankes,Stamford Bridge,H,https://fbref.com//en/matches/1714cebe/Chelsea-Brighton-and-Hove-Albion-September-28-2024-Premier-League
+25,2024-02-17,15:00,Burnley,0.0,0.3,5.0,2.3,Arsenal,"21,311",Jarred Gillett,Turf Moor,A,https://fbref.com//en/matches/59631171/Burnley-Arsenal-February-17-2024-Premier-League
+12,2023-11-11,15:00,Arsenal,3.0,1.8,1.0,0.3,Burnley,"60,232",Michael Oliver,Emirates Stadium,H,https://fbref.com//en/matches/2cb4e4dc/Arsenal-Burnley-November-11-2023-Premier-League
+9,2022-10-01,17:30,West Ham,2.0,0.9,0.0,0.7,Wolves,"62,444",Paul Tierney,London Stadium,H,https://fbref.com//en/matches/89ff6cd8/West-Ham-United-Wolverhampton-Wanderers-October-1-2022-Premier-League
+27,2025-02-26,20:15,Liverpool,2.0,1.7,0.0,0.2,Newcastle Utd,"60,374",Stuart Attwell,Anfield,H,https://fbref.com//en/matches/a0975f8c/Liverpool-Newcastle-United-February-26-2025-Premier-League
+25,2023-02-25,15:00,West Ham,4.0,2.7,0.0,0.4,Nott'ham Forest,"62,469",Jarred Gillett,London Stadium,H,https://fbref.com//en/matches/767981c6/West-Ham-United-Nottingham-Forest-February-25-2023-Premier-League
+23,2023-02-11,15:00,Southampton,1.0,1.1,2.0,0.8,Wolves,"29,751",Jarred Gillett,St. Mary's Stadium,A,https://fbref.com//en/matches/8c7913ed/Southampton-Wolverhampton-Wanderers-February-11-2023-Premier-League
+17,2024-12-21,17:30,Crystal Palace,1.0,1.6,5.0,2.5,Arsenal,"25,167",Simon Hooper,Selhurst Park,A,https://fbref.com//en/matches/5e7aa707/Crystal-Palace-Arsenal-December-21-2024-Premier-League
+15,2022-11-06,14:00,West Ham,1.0,0.3,2.0,1.0,Crystal Palace,"62,451",Paul Tierney,London Stadium,A,https://fbref.com//en/matches/2586fb04/West-Ham-United-Crystal-Palace-November-6-2022-Premier-League
+31,2025-04-05,15:00,West Ham,,,,,Bournemouth,,,London Stadium,,
+20,2025-01-05,14:00,Fulham,2.0,2.2,2.0,1.5,Ipswich Town,"27,042",Darren Bond,Craven Cottage,D,https://fbref.com//en/matches/8b69ef69/Fulham-Ipswich-Town-January-5-2025-Premier-League
+20,2023-01-15,14:00,Newcastle Utd,1.0,2.2,0.0,1.1,Fulham,"52,247",Robert Jones,St James' Park,H,https://fbref.com//en/matches/f93d11e7/Newcastle-United-Fulham-January-15-2023-Premier-League
+5,2022-08-30,19:30,Crystal Palace,1.0,1.0,1.0,1.4,Brentford,"25,043",Simon Hooper,Selhurst Park,D,https://fbref.com//en/matches/e1d6440f/Crystal-Palace-Brentford-August-30-2022-Premier-League
+13,2022-10-22,15:00,Manchester City,3.0,1.6,1.0,0.5,Brighton,"53,223",Craig Pawson,Etihad Stadium,H,https://fbref.com//en/matches/cd5cd3f0/Manchester-City-Brighton-and-Hove-Albion-October-22-2022-Premier-League
+26,2025-02-22,17:30,Aston Villa,2.0,2.3,1.0,2.3,Chelsea,"42,423",Michael Oliver,Villa Park,H,https://fbref.com//en/matches/5109d405/Aston-Villa-Chelsea-February-22-2025-Premier-League
+25,2025-02-15,15:00,Southampton,1.0,0.8,3.0,1.2,Bournemouth,"31,037",Jarred Gillett,St Mary's Stadium,A,https://fbref.com//en/matches/ce3da486/Southampton-Bournemouth-February-15-2025-Premier-League
+13,2024-11-29,20:00,Brighton,1.0,1.7,1.0,1.0,Southampton,"31,542",Robert Jones,The American Express Stadium,D,https://fbref.com//en/matches/d38c4a31/Brighton-and-Hove-Albion-Southampton-November-29-2024-Premier-League
+38,2025-05-25,16:00,Nott'ham Forest,,,,,Chelsea,,,The City Ground,,
+11,2023-11-04,15:00,Burnley,0.0,1.1,2.0,1.3,Crystal Palace,"21,578",Peter Bankes,Turf Moor,A,https://fbref.com//en/matches/8797f9a9/Burnley-Crystal-Palace-November-4-2023-Premier-League
+9,2023-10-22,16:30,Aston Villa,4.0,1.9,1.0,1.1,West Ham,"41,734",David Coote,Villa Park,H,https://fbref.com//en/matches/7efcc598/Aston-Villa-West-Ham-United-October-22-2023-Premier-League
+3,2022-08-20,15:00,Fulham,3.0,2.4,2.0,1.8,Brentford,"21,798",Peter Bankes,Craven Cottage,H,https://fbref.com//en/matches/a107c037/Fulham-Brentford-August-20-2022-Premier-League
+21,2024-01-22,19:45,Brighton,0.0,1.0,0.0,1.1,Wolves,"41,505",Craig Pawson,The American Express Community Stadium,D,https://fbref.com//en/matches/35fb5bc2/Brighton-and-Hove-Albion-Wolverhampton-Wanderers-January-22-2024-Premier-League
+23,2024-02-03,17:30,Sheffield Utd,0.0,1.4,5.0,2.2,Aston Villa,"30,187",Paul Tierney,Bramall Lane,A,https://fbref.com//en/matches/b3e195c5/Sheffield-United-Aston-Villa-February-3-2024-Premier-League
+30,2024-03-30,15:00,Tottenham,2.0,2.9,1.0,0.5,Luton Town,"61,534",Jarred Gillett,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/6397e2af/Tottenham-Hotspur-Luton-Town-March-30-2024-Premier-League
+12,2024-11-23,15:00,Everton,0.0,1.2,0.0,1.1,Brentford,"38,915",Chris Kavanagh,Goodison Park,D,https://fbref.com//en/matches/dd7675a7/Everton-Brentford-November-23-2024-Premier-League
+37,2023-05-21,16:00,Manchester City,1.0,1.2,0.0,1.2,Chelsea,"53,490",Michael Oliver,Etihad Stadium,H,https://fbref.com//en/matches/589e447b/Manchester-City-Chelsea-May-21-2023-Premier-League
+27,2025-02-26,19:30,Manchester Utd,3.0,0.7,2.0,1.4,Ipswich Town,"73,827",Darren England,Old Trafford,H,https://fbref.com//en/matches/bf6aa8ee/Manchester-United-Ipswich-Town-February-26-2025-Premier-League
+20,2025-01-04,15:00,Manchester City,4.0,1.9,1.0,1.4,West Ham,"52,737",Michael Salisbury,Etihad Stadium,H,https://fbref.com//en/matches/d7773a4c/Manchester-City-West-Ham-United-January-4-2025-Premier-League
+1,2023-08-12,15:00,Sheffield Utd,0.0,0.5,1.0,1.9,Crystal Palace,"31,194",John Brooks,Bramall Lane,A,https://fbref.com//en/matches/55fd92c7/Sheffield-United-Crystal-Palace-August-12-2023-Premier-League
+8,2023-10-07,15:00,Fulham,3.0,2.2,1.0,0.6,Sheffield Utd,"24,361",Samuel Barrott,Craven Cottage,H,https://fbref.com//en/matches/ffc59ea8/Fulham-Sheffield-United-October-7-2023-Premier-League
+28,2023-03-18,15:00,Wolves,2.0,2.7,4.0,1.6,Leeds United,"31,570",Michael Salisbury,Molineux Stadium,A,https://fbref.com//en/matches/3cb714a4/Wolverhampton-Wanderers-Leeds-United-March-18-2023-Premier-League
+10,2024-11-02,15:00,Liverpool,2.0,1.6,1.0,1.0,Brighton,"60,331",Tony Harrington,Anfield,H,https://fbref.com//en/matches/7d114c70/Liverpool-Brighton-and-Hove-Albion-November-2-2024-Premier-League
+11,2024-11-09,15:00,Crystal Palace,0.0,1.5,2.0,1.8,Fulham,"25,142",Michael Salisbury,Selhurst Park,A,https://fbref.com//en/matches/d5015ba4/Crystal-Palace-Fulham-November-9-2024-Premier-League
+7,2023-09-30,15:00,West Ham,2.0,2.1,0.0,1.1,Sheffield Utd,"62,459",Graham Scott,London Stadium,H,https://fbref.com//en/matches/b82be6d7/West-Ham-United-Sheffield-United-September-30-2023-Premier-League
+2,2023-08-19,20:00,Manchester City,1.0,1.0,0.0,0.3,Newcastle Utd,"53,419",Robert Jones,Etihad Stadium,H,https://fbref.com//en/matches/0b8f50a5/Manchester-City-Newcastle-United-August-19-2023-Premier-League
+7,2023-01-12,20:00,Fulham,2.0,1.0,1.0,2.1,Chelsea,"24,460",David Coote,Craven Cottage,H,https://fbref.com//en/matches/2902a42d/Fulham-Chelsea-January-12-2023-Premier-League
+2,2022-08-14,16:30,Chelsea,2.0,1.6,2.0,1.0,Tottenham,"39,946",Anthony Taylor,Stamford Bridge,D,https://fbref.com//en/matches/01e57bf5/Chelsea-Tottenham-Hotspur-August-14-2022-Premier-League
+38,2024-05-19,16:00,Burnley,1.0,1.2,2.0,1.7,Nott'ham Forest,"21,109",Graham Scott,Turf Moor,A,https://fbref.com//en/matches/dafb05fe/Burnley-Nottingham-Forest-May-19-2024-Premier-League
+35,2024-04-27,15:00,Newcastle Utd,5.0,3.1,1.0,1.5,Sheffield Utd,"52,196",Tony Harrington,St James' Park,H,https://fbref.com//en/matches/e92d40be/Newcastle-United-Sheffield-United-April-27-2024-Premier-League
+8,2022-09-16,20:00,Nott'ham Forest,2.0,1.4,3.0,0.9,Fulham,"28,654",Jarred Gillett,The City Ground,A,https://fbref.com//en/matches/d0d07e66/Nottingham-Forest-Fulham-September-16-2022-Premier-League
+29,2023-04-01,15:00,Nott'ham Forest,1.0,1.3,1.0,0.5,Wolves,"29,368",Chris Kavanagh,The City Ground,D,https://fbref.com//en/matches/c14b278c/Nottingham-Forest-Wolverhampton-Wanderers-April-1-2023-Premier-League
+32,2025-04-12,12:30,Manchester City,,,,,Crystal Palace,,,Etihad Stadium,,
+29,2023-04-02,16:30,Newcastle Utd,2.0,3.7,0.0,0.4,Manchester Utd,"52,268",Stuart Attwell,St James' Park,H,https://fbref.com//en/matches/1ed948f6/Newcastle-United-Manchester-United-April-2-2023-Premier-League
+37,2024-05-11,15:00,Bournemouth,1.0,0.7,2.0,1.1,Brentford,"11,154",Matt Donohue,Vitality Stadium,A,https://fbref.com//en/matches/e7b6ebb6/Bournemouth-Brentford-May-11-2024-Premier-League
+32,2023-05-24,20:00,Brighton,1.0,2.2,1.0,1.8,Manchester City,"31,388",Simon Hooper,The American Express Community Stadium,D,https://fbref.com//en/matches/d4bee10d/Brighton-and-Hove-Albion-Manchester-City-May-24-2023-Premier-League
+3,2024-08-31,15:00,Everton,2.0,1.8,3.0,2.4,Bournemouth,"38,805",Stuart Attwell,Goodison Park,A,https://fbref.com//en/matches/58bbe046/Everton-Bournemouth-August-31-2024-Premier-League
+29,2025-03-15,15:00,Manchester City,2.0,1.7,2.0,2.0,Brighton,,Simon Hooper,Etihad Stadium,D,https://fbref.com//en/matches/83fc3d29/Manchester-City-Brighton-and-Hove-Albion-March-15-2025-Premier-League
+37,2024-05-11,15:00,Tottenham,2.0,2.7,1.0,0.7,Burnley,"61,148",Jarred Gillett,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/45c36efd/Tottenham-Hotspur-Burnley-May-11-2024-Premier-League
+17,2023-12-17,14:00,Arsenal,2.0,2.3,0.0,0.7,Brighton,"60,257",Tim Robinson,Emirates Stadium,H,https://fbref.com//en/matches/e3a46a4e/Arsenal-Brighton-and-Hove-Albion-December-17-2023-Premier-League
+2,2024-08-24,15:00,Manchester City,4.0,3.3,1.0,0.3,Ipswich Town,"53,147",Samuel Allison,Etihad Stadium,H,https://fbref.com//en/matches/a24b7a43/Manchester-City-Ipswich-Town-August-24-2024-Premier-League
+28,2025-03-08,15:00,Liverpool,3.0,3.9,1.0,0.4,Southampton,"60,399",Lewis Smith,Anfield,H,https://fbref.com//en/matches/049341ab/Liverpool-Southampton-March-8-2025-Premier-League
+8,2023-10-08,14:00,West Ham,2.0,1.2,2.0,2.0,Newcastle Utd,"62,473",Peter Bankes,London Stadium,D,https://fbref.com//en/matches/017c9ca5/West-Ham-United-Newcastle-United-October-8-2023-Premier-League
+2,2023-08-19,15:00,Wolves,1.0,2.1,4.0,2.2,Brighton,"31,317",Andy Madley,Molineux Stadium,A,https://fbref.com//en/matches/d7c606ec/Wolverhampton-Wanderers-Brighton-and-Hove-Albion-August-19-2023-Premier-League
+5,2024-09-21,15:00,Southampton,1.0,2.4,1.0,1.6,Ipswich Town,"31,117",Samuel Allison,St Mary's Stadium,D,https://fbref.com//en/matches/948d52cc/Southampton-Ipswich-Town-September-21-2024-Premier-League
+9,2024-10-27,14:00,Crystal Palace,1.0,0.8,0.0,0.7,Tottenham,"25,108",Darren Bond,Selhurst Park,H,https://fbref.com//en/matches/e995d937/Crystal-Palace-Tottenham-Hotspur-October-27-2024-Premier-League
+38,2023-05-28,16:30,Everton,1.0,1.0,0.0,0.5,Bournemouth,"39,201",Stuart Attwell,Goodison Park,H,https://fbref.com//en/matches/94de848f/Everton-Bournemouth-May-28-2023-Premier-League
+4,2023-09-02,15:00,Manchester City,5.0,2.2,1.0,1.4,Fulham,"52,899",Michael Oliver,Etihad Stadium,H,https://fbref.com//en/matches/88066bdf/Manchester-City-Fulham-September-2-2023-Premier-League
+9,2022-10-02,14:00,Manchester City,6.0,3.2,3.0,1.7,Manchester Utd,"53,475",Michael Oliver,Etihad Stadium,H,https://fbref.com//en/matches/886e6108/Manchester-Derby-Manchester-City-Manchester-United-October-2-2022-Premier-League
+31,2025-04-06,14:00,Fulham,,,,,Liverpool,,,Craven Cottage,,
+13,2023-11-25,12:30,Manchester City,1.0,1.3,1.0,0.6,Liverpool,"53,289",Chris Kavanagh,Etihad Stadium,D,https://fbref.com//en/matches/5d4a5006/Manchester-City-Liverpool-November-25-2023-Premier-League
+34,2024-04-21,15:00,Aston Villa,3.0,2.4,1.0,1.8,Bournemouth,"42,189",Tim Robinson,Villa Park,H,https://fbref.com//en/matches/6236de96/Aston-Villa-Bournemouth-April-21-2024-Premier-League
+13,2022-10-23,16:30,Tottenham,1.0,1.6,2.0,1.2,Newcastle Utd,"61,726",Jarred Gillett,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/ae21490f/Tottenham-Hotspur-Newcastle-United-October-23-2022-Premier-League
+4,2023-09-03,14:00,Crystal Palace,3.0,2.1,2.0,1.2,Wolves,"24,741",Robert Jones,Selhurst Park,H,https://fbref.com//en/matches/f9436d32/Crystal-Palace-Wolverhampton-Wanderers-September-3-2023-Premier-League
+23,2024-02-03,15:00,Burnley,2.0,1.8,2.0,1.5,Fulham,"20,203",Darren Bond,Turf Moor,D,https://fbref.com//en/matches/a2436e30/Burnley-Fulham-February-3-2024-Premier-League
+23,2024-02-04,14:00,Manchester Utd,3.0,0.7,0.0,1.4,West Ham,"73,612",Andy Madley,Old Trafford,H,https://fbref.com//en/matches/dc1428be/Manchester-United-West-Ham-United-February-4-2024-Premier-League
+11,2022-10-15,15:00,Fulham,2.0,2.1,2.0,1.0,Bournemouth,"22,541",Graham Scott,Craven Cottage,D,https://fbref.com//en/matches/ab7f61dd/Fulham-Bournemouth-October-15-2022-Premier-League
+33,2025-04-21,20:00,Tottenham,,,,,Nott'ham Forest,,,Tottenham Hotspur Stadium,,
+12,2023-11-12,14:00,Brighton,1.0,1.5,1.0,1.1,Sheffield Utd,"31,367",John Brooks,The American Express Community Stadium,D,https://fbref.com//en/matches/ebf41e41/Brighton-and-Hove-Albion-Sheffield-United-November-12-2023-Premier-League
+27,2025-02-25,19:30,Brighton,2.0,2.4,1.0,1.5,Bournemouth,"31,138",Michael Oliver,The American Express Stadium,H,https://fbref.com//en/matches/fade9277/Brighton-and-Hove-Albion-Bournemouth-February-25-2025-Premier-League
+2,2024-08-25,14:00,Bournemouth,1.0,2.2,1.0,1.6,Newcastle Utd,"11,161",David Coote,Vitality Stadium,D,https://fbref.com//en/matches/1934f267/Bournemouth-Newcastle-United-August-25-2024-Premier-League
+5,2024-09-21,17:30,Crystal Palace,0.0,1.0,0.0,1.6,Manchester Utd,"25,172",David Coote,Selhurst Park,D,https://fbref.com//en/matches/929e225f/Crystal-Palace-Manchester-United-September-21-2024-Premier-League
+2,2022-08-13,15:00,Manchester City,4.0,1.7,0.0,0.1,Bournemouth,"53,453",David Coote,Etihad Stadium,H,https://fbref.com//en/matches/311d705c/Manchester-City-Bournemouth-August-13-2022-Premier-League
+2,2023-08-20,14:00,Aston Villa,4.0,2.9,0.0,0.6,Everton,"41,694",Anthony Taylor,Villa Park,H,https://fbref.com//en/matches/959b558d/Aston-Villa-Everton-August-20-2023-Premier-League
+30,2024-03-30,15:00,Sheffield Utd,3.0,1.9,3.0,1.3,Fulham,"30,010",Tim Robinson,Bramall Lane,D,https://fbref.com//en/matches/ad4a1302/Sheffield-United-Fulham-March-30-2024-Premier-League
+24,2025-02-02,16:30,Arsenal,5.0,1.0,1.0,0.8,Manchester City,"60,355",Peter Bankes,Emirates Stadium,H,https://fbref.com//en/matches/2906e921/Arsenal-Manchester-City-February-2-2025-Premier-League
+5,2022-08-30,19:45,Southampton,2.0,1.1,1.0,1.1,Chelsea,"31,542",Michael Oliver,St. Mary's Stadium,H,https://fbref.com//en/matches/afd303a8/Southampton-Chelsea-August-30-2022-Premier-League
+19,2023-01-03,19:45,Leicester City,0.0,1.7,1.0,1.7,Fulham,"30,813",Darren Bond,King Power Stadium,A,https://fbref.com//en/matches/12e0894b/Leicester-City-Fulham-January-3-2023-Premier-League
+4,2023-09-03,14:00,Liverpool,3.0,2.5,0.0,0.7,Aston Villa,"50,109",Simon Hooper,Anfield,H,https://fbref.com//en/matches/bdbc722e/Liverpool-Aston-Villa-September-3-2023-Premier-League
+20,2024-01-01,20:00,Liverpool,4.0,7.0,2.0,0.6,Newcastle Utd,"57,471",Anthony Taylor,Anfield,H,https://fbref.com//en/matches/107b2d79/Liverpool-Newcastle-United-January-1-2024-Premier-League
+25,2025-02-15,15:00,Aston Villa,1.0,2.4,1.0,0.4,Ipswich Town,"42,510",Robert Jones,Villa Park,D,https://fbref.com//en/matches/06fee8c4/Aston-Villa-Ipswich-Town-February-15-2025-Premier-League
+29,2024-04-24,20:00,Crystal Palace,2.0,0.9,0.0,0.4,Newcastle Utd,"25,002",Thomas Bramall,Selhurst Park,H,https://fbref.com//en/matches/ee21eba2/Crystal-Palace-Newcastle-United-April-24-2024-Premier-League
+5,2023-09-17,14:00,Bournemouth,0.0,1.0,0.0,1.8,Chelsea,"10,421",David Coote,Vitality Stadium,D,https://fbref.com//en/matches/be0cbf88/Bournemouth-Chelsea-September-17-2023-Premier-League
+17,2023-12-16,17:30,Burnley,0.0,0.7,2.0,1.4,Everton,"21,413",Anthony Taylor,Turf Moor,A,https://fbref.com//en/matches/01904d1d/Burnley-Everton-December-16-2023-Premier-League
+31,2025-04-06,14:00,Tottenham,,,,,Southampton,,,Tottenham Hotspur Stadium,,
+36,2025-05-10,15:00,Manchester Utd,,,,,West Ham,,,Old Trafford,,
+11,2024-11-09,17:30,Brighton,2.0,2.3,1.0,2.1,Manchester City,"31,715",Samuel Barrott,The American Express Stadium,H,https://fbref.com//en/matches/62aa7905/Brighton-and-Hove-Albion-Manchester-City-November-9-2024-Premier-League
+13,2024-11-30,15:00,Wolves,2.0,0.5,4.0,3.3,Bournemouth,"26,685",Peter Bankes,Molineux Stadium,A,https://fbref.com//en/matches/adfb1b89/Wolverhampton-Wanderers-Bournemouth-November-30-2024-Premier-League
+27,2023-03-12,14:00,Manchester Utd,0.0,0.8,0.0,1.0,Southampton,"73,439",Anthony Taylor,Old Trafford,D,https://fbref.com//en/matches/9cd3ca2c/Manchester-United-Southampton-March-12-2023-Premier-League
+28,2023-05-03,20:00,Manchester City,3.0,2.3,0.0,0.4,West Ham,"53,305",John Brooks,Etihad Stadium,H,https://fbref.com//en/matches/fccab6ff/Manchester-City-West-Ham-United-May-3-2023-Premier-League
+2,2022-08-13,15:00,Brighton,0.0,1.5,0.0,0.2,Newcastle Utd,"31,552",Graham Scott,The American Express Community Stadium,D,https://fbref.com//en/matches/c916a5f6/Brighton-and-Hove-Albion-Newcastle-United-August-13-2022-Premier-League
+4,2024-09-14,17:30,Aston Villa,3.0,2.1,2.0,0.9,Everton,"41,573",Craig Pawson,Villa Park,H,https://fbref.com//en/matches/cdb4c33b/Aston-Villa-Everton-September-14-2024-Premier-League
+34,2023-04-29,12:30,Crystal Palace,4.0,2.1,3.0,1.7,West Ham,"25,148",Craig Pawson,Selhurst Park,H,https://fbref.com//en/matches/4ec72d3b/Crystal-Palace-West-Ham-United-April-29-2023-Premier-League
+21,2025-01-14,19:30,Chelsea,2.0,2.5,2.0,1.2,Bournemouth,"39,092",Robert Jones,Stamford Bridge,D,https://fbref.com//en/matches/fff671a9/Chelsea-Bournemouth-January-14-2025-Premier-League
+20,2025-01-04,15:00,Aston Villa,2.0,1.4,1.0,0.4,Leicester City,"42,386",Jarred Gillett,Villa Park,H,https://fbref.com//en/matches/f5ae8d7d/Aston-Villa-Leicester-City-January-4-2025-Premier-League
+24,2023-02-18,15:00,Brighton,0.0,2.2,1.0,0.3,Fulham,"31,619",Darren England,The American Express Community Stadium,A,https://fbref.com//en/matches/67a7aee6/Brighton-and-Hove-Albion-Fulham-February-18-2023-Premier-League
+20,2023-01-14,15:00,Everton,1.0,1.4,2.0,1.2,Southampton,"39,305",John Brooks,Goodison Park,A,https://fbref.com//en/matches/11603f7f/Everton-Southampton-January-14-2023-Premier-League
+12,2022-10-19,19:30,Bournemouth,0.0,1.0,1.0,1.0,Southampton,"10,405",John Brooks,Vitality Stadium,A,https://fbref.com//en/matches/8a2bb3b6/Bournemouth-Southampton-October-19-2022-Premier-League
+15,2023-12-05,20:15,Luton Town,3.0,0.5,4.0,2.2,Arsenal,"11,031",Samuel Barrott,Kenilworth Road Stadium,A,https://fbref.com//en/matches/dd3a5afc/Luton-Town-Arsenal-December-5-2023-Premier-League
+3,2022-08-20,15:00,Everton,1.0,1.5,1.0,1.0,Nott'ham Forest,"39,271",Andre Marriner,Goodison Park,D,https://fbref.com//en/matches/3c3cc86f/Everton-Nottingham-Forest-August-20-2022-Premier-League
+36,2023-05-15,20:00,Leicester City,0.0,0.4,3.0,2.2,Liverpool,"32,225",Craig Pawson,King Power Stadium,A,https://fbref.com//en/matches/7dd0fbd7/Leicester-City-Liverpool-May-15-2023-Premier-League
+9,2024-10-26,17:30,Everton,1.0,0.8,1.0,1.2,Fulham,"38,742",John Brooks,Goodison Park,D,https://fbref.com//en/matches/1e5152bf/Everton-Fulham-October-26-2024-Premier-League
+30,2025-04-02,19:45,Newcastle Utd,,,,,Brentford,,,St James' Park,,
+24,2024-02-10,15:00,Wolves,0.0,1.0,2.0,1.9,Brentford,"30,731",Simon Hooper,Molineux Stadium,A,https://fbref.com//en/matches/922cd256/Wolverhampton-Wanderers-Brentford-February-10-2024-Premier-League
+13,2024-12-01,13:30,Chelsea,3.0,1.6,0.0,1.2,Aston Villa,"40,853",Stuart Attwell,Stamford Bridge,H,https://fbref.com//en/matches/080b797b/Chelsea-Aston-Villa-December-1-2024-Premier-League
+35,2023-05-06,15:00,Manchester City,2.0,2.6,1.0,0.2,Leeds United,"53,406",Andy Madley,Etihad Stadium,H,https://fbref.com//en/matches/7ee695ea/Manchester-City-Leeds-United-May-6-2023-Premier-League
+6,2023-09-23,15:00,Crystal Palace,0.0,0.3,0.0,0.6,Fulham,"25,072",Paul Tierney,Selhurst Park,D,https://fbref.com//en/matches/cf0b2b19/Crystal-Palace-Fulham-September-23-2023-Premier-League
+32,2024-04-07,18:00,Tottenham,3.0,1.5,1.0,1.5,Nott'ham Forest,"61,098",Simon Hooper,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/7598049f/Tottenham-Hotspur-Nottingham-Forest-April-7-2024-Premier-League
+23,2023-02-12,14:00,Leeds United,0.0,1.8,2.0,1.1,Manchester Utd,"36,919",Paul Tierney,Elland Road,A,https://fbref.com//en/matches/3386146f/Leeds-United-Manchester-United-February-12-2023-Premier-League
+22,2023-02-04,15:00,Manchester Utd,2.0,2.0,1.0,1.3,Crystal Palace,"73,420",Andre Marriner,Old Trafford,H,https://fbref.com//en/matches/dca5ea6c/Manchester-United-Crystal-Palace-February-4-2023-Premier-League
+4,2024-09-15,14:00,Tottenham,0.0,0.7,1.0,0.7,Arsenal,"61,645",Jarred Gillett,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/17774a57/North-London-Derby-Tottenham-Hotspur-Arsenal-September-15-2024-Premier-League
+11,2022-10-16,14:00,Aston Villa,0.0,1.8,2.0,0.9,Chelsea,"41,754",Robert Jones,Villa Park,A,https://fbref.com//en/matches/7113ce7f/Aston-Villa-Chelsea-October-16-2022-Premier-League
+8,2024-10-20,14:00,Wolves,1.0,0.8,2.0,1.6,Manchester City,"31,319",Chris Kavanagh,Molineux Stadium,A,https://fbref.com//en/matches/90b22cd5/Wolverhampton-Wanderers-Manchester-City-October-20-2024-Premier-League
+9,2022-10-01,15:00,Southampton,1.0,1.7,2.0,2.0,Everton,"30,510",Andre Marriner,St. Mary's Stadium,A,https://fbref.com//en/matches/06d00bcb/Southampton-Everton-October-1-2022-Premier-League
+3,2024-09-01,16:00,Manchester Utd,0.0,1.4,3.0,1.8,Liverpool,"73,738",Anthony Taylor,Old Trafford,A,https://fbref.com//en/matches/a7ab7a12/North-West-Derby-Manchester-United-Liverpool-September-1-2024-Premier-League
+7,2023-04-05,20:00,West Ham,1.0,1.0,5.0,3.3,Newcastle Utd,"62,481",Craig Pawson,London Stadium,A,https://fbref.com//en/matches/4a87012d/West-Ham-United-Newcastle-United-April-5-2023-Premier-League
+25,2025-02-16,14:00,Liverpool,2.0,1.7,1.0,1.5,Wolves,"60,248",Simon Hooper,Anfield,H,https://fbref.com//en/matches/6a917c79/Liverpool-Wolverhampton-Wanderers-February-16-2025-Premier-League
+6,2023-09-24,14:00,Arsenal,2.0,1.8,2.0,1.4,Tottenham,"60,156",Robert Jones,Emirates Stadium,D,https://fbref.com//en/matches/08947a10/North-London-Derby-Arsenal-Tottenham-Hotspur-September-24-2023-Premier-League
+34,2024-04-20,15:00,Sheffield Utd,1.0,2.4,4.0,2.2,Burnley,"28,964",Andy Madley,Bramall Lane,A,https://fbref.com//en/matches/ee8223ec/Sheffield-United-Burnley-April-20-2024-Premier-League
+17,2022-12-27,17:30,Chelsea,2.0,1.8,0.0,0.5,Bournemouth,"40,046",Simon Hooper,Stamford Bridge,H,https://fbref.com//en/matches/d55b9033/Chelsea-Bournemouth-December-27-2022-Premier-League
+9,2022-10-02,16:30,Leeds United,0.0,0.4,0.0,2.2,Aston Villa,"36,582",Stuart Attwell,Elland Road,D,https://fbref.com//en/matches/627d2279/Leeds-United-Aston-Villa-October-2-2022-Premier-League
+17,2024-12-22,14:00,Manchester Utd,0.0,2.2,3.0,1.6,Bournemouth,"73,720",Craig Pawson,Old Trafford,A,https://fbref.com//en/matches/8381ba53/Manchester-United-Bournemouth-December-22-2024-Premier-League
+21,2024-01-13,17:30,Newcastle Utd,2.0,1.3,3.0,3.0,Manchester City,"52,190",Chris Kavanagh,St James' Park,A,https://fbref.com//en/matches/738f8c3e/Newcastle-United-Manchester-City-January-13-2024-Premier-League
+7,2023-09-30,17:30,Tottenham,2.0,2.2,1.0,1.3,Liverpool,"62,001",Simon Hooper,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/ec4145b4/Tottenham-Hotspur-Liverpool-September-30-2023-Premier-League
+7,2023-01-19,20:00,Manchester City,4.0,2.3,2.0,0.8,Tottenham,"53,088",Simon Hooper,Etihad Stadium,H,https://fbref.com//en/matches/847f0a9c/Manchester-City-Tottenham-Hotspur-January-19-2023-Premier-League
+29,2023-04-01,15:00,Arsenal,4.0,3.8,1.0,0.7,Leeds United,"60,283",Darren England,Emirates Stadium,H,https://fbref.com//en/matches/2e4383ca/Arsenal-Leeds-United-April-1-2023-Premier-League
+25,2023-02-25,17:30,Bournemouth,1.0,1.0,4.0,2.4,Manchester City,"10,481",Paul Tierney,Vitality Stadium,A,https://fbref.com//en/matches/e731c1dd/Bournemouth-Manchester-City-February-25-2023-Premier-League
+11,2023-11-05,14:00,Nott'ham Forest,2.0,0.4,0.0,1.2,Aston Villa,"29,313",Jarred Gillett,The City Ground,H,https://fbref.com//en/matches/ac18f108/Nottingham-Forest-Aston-Villa-November-5-2023-Premier-League
+35,2025-05-03,15:00,Chelsea,,,,,Liverpool,,,Stamford Bridge,,
+19,2023-12-26,15:00,Bournemouth,3.0,1.8,0.0,0.3,Fulham,"11,099",Tim Robinson,Vitality Stadium,H,https://fbref.com//en/matches/331c942d/Bournemouth-Fulham-December-26-2023-Premier-League
+14,2022-10-29,15:00,Brentford,1.0,1.4,1.0,0.6,Wolves,"17,051",Robert Madley,Brentford Community Stadium,D,https://fbref.com//en/matches/41e403d3/Brentford-Wolverhampton-Wanderers-October-29-2022-Premier-League
+18,2024-12-26,15:00,Bournemouth,0.0,1.4,0.0,0.4,Crystal Palace,"11,129",Thomas Bramall,Vitality Stadium,D,https://fbref.com//en/matches/886ca6b3/Bournemouth-Crystal-Palace-December-26-2024-Premier-League
+27,2025-02-25,20:15,Chelsea,4.0,2.4,0.0,0.7,Southampton,"39,485",Thomas Bramall,Stamford Bridge,H,https://fbref.com//en/matches/21d4a457/Chelsea-Southampton-February-25-2025-Premier-League
+14,2023-12-02,15:00,Burnley,5.0,1.8,0.0,0.4,Sheffield Utd,"21,478",Chris Kavanagh,Turf Moor,H,https://fbref.com//en/matches/e2c53b0a/Burnley-Sheffield-United-December-2-2023-Premier-League
+26,2024-02-24,15:00,Aston Villa,4.0,3.6,2.0,2.6,Nott'ham Forest,"42,131",Samuel Barrott,Villa Park,H,https://fbref.com//en/matches/f61fbe36/Aston-Villa-Nottingham-Forest-February-24-2024-Premier-League
+33,2024-04-13,15:00,Manchester City,5.0,4.2,1.0,0.5,Luton Town,"52,149",John Brooks,Etihad Stadium,H,https://fbref.com//en/matches/40128bc4/Manchester-City-Luton-Town-April-13-2024-Premier-League
+16,2024-12-14,17:30,Nott'ham Forest,2.0,1.7,1.0,0.4,Aston Villa,"30,117",Samuel Barrott,The City Ground,H,https://fbref.com//en/matches/26926fd3/Nottingham-Forest-Aston-Villa-December-14-2024-Premier-League
+15,2024-12-09,20:00,West Ham,2.0,1.0,1.0,1.4,Wolves,"62,474",John Brooks,London Stadium,H,https://fbref.com//en/matches/4d72ec87/West-Ham-United-Wolverhampton-Wanderers-December-9-2024-Premier-League
+15,2022-11-05,15:00,Nott'ham Forest,2.0,1.5,2.0,1.5,Brentford,"28,869",Andre Marriner,The City Ground,D,https://fbref.com//en/matches/12251835/Nottingham-Forest-Brentford-November-5-2022-Premier-League
+14,2022-10-29,12:30,Leicester City,0.0,0.7,1.0,1.0,Manchester City,"32,223",Robert Jones,King Power Stadium,A,https://fbref.com//en/matches/96b9ae4e/Leicester-City-Manchester-City-October-29-2022-Premier-League
+10,2023-10-28,15:00,Arsenal,5.0,2.8,0.0,0.0,Sheffield Utd,"60,153",Tim Robinson,Emirates Stadium,H,https://fbref.com//en/matches/d498f918/Arsenal-Sheffield-United-October-28-2023-Premier-League
+12,2024-11-23,15:00,Aston Villa,2.0,3.0,2.0,1.3,Crystal Palace,"42,175",Tim Robinson,Villa Park,D,https://fbref.com//en/matches/bf2e07a1/Aston-Villa-Crystal-Palace-November-23-2024-Premier-League
+6,2022-09-03,17:30,Aston Villa,1.0,0.3,1.0,2.1,Manchester City,"41,830",Simon Hooper,Villa Park,D,https://fbref.com//en/matches/3091f0b8/Aston-Villa-Manchester-City-September-3-2022-Premier-League
+23,2024-02-04,14:00,Bournemouth,1.0,1.3,1.0,0.5,Nott'ham Forest,"11,200",Rebecca Welch,Vitality Stadium,D,https://fbref.com//en/matches/29948898/Bournemouth-Nottingham-Forest-February-4-2024-Premier-League
+10,2024-11-02,15:00,Nott'ham Forest,3.0,2.2,0.0,0.1,West Ham,"30,112",Peter Bankes,The City Ground,H,https://fbref.com//en/matches/c2505640/Nottingham-Forest-West-Ham-United-November-2-2024-Premier-League
+28,2024-03-10,15:45,Liverpool,1.0,2.7,1.0,1.6,Manchester City,"59,947",Michael Oliver,Anfield,D,https://fbref.com//en/matches/96da3e29/Liverpool-Manchester-City-March-10-2024-Premier-League
+5,2024-09-21,15:00,Leicester City,1.0,0.7,1.0,1.1,Everton,"31,765",Darren England,King Power Stadium,D,https://fbref.com//en/matches/4e6e1cc7/Leicester-City-Everton-September-21-2024-Premier-League
+6,2024-09-28,15:00,Brentford,1.0,0.4,1.0,1.0,West Ham,"17,050",Simon Hooper,Gtech Community Stadium,D,https://fbref.com//en/matches/9c4f2bcd/Brentford-West-Ham-United-September-28-2024-Premier-League
+12,2022-10-20,20:15,Leicester City,2.0,0.8,0.0,1.3,Leeds United,"30,814",Peter Bankes,King Power Stadium,H,https://fbref.com//en/matches/6356af5a/Leicester-City-Leeds-United-October-20-2022-Premier-League
+26,2024-02-24,20:00,Arsenal,4.0,2.8,1.0,0.2,Newcastle Utd,"60,298",Paul Tierney,Emirates Stadium,H,https://fbref.com//en/matches/8f922133/Arsenal-Newcastle-United-February-24-2024-Premier-League
+32,2023-05-25,20:00,Manchester Utd,4.0,5.2,1.0,1.9,Chelsea,"73,561",Stuart Attwell,Old Trafford,H,https://fbref.com//en/matches/d2f2263d/Manchester-United-Chelsea-May-25-2023-Premier-League
+28,2023-03-18,17:30,Chelsea,2.0,2.3,2.0,1.2,Everton,"40,025",Darren England,Stamford Bridge,D,https://fbref.com//en/matches/9453dba7/Chelsea-Everton-March-18-2023-Premier-League
+28,2024-03-10,14:00,Brighton,1.0,0.4,0.0,0.7,Nott'ham Forest,"31,505",Michael Salisbury,The American Express Community Stadium,H,https://fbref.com//en/matches/f17d9ccd/Brighton-and-Hove-Albion-Nottingham-Forest-March-10-2024-Premier-League
+5,2022-08-31,19:30,Arsenal,2.0,2.4,1.0,0.4,Aston Villa,"60,012",Robert Jones,Emirates Stadium,H,https://fbref.com//en/matches/cc235aad/Arsenal-Aston-Villa-August-31-2022-Premier-League
+36,2023-05-13,15:00,Chelsea,2.0,1.2,2.0,1.3,Nott'ham Forest,"40,030",Paul Tierney,Stamford Bridge,D,https://fbref.com//en/matches/96ab0b45/Chelsea-Nottingham-Forest-May-13-2023-Premier-League
+21,2023-01-22,14:00,Manchester City,3.0,2.8,0.0,0.8,Wolves,"53,282",David Coote,Etihad Stadium,H,https://fbref.com//en/matches/7337f90a/Manchester-City-Wolverhampton-Wanderers-January-22-2023-Premier-League
+12,2022-10-19,19:30,Newcastle Utd,1.0,1.5,0.0,0.2,Everton,"52,247",Tony Harrington,St James' Park,H,https://fbref.com//en/matches/e6674f8d/Newcastle-United-Everton-October-19-2022-Premier-League
+1,2022-08-06,15:00,Leeds United,2.0,0.8,1.0,1.3,Wolves,"36,347",Robert Jones,Elland Road,H,https://fbref.com//en/matches/82702941/Leeds-United-Wolverhampton-Wanderers-August-6-2022-Premier-League
+24,2025-02-03,20:00,Chelsea,2.0,1.6,1.0,1.2,West Ham,"39,459",Stuart Attwell,Stamford Bridge,H,https://fbref.com//en/matches/ed7df9b1/Chelsea-West-Ham-United-February-3-2025-Premier-League
+13,2024-11-30,15:00,Brentford,4.0,2.4,1.0,1.1,Leicester City,"17,084",Michael Oliver,Gtech Community Stadium,H,https://fbref.com//en/matches/f4f9a64f/Brentford-Leicester-City-November-30-2024-Premier-League
+18,2024-12-26,15:00,Chelsea,1.0,1.1,2.0,1.8,Fulham,"39,687",Samuel Barrott,Stamford Bridge,A,https://fbref.com//en/matches/03d6159c/Chelsea-Fulham-December-26-2024-Premier-League
+28,2023-03-17,20:00,Nott'ham Forest,1.0,0.4,2.0,2.4,Newcastle Utd,"29,362",Paul Tierney,The City Ground,A,https://fbref.com//en/matches/5345049a/Nottingham-Forest-Newcastle-United-March-17-2023-Premier-League
+19,2024-12-30,19:45,Ipswich Town,2.0,1.6,0.0,2.0,Chelsea,"29,968",John Brooks,Portman Road Stadium,H,https://fbref.com//en/matches/88073205/Ipswich-Town-Chelsea-December-30-2024-Premier-League
+7,2023-09-30,15:00,Newcastle Utd,2.0,3.1,0.0,0.6,Burnley,"51,687",Thomas Bramall,St James' Park,H,https://fbref.com//en/matches/a79ff136/Newcastle-United-Burnley-September-30-2023-Premier-League
+18,2024-12-27,19:30,Brighton,0.0,1.3,0.0,1.1,Brentford,"31,548",Andy Madley,The American Express Stadium,D,https://fbref.com//en/matches/15b10b33/Brighton-and-Hove-Albion-Brentford-December-27-2024-Premier-League
+37,2024-05-13,20:00,Aston Villa,3.0,3.1,3.0,1.7,Liverpool,"42,241",Simon Hooper,Villa Park,D,https://fbref.com//en/matches/72c0709d/Aston-Villa-Liverpool-May-13-2024-Premier-League
+20,2025-01-06,20:00,Wolves,0.0,1.5,3.0,2.1,Nott'ham Forest,"29,940",Peter Bankes,Molineux Stadium,A,https://fbref.com//en/matches/56c4250a/Wolverhampton-Wanderers-Nottingham-Forest-January-6-2025-Premier-League
+31,2023-04-16,16:30,Nott'ham Forest,0.0,0.7,2.0,3.5,Manchester Utd,"29,435",Simon Hooper,The City Ground,A,https://fbref.com//en/matches/4ca8f9f6/Nottingham-Forest-Manchester-United-April-16-2023-Premier-League
+35,2023-05-06,17:30,Liverpool,1.0,2.2,0.0,0.2,Brentford,"52,838",Anthony Taylor,Anfield,H,https://fbref.com//en/matches/6e2d1c8c/Liverpool-Brentford-May-6-2023-Premier-League
+1,2024-08-17,15:00,Newcastle Utd,1.0,0.3,0.0,1.8,Southampton,"52,196",Craig Pawson,St James' Park,H,https://fbref.com//en/matches/34557647/Newcastle-United-Southampton-August-17-2024-Premier-League
+32,2023-04-23,14:00,Newcastle Utd,6.0,3.7,1.0,1.0,Tottenham,"52,252",David Coote,St James' Park,H,https://fbref.com//en/matches/dff22d13/Newcastle-United-Tottenham-Hotspur-April-23-2023-Premier-League
+17,2022-12-26,15:00,Crystal Palace,0.0,0.4,3.0,2.5,Fulham,"25,176",Andy Madley,Selhurst Park,A,https://fbref.com//en/matches/bbb301a6/Crystal-Palace-Fulham-December-26-2022-Premier-League
+14,2022-10-30,14:00,Arsenal,5.0,2.3,0.0,0.4,Nott'ham Forest,"60,263",Simon Hooper,Emirates Stadium,H,https://fbref.com//en/matches/1b496cc1/Arsenal-Nottingham-Forest-October-30-2022-Premier-League
+23,2025-01-26,16:30,Aston Villa,1.0,0.9,1.0,1.3,West Ham,"41,628",Peter Bankes,Villa Park,D,https://fbref.com//en/matches/bb05246c/Aston-Villa-West-Ham-United-January-26-2025-Premier-League
+20,2023-12-31,14:00,Tottenham,3.0,2.3,1.0,1.7,Bournemouth,"61,780",Simon Hooper,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/3ab71352/Tottenham-Hotspur-Bournemouth-December-31-2023-Premier-League
+33,2024-04-13,15:00,Burnley,1.0,1.7,1.0,0.9,Brighton,"20,687",Simon Hooper,Turf Moor,D,https://fbref.com//en/matches/c9ab1f95/Burnley-Brighton-and-Hove-Albion-April-13-2024-Premier-League
+30,2024-03-30,15:00,Bournemouth,2.0,1.3,1.0,1.0,Everton,"11,207",Samuel Barrott,Vitality Stadium,H,https://fbref.com//en/matches/0eaaf0ab/Bournemouth-Everton-March-30-2024-Premier-League
+6,2022-09-03,12:30,Everton,0.0,1.7,0.0,2.1,Liverpool,"39,240",Anthony Taylor,Goodison Park,D,https://fbref.com//en/matches/073227b6/Merseyside-Derby-Everton-Liverpool-September-3-2022-Premier-League
+26,2024-05-02,19:30,Chelsea,2.0,2.2,0.0,1.6,Tottenham,"39,086",Robert Jones,Stamford Bridge,H,https://fbref.com//en/matches/6b489131/Chelsea-Tottenham-Hotspur-May-2-2024-Premier-League
+36,2023-05-14,14:00,Everton,0.0,1.6,3.0,0.8,Manchester City,"39,376",Anthony Taylor,Goodison Park,A,https://fbref.com//en/matches/704aa0f3/Everton-Manchester-City-May-14-2023-Premier-League
+34,2025-04-26,15:00,Southampton,,,,,Fulham,,,St Mary's Stadium,,
+16,2022-11-12,17:30,Newcastle Utd,1.0,1.0,0.0,0.3,Chelsea,"52,264",Robert Jones,St James' Park,H,https://fbref.com//en/matches/e1b3eb1b/Newcastle-United-Chelsea-November-12-2022-Premier-League
+10,2023-10-27,20:00,Crystal Palace,1.0,0.6,2.0,1.1,Tottenham,"25,074",Andy Madley,Selhurst Park,A,https://fbref.com//en/matches/6b0aa474/Crystal-Palace-Tottenham-Hotspur-October-27-2023-Premier-League
+28,2024-03-10,13:00,Aston Villa,0.0,0.8,4.0,1.5,Tottenham,"42,310",Chris Kavanagh,Villa Park,A,https://fbref.com//en/matches/a32a7069/Aston-Villa-Tottenham-Hotspur-March-10-2024-Premier-League
+3,2023-08-25,20:00,Chelsea,3.0,2.2,0.0,0.4,Luton Town,"39,893",Robert Jones,Stamford Bridge,H,https://fbref.com//en/matches/6bfb9dc0/Chelsea-Luton-Town-August-25-2023-Premier-League
+4,2024-09-14,15:00,Crystal Palace,2.0,2.5,2.0,1.2,Leicester City,"25,147",Tony Harrington,Selhurst Park,D,https://fbref.com//en/matches/430cce12/Crystal-Palace-Leicester-City-September-14-2024-Premier-League
+33,2023-04-26,20:00,Manchester City,4.0,2.5,1.0,0.5,Arsenal,"53,482",Michael Oliver,Etihad Stadium,H,https://fbref.com//en/matches/00a73645/Manchester-City-Arsenal-April-26-2023-Premier-League
+2,2022-08-15,20:00,Liverpool,1.0,2.0,1.0,1.0,Crystal Palace,"52,970",Paul Tierney,Anfield,D,https://fbref.com//en/matches/b3c6f709/Liverpool-Crystal-Palace-August-15-2022-Premier-League
+32,2024-04-06,15:00,Luton Town,2.0,1.5,1.0,0.4,Bournemouth,"11,797",Andy Madley,Kenilworth Road Stadium,H,https://fbref.com//en/matches/08114c35/Luton-Town-Bournemouth-April-6-2024-Premier-League
+26,2025-02-22,15:00,Ipswich Town,1.0,1.1,4.0,1.7,Tottenham,"30,003",Tim Robinson,Portman Road Stadium,A,https://fbref.com//en/matches/7853cd1a/Ipswich-Town-Tottenham-Hotspur-February-22-2025-Premier-League
+24,2025-02-01,15:00,Everton,4.0,2.5,0.0,0.3,Leicester City,"39,376",Darren Bond,Goodison Park,H,https://fbref.com//en/matches/475670fb/Everton-Leicester-City-February-1-2025-Premier-League
+26,2025-02-22,15:00,Fulham,0.0,0.2,2.0,1.3,Crystal Palace,"26,777",Robert Jones,Craven Cottage,A,https://fbref.com//en/matches/7289bcdf/Fulham-Crystal-Palace-February-22-2025-Premier-League
+3,2023-08-27,14:00,Burnley,1.0,0.7,3.0,2.5,Aston Villa,"21,591",Michael Salisbury,Turf Moor,A,https://fbref.com//en/matches/b66a7def/Burnley-Aston-Villa-August-27-2023-Premier-League
+16,2023-12-10,14:00,Fulham,5.0,2.3,0.0,1.3,West Ham,"23,988",Paul Tierney,Craven Cottage,H,https://fbref.com//en/matches/d3dd23fb/Fulham-West-Ham-United-December-10-2023-Premier-League
+25,2025-02-15,15:00,Manchester City,4.0,1.9,0.0,0.5,Newcastle Utd,"52,479",Andy Madley,Etihad Stadium,H,https://fbref.com//en/matches/8c51fa01/Manchester-City-Newcastle-United-February-15-2025-Premier-League
+3,2024-09-01,13:30,Newcastle Utd,2.0,1.8,1.0,1.2,Tottenham,"52,211",Robert Jones,St James' Park,H,https://fbref.com//en/matches/0c994746/Newcastle-United-Tottenham-Hotspur-September-1-2024-Premier-League
+4,2022-08-28,14:00,Aston Villa,0.0,0.5,1.0,0.6,West Ham,"41,796",David Coote,Villa Park,A,https://fbref.com//en/matches/659b9113/Aston-Villa-West-Ham-United-August-28-2022-Premier-League
+19,2023-01-05,20:00,Chelsea,0.0,0.4,1.0,2.0,Manchester City,"39,998",Paul Tierney,Stamford Bridge,A,https://fbref.com//en/matches/eacda90c/Chelsea-Manchester-City-January-5-2023-Premier-League
+26,2023-03-04,15:00,Brighton,4.0,3.5,0.0,0.3,West Ham,"31,523",Stuart Attwell,The American Express Community Stadium,H,https://fbref.com//en/matches/bee059c4/Brighton-and-Hove-Albion-West-Ham-United-March-4-2023-Premier-League
+28,2025-03-08,12:30,Nott'ham Forest,1.0,0.7,0.0,0.9,Manchester City,"30,252",Chris Kavanagh,The City Ground,H,https://fbref.com//en/matches/d53c0405/Nottingham-Forest-Manchester-City-March-8-2025-Premier-League
+9,2024-10-27,14:00,Chelsea,2.0,1.6,1.0,1.8,Newcastle Utd,"39,526",Simon Hooper,Stamford Bridge,H,https://fbref.com//en/matches/33571b04/Chelsea-Newcastle-United-October-27-2024-Premier-League
+20,2025-01-04,12:30,Tottenham,1.0,0.9,2.0,2.5,Newcastle Utd,"61,293",Andy Madley,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/be247ac3/Tottenham-Hotspur-Newcastle-United-January-4-2025-Premier-League
+11,2023-11-06,20:00,Tottenham,1.0,0.9,4.0,4.1,Chelsea,"61,726",Michael Oliver,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/478e4eb3/Tottenham-Hotspur-Chelsea-November-6-2023-Premier-League
+17,2022-12-27,20:00,Manchester Utd,3.0,2.4,0.0,0.7,Nott'ham Forest,"73,608",Anthony Taylor,Old Trafford,H,https://fbref.com//en/matches/b860f634/Manchester-United-Nottingham-Forest-December-27-2022-Premier-League
+27,2024-03-02,15:00,Fulham,3.0,1.3,0.0,1.3,Brighton,"24,460",Simon Hooper,Craven Cottage,H,https://fbref.com//en/matches/20278247/Fulham-Brighton-and-Hove-Albion-March-2-2024-Premier-League
+29,2024-03-17,14:00,West Ham,1.0,2.0,1.0,0.7,Aston Villa,"62,461",Jarred Gillett,London Stadium,D,https://fbref.com//en/matches/fc356c59/West-Ham-United-Aston-Villa-March-17-2024-Premier-League
+30,2023-04-08,15:00,Fulham,0.0,0.7,1.0,1.1,West Ham,"24,491",Jarred Gillett,Craven Cottage,A,https://fbref.com//en/matches/0ba42648/Fulham-West-Ham-United-April-8-2023-Premier-League
+25,2024-02-18,14:00,Sheffield Utd,0.0,0.6,5.0,2.9,Brighton,"29,522",Stuart Attwell,Bramall Lane,A,https://fbref.com//en/matches/811fa03f/Sheffield-United-Brighton-and-Hove-Albion-February-18-2024-Premier-League
+32,2024-04-06,15:00,Wolves,1.0,1.5,2.0,1.2,West Ham,"31,504",Tony Harrington,Molineux Stadium,A,https://fbref.com//en/matches/4f0b227b/Wolverhampton-Wanderers-West-Ham-United-April-6-2024-Premier-League
+1,2024-08-18,14:00,Brentford,2.0,1.6,1.0,1.2,Crystal Palace,"16,988",Samuel Barrott,Gtech Community Stadium,H,https://fbref.com//en/matches/b63822b9/Brentford-Crystal-Palace-August-18-2024-Premier-League
+20,2023-12-30,15:00,Aston Villa,3.0,3.2,2.0,1.2,Burnley,"41,613",Stuart Attwell,Villa Park,H,https://fbref.com//en/matches/2828c5bc/Aston-Villa-Burnley-December-30-2023-Premier-League
+18,2024-12-27,20:15,Arsenal,1.0,1.8,0.0,0.2,Ipswich Town,"60,271",Darren England,Emirates Stadium,H,https://fbref.com//en/matches/668dad03/Arsenal-Ipswich-Town-December-27-2024-Premier-League
+36,2024-05-05,14:00,Chelsea,5.0,4.1,0.0,0.9,West Ham,"39,295",Andy Madley,Stamford Bridge,H,https://fbref.com//en/matches/f8a0189a/Chelsea-West-Ham-United-May-5-2024-Premier-League
+2,2022-08-14,14:00,Nott'ham Forest,1.0,1.3,0.0,2.1,West Ham,"29,281",Robert Jones,The City Ground,H,https://fbref.com//en/matches/b1ebeda5/Nottingham-Forest-West-Ham-United-August-14-2022-Premier-League
+15,2022-11-05,15:00,Leeds United,4.0,2.2,3.0,1.5,Bournemouth,"36,304",Tony Harrington,Elland Road,H,https://fbref.com//en/matches/63975c3e/Leeds-United-Bournemouth-November-5-2022-Premier-League
+33,2023-04-27,19:45,Southampton,0.0,0.5,1.0,0.9,Bournemouth,"30,414",Darren England,St. Mary's Stadium,A,https://fbref.com//en/matches/ccabe10f/Southampton-Bournemouth-April-27-2023-Premier-League
+27,2023-03-11,15:00,Tottenham,3.0,2.0,1.0,1.5,Nott'ham Forest,"61,460",Craig Pawson,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/d065f9cd/Tottenham-Hotspur-Nottingham-Forest-March-11-2023-Premier-League
+8,2024-10-19,15:00,Ipswich Town,0.0,1.3,2.0,1.7,Everton,"29,862",Michael Oliver,Portman Road Stadium,A,https://fbref.com//en/matches/2273e126/Ipswich-Town-Everton-October-19-2024-Premier-League
+36,2025-05-10,15:00,Wolves,,,,,Brighton,,,Molineux Stadium,,
+21,2023-01-21,15:00,Bournemouth,1.0,1.4,1.0,1.9,Nott'ham Forest,"10,248",Andy Madley,Vitality Stadium,D,https://fbref.com//en/matches/38c715b4/Bournemouth-Nottingham-Forest-January-21-2023-Premier-League
+13,2022-10-24,20:00,West Ham,2.0,1.9,0.0,0.4,Bournemouth,"62,447",David Coote,London Stadium,H,https://fbref.com//en/matches/e9d1a18b/West-Ham-United-Bournemouth-October-24-2022-Premier-League
+36,2025-05-10,15:00,Fulham,,,,,Everton,,,Craven Cottage,,
+3,2024-08-31,15:00,Nott'ham Forest,1.0,1.0,1.0,0.7,Wolves,"29,918",Simon Hooper,The City Ground,D,https://fbref.com//en/matches/837f0304/Nottingham-Forest-Wolverhampton-Wanderers-August-31-2024-Premier-League
+23,2024-02-04,16:30,Arsenal,3.0,3.5,1.0,0.4,Liverpool,"60,374",Anthony Taylor,Emirates Stadium,H,https://fbref.com//en/matches/99020abf/Arsenal-Liverpool-February-4-2024-Premier-League
+20,2023-01-14,15:00,Wolves,1.0,0.9,0.0,1.1,West Ham,"31,511",Simon Hooper,Molineux Stadium,H,https://fbref.com//en/matches/20fbd1a1/Wolverhampton-Wanderers-West-Ham-United-January-14-2023-Premier-League
+31,2023-04-15,15:00,Everton,1.0,1.4,3.0,1.8,Fulham,"39,241",Anthony Taylor,Goodison Park,A,https://fbref.com//en/matches/ecae749b/Everton-Fulham-April-15-2023-Premier-League
+34,2025-04-26,15:00,Newcastle Utd,,,,,Ipswich Town,,,St James' Park,,
+15,2024-12-07,15:00,Brentford,4.0,1.2,2.0,1.5,Newcastle Utd,"17,078",Simon Hooper,Gtech Community Stadium,H,https://fbref.com//en/matches/1042592d/Brentford-Newcastle-United-December-7-2024-Premier-League
+16,2024-12-15,16:30,Manchester City,1.0,0.9,2.0,2.1,Manchester Utd,"53,184",Anthony Taylor,Etihad Stadium,A,https://fbref.com//en/matches/3d772028/Manchester-Derby-Manchester-City-Manchester-United-December-15-2024-Premier-League
+11,2024-11-09,20:00,Liverpool,2.0,2.0,0.0,1.2,Aston Villa,"60,292",David Coote,Anfield,H,https://fbref.com//en/matches/737af5bf/Liverpool-Aston-Villa-November-9-2024-Premier-League
+22,2025-01-20,20:00,Chelsea,3.0,3.1,1.0,0.8,Wolves,"39,221",Simon Hooper,Stamford Bridge,H,https://fbref.com//en/matches/e62cfa12/Chelsea-Wolverhampton-Wanderers-January-20-2025-Premier-League
+35,2025-05-03,15:00,West Ham,,,,,Tottenham,,,London Stadium,,
+14,2023-12-03,14:00,Chelsea,3.0,2.1,2.0,1.1,Brighton,"39,647",Craig Pawson,Stamford Bridge,H,https://fbref.com//en/matches/86b7d24f/Chelsea-Brighton-and-Hove-Albion-December-3-2023-Premier-League
+38,2023-05-28,16:30,Manchester Utd,2.0,2.9,1.0,1.8,Fulham,"73,465",Robert Jones,Old Trafford,H,https://fbref.com//en/matches/64823dc9/Manchester-United-Fulham-May-28-2023-Premier-League
+5,2022-08-31,19:30,Manchester City,6.0,3.3,0.0,0.7,Nott'ham Forest,"53,409",Paul Tierney,Etihad Stadium,H,https://fbref.com//en/matches/9760b466/Manchester-City-Nottingham-Forest-August-31-2022-Premier-League
+10,2023-10-29,14:00,Liverpool,3.0,3.2,0.0,0.4,Nott'ham Forest,"50,143",Chris Kavanagh,Anfield,H,https://fbref.com//en/matches/79bf0c7f/Liverpool-Nottingham-Forest-October-29-2023-Premier-League
+18,2022-12-30,20:00,Liverpool,2.0,2.2,1.0,1.0,Leicester City,"53,343",Craig Pawson,Anfield,H,https://fbref.com//en/matches/c5e4ccf5/Liverpool-Leicester-City-December-30-2022-Premier-League
+19,2024-12-29,14:30,Leicester City,0.0,1.3,2.0,1.3,Manchester City,"32,057",Michael Oliver,King Power Stadium,A,https://fbref.com//en/matches/8bbb6d95/Leicester-City-Manchester-City-December-29-2024-Premier-League
+19,2023-01-04,19:30,Southampton,0.0,0.5,1.0,1.4,Nott'ham Forest,"30,150",Thomas Bramall,St. Mary's Stadium,A,https://fbref.com//en/matches/cc17c735/Southampton-Nottingham-Forest-January-4-2023-Premier-League
+2,2022-08-13,17:30,Brentford,4.0,1.6,0.0,0.9,Manchester Utd,"17,051",Stuart Attwell,Brentford Community Stadium,H,https://fbref.com//en/matches/04712d4e/Brentford-Manchester-United-August-13-2022-Premier-League
+14,2023-12-02,15:00,Arsenal,2.0,2.8,1.0,0.7,Wolves,"60,262",Peter Bankes,Emirates Stadium,H,https://fbref.com//en/matches/6e65df8e/Arsenal-Wolverhampton-Wanderers-December-2-2023-Premier-League
+5,2022-08-31,20:00,Liverpool,2.0,1.5,1.0,0.7,Newcastle Utd,"53,316",Andre Marriner,Anfield,H,https://fbref.com//en/matches/ac6047cf/Liverpool-Newcastle-United-August-31-2022-Premier-League
+21,2023-01-21,15:00,Southampton,0.0,0.6,1.0,1.4,Aston Villa,"30,158",Michael Salisbury,St. Mary's Stadium,A,https://fbref.com//en/matches/91d49468/Southampton-Aston-Villa-January-21-2023-Premier-League
+17,2023-12-17,14:00,West Ham,3.0,1.1,0.0,0.7,Wolves,"62,455",Chris Kavanagh,London Stadium,H,https://fbref.com//en/matches/5f5bc7b3/West-Ham-United-Wolverhampton-Wanderers-December-17-2023-Premier-League
+14,2023-12-03,14:00,Bournemouth,2.0,2.0,2.0,0.7,Aston Villa,"11,191",Thomas Bramall,Vitality Stadium,D,https://fbref.com//en/matches/19533403/Bournemouth-Aston-Villa-December-3-2023-Premier-League
+38,2025-05-25,16:00,Wolves,,,,,Brentford,,,Molineux Stadium,,
+11,2024-11-10,14:00,Manchester Utd,3.0,0.8,0.0,0.6,Leicester City,"73,829",Peter Bankes,Old Trafford,H,https://fbref.com//en/matches/35888afe/Manchester-United-Leicester-City-November-10-2024-Premier-League
+11,2023-11-04,12:30,Fulham,0.0,1.0,1.0,0.7,Manchester Utd,"24,415",John Brooks,Craven Cottage,A,https://fbref.com//en/matches/31273be0/Fulham-Manchester-United-November-4-2023-Premier-League
+8,2023-04-04,20:00,Chelsea,0.0,2.2,0.0,0.3,Liverpool,"40,093",Anthony Taylor,Stamford Bridge,D,https://fbref.com//en/matches/1028e683/Chelsea-Liverpool-April-4-2023-Premier-League
+16,2024-12-14,15:00,Arsenal,0.0,1.2,0.0,0.1,Everton,"60,176",Craig Pawson,Emirates Stadium,D,https://fbref.com//en/matches/32aa9e8e/Arsenal-Everton-December-14-2024-Premier-League
+29,2025-04-16,19:30,Newcastle Utd,,,,,Crystal Palace,,,St James' Park,,
+7,2024-10-06,14:00,Chelsea,1.0,2.3,1.0,0.9,Nott'ham Forest,"39,501",Chris Kavanagh,Stamford Bridge,D,https://fbref.com//en/matches/b9e00aac/Chelsea-Nottingham-Forest-October-6-2024-Premier-League
+24,2023-02-18,15:00,Everton,1.0,1.4,0.0,0.5,Leeds United,"39,232",Andy Madley,Goodison Park,H,https://fbref.com//en/matches/d5f67d2e/Everton-Leeds-United-February-18-2023-Premier-League
+3,2022-08-21,14:00,Leeds United,3.0,2.1,0.0,0.9,Chelsea,"36,372",Stuart Attwell,Elland Road,H,https://fbref.com//en/matches/a5632124/Leeds-United-Chelsea-August-21-2022-Premier-League
+23,2025-01-25,15:00,Bournemouth,5.0,1.7,0.0,1.0,Nott'ham Forest,"11,228",Craig Pawson,Vitality Stadium,H,https://fbref.com//en/matches/efa8ddd7/Bournemouth-Nottingham-Forest-January-25-2025-Premier-League
+34,2025-04-26,12:30,Chelsea,,,,,Everton,,,Stamford Bridge,,
+6,2023-09-24,14:00,Liverpool,3.0,3.0,1.0,1.1,West Ham,"50,136",Chris Kavanagh,Anfield,H,https://fbref.com//en/matches/90adf8b3/Liverpool-West-Ham-United-September-24-2023-Premier-League
+35,2025-05-03,15:00,Aston Villa,,,,,Fulham,,,Villa Park,,
+37,2023-05-21,13:30,West Ham,3.0,2.1,1.0,0.9,Leeds United,"62,478",Peter Bankes,London Stadium,H,https://fbref.com//en/matches/0359c7d5/West-Ham-United-Leeds-United-May-21-2023-Premier-League
+24,2023-02-19,14:00,Manchester Utd,3.0,4.4,0.0,1.6,Leicester City,"73,578",Stuart Attwell,Old Trafford,H,https://fbref.com//en/matches/d6e88163/Manchester-United-Leicester-City-February-19-2023-Premier-League
+4,2022-08-28,14:00,Wolves,1.0,0.7,1.0,1.7,Newcastle Utd,"31,311",Peter Bankes,Molineux Stadium,D,https://fbref.com//en/matches/15d62d04/Wolverhampton-Wanderers-Newcastle-United-August-28-2022-Premier-League
+30,2024-03-30,17:30,Aston Villa,2.0,1.0,0.0,1.5,Wolves,"42,640",Paul Tierney,Villa Park,H,https://fbref.com//en/matches/5f218b76/Aston-Villa-Wolverhampton-Wanderers-March-30-2024-Premier-League
+34,2024-05-15,20:00,Manchester Utd,3.0,1.5,2.0,2.2,Newcastle Utd,"73,582",Robert Jones,Old Trafford,H,https://fbref.com//en/matches/e43e8597/Manchester-United-Newcastle-United-May-15-2024-Premier-League
+37,2025-05-18,15:00,Brentford,,,,,Fulham,,,Gtech Community Stadium,,
+38,2023-05-28,16:30,Southampton,4.0,1.8,4.0,4.0,Liverpool,"31,129",Darren England,St. Mary's Stadium,D,https://fbref.com//en/matches/8e5c6ea7/Southampton-Liverpool-May-28-2023-Premier-League
+9,2023-10-23,20:00,Tottenham,2.0,1.5,0.0,1.0,Fulham,"61,286",Anthony Taylor,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/8c6293a3/Tottenham-Hotspur-Fulham-October-23-2023-Premier-League
+37,2025-05-18,15:00,Arsenal,,,,,Newcastle Utd,,,Emirates Stadium,,
+32,2024-04-06,15:00,Everton,1.0,0.9,0.0,0.5,Burnley,"39,125",Michael Oliver,Goodison Park,H,https://fbref.com//en/matches/cc7efb48/Everton-Burnley-April-6-2024-Premier-League
+4,2022-08-27,15:00,Brighton,1.0,2.0,0.0,1.8,Leeds United,"30,953",Michael Salisbury,The American Express Community Stadium,H,https://fbref.com//en/matches/77c70160/Brighton-and-Hove-Albion-Leeds-United-August-27-2022-Premier-League
+13,2024-12-01,13:30,Tottenham,1.0,0.8,1.0,1.5,Fulham,"61,141",Darren Bond,Tottenham Hotspur Stadium,D,https://fbref.com//en/matches/9aaa6ed5/Tottenham-Hotspur-Fulham-December-1-2024-Premier-League
+16,2024-12-16,20:00,Bournemouth,1.0,1.9,1.0,2.1,West Ham,"11,204",Chris Kavanagh,Vitality Stadium,D,https://fbref.com//en/matches/49cd674b/Bournemouth-West-Ham-United-December-16-2024-Premier-League
+21,2023-01-21,17:30,Crystal Palace,0.0,0.3,0.0,1.2,Newcastle Utd,"25,350",Craig Pawson,Selhurst Park,D,https://fbref.com//en/matches/8468f673/Crystal-Palace-Newcastle-United-January-21-2023-Premier-League
+30,2025-04-01,19:45,Arsenal,,,,,Fulham,,,Emirates Stadium,,
+30,2025-04-03,20:00,Chelsea,,,,,Tottenham,,,Stamford Bridge,,
+13,2023-11-25,15:00,Sheffield Utd,1.0,0.8,3.0,2.9,Bournemouth,"30,208",Andy Madley,Bramall Lane,A,https://fbref.com//en/matches/799a2c04/Sheffield-United-Bournemouth-November-25-2023-Premier-League
+10,2024-11-04,20:00,Fulham,2.0,1.3,1.0,0.6,Brentford,"24,931",Stuart Attwell,Craven Cottage,H,https://fbref.com//en/matches/e1590847/Fulham-Brentford-November-4-2024-Premier-League
+37,2025-05-18,15:00,Brighton,,,,,Liverpool,,,The American Express Stadium,,
+28,2025-03-08,15:00,Brighton,2.0,1.5,1.0,0.9,Fulham,"31,584",Samuel Barrott,The American Express Stadium,H,https://fbref.com//en/matches/fb4bb61d/Brighton-and-Hove-Albion-Fulham-March-8-2025-Premier-League
+5,2024-09-21,12:30,West Ham,0.0,0.9,3.0,2.2,Chelsea,"62,473",Samuel Barrott,London Stadium,A,https://fbref.com//en/matches/ce0fb1f5/West-Ham-United-Chelsea-September-21-2024-Premier-League
+21,2024-01-13,12:30,Chelsea,1.0,2.2,0.0,0.8,Fulham,"39,643",Anthony Taylor,Stamford Bridge,H,https://fbref.com//en/matches/dd052c34/Chelsea-Fulham-January-13-2024-Premier-League
+18,2022-12-31,15:00,Fulham,2.0,1.5,1.0,0.8,Southampton,"24,344",Graham Scott,Craven Cottage,H,https://fbref.com//en/matches/a15bf99e/Fulham-Southampton-December-31-2022-Premier-League
+31,2024-04-03,20:15,Manchester City,4.0,3.4,1.0,0.8,Aston Villa,"53,422",Darren England,Etihad Stadium,H,https://fbref.com//en/matches/ae3ba8e8/Manchester-City-Aston-Villa-April-3-2024-Premier-League
+32,2025-04-12,17:30,Arsenal,,,,,Brentford,,,Emirates Stadium,,
+18,2022-12-31,15:00,Bournemouth,0.0,0.6,2.0,1.6,Crystal Palace,"9,972",Andre Marriner,Vitality Stadium,A,https://fbref.com//en/matches/dab2ed3a/Bournemouth-Crystal-Palace-December-31-2022-Premier-League
+7,2024-10-05,15:00,Manchester City,3.0,1.6,2.0,2.6,Fulham,"53,017",Peter Bankes,Etihad Stadium,H,https://fbref.com//en/matches/61d60f62/Manchester-City-Fulham-October-5-2024-Premier-League
+34,2024-04-20,19:30,Wolves,0.0,0.2,2.0,1.2,Arsenal,"31,621",Paul Tierney,Molineux Stadium,A,https://fbref.com//en/matches/22881ea2/Wolverhampton-Wanderers-Arsenal-April-20-2024-Premier-League
+13,2024-11-30,17:30,West Ham,2.0,1.5,5.0,3.5,Arsenal,"62,475",Anthony Taylor,London Stadium,A,https://fbref.com//en/matches/f78bee62/West-Ham-United-Arsenal-November-30-2024-Premier-League
+17,2022-12-26,20:00,Arsenal,3.0,2.1,1.0,1.0,West Ham,"60,125",Michael Oliver,Emirates Stadium,H,https://fbref.com//en/matches/3be32b8b/Arsenal-West-Ham-United-December-26-2022-Premier-League
+11,2024-11-09,15:00,West Ham,0.0,0.8,0.0,1.1,Everton,"62,463",Stuart Attwell,London Stadium,D,https://fbref.com//en/matches/a4cf40b4/West-Ham-United-Everton-November-9-2024-Premier-League
+13,2024-11-30,15:00,Crystal Palace,1.0,1.7,1.0,0.0,Newcastle Utd,"25,101",Darren England,Selhurst Park,D,https://fbref.com//en/matches/a4f03af0/Crystal-Palace-Newcastle-United-November-30-2024-Premier-League
+20,2025-01-04,15:00,Bournemouth,1.0,1.8,0.0,0.7,Everton,"11,223",John Brooks,Vitality Stadium,H,https://fbref.com//en/matches/43f0c302/Bournemouth-Everton-January-4-2025-Premier-League
+13,2022-10-23,14:00,Wolves,0.0,2.1,4.0,0.9,Leicester City,"31,425",Michael Oliver,Molineux Stadium,A,https://fbref.com//en/matches/8774e664/Wolverhampton-Wanderers-Leicester-City-October-23-2022-Premier-League
+24,2023-02-18,15:00,Wolves,0.0,1.3,1.0,1.1,Bournemouth,"31,222",Michael Salisbury,Molineux Stadium,A,https://fbref.com//en/matches/eaf37ab4/Wolverhampton-Wanderers-Bournemouth-February-18-2023-Premier-League
+11,2024-11-10,14:00,Tottenham,1.0,1.5,2.0,1.6,Ipswich Town,"61,505",Darren England,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/f9b9c3c4/Tottenham-Hotspur-Ipswich-Town-November-10-2024-Premier-League
+12,2022-10-19,20:15,Manchester Utd,2.0,1.5,0.0,0.6,Tottenham,"73,677",Simon Hooper,Old Trafford,H,https://fbref.com//en/matches/eebe78c1/Manchester-United-Tottenham-Hotspur-October-19-2022-Premier-League
+5,2023-09-16,15:00,West Ham,1.0,0.9,3.0,3.6,Manchester City,"62,475",Andy Madley,London Stadium,A,https://fbref.com//en/matches/64c0a6e2/West-Ham-United-Manchester-City-September-16-2023-Premier-League
+5,2023-09-16,12:30,Wolves,1.0,0.6,3.0,2.5,Liverpool,"31,257",Michael Oliver,Molineux Stadium,A,https://fbref.com//en/matches/38daebd2/Wolverhampton-Wanderers-Liverpool-September-16-2023-Premier-League
+19,2024-12-30,19:45,Aston Villa,2.0,1.8,2.0,1.1,Brighton,"41,414",Craig Pawson,Villa Park,D,https://fbref.com//en/matches/5e8340e9/Aston-Villa-Brighton-and-Hove-Albion-December-30-2024-Premier-League
+21,2024-01-21,16:30,Bournemouth,0.0,1.4,4.0,1.5,Liverpool,"11,228",Andy Madley,Vitality Stadium,A,https://fbref.com//en/matches/9a03e25c/Bournemouth-Liverpool-January-21-2024-Premier-League
+23,2025-01-25,15:00,Southampton,1.0,0.8,3.0,2.9,Newcastle Utd,"31,141",Samuel Barrott,St Mary's Stadium,A,https://fbref.com//en/matches/7d05223b/Southampton-Newcastle-United-January-25-2025-Premier-League
+30,2024-03-31,16:30,Manchester City,0.0,1.0,0.0,0.7,Arsenal,"52,178",Anthony Taylor,Etihad Stadium,D,https://fbref.com//en/matches/76b4b194/Manchester-City-Arsenal-March-31-2024-Premier-League
+14,2022-10-29,15:00,Newcastle Utd,4.0,3.4,0.0,0.4,Aston Villa,"52,233",Paul Tierney,St James' Park,H,https://fbref.com//en/matches/96f5ee84/Newcastle-United-Aston-Villa-October-29-2022-Premier-League
+6,2022-09-03,15:00,Newcastle Utd,0.0,2.8,0.0,1.0,Crystal Palace,"51,863",Michael Salisbury,St James' Park,D,https://fbref.com//en/matches/4ca4efa3/Newcastle-United-Crystal-Palace-September-3-2022-Premier-League
+17,2022-12-26,17:30,Aston Villa,1.0,1.4,3.0,2.7,Liverpool,"42,085",Paul Tierney,Villa Park,A,https://fbref.com//en/matches/ab7d4465/Aston-Villa-Liverpool-December-26-2022-Premier-League
+3,2023-08-26,15:00,Manchester Utd,3.0,2.8,2.0,1.2,Nott'ham Forest,"73,595",Stuart Attwell,Old Trafford,H,https://fbref.com//en/matches/70d9b1ab/Manchester-United-Nottingham-Forest-August-26-2023-Premier-League
+37,2025-05-18,15:00,Manchester City,,,,,Bournemouth,,,Etihad Stadium,,
+22,2023-02-05,14:00,Nott'ham Forest,1.0,0.4,0.0,0.9,Leeds United,"29,363",Robert Jones,The City Ground,H,https://fbref.com//en/matches/7c47cb5e/Nottingham-Forest-Leeds-United-February-5-2023-Premier-League
+32,2025-04-13,16:30,Newcastle Utd,,,,,Manchester Utd,,,St James' Park,,
+17,2024-03-13,19:30,Bournemouth,4.0,2.3,3.0,2.0,Luton Town,"11,198",Samuel Allison,Vitality Stadium,H,https://fbref.com//en/matches/a32a8157/Bournemouth-Luton-Town-March-13-2024-Premier-League
+29,2025-03-15,15:00,Everton,1.0,1.0,1.0,0.8,West Ham,,Darren Bond,Goodison Park,D,https://fbref.com//en/matches/d4bd829f/Everton-West-Ham-United-March-15-2025-Premier-League
+21,2025-01-14,19:30,Brentford,2.0,2.5,2.0,2.2,Manchester City,"17,048",Anthony Taylor,Gtech Community Stadium,D,https://fbref.com//en/matches/68c2e6b8/Brentford-Manchester-City-January-14-2025-Premier-League
+1,2022-08-07,14:00,Manchester Utd,1.0,1.4,2.0,1.5,Brighton,"73,711",Paul Tierney,Old Trafford,A,https://fbref.com//en/matches/8251694e/Manchester-United-Brighton-and-Hove-Albion-August-7-2022-Premier-League
+26,2025-02-22,12:30,Everton,2.0,1.6,2.0,0.4,Manchester Utd,"39,290",Andy Madley,Goodison Park,D,https://fbref.com//en/matches/e5b45c4d/Everton-Manchester-United-February-22-2025-Premier-League
+4,2022-08-27,17:30,Arsenal,2.0,2.6,1.0,0.8,Fulham,"60,164",Jarred Gillett,Emirates Stadium,H,https://fbref.com//en/matches/8b69fd2d/Arsenal-Fulham-August-27-2022-Premier-League
+8,2023-10-07,15:00,Manchester Utd,2.0,1.4,1.0,0.9,Brentford,"73,453",Andy Madley,Old Trafford,H,https://fbref.com//en/matches/5006142a/Manchester-United-Brentford-October-7-2023-Premier-League
+28,2024-03-09,15:00,Crystal Palace,1.0,2.7,1.0,0.8,Luton Town,"25,103",Sunny Singh,Selhurst Park,D,https://fbref.com//en/matches/fd693c8e/Crystal-Palace-Luton-Town-March-9-2024-Premier-League
+27,2023-03-11,15:00,Everton,1.0,1.0,0.0,2.0,Brentford,"39,274",Simon Hooper,Goodison Park,H,https://fbref.com//en/matches/980f57d4/Everton-Brentford-March-11-2023-Premier-League
+31,2023-04-16,14:00,West Ham,2.0,1.8,2.0,2.7,Arsenal,"62,481",David Coote,London Stadium,D,https://fbref.com//en/matches/3120ba0d/West-Ham-United-Arsenal-April-16-2023-Premier-League
+19,2024-12-29,15:00,Fulham,2.0,1.1,2.0,2.0,Bournemouth,"27,301",Robert Jones,Craven Cottage,D,https://fbref.com//en/matches/4b4023dc/Fulham-Bournemouth-December-29-2024-Premier-League
+20,2023-12-30,15:00,Manchester City,2.0,2.2,0.0,0.3,Sheffield Utd,"53,108",David Coote,Etihad Stadium,H,https://fbref.com//en/matches/aefd7405/Manchester-City-Sheffield-United-December-30-2023-Premier-League
+25,2024-02-17,15:00,Nott'ham Forest,2.0,2.8,0.0,0.5,West Ham,"29,490",Thomas Bramall,The City Ground,H,https://fbref.com//en/matches/d657db47/Nottingham-Forest-West-Ham-United-February-17-2024-Premier-League
+14,2024-12-04,19:30,Southampton,1.0,1.6,5.0,5.2,Chelsea,"31,193",Tony Harrington,St Mary's Stadium,A,https://fbref.com//en/matches/e4480630/Southampton-Chelsea-December-4-2024-Premier-League
+15,2024-12-08,16:30,Tottenham,3.0,2.8,4.0,2.8,Chelsea,"61,184",Anthony Taylor,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/abff9b73/Tottenham-Hotspur-Chelsea-December-8-2024-Premier-League
+34,2025-04-26,15:00,Nott'ham Forest,,,,,Brentford,,,The City Ground,,
+8,2023-03-15,19:30,Brighton,1.0,0.6,0.0,1.1,Crystal Palace,"30,933",Peter Bankes,The American Express Community Stadium,H,https://fbref.com//en/matches/d23a30cc/Brighton-and-Hove-Albion-Crystal-Palace-March-15-2023-Premier-League
+24,2024-02-10,15:00,Liverpool,3.0,2.8,1.0,1.3,Burnley,"59,896",Tim Robinson,Anfield,H,https://fbref.com//en/matches/29e4d6ac/Liverpool-Burnley-February-10-2024-Premier-League
+31,2023-04-15,15:00,Chelsea,1.0,0.5,2.0,2.9,Brighton,"40,126",Robert Jones,Stamford Bridge,A,https://fbref.com//en/matches/18e7d354/Chelsea-Brighton-and-Hove-Albion-April-15-2023-Premier-League
+4,2023-09-02,15:00,Burnley,2.0,1.3,5.0,2.2,Tottenham,"21,750",Darren England,Turf Moor,A,https://fbref.com//en/matches/f1786fb8/Burnley-Tottenham-Hotspur-September-2-2023-Premier-League
+17,2022-12-26,15:00,Everton,1.0,1.7,2.0,0.8,Wolves,"39,252",Craig Pawson,Goodison Park,A,https://fbref.com//en/matches/ef424180/Everton-Wolverhampton-Wanderers-December-26-2022-Premier-League
+24,2025-02-01,12:30,Nott'ham Forest,7.0,3.3,0.0,0.9,Brighton,"30,164",Simon Hooper,The City Ground,H,https://fbref.com//en/matches/897ab235/Nottingham-Forest-Brighton-and-Hove-Albion-February-1-2025-Premier-League
+2,2024-08-25,14:00,Wolves,2.0,1.9,6.0,1.6,Chelsea,"31,235",Darren England,Molineux Stadium,A,https://fbref.com//en/matches/e76c15c9/Wolverhampton-Wanderers-Chelsea-August-25-2024-Premier-League
+27,2024-03-02,15:00,Brentford,2.0,1.8,2.0,1.8,Chelsea,"17,140",Jarred Gillett,Gtech Community Stadium,D,https://fbref.com//en/matches/ba1992b0/Brentford-Chelsea-March-2-2024-Premier-League
+37,2025-05-18,15:00,Crystal Palace,,,,,Wolves,,,Selhurst Park,,
+32,2025-04-12,15:00,Southampton,,,,,Aston Villa,,,St Mary's Stadium,,
+18,2023-12-22,20:00,Aston Villa,1.0,0.9,1.0,0.6,Sheffield Utd,"41,651",Anthony Taylor,Villa Park,D,https://fbref.com//en/matches/37916998/Aston-Villa-Sheffield-United-December-22-2023-Premier-League
+24,2025-02-01,15:00,Newcastle Utd,1.0,0.8,2.0,1.6,Fulham,"52,173",Chris Kavanagh,St James' Park,A,https://fbref.com//en/matches/5ec3f48b/Newcastle-United-Fulham-February-1-2025-Premier-League
+11,2023-11-05,16:30,Luton Town,1.0,0.8,1.0,2.6,Liverpool,"11,049",Andy Madley,Kenilworth Road Stadium,D,https://fbref.com//en/matches/a62b97ba/Luton-Town-Liverpool-November-5-2023-Premier-League
+6,2024-09-30,20:00,Bournemouth,3.0,1.3,1.0,0.6,Southampton,"11,243",Michael Oliver,Vitality Stadium,H,https://fbref.com//en/matches/04d2cc03/Bournemouth-Southampton-September-30-2024-Premier-League
+29,2024-04-23,20:00,Arsenal,5.0,3.3,0.0,1.6,Chelsea,"60,238",Simon Hooper,Emirates Stadium,H,https://fbref.com//en/matches/3435dfcc/North-West-London-Derby-Arsenal-Chelsea-April-23-2024-Premier-League
+28,2025-03-09,14:00,Chelsea,1.0,1.7,0.0,0.1,Leicester City,"39,750",Tim Robinson,Stamford Bridge,H,https://fbref.com//en/matches/236640be/Chelsea-Leicester-City-March-9-2025-Premier-League
+17,2022-12-26,15:00,Southampton,1.0,1.9,3.0,0.6,Brighton,"31,010",Robert Jones,St. Mary's Stadium,A,https://fbref.com//en/matches/3527c390/Southampton-Brighton-and-Hove-Albion-December-26-2022-Premier-League
+17,2022-12-26,12:30,Brentford,2.0,2.0,2.0,1.1,Tottenham,"17,137",David Coote,Brentford Community Stadium,D,https://fbref.com//en/matches/14e4f648/Brentford-Tottenham-Hotspur-December-26-2022-Premier-League
+16,2024-12-14,15:00,Newcastle Utd,4.0,3.8,0.0,0.2,Leicester City,"52,235",Thomas Bramall,St James' Park,H,https://fbref.com//en/matches/0b6fe43f/Newcastle-United-Leicester-City-December-14-2024-Premier-League
+35,2023-05-08,17:30,Brighton,1.0,3.2,5.0,2.3,Everton,"31,567",Simon Hooper,The American Express Community Stadium,A,https://fbref.com//en/matches/bf8d9047/Brighton-and-Hove-Albion-Everton-May-8-2023-Premier-League
+18,2024-12-26,15:00,Newcastle Utd,3.0,2.7,0.0,0.3,Aston Villa,"52,168",Anthony Taylor,St James' Park,H,https://fbref.com//en/matches/9985f304/Newcastle-United-Aston-Villa-December-26-2024-Premier-League
+31,2025-04-07,20:00,Leicester City,,,,,Newcastle Utd,,,King Power Stadium,,
+29,2024-03-16,15:00,Luton Town,1.0,0.6,1.0,2.0,Nott'ham Forest,"11,630",Darren England,Kenilworth Road Stadium,D,https://fbref.com//en/matches/76d09384/Luton-Town-Nottingham-Forest-March-16-2024-Premier-League
+2,2024-08-24,12:30,Brighton,2.0,2.1,1.0,1.4,Manchester Utd,"31,537",Craig Pawson,The American Express Stadium,H,https://fbref.com//en/matches/fc8ab8b2/Brighton-and-Hove-Albion-Manchester-United-August-24-2024-Premier-League
+36,2023-05-13,15:00,Aston Villa,2.0,1.2,1.0,1.4,Tottenham,"42,164",Peter Bankes,Villa Park,H,https://fbref.com//en/matches/362514ee/Aston-Villa-Tottenham-Hotspur-May-13-2023-Premier-League
+9,2023-10-21,15:00,Brentford,3.0,3.1,0.0,1.1,Burnley,"17,029",Joshua Smith,Gtech Community Stadium,H,https://fbref.com//en/matches/52781f37/Brentford-Burnley-October-21-2023-Premier-League
+34,2023-04-29,15:00,Brighton,6.0,3.3,0.0,0.8,Wolves,"31,584",David Coote,The American Express Community Stadium,H,https://fbref.com//en/matches/21f920e0/Brighton-and-Hove-Albion-Wolverhampton-Wanderers-April-29-2023-Premier-League
+20,2023-01-15,16:30,Tottenham,0.0,1.6,2.0,1.8,Arsenal,"61,870",Craig Pawson,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/4fc8b7b2/North-London-Derby-Tottenham-Hotspur-Arsenal-January-15-2023-Premier-League
+14,2022-10-29,19:45,Liverpool,1.0,1.7,2.0,1.8,Leeds United,"53,274",Michael Oliver,Anfield,A,https://fbref.com//en/matches/b5b1e744/Liverpool-Leeds-United-October-29-2022-Premier-League
+30,2025-04-01,19:45,Wolves,,,,,West Ham,,,Molineux Stadium,,
+24,2024-02-10,12:30,Manchester City,2.0,1.6,0.0,0.3,Everton,"52,187",John Brooks,Etihad Stadium,H,https://fbref.com//en/matches/00ea7906/Manchester-City-Everton-February-10-2024-Premier-League
+16,2022-11-12,19:45,Wolves,0.0,0.7,2.0,2.1,Arsenal,"34,624",Stuart Attwell,Molineux Stadium,A,https://fbref.com//en/matches/863d7a8f/Wolverhampton-Wanderers-Arsenal-November-12-2022-Premier-League
+38,2024-05-19,16:00,Sheffield Utd,0.0,1.0,3.0,3.1,Tottenham,"29,116",Andy Madley,Bramall Lane,A,https://fbref.com//en/matches/273a89b4/Sheffield-United-Tottenham-Hotspur-May-19-2024-Premier-League
+36,2025-05-10,15:00,Newcastle Utd,,,,,Chelsea,,,St James' Park,,
+15,2024-12-08,14:00,Leicester City,2.0,1.3,2.0,1.5,Brighton,"31,647",Stuart Attwell,King Power Stadium,D,https://fbref.com//en/matches/7b549f8f/Leicester-City-Brighton-and-Hove-Albion-December-8-2024-Premier-League
+21,2023-01-22,16:30,Arsenal,3.0,3.1,2.0,0.4,Manchester Utd,"60,325",Anthony Taylor,Emirates Stadium,H,https://fbref.com//en/matches/1b35bc71/Arsenal-Manchester-United-January-22-2023-Premier-League
+24,2024-02-10,15:00,Luton Town,1.0,1.8,3.0,1.7,Sheffield Utd,"11,138",Chris Kavanagh,Kenilworth Road Stadium,A,https://fbref.com//en/matches/1a4e7d02/Luton-Town-Sheffield-United-February-10-2024-Premier-League
+13,2024-11-30,15:00,Nott'ham Forest,1.0,1.6,0.0,0.6,Ipswich Town,"30,237",Tony Harrington,The City Ground,H,https://fbref.com//en/matches/ddc8856c/Nottingham-Forest-Ipswich-Town-November-30-2024-Premier-League
+8,2024-10-19,17:30,Bournemouth,2.0,1.8,0.0,0.7,Arsenal,"11,235",Robert Jones,Vitality Stadium,H,https://fbref.com//en/matches/01e63a1f/Bournemouth-Arsenal-October-19-2024-Premier-League
+29,2023-04-03,20:00,Everton,1.0,0.9,1.0,1.4,Tottenham,"39,294",David Coote,Goodison Park,D,https://fbref.com//en/matches/c00d9a22/Everton-Tottenham-Hotspur-April-3-2023-Premier-League
+30,2023-04-08,17:30,Southampton,1.0,0.4,4.0,2.9,Manchester City,"30,963",Robert Jones,St. Mary's Stadium,A,https://fbref.com//en/matches/fb045117/Southampton-Manchester-City-April-8-2023-Premier-League
+28,2025-03-08,17:30,Brentford,0.0,0.8,1.0,1.3,Aston Villa,"17,171",Jarred Gillett,Gtech Community Stadium,A,https://fbref.com//en/matches/fb9126ab/Brentford-Aston-Villa-March-8-2025-Premier-League
+3,2023-08-26,12:30,Bournemouth,0.0,0.7,2.0,2.1,Tottenham,"10,567",Tim Robinson,Vitality Stadium,A,https://fbref.com//en/matches/f49c4ad2/Bournemouth-Tottenham-Hotspur-August-26-2023-Premier-League
+14,2022-10-29,17:30,Fulham,0.0,1.9,0.0,0.9,Everton,"23,534",John Brooks,Craven Cottage,D,https://fbref.com//en/matches/9c4402e1/Fulham-Everton-October-29-2022-Premier-League
+20,2023-01-14,17:30,Brentford,2.0,1.4,0.0,0.6,Bournemouth,"17,031",Jarred Gillett,Brentford Community Stadium,H,https://fbref.com//en/matches/3f992264/Brentford-Bournemouth-January-14-2023-Premier-League
+22,2023-02-04,15:00,Wolves,3.0,2.0,0.0,1.8,Liverpool,"31,664",Paul Tierney,Molineux Stadium,H,https://fbref.com//en/matches/d67a16c8/Wolverhampton-Wanderers-Liverpool-February-4-2023-Premier-League
+6,2023-09-24,16:30,Sheffield Utd,0.0,0.9,8.0,3.9,Newcastle Utd,"31,127",Stuart Attwell,Bramall Lane,A,https://fbref.com//en/matches/cf4fef85/Sheffield-United-Newcastle-United-September-24-2023-Premier-League
+8,2024-10-19,15:00,Manchester Utd,2.0,1.3,1.0,0.9,Brentford,"73,738",Samuel Barrott,Old Trafford,H,https://fbref.com//en/matches/7f2c3291/Manchester-United-Brentford-October-19-2024-Premier-League
+26,2023-03-04,15:00,Wolves,1.0,0.5,0.0,1.2,Tottenham,"31,585",Tim Robinson,Molineux Stadium,H,https://fbref.com//en/matches/bf4ac62d/Wolverhampton-Wanderers-Tottenham-Hotspur-March-4-2023-Premier-League
+4,2023-09-02,17:30,Brighton,3.0,1.3,1.0,1.2,Newcastle Utd,"31,620",Stuart Attwell,The American Express Community Stadium,H,https://fbref.com//en/matches/4f754e0a/Brighton-and-Hove-Albion-Newcastle-United-September-2-2023-Premier-League
+36,2025-05-10,15:00,Tottenham,,,,,Crystal Palace,,,Tottenham Hotspur Stadium,,
+21,2025-01-14,20:00,Nott'ham Forest,1.0,0.3,1.0,2.0,Liverpool,"30,249",Chris Kavanagh,The City Ground,D,https://fbref.com//en/matches/118f8df8/Nottingham-Forest-Liverpool-January-14-2025-Premier-League
+36,2025-05-10,15:00,Nott'ham Forest,,,,,Leicester City,,,The City Ground,,
+21,2025-01-15,20:00,Arsenal,2.0,1.4,1.0,0.8,Tottenham,"60,287",Simon Hooper,Emirates Stadium,H,https://fbref.com//en/matches/ee9ce5e2/North-London-Derby-Arsenal-Tottenham-Hotspur-January-15-2025-Premier-League
+6,2022-09-03,15:00,Wolves,1.0,0.8,0.0,1.2,Southampton,"30,546",John Brooks,Molineux Stadium,H,https://fbref.com//en/matches/13f50518/Wolverhampton-Wanderers-Southampton-September-3-2022-Premier-League
+15,2022-11-05,15:00,Wolves,2.0,1.2,3.0,1.5,Brighton,"30,732",Graham Scott,Molineux Stadium,A,https://fbref.com//en/matches/982d16a2/Wolverhampton-Wanderers-Brighton-and-Hove-Albion-November-5-2022-Premier-League
+26,2024-02-26,20:00,West Ham,4.0,1.7,2.0,0.9,Brentford,"62,450",Simon Hooper,London Stadium,H,https://fbref.com//en/matches/15a04102/West-Ham-United-Brentford-February-26-2024-Premier-League
+3,2023-08-26,15:00,Brentford,1.0,1.0,1.0,0.8,Crystal Palace,"16,997",Peter Bankes,Gtech Community Stadium,D,https://fbref.com//en/matches/537b2b0b/Brentford-Crystal-Palace-August-26-2023-Premier-League
+23,2025-01-26,14:00,Crystal Palace,1.0,1.1,2.0,1.3,Brentford,"25,066",Tony Harrington,Selhurst Park,A,https://fbref.com//en/matches/68d6e8fe/Crystal-Palace-Brentford-January-26-2025-Premier-League
+22,2025-01-18,12:30,Newcastle Utd,1.0,0.8,4.0,2.0,Bournemouth,"52,227",Stuart Attwell,St James' Park,A,https://fbref.com//en/matches/99d11a39/Newcastle-United-Bournemouth-January-18-2025-Premier-League
+36,2024-05-05,16:30,Liverpool,4.0,3.3,2.0,1.2,Tottenham,"60,075",Paul Tierney,Anfield,H,https://fbref.com//en/matches/08341569/Liverpool-Tottenham-Hotspur-May-5-2024-Premier-League
+10,2024-11-02,15:00,Ipswich Town,1.0,1.0,1.0,1.5,Leicester City,"29,874",Tim Robinson,Portman Road Stadium,D,https://fbref.com//en/matches/ed8f93a0/Ipswich-Town-Leicester-City-November-2-2024-Premier-League
+33,2025-04-20,14:00,Ipswich Town,,,,,Arsenal,,,Portman Road Stadium,,
+23,2023-02-13,20:00,Liverpool,2.0,2.3,0.0,0.4,Everton,"53,027",Simon Hooper,Anfield,H,https://fbref.com//en/matches/a895ec23/Merseyside-Derby-Liverpool-Everton-February-13-2023-Premier-League
+27,2024-03-02,15:00,Newcastle Utd,3.0,2.1,0.0,0.8,Wolves,"52,206",Tim Robinson,St James' Park,H,https://fbref.com//en/matches/bbae8356/Newcastle-United-Wolverhampton-Wanderers-March-2-2024-Premier-League
+1,2022-08-06,12:30,Fulham,2.0,1.2,2.0,1.2,Liverpool,"22,207",Andy Madley,Craven Cottage,D,https://fbref.com//en/matches/6713c1dc/Fulham-Liverpool-August-6-2022-Premier-League
+19,2024-12-30,20:00,Manchester Utd,0.0,0.8,2.0,1.9,Newcastle Utd,"73,809",Simon Hooper,Old Trafford,A,https://fbref.com//en/matches/8cff7a63/Manchester-United-Newcastle-United-December-30-2024-Premier-League
+29,2025-02-19,19:30,Aston Villa,2.0,0.6,2.0,2.5,Liverpool,"41,910",Craig Pawson,Villa Park,D,https://fbref.com//en/matches/39c7b656/Aston-Villa-Liverpool-February-19-2025-Premier-League
+10,2022-10-08,15:00,Chelsea,3.0,1.9,0.0,1.1,Wolves,"39,940",Simon Hooper,Stamford Bridge,H,https://fbref.com//en/matches/c83cb314/Chelsea-Wolverhampton-Wanderers-October-8-2022-Premier-League
+25,2024-02-17,17:30,Manchester City,1.0,2.6,1.0,1.4,Chelsea,"52,178",Andy Madley,Etihad Stadium,D,https://fbref.com//en/matches/78fb7fc2/Manchester-City-Chelsea-February-17-2024-Premier-League
+28,2025-03-09,16:30,Manchester Utd,1.0,1.5,1.0,1.6,Arsenal,"73,812",Anthony Taylor,Old Trafford,D,https://fbref.com//en/matches/8efec987/Manchester-United-Arsenal-March-9-2025-Premier-League
+23,2025-01-25,15:00,Liverpool,4.0,2.0,1.0,0.5,Ipswich Town,"60,420",Michael Salisbury,Anfield,H,https://fbref.com//en/matches/ee59115f/Liverpool-Ipswich-Town-January-25-2025-Premier-League
+1,2023-08-12,17:30,Newcastle Utd,5.0,3.3,1.0,1.8,Aston Villa,"52,207",Andy Madley,St James' Park,H,https://fbref.com//en/matches/8ff2f8fe/Newcastle-United-Aston-Villa-August-12-2023-Premier-League
+37,2025-05-18,15:00,West Ham,,,,,Nott'ham Forest,,,London Stadium,,
+5,2024-09-21,15:00,Aston Villa,3.0,1.7,1.0,0.5,Wolves,"39,978",Tim Robinson,Villa Park,H,https://fbref.com//en/matches/e2b62260/Aston-Villa-Wolverhampton-Wanderers-September-21-2024-Premier-League
+13,2023-11-27,20:00,Fulham,3.0,2.9,2.0,1.4,Wolves,"24,366",Michael Salisbury,Craven Cottage,H,https://fbref.com//en/matches/b19cc422/Fulham-Wolverhampton-Wanderers-November-27-2023-Premier-League
+28,2023-03-18,15:00,Southampton,3.0,2.4,3.0,2.3,Tottenham,"30,157",Simon Hooper,St. Mary's Stadium,D,https://fbref.com//en/matches/bd9ec55d/Southampton-Tottenham-Hotspur-March-18-2023-Premier-League
+27,2025-02-26,19:30,Tottenham,0.0,1.3,1.0,2.1,Manchester City,"60,820",Jarred Gillett,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/3b8160bd/Tottenham-Hotspur-Manchester-City-February-26-2025-Premier-League
+7,2023-09-30,15:00,Bournemouth,0.0,0.6,4.0,3.4,Arsenal,"11,193",Michael Salisbury,Vitality Stadium,A,https://fbref.com//en/matches/8de4aca0/Bournemouth-Arsenal-September-30-2023-Premier-League
+12,2023-11-12,14:00,Liverpool,3.0,1.7,0.0,1.6,Brentford,"50,151",Paul Tierney,Anfield,H,https://fbref.com//en/matches/996ee990/Liverpool-Brentford-November-12-2023-Premier-League
+7,2024-10-06,16:30,Brighton,3.0,1.8,2.0,1.3,Tottenham,"31,487",David Coote,The American Express Stadium,H,https://fbref.com//en/matches/dac142c7/Brighton-and-Hove-Albion-Tottenham-Hotspur-October-6-2024-Premier-League
+13,2022-10-23,14:00,Leeds United,2.0,1.6,3.0,1.8,Fulham,"36,447",Anthony Taylor,Elland Road,A,https://fbref.com//en/matches/d7b30e2b/Leeds-United-Fulham-October-23-2022-Premier-League
+32,2024-04-07,17:30,Sheffield Utd,2.0,1.4,2.0,0.3,Chelsea,"28,638",Robert Jones,Bramall Lane,D,https://fbref.com//en/matches/d3850c26/Sheffield-United-Chelsea-April-7-2024-Premier-League
+25,2023-02-25,15:00,Leicester City,0.0,0.0,1.0,0.7,Arsenal,"32,227",Craig Pawson,King Power Stadium,A,https://fbref.com//en/matches/145cc0a5/Leicester-City-Arsenal-February-25-2023-Premier-League
+10,2023-10-28,12:30,Chelsea,0.0,1.9,2.0,2.2,Brentford,"39,575",Simon Hooper,Stamford Bridge,A,https://fbref.com//en/matches/91e3b922/Chelsea-Brentford-October-28-2023-Premier-League
+23,2024-02-05,20:00,Brentford,1.0,1.0,3.0,2.1,Manchester City,"17,096",Jarred Gillett,Gtech Community Stadium,A,https://fbref.com//en/matches/2b3630b6/Brentford-Manchester-City-February-5-2024-Premier-League
+30,2024-03-31,14:00,Liverpool,2.0,2.8,1.0,0.5,Brighton,"60,061",David Coote,Anfield,H,https://fbref.com//en/matches/b763b73e/Liverpool-Brighton-and-Hove-Albion-March-31-2024-Premier-League
+38,2023-05-28,16:30,Arsenal,5.0,2.8,0.0,0.5,Wolves,"60,095",Andre Marriner,Emirates Stadium,H,https://fbref.com//en/matches/71d5bd41/Arsenal-Wolverhampton-Wanderers-May-28-2023-Premier-League
+7,2024-10-05,17:30,Everton,0.0,0.7,0.0,2.1,Newcastle Utd,"39,265",Craig Pawson,Goodison Park,D,https://fbref.com//en/matches/e99a7857/Everton-Newcastle-United-October-5-2024-Premier-League
+30,2024-03-30,12:30,Newcastle Utd,4.0,4.1,3.0,1.4,West Ham,"52,199",Robert Jones,St James' Park,H,https://fbref.com//en/matches/10600f89/Newcastle-United-West-Ham-United-March-30-2024-Premier-League
+29,2025-03-15,15:00,Ipswich Town,2.0,0.4,4.0,1.5,Nott'ham Forest,"29,878",Michael Salisbury,Portman Road Stadium,A,https://fbref.com//en/matches/a44e04e9/Ipswich-Town-Nottingham-Forest-March-15-2025-Premier-League
+25,2023-02-25,15:00,Everton,0.0,1.6,2.0,1.9,Aston Villa,"39,309",Anthony Taylor,Goodison Park,A,https://fbref.com//en/matches/25436a3b/Everton-Aston-Villa-February-25-2023-Premier-League
+6,2024-09-29,16:30,Manchester Utd,0.0,1.0,3.0,4.4,Tottenham,"73,587",Chris Kavanagh,Old Trafford,A,https://fbref.com//en/matches/c4b97377/Manchester-United-Tottenham-Hotspur-September-29-2024-Premier-League
+23,2025-01-26,14:00,Tottenham,1.0,1.0,2.0,1.6,Leicester City,"61,295",Robert Jones,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/8226bca2/Tottenham-Hotspur-Leicester-City-January-26-2025-Premier-League
+31,2024-04-02,19:45,Burnley,1.0,1.3,1.0,0.9,Wolves,"21,528",Thomas Bramall,Turf Moor,D,https://fbref.com//en/matches/feadec6f/Burnley-Wolverhampton-Wanderers-April-2-2024-Premier-League
+33,2023-04-26,19:30,Nott'ham Forest,3.0,2.4,1.0,2.3,Brighton,"28,808",Jarred Gillett,The City Ground,H,https://fbref.com//en/matches/76db2de1/Nottingham-Forest-Brighton-and-Hove-Albion-April-26-2023-Premier-League
+28,2024-03-09,12:30,Manchester Utd,2.0,2.7,0.0,1.6,Everton,"73,601",Simon Hooper,Old Trafford,H,https://fbref.com//en/matches/fede7f6e/Manchester-United-Everton-March-9-2024-Premier-League
+4,2023-09-02,12:30,Sheffield Utd,2.0,1.2,2.0,2.5,Everton,"31,124",Andy Madley,Bramall Lane,D,https://fbref.com//en/matches/87b46bb9/Sheffield-United-Everton-September-2-2023-Premier-League
+32,2025-04-13,14:00,Chelsea,,,,,Ipswich Town,,,Stamford Bridge,,
+34,2024-04-21,16:30,Fulham,1.0,0.8,3.0,1.0,Liverpool,"24,414",Craig Pawson,Craven Cottage,A,https://fbref.com//en/matches/9dcb5084/Fulham-Liverpool-April-21-2024-Premier-League
+37,2023-05-20,12:30,Tottenham,1.0,1.7,3.0,1.2,Brentford,"61,514",Jarred Gillett,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/28ebbaf2/Tottenham-Hotspur-Brentford-May-20-2023-Premier-League
+27,2023-03-12,14:00,Fulham,0.0,0.8,3.0,2.3,Arsenal,"24,426",David Coote,Craven Cottage,A,https://fbref.com//en/matches/d238973c/Fulham-Arsenal-March-12-2023-Premier-League
+37,2024-05-11,17:30,Nott'ham Forest,2.0,1.5,3.0,1.6,Chelsea,"29,708",Tony Harrington,The City Ground,A,https://fbref.com//en/matches/384547b8/Nottingham-Forest-Chelsea-May-11-2024-Premier-League
+22,2025-01-18,15:00,Leicester City,0.0,0.6,2.0,2.0,Fulham,"31,500",Michael Salisbury,King Power Stadium,A,https://fbref.com//en/matches/bc3ae18e/Leicester-City-Fulham-January-18-2025-Premier-League
+25,2024-02-19,20:00,Everton,1.0,1.7,1.0,0.7,Crystal Palace,"38,164",Paul Tierney,Goodison Park,D,https://fbref.com//en/matches/573f2f77/Everton-Crystal-Palace-February-19-2024-Premier-League
+26,2024-02-24,15:00,Brighton,1.0,1.4,1.0,0.3,Everton,"41,646",Tony Harrington,The American Express Community Stadium,D,https://fbref.com//en/matches/eb7c6993/Brighton-and-Hove-Albion-Everton-February-24-2024-Premier-League
+24,2025-02-01,17:30,Wolves,2.0,1.6,0.0,0.4,Aston Villa,"31,385",Andy Madley,Molineux Stadium,H,https://fbref.com//en/matches/693ab427/Wolverhampton-Wanderers-Aston-Villa-February-1-2025-Premier-League
+7,2023-04-04,19:45,Leicester City,1.0,0.5,2.0,1.0,Aston Villa,"32,087",Graham Scott,King Power Stadium,A,https://fbref.com//en/matches/f213214b/Leicester-City-Aston-Villa-April-4-2023-Premier-League
+38,2023-05-28,16:30,Leicester City,2.0,1.4,1.0,1.4,West Ham,"32,183",Simon Hooper,King Power Stadium,H,https://fbref.com//en/matches/a96c9915/Leicester-City-West-Ham-United-May-28-2023-Premier-League
+1,2023-08-12,15:00,Brighton,4.0,4.0,1.0,1.5,Luton Town,"31,872",David Coote,The American Express Community Stadium,H,https://fbref.com//en/matches/56a137f7/Brighton-and-Hove-Albion-Luton-Town-August-12-2023-Premier-League
+24,2023-02-18,15:00,Chelsea,0.0,1.6,1.0,0.6,Southampton,"40,152",David Coote,Stamford Bridge,A,https://fbref.com//en/matches/8d750d5d/Chelsea-Southampton-February-18-2023-Premier-League
+36,2025-05-10,15:00,Southampton,,,,,Manchester City,,,St Mary's Stadium,,
+26,2025-02-23,14:00,Newcastle Utd,4.0,2.9,3.0,1.7,Nott'ham Forest,"52,223",Jarred Gillett,St James' Park,H,https://fbref.com//en/matches/93caf0bc/Newcastle-United-Nottingham-Forest-February-23-2025-Premier-League
+10,2023-10-28,15:00,Bournemouth,2.0,1.1,1.0,0.8,Burnley,"11,152",Samuel Barrott,Vitality Stadium,H,https://fbref.com//en/matches/c4c42d3e/Bournemouth-Burnley-October-28-2023-Premier-League
+36,2023-05-13,12:30,Leeds United,2.0,2.0,2.0,2.3,Newcastle Utd,"36,955",Simon Hooper,Elland Road,D,https://fbref.com//en/matches/d63581e0/Leeds-United-Newcastle-United-May-13-2023-Premier-League
+13,2023-11-25,15:00,Luton Town,2.0,0.9,1.0,1.6,Crystal Palace,"11,029",Jarred Gillett,Kenilworth Road Stadium,H,https://fbref.com//en/matches/f4805536/Luton-Town-Crystal-Palace-November-25-2023-Premier-League
+27,2024-03-02,15:00,Tottenham,3.0,1.9,1.0,0.3,Crystal Palace,"61,339",John Brooks,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/8812bfd9/Tottenham-Hotspur-Crystal-Palace-March-2-2024-Premier-League
+38,2025-05-25,16:00,Ipswich Town,,,,,West Ham,,,Portman Road Stadium,,
+35,2025-05-03,15:00,Brighton,,,,,Newcastle Utd,,,The American Express Stadium,,
+4,2024-09-14,20:00,Bournemouth,0.0,1.7,1.0,0.8,Chelsea,"11,235",Anthony Taylor,Vitality Stadium,A,https://fbref.com//en/matches/456b4762/Bournemouth-Chelsea-September-14-2024-Premier-League
+35,2023-05-06,15:00,Bournemouth,1.0,1.2,3.0,1.3,Chelsea,"10,357",John Brooks,Vitality Stadium,A,https://fbref.com//en/matches/6116824f/Bournemouth-Chelsea-May-6-2023-Premier-League
+18,2023-12-23,15:00,Nott'ham Forest,2.0,1.0,3.0,1.6,Bournemouth,"29,188",Robert Jones,The City Ground,A,https://fbref.com//en/matches/c5548935/Nottingham-Forest-Bournemouth-December-23-2023-Premier-League
+25,2024-02-17,15:00,Newcastle Utd,2.0,2.2,2.0,2.2,Bournemouth,"52,224",Michael Salisbury,St James' Park,D,https://fbref.com//en/matches/083c4444/Newcastle-United-Bournemouth-February-17-2024-Premier-League
+3,2022-08-21,14:00,West Ham,0.0,0.8,2.0,1.7,Brighton,"62,449",Anthony Taylor,London Stadium,A,https://fbref.com//en/matches/aa2a3517/West-Ham-United-Brighton-and-Hove-Albion-August-21-2022-Premier-League
+25,2025-02-15,17:30,Crystal Palace,1.0,1.6,2.0,0.9,Everton,"25,108",Anthony Taylor,Selhurst Park,A,https://fbref.com//en/matches/35ee3617/Crystal-Palace-Everton-February-15-2025-Premier-League
+27,2024-03-03,13:00,Burnley,0.0,1.5,2.0,1.1,Bournemouth,"19,713",David Coote,Turf Moor,A,https://fbref.com//en/matches/f7674d8b/Burnley-Bournemouth-March-3-2024-Premier-League
+20,2025-01-04,15:00,Crystal Palace,1.0,1.1,1.0,1.2,Chelsea,"25,179",Tim Robinson,Selhurst Park,D,https://fbref.com//en/matches/cd9861d5/Crystal-Palace-Chelsea-January-4-2025-Premier-League
+20,2023-12-30,17:30,Nott'ham Forest,2.0,0.7,1.0,0.8,Manchester Utd,"29,529",Tim Robinson,The City Ground,H,https://fbref.com//en/matches/1aa68cba/Nottingham-Forest-Manchester-United-December-30-2023-Premier-League
+18,2023-12-23,17:30,Liverpool,1.0,1.0,1.0,0.7,Arsenal,"57,548",Chris Kavanagh,Anfield,D,https://fbref.com//en/matches/bfbfbbe8/Liverpool-Arsenal-December-23-2023-Premier-League
+31,2024-04-04,19:30,Liverpool,3.0,1.8,1.0,0.6,Sheffield Utd,"60,055",Stuart Attwell,Anfield,H,https://fbref.com//en/matches/1f5973e2/Liverpool-Sheffield-United-April-4-2024-Premier-League
+20,2024-01-02,19:30,West Ham,0.0,0.7,0.0,2.3,Brighton,"62,462",Samuel Barrott,London Stadium,D,https://fbref.com//en/matches/d557afd0/West-Ham-United-Brighton-and-Hove-Albion-January-2-2024-Premier-League
+4,2024-09-14,15:00,Fulham,1.0,1.5,1.0,0.8,West Ham,"26,528",Tim Robinson,Craven Cottage,D,https://fbref.com//en/matches/fa2b1777/Fulham-West-Ham-United-September-14-2024-Premier-League
+10,2022-10-09,19:00,Everton,1.0,0.6,2.0,1.4,Manchester Utd,"39,258",David Coote,Goodison Park,A,https://fbref.com//en/matches/5d426690/Everton-Manchester-United-October-9-2022-Premier-League
+26,2023-03-04,15:00,Arsenal,3.0,2.1,2.0,1.3,Bournemouth,"60,222",Chris Kavanagh,Emirates Stadium,H,https://fbref.com//en/matches/3e9a33fc/Arsenal-Bournemouth-March-4-2023-Premier-League
+33,2024-04-13,17:30,Bournemouth,2.0,1.6,2.0,1.2,Manchester Utd,"11,229",Tony Harrington,Vitality Stadium,D,https://fbref.com//en/matches/32a8be36/Bournemouth-Manchester-United-April-13-2024-Premier-League
+8,2024-10-20,16:30,Liverpool,2.0,1.9,1.0,1.0,Chelsea,"60,277",John Brooks,Anfield,H,https://fbref.com//en/matches/99b4737c/Liverpool-Chelsea-October-20-2024-Premier-League
+18,2022-12-31,15:00,Newcastle Utd,0.0,2.2,0.0,0.4,Leeds United,"52,211",Simon Hooper,St James' Park,D,https://fbref.com//en/matches/0facecde/Newcastle-United-Leeds-United-December-31-2022-Premier-League
+15,2023-12-06,19:30,Brighton,2.0,1.5,1.0,1.5,Brentford,"31,571",Peter Bankes,The American Express Community Stadium,H,https://fbref.com//en/matches/75d21da8/Brighton-and-Hove-Albion-Brentford-December-6-2023-Premier-League
+4,2022-08-27,15:00,Liverpool,9.0,3.3,0.0,0.3,Bournemouth,"53,328",Stuart Attwell,Anfield,H,https://fbref.com//en/matches/de515487/Liverpool-Bournemouth-August-27-2022-Premier-League
+17,2023-12-15,20:00,Nott'ham Forest,0.0,1.3,2.0,1.5,Tottenham,"29,296",Jarred Gillett,The City Ground,A,https://fbref.com//en/matches/4d9f1a71/Nottingham-Forest-Tottenham-Hotspur-December-15-2023-Premier-League
+19,2023-01-03,20:00,Manchester Utd,3.0,2.2,0.0,0.6,Bournemouth,"73,322",Michael Salisbury,Old Trafford,H,https://fbref.com//en/matches/63fc7f12/Manchester-United-Bournemouth-January-3-2023-Premier-League
+28,2024-03-10,14:00,West Ham,2.0,2.1,2.0,0.7,Burnley,"62,441",Darren England,London Stadium,D,https://fbref.com//en/matches/9ef133d6/West-Ham-United-Burnley-March-10-2024-Premier-League
+34,2024-05-15,19:45,Brighton,1.0,1.3,2.0,1.5,Chelsea,"31,555",Michael Salisbury,The American Express Community Stadium,A,https://fbref.com//en/matches/b42b7907/Brighton-and-Hove-Albion-Chelsea-May-15-2024-Premier-League
+30,2025-04-02,19:45,Southampton,,,,,Crystal Palace,,,St Mary's Stadium,,
+29,2025-03-15,17:30,Bournemouth,1.0,1.6,2.0,0.8,Brentford,"11,180",Craig Pawson,Vitality Stadium,A,https://fbref.com//en/matches/f3480c01/Bournemouth-Brentford-March-15-2025-Premier-League
+11,2023-11-04,15:00,Manchester City,6.0,1.9,1.0,0.9,Bournemouth,"53,358",Craig Pawson,Etihad Stadium,H,https://fbref.com//en/matches/e75a870b/Manchester-City-Bournemouth-November-4-2023-Premier-League
+36,2024-05-05,14:00,Brighton,1.0,2.5,0.0,0.1,Aston Villa,"31,596",Robert Jones,The American Express Community Stadium,H,https://fbref.com//en/matches/5d5f6155/Brighton-and-Hove-Albion-Aston-Villa-May-5-2024-Premier-League
+14,2024-12-05,20:15,Bournemouth,1.0,3.5,0.0,0.9,Tottenham,"11,234",Simon Hooper,Vitality Stadium,H,https://fbref.com//en/matches/c7e59a0a/Bournemouth-Tottenham-Hotspur-December-5-2024-Premier-League
+11,2022-10-16,14:00,Manchester Utd,0.0,0.8,0.0,0.8,Newcastle Utd,"73,726",Craig Pawson,Old Trafford,D,https://fbref.com//en/matches/e0b9c72c/Manchester-United-Newcastle-United-October-16-2022-Premier-League
+26,2025-02-23,16:30,Manchester City,0.0,0.6,2.0,0.7,Liverpool,"52,803",Anthony Taylor,Etihad Stadium,A,https://fbref.com//en/matches/e51a316b/Manchester-City-Liverpool-February-23-2025-Premier-League
+19,2023-12-27,19:30,Chelsea,2.0,2.6,1.0,1.1,Crystal Palace,"39,618",Michael Salisbury,Stamford Bridge,H,https://fbref.com//en/matches/2bfb6552/Chelsea-Crystal-Palace-December-27-2023-Premier-League
+37,2024-05-11,15:00,Newcastle Utd,1.0,2.2,1.0,1.4,Brighton,"51,997",Darren England,St James' Park,D,https://fbref.com//en/matches/6dbd7d72/Newcastle-United-Brighton-and-Hove-Albion-May-11-2024-Premier-League
+11,2024-11-09,15:00,Wolves,2.0,1.3,0.0,0.6,Southampton,"31,403",Thomas Bramall,Molineux Stadium,H,https://fbref.com//en/matches/dbec2d40/Wolverhampton-Wanderers-Southampton-November-9-2024-Premier-League
+14,2024-12-03,20:15,Leicester City,3.0,1.7,1.0,3.0,West Ham,"30,947",Joshua Smith,King Power Stadium,H,https://fbref.com//en/matches/355fd8ce/Leicester-City-West-Ham-United-December-3-2024-Premier-League
+22,2023-02-04,17:30,Newcastle Utd,1.0,1.0,1.0,1.0,West Ham,"52,256",Peter Bankes,St James' Park,D,https://fbref.com//en/matches/34e9160c/Newcastle-United-West-Ham-United-February-4-2023-Premier-League
+2,2023-08-19,15:00,Liverpool,3.0,3.0,1.0,1.3,Bournemouth,"53,145",Thomas Bramall,Anfield,H,https://fbref.com//en/matches/80bebdbb/Liverpool-Bournemouth-August-19-2023-Premier-League
+4,2024-09-14,15:00,Liverpool,0.0,0.9,1.0,0.4,Nott'ham Forest,"60,344",Michael Oliver,Anfield,A,https://fbref.com//en/matches/674bfe9e/Liverpool-Nottingham-Forest-September-14-2024-Premier-League
+12,2024-11-23,12:30,Leicester City,1.0,1.1,2.0,2.7,Chelsea,"31,880",Andy Madley,King Power Stadium,A,https://fbref.com//en/matches/bb885467/Leicester-City-Chelsea-November-23-2024-Premier-League
+2,2023-08-20,16:30,West Ham,3.0,1.8,1.0,2.5,Chelsea,"62,451",John Brooks,London Stadium,H,https://fbref.com//en/matches/44b9a07c/West-Ham-United-Chelsea-August-20-2023-Premier-League
+1,2024-08-17,17:30,West Ham,1.0,2.3,2.0,2.0,Aston Villa,"62,463",Tony Harrington,London Stadium,A,https://fbref.com//en/matches/eac7c00b/West-Ham-United-Aston-Villa-August-17-2024-Premier-League
+29,2025-03-16,13:30,Arsenal,1.0,0.7,0.0,0.4,Chelsea,"60,311",Chris Kavanagh,Emirates Stadium,H,https://fbref.com//en/matches/22de525d/North-West-London-Derby-Arsenal-Chelsea-March-16-2025-Premier-League
+27,2025-02-26,19:30,Nott'ham Forest,0.0,0.4,0.0,1.0,Arsenal,"30,200",Andy Madley,The City Ground,D,https://fbref.com//en/matches/d4387bc1/Nottingham-Forest-Arsenal-February-26-2025-Premier-League
+27,2024-03-02,15:00,Nott'ham Forest,0.0,1.0,1.0,2.0,Liverpool,"29,603",Paul Tierney,The City Ground,A,https://fbref.com//en/matches/d1a00cf0/Nottingham-Forest-Liverpool-March-2-2024-Premier-League
+24,2024-02-10,15:00,Fulham,3.0,1.6,1.0,1.8,Bournemouth,"24,271",Darren England,Craven Cottage,H,https://fbref.com//en/matches/bf9e0d20/Fulham-Bournemouth-February-10-2024-Premier-League
+21,2025-01-14,19:30,West Ham,3.0,1.0,2.0,1.7,Fulham,"62,456",Craig Pawson,London Stadium,H,https://fbref.com//en/matches/c6168c73/West-Ham-United-Fulham-January-14-2025-Premier-League
+35,2024-04-28,16:30,Nott'ham Forest,0.0,1.9,2.0,0.9,Manchester City,"29,677",Simon Hooper,The City Ground,A,https://fbref.com//en/matches/80bbb25e/Nottingham-Forest-Manchester-City-April-28-2024-Premier-League
+32,2024-04-06,12:30,Crystal Palace,2.0,1.1,4.0,1.9,Manchester City,"25,132",Paul Tierney,Selhurst Park,A,https://fbref.com//en/matches/fca82852/Crystal-Palace-Manchester-City-April-6-2024-Premier-League
+12,2022-10-18,20:15,Crystal Palace,2.0,1.2,1.0,0.8,Wolves,"25,125",David Coote,Selhurst Park,H,https://fbref.com//en/matches/60705c6d/Crystal-Palace-Wolverhampton-Wanderers-October-18-2022-Premier-League
+5,2024-09-21,15:00,Tottenham,3.0,3.5,1.0,0.8,Brentford,"61,246",John Brooks,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/9511708f/Tottenham-Hotspur-Brentford-September-21-2024-Premier-League
+3,2023-08-27,14:00,Sheffield Utd,1.0,0.7,2.0,3.5,Manchester City,"31,336",Jarred Gillett,Bramall Lane,A,https://fbref.com//en/matches/0844ff10/Sheffield-United-Manchester-City-August-27-2023-Premier-League
+13,2023-11-25,15:00,Nott'ham Forest,2.0,1.9,3.0,1.3,Brighton,"29,404",Anthony Taylor,The City Ground,A,https://fbref.com//en/matches/36be5cee/Nottingham-Forest-Brighton-and-Hove-Albion-November-25-2023-Premier-League
+18,2024-12-26,12:30,Manchester City,1.0,2.1,1.0,0.7,Everton,"55,527",Simon Hooper,Etihad Stadium,D,https://fbref.com//en/matches/87f2d794/Manchester-City-Everton-December-26-2024-Premier-League
+2,2024-08-25,16:30,Liverpool,2.0,2.5,0.0,0.5,Brentford,"60,017",Stuart Attwell,Anfield,H,https://fbref.com//en/matches/09b1742e/Liverpool-Brentford-August-25-2024-Premier-League
+22,2023-02-04,12:30,Everton,1.0,1.7,0.0,0.9,Arsenal,"39,314",David Coote,Goodison Park,H,https://fbref.com//en/matches/07fc721a/Everton-Arsenal-February-4-2023-Premier-League
+15,2022-11-06,14:00,Aston Villa,3.0,0.6,1.0,0.5,Manchester Utd,"42,058",Anthony Taylor,Villa Park,H,https://fbref.com//en/matches/6638574f/Aston-Villa-Manchester-United-November-6-2022-Premier-League
+30,2025-04-01,20:00,Nott'ham Forest,,,,,Manchester Utd,,,The City Ground,,
+5,2022-08-30,19:30,Fulham,2.0,0.7,1.0,1.4,Brighton,"22,224",Thomas Bramall,Craven Cottage,H,https://fbref.com//en/matches/361f4461/Fulham-Brighton-and-Hove-Albion-August-30-2022-Premier-League
+26,2025-02-22,15:00,Southampton,0.0,0.1,4.0,3.9,Brighton,"30,775",Darren Bond,St Mary's Stadium,A,https://fbref.com//en/matches/e757bea1/Southampton-Brighton-and-Hove-Albion-February-22-2025-Premier-League
+24,2023-02-19,16:30,Tottenham,2.0,1.5,0.0,0.5,West Ham,"61,476",Michael Oliver,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/aae66d3d/Tottenham-Hotspur-West-Ham-United-February-19-2023-Premier-League
+38,2023-05-28,16:30,Leeds United,1.0,1.5,4.0,2.2,Tottenham,"36,871",Anthony Taylor,Elland Road,A,https://fbref.com//en/matches/c9c73ddd/Leeds-United-Tottenham-Hotspur-May-28-2023-Premier-League
+30,2023-04-08,15:00,Aston Villa,2.0,1.3,0.0,0.2,Nott'ham Forest,"42,076",Anthony Taylor,Villa Park,H,https://fbref.com//en/matches/68cd68fd/Aston-Villa-Nottingham-Forest-April-8-2023-Premier-League
+4,2023-09-03,16:30,Arsenal,3.0,2.3,1.0,0.9,Manchester Utd,"60,192",Anthony Taylor,Emirates Stadium,H,https://fbref.com//en/matches/74125d47/Arsenal-Manchester-United-September-3-2023-Premier-League
+2,2023-08-19,15:00,Fulham,0.0,0.5,3.0,3.7,Brentford,"24,236",Darren Bond,Craven Cottage,A,https://fbref.com//en/matches/46be83af/Fulham-Brentford-August-19-2023-Premier-League
+22,2024-01-30,20:15,Aston Villa,1.0,1.4,3.0,2.6,Newcastle Utd,"42,191",John Brooks,Villa Park,A,https://fbref.com//en/matches/d8679e54/Aston-Villa-Newcastle-United-January-30-2024-Premier-League
+27,2024-03-04,20:00,Sheffield Utd,0.0,0.2,6.0,2.3,Arsenal,"29,157",Samuel Barrott,Bramall Lane,A,https://fbref.com//en/matches/2eca8900/Sheffield-United-Arsenal-March-4-2024-Premier-League
+15,2023-12-05,19:30,Wolves,1.0,0.8,0.0,0.9,Burnley,"30,439",Jarred Gillett,Molineux Stadium,H,https://fbref.com//en/matches/a52ffb27/Wolverhampton-Wanderers-Burnley-December-5-2023-Premier-League
+8,2022-09-17,17:30,Tottenham,6.0,2.2,2.0,1.8,Leicester City,"61,450",Simon Hooper,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/99e44c16/Tottenham-Hotspur-Leicester-City-September-17-2022-Premier-League
+2,2022-08-13,15:00,Arsenal,4.0,2.7,2.0,0.5,Leicester City,"60,033",Darren England,Emirates Stadium,H,https://fbref.com//en/matches/7483b97f/Arsenal-Leicester-City-August-13-2022-Premier-League
+31,2025-04-06,14:00,Brentford,,,,,Chelsea,,,Gtech Community Stadium,,
+12,2023-11-11,15:00,Manchester Utd,1.0,2.2,0.0,0.4,Luton Town,"73,599",Graham Scott,Old Trafford,H,https://fbref.com//en/matches/4b9f3f25/Manchester-United-Luton-Town-November-11-2023-Premier-League
+38,2023-05-28,16:30,Brentford,1.0,1.3,0.0,1.6,Manchester City,"17,120",John Brooks,Brentford Community Stadium,H,https://fbref.com//en/matches/e7e969e9/Brentford-Manchester-City-May-28-2023-Premier-League
+7,2023-01-18,20:00,Crystal Palace,1.0,0.5,1.0,2.1,Manchester Utd,"23,343",Robert Jones,Selhurst Park,D,https://fbref.com//en/matches/adf46096/Crystal-Palace-Manchester-United-January-18-2023-Premier-League
+1,2024-08-17,15:00,Nott'ham Forest,1.0,1.3,1.0,1.2,Bournemouth,"29,763",Michael Oliver,The City Ground,D,https://fbref.com//en/matches/4efc72e4/Nottingham-Forest-Bournemouth-August-17-2024-Premier-League
+23,2023-02-11,17:30,Bournemouth,1.0,1.5,1.0,1.3,Newcastle Utd,"10,419",Stuart Attwell,Vitality Stadium,D,https://fbref.com//en/matches/d9339e30/Bournemouth-Newcastle-United-February-11-2023-Premier-League
+4,2024-09-14,15:00,Brighton,0.0,1.6,0.0,0.3,Ipswich Town,"41,573",Samuel Barrott,The American Express Stadium,D,https://fbref.com//en/matches/2ffa4354/Brighton-and-Hove-Albion-Ipswich-Town-September-14-2024-Premier-League
+12,2024-11-24,16:30,Ipswich Town,1.0,1.6,1.0,0.8,Manchester Utd,"30,017",Anthony Taylor,Portman Road Stadium,D,https://fbref.com//en/matches/db1e4ea5/Ipswich-Town-Manchester-United-November-24-2024-Premier-League
+35,2023-05-06,15:00,Tottenham,1.0,0.9,0.0,0.4,Crystal Palace,"61,093",Darren England,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/0f1e1478/Tottenham-Hotspur-Crystal-Palace-May-6-2023-Premier-League
+35,2024-04-27,15:00,Manchester Utd,1.0,2.7,1.0,2.1,Burnley,"73,571",John Brooks,Old Trafford,D,https://fbref.com//en/matches/e8eb637d/Manchester-United-Burnley-April-27-2024-Premier-League
+30,2023-04-09,16:30,Liverpool,2.0,3.9,2.0,1.4,Arsenal,"53,267",Paul Tierney,Anfield,D,https://fbref.com//en/matches/f3774baa/Liverpool-Arsenal-April-9-2023-Premier-League
+26,2025-02-22,15:00,Arsenal,0.0,1.2,1.0,1.1,West Ham,"60,262",Craig Pawson,Emirates Stadium,A,https://fbref.com//en/matches/e511e91c/Arsenal-West-Ham-United-February-22-2025-Premier-League
+8,2023-10-07,17:30,Crystal Palace,0.0,0.8,0.0,1.0,Nott'ham Forest,"25,017",Craig Pawson,Selhurst Park,D,https://fbref.com//en/matches/1828106c/Crystal-Palace-Nottingham-Forest-October-7-2023-Premier-League
+6,2024-09-28,15:00,Nott'ham Forest,0.0,0.8,1.0,1.3,Fulham,"30,139",Joshua Smith,The City Ground,A,https://fbref.com//en/matches/ee7d3371/Nottingham-Forest-Fulham-September-28-2024-Premier-League
+28,2023-03-19,14:00,Arsenal,4.0,1.6,1.0,0.8,Crystal Palace,"60,247",Stuart Attwell,Emirates Stadium,H,https://fbref.com//en/matches/98e0de00/Arsenal-Crystal-Palace-March-19-2023-Premier-League
+24,2025-02-02,14:00,Brentford,0.0,2.1,2.0,0.8,Tottenham,"17,154",Jarred Gillett,Gtech Community Stadium,A,https://fbref.com//en/matches/7193a229/Brentford-Tottenham-Hotspur-February-2-2025-Premier-League
+22,2023-02-04,15:00,Aston Villa,2.0,1.7,4.0,2.6,Leicester City,"42,055",Darren England,Villa Park,A,https://fbref.com//en/matches/76a2a22c/Aston-Villa-Leicester-City-February-4-2023-Premier-League
+18,2022-12-31,15:00,Manchester City,1.0,1.7,1.0,0.1,Everton,"53,444",Andy Madley,Etihad Stadium,D,https://fbref.com//en/matches/bcfb66ff/Manchester-City-Everton-December-31-2022-Premier-League
+36,2024-05-04,15:00,Burnley,1.0,1.0,4.0,3.4,Newcastle Utd,"21,781",Anthony Taylor,Turf Moor,A,https://fbref.com//en/matches/070bf86d/Burnley-Newcastle-United-May-4-2024-Premier-League
+3,2023-08-26,15:00,Everton,0.0,1.3,1.0,1.1,Wolves,"38,851",Craig Pawson,Goodison Park,A,https://fbref.com//en/matches/18dfee28/Everton-Wolverhampton-Wanderers-August-26-2023-Premier-League
+33,2024-04-15,20:00,Chelsea,6.0,3.1,0.0,1.5,Everton,"39,392",Paul Tierney,Stamford Bridge,H,https://fbref.com//en/matches/1a41ac25/Chelsea-Everton-April-15-2024-Premier-League
+19,2023-12-27,20:15,Everton,1.0,1.0,3.0,2.4,Manchester City,"39,327",John Brooks,Goodison Park,A,https://fbref.com//en/matches/b9f69f01/Everton-Manchester-City-December-27-2023-Premier-League
+27,2025-02-25,19:30,Crystal Palace,4.0,4.3,1.0,0.4,Aston Villa,"24,712",Samuel Barrott,Selhurst Park,H,https://fbref.com//en/matches/0a97629a/Crystal-Palace-Aston-Villa-February-25-2025-Premier-League
+27,2025-02-26,19:30,Brentford,1.0,1.4,1.0,1.5,Everton,"17,082",Simon Hooper,Gtech Community Stadium,D,https://fbref.com//en/matches/1218933c/Brentford-Everton-February-26-2025-Premier-League
+22,2023-02-04,15:00,Brentford,3.0,2.0,0.0,0.7,Southampton,"17,051",Darren Bond,Brentford Community Stadium,H,https://fbref.com//en/matches/ef31dad5/Brentford-Southampton-February-4-2023-Premier-League
+4,2022-08-27,15:00,Brentford,1.0,2.1,1.0,1.1,Everton,"17,009",John Brooks,Brentford Community Stadium,D,https://fbref.com//en/matches/db59fc65/Brentford-Everton-August-27-2022-Premier-League
+2,2024-08-24,15:00,Southampton,0.0,0.1,1.0,2.2,Nott'ham Forest,"31,150",Samuel Barrott,St Mary's Stadium,A,https://fbref.com//en/matches/a641f3a0/Southampton-Nottingham-Forest-August-24-2024-Premier-League
+13,2023-11-26,16:30,Everton,0.0,2.4,3.0,2.2,Manchester Utd,"39,257",John Brooks,Goodison Park,A,https://fbref.com//en/matches/f82a83dd/Everton-Manchester-United-November-26-2023-Premier-League
+38,2025-05-25,16:00,Manchester Utd,,,,,Aston Villa,,,Old Trafford,,
+11,2022-10-15,17:30,Tottenham,2.0,2.2,0.0,0.4,Everton,"61,812",Paul Tierney,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/e42493f9/Tottenham-Hotspur-Everton-October-15-2022-Premier-League
+14,2024-12-04,20:15,Aston Villa,3.0,2.4,1.0,0.9,Brentford,"42,148",Lewis Smith,Villa Park,H,https://fbref.com//en/matches/c24a734b/Aston-Villa-Brentford-December-4-2024-Premier-League
+19,2023-12-27,19:30,Brentford,1.0,2.2,4.0,2.4,Wolves,"17,109",Andy Madley,Gtech Community Stadium,A,https://fbref.com//en/matches/ea28d527/Brentford-Wolverhampton-Wanderers-December-27-2023-Premier-League
+2,2024-08-24,17:30,Aston Villa,0.0,1.2,2.0,0.9,Arsenal,"41,587",Michael Oliver,Villa Park,A,https://fbref.com//en/matches/4692171a/Aston-Villa-Arsenal-August-24-2024-Premier-League
+26,2023-03-04,12:30,Manchester City,2.0,1.3,0.0,0.4,Newcastle Utd,"53,419",Simon Hooper,Etihad Stadium,H,https://fbref.com//en/matches/b33bcb97/Manchester-City-Newcastle-United-March-4-2023-Premier-League
+2,2022-08-13,15:00,Wolves,0.0,0.9,0.0,1.5,Fulham,"31,178",John Brooks,Molineux Stadium,D,https://fbref.com//en/matches/669b1665/Wolverhampton-Wanderers-Fulham-August-13-2022-Premier-League
+33,2023-04-25,19:45,Aston Villa,1.0,1.0,0.0,0.1,Fulham,"41,046",Thomas Bramall,Villa Park,H,https://fbref.com//en/matches/8b295a84/Aston-Villa-Fulham-April-25-2023-Premier-League
+23,2024-02-03,15:00,Brighton,4.0,1.4,1.0,0.3,Crystal Palace,"31,345",Simon Hooper,The American Express Community Stadium,H,https://fbref.com//en/matches/689d15cf/Brighton-and-Hove-Albion-Crystal-Palace-February-3-2024-Premier-League
+1,2023-08-13,14:00,Brentford,2.0,2.2,2.0,1.3,Tottenham,"17,066",Robert Jones,Gtech Community Stadium,D,https://fbref.com//en/matches/67ed3ba2/Brentford-Tottenham-Hotspur-August-13-2023-Premier-League
+19,2023-01-02,17:30,Brentford,3.0,1.6,1.0,0.9,Liverpool,"17,163",Stuart Attwell,Brentford Community Stadium,H,https://fbref.com//en/matches/af6aa183/Brentford-Liverpool-January-2-2023-Premier-League
+9,2024-10-25,20:00,Leicester City,1.0,0.8,3.0,1.7,Nott'ham Forest,"31,879",Craig Pawson,King Power Stadium,A,https://fbref.com//en/matches/292d8bc4/Leicester-City-Nottingham-Forest-October-25-2024-Premier-League
+3,2022-08-20,12:30,Tottenham,1.0,1.7,0.0,0.7,Wolves,"61,298",Simon Hooper,Tottenham Hotspur Stadium,H,https://fbref.com//en/matches/5cc3bd0e/Tottenham-Hotspur-Wolverhampton-Wanderers-August-20-2022-Premier-League
+27,2024-03-03,15:30,Manchester City,3.0,3.3,1.0,0.2,Manchester Utd,"53,514",Andy Madley,Etihad Stadium,H,https://fbref.com//en/matches/615eff06/Manchester-Derby-Manchester-City-Manchester-United-March-3-2024-Premier-League
+8,2024-10-19,15:00,Southampton,2.0,2.1,3.0,3.1,Leicester City,"31,145",Anthony Taylor,St Mary's Stadium,A,https://fbref.com//en/matches/03d28c48/Southampton-Leicester-City-October-19-2024-Premier-League
+19,2023-12-26,20:00,Manchester Utd,3.0,1.1,2.0,1.7,Aston Villa,"73,574",Craig Pawson,Old Trafford,H,https://fbref.com//en/matches/83709fdf/Manchester-United-Aston-Villa-December-26-2023-Premier-League
+36,2025-05-10,15:00,Liverpool,,,,,Arsenal,,,Anfield,,
+32,2024-04-06,15:00,Fulham,0.0,1.2,1.0,1.0,Newcastle Utd,"24,418",Samuel Allison,Craven Cottage,A,https://fbref.com//en/matches/a9d2819f/Fulham-Newcastle-United-April-6-2024-Premier-League
+20,2025-01-05,16:30,Liverpool,2.0,2.7,2.0,1.0,Manchester Utd,"60,275",Michael Oliver,Anfield,D,https://fbref.com//en/matches/4cef863f/North-West-Derby-Liverpool-Manchester-United-January-5-2025-Premier-League
+21,2023-01-21,12:30,Liverpool,0.0,1.4,0.0,1.6,Chelsea,"53,126",Michael Oliver,Anfield,D,https://fbref.com//en/matches/7febc290/Liverpool-Chelsea-January-21-2023-Premier-League
+22,2025-01-19,14:00,Nott'ham Forest,3.0,1.8,2.0,0.9,Southampton,"30,180",Anthony Taylor,The City Ground,H,https://fbref.com//en/matches/e0f90407/Nottingham-Forest-Southampton-January-19-2025-Premier-League
+33,2024-04-14,14:00,Liverpool,0.0,2.7,1.0,2.0,Crystal Palace,"60,090",Chris Kavanagh,Anfield,A,https://fbref.com//en/matches/99113ef3/Liverpool-Crystal-Palace-April-14-2024-Premier-League
+14,2023-12-02,15:00,Brentford,3.0,3.1,1.0,0.2,Luton Town,"17,075",Anthony Taylor,Gtech Community Stadium,H,https://fbref.com//en/matches/0f71f535/Brentford-Luton-Town-December-2-2023-Premier-League
+33,2025-04-19,15:00,Crystal Palace,,,,,Bournemouth,,,Selhurst Park,,
+10,2023-10-28,17:30,Wolves,2.0,0.9,2.0,2.2,Newcastle Utd,"31,584",Anthony Taylor,Molineux Stadium,D,https://fbref.com//en/matches/b84d060a/Wolverhampton-Wanderers-Newcastle-United-October-28-2023-Premier-League
+10,2024-11-02,17:30,Wolves,2.0,1.5,2.0,2.4,Crystal Palace,"31,124",Anthony Taylor,Molineux Stadium,D,https://fbref.com//en/matches/a4251fae/Wolverhampton-Wanderers-Crystal-Palace-November-2-2024-Premier-League
+34,2024-05-14,20:00,Tottenham,0.0,1.7,2.0,2.4,Manchester City,"61,065",Chris Kavanagh,Tottenham Hotspur Stadium,A,https://fbref.com//en/matches/2ba17e6d/Tottenham-Hotspur-Manchester-City-May-14-2024-Premier-League
+27,2023-03-11,15:00,Leeds United,2.0,0.9,2.0,2.7,Brighton,"36,471",Paul Tierney,Elland Road,D,https://fbref.com//en/matches/3f653d6f/Leeds-United-Brighton-and-Hove-Albion-March-11-2023-Premier-League
+3,2022-08-20,15:00,Leicester City,1.0,0.3,2.0,0.9,Southampton,"30,850",Michael Salisbury,King Power Stadium,A,https://fbref.com//en/matches/02efd4d1/Leicester-City-Southampton-August-20-2022-Premier-League
+8,2023-10-08,16:30,Arsenal,1.0,0.4,0.0,0.5,Manchester City,"60,233",Michael Oliver,Emirates Stadium,H,https://fbref.com//en/matches/59cd18ae/Arsenal-Manchester-City-October-8-2023-Premier-League
+29,2023-04-01,17:30,Chelsea,0.0,2.1,2.0,0.9,Aston Villa,"40,082",Andy Madley,Stamford Bridge,A,https://fbref.com//en/matches/870fa8c9/Chelsea-Aston-Villa-April-1-2023-Premier-League
+20,2025-01-04,17:30,Brighton,1.0,1.5,1.0,0.9,Arsenal,"31,714",Anthony Taylor,The American Express Stadium,D,https://fbref.com//en/matches/52186da4/Brighton-and-Hove-Albion-Arsenal-January-4-2025-Premier-League
+1,2023-08-12,15:00,Bournemouth,1.0,1.3,1.0,1.1,West Ham,"11,245",Peter Bankes,Vitality Stadium,D,https://fbref.com//en/matches/d6bbf293/Bournemouth-West-Ham-United-August-12-2023-Premier-League
+5,2024-09-21,15:00,Fulham,3.0,2.2,1.0,1.5,Newcastle Utd,"25,700",Peter Bankes,Craven Cottage,H,https://fbref.com//en/matches/de7298df/Fulham-Newcastle-United-September-21-2024-Premier-League
+35,2023-05-07,19:00,West Ham,1.0,1.3,0.0,1.2,Manchester Utd,"62,477",Peter Bankes,London Stadium,H,https://fbref.com//en/matches/98f0c145/West-Ham-United-Manchester-United-May-7-2023-Premier-League
+1,2024-08-19,20:00,Leicester City,1.0,1.0,1.0,1.2,Tottenham,"31,977",Chris Kavanagh,King Power Stadium,D,https://fbref.com//en/matches/62eea1d6/Leicester-City-Tottenham-Hotspur-August-19-2024-Premier-League
+15,2022-11-05,17:30,Everton,0.0,1.2,2.0,2.3,Leicester City,"39,206",David Coote,Goodison Park,A,https://fbref.com//en/matches/831c73fc/Everton-Leicester-City-November-5-2022-Premier-League
+12,2024-11-23,15:00,Arsenal,3.0,1.2,0.0,0.3,Nott'ham Forest,"60,298",Simon Hooper,Emirates Stadium,H,https://fbref.com//en/matches/0cb4129b/Arsenal-Nottingham-Forest-November-23-2024-Premier-League
+37,2025-05-18,15:00,Leicester City,,,,,Ipswich Town,,,King Power Stadium,,
+11,2022-10-14,20:00,Brentford,2.0,1.5,0.0,1.9,Brighton,"17,016",Michael Salisbury,Brentford Community Stadium,H,https://fbref.com//en/matches/69409682/Brentford-Brighton-and-Hove-Albion-October-14-2022-Premier-League
+34,2023-04-30,14:00,Fulham,1.0,0.2,2.0,2.5,Manchester City,"24,498",Simon Hooper,Craven Cottage,A,https://fbref.com//en/matches/d4d0cb2a/Fulham-Manchester-City-April-30-2023-Premier-League
+9,2023-10-21,17:30,Chelsea,2.0,1.3,2.0,1.0,Arsenal,"39,723",Chris Kavanagh,Stamford Bridge,D,https://fbref.com//en/matches/a1c336e2/North-West-London-Derby-Chelsea-Arsenal-October-21-2023-Premier-League
+14,2022-10-29,15:00,Bournemouth,2.0,0.5,3.0,2.0,Tottenham,"10,430",Anthony Taylor,Vitality Stadium,A,https://fbref.com//en/matches/dcb3b971/Bournemouth-Tottenham-Hotspur-October-29-2022-Premier-League
+29,2025-03-15,15:00,Southampton,1.0,1.3,2.0,0.4,Wolves,"30,950",Robert Jones,St Mary's Stadium,A,https://fbref.com//en/matches/eea61e7f/Southampton-Wolverhampton-Wanderers-March-15-2025-Premier-League
+34,2025-04-26,15:00,Brighton,,,,,West Ham,,,The American Express Stadium,,
+38,2025-05-25,16:00,Southampton,,,,,Arsenal,,,St Mary's Stadium,,
+11,2024-11-09,15:00,Brentford,3.0,1.5,2.0,2.6,Bournemouth,"16,587",Darren Bond,Gtech Community Stadium,H,https://fbref.com//en/matches/1c998ef5/Brentford-Bournemouth-November-9-2024-Premier-League
+37,2025-05-18,15:00,Aston Villa,,,,,Tottenham,,,Villa Park,,

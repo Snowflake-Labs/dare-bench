@@ -1,0 +1,54 @@
+## Description
+
+This dataset provides a comprehensive overview of seismic activity and fault line characteristics in the Marmara Region of Turkey between **2000 and 2025**. It combines earthquake records with geological properties of nearby fault zones using spatial analysis techniques.
+
+### Contents:
+- **Earthquake Data**: latitude, longitude, depth, magnitude, location, and time.
+-  **Nearest Fault Mapping**: using KNN algorithm to associate each earthquake with the closest fault.
+-  **Fault Characteristics**:
+  - Type (e.g. strike-slip, normal)
+  - Length, width, and depth
+  - Slip rate (mm/year)
+  - Seismogenic depth
+  - Recurrence intervals
+  - Last known earthquake and magnitude
+  - Moment potential and slip deficit
+
+### Purpose
+This dataset is designed for researchers, data scientists, and students aiming to model earthquake behavior using geophysical features. It supports time-series forecasting, geospatial analysis, and machine learning-based risk modeling.
+
+###  Licensing & Attribution
+- **Non-commercial use only**
+- **Attribution required** when using or referencing this dataset
+
+=== About this file ===
+
+About this file
+This CSV file contains merged earthquake data and geological fault information for the Marmara Region, Turkey.
+
+
+=== Columns & descriptions ===
+
+Date: Date of the earthquake
+Latitude: Latitude of the earthquake epicenter
+Longitude: Longitude of the earthquake epicenter
+Depth_km: Earthquake depth in kilometers
+Magnitude_ML: Local magnitude of the earthquake
+Location: Textual location description (nearest town or district)
+Nearest_Fault: Name of the closest fault line (via KNN spatial matching)
+Fault_Length_km: Estimated length of the matched fault in kilometers
+Fault_Width_m: Estimated width of the fault trench in meters
+Fault_Depth_m: Estimated depth of the fault trench in meters
+Fault_Type: Fault classification (e.g. strike-slip, normal)
+Length_km: Represents the approximate surface length of each fault segment in kilometers, calculated using geodesic distance between coordinates. Longer faults often indicate higher earthquake potential
+Seismogenic_Depth_km: Depth of the fault capable of producing earthquakes
+Slip_Rate_mm_per_yr: Average horizontal or vertical slip rate in mm/year
+Max_Surface_Slip_m: Maximum observed slip on the fault surface in meters
+Recurrence_Interval_yr: Estimated average recurrence interval between large earthquakes
+Last_Event_Year: Year of the last known surface-breaking earthquake
+Last_Event_Mw: Moment magnitude of the last event
+Elapsed_Time_yr: Years passed since the last major event
+Slip_Deficit_m: Estimated slip deficit based on time and slip rate
+Normalized_Slip_m_per_km: Normalized slip per km of fault length (m/km)
+Moment_Potential_Nm: Earthquake energy potential (moment) in Newton-meters
+Mw_Potential: Theoretical maximum moment magnitude potential

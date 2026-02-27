@@ -1,0 +1,40 @@
+Please upvote the dataset if you find it helpful :) 
+
+The data was collected by using the **google\_play\_scraper** library to pull the application reviews. I have filtered the downloaded data to English and collected every review. A small portion of the dataset is used to label the data manually. The labeling is done to categorize the reviews into four categories:
+
+**Subscription:** Since medium has a subscription option, anything related to users' opinions about subscription features should belong here.
+
+**Content:** Medium is a sharing platform, there are lots of writings from poetry to advanced artificial intelligence research. Users’ opinions about a variety of topics, and the quality of the content should belong here.
+
+**Interface:** Thoughts about UI, searching articles, recommendation engine, and anything related to the interface should belong here. This also includes payment-related issues.
+
+**User Experience:** The user’s general thoughts and opinions about the application. Which should be generally abstract without indicating another category.
+
+~350 samples were used to fine-tune a roBERTa model to classify the reviews, then I used the same model for sentiment analysis (without fine-tuning). 
+
+More detailed information about the data collection can be found in this notebook:
+https://www.kaggle.com/code/raqhea/automatically-collect-process-and-label-text-data
+
+The model used for fine-tuning: https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment
+
+=== About this file ===
+
+About this file
+Remote source:
+https://www.kaggle.com/code/raqhea/automatically-collect-process-and-label-text-data
+Collected reviews of Medium application from google play store. Data is from 2015 to today and will be updated daily.
+
+
+=== Columns & descriptions ===
+
+reviewId: Review ID for the review
+content: Review text
+score: Given score to the application
+thumbsUpCount: People can upvote the other reviews, the total upvotes for the review
+reviewCreatedVersion: The application version when the review sent
+at: Review date
+replyContent: Reply text to the review (if any)
+repliedAt: Reply date (if any)
+predicted_category: Predicted category using fine-tuned model
+sentiment: Predicted sentiment using a NLP model
+appVersion: [no description]

@@ -1,0 +1,305 @@
+{
+    "question": {
+        "target": [
+            "sinr"
+        ],
+        "target_candidates": [
+            "sinr"
+        ],
+        "related_features": [
+            "user_loc_hist_y_2",
+            "user_loc_hist_x_2",
+            "user_loc_hist_y_0",
+            "user_loc_hist_x_4",
+            "csi_beam_4",
+            "csi_beam_1",
+            "user_loc_hist_x_0",
+            "csi_beam_0",
+            "beam_hist_4",
+            "beam_hist_0",
+            "beam_hist_1",
+            "csi_beam_7",
+            "csi_beam_5",
+            "beam_hist_2",
+            "user_loc_hist_y_1",
+            "csi_beam_3",
+            "user_loc_hist_y_4",
+            "user_loc_hist_x_1",
+            "csi_beam_6",
+            "user_loc_hist_x_3",
+            "beam_hist_3",
+            "csi_beam_2",
+            "user_loc_hist_y_3"
+        ],
+        "not_filtered_related_features": [
+            "user_loc_hist_y_2",
+            "user_loc_hist_x_2",
+            "user_loc_hist_y_0",
+            "user_loc_hist_x_4",
+            "csi_beam_4",
+            "csi_beam_1",
+            "user_loc_hist_x_0",
+            "csi_beam_0",
+            "csi_beam_7",
+            "csi_beam_5",
+            "user_loc_hist_y_1",
+            "csi_beam_3",
+            "user_loc_hist_y_4",
+            "user_loc_hist_x_1",
+            "csi_beam_6",
+            "user_loc_hist_x_3",
+            "csi_beam_2",
+            "user_loc_hist_y_3"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "user_loc_hist_y_2": [
+                -100.0,
+                100.0
+            ],
+            "user_loc_hist_x_2": [
+                -100.0,
+                100.0
+            ],
+            "user_loc_hist_y_0": [
+                -100.0,
+                100.0
+            ],
+            "user_loc_hist_x_4": [
+                -100.0,
+                100.0
+            ],
+            "csi_beam_4": [
+                0.0,
+                10.0
+            ],
+            "csi_beam_1": [
+                0.0,
+                10.0
+            ],
+            "user_loc_hist_x_0": [
+                -100.0,
+                100.0
+            ],
+            "csi_beam_0": [
+                0.0,
+                10.0
+            ],
+            "csi_beam_7": [
+                0.0,
+                10.0
+            ],
+            "csi_beam_5": [
+                0.0,
+                10.0
+            ],
+            "user_loc_hist_y_1": [
+                -100.0,
+                100.0
+            ],
+            "csi_beam_3": [
+                0.0,
+                10.0
+            ],
+            "user_loc_hist_y_4": [
+                -100.0,
+                100.0
+            ],
+            "user_loc_hist_x_1": [
+                -100.0,
+                100.0
+            ],
+            "csi_beam_6": [
+                0.0,
+                10.0
+            ],
+            "user_loc_hist_x_3": [
+                -100.0,
+                100.0
+            ],
+            "csi_beam_2": [
+                0.0,
+                10.0
+            ],
+            "user_loc_hist_y_3": [
+                -100.0,
+                100.0
+            ]
+        },
+        "selected_features": [
+            "csi_beam_5",
+            "user_loc_hist_y_3",
+            "csi_beam_6",
+            "csi_beam_3",
+            "csi_beam_1",
+            "csi_beam_7",
+            "csi_beam_2",
+            "user_loc_hist_y_2",
+            "user_loc_hist_y_0",
+            "user_loc_hist_x_4",
+            "user_loc_hist_y_1"
+        ],
+        "train_v2_save_file": "./mrsimple07_beamforming-data-analysis_reg/source/train_v2.parquet",
+        "val_v2_save_file": "./mrsimple07_beamforming-data-analysis_reg/source/val_v2.parquet",
+        "val_no_err_save_file": "./mrsimple07_beamforming-data-analysis_reg/source/val_v1.parquet",
+        "train_no_err_save_file": "./mrsimple07_beamforming-data-analysis_reg/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./mrsimple07_beamforming-data-analysis_reg/source/train_v1.parquet",
+        "train_test_ratio": 0.9,
+        "save_file_type": "parquet",
+        "imputer_type": "median",
+        "random_state": 26,
+        "model_type": "LinearRegression",
+        "output_file": "./mrsimple07_beamforming-data-analysis_reg/prediction.csv",
+        "ground_truth_file": "./mrsimple07_beamforming-data-analysis_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./mrsimple07_beamforming-data-analysis_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "sample_id": "categorical",
+            "user_loc_hist_x_0": "numerical",
+            "user_loc_hist_y_0": "numerical",
+            "user_loc_hist_x_1": "numerical",
+            "user_loc_hist_y_1": "numerical",
+            "user_loc_hist_x_2": "numerical",
+            "user_loc_hist_y_2": "numerical",
+            "user_loc_hist_x_3": "numerical",
+            "user_loc_hist_y_3": "numerical",
+            "user_loc_hist_x_4": "numerical",
+            "user_loc_hist_y_4": "numerical",
+            "csi_beam_0": "numerical",
+            "csi_beam_1": "numerical",
+            "csi_beam_2": "numerical",
+            "csi_beam_3": "numerical",
+            "csi_beam_4": "numerical",
+            "csi_beam_5": "numerical",
+            "csi_beam_6": "numerical",
+            "csi_beam_7": "numerical",
+            "beam_hist_0": "categorical",
+            "beam_hist_1": "categorical",
+            "beam_hist_2": "categorical",
+            "beam_hist_3": "categorical",
+            "beam_hist_4": "categorical",
+            "sinr": "numerical",
+            "optimal_beam_index": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "csi_beam_5",
+            "user_loc_hist_y_3",
+            "csi_beam_6",
+            "csi_beam_3",
+            "csi_beam_1",
+            "csi_beam_7",
+            "csi_beam_2",
+            "user_loc_hist_y_2",
+            "user_loc_hist_y_0",
+            "user_loc_hist_x_4",
+            "user_loc_hist_y_1"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7929254,
+        "ref": "mrsimple07/beamforming-data-analysis",
+        "subtitle": "A synthetic dataset for machine learning-based real-time beam direction predict",
+        "creatorName": "MrSimple",
+        "creatorUrl": "mrsimple07",
+        "totalBytes": 1780410,
+        "url": "https://www.kaggle.com/datasets/mrsimple07/beamforming-data-analysis",
+        "lastUpdated": "2025-07-23T17:46:32.083Z",
+        "downloadCount": 9,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "MrSimple",
+        "ownerRef": "mrsimple07",
+        "kernelCount": 1,
+        "title": "Beamforming_data_analysis",
+        "viewCount": 105,
+        "voteCount": 1,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "bayesian statistics",
+                "name": "bayesian statistics",
+                "description": "",
+                "fullPath": "technique > bayesian statistics",
+                "competitionCount": 4,
+                "datasetCount": 109,
+                "scriptCount": 419,
+                "totalCount": 532
+            },
+            {
+                "ref": "earth and nature",
+                "name": "earth and nature",
+                "description": "",
+                "fullPath": "subject > earth and nature",
+                "competitionCount": 19,
+                "datasetCount": 79488,
+                "scriptCount": 394,
+                "totalCount": 79901
+            },
+            {
+                "ref": "computer science",
+                "name": "computer science",
+                "description": "There is one thing we can say for sure about computer science: Computer science leads to more computer games which leads to better GPUs which leads to smarter AI.",
+                "fullPath": "subject > science and technology > computer science",
+                "competitionCount": 10,
+                "datasetCount": 57851,
+                "scriptCount": 733,
+                "totalCount": 58594
+            },
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7929254,
+        "datasetSlug": "beamforming-data-analysis",
+        "ownerUser": "mrsimple07",
+        "usabilityRating": 1.0,
+        "totalViews": 105,
+        "totalVotes": 1,
+        "totalDownloads": 10,
+        "title": "Beamforming_data_analysis",
+        "subtitle": "A synthetic dataset for machine learning-based real-time beam direction predict",
+        "description": "Real-time Beamforming Optimization for Next-Gen Wireless Networks\n\nA synthetic dataset for machine learning-based real-time beam direction selection, incorporating user mobility, channel state information, and historical network performance.\n\n=== About this file ===\n\nAbout this file\nThe dataset contains the following key features, collected over simulated time steps:\n\n\n=== Columns & descriptions ===\n\nsample_id: Unique identifier for each data sample/time instance.\nuser_loc_hist_x_0: 2D Cartesian coordinates (x, y) representing the user's past N locations. This captures user mobility patterns.\nuser_loc_hist_y_0: Integer indices (0 to num_beams-1) representing the beam direction chosen by the system at past N time steps. This provides contextual information about previous beam choices.\nuser_loc_hist_x_1: [no description]\nuser_loc_hist_y_1: [no description]\nuser_loc_hist_x_2: A scalar value (in dB) indicating the overall signal quality at the user's location. A higher SINR generally means better communication.\nuser_loc_hist_y_2: Simplified representation: A vector of channel gains or strengths associated with each of the M potential beam directions. Higher values indicate stronger signal paths.\nuser_loc_hist_x_3: Simplified representation: A vector of channel gains or strengths associated with each of the M potential beam directions. Higher values indicate stronger signal paths.\nuser_loc_hist_y_3: Simplified representation: A vector of channel gains or strengths associated with each of the M potential beam directions. Higher values indicate stronger signal paths.\nuser_loc_hist_x_4: Simplified representation: A vector of channel gains or strengths associated with each of the M potential beam directions. Higher values indicate stronger signal paths.\nuser_loc_hist_y_4: [no description]\ncsi_beam_0: [no description]\ncsi_beam_1: [no description]\ncsi_beam_2: [no description]\ncsi_beam_3: [no description]\ncsi_beam_4: [no description]\ncsi_beam_5: [no description]\ncsi_beam_6: [no description]\ncsi_beam_7: [no description]\nbeam_hist_0: [no description]\nbeam_hist_1: [no description]\nbeam_hist_2: [no description]\nbeam_hist_3: [no description]\nbeam_hist_4: [no description]\nsinr: [no description]\noptimal_beam_index: [no description]\n",
+        "keywords": [
+            "bayesian statistics",
+            "earth and nature",
+            "computer science",
+            "intermediate",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

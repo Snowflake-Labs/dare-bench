@@ -1,0 +1,186 @@
+{
+    "question": {
+        "target": [
+            "positiveIncrease"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "date",
+        "time_format": "%Y%m%d",
+        "is_resampled": false,
+        "related_features": [
+            "deathIncrease",
+            "hospitalizedIncrease",
+            "negativeIncrease",
+            "totalTestResultsIncrease"
+        ],
+        "not_filtered_related_features": [
+            "deathIncrease",
+            "hospitalizedIncrease",
+            "negativeIncrease",
+            "totalTestResultsIncrease"
+        ],
+        "selected_features": [
+            "negativeIncrease",
+            "totalTestResultsIncrease",
+            "hospitalizedIncrease"
+        ],
+        "expected_ranges": {
+            "deathIncrease": [
+                0,
+                5427
+            ],
+            "hospitalizedIncrease": [
+                -2858,
+                17155
+            ],
+            "negativeIncrease": [
+                -658774,
+                480256
+            ],
+            "totalTestResultsIncrease": [
+                0,
+                2309884
+            ]
+        },
+        "column_type_inference": {
+            "date": "numeric",
+            "states": "numeric",
+            "positive": "numeric",
+            "negative": "numeric",
+            "pending": "numeric",
+            "hospitalizedCurrently": "numeric",
+            "hospitalizedCumulative": "numeric",
+            "inIcuCurrently": "numeric",
+            "inIcuCumulative": "numeric",
+            "onVentilatorCurrently": "numeric",
+            "onVentilatorCumulative": "numeric",
+            "dateChecked": "object",
+            "death": "numeric",
+            "hospitalized": "numeric",
+            "totalTestResults": "numeric",
+            "lastModified": "object",
+            "recovered": "numeric",
+            "total": "numeric",
+            "posNeg": "numeric",
+            "deathIncrease": "numeric",
+            "hospitalizedIncrease": "numeric",
+            "negativeIncrease": "numeric",
+            "positiveIncrease": "numeric",
+            "totalTestResultsIncrease": "numeric",
+            "hash": "object"
+        },
+        "train_save_file": "./punyaslokaprusty_covid-19-tracking-in-usa_ts/source/train.csv",
+        "val_v1_save_file": "./punyaslokaprusty_covid-19-tracking-in-usa_ts/source/val_v1.csv",
+        "val_v2_save_file": "./punyaslokaprusty_covid-19-tracking-in-usa_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./punyaslokaprusty_covid-19-tracking-in-usa_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./punyaslokaprusty_covid-19-tracking-in-usa_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./punyaslokaprusty_covid-19-tracking-in-usa_ts/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 64,
+        "model_type": "Prophet",
+        "output_file": "./punyaslokaprusty_covid-19-tracking-in-usa_ts/prediction.json",
+        "ground_truth_v1_file": "./punyaslokaprusty_covid-19-tracking-in-usa_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./punyaslokaprusty_covid-19-tracking-in-usa_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./punyaslokaprusty_covid-19-tracking-in-usa_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2020-11-02 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 1300231,
+        "ref": "punyaslokaprusty/covid-19-tracking-in-usa",
+        "subtitle": "The COVID Tracking Project By The Atlantic",
+        "creatorName": "Punya Sloka Prusty",
+        "creatorUrl": "punyaslokaprusty",
+        "totalBytes": 36182,
+        "url": "https://www.kaggle.com/datasets/punyaslokaprusty/covid-19-tracking-in-usa",
+        "lastUpdated": "2025-08-19T07:02:50.363Z",
+        "downloadCount": 311,
+        "licenseName": "Attribution 4.0 International (CC BY 4.0)",
+        "description": "",
+        "ownerName": "Punya Sloka Prusty",
+        "ownerRef": "punyaslokaprusty",
+        "kernelCount": 1,
+        "title": "COVID 19 Tracking In USA",
+        "viewCount": 5918,
+        "voteCount": 20,
+        "currentVersionNumber": 221,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "united states",
+                "name": "united states",
+                "description": "The top datasets and kernels in this tag are about mass shootings, AirBnB, homelessness, and witchcraft. That about sums it up.",
+                "fullPath": "geography and places > north america > united states",
+                "competitionCount": 2,
+                "datasetCount": 2639,
+                "scriptCount": 675,
+                "totalCount": 3316
+            },
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "covid19",
+                "name": "covid19",
+                "description": "COVID-19 is a disease that is caused by the SARS-CoV-2 virus. In 2020 there was a global COVID-19 pandemic.",
+                "fullPath": "subject > health and fitness > health > health conditions > diseases > covid19",
+                "competitionCount": 9,
+                "datasetCount": 1936,
+                "scriptCount": 2546,
+                "totalCount": 4491
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 1300231,
+        "datasetSlug": "covid-19-tracking-in-usa",
+        "ownerUser": "punyaslokaprusty",
+        "usabilityRating": 1.0,
+        "totalViews": 5910,
+        "totalVotes": 20,
+        "totalDownloads": 310,
+        "title": "COVID 19 Tracking In USA",
+        "subtitle": "The COVID Tracking Project By The Atlantic",
+        "description": " This is Collected from The COVID Tracking Project which is a volunteer organization launched from The Atlantic and dedicated to collecting and publishing the data required to understand the COVID-19 outbreak in the United States.\n\n=== About this file ===\n\nAbout this file\nRemote source:\nhttps://api.covidtracking.com/v1/us/daily.csv\nThe COVID Tracking Project has ended all data collection as of March 7, 2021. The existing API will continue to work until May 2021, but will only include data up to March 7, 2021.\n\n\n=== Columns & descriptions ===\n\ndate: integer\nDate\n\nDate on which data was collected by The COVID Tracking Project.\nstates: [no description]\npositive: [no description]\nnegative: [no description]\npending: [no description]\nhospitalizedCurrently: [no description]\nhospitalizedCumulative: [no description]\ninIcuCurrently: [no description]\ninIcuCumulative: [no description]\nonVentilatorCurrently: [no description]\nonVentilatorCumulative: [no description]\ndateChecked: [no description]\ndeath: [no description]\nhospitalized: [no description]\ntotalTestResults: [no description]\nlastModified: [no description]\nrecovered: [no description]\ntotal: [no description]\nposNeg: [no description]\ndeathIncrease: [no description]\nhospitalizedIncrease: [no description]\nnegativeIncrease: [no description]\npositiveIncrease: [no description]\ntotalTestResultsIncrease: [no description]\nhash: [no description]\n",
+        "keywords": [
+            "united states",
+            "business",
+            "time series analysis",
+            "covid19"
+        ],
+        "licenses": [
+            {
+                "name": "Attribution 4.0 International (CC BY 4.0)"
+            }
+        ]
+    }
+}

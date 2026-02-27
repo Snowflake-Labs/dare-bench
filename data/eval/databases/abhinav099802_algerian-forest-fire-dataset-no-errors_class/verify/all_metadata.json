@@ -1,0 +1,233 @@
+{
+    "question": {
+        "target": [
+            "Classes"
+        ],
+        "target_candidates": [
+            "Classes"
+        ],
+        "related_features": [
+            "Temperature",
+            "RH",
+            "Ws",
+            "Rain",
+            "month",
+            "ISI",
+            "FWI",
+            "DC",
+            "year",
+            "DMC",
+            "FFMC",
+            "BUI",
+            "day"
+        ],
+        "not_filtered_related_features": [
+            "Temperature",
+            "RH",
+            "Ws",
+            "Rain",
+            "ISI",
+            "FWI",
+            "DC",
+            "DMC",
+            "FFMC",
+            "BUI"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Temperature": [
+                22,
+                42
+            ],
+            "RH": [
+                21,
+                90
+            ],
+            "Ws": [
+                6,
+                29
+            ],
+            "Rain": [
+                0.0,
+                17.0
+            ],
+            "ISI": [
+                0.0,
+                19.0
+            ],
+            "FWI": [
+                0.0,
+                32.0
+            ],
+            "DC": [
+                6.0,
+                221.0
+            ],
+            "DMC": [
+                0.0,
+                66.0
+            ],
+            "FFMC": [
+                28.0,
+                96.0
+            ],
+            "BUI": [
+                1.0,
+                68.0
+            ]
+        },
+        "selected_features": [
+            "RH",
+            "Ws",
+            "DC",
+            "ISI",
+            "FWI",
+            "BUI"
+        ],
+        "train_v2_save_file": "./abhinav099802_algerian-forest-fire-dataset-no-errors_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./abhinav099802_algerian-forest-fire-dataset-no-errors_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./abhinav099802_algerian-forest-fire-dataset-no-errors_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./abhinav099802_algerian-forest-fire-dataset-no-errors_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./abhinav099802_algerian-forest-fire-dataset-no-errors_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.9,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 27,
+        "model_type": "DecisionTreeClassifier",
+        "output_file": "./abhinav099802_algerian-forest-fire-dataset-no-errors_class/prediction.csv",
+        "ground_truth_file": "./abhinav099802_algerian-forest-fire-dataset-no-errors_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./abhinav099802_algerian-forest-fire-dataset-no-errors_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "day": "categorical",
+            "month": "categorical",
+            "year": "categorical",
+            "Temperature": "numerical",
+            "RH": "numerical",
+            "Ws": "numerical",
+            "Rain": "numerical",
+            "FFMC": "numerical",
+            "DMC": "numerical",
+            "DC": "numerical",
+            "ISI": "numerical",
+            "BUI": "numerical",
+            "FWI": "numerical",
+            "Classes": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "RH",
+            "Ws",
+            "DC",
+            "ISI",
+            "FWI",
+            "BUI"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7789460,
+        "ref": "abhinav099802/algerian-forest-fire-dataset-no-errors",
+        "subtitle": "Algerian Forest Fires Data from 2012",
+        "creatorName": "Abhinav Aakash",
+        "creatorUrl": "abhinav099802",
+        "totalBytes": 4871,
+        "url": "https://www.kaggle.com/datasets/abhinav099802/algerian-forest-fire-dataset-no-errors",
+        "lastUpdated": "2025-07-02T20:31:06.000Z",
+        "downloadCount": 37,
+        "licenseName": "ODC Public Domain Dedication and Licence (PDDL)",
+        "description": "",
+        "ownerName": "Abhinav Aakash",
+        "ownerRef": "abhinav099802",
+        "kernelCount": 1,
+        "title": "Algerian Forest Fire Dataset - No errors",
+        "viewCount": 225,
+        "voteCount": 1,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "biology",
+                "name": "biology",
+                "description": "Explore datasets and kernels about gene expressions, transcriptomics, and even the works of Charles Darwin.",
+                "fullPath": "subject > earth and nature > biology",
+                "competitionCount": 26,
+                "datasetCount": 17666,
+                "scriptCount": 4784,
+                "totalCount": 22476
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "linear regression",
+                "name": "linear regression",
+                "description": "",
+                "fullPath": "task > linear regression",
+                "competitionCount": 11,
+                "datasetCount": 850,
+                "scriptCount": 5938,
+                "totalCount": 6799
+            },
+            {
+                "ref": "binary classification",
+                "name": "binary classification",
+                "description": "",
+                "fullPath": "task > binary-classification",
+                "competitionCount": 11364,
+                "datasetCount": 1560,
+                "scriptCount": 7641,
+                "totalCount": 20565
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7789460,
+        "datasetSlug": "algerian-forest-fire-dataset-no-errors",
+        "ownerUser": "abhinav099802",
+        "usabilityRating": 1.0,
+        "totalViews": 68,
+        "totalVotes": 1,
+        "totalDownloads": 14,
+        "title": "Algerian Forest Fire Dataset - No errors",
+        "subtitle": "Algerian Forest Fires Data from 2012",
+        "description": "## Algerian Forst Fires Dataset\n\nData Set information\n\nThe dataset inclueds 244 instances that regroup a data of two regions of Algeria, namely Bejaia region location in the northeast of Algeria and the Sidi Bel-abbes region located in the northwest of Algeria.\n\n122 instances for each region\n\nThe period from June 2012 to September 2012. The dataset includes 11 attributes and 1 output attribute (class). The 244 instances have been classified into fire(138 cases) and not fire (106) classes.\n\nAttribute Information:\n- Date: (DD/MM/YYYY) Day, month, year weather data infomation\n- Temp; temperature noon in Celcius degree\n- RH: Relative Humidity in %\n- Ws: Wind Speed\n- Rain: total day in mm\n- Fine Fuel Moisture Code(FFMC): index from the FWI system\n- Duff Moisture Code (DMC) index from FWI system\n- Drought Code (DC) index from FWI system\n- Initial Spread Index (ISI) from the FWI system\n- Buildup Index (BUI) from the FWI system\n- Fire Weather Index (FWI) \n- Classes Fire, Not Fire\n\n=== About this file ===\n\nAbout this file\nThis file includes 244 instances that regroup a data of two regions of Algeria, namely the Bejaia region located in the northeast of Algeria and the Sidi Bel-abbes region located in the northwest of Algeria.\n\n\n=== Columns & descriptions ===\n\nday: day\nmonth: from July to August\nyear: year 2012\nTemperature: Temperature at noon in C\nRH: Relative humidity in %\nWs: Wind speed in Km/h\nRain: Amount of rainfall in mm\nFFMC: Fine Fuel Moisture Code - It tells us how dry the surface layer of forest or grassland fuels are, and therefore how easily they might ignite and spread fire\nDMC: Duff Moisture Code - It is a numeric rating of the average moisture content of loosely compacted organic layers of moderate depth.\nDC: Drought Code - It is a numeric rating of the average moisture content of deep, compact organic layers\nISI: Initial Spread Index - It  is a numeric rating of the expected rate of fire spread. It is based on wind speed and FFMC\nBUI: Buildup Index - It is a numeric rating of the total amount of fuel available for combustion. It is based on the DMC and the DC\nFWI: Fire Weather Index - It is a numeric rating of fire intensity. It is based on the ISI and the BUI, and is used as a general index of fire danger throughout the forested areas of Canada.\nClasses: Classes of Fire and Not Fire\n",
+        "keywords": [
+            "biology",
+            "classification",
+            "linear regression",
+            "binary classification",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "ODC Public Domain Dedication and Licence (PDDL)"
+            }
+        ]
+    }
+}

@@ -1,0 +1,174 @@
+{
+    "question": {
+        "target": [
+            "Close"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "Open",
+            "High",
+            "Low",
+            "Adj Close",
+            "Volume"
+        ],
+        "not_filtered_related_features": [
+            "Open",
+            "High",
+            "Low",
+            "Adj Close",
+            "Volume"
+        ],
+        "selected_features": [
+            "High",
+            "Volume",
+            "Open"
+        ],
+        "expected_ranges": {
+            "Open": [
+                0.0703129991889,
+                239.0200042724609
+            ],
+            "High": [
+                0.0723960027098655,
+                241.7700042724609
+            ],
+            "Low": [
+                0.0656249970197677,
+                236.1499938964844
+            ],
+            "Adj Close": [
+                0.0697920024394989,
+                238.1499938964844
+            ],
+            "Volume": [
+                9744000,
+                2086584000
+            ]
+        },
+        "column_type_inference": {
+            "Date": "object",
+            "Open": "numeric",
+            "High": "numeric",
+            "Low": "numeric",
+            "Close": "numeric",
+            "Adj Close": "numeric",
+            "Volume": "numeric"
+        },
+        "train_save_file": "./matiflatif_amazon-complete-stocks-data_ts/source/train.csv",
+        "val_v1_save_file": "./matiflatif_amazon-complete-stocks-data_ts/source/val_v1.csv",
+        "val_v2_save_file": "./matiflatif_amazon-complete-stocks-data_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./matiflatif_amazon-complete-stocks-data_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./matiflatif_amazon-complete-stocks-data_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./matiflatif_amazon-complete-stocks-data_ts/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 1,
+        "model_type": "Prophet",
+        "output_file": "./matiflatif_amazon-complete-stocks-data_ts/prediction.json",
+        "ground_truth_v1_file": "./matiflatif_amazon-complete-stocks-data_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./matiflatif_amazon-complete-stocks-data_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./matiflatif_amazon-complete-stocks-data_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2016-10-05 00:00:00",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 6522262,
+        "ref": "matiflatif/amazon-complete-stocks-data",
+        "subtitle": "This data set is available from 16-03-1997 to 14-07-2025",
+        "creatorName": "M Atif Latif",
+        "creatorUrl": "matiflatif",
+        "totalBytes": 834588,
+        "url": "https://www.kaggle.com/datasets/matiflatif/amazon-complete-stocks-data",
+        "lastUpdated": "2025-07-14T11:51:31.867Z",
+        "downloadCount": 75,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "M Atif Latif",
+        "ownerRef": "matiflatif",
+        "kernelCount": 1,
+        "title": "Amazon updated complete stocks Dataset",
+        "viewCount": 440,
+        "voteCount": 8,
+        "currentVersionNumber": 8,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "finance",
+                "name": "finance",
+                "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+                "fullPath": "subject > people and society > business > finance",
+                "competitionCount": 101,
+                "datasetCount": 12683,
+                "scriptCount": 4576,
+                "totalCount": 17360
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "lstm",
+                "name": "lstm",
+                "description": "",
+                "fullPath": "technique > neural networks > lstm",
+                "competitionCount": 3,
+                "datasetCount": 481,
+                "scriptCount": 2385,
+                "totalCount": 2869
+            },
+            {
+                "ref": "investing",
+                "name": "investing",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > investing",
+                "competitionCount": 5,
+                "datasetCount": 11998,
+                "scriptCount": 18559,
+                "totalCount": 30562
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6522262,
+        "datasetSlug": "amazon-complete-stocks-data",
+        "ownerUser": "matiflatif",
+        "usabilityRating": 1.0,
+        "totalViews": 408,
+        "totalVotes": 8,
+        "totalDownloads": 68,
+        "title": "Amazon updated complete stocks Dataset",
+        "subtitle": "This data set is available from 16-03-1997 to 14-07-2025",
+        "description": "#**Context**\nThis dataset contains daily stock data for Amazon.com, Inc. (AMZN) from March 16, 1997, to January 20, 2025. It captures Amazon\u2019s journey from a small online bookstore to one of the largest technology giants in the world. The dataset provides insights into Amazon\u2019s stock performance over nearly three decades, making it a valuable resource for financial analysis, predictive modeling, and machine learning projects.\n\n#**Content**\nThe dataset includes the following key features:\n\nOpen: Stock price at the start of the trading day.\nHigh: Highest stock price during the trading day.\nLow: Lowest stock price during the trading day.\nClose: Stock price at the end of the trading day.\nAdj Close: Adjusted closing price, accounting for corporate actions such as stock splits and dividends.\nVolume: Total number of shares traded during the trading day.\n\n#**Variables**\n- \n Date: The date of the trading day, formatted as YYYY-MM-DD\n\nOpen: The stock price at the beginning of the trading day.\n\nHigh: The highest price the stock reached during the trading day.\n\nLow: The lowest price the stock fell to during the trading day.\n\nClose: The stock price at the end of the trading day.\n\nAdj Close: The adjusted closing price, reflecting corporate actions like stock splits, dividend distributions, and other adjustments.\n\nVolume: The total number of shares traded during the trading day.\n\n\n#**Acknowledgements**\nThis dataset was sourced from reliable public APIs such as Yahoo Finance or Alpha Vantage. It is provided for educational and research purposes and is not affiliated with Amazon.com, Inc. Users are encouraged to comply with the terms of use of the original data source.\n\n\n=== About this file ===\n\nAbout this file\nThis data set is in CSV form and and available 16-03-1997 to 20-01-2025\n\n\n=== Columns & descriptions ===\n\nDate: [no description]\nOpen: The stock price at the beginning of the trading day.\nHigh: The highest price the stock reached during the trading day\nLow: The lowest price the stock fell to during the trading day.\nClose: The stock price at the end of the trading day.\nAdj Close: The adjusted closing price, reflecting corporate actions like stock splits, dividend distributions, and other adjustments.\nVolume: The total number of shares traded during the trading day.\n",
+        "keywords": [
+            "finance",
+            "time series analysis",
+            "lstm",
+            "investing"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

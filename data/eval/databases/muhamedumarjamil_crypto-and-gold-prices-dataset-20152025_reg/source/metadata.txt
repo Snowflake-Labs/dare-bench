@@ -1,0 +1,19 @@
+This dataset contains simulated daily closing prices in USD for major cryptocurrencies — Bitcoin (BTC), Ethereum (ETH), Cardano (ADA), Binance Coin (BNB), Ripple (XRP), Dogecoin (DOGE), Solana (SOL) — along with gold prices per ounce. The data spans from January 1, 2015, through July 24, 2025. It is intended for research, analysis, and modeling purposes where real historical price patterns are approximated to simulate market behavior over time.
+
+=== About this file ===
+
+About this file
+This CSV file contains daily simulated price data from January 1, 2015, to July 24, 2025. Each row represents a single date with corresponding closing prices (in USD) for seven major cryptocurrencies and gold. The dataset is ideal for testing trading strategies, performing time-series analysis, or educational purposes where real market data is not required.
+
+
+=== Columns & descriptions ===
+
+Date: Trading date
+Bitcoin (USD): BTC price
+Ethereum (USD): ETH price
+Gold (USD per oz): Gold price
+Cardano (ADA): ADA price
+Binance Coin (BNB): BNB price
+Ripple (XRP): XRP price
+Dogecoin (DOGE): DOGE price
+Solana (SOL): SOL price

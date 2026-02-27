@@ -1,0 +1,236 @@
+{
+    "question": {
+        "target": [
+            "Psilocibina",
+            "Toxicidad",
+            "Especie"
+        ],
+        "target_candidates": [
+            "Especie",
+            "Toxicidad",
+            "Psilocibina"
+        ],
+        "related_features": [
+            "texture_contrast",
+            "color_red_std",
+            "shape_circularity",
+            "texture_homogeneity",
+            "color_green_mean",
+            "color_red_mean",
+            "color_green_std",
+            "texture_correlation",
+            "color_blue_mean",
+            "texture_energy",
+            "shape_area",
+            "color_blue_std",
+            "shape_perimeter"
+        ],
+        "not_filtered_related_features": [
+            "texture_contrast",
+            "color_red_std",
+            "texture_homogeneity",
+            "shape_circularity",
+            "color_green_mean",
+            "color_red_mean",
+            "color_green_std",
+            "texture_correlation",
+            "color_blue_mean",
+            "texture_energy",
+            "shape_area",
+            "color_blue_std",
+            "shape_perimeter"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "texture_contrast": [
+                4.0,
+                2957.0
+            ],
+            "color_red_std": [
+                8.0,
+                110.0
+            ],
+            "texture_homogeneity": [
+                0.0,
+                1.0
+            ],
+            "shape_circularity": [
+                0.0,
+                1.0
+            ],
+            "color_green_mean": [
+                9.0,
+                244.0
+            ],
+            "color_red_mean": [
+                11.0,
+                243.0
+            ],
+            "color_green_std": [
+                13.0,
+                109.0
+            ],
+            "texture_correlation": [
+                0.0,
+                1.0
+            ],
+            "color_blue_mean": [
+                0.0,
+                241.0
+            ],
+            "texture_energy": [
+                0.0,
+                1.0
+            ],
+            "shape_area": [
+                733.0,
+                249001.0
+            ],
+            "color_blue_std": [
+                0.0,
+                114.0
+            ],
+            "shape_perimeter": [
+                115.0,
+                11689.0
+            ]
+        },
+        "selected_features": [
+            "color_green_mean",
+            "texture_correlation",
+            "texture_homogeneity",
+            "shape_circularity",
+            "color_red_std",
+            "texture_energy",
+            "color_green_std",
+            "shape_area"
+        ],
+        "train_v2_save_file": "./csourire_datos-morfolgicos-de-100-especies-de-hongos_class/source/train_v2.csv",
+        "val_v2_save_file": "./csourire_datos-morfolgicos-de-100-especies-de-hongos_class/source/val_v2.csv",
+        "val_no_err_save_file": "./csourire_datos-morfolgicos-de-100-especies-de-hongos_class/source/val_v1.csv",
+        "train_no_err_save_file": "./csourire_datos-morfolgicos-de-100-especies-de-hongos_class/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./csourire_datos-morfolgicos-de-100-especies-de-hongos_class/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "mean",
+        "random_state": 17,
+        "model_type": "LogisticRegression",
+        "output_file": "./csourire_datos-morfolgicos-de-100-especies-de-hongos_class/prediction.csv",
+        "ground_truth_file": "./csourire_datos-morfolgicos-de-100-especies-de-hongos_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./csourire_datos-morfolgicos-de-100-especies-de-hongos_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Especie": "categorical",
+            "color_red_mean": "numerical",
+            "color_red_std": "numerical",
+            "color_green_mean": "numerical",
+            "color_green_std": "numerical",
+            "color_blue_mean": "numerical",
+            "color_blue_std": "numerical",
+            "texture_contrast": "numerical",
+            "texture_correlation": "numerical",
+            "texture_homogeneity": "numerical",
+            "texture_energy": "numerical",
+            "shape_area": "numerical",
+            "shape_perimeter": "numerical",
+            "shape_circularity": "numerical",
+            "Toxicidad": "categorical",
+            "Psilocibina": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "color_green_mean",
+            "texture_correlation",
+            "texture_homogeneity",
+            "shape_circularity",
+            "color_red_std",
+            "texture_energy",
+            "color_green_std",
+            "shape_area"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7549381,
+        "ref": "csourire/datos-morfolgicos-de-100-especies-de-hongos",
+        "subtitle": "Base de datos para el estudio cuantitativo y cualitativo de rasgos f\u00fangicos",
+        "creatorName": "Sourire",
+        "creatorUrl": "csourire",
+        "totalBytes": 7695715,
+        "url": "https://www.kaggle.com/datasets/csourire/datos-morfolgicos-de-100-especies-de-hongos",
+        "lastUpdated": "2025-05-30T01:37:34.733Z",
+        "downloadCount": 99,
+        "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
+        "description": "",
+        "ownerName": "Sourire",
+        "ownerRef": "csourire",
+        "kernelCount": 2,
+        "title": "Datos morfol\u00f3gicos de 100 especies de hongos",
+        "viewCount": 346,
+        "voteCount": 3,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "computer vision",
+                "name": "computer vision",
+                "description": "Teaching a machine to interpret real-world images and videos. Applications include detecting objects, capturing motion, and restoring images.",
+                "fullPath": "technique > computer vision",
+                "competitionCount": 100,
+                "datasetCount": 5294,
+                "scriptCount": 5556,
+                "totalCount": 10950
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7549381,
+        "datasetSlug": "datos-morfolgicos-de-100-especies-de-hongos",
+        "ownerUser": "csourire",
+        "usabilityRating": 0.9411764705882353,
+        "totalViews": 284,
+        "totalVotes": 3,
+        "totalDownloads": 82,
+        "title": "Datos morfol\u00f3gicos de 100 especies de hongos",
+        "subtitle": "Base de datos para el estudio cuantitativo y cualitativo de rasgos f\u00fangicos",
+        "description": "Este dataset contiene caracter\u00edsticas morfol\u00f3gicas cuantitativas de diversas especies de hongos, extra\u00eddas a partir de im\u00e1genes digitales mediante t\u00e9cnicas de procesamiento computacional. Cada registro representa un hongo procesado y analizado con herramientas de visi\u00f3n por computadora y an\u00e1lisis estad\u00edstico.\n\nLas variables se agrupan en tres grandes categor\u00edas:\n\nColor: Promedios de los canales RGB extra\u00eddos de las im\u00e1genes.\n\nTextura: Medidas estad\u00edsticas basadas en matrices de co-ocurrencia (GLCM), como contraste, entrop\u00eda y homogeneidad.\n\nForma: Atributos como \u00e1rea, per\u00edmetro, circularidad y relaci\u00f3n de aspecto, derivados de la segmentaci\u00f3n de contornos.\n\nAdem\u00e1s, se incluyen dos columnas categ\u00f3ricas relevantes:\n\nToxicidad: Clasificaci\u00f3n del hongo como \"T\u00f3xico\", \"No t\u00f3xico\" o \"Desconocido\".\n\nPsilocibina: Presencia o ausencia del compuesto psicoactivo en cada especie.\n\n=== About this file ===\n\nAbout this file\nArchivo CSV que contiene las caracter\u00edsticas morfol\u00f3gicas extra\u00eddas de im\u00e1genes de hongos. Cada fila representa un esp\u00e9cimen, y las columnas describen variables cuantitativas y categ\u00f3ricas, organizadas en:\n\ud83c\udfa8 Color:\nMedia_Rojo, Media_Verde, Media_Azul\nDescriben el promedio de intensidad en cada canal de color.\n\ud83c\udf2b\ufe0f Textura (GLCM):\nContraste, Homogeneidad, Correlaci\u00f3n, Energ\u00eda\nDerivadas de matrices de co-ocurrencia (GLCM), reflejan la variabilidad local en la imagen.\n\ud83d\udccf Forma:\n\u00c1rea, Per\u00edmetro, Circularidad, Relaci\u00f3n_Aspecto\nCalculadas a partir del contorno binarizado del hongo.\n\ud83e\uddec Especie:\nNombre de la especie del hongo, extra\u00eddo del nombre de la carpeta de origen.\n\u2620\ufe0f Toxicidad:\nClasificada como \"T\u00f3xico\", \"No t\u00f3xico\" o \"Desconocido\" seg\u00fan la especie.\n\ud83e\udde0 Psilocibina:\nValor \"S\u00ed\" o \"No\" indicando si la especie contiene este compuesto psicoactivo.\n\n\n=== Columns & descriptions ===\n\nEspecie: Nombre de la especie del hongo, extra\u00eddo del nombre de la carpeta original.\ncolor_red_mean: Valor promedio del canal rojo (R) de la imagen.\ncolor_red_std: [no description]\ncolor_green_mean: Valor promedio del canal verde (G) de la imagen.\ncolor_green_std: [no description]\ncolor_blue_mean: Valor promedio del canal azul (B) de la imagen.\ncolor_blue_std: [no description]\ntexture_contrast: Medida de variaci\u00f3n local en intensidad (GLCM).\ntexture_correlation: Relaci\u00f3n estad\u00edstica entre valores de p\u00edxeles vecinos (GLCM).\ntexture_homogeneity: Grado de uniformidad en la textura de la imagen (GLCM).\ntexture_energy: Suma de los cuadrados de la matriz de co-ocurrencia, indica uniformidad.\nshape_area: \u00c1rea del hongo segmentado en la imagen (en p\u00edxeles).\nshape_perimeter: Longitud del contorno del hongo (en p\u00edxeles).\nshape_circularity: Medida que relaciona \u00e1rea y per\u00edmetro para estimar forma circular.\nToxicidad: Clasificaci\u00f3n del hongo como \"T\u00f3xico\", \"No t\u00f3xico\" o \"Desconocido\".\nPsilocibina: Indica si el hongo contiene psilocibina (\"S\u00ed\" o \"No\").\n",
+        "keywords": [
+            "computer vision",
+            "data visualization",
+            "classification"
+        ],
+        "licenses": [
+            {
+                "name": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+            }
+        ]
+    }
+}

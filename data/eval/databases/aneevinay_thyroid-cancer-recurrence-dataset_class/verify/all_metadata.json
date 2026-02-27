@@ -1,0 +1,242 @@
+{
+    "question": {
+        "target": [
+            "Recurred"
+        ],
+        "target_candidates": [
+            "Recurred"
+        ],
+        "related_features": [
+            "Response",
+            "Hx Radiothreapy",
+            "Adenopathy",
+            "Focality",
+            "Risk",
+            "N",
+            "Gender",
+            "Age",
+            "Stage",
+            "Pathology",
+            "M",
+            "T"
+        ],
+        "not_filtered_related_features": [
+            "Response",
+            "Adenopathy",
+            "Hx Radiothreapy",
+            "Focality",
+            "Risk",
+            "N",
+            "Gender",
+            "Age",
+            "Stage",
+            "Pathology",
+            "M",
+            "T"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Response": [
+                "Indeterminate",
+                "Excellent",
+                "Structural Incomplete",
+                "Biochemical Incomplete"
+            ],
+            "Adenopathy": [
+                "No",
+                "Right",
+                "Extensive",
+                "Left",
+                "Bilateral",
+                "Posterior"
+            ],
+            "Hx Radiothreapy": [
+                "No",
+                "Yes"
+            ],
+            "Focality": [
+                "Uni-Focal",
+                "Multi-Focal"
+            ],
+            "Risk": [
+                "Low",
+                "Intermediate",
+                "High"
+            ],
+            "N": [
+                "N0",
+                "N1b",
+                "N1a"
+            ],
+            "Gender": [
+                "F",
+                "M"
+            ],
+            "Age": [
+                15,
+                82
+            ],
+            "Stage": [
+                "I",
+                "II",
+                "IVB",
+                "III",
+                "IVA"
+            ],
+            "Pathology": [
+                "Micropapillary",
+                "Papillary",
+                "Follicular",
+                "Hurthel cell"
+            ],
+            "M": [
+                "M0",
+                "M1"
+            ],
+            "T": [
+                "T1a",
+                "T1b",
+                "T2",
+                "T3a",
+                "T3b",
+                "T4a",
+                "T4b"
+            ]
+        },
+        "selected_features": [
+            "Age",
+            "Response",
+            "Pathology",
+            "Hx Radiothreapy",
+            "Adenopathy",
+            "M",
+            "Risk",
+            "T"
+        ],
+        "train_v2_save_file": "./aneevinay_thyroid-cancer-recurrence-dataset_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./aneevinay_thyroid-cancer-recurrence-dataset_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./aneevinay_thyroid-cancer-recurrence-dataset_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./aneevinay_thyroid-cancer-recurrence-dataset_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./aneevinay_thyroid-cancer-recurrence-dataset_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.7,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 44,
+        "model_type": "LinearSVC",
+        "output_file": "./aneevinay_thyroid-cancer-recurrence-dataset_class/prediction.csv",
+        "ground_truth_file": "./aneevinay_thyroid-cancer-recurrence-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./aneevinay_thyroid-cancer-recurrence-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Age": "numerical",
+            "Gender": "categorical",
+            "Hx Radiothreapy": "categorical",
+            "Adenopathy": "categorical",
+            "Pathology": "categorical",
+            "Focality": "categorical",
+            "Risk": "categorical",
+            "T": "categorical",
+            "N": "categorical",
+            "M": "categorical",
+            "Stage": "categorical",
+            "Response": "categorical",
+            "Recurred": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Age"
+        ],
+        "categorical_features": [
+            "Response",
+            "Pathology",
+            "Hx Radiothreapy",
+            "Adenopathy",
+            "M",
+            "Risk",
+            "T"
+        ]
+    },
+    "data_info": {
+        "id": 6889747,
+        "ref": "aneevinay/thyroid-cancer-recurrence-dataset",
+        "subtitle": "Thyroid cancer dataset after RAI therapy, analyzing gender, age, and risk factor",
+        "creatorName": "Aneesha Anto",
+        "creatorUrl": "aneevinay",
+        "totalBytes": 2303,
+        "url": "https://www.kaggle.com/datasets/aneevinay/thyroid-cancer-recurrence-dataset",
+        "lastUpdated": "2025-03-17T07:32:55.447Z",
+        "downloadCount": 2740,
+        "licenseName": "CC BY-NC-SA 4.0",
+        "description": "",
+        "ownerName": "Aneesha Anto",
+        "ownerRef": "aneevinay",
+        "kernelCount": 25,
+        "title": "Thyroid Cancer Recurrence Dataset",
+        "viewCount": 13315,
+        "voteCount": 30,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "cancer",
+                "name": "cancer",
+                "description": "",
+                "fullPath": "subject > health and fitness > health > health conditions > cancer",
+                "competitionCount": 18,
+                "datasetCount": 16285,
+                "scriptCount": 3462,
+                "totalCount": 19765
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6889747,
+        "datasetSlug": "thyroid-cancer-recurrence-dataset",
+        "ownerUser": "aneevinay",
+        "usabilityRating": 1.0,
+        "totalViews": 13059,
+        "totalVotes": 28,
+        "totalDownloads": 2705,
+        "title": "Thyroid Cancer Recurrence Dataset",
+        "subtitle": "Thyroid cancer dataset after RAI therapy, analyzing gender, age, and risk factor",
+        "description": "This dataset focuses on thyroid cancer recurrence after Radioactive Iodine (RAI) therapy. It contains 383 patient records with 13 key attributes, including age, gender, cancer staging, pathology type, risk classification, treatment response, and recurrence status. The data is valuable for predicting cancer recurrence, understanding risk factors, and evaluating treatment outcomes.\n\n## \ud83d\udcca **Dataset Overview**   \n\n\ud83d\udccc Total Rows: 383  \n\ud83d\udccc Total Columns: 13  \n\ud83d\udccc No Missing Values  \n\n##\ud83d\udd39 **Column Descriptions**   \n\n* **Age** : Age of the patient (in years).  \n* **Gender** : Patient's gender (Male or Female).   \n* **Hx Radiotherapy** : History of prior radiotherapy (Yes or No).   \n* **Adenopathy** : Presence of lymph node involvement (Yes or No).  \n* **Pathology** : Type of thyroid cancer (e.g., Micropapillary).  \n* **Focality** : Tumor focality (Uni-Focal or Multi-Focal).  \n* **Risk** : Cancer risk classification (Low, Intermediate, High).  \n* **T** : Tumor classification (T1, T2, etc.).  \n* **N** : Lymph node classification (N0, N1, etc.).  \n* **M** : Metastasis classification (M0, M1, etc.).  \n* **Stage** :\tCancer staging (Stage I, II, III, IV).   \n* **Response** : Treatment response (Excellent, Indeterminate, etc.).  \n* **Recurred** : Whether cancer recurred (Yes or No).   \n\n# \ud83d\udd0d Key Questions to Explore   \n\n1\ufe0f\u20e3 Are thyroid cancer recurrences more common in men or women?   \n2\ufe0f\u20e3 How does age affect recurrence risk?   \n3\ufe0f\u20e3 Can we predict recurrence based on tumor staging and pathology?   \n4\ufe0f\u20e3 What is the relationship between treatment response and recurrence?   \n\n#\ud83d\udcc2 Usage   \n\nThis dataset is ideal for:   \n\u2705 Machine Learning Models for recurrence prediction   \n\u2705 Statistical Analysis of cancer progression   \n\u2705 Medical Research on thyroid cancer   \n\n# \ud83d\udd17 Source  \n\nThis dataset is a modified version of the original dataset:  \nDifferentiated Thyroid Cancer Recurrence by Joe Beach Capital.    \n https://www.kaggle.com/datasets/joebeachcapital/differentiated-thyroid-cancer-recurrence   \nI have removed unnecessary columns to focus on thyroid cancer recurrence analysis.\n\n#\ud83d\udcdc License\n\n\ud83d\udd39 Attribution 4.0 International (CC BY 4.0) \u2013 You are free to use, share, and modify with proper credit.\n\n\n\n=== About this file ===\n\nAbout this file\nThis dataset focuses on thyroid cancer recurrence after Radioactive Iodine (RAI) therapy. It contains 383 patient records with 13 key attributes, including age, gender, cancer staging, pathology type, risk classification, treatment response, and recurrence status. The data is valuable for predicting cancer recurrence, understanding risk factors, and evaluating treatment outcomes.\n\n\n=== Columns & descriptions ===\n\nAge: Age of the patient (in years).\nGender: Patient's gender (Male or Female).\nHx Radiothreapy: History of prior radiotherapy (Yes or No).\nAdenopathy: Presence of lymph node involvement (Yes or No).\nPathology: Type of thyroid cancer (e.g., Micropapillary).\nFocality: Tumor focality (Uni-Focal or Multi-Focal)\nRisk: Cancer risk classification (Low, Intermediate, High).\nT: Tumor classification (T1, T2, etc.).\nN: Lymph node classification (N0, N1, etc.).\nM: Metastasis classification (M0, M1, etc.).\nStage: [no description]\nResponse: [no description]\nRecurred: [no description]\n",
+        "keywords": [
+            "intermediate",
+            "classification",
+            "cancer"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-NC-SA-4.0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+### 📊 Gold Price Data (2008–2018)
+
+This dataset contains over 2,000 rows of historical financial data collected between **January 2008 and May 2018**. It is ideal for time series modeling, correlation studies, and building regression models to **predict gold prices (GLD)** using related financial indicators.
+
+---
+
+#### 📁 Columns:
+
+* **Date**: Trading date (MM/DD/YYYY)
+* **SPX**: S\&P 500 Index closing value
+* **GLD**: SPDR Gold ETF price (target variable)
+* **USO**: United States Oil Fund (oil price proxy)
+* **SLV**: iShares Silver Trust (silver prices)
+* **EUR/USD**: Euro to USD exchange rate
+
+---
+
+### ✅ Use Cases:
+
+* Gold price prediction
+* Feature engineering & ML model tuning
+* Model performance benchmarking
+* Regression-based forecasting
+
+
+=== About this file ===
+
+About this file
+dataset on gold price
+
+
+=== Columns & descriptions ===
+
+Date: Trading date (MM/DD/YYYY)
+SPX: S\&P 500 Index closing value
+GLD: SPDR Gold ETF price (target variable)
+USO: United States Oil Fund (oil price proxy)
+SLV: iShares Silver Trust (silver prices)
+EUR/USD: Euro to USD exchange rate

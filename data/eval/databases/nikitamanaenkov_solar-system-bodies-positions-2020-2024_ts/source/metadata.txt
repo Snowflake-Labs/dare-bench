@@ -1,0 +1,19 @@
+This dataset provides the positions and velocities of various celestial bodies in the solar system, including planets, moons, asteroids, and other objects, over a period from January 1, 2020, to December 31, 2024. The data includes daily measurements of each body's position (in astronomical units) and velocity (in AU per day) relative to the Sun, captured using the Skyfield library's ephemeris data. The dataset is ideal for analysis of orbital mechanics, trajectory modeling, and space mission planning.
+
+=== About this file ===
+
+About this file
+This dataset contains the positions (in AU) and velocities (in AU per day) of various celestial bodies (planets, moons, asteroids) in the solar system from January 1, 2020, to December 31, 2024, observed from the Sun using ephemeris data from the Skyfield library.
+
+
+=== Columns & descriptions ===
+
+date: The date the position and velocity data were recorded.
+name: The name of the celestial body (e.g., "Earth", "Mars").
+naif_id: The NAIF ID associated with the celestial body.
+x_au: The celestial body’s position along the X-axis in astronomical units (AU).
+y_au: The celestial body’s position along the Y-axis in astronomical units (AU).
+z_au: The celestial body’s position along the Z-axis in astronomical units (AU).
+vx_au_per_day: The celestial body’s velocity along the X-axis in AU per day.
+vy_au_per_day: The celestial body’s velocity along the Y-axis in AU per day.
+vz_au_per_day: The celestial body’s velocity along the Z-axis in AU per day.

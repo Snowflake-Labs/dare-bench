@@ -1,0 +1,44 @@
+Tired of jumping between multiple datasets jus- t to practice different preprocessing techniques? This notebook generates a single synthetic dataset which includes:
+
+✅ Mixed data types – numerical, categorical (ordinal & nominal) and binary
+
+✅ Realistic imperfections – missing values, outliers and duplicates
+
+✅ Endless possibilities to try out – scaling, encoding, imputing, removing duplicates, feature engineering, and more
+
+Whether you’re a beginner sharpening your skills or a pro testing pipelines, this dataset is your one-stop preprocessing playground.
+
+Added some characters and places for all the Supernatural, Sherlock, MCU, and DCU fans — just to keep things interesting😉.Check out the dataset!!!!!
+
+# Description of columns:
+
+1) name (Categorical) – Contains fictional character names such as Sherlock, Holmes, Watson, Moriarty (from Sherlock Holmes) and Castiel, Sam, Dean, Bobby (from Supernatural), added to make the dataset fun and engaging.😉
+
+2) city (Nominal) – Includes fictional locations like Gotham, Wakanda, Asgard, Purgatory from the DCU and MCU universes.
+
+3) gender (Nominal) – Indicates gender as Male or Female.
+
+4) profession (Ordinal) – Represents educational qualification in increasing order: Bachelor, Master, PhD.
+
+5) age (Numerical) – Age of the individual in years.
+
+6) cgpa (Numerical) – Cumulative Grade Point Average on a given scale.
+
+7) placed (Label) – Placement status of the individual.
+
+=== About this file ===
+
+About this file
+Description of data:
+This dataset is synthetically generated through custom Python code, specifically designed to serve as an all-in-one resource for practicing data preprocessing techniques. This is a simulated dataset showing student placement outcomes based on degree, age, and CGPA.
+
+
+=== Columns & descriptions ===
+
+name: string
+city: city
+gender: nominal
+profession: ordinal
+age: numeric
+cgpa: decimal
+placed: numeric

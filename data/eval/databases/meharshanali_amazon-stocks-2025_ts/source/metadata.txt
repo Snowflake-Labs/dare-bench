@@ -1,0 +1,63 @@
+# 📊 Amazon (AMZN) Stock Market Dataset
+
+## 📌 Dataset Description
+This dataset provides historical stock market data for Amazon (AMZN), one of the world's largest technology companies. The data has been sourced from Yahoo Finance and includes essential stock market attributes, allowing investors, analysts, and data scientists to analyze market trends, volatility, and stock performance.
+
+## 📈 Features Included
+This dataset contains the following stock attributes:
+
+- **Date**: The trading date for Amazon stock.
+- **Open Price**: The price at which the stock began trading on a given day.
+- **High Price**: The highest price recorded for the stock during the trading session.
+- **Low Price**: The lowest price recorded for the stock during the trading session.
+- **Close Price**: The final trading price of the stock at the end of the day.
+- **Volume**: The number of shares traded on a specific day.
+- **Dividends**: The amount of dividend issued per share (if any).
+- **Stock Splits**: Information on stock splits that occurred over time.
+
+## 📊 Why This Dataset?
+This dataset is useful for financial analysts, traders, researchers, and data scientists who want to:
+
+✅ **Analyze Stock Trends**: Explore long-term and short-term price movements.  
+✅ **Study Market Volatility**: Understand stock fluctuations and investor sentiment.  
+✅ **Identify Trading Patterns**: Observe correlations between stock volume and price changes.  
+✅ **Evaluate Corporate Actions**: Assess the impact of dividends and stock splits.  
+✅ **Develop Predictive Models**: Use machine learning techniques to forecast stock prices.  
+
+## 🔍 Potential Use Cases
+- **Time Series Analysis**: Identify patterns in historical stock prices.
+- **Technical Analysis**: Apply moving averages, Bollinger Bands, and other indicators.
+- **Investment Strategy Development**: Backtest trading strategies.
+- **Stock Price Prediction**: Use machine learning models to predict future prices.
+- **Market Research & Reports**: Generate insights for financial reports and investment decisions.
+
+## 💾 Dataset Details
+- **Source**: Yahoo Finance  
+- **Ticker Symbol**: `AMZN`  
+- **Data Format**: CSV  
+- **Date Range**: Maximum available historical data  
+- **File Size**: Varies based on data range  
+
+## 🚀 Next Steps
+This dataset can be used for financial research, exploratory data analysis (EDA), and algorithmic trading strategies. Use statistical and machine learning techniques to uncover insights and improve decision-making in stock investments.
+
+---
+⚡ **Start analyzing Amazon stock trends today!** ⚡
+
+
+=== About this file ===
+
+About this file
+The data has been sourced from Yahoo Finance and includes essential stock market attributes, allowing investors, analysts, and data scientists to analyze market trends, volatility, and stock performance.
+
+
+=== Columns & descriptions ===
+
+Date: The trading date for Amazon stock
+Open: The price at which the stock began trading on a given day
+High: The highest price recorded for the stock during the trading session
+Low: The lowest price recorded for the stock during the trading session
+Close: The final trading price of the stock at the end of the day
+Volume: The number of shares traded on a specific day
+Dividends: The amount of dividend issued per share
+Stock Splits: Information on stock splits that occurred over time

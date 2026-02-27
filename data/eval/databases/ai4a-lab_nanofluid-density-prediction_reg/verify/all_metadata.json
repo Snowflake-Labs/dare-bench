@@ -1,0 +1,242 @@
+{
+    "question": {
+        "target": [
+            "Density (\u03c1)"
+        ],
+        "target_candidates": [
+            "Density (\u03c1)"
+        ],
+        "related_features": [
+            "Base Fluid",
+            "Volume Mixture of Particle 2",
+            "Density of Base Fluid (\u03c1bf)",
+            "Nano Particle",
+            "Density of Nano Particle 2 (\u03c1np)",
+            "Temperature (\u00b0C)",
+            "Volume Concentration (\u03d5)",
+            "Volume Mixture of Particle 1",
+            "Density of Nano Particle 1 (\u03c1np)"
+        ],
+        "not_filtered_related_features": [
+            "Base Fluid",
+            "Volume Mixture of Particle 2",
+            "Density of Base Fluid (\u03c1bf)",
+            "Nano Particle",
+            "Density of Nano Particle 2 (\u03c1np)",
+            "Temperature (\u00b0C)",
+            "Volume Concentration (\u03d5)",
+            "Volume Mixture of Particle 1",
+            "Density of Nano Particle 1 (\u03c1np)"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "Base Fluid": [
+                "Water",
+                "GB",
+                "DW",
+                "W-EG(60:40%), Water"
+            ],
+            "Volume Mixture of Particle 2": [
+                20,
+                83
+            ],
+            "Density of Base Fluid (\u03c1bf)": [
+                977.0,
+                1063.0
+            ],
+            "Nano Particle": [
+                "Al\u2082O\u2083/SiO\u2082",
+                "TiO\u2082-SiO\u2082",
+                "Fe\u2083O\u2084-MWCNT",
+                "Al\u2082O\u2083-CNT",
+                "Al\u2082O\u2083-MWCNT",
+                "TiO\u2082-MWCNT",
+                "CeO\u2082-MWCNT",
+                "ZnO-MWCNT",
+                "MgO-MWCNT",
+                "CuO-MWCNT",
+                "Co\u2083O\u2084/rGO",
+                "TiO\u2082-MgO",
+                "Ag-GNP",
+                "ND-Fe\u2083O\u2084"
+            ],
+            "Density of Nano Particle 2 (\u03c1np)": [
+                1910,
+                5810
+            ],
+            "Temperature (\u00b0C)": [
+                16,
+                70
+            ],
+            "Volume Concentration (\u03d5)": [
+                0.0,
+                2.0
+            ],
+            "Volume Mixture of Particle 1": [
+                17,
+                80
+            ],
+            "Density of Nano Particle 1 (\u03c1np)": [
+                3100,
+                10490
+            ]
+        },
+        "selected_features": [
+            "Density of Nano Particle 1 (\u03c1np)",
+            "Temperature (\u00b0C)",
+            "Density of Nano Particle 2 (\u03c1np)",
+            "Volume Mixture of Particle 1",
+            "Density of Base Fluid (\u03c1bf)",
+            "Nano Particle"
+        ],
+        "train_v2_save_file": "./ai4a-lab_nanofluid-density-prediction_reg/source/train_v2.csv",
+        "val_v2_save_file": "./ai4a-lab_nanofluid-density-prediction_reg/source/val_v2.csv",
+        "val_no_err_save_file": "./ai4a-lab_nanofluid-density-prediction_reg/source/val_v1.csv",
+        "train_no_err_save_file": "./ai4a-lab_nanofluid-density-prediction_reg/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./ai4a-lab_nanofluid-density-prediction_reg/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "median",
+        "random_state": 97,
+        "model_type": "MLPRegressor",
+        "output_file": "./ai4a-lab_nanofluid-density-prediction_reg/prediction.csv",
+        "ground_truth_file": "./ai4a-lab_nanofluid-density-prediction_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./ai4a-lab_nanofluid-density-prediction_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Nano Particle": "categorical",
+            "Base Fluid": "categorical",
+            "Temperature (\u00b0C)": "numerical",
+            "Volume Concentration (\u03d5)": "numerical",
+            "Density of Nano Particle 1 (\u03c1np)": "numerical",
+            "Density of Nano Particle 2 (\u03c1np)": "numerical",
+            "Density of Base Fluid (\u03c1bf)": "numerical",
+            "Volume Mixture of Particle 1": "numerical",
+            "Volume Mixture of Particle 2": "numerical",
+            "Density (\u03c1)": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Density of Nano Particle 1 (\u03c1np)",
+            "Temperature (\u00b0C)",
+            "Density of Nano Particle 2 (\u03c1np)",
+            "Volume Mixture of Particle 1",
+            "Density of Base Fluid (\u03c1bf)"
+        ],
+        "categorical_features": [
+            "Nano Particle"
+        ]
+    },
+    "data_info": {
+        "id": 6826665,
+        "ref": "ai4a-lab/nanofluid-density-prediction",
+        "subtitle": "Predicting Hybrid Nanofluid Density Based on Multiple Key Parameters",
+        "creatorName": "Farhan Sheth",
+        "creatorUrl": "phantomfs",
+        "totalBytes": 4589,
+        "url": "https://www.kaggle.com/datasets/ai4a-lab/nanofluid-density-prediction",
+        "lastUpdated": "2025-03-09T14:49:58.787Z",
+        "downloadCount": 249,
+        "licenseName": "CC BY-NC-SA 4.0",
+        "description": "",
+        "ownerName": "AI4A Lab",
+        "ownerRef": "organizations/ai4a-lab",
+        "kernelCount": 2,
+        "title": "Nanofluid Density Prediction",
+        "viewCount": 1443,
+        "voteCount": 9,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "physics",
+                "name": "physics",
+                "description": "Physics is the natural science that involves the study of matter and its motion and behavior through space and time, along with related concepts such as energy and force.",
+                "fullPath": "subject > earth and nature > physical science > physics",
+                "competitionCount": 17,
+                "datasetCount": 1492,
+                "scriptCount": 1070,
+                "totalCount": 2579
+            },
+            {
+                "ref": "artificial intelligence",
+                "name": "artificial intelligence",
+                "description": "This tag has datasets and kernels where people come together and use cutting-edge research to train models on pictures of cats.",
+                "fullPath": "subject > science and technology > computer science > artificial intelligence",
+                "competitionCount": 57,
+                "datasetCount": 2969,
+                "scriptCount": 2948,
+                "totalCount": 5974
+            },
+            {
+                "ref": "engineering",
+                "name": "engineering",
+                "description": "Engineering is the application of mathematics, science, economics, empirical evidence, social, and practical knowledge to invent, innovate, design, build, maintain, research, and improve structures, machines, tools, systems, components, materials, processes, solutions, and organizations.",
+                "fullPath": "subject > science and technology > engineering",
+                "competitionCount": 4,
+                "datasetCount": 484,
+                "scriptCount": 174,
+                "totalCount": 662
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6826665,
+        "datasetSlug": "nanofluid-density-prediction",
+        "ownerUser": "",
+        "usabilityRating": 1.0,
+        "totalViews": 1252,
+        "totalVotes": 7,
+        "totalDownloads": 215,
+        "title": "Nanofluid Density Prediction",
+        "subtitle": "Predicting Hybrid Nanofluid Density Based on Multiple Key Parameters",
+        "description": "# Hybrid Nanofluid Density Prediction Dataset\n\n&gt;Please ensure to cite the paper when utilizing the dataset in a research study. Refer to the paper link or BibTeX provided below.\n\nHybrid nanofluids are advanced materials that are increasingly utilized in a wide range of innovative applications. Their exceptional thermal and physical properties make them essential in various fields, including heat exchangers, solar thermal collectors, automotive engine cooling systems, microprocessor and chip cooling, data center cooling systems, and battery cooling systems. These applications highlight the critical importance of studying hybrid nanofluids to optimize their performance.\n\nUnderstanding the density of hybrid nanofluids is particularly significant as it directly influences their thermal efficiency, design optimization, and operational safety. Accurate density data is invaluable for researchers and engineers in improving the efficiency of hybrid nanofluid-based systems. This dataset is designed to support scientific investigations by providing comprehensive and reliable information that facilitates predictive modeling and enhances our understanding of hybrid nanofluid density.\n\n# About Dataset\n\nThis dataset is for predicting hybrid nanofluid density using various parameters. The experimental dataset consists of **436 samples** extracted from peer-reviewed literature. Each sample is characterized by:\n\n- **Input Parameters:** Nanoparticle type, base fluid, temperature (\u00b0C), volume concentration (\u03c6), base fluid density (\u03c1), density of primary (\u03c1) and secondary nanoparticles (\u03c1), and volume mixture ratios.\n- **Output Parameter:** Hybrid nanofluid density (\u03c1).\n\n# Research Paper\n\n### [A Computational Intelligence Framework Integrating Data Augmentation and Meta-Heuristic Optimization Algorithms for Enhanced Hybrid Nanofluid Density Prediction Through Machine and Deep Learning Paradigms](https://doi.org/10.1109/ACCESS.2025.3543475)\n\n#### Links:\n\n- **[Paper](https://doi.org/10.1109/ACCESS.2025.3543475)**\n- **[Code](https://github.com/AI4A-lab/Hybrid-ML-DL_Nanofluid-Density-Predictor)**\n\n#### The dataset is also available to be downloaded from following sites, given the paper is referenced in the study:\n\n- **[GitHub](https://github.com/AI4A-lab/Hybrid-Nanofluid-Density-Prediction-Dataset)**\n- **[HuggingFace](https://.com)**\n\n## Citation\n\nIf you are using the dataset, please cite using this BibTeX:\n```bibtex\n@ARTICLE{10892114,\n  author={Mathur, Priya and Shaikh, Hammad and Sheth, Farhan and Kumar, Dheeraj and Gupta, Amit Kumar},\n  journal={IEEE Access}, \n  title={A Computational Intelligence Framework Integrating Data Augmentation and Meta-Heuristic Optimization Algorithms for Enhanced Hybrid Nanofluid Density Prediction Through Machine and Deep Learning Paradigms}, \n  year={2025},\n  volume={13},\n  number={},\n  pages={35750-35779},\n  keywords={Autoencoders;Nanoparticles;Predictive models;Machine learning;Fluids;Prediction algorithms;Gaussian noise;Deep learning;Data models;Data augmentation;Density prediction;hybrid nanofluids;machine learning;deep learning;data augmentation;meta-heuristic optimization;optimization algorithms;thermal engineering},\n  doi={10.1109/ACCESS.2025.3543475}}\n```\n\n=== About this file ===\n\nAbout this file\nThe dataset for hybrid nanofluid density prediction. It consists of 436 samples, each characterized by multiple key parameters essential for accurate density prediction. The dataset includes:\nInput Parameters\n:\nNanoparticle type\nBase fluid\nTemperature (\u00b0C)\nVolume concentration (\u03c6)\nBase fluid density (\u03c1)\nDensity of primary nanoparticle (\u03c1\u2081)\nDensity of secondary nanoparticle (\u03c1\u2082)\nVolume mixture ratios of particles\nOutput Parameter\n:\nHybrid nanofluid density (\u03c1)\nThe dataset is a valuable resource for predictive modeling and scientific analysis, facilitating advancements in fields such as thermal engineering, automotive cooling systems, and data center cooling systems. Its comprehensive structure allows for detailed exploration and machine learning applications.\n\n\n=== Columns & descriptions ===\n\nNano Particle: Name of the nanoparticle\nBase Fluid: The type of base fluid\nTemperature (\u00b0C): The temperature\nVolume Concentration (\u03d5): The volume concentration\nDensity of Nano Particle 1 (\u03c1np): Density of the primary nanoparticle\nDensity of Nano Particle 2 (\u03c1np): Density of the secondary nanoparticle\nDensity of Base Fluid (\u03c1bf): Density of the base fluid\nVolume Mixture of Particle 1: Volume mixture of first particle\nVolume Mixture of Particle 2: Volume mixture of second particle\nDensity (\u03c1): Output density\n",
+        "keywords": [
+            "physics",
+            "artificial intelligence",
+            "engineering",
+            "tabular",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-NC-SA-4.0"
+            }
+        ],
+        "collaborators": [
+            {
+                "username": "phantomfs",
+                "groupSlug": "",
+                "role": "ADMIN"
+            }
+        ]
+    }
+}

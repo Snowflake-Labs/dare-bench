@@ -1,0 +1,43 @@
+The dataset was retrieved from Open Data Telangana, from February 1, 2023, to January 31, 2025 with daily granularity. The dataset contains various fields such as District, Mandal, Date, rainfall (in millimeters), minimum and maximum temperature (in Celsius), minimum and maximum wind speed, and humidity. It provides a District and Mandal wise distribution as well.
+
+Total Rows - 4,45,213
+Total Columns - 10
+
+=== About this file ===
+
+About this file
+Column Descriptors
+District
+- Name of District (String)
+Mandal
+- Name of Mandal (String)
+Date
+- Date (String)
+Rain (mm)
+- Rainfall as measured in millimeters (Float)
+Min Temp (°C)
+- Minimum Temperature as measured in Celsius (Float)
+Max Temp (°C)
+- Maximum Temperature as measured in Celsius (Float)
+Min Humidity (%)
+- Minimum Humidity as measured in Percentage (Float)
+Max Humidity (%)
+- Maximum Humidity as measured in Percentage (Float)
+Min Wind Speed (Kmph)
+- Minimum Windspeed as measured in Kmph (Float)
+Max Wind Speed (Kmph)
+- Maximum Windspeed as measured in Kmph (Float)
+
+
+=== Columns & descriptions ===
+
+District: Name of District (String)
+Mandal: Name of Mandal (String)
+Date: Date (String)
+Rain (mm): Rainfall as measured in millimeters (Float)
+Min Temp (°C): Minimum Temperature as measured in Celsius (Float)
+Max Temp (°C): Maximum Temperature as measured in Celsius (Float)
+Min Humidity (%): Minimum Humidity as measured in Percentage (Float)
+Max Humidity (%): Maximum Humidity as measured in Percentage (Float)
+Min Wind Speed (Kmph): Minimum Windspeed as measured in Kmph (Float)
+Max Wind Speed (Kmph): Maximum Windspeed as measured in Kmph (Float)

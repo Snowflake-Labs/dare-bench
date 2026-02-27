@@ -1,0 +1,208 @@
+{
+    "question": {
+        "target": [
+            "Passenger Count"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Activity Period Start Date",
+        "time_format": "%Y/%m/%d",
+        "is_resampled": false,
+        "related_features": [
+            "Operating Airline",
+            "Published Airline",
+            "GEO Summary",
+            "GEO Region",
+            "Activity Type Code",
+            "Price Category Code",
+            "Terminal",
+            "Boarding Area"
+        ],
+        "not_filtered_related_features": [
+            "GEO Summary",
+            "GEO Region",
+            "Activity Type Code",
+            "Price Category Code",
+            "Terminal",
+            "Boarding Area"
+        ],
+        "selected_features": [
+            "Activity Type Code",
+            "Price Category Code",
+            "GEO Summary",
+            "GEO Region"
+        ],
+        "expected_ranges": {
+            "GEO Summary": [
+                "Domestic",
+                "International"
+            ],
+            "GEO Region": [
+                "US",
+                "Europe",
+                "Canada",
+                "Asia",
+                "Mexico",
+                "Central America",
+                "Australia / Oceania",
+                "Middle East",
+                "South America"
+            ],
+            "Activity Type Code": [
+                "Deplaned",
+                "Enplaned",
+                "Thru / Transit"
+            ],
+            "Price Category Code": [
+                "Low Fare",
+                "Other"
+            ],
+            "Terminal": [
+                "Terminal 1",
+                "Terminal 2",
+                "Terminal 3",
+                "International",
+                "Other"
+            ],
+            "Boarding Area": [
+                "B",
+                "D",
+                "E",
+                "A",
+                "C",
+                "F",
+                "G",
+                "Other"
+            ]
+        },
+        "column_type_inference": {
+            "Activity Period": "numeric",
+            "Activity Period Start Date": "object",
+            "Operating Airline": "object",
+            "Operating Airline IATA Code": "object",
+            "Published Airline": "object",
+            "Published Airline IATA Code": "object",
+            "GEO Summary": "object",
+            "GEO Region": "object",
+            "Activity Type Code": "object",
+            "Price Category Code": "object",
+            "Terminal": "object",
+            "Boarding Area": "object",
+            "Passenger Count": "numeric",
+            "data_as_of": "object",
+            "data_loaded_at": "object"
+        },
+        "train_save_file": "./nilesh2042_air-traffic-passenger-trends-usa-20052024_ts/source/train.csv",
+        "val_v1_save_file": "./nilesh2042_air-traffic-passenger-trends-usa-20052024_ts/source/val_v1.csv",
+        "val_v2_save_file": "./nilesh2042_air-traffic-passenger-trends-usa-20052024_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./nilesh2042_air-traffic-passenger-trends-usa-20052024_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./nilesh2042_air-traffic-passenger-trends-usa-20052024_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./nilesh2042_air-traffic-passenger-trends-usa-20052024_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 41,
+        "model_type": "Prophet",
+        "output_file": "./nilesh2042_air-traffic-passenger-trends-usa-20052024_ts/prediction.json",
+        "ground_truth_v1_file": "./nilesh2042_air-traffic-passenger-trends-usa-20052024_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./nilesh2042_air-traffic-passenger-trends-usa-20052024_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./nilesh2042_air-traffic-passenger-trends-usa-20052024_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2023-06-01 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7909506,
+        "ref": "nilesh2042/air-traffic-passenger-trends-usa-20052024",
+        "subtitle": "Detailed U.S. Airport Traffic Statistics for Domestic and International Flights\"",
+        "creatorName": "Nilesh Kadam",
+        "creatorUrl": "nilesh2042",
+        "totalBytes": 328943,
+        "url": "https://www.kaggle.com/datasets/nilesh2042/air-traffic-passenger-trends-usa-20052024",
+        "lastUpdated": "2025-07-21T04:04:02.093Z",
+        "downloadCount": 99,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Nilesh Kadam",
+        "ownerRef": "nilesh2042",
+        "kernelCount": 3,
+        "title": "Air Traffic Passenger Trends (USA) | 1999\u20132024",
+        "viewCount": 494,
+        "voteCount": 4,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "aviation",
+                "name": "aviation",
+                "description": "When you think of aviation, are you filled with wonder and excitement for human flight? In this tag, you can find code and data related to flight delays, bird strikes, and crashing.",
+                "fullPath": "subject > science and technology > transportation > aviation",
+                "competitionCount": 2,
+                "datasetCount": 373,
+                "scriptCount": 110,
+                "totalCount": 485
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "statistical analysis",
+                "name": "statistical analysis",
+                "description": "",
+                "fullPath": "analysis > statistical analysis",
+                "competitionCount": 6,
+                "datasetCount": 1024,
+                "scriptCount": 3087,
+                "totalCount": 4117
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7909506,
+        "datasetSlug": "air-traffic-passenger-trends-usa-20052024",
+        "ownerUser": "nilesh2042",
+        "usabilityRating": 1.0,
+        "totalViews": 279,
+        "totalVotes": 2,
+        "totalDownloads": 61,
+        "title": "Air Traffic Passenger Trends (USA) | 1999\u20132024",
+        "subtitle": "Detailed U.S. Airport Traffic Statistics for Domestic and International Flights\"",
+        "description": "This dataset contains monthly air traffic passenger statistics for major U.S. airports from 1999 to 2025. It includes data on domestic and international passengers, categorized by terminal, airline, and destination. Useful for aviation trends, forecasting, and transportation analysis.\n\n=== About this file ===\n\nAbout this file\nThis dataset contains detailed monthly air traffic passenger statistics recorded at U.S. airports. Each row represents the number of passengers handled by a specific airline, terminal, and geographic route grouping during a specific period.\nIt is well-suited for analyzing trends in air travel, including airport usage, airline market share, terminal traffic, and domestic vs international flow.\n\n\n=== Columns & descriptions ===\n\nActivity Period: Year and month of the activity, formatted as YYYYMM. For example, 202405 represents May 2024.\nActivity Period Start Date: The starting date of the reporting period (typically the first of the month).\nOperating Airline: The airline that operated the flight.\nOperating Airline IATA Code: IATA (International Air Transport Association) 2-letter code for the operating airline.\nPublished Airline: The airline that sold the ticket or published the flight, which may differ from the operating carrier in code-share scenarios.\nPublished Airline IATA Code: IATA code for the published airlin\nGEO Summary: Summarized geographic category of the route (e.g., Domestic, International).\nGEO Region: Specific region or market (e.g., Asia, Europe, Canada, Latin America)\nActivity Type Code: The type of activity reported (e.g., Enplaned, Deplaned, Through).\nPrice Category Code: Passenger type based on fare: typically Revenue (paying customers) or NonRevenue (staff, free seats, etc.).\nTerminal: [no description]\nBoarding Area: [no description]\nPassenger Count: [no description]\ndata_as_of: [no description]\ndata_loaded_at: [no description]\n",
+        "keywords": [
+            "aviation",
+            "data visualization",
+            "time series analysis",
+            "statistical analysis"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

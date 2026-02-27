@@ -1,0 +1,157 @@
+{
+    "question": {
+        "target": [
+            "value"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "month",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "naics_code",
+            "kind_of_business"
+        ],
+        "not_filtered_related_features": [],
+        "selected_features": [],
+        "expected_ranges": {},
+        "column_type_inference": {
+            "month": "object",
+            "naics_code": "object",
+            "kind_of_business": "object",
+            "value": "numeric"
+        },
+        "train_save_file": "./abdelrahmannasrsleem_us-monthly-retail-and-food-services-sales_ts/source/train.csv",
+        "val_v1_save_file": "./abdelrahmannasrsleem_us-monthly-retail-and-food-services-sales_ts/source/val_v1.csv",
+        "val_v2_save_file": "./abdelrahmannasrsleem_us-monthly-retail-and-food-services-sales_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./abdelrahmannasrsleem_us-monthly-retail-and-food-services-sales_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./abdelrahmannasrsleem_us-monthly-retail-and-food-services-sales_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./abdelrahmannasrsleem_us-monthly-retail-and-food-services-sales_ts/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 49,
+        "model_type": "Prophet",
+        "output_file": "./abdelrahmannasrsleem_us-monthly-retail-and-food-services-sales_ts/prediction.json",
+        "ground_truth_v1_file": "./abdelrahmannasrsleem_us-monthly-retail-and-food-services-sales_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./abdelrahmannasrsleem_us-monthly-retail-and-food-services-sales_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./abdelrahmannasrsleem_us-monthly-retail-and-food-services-sales_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2018-05-01 00:00:00",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 6352154,
+        "ref": "abdelrahmannasrsleem/us-monthly-retail-and-food-services-sales",
+        "subtitle": "Long format suitable for time series analysis",
+        "creatorName": "A. Nasr",
+        "creatorUrl": "abdelrahmannasrsleem",
+        "totalBytes": 258888,
+        "url": "https://www.kaggle.com/datasets/abdelrahmannasrsleem/us-monthly-retail-and-food-services-sales",
+        "lastUpdated": "2025-03-16T08:46:17.013Z",
+        "downloadCount": 149,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "A. Nasr",
+        "ownerRef": "abdelrahmannasrsleem",
+        "kernelCount": 1,
+        "title": "US retail and food services sales (1992-present)",
+        "viewCount": 1067,
+        "currentVersionNumber": 7,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "united states",
+                "name": "united states",
+                "description": "The top datasets and kernels in this tag are about mass shootings, AirBnB, homelessness, and witchcraft. That about sums it up.",
+                "fullPath": "geography and places > north america > united states",
+                "competitionCount": 2,
+                "datasetCount": 2639,
+                "scriptCount": 675,
+                "totalCount": 3316
+            },
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "data analytics",
+                "name": "data analytics",
+                "description": "",
+                "fullPath": "technique > data analytics",
+                "competitionCount": 32,
+                "datasetCount": 9201,
+                "scriptCount": 15324,
+                "totalCount": 24557
+            },
+            {
+                "ref": "retail and shopping",
+                "name": "retail and shopping",
+                "description": "",
+                "fullPath": "subject > people and society > people > retail and shopping",
+                "competitionCount": 6,
+                "datasetCount": 12258,
+                "scriptCount": 588,
+                "totalCount": 12852
+            },
+            {
+                "ref": "sql",
+                "name": "sql",
+                "description": "",
+                "fullPath": "subject > science and technology > computer science > programming > sql",
+                "competitionCount": 3,
+                "datasetCount": 705,
+                "scriptCount": 803,
+                "totalCount": 1511
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6352154,
+        "datasetSlug": "us-monthly-retail-and-food-services-sales",
+        "ownerUser": "abdelrahmannasrsleem",
+        "usabilityRating": 1.0,
+        "totalViews": 1007,
+        "totalDownloads": 143,
+        "title": "US retail and food services sales (1992-present)",
+        "subtitle": "Long format suitable for time series analysis",
+        "description": "The data source is the Monthly Retail Trade Report: Retail and Food Services Sales: Excel (1992\u2013\npresent), available on https://www.census.gov/\nThe data spans from 1992 to present (complete years) and includes both total sales in millions as well as details for\nsubcategories of retail sales. It contains both unadjusted and seasonally adjusted numbers.\n\nIn the *retail_salse_a_long * table Estimates are adjusted for seasonal variations and holiday and trading-day differences, but not for price changes. Cumulative seasonally adjusted sales estimates are not tabulated.\n\nEstimates are not adjusted for price changes. Retail and food services total and other subsector totals may include data for kinds of business not shown.\n\n\n=== About this file ===\n\nAbout this file\nretail_sales_a_long (seasonally adjusted)\n-In naics_code field : GAFO(1) represents stores classified in the following NAICS codes: 442, 443, 448, 451, 452, and 4532. NAICS code 4532 includes office supplies, stationery, and gift stores. -In value field : Suppressed values was replaced with NULL which is - Estimate does not meet publication standards because of high sampling variability (coefficient of variation is greater than 30%), poor response quality (total quantity response rate. NA (in the early years) was replaced with NULL also.\n\n\n=== Columns & descriptions ===\n\nmonth: Sales month represented as first day of each month\nnaics_code: NAICS: The North American Industry Classification System\nkind_of_business: Business category\nvalue: In millions of US dollars\n",
+        "keywords": [
+            "united states",
+            "business",
+            "time series analysis",
+            "data analytics",
+            "retail and shopping",
+            "sql"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

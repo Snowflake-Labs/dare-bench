@@ -1,0 +1,284 @@
+{
+    "question": {
+        "target": [
+            "tank"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "date",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "aircraft",
+            "helicopter",
+            "APC",
+            "field artillery",
+            "MRL",
+            "military auto",
+            "fuel tank",
+            "drone",
+            "naval ship",
+            "anti-aircraft warfare",
+            "special equipment",
+            "mobile SRBM system",
+            "greatest losses direction",
+            "vehicles and fuel tanks",
+            "cruise missiles",
+            "submarines"
+        ],
+        "not_filtered_related_features": [
+            "aircraft",
+            "helicopter",
+            "APC",
+            "field artillery",
+            "MRL",
+            "military auto",
+            "fuel tank",
+            "drone",
+            "naval ship",
+            "anti-aircraft warfare",
+            "special equipment",
+            "mobile SRBM system",
+            "vehicles and fuel tanks",
+            "cruise missiles",
+            "submarines"
+        ],
+        "selected_features": [
+            "cruise missiles",
+            "helicopter",
+            "drone",
+            "aircraft",
+            "naval ship",
+            "special equipment",
+            "anti-aircraft warfare",
+            "military auto",
+            "field artillery"
+        ],
+        "expected_ranges": {
+            "aircraft": [
+                10,
+                421
+            ],
+            "helicopter": [
+                7,
+                340
+            ],
+            "APC": [
+                516,
+                22956
+            ],
+            "field artillery": [
+                49,
+                29960
+            ],
+            "MRL": [
+                4,
+                1430
+            ],
+            "military auto": [
+                100.0,
+                1701.0
+            ],
+            "fuel tank": [
+                60.0,
+                76.0
+            ],
+            "drone": [
+                0,
+                43825
+            ],
+            "naval ship": [
+                2,
+                28
+            ],
+            "anti-aircraft warfare": [
+                0,
+                1192
+            ],
+            "special equipment": [
+                10.0,
+                3925.0
+            ],
+            "mobile SRBM system": [
+                2.0,
+                4.0
+            ],
+            "vehicles and fuel tanks": [
+                1796.0,
+                54252.0
+            ],
+            "cruise missiles": [
+                84.0,
+                3439.0
+            ],
+            "submarines": [
+                1.0,
+                1.0
+            ]
+        },
+        "column_type_inference": {
+            "date": "object",
+            "day": "numeric",
+            "aircraft": "numeric",
+            "helicopter": "numeric",
+            "tank": "numeric",
+            "APC": "numeric",
+            "field artillery": "numeric",
+            "MRL": "numeric",
+            "military auto": "numeric",
+            "fuel tank": "numeric",
+            "drone": "numeric",
+            "naval ship": "numeric",
+            "anti-aircraft warfare": "numeric",
+            "special equipment": "numeric",
+            "mobile SRBM system": "numeric",
+            "greatest losses direction": "object",
+            "vehicles and fuel tanks": "numeric",
+            "cruise missiles": "numeric",
+            "submarines": "numeric"
+        },
+        "train_save_file": "./piterfm_2022-ukraine-russian-war_ts/source/train.csv",
+        "val_v1_save_file": "./piterfm_2022-ukraine-russian-war_ts/source/val_v1.csv",
+        "val_v2_save_file": "./piterfm_2022-ukraine-russian-war_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./piterfm_2022-ukraine-russian-war_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./piterfm_2022-ukraine-russian-war_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./piterfm_2022-ukraine-russian-war_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 62,
+        "model_type": "Prophet",
+        "output_file": "./piterfm_2022-ukraine-russian-war_ts/prediction.json",
+        "ground_truth_v1_file": "./piterfm_2022-ukraine-russian-war_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./piterfm_2022-ukraine-russian-war_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./piterfm_2022-ukraine-russian-war_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2025-03-06 00:00:00",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 1967621,
+        "ref": "piterfm/2022-ukraine-russian-war",
+        "subtitle": "Equipment losses & Death Toll & Military Wounded & Prisoner of War of russians",
+        "creatorName": "Petro Ivaniuk",
+        "creatorUrl": "piterfm",
+        "totalBytes": 44123,
+        "url": "https://www.kaggle.com/datasets/piterfm/2022-ukraine-russian-war",
+        "lastUpdated": "2025-08-17T09:09:02.073Z",
+        "downloadCount": 34296,
+        "licenseName": "CC BY-NC-SA 4.0",
+        "description": "",
+        "ownerName": "Petro Ivaniuk",
+        "ownerRef": "piterfm",
+        "kernelCount": 129,
+        "title": "2022 Russia Ukraine War",
+        "viewCount": 276353,
+        "voteCount": 1114,
+        "currentVersionNumber": 456,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "russia",
+                "name": "russia",
+                "description": "At 17,125,200 square kilometres, Russia is the largest country in the world by area, covering more than one-eighth of the Earth's inhabited land area, and the ninth most populous.",
+                "fullPath": "geography and places > asia > russia",
+                "competitionCount": 1,
+                "datasetCount": 297,
+                "scriptCount": 102,
+                "totalCount": 400
+            },
+            {
+                "ref": "history",
+                "name": "history",
+                "description": "History is generally the study of past events that have shaped the world. Here on Kaggle, you'll find historical records and analyses on topics like Bitcoin data, UFO sightings, and sports tournaments.",
+                "fullPath": "subject > people and society > social science > history",
+                "competitionCount": 3,
+                "datasetCount": 2367,
+                "scriptCount": 339,
+                "totalCount": 2709
+            },
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "military",
+                "name": "military",
+                "description": "Datasets and kernels based on historical battles and other military activities including drone attaccks, bombings, and veteran suicides.",
+                "fullPath": "subject > people and society > law > government > military",
+                "datasetCount": 2708,
+                "scriptCount": 103,
+                "totalCount": 2811
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14200,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34359
+            },
+            {
+                "ref": "ukrainian",
+                "name": "ukrainian",
+                "description": "",
+                "fullPath": "language > ukrainian",
+                "datasetCount": 51,
+                "scriptCount": 13,
+                "totalCount": 64
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 1967621,
+        "datasetSlug": "2022-ukraine-russian-war",
+        "ownerUser": "piterfm",
+        "usabilityRating": 1.0,
+        "totalViews": 274836,
+        "totalVotes": 1112,
+        "totalDownloads": 34098,
+        "title": "2022 Russia Ukraine War",
+        "subtitle": "Equipment losses & Death Toll & Military Wounded & Prisoner of War of russians",
+        "description": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua)\n\n### WAR, day 1236\n**Data will be updated weekly**<br>\n**Each new record accumulates data from previous days**\n\nThis dataset describes Equipment Losses & Death Toll & Military Wounded & Prisoner of War of russians in 2022 Ukraine russia War. \nAll data are official and additionally structured by myself. \nA lot of civilians and children have already been killed by russia troops. Ukraine is in war flame and under missile attack now. We are strong. Stand with Ukraine.\n\n### Analytical Dashboards\n- [russian losses application](https://ukraine-russia-war.streamlit.app/) - is a monitoring dashboard that describes russian losses during the 2022 russia invasion of Ukraine.\n- [Cargo200rus](https://t.me/Cargo200rusBot) - is a telegram bot representing the official losses of the russian armed forces in Ukraine. [GitHub.](https://github.com/MadMan2k/TelegramBot-Cargo200rus)\n\n### Related Datasets\n- [Warships Monitoring](https://www.kaggle.com/datasets/piterfm/warships-monitoring-kerch-strait) -  the russian warships' movements on the Black Sea, the Sea of Azov, and the Mediterranean Sea since August 2022.\n- [ Army of Drones](https://www.kaggle.com/datasets/piterfm/the-army-of-drones) - rusians losses (Equipment & Death Toll) caused by the project Army of Drones.\n- [Massive Missile Attacks on Ukraine](https://www.kaggle.com/datasets/piterfm/massive-missile-attacks-on-ukraine) - detailed information about launched and shot down missiles and drones during Massive Missile Attacks.\n- [2022 Ukraine Russia War, Losses, Oryx + Images](https://www.kaggle.com/datasets/piterfm/2022-ukraine-russia-war-equipment-losses-oryx) - Ukraine and russia Equipment Losses based on Oryx Investigation.\n- [russian navy (Military Maritime Fleet)](https://www.kaggle.com/datasets/piterfm/russian-navy) - all Surface Combatants, Submarines, Littoral Warfare Ships, Rescue, and Auxiliary Ships. Ship losses During The 2022 Russian Invasion Of Ukraine are included.\n- [Social Media Athletes from russia & belarus](https://www.kaggle.com/datasets/piterfm/olympic-athletes-social-media-russia-belarus) - Social Media of russia and belarus athletes that took part in Beijing 2022 Olympic Winter Games.\n- [Dataset in JSON format](https://github.com/PetroIvaniuk/2022-Ukraine-Russia-War-Dataset) - The same data on Github (Updated daily).\n\n### Code Starter\n - [Python - 2022 Ukraine Russia War: visualization](https://www.kaggle.com/code/sokolheavy/2022-ukraine-russia-war-visualization)\n - [R - Losses of Russia (Visualization)](https://www.kaggle.com/code/svitlanabozhenko/losses-of-russia)\n - [Data Daily + Plot Example](https://www.kaggle.com/code/piterfm/daily-data-ukraine-russia-war)\n\n### Data\n- `russia_losses_personnel.csv`- contains Personnel Losses during the war\n- `russia_losses_equipment.csv` - contains Equipment Losses during the war\n- `russia_losses_equipment_correction.csv` - contains some data correction in `russia_losses_equipment.csv` (date: 2022-10-13, date: 2023-05-27)\n\n### Data Preprocessing\nI recommend the [Daily Data Notebook](https://www.kaggle.com/code/piterfm/daily-data) if you need daily bases data. It contains a full code that shows how to convert the data or you can adapt the below code snippet.\n```\ndf = df.diff().fillna(df).fillna(0).astype(int)\n```\n\n### Data Sources\n1. Main data sources are [General Staff of the Armed Forces of Ukraine](https://www.zsu.gov.ua/en) and [Ministry of Defence of Ukraine](https://www.mil.gov.ua/en/). Data from different battlefields are gathered. The calculation is complicated by the high intensity of hostilities. Data are being updated.\n2. [Invaders](https://invaders-rf.com/) - Russians Prisoner of War (POW). The project is not active since May of 2022.\n3. [Oryxspioenkop](https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html) - Ukraine and russia Equipment Losses. This list only includes destroyed vehicles and equipment of which photo or videographic evidence is available. Therefore, the amount of equipment destroyed is significantly higher than recorded here.\n4. Interactive Maps:\n  - [Liveuamap](https://liveuamap.com/) - Live Interactive Map with events that happened.\n  - [DeepStateMap](https://deepstatemap.live/#6/49.438/32.053), [Wiki page](https://en.wikipedia.org/wiki/DeepStateMap.Live) - an interactive open-source intelligence online map run by the non-governmental and volunteer-led Deep State UA, which focuses primarily on the military operations of the Russian and Ukrainian armies in the Russian invasion of Ukraine.\n  - [Alerts Map](https://alerts.in.ua/en) - Air Raid Alert Map of Ukraine\n  - [eMap](https://vadimklimenko.com/map/) - Air Raid Alert Map of Ukraine\n5. Sanctions Databases:\n  - [Ukraine Russia related sanctions](https://ofac.treasury.gov/sanctions-programs-and-country-information/ukraine-russia-related-sanctions) by USA Office of Foreign Assets Control\n  - [Sanction Lists](https://sanctions.nazk.gov.ua/en/sanction-lists/) by the Ministry of Foreign Affairs of Ukraine and the National Agency on Corruption Prevention\n  - [RUPEP.ORG](https://rupep.org/en/) - a public database of domestic politically exposed persons of russia and belarus\n  - [Open Sanctions](https://www.opensanctions.org/) - helps investigators find leads, allows companies to manage risk, and enables technologists to build data-driven products\n  - [Correctiv](https://correctiv.org/en/latest-stories/2022/03/01/sanctions-tracker-live-monitoring-of-all-sanctions-against-russia/) - live monitoring of all sanctions against Russia\n  - [Tracking sanctions against Russia](https://graphics.reuters.com/UKRAINE-CRISIS/SANCTIONS/byvrjenzmve/index.html) - Reuters project\n6. [Russia\u2019s Attacks on Civilian Targets Have Obliterated Everyday Life in Ukraine](https://www.nytimes.com/interactive/2022/03/23/world/europe/ukraine-civilian-attacks.html) by NYTimes\n7. [Help to stop Russian war against Ukraine](https://www.kaggle.com/general/310445) - Kaggle Petition\n\n### Tracking\n- Personnel\n- Prisoner of War (POW) - has not been tracked since 2022-04-28\n- Aircraft\n- Helicopter\n- Tank\n- Armored Personnel Carrier (APC)\n- Multiple Rocket Launcher (MRL)\n- Field Artillery\n- Military Auto - has not been tracked since 2022-05-01; joined with `Fuel Tank` into `Vehicles and Fuel Tanks`\n- Fuel Tank - has not been tracked since 2022-05-01; joined with `Military Auto` into `Vehicles and Fuel Tanks`\n- Anti-aircraft warfare\n- Drone - UAV+RPA\n- Naval Ship - Warships, Boats\n- Anti-aircraft Warfare\n- Mobile SRBM System - has not been tracked since 2022-05-01; joined into `Cruise Missiles`\n- Vehicles and Fuel Tanks - appear since 2022-05-01 as a sum of `Fuel Tank` and `Military Auto`\n- Cruise Missiles - appears since 2022-05-01\n- Direction of Greatest Losses -  appears since 2022-04-25\n\n### Acronyms\n- POW - Prisoner of War,\n- MRL - Multiple Rocket Launcher,\n- APC - Armored Personnel Carrier,\n- SRBM - Short-range ballistic missile,\n- UAV - Unmanned Aerial Vehicle, \n- RPA - Remotely Piloted Vehicle.\n\n### Dataset History\n2022-03-02 - dataset is created (after 7 days of the War).\n\n=== About this file ===\n\nAbout this file\nEquipment Losses\n\n\n=== Columns & descriptions ===\n\ndate: Date\nday: Day\naircraft: Aircrafts\nhelicopter: Helicopters\ntank: Tanks\nAPC: Armored Personnel Carrier\nfield artillery: Field Artillery\nMRL: Multiple Rocket Launcher\nmilitary auto: Military Auto\nfuel tank: Fuel Tank, Cistern\ndrone: Unmanned Aerial Vehicle\nnaval ship: Naval ship, boats, cutters\nanti-aircraft warfare: Anti-aircraft Warfare\nspecial equipment: Special Equipment\nmobile SRBM system: Short-range ballistic missile\ngreatest losses direction: Military Auto + Fuel Tank\nvehicles and fuel tanks: Cruise Missiles\ncruise missiles: Greatest Losses (of the past day)\nsubmarines: [no description]\n",
+        "keywords": [
+            "russia",
+            "history",
+            "business",
+            "military",
+            "time series analysis",
+            "tabular",
+            "ukrainian"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-NC-SA-4.0"
+            }
+        ]
+    }
+}

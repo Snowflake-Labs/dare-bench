@@ -1,0 +1,252 @@
+{
+    "question": {
+        "target": [
+            "Internet_Access"
+        ],
+        "target_candidates": [
+            "Do_Professors_Allow_Use",
+            "Willing_to_Pay_for_Access",
+            "Internet_Access"
+        ],
+        "related_features": [
+            "AI_Tools_Used",
+            "Year_of_Study",
+            "Trust_in_AI_Tools",
+            "Use_Cases",
+            "Awareness_Level",
+            "Willing_to_Pay_for_Access",
+            "Daily_Usage_Hours",
+            "Stream",
+            "Device_Used",
+            "Impact_on_Grades",
+            "Do_Professors_Allow_Use",
+            "Preferred_AI_Tool",
+            "State"
+        ],
+        "not_filtered_related_features": [
+            "Awareness_Level",
+            "Daily_Usage_Hours",
+            "Stream",
+            "Device_Used",
+            "Impact_on_Grades",
+            "Preferred_AI_Tool",
+            "AI_Tools_Used"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Awareness_Level": [
+                1,
+                10
+            ],
+            "Daily_Usage_Hours": [
+                0.0,
+                5.0
+            ],
+            "Stream": [
+                "Engineering",
+                "Commerce",
+                "Science",
+                "Arts",
+                "Medical",
+                "Management",
+                "Law",
+                "Pharmacy",
+                "Agriculture",
+                "Hotel-management"
+            ],
+            "Device_Used": [
+                "Mobile",
+                "Laptop",
+                "Tablet"
+            ],
+            "Impact_on_Grades": [
+                -5,
+                5
+            ],
+            "Preferred_AI_Tool": [
+                "Copilot",
+                "Other",
+                "Gemini",
+                "ChatGPT",
+                "Bard",
+                "Claude"
+            ],
+            "AI_Tools_Used": [
+                "Gemini",
+                "ChatGPT",
+                "Copilot",
+                "ChatGPT, Gemini, Copilot",
+                "ChatGPT, Copilot",
+                "Gemini, Midjourney",
+                "Other",
+                "Bard",
+                "Claude"
+            ]
+        },
+        "selected_features": [
+            "Preferred_AI_Tool",
+            "Impact_on_Grades",
+            "Stream",
+            "Daily_Usage_Hours",
+            "Awareness_Level"
+        ],
+        "train_v2_save_file": "./rakeshkapilavai_ai-tool-usage-by-indian-college-students-2025_class/source/train_v2.parquet",
+        "val_v2_save_file": "./rakeshkapilavai_ai-tool-usage-by-indian-college-students-2025_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./rakeshkapilavai_ai-tool-usage-by-indian-college-students-2025_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./rakeshkapilavai_ai-tool-usage-by-indian-college-students-2025_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./rakeshkapilavai_ai-tool-usage-by-indian-college-students-2025_class/source/train_v1.parquet",
+        "train_test_ratio": 0.9,
+        "save_file_type": "parquet",
+        "imputer_type": "mean",
+        "random_state": 44,
+        "model_type": "GaussianNB",
+        "output_file": "./rakeshkapilavai_ai-tool-usage-by-indian-college-students-2025_class/prediction.csv",
+        "ground_truth_file": "./rakeshkapilavai_ai-tool-usage-by-indian-college-students-2025_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./rakeshkapilavai_ai-tool-usage-by-indian-college-students-2025_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Student_Name": "categorical",
+            "College_Name": "categorical",
+            "Stream": "categorical",
+            "Year_of_Study": "categorical",
+            "AI_Tools_Used": "categorical",
+            "Daily_Usage_Hours": "numerical",
+            "Use_Cases": "categorical",
+            "Trust_in_AI_Tools": "categorical",
+            "Impact_on_Grades": "numerical",
+            "Do_Professors_Allow_Use": "categorical",
+            "Preferred_AI_Tool": "categorical",
+            "Awareness_Level": "numerical",
+            "Willing_to_Pay_for_Access": "categorical",
+            "State": "categorical",
+            "Device_Used": "categorical",
+            "Internet_Access": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Impact_on_Grades",
+            "Daily_Usage_Hours",
+            "Awareness_Level"
+        ],
+        "categorical_features": [
+            "Preferred_AI_Tool",
+            "Stream"
+        ]
+    },
+    "data_info": {
+        "id": 7623196,
+        "ref": "rakeshkapilavai/ai-tool-usage-by-indian-college-students-2025",
+        "subtitle": "Unique survey data on AI tool impact in academics",
+        "creatorName": "Rakesh Kapilavayi",
+        "creatorUrl": "rakeshkapilavai",
+        "totalBytes": 90645,
+        "url": "https://www.kaggle.com/datasets/rakeshkapilavai/ai-tool-usage-by-indian-college-students-2025",
+        "lastUpdated": "2025-06-09T12:37:13.017Z",
+        "downloadCount": 2860,
+        "licenseName": "CC BY-NC-SA 4.0",
+        "description": "",
+        "ownerName": "Rakesh Kapilavayi",
+        "ownerRef": "rakeshkapilavai",
+        "kernelCount": 21,
+        "title": "AI Tool Usage by Indian College Students 2025",
+        "viewCount": 11069,
+        "voteCount": 51,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "earth and nature",
+                "name": "earth and nature",
+                "description": "",
+                "fullPath": "subject > earth and nature",
+                "competitionCount": 19,
+                "datasetCount": 79487,
+                "scriptCount": 394,
+                "totalCount": 79900
+            },
+            {
+                "ref": "education",
+                "name": "education",
+                "description": "Education datasets and kernels relate to statistics on student performance, university rankings, and answers for all your homework questions.",
+                "fullPath": "subject > people and society > education",
+                "competitionCount": 57,
+                "datasetCount": 35551,
+                "scriptCount": 15076,
+                "totalCount": 50684
+            },
+            {
+                "ref": "artificial intelligence",
+                "name": "artificial intelligence",
+                "description": "This tag has datasets and kernels where people come together and use cutting-edge research to train models on pictures of cats.",
+                "fullPath": "subject > science and technology > computer science > artificial intelligence",
+                "competitionCount": 57,
+                "datasetCount": 2969,
+                "scriptCount": 2948,
+                "totalCount": 5974
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "data analytics",
+                "name": "data analytics",
+                "description": "",
+                "fullPath": "technique > data analytics",
+                "competitionCount": 32,
+                "datasetCount": 9201,
+                "scriptCount": 15324,
+                "totalCount": 24557
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7623196,
+        "datasetSlug": "ai-tool-usage-by-indian-college-students-2025",
+        "ownerUser": "rakeshkapilavai",
+        "usabilityRating": 1.0,
+        "totalViews": 5798,
+        "totalVotes": 37,
+        "totalDownloads": 1645,
+        "title": "AI Tool Usage by Indian College Students 2025",
+        "subtitle": "Unique survey data on AI tool impact in academics",
+        "description": "# AI Tool Usage by Indian College Students 2025\nThis unique dataset, collected via a May 2025 survey, captures how 496 Indian college students use AI tools (e.g., ChatGPT, Gemini, Copilot) in academics. It includes 16 attributes like AI tool usage, trust, impact on grades, and internet access, ideal for education analytics and machine learning.\n\n## Columns\n- **Student_Name**: Anonymized student name.\n- **College_Name**: College attended.\n- **Stream**: Academic discipline (e.g., Engineering, Arts).\n- **Year_of_Study**: Year of study (1\u20134).\n- **AI_Tools_Used**: Tools used (e.g., ChatGPT, Gemini).\n- **Daily_Usage_Hours**: Hours spent daily on AI tools.\n- **Use_Cases**: Purposes (e.g., Assignments, Exam Prep).\n- **Trust_in_AI_Tools**: Trust level (1\u20135).\n- **Impact_on_Grades**: Grade impact (-3 to +3).\n- **Do_Professors_Allow_Use**: Professor approval (Yes/No).\n- **Preferred_AI_Tool**: Preferred tool.\n- **Awareness_Level**: AI awareness (1\u201310).\n- **Willing_to_Pay_for_Access**: Willingness to pay (Yes/No).\n- **State**: Indian state.\n- **Device_Used**: Device (e.g., Laptop, Mobile).\n- **Internet_Access**: Access quality (Poor/Medium/High).\n\n## Use Cases\n- Predict academic performance using AI tool usage.\n- Analyze trust in AI across streams or regions.\n- Cluster students by usage patterns.\n- Study digital divide via `Internet_Access`.\n\n**Source**: Collected via Google Forms survey in May 2025, ensuring diverse representation across India.\n**Note**: First dataset of its kind on Kaggle!\n",
+        "keywords": [
+            "earth and nature",
+            "education",
+            "artificial intelligence",
+            "exploratory data analysis",
+            "data analytics",
+            "classification"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-NC-SA-4.0"
+            }
+        ]
+    }
+}

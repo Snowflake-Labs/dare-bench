@@ -1,0 +1,82 @@
+## Introduction & Data Collection
+
+This dataset provides a comprehensive snapshot of the best-selling games on the Steam platform. The data was collected on June 1, 2025, from the official 'Bestsellers' page on the Steam store.
+
+To ensure a broad and global perspective on top-selling titles, the data was gathered under specific filtering conditions:
+- In the 'Narrow by language' category, no specific language was selected.
+- In the 'Show selected types' category, only "Games" was checked.
+- No other filters or tags were applied during the collection process.
+This methodology aims to provide a neutral and extensive list of games that are currently top-sellers worldwide on the platform.
+
+The final dataset consists of 2,380 unique games that met all collection and processing criteria.
+
+A key feature of this dataset is the curation of the `user_defined_tags` column. Instead of using the vast and sometimes noisy spectrum of all possible tags on Steam, a standardized vocabulary of 42 unique, representative genres and tags was established. Each game in the dataset is described using a subset of these 42 tags. This approach was taken to ensure consistency and to provide a cleaner feature set for analysis, aiming to represent each game effectively with a minimal yet comprehensive vocabulary.
+
+
+## Data Sources & Content
+
+This dataset is a composite, created by merging data from three distinct sources to provide a richer profile for each game. The columns are sourced as follows:
+
+- From Steam: The core data for each game, including its name, review scores, and technical details, was scraped directly from the official Steam store page.
+-- `game_name`, `reviews_like_rate`, `all_reviews_number`, `release_date`, `developer`, `user_defined_tags`, `supported_os`, `supported_languages`, `price`, `other_features`
+
+- From GameFAQs: To enrich the dataset with qualitative metrics, data regarding content and player experience was sourced from [GameFAQs](https://gamefaqs.gamespot.com).
+-- `age_restriction`, `rating`, `difficulty`, `length`
+-- **Note:** In cases where data for a specific game was unavailable on GameFAQs, these fields were estimated by manually analyzing user reviews and discussions on the game's official Steam page.
+
+- From SteamDB: To provide an estimate of reach and ownership, download figures were sourced from the third-party statistics site [SteamDB](https://steamdb.info[](url)).
+-- `estimated_downloads`
+-- **Important Exclusion Criterion:** Only games for which an estimated_downloads value could be obtained from SteamDB were included in the final dataset. Games lacking this data were excluded from the list, even if they appeared in the 'Bestsellers' section.
+
+
+## Column Descriptions
+
+Below is a detailed description of each column in the dataset.
+
+#### Data from Steam
+
+- `game_name`: The official title of the game.
+- `reviews_like_rate`: The recommendation rate from user reviews on Steam (e.g., '95% of the 100 reviews are positive').
+- `all_reviews_number`: The total number of user reviews the game has received on Steam.
+- `release_date`: The official release date of the game on the Steam platform. This includes the initial release date for games in Early Access.
+- `developer`: The primary developer or studio behind the game.
+- `user_defined_tags`: A set of genres and categories assigned to the game by the Steam community (e.g., 'RPG', 'Open World', 'Story Rich').
+- `supported_os`: A list of the operating systems the game officially supports (win, mac, linux).
+- `supported_languages`: A list of languages that the game supports for interface, audio, or subtitles.
+- `price`: The price of the game. Note: The currency is MENA - U.S. Dollar, a regional price for the Middle East & North Africa, not the standard USD. A value of `0` in this column indicates the game is 'Free to Play'.
+- `other_features`: A set of features defined by Steam under the 'player support' category (e.g., 'Single-player', 'Online PvP', 'Steam Achievements', 'Family Sharing', 'Online Co-op', 'VR Supported').
+
+#### Data from GameFAQs & Steam Reviews
+
+- `age_restriction`: The recommended age restriction for the game's content, encoded as follows: 0 (Everyone), 10 (10+), 13 (13+), 17 (17+).
+- `rating`: An overall user-provided rating for the game on a scale of 1 to 5, where 1 is the lowest and 5 is the highest.
+- `difficulty`: An estimated difficulty of the game as perceived by players, on a scale of 1 to 5, where 1 is the easiest and 5 is the hardest.
+- `length`: The average time (in hours) players spend to complete or fully experience the game. For this dataset, the value is capped at a maximum of 80 hours.
+
+#### Data from SteamDB
+
+- `estimated_downloads`: The estimated total number of owners for the game.
+
+=== About this file ===
+
+About this file
+This is the complete and cleaned dataset in a single CSV file. Each row represents a unique game. The file contains 15 columns and has no missing (null) values.
+
+
+=== Columns & descriptions ===
+
+game_name: The official title of the game.
+reviews_like_rate: The recommendation rate from user reviews on Steam (e.g., '95% of the 100 reviews are positive').
+all_reviews_number: The total number of user reviews the game has received on Steam.
+release_date: The official release date of the game on the Steam platform. This includes the initial release date for games in Early Access.
+developer: The primary developer or studio behind the game.
+user_defined_tags: A set of genres and categories assigned to the game by the Steam community (e.g., 'RPG', 'Open World', 'Story Rich').
+supported_os: A list of the operating systems the game officially supports (win, mac, linux).
+supported_languages: A list of languages that the game supports for interface, audio, or subtitles.
+price: The price of the game. Note: The currency is MENA - U.S. Dollar, a regional price for the Middle East & North Africa, not the standard USD. A value of 0 in this column indicates the game is 'Free to Play'.
+other_features: A set of features defined by Steam under the 'player support' category (e.g., 'Single-player', 'Online PvP', 'Steam Achievements', 'Family Sharing', 'Online Co-op', 'VR Supported').
+age_restriction: The recommended age restriction for the game's content, encoded as follows: 0 (Everyone), 10 (10+), 13 (13+), 17 (17+).
+rating: An overall user-provided rating for the game on a scale of 1 to 5, where 1 is the lowest and 5 is the highest.
+difficulty: An estimated difficulty of the game as perceived by players, on a scale of 1 to 5, where 1 is the easiest and 5 is the hardest.
+length: The average time (in hours) players spend to complete or fully experience the game. For this dataset, the value is capped at a maximum of 80 hours.
+estimated_downloads: The estimated total number of owners for the game.

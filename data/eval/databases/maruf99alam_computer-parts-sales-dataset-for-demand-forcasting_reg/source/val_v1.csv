@@ -1,0 +1,13 @@
+row_id,Region,Part
+1,Khulna,GPU
+2,Khulna,GPU
+3,Chattogram,Cooling Fan
+4,Dhaka,HDD
+5,Chattogram,HDD
+6,Dhaka,Power Supply
+7,Dhaka,RAM
+8,Dhaka,RAM
+9,Rajshahi,HDD
+10,Rajshahi,Power Supply
+11,Khulna,HDD
+12,Rajshahi,GPU

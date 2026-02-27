@@ -1,0 +1,306 @@
+{
+    "question": {
+        "target": [
+            "is_counterfeit"
+        ],
+        "target_candidates": [
+            "is_counterfeit"
+        ],
+        "related_features": [
+            "ip_location_mismatch",
+            "warranty_months",
+            "description_length",
+            "domain_age_days",
+            "shipping_time_days",
+            "return_policy_clear",
+            "brand",
+            "payment_methods_count",
+            "category",
+            "product_images",
+            "seller_reviews",
+            "spelling_errors",
+            "unusual_payment_patterns",
+            "seller_rating",
+            "contact_info_complete",
+            "bulk_orders",
+            "certification_badges",
+            "price"
+        ],
+        "not_filtered_related_features": [
+            "description_length",
+            "warranty_months",
+            "domain_age_days",
+            "shipping_time_days",
+            "price",
+            "payment_methods_count",
+            "category",
+            "product_images",
+            "seller_reviews",
+            "spelling_errors",
+            "bulk_orders",
+            "certification_badges",
+            "seller_rating"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "description_length": [
+                50,
+                999
+            ],
+            "warranty_months": [
+                0,
+                23
+            ],
+            "domain_age_days": [
+                1,
+                3649
+            ],
+            "shipping_time_days": [
+                1,
+                44
+            ],
+            "price": [
+                10.0,
+                500.0
+            ],
+            "payment_methods_count": [
+                1,
+                5
+            ],
+            "category": [
+                "Electronics",
+                "Luxury Goods",
+                "Fashion",
+                "Pharmaceuticals",
+                "Automotive Parts",
+                "Cosmetics"
+            ],
+            "product_images": [
+                1,
+                9
+            ],
+            "seller_reviews": [
+                0,
+                9996
+            ],
+            "spelling_errors": [
+                0,
+                4
+            ],
+            "bulk_orders": [
+                0,
+                1
+            ],
+            "certification_badges": [
+                0,
+                4
+            ],
+            "seller_rating": [
+                1.0,
+                5.0
+            ]
+        },
+        "selected_features": [
+            "seller_reviews",
+            "certification_badges",
+            "product_images",
+            "description_length",
+            "domain_age_days",
+            "shipping_time_days",
+            "payment_methods_count",
+            "price"
+        ],
+        "train_v2_save_file": "./aimlveera_counterfeit-product-detection-dataset_class/source/train_v2.csv",
+        "val_v2_save_file": "./aimlveera_counterfeit-product-detection-dataset_class/source/val_v2.csv",
+        "val_no_err_save_file": "./aimlveera_counterfeit-product-detection-dataset_class/source/val_v1.csv",
+        "train_no_err_save_file": "./aimlveera_counterfeit-product-detection-dataset_class/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./aimlveera_counterfeit-product-detection-dataset_class/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "median",
+        "random_state": 31,
+        "model_type": "LogisticRegression",
+        "output_file": "./aimlveera_counterfeit-product-detection-dataset_class/prediction.csv",
+        "ground_truth_file": "./aimlveera_counterfeit-product-detection-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./aimlveera_counterfeit-product-detection-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "product_id": "categorical",
+            "seller_id": "categorical",
+            "category": "categorical",
+            "brand": "categorical",
+            "price": "numerical",
+            "seller_rating": "numerical",
+            "seller_reviews": "numerical",
+            "product_images": "numerical",
+            "description_length": "numerical",
+            "shipping_time_days": "numerical",
+            "spelling_errors": "numerical",
+            "domain_age_days": "numerical",
+            "contact_info_complete": "categorical",
+            "return_policy_clear": "categorical",
+            "payment_methods_count": "numerical",
+            "listing_date": "categorical",
+            "seller_country": "categorical",
+            "shipping_origin": "categorical",
+            "views": "numerical",
+            "purchases": "numerical",
+            "wishlist_adds": "numerical",
+            "certification_badges": "numerical",
+            "warranty_months": "numerical",
+            "bulk_orders": "numerical",
+            "unusual_payment_patterns": "categorical",
+            "ip_location_mismatch": "categorical",
+            "is_counterfeit": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "seller_reviews",
+            "certification_badges",
+            "product_images",
+            "description_length",
+            "domain_age_days",
+            "shipping_time_days",
+            "payment_methods_count",
+            "price"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7800095,
+        "ref": "aimlveera/counterfeit-product-detection-dataset",
+        "subtitle": "Dataset for Counterfeit Detection and Sales Pattern Analysis",
+        "creatorName": "aimlVeera",
+        "creatorUrl": "aimlveera",
+        "totalBytes": 333538,
+        "url": "https://www.kaggle.com/datasets/aimlveera/counterfeit-product-detection-dataset",
+        "lastUpdated": "2025-07-04T10:05:23.013Z",
+        "downloadCount": 679,
+        "licenseName": "CC BY-SA 4.0",
+        "description": "",
+        "ownerName": "aimlVeera",
+        "ownerRef": "aimlveera",
+        "kernelCount": 14,
+        "title": "Ecommerce Counterfeit Products Dataset",
+        "viewCount": 2628,
+        "voteCount": 10,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114015,
+                "scriptCount": 25612,
+                "totalCount": 139665
+            },
+            {
+                "ref": "finance",
+                "name": "finance",
+                "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+                "fullPath": "subject > people and society > business > finance",
+                "competitionCount": 101,
+                "datasetCount": 12682,
+                "scriptCount": 4576,
+                "totalCount": 17359
+            },
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "logistic regression",
+                "name": "logistic regression",
+                "description": "",
+                "fullPath": "task > logistic regression",
+                "competitionCount": 33,
+                "datasetCount": 366,
+                "scriptCount": 5287,
+                "totalCount": 5686
+            },
+            {
+                "ref": "e-commerce services",
+                "name": "e-commerce services",
+                "description": "",
+                "fullPath": "subject > people and society > business > e-commerce services",
+                "competitionCount": 6,
+                "datasetCount": 3467,
+                "scriptCount": 579,
+                "totalCount": 4052
+            },
+            {
+                "ref": "multilabel classification",
+                "name": "multilabel classification",
+                "description": "",
+                "fullPath": "task > multilabel-classification",
+                "competitionCount": 25,
+                "datasetCount": 312,
+                "scriptCount": 723,
+                "totalCount": 1060
+            },
+            {
+                "ref": "feature extraction",
+                "name": "feature extraction",
+                "description": "",
+                "fullPath": "task > feature-extraction",
+                "competitionCount": 15,
+                "datasetCount": 304,
+                "scriptCount": 439,
+                "totalCount": 758
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7800095,
+        "datasetSlug": "counterfeit-product-detection-dataset",
+        "ownerUser": "aimlveera",
+        "usabilityRating": 1.0,
+        "totalViews": 65,
+        "totalDownloads": 11,
+        "title": "Ecommerce Counterfeit Products Dataset",
+        "subtitle": "Dataset for Counterfeit Detection and Sales Pattern Analysis",
+        "description": "# Overview\nThis synthetic dataset was specifically designed to support machine learning research and development in counterfeit product detection and anti-fraud systems. The dataset mimics real-world patterns found in e-commerce platforms while containing no actual sensitive or proprietary information, making it ideal for educational purposes, algorithm development, and public research.\n\n##Key Features and Data Points\n\n###Product-Level Features\n\n####Basic Product Information:\n\n- Product ID, category, brand name, and pricing\n- Six main categories: Electronics, Fashion, Cosmetics, Pharmaceuticals, Luxury Goods, and Automotive Parts\n- Realistic brand variations including subtle misspellings common in counterfeit products\n\n####Seller Characteristics:\n- Seller ratings (1.0-5.0 scale) with counterfeits typically showing lower ratings\n- Review counts ranging from 0 to 10,000, with legitimate sellers having more reviews\n- Geographic information including seller country and shipping origin\n\n####Quality Indicators:\n- Number of product images (counterfeits typically have fewer)\n- Product description length (counterfeits often have shorter, less detailed descriptions)\n- Spelling errors count in product listings\n- Certification badges and warranty information\n- Domain age of seller websites\n\n####Operational Metrics:\n- Shipping timeframes (counterfeits often have longer delivery times)\n- Payment method variety (legitimate sellers offer more options)\n- Return policy clarity and contact information completeness\n- Product views, purchases, and wishlist additions\n\n###Transaction-Level Features\n####Transaction Details:\n- Unique transaction and customer identifiers\n- Transaction dates spanning one year of activity\n- Customer demographics and purchase history\n- Quantity and pricing information with realistic market ranges\n\n####Payment and Shipping:\n- Payment methods including credit cards, PayPal, cryptocurrency, and wire transfers\n- Shipping speeds and costs\n- Discount patterns and promotional activity\n\n####Risk Indicators:\n- Transaction velocity flags for unusual purchasing patterns\n- Geolocation mismatches between customer and payment information\n- Device fingerprint analysis for new vs. returning customers\n- Bulk order patterns and refund request frequencies\n\n#####  Key Applications\n- Training classification models for counterfeit product detection\n- Developing fraud detection algorithms for e-commerce platforms\n- Academic research in consumer protection and marketplace security\n- Building risk assessment systems for online marketplaces\n- Educational projects in data science and machine learning\n\n=== About this file ===\n\nAbout this file\nTransaction Dataset (3,000 samples)\nSales transaction records that capture purchasing patterns and fraud indicators associated with counterfeit product sales.\n\n\n=== Columns & descriptions ===\n\ntransaction_id: UniquUnique identifier for each completed purchase transactione 8-character identifier for each product listing\ncustomer_id: Unique identifier for the customer account making the purchase\ntransaction_date: Complete timestamp of when the transaction was completed\ncustomer_age: Age of the customer in years at time of purchase\ncustomer_location: Customer's country (ISO 2-letter code) based on billing/shipping address\nquantity: Number of items purchased in this transaction, with bulk orders being suspicious\nunit_price: Price per individual item before discounts and shipping\ntotal_amount: Final amount charged including taxes, shipping, and after discounts\npayment_method: Type of payment used: Credit Card, PayPal, Cryptocurrency, Wire Transfer, etc.\nshipping_speed: Delivery option selected: Standard, Express, Priority, or Economy\ncustomer_history_orders: [no description]\ndiscount_applied: [no description]\ndiscount_percentage: [no description]\nshipping_cost: [no description]\ndelivery_time_days: [no description]\nrefund_requested: [no description]\nvelocity_flag: [no description]\ngeolocation_mismatch: [no description]\ndevice_fingerprint_new: [no description]\ninvolves_counterfeit: [no description]\n",
+        "keywords": [
+            "business",
+            "finance",
+            "intermediate",
+            "classification",
+            "logistic regression",
+            "e-commerce services",
+            "multilabel classification",
+            "feature extraction"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-SA-4.0"
+            }
+        ]
+    }
+}

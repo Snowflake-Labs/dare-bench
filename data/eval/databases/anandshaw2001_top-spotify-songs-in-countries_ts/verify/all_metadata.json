@@ -1,0 +1,206 @@
+{
+    "question": {
+        "target": [
+            "ms_played"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "ts",
+        "time_format": "%Y-%m-%d %H:%M:%S",
+        "is_resampled": true,
+        "related_features": [
+            "platform",
+            "shuffle",
+            "skipped",
+            "reason_start",
+            "reason_end"
+        ],
+        "not_filtered_related_features": [
+            "platform",
+            "reason_start",
+            "reason_end"
+        ],
+        "selected_features": [
+            "reason_start",
+            "reason_end"
+        ],
+        "expected_ranges": {
+            "platform": [
+                "web player",
+                "windows",
+                "android",
+                "iOS",
+                "cast to device",
+                "mac"
+            ],
+            "reason_start": [
+                "autoplay",
+                "clickrow",
+                "trackdone",
+                "nextbtn",
+                "backbtn",
+                "unknown",
+                "popup",
+                "appload",
+                "fwdbtn",
+                "trackerror",
+                "remote",
+                "endplay",
+                "playbtn"
+            ],
+            "reason_end": [
+                "clickrow",
+                "unknown",
+                "nextbtn",
+                "trackdone",
+                "backbtn",
+                "reload",
+                "popup",
+                "endplay",
+                "fwdbtn",
+                "appload",
+                "unexpected-exit-while-paused",
+                "unexpected-exit",
+                "logout",
+                "remote",
+                "trackerror"
+            ]
+        },
+        "column_type_inference": {
+            "spotify_track_uri": "object",
+            "ts": "object",
+            "platform": "object",
+            "ms_played": "numeric",
+            "track_name": "object",
+            "artist_name": "object",
+            "album_name": "object",
+            "reason_start": "object",
+            "reason_end": "object",
+            "shuffle": "numeric",
+            "skipped": "numeric"
+        },
+        "train_save_file": "./anandshaw2001_top-spotify-songs-in-countries_ts/source/train.csv",
+        "val_v1_save_file": "./anandshaw2001_top-spotify-songs-in-countries_ts/source/val_v1.csv",
+        "val_v2_save_file": "./anandshaw2001_top-spotify-songs-in-countries_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./anandshaw2001_top-spotify-songs-in-countries_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./anandshaw2001_top-spotify-songs-in-countries_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./anandshaw2001_top-spotify-songs-in-countries_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 31,
+        "model_type": "Prophet",
+        "output_file": "./anandshaw2001_top-spotify-songs-in-countries_ts/prediction.json",
+        "ground_truth_v1_file": "./anandshaw2001_top-spotify-songs-in-countries_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./anandshaw2001_top-spotify-songs-in-countries_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./anandshaw2001_top-spotify-songs-in-countries_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2023-06-12 04:45:47",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 7664666,
+        "ref": "anandshaw2001/top-spotify-songs-in-countries",
+        "subtitle": "World's Most Popular Songs & Listening History",
+        "creatorName": "Anand Shaw",
+        "creatorUrl": "anandshaw2001",
+        "totalBytes": 6389288,
+        "url": "https://www.kaggle.com/datasets/anandshaw2001/top-spotify-songs-in-countries",
+        "lastUpdated": "2025-06-15T05:01:56.000Z",
+        "downloadCount": 9747,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Anand Shaw",
+        "ownerRef": "anandshaw2001",
+        "kernelCount": 16,
+        "title": "Top Spotify Listening History Songs in Countries ",
+        "viewCount": 38729,
+        "voteCount": 215,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "arts and entertainment",
+                "name": "arts and entertainment",
+                "description": "Activities that holds the attention and interest of an audience, or gives pleasure and delight. It can be an idea or a task, but is more likely to be one of the activities or events that have developed over thousands of years specifically for the purpose of keeping an audience's attention.",
+                "fullPath": "subject > arts and entertainment",
+                "competitionCount": 3,
+                "datasetCount": 72640,
+                "scriptCount": 22779,
+                "totalCount": 95422
+            },
+            {
+                "ref": "music",
+                "name": "music",
+                "description": "With all the music data out there, it's hard to believe someone hasn't trained robots to perform on stage yet. Or have they?",
+                "fullPath": "subject > arts and entertainment > music",
+                "competitionCount": 3,
+                "datasetCount": 21275,
+                "scriptCount": 16734,
+                "totalCount": 38012
+            },
+            {
+                "ref": "computer science",
+                "name": "computer science",
+                "description": "There is one thing we can say for sure about computer science: Computer science leads to more computer games which leads to better GPUs which leads to smarter AI.",
+                "fullPath": "subject > science and technology > computer science",
+                "competitionCount": 10,
+                "datasetCount": 57853,
+                "scriptCount": 733,
+                "totalCount": 58596
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7664666,
+        "datasetSlug": "top-spotify-songs-in-countries",
+        "ownerUser": "anandshaw2001",
+        "usabilityRating": 1.0,
+        "totalViews": 11222,
+        "totalVotes": 61,
+        "totalDownloads": 2776,
+        "title": "Top Spotify Listening History Songs in Countries ",
+        "subtitle": "World's Most Popular Songs & Listening History",
+        "description": "This dataset contains detailed **Spotify listening history of a user.** Each record captures information about a specific track played on Spotify, including metadata about the track, playback behavior, and the user's interaction with the platform. It spans multiple years and provides insights into user behavior, track preferences, and session dynamics.\n\n\n## Columns/Features Descriptions:\n\n\nspotify_track_uri \u2013 A unique identifier (URI) assigned to each track by Spotify.\n\nts \u2013 The timestamp when the track playback started.\n\nplatform \u2013 The platform or device used for playback (e.g., web player).\n\nms_played \u2013 Number of milliseconds the track was played before being stopped or skipped.\n\ntrack_name \u2013 The name/title of the track.\n\nartist_name \u2013 The artist or band who performed the track.\n\nalbum_name \u2013 The album the track belongs to.\n\nreason_start \u2013 Indicates what triggered the playback (e.g., autoplay, user click).\n\nreason_end \u2013 Describes how the playback ended (e.g., track completed, skipped).\n\nshuffle \u2013 A boolean field indicating if shuffle mode was enabled during playback.\n\nskipped \u2013 A boolean field indicating whether the track was skipped (True) or played fully (False).\n\n=== About this file ===\n\nAbout this file\nThis dataset captures detailed records of a user's listening behavior on Spotify, spanning a total of\n149,860\nplays across various devices and sessions. It is structured with\n11 columns\n, each representing specific metadata or behavioral information related to individual track plays.\n\n\n=== Columns & descriptions ===\n\nField: Columns/Features\nDescription: Columns Description\n",
+        "keywords": [
+            "arts and entertainment",
+            "music",
+            "computer science",
+            "data visualization",
+            "time series analysis"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

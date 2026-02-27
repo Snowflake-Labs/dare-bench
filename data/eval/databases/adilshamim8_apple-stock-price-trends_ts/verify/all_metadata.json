@@ -1,0 +1,178 @@
+{
+    "question": {
+        "target": [
+            "Close"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "Open",
+            "High",
+            "Low",
+            "Volume"
+        ],
+        "not_filtered_related_features": [
+            "Open",
+            "High",
+            "Low",
+            "Volume"
+        ],
+        "selected_features": [
+            "High",
+            "Volume",
+            "Open"
+        ],
+        "expected_ranges": {
+            "Open": [
+                0.0381525308050038,
+                257.56867823862046
+            ],
+            "High": [
+                0.0381525308050038,
+                259.47408555117545
+            ],
+            "Low": [
+                0.0377238765358924,
+                257.0100282923795
+            ],
+            "Volume": [
+                0,
+                7421640800
+            ]
+        },
+        "column_type_inference": {
+            "Date": "object",
+            "Close": "numeric",
+            "High": "numeric",
+            "Low": "numeric",
+            "Open": "numeric",
+            "Volume": "numeric"
+        },
+        "train_save_file": "./adilshamim8_apple-stock-price-trends_ts/source/train.csv",
+        "val_v1_save_file": "./adilshamim8_apple-stock-price-trends_ts/source/val_v1.csv",
+        "val_v2_save_file": "./adilshamim8_apple-stock-price-trends_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./adilshamim8_apple-stock-price-trends_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./adilshamim8_apple-stock-price-trends_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./adilshamim8_apple-stock-price-trends_ts/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 32,
+        "model_type": "Prophet",
+        "output_file": "./adilshamim8_apple-stock-price-trends_ts/prediction.json",
+        "ground_truth_v1_file": "./adilshamim8_apple-stock-price-trends_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./adilshamim8_apple-stock-price-trends_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./adilshamim8_apple-stock-price-trends_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2012-02-10 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 6770915,
+        "ref": "adilshamim8/apple-stock-price-trends",
+        "subtitle": "A Comprehensive Dataset for Predictive Analysis Using Technical Indicators",
+        "creatorName": "Adil Shamim",
+        "creatorUrl": "adilshamim8",
+        "totalBytes": 417552,
+        "url": "https://www.kaggle.com/datasets/adilshamim8/apple-stock-price-trends",
+        "lastUpdated": "2025-08-19T01:48:39.000Z",
+        "downloadCount": 81,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Adil Shamim",
+        "ownerRef": "adilshamim8",
+        "kernelCount": 1,
+        "title": "APPLE STOCK PRICE HISTORY",
+        "viewCount": 280,
+        "voteCount": 2,
+        "currentVersionNumber": 6,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "history",
+                "name": "history",
+                "description": "History is generally the study of past events that have shaped the world. Here on Kaggle, you'll find historical records and analyses on topics like Bitcoin data, UFO sightings, and sports tournaments.",
+                "fullPath": "subject > people and society > social science > history",
+                "competitionCount": 3,
+                "datasetCount": 2367,
+                "scriptCount": 339,
+                "totalCount": 2709
+            },
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "finance",
+                "name": "finance",
+                "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+                "fullPath": "subject > people and society > business > finance",
+                "competitionCount": 101,
+                "datasetCount": 12683,
+                "scriptCount": 4576,
+                "totalCount": 17360
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "investing",
+                "name": "investing",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > investing",
+                "competitionCount": 5,
+                "datasetCount": 11998,
+                "scriptCount": 18559,
+                "totalCount": 30562
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6770915,
+        "datasetSlug": "apple-stock-price-trends",
+        "ownerUser": "adilshamim8",
+        "usabilityRating": 1.0,
+        "totalViews": 246,
+        "totalVotes": 2,
+        "totalDownloads": 69,
+        "title": "APPLE STOCK PRICE HISTORY",
+        "subtitle": "A Comprehensive Dataset for Predictive Analysis Using Technical Indicators",
+        "description": "&gt; *\u201cThe people who are crazy enough to think they can predict the market... are the ones who do.\u201d*\n\n\nHere\u2019s to the crazy ones\u2014the data dreamers, the analysts, the visionaries who believe that a handful of numbers can reveal the DNA of innovation. This dataset is more than a collection of Apple Inc.\u2019s historical stock prices; it\u2019s a chronicle of invention, perseverance, and thinking differently.\n\n## What\u2019s Inside\n\n- **Time Span:** Daily stock price data for Apple Inc. over multiple years\n- **Features:**  \n  - `Date`: The day of the record  \n  - `Open`: Price at market open  \n  - `High`: Highest price of the day  \n  - `Low`: Lowest price of the day  \n  - `Close`: Price at market close  \n  - `Volume`: Number of shares traded  \n- **Format:** CSV, clean and ready for analysis\n\n## Why This Matters\n\nApple is not just a company, it\u2019s a movement. Its stock price reflects not only financial performance, but the world\u2019s response to innovation\u2014launches, leadership changes, economic cycles, and the occasional \u201cone more thing.\u201d\n\n## Possibilities\n\n- Visualize long-term growth and volatility  \n- Model trends, moving averages, or momentum  \n- Forecast future prices with machine learning  \n- Detect the impact of major product launches or events  \n- Explore relationships between volume and price action\n\n## Inspiration\n\nAs you explore this data, don\u2019t just look for patterns\u2014look for stories. See how moments of genius and risk-taking ripple through the numbers. Use this dataset to inspire your own creativity, your own analysis, your own \u2018insanely great\u2019 discoveries.\n\n---\n\nWhether you\u2019re here to build a predictive model, craft beautiful visualizations, or simply marvel at the journey, remember:  \nThe people who are crazy enough to think they can change the world with data\u2026 are the ones who do.\n\n=== About this file ===\n\nAbout this file\nThis file contains historical daily stock price data for Apple Inc. Each row represents one trading day and includes key financial metrics that track Apple\u2019s performance on the stock market.\nColumn Descriptions\nDate\nThe calendar date for the trading record (format: YYYY-MM-DD).\nClose\nThe price of Apple\u2019s stock at the end of the trading day.\nHigh\nThe highest price reached by Apple\u2019s stock during the trading day.\nLow\nThe lowest price reached by Apple\u2019s stock during the trading day.\nOpen\nThe price of Apple\u2019s stock at the beginning of the trading day.\nVolume\nThe total number of Apple shares traded during the trading day.\n\n\n=== Columns & descriptions ===\n\nDate: The calendar date for the trading record (format: YYYY-MM-DD).\nClose: The price of Apple\u2019s stock at the end of the trading day.\nHigh: The highest price reached by Apple\u2019s stock during the trading day.\nLow: The lowest price reached by Apple\u2019s stock during the trading day.\nOpen: The price of Apple\u2019s stock at the beginning of the trading day.\nVolume: The total number of Apple shares traded during the trading day.\n",
+        "keywords": [
+            "history",
+            "business",
+            "finance",
+            "time series analysis",
+            "investing"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

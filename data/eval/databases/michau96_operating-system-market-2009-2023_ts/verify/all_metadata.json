@@ -1,0 +1,277 @@
+{
+    "question": {
+        "target": [
+            "Windows"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%Y-%m",
+        "is_resampled": false,
+        "related_features": [
+            "Android",
+            "iOS",
+            "OS X",
+            "Unknown",
+            "Linux",
+            "Series 40",
+            "SymbianOS",
+            "Samsung",
+            "BlackBerry OS",
+            "Chrome OS",
+            "Nokia Unknown",
+            "Playstation",
+            "Sony Ericsson",
+            "KaiOS",
+            "Xbox",
+            "bada",
+            "Tizen",
+            "LG",
+            "Nintendo",
+            "Other"
+        ],
+        "not_filtered_related_features": [
+            "Android",
+            "iOS",
+            "OS X",
+            "Unknown",
+            "Linux",
+            "Series 40",
+            "SymbianOS",
+            "Samsung",
+            "BlackBerry OS",
+            "Chrome OS",
+            "Nokia Unknown",
+            "Playstation",
+            "Sony Ericsson",
+            "KaiOS",
+            "Xbox",
+            "bada",
+            "Tizen",
+            "LG",
+            "Nintendo",
+            "Other"
+        ],
+        "selected_features": [
+            "iOS",
+            "Sony Ericsson",
+            "LG",
+            "KaiOS",
+            "Tizen",
+            "BlackBerry OS",
+            "OS X",
+            "Linux",
+            "Samsung",
+            "Nokia Unknown",
+            "Other",
+            "Series 40"
+        ],
+        "expected_ranges": {
+            "Android": [
+                0.0,
+                47.21
+            ],
+            "iOS": [
+                0.24,
+                18.49
+            ],
+            "OS X": [
+                3.65,
+                9.32
+            ],
+            "Unknown": [
+                0.17,
+                8.05
+            ],
+            "Linux": [
+                0.61,
+                1.64
+            ],
+            "Series 40": [
+                0.0,
+                2.89
+            ],
+            "SymbianOS": [
+                0.0,
+                2.83
+            ],
+            "Samsung": [
+                0.0,
+                1.01
+            ],
+            "BlackBerry OS": [
+                0.0,
+                0.88
+            ],
+            "Chrome OS": [
+                0.0,
+                1.86
+            ],
+            "Nokia Unknown": [
+                0.0,
+                1.01
+            ],
+            "Playstation": [
+                0.01,
+                0.18
+            ],
+            "Sony Ericsson": [
+                0.0,
+                0.21
+            ],
+            "KaiOS": [
+                0.0,
+                0.56
+            ],
+            "Xbox": [
+                0.0,
+                0.65
+            ],
+            "bada": [
+                0.0,
+                0.08
+            ],
+            "Tizen": [
+                0.0,
+                0.13
+            ],
+            "LG": [
+                0.0,
+                0.08
+            ],
+            "Nintendo": [
+                0.0,
+                0.03
+            ],
+            "Other": [
+                0.0,
+                2.03
+            ]
+        },
+        "column_type_inference": {
+            "Date": "object",
+            "Windows": "numeric",
+            "Android": "numeric",
+            "iOS": "numeric",
+            "OS X": "numeric",
+            "Unknown": "numeric",
+            "Linux": "numeric",
+            "Series 40": "numeric",
+            "SymbianOS": "numeric",
+            "Samsung": "numeric",
+            "BlackBerry OS": "numeric",
+            "Chrome OS": "numeric",
+            "Nokia Unknown": "numeric",
+            "Playstation": "numeric",
+            "Sony Ericsson": "numeric",
+            "KaiOS": "numeric",
+            "Xbox": "numeric",
+            "bada": "numeric",
+            "Tizen": "numeric",
+            "LG": "numeric",
+            "Nintendo": "numeric",
+            "Other": "numeric"
+        },
+        "train_save_file": "./michau96_operating-system-market-2009-2023_ts/source/train.csv",
+        "val_v1_save_file": "./michau96_operating-system-market-2009-2023_ts/source/val_v1.csv",
+        "val_v2_save_file": "./michau96_operating-system-market-2009-2023_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./michau96_operating-system-market-2009-2023_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./michau96_operating-system-market-2009-2023_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./michau96_operating-system-market-2009-2023_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 63,
+        "model_type": "Prophet",
+        "output_file": "./michau96_operating-system-market-2009-2023_ts/prediction.json",
+        "ground_truth_v1_file": "./michau96_operating-system-market-2009-2023_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./michau96_operating-system-market-2009-2023_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./michau96_operating-system-market-2009-2023_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2023-09-01 00:00:00",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 4271474,
+        "ref": "michau96/operating-system-market-2009-2023",
+        "subtitle": "Worldwide in over last 15 years",
+        "creatorName": "Michal Bogacz",
+        "creatorUrl": "michau96",
+        "totalBytes": 22139,
+        "url": "https://www.kaggle.com/datasets/michau96/operating-system-market-2009-2023",
+        "lastUpdated": "2025-05-08T15:19:12.407Z",
+        "downloadCount": 807,
+        "licenseName": "CC BY-SA 3.0",
+        "description": "",
+        "ownerName": "Michal Bogacz",
+        "ownerRef": "michau96",
+        "kernelCount": 3,
+        "title": "Operating System Market (2009 - 2024)",
+        "viewCount": 3545,
+        "voteCount": 31,
+        "currentVersionNumber": 5,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "internet",
+                "name": "internet",
+                "description": "An interconnected network of tubes that connects the entire world together. This tag covers a broad range of tags; anything from cryptocurrency to website analytics.",
+                "fullPath": "subject > science and technology > internet",
+                "competitionCount": 19,
+                "datasetCount": 29695,
+                "scriptCount": 2621,
+                "totalCount": 32335
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14200,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34359
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 4271474,
+        "datasetSlug": "operating-system-market-2009-2023",
+        "ownerUser": "michau96",
+        "usabilityRating": 1.0,
+        "totalViews": 3482,
+        "totalVotes": 31,
+        "totalDownloads": 794,
+        "title": "Operating System Market (2009 - 2024)",
+        "subtitle": "Worldwide in over last 15 years",
+        "description": "## Context\nOperating systems are a very important element needed to effectively use devices such as laptops, telephones and tablets. The market is developing all the time, so user preferences also affect the selection of more and more new systems. The database below contains data from the last 15 years showing how the operating system market looked like in terms of shares held by various companies.\n\n## Content\nThe .csv base contains several columns. The first column contains the date (yyyy-mm) from the measurement period. Each column except the date contains the percentage of share in the operating systems market given in percentage rounded to 2 decimal places (if the share is less than 0.5%, the value 0 remains, although it can be a very small part of the share). In total, we have 180 rows, i.e. full data from 15 years for each month.\n\u200b\n## Source\nThe database comes from the [Statcounter](https://gs.statcounter.com/os-market-share) and is made available in the operation with CC BY-SA 3.0 license which allows to copy, use and disseminate data also for commercial purposes after providing the source.\n\n=== About this file ===\n\nAbout this file\nAll data\n\n\n=== Columns & descriptions ===\n\nDate: YYYY-MM\nWindows: Share in %\nAndroid: Share in %\niOS: Share in %\nOS X: Share in %\nUnknown: Share in %\nLinux: Share in %\nSeries 40: Share in %\nSymbianOS: Share in %\nSamsung: Share in %\nBlackBerry OS: [no description]\nChrome OS: [no description]\nNokia Unknown: [no description]\nPlaystation: [no description]\nSony Ericsson: [no description]\nKaiOS: [no description]\nXbox: [no description]\nbada: [no description]\nTizen: [no description]\nLG: [no description]\nNintendo: [no description]\nOther: [no description]\n",
+        "keywords": [
+            "internet",
+            "time series analysis",
+            "tabular"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-SA-3.0"
+            }
+        ]
+    }
+}

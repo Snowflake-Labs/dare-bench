@@ -1,0 +1,237 @@
+{
+    "question": {
+        "target": [
+            "GDP Growth (% Annual)",
+            "GDP per Capita (Current USD)",
+            "GDP (Current USD)"
+        ],
+        "target_candidates": [
+            "GDP (Current USD)",
+            "GDP per Capita (Current USD)",
+            "GDP Growth (% Annual)"
+        ],
+        "related_features": [
+            "Interest Rate (Real, %)",
+            "Public Debt (% of GDP)",
+            "Current Account Balance (% GDP)",
+            "Inflation (GDP Deflator, %)",
+            "Government Expense (% of GDP)",
+            "Government Revenue (% of GDP)",
+            "Tax Revenue (% of GDP)",
+            "country_id",
+            "year",
+            "Unemployment Rate (%)",
+            "Inflation (CPI %)"
+        ],
+        "not_filtered_related_features": [
+            "Interest Rate (Real, %)",
+            "Public Debt (% of GDP)",
+            "Inflation (GDP Deflator, %)",
+            "Current Account Balance (% GDP)",
+            "Government Expense (% of GDP)",
+            "Government Revenue (% of GDP)",
+            "Tax Revenue (% of GDP)",
+            "year",
+            "Unemployment Rate (%)",
+            "Inflation (CPI %)"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "Interest Rate (Real, %)": [
+                -82.0,
+                62.0
+            ],
+            "Public Debt (% of GDP)": [
+                1.0,
+                250.0
+            ],
+            "Inflation (GDP Deflator, %)": [
+                -29.0,
+                922.0
+            ],
+            "Current Account Balance (% GDP)": [
+                -61.0,
+                236.0
+            ],
+            "Government Expense (% of GDP)": [
+                0.0,
+                104.0
+            ],
+            "Government Revenue (% of GDP)": [
+                0.0,
+                345.0
+            ],
+            "Tax Revenue (% of GDP)": [
+                0.0,
+                148.0
+            ],
+            "year": [
+                2010,
+                2025
+            ],
+            "Unemployment Rate (%)": [
+                0.0,
+                36.0
+            ],
+            "Inflation (CPI %)": [
+                -7.0,
+                558.0
+            ]
+        },
+        "selected_features": [
+            "year",
+            "Unemployment Rate (%)",
+            "Government Revenue (% of GDP)",
+            "Inflation (GDP Deflator, %)",
+            "Inflation (CPI %)",
+            "Government Expense (% of GDP)"
+        ],
+        "train_v2_save_file": "./tanishksharma9905_global-economic-indicators-20102025_reg/source/train_v2.csv",
+        "val_v2_save_file": "./tanishksharma9905_global-economic-indicators-20102025_reg/source/val_v2.csv",
+        "val_no_err_save_file": "./tanishksharma9905_global-economic-indicators-20102025_reg/source/val_v1.csv",
+        "train_no_err_save_file": "./tanishksharma9905_global-economic-indicators-20102025_reg/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./tanishksharma9905_global-economic-indicators-20102025_reg/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "median",
+        "random_state": 58,
+        "model_type": "DecisionTreeRegressor",
+        "output_file": "./tanishksharma9905_global-economic-indicators-20102025_reg/prediction.csv",
+        "ground_truth_file": "./tanishksharma9905_global-economic-indicators-20102025_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./tanishksharma9905_global-economic-indicators-20102025_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "country_name": "categorical",
+            "country_id": "categorical",
+            "year": "numerical",
+            "Inflation (CPI %)": "numerical",
+            "GDP (Current USD)": "numerical",
+            "GDP per Capita (Current USD)": "numerical",
+            "Unemployment Rate (%)": "numerical",
+            "Interest Rate (Real, %)": "numerical",
+            "Inflation (GDP Deflator, %)": "numerical",
+            "GDP Growth (% Annual)": "numerical",
+            "Current Account Balance (% GDP)": "numerical",
+            "Government Expense (% of GDP)": "numerical",
+            "Government Revenue (% of GDP)": "numerical",
+            "Tax Revenue (% of GDP)": "numerical",
+            "Gross National Income (USD)": "numerical",
+            "Public Debt (% of GDP)": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "year",
+            "Unemployment Rate (%)",
+            "Government Revenue (% of GDP)",
+            "Inflation (GDP Deflator, %)",
+            "Inflation (CPI %)",
+            "Government Expense (% of GDP)"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7717987,
+        "ref": "tanishksharma9905/global-economic-indicators-20102025",
+        "subtitle": "Macroeconomic data for 200+ countries including GDP, inflation, unemployment, in",
+        "creatorName": "Tanishk Sharma",
+        "creatorUrl": "tanishksharma9905",
+        "totalBytes": 263193,
+        "url": "https://www.kaggle.com/datasets/tanishksharma9905/global-economic-indicators-20102025",
+        "lastUpdated": "2025-06-22T17:13:44.997Z",
+        "downloadCount": 2701,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Tanishk Sharma",
+        "ownerRef": "tanishksharma9905",
+        "kernelCount": 16,
+        "title": "Global Economic Indicators (2010\u20132025)- World bank",
+        "viewCount": 9559,
+        "voteCount": 32,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "government",
+                "name": "government",
+                "description": "Government related datasets and kernels include various datasets from government agencies like the Food and Drug Administration, police agencies, and government press releases.",
+                "fullPath": "subject > people and society > law > government",
+                "competitionCount": 1,
+                "datasetCount": 4307,
+                "scriptCount": 228,
+                "totalCount": 4536
+            },
+            {
+                "ref": "banking",
+                "name": "banking",
+                "description": "Banks keep the financial system interesting by failing en masse every couple of generations.",
+                "fullPath": "subject > people and society > business > finance > banking",
+                "competitionCount": 490,
+                "datasetCount": 5541,
+                "scriptCount": 1323,
+                "totalCount": 7354
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7717987,
+        "datasetSlug": "global-economic-indicators-20102025",
+        "ownerUser": "tanishksharma9905",
+        "usabilityRating": 1.0,
+        "totalViews": 5000,
+        "totalVotes": 24,
+        "totalDownloads": 1419,
+        "title": "Global Economic Indicators (2010\u20132025)- World bank",
+        "subtitle": "Macroeconomic data for 200+ countries including GDP, inflation, unemployment, in",
+        "description": "This dataset contains year-wise macroeconomic indicators for over 200 countries from 2010 to 2025, extracted programmatically using the World Bank Open Data API.\n\nIt includes key indicators critical for policy makers, economists, data scientists, and financial analysts. The data has been cleaned, structured, and exported as a CSV \u2014 making it ready for analysis, dashboards, and forecasting models.\n\n## \ud83d\udce6 Included Indicators\n- Inflation (Consumer Price Index %)\n- GDP (Current USD)\n- GDP per Capita\n- GDP Growth (% Annual)\n- Unemployment Rate\n- Real Interest Rate\n- Public Debt (% of GDP)\n- Government Expense and Revenue\n- Current Account Balance\n- Gross National Income\n- Tax Revenue\n\n## \ud83d\udcca Columns Overview\n| Column Name           | Description                              |\n|------------------------|------------------------------------------|\n| country_name           | Full country name                        |\n| country_id             | ISO 2-character country code             |\n| year                   | Year (2010\u20132025)                         |\n| GDP (Current USD)      | Total national GDP in USD                |\n| Inflation (CPI %)      | Consumer price inflation                 |\n| Unemployment Rate (%)  | Total unemployment rate                  |\n| Interest Rate (Real, %) | Inflation-adjusted lending rate        |\n| ...                    | (see data dictionary below)              |\n\n## \ud83d\udcc8 Use Cases\n- Economic trend visualization\n- Country comparison dashboards\n- Machine learning forecasting models\n- Macroeconomic policy analysis\n\n## \ud83d\udce1 Data Source\n- API: [World Bank Open Data](https://data.worldbank.org)\n- Extracted using: Python, requests, pandas, SQLAlchemy\n\n## \ud83e\udde0 Ideal For\n- Data scientists\n- Policy researchers\n- Students in economics or finance\n- Kaggle forecasting competitions\n\n## \u2705 Format\n- CSV format (UTF-8)\n- 200+ countries \u00d7 15 years \u00d7 13 indicators = ~40,000+ rows\n\n\n=== About this file ===\n\nAbout this file\n\ud83d\udcc4 About This File:\nworld_bank_data_2025.csv\n\ud83d\udd0d Overview\nThis file contains\nstructured, multi-year macroeconomic data\ncollected from the\nWorld Bank Open Data API\n. It tracks the\nkey economic indicators\nfor over 200 countries from\n2010 to 2025\n.\nEach row represents the\neconomic profile of a country for a specific year\n.\n\ud83d\udcca Columns in the Dataset\nColumn Name\nDescription\ncountry_name\nFull name of the country (e.g., India, United States)\ncountry_id\nISO 2-letter country code (e.g., IN, US)\nyear\nThe year the data corresponds to (from 2010 to 2025)\nInflation (CPI %)\nAnnual consumer price inflation\nGDP (Current USD)\nGross Domestic Product in current USD\nGDP per Capita (Current USD)\nGDP divided by total population in current USD\nUnemployment Rate (%)\nPercentage of labor force unemployed\nInterest Rate (Real, %)\nLending interest rate adjusted for inflation\nInflation (GDP Deflator, %)\nInflation based on the GDP deflator\nGDP Growth (% Annual)\nYear-over-year GDP growth rate\nCurrent Account Balance (% GDP)\nNet flow of current transactions as a % of GDP\nGovernment Expense (% of GDP)\nGovernment total expenditure as a share of GDP\nGovernment Revenue (% of GDP)\nGovernment total revenue as a share of GDP\nTax Revenue (% of GDP)\nShare of GDP collected in taxes\nGross National Income (USD)\nTotal income received by residents of a country\nPublic Debt (% of GDP)\nTotal government debt as a percentage of GDP\n\ud83d\udd22 Number of Records\n\ud83c\udf0d ~200+ countries\n\ud83d\udcc6 2010\u20132025 (16 years)\n\ud83d\udcc8 13 economic indicators\n\ud83e\uddfe Total rows: ~32,000+ (depending on missing data)\n\ud83e\uddf9 Cleaning Notes\nMissing data is retained as\nNaN\nto preserve original structure.\nCountry names and codes standardized via World Bank metadata.\nDate range and indicators fully aligned across countries and years.\n\ud83e\udde0 Use Cases\nThis dataset is perfect for:\nTime-series forecasting\nInflation and interest rate modeling\nMacroeconomic comparison dashboards\nEconomic growth analysis\nPublic policy research\nMachine learning regression tasks\n\ud83d\udcc1 Source\nExtracted via the\nWorld Bank API\nProcessed using Python (\nrequests\n,\npandas\n,\nSQLAlchemy\n)\nExported from a MySQL-backed ETL pipeline\n\n\n=== Columns & descriptions ===\n\ncountry_name: Full name of the country (e.g., India, United States)\ncountry_id: SO 2-letter country code (e.g., IN, US)\nyear: The year the data corresponds to (from 2010 to 2025)\nInflation (CPI %): Annual consumer price inflation\nGDP (Current USD): Gross Domestic Product in current USD\nGDP per Capita (Current USD): GDP divided by total population in current USD\nUnemployment Rate (%): Percentage of labor force unemployed\nInterest Rate (Real, %): Lending interest rate adjusted for inflation\nInflation (GDP Deflator, %): Inflation based on the GDP deflator\nGDP Growth (% Annual): Year-over-year GDP growth rate Year-over-year GDP growth rate\nCurrent Account Balance (% GDP): [no description]\nGovernment Expense (% of GDP): [no description]\nGovernment Revenue (% of GDP): [no description]\nTax Revenue (% of GDP): [no description]\nGross National Income (USD): [no description]\nPublic Debt (% of GDP): [no description]\n",
+        "keywords": [
+            "government",
+            "banking",
+            "data visualization",
+            "time series analysis",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

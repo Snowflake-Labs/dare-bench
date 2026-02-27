@@ -1,0 +1,15 @@
+The dataset is the result of the notebook Beyond the Surface: Forecasting 2025 AirTraffic , from data coming from the dataset made available by Eurocontrol on its Aviation Intelligence Portal at [https://ansperformance.eu] . It summarise **total flight arrivals** in European airports , day by day, for the period 2016-204 .
+
+=== About this file ===
+
+About this file
+Remote source:
+https://www.kaggle.com/code/mcapurso/beyond-the-surface-forecasting-2025-airtraffic
+Arrivals in Brindisi airport, Italy , from 2016 to 2024, day by day
+
+
+=== Columns & descriptions ===
+
+: [no description]
+FLT_ARR_1: Number of flights arriving
+FLT_DATE: Fight date

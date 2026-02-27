@@ -1,0 +1,49 @@
+#**Context**
+This dataset contains daily stock data for Amazon.com, Inc. (AMZN) from March 16, 1997, to January 20, 2025. It captures Amazon’s journey from a small online bookstore to one of the largest technology giants in the world. The dataset provides insights into Amazon’s stock performance over nearly three decades, making it a valuable resource for financial analysis, predictive modeling, and machine learning projects.
+
+#**Content**
+The dataset includes the following key features:
+
+Open: Stock price at the start of the trading day.
+High: Highest stock price during the trading day.
+Low: Lowest stock price during the trading day.
+Close: Stock price at the end of the trading day.
+Adj Close: Adjusted closing price, accounting for corporate actions such as stock splits and dividends.
+Volume: Total number of shares traded during the trading day.
+
+#**Variables**
+- 
+ Date: The date of the trading day, formatted as YYYY-MM-DD
+
+Open: The stock price at the beginning of the trading day.
+
+High: The highest price the stock reached during the trading day.
+
+Low: The lowest price the stock fell to during the trading day.
+
+Close: The stock price at the end of the trading day.
+
+Adj Close: The adjusted closing price, reflecting corporate actions like stock splits, dividend distributions, and other adjustments.
+
+Volume: The total number of shares traded during the trading day.
+
+
+#**Acknowledgements**
+This dataset was sourced from reliable public APIs such as Yahoo Finance or Alpha Vantage. It is provided for educational and research purposes and is not affiliated with Amazon.com, Inc. Users are encouraged to comply with the terms of use of the original data source.
+
+
+=== About this file ===
+
+About this file
+This data set is in CSV form and and available 16-03-1997 to 20-01-2025
+
+
+=== Columns & descriptions ===
+
+Date: [no description]
+Open: The stock price at the beginning of the trading day.
+High: The highest price the stock reached during the trading day
+Low: The lowest price the stock fell to during the trading day.
+Close: The stock price at the end of the trading day.
+Adj Close: The adjusted closing price, reflecting corporate actions like stock splits, dividend distributions, and other adjustments.
+Volume: The total number of shares traded during the trading day.

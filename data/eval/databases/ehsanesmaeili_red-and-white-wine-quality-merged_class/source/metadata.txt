@@ -1,0 +1,41 @@
+The Wine Type Classification Dataset contains 6,497 samples of red and white wines, with 13 features describing their chemical properties and quality. The dataset is designed for tasks such as wine type classification (red or white) and quality prediction. Each sample includes the following features:
+
+fixed acidity: Fixed acidity level of the wine
+volatile acidity: Volatile acidity level of the wine
+citric acid: Citric acid content
+residual sugar: Amount of residual sugar
+chlorides: Chloride content
+free sulfur dioxide: Free sulfur dioxide level
+total sulfur dioxide: Total sulfur dioxide level
+density: Density of the wine
+pH: pH level of the wine
+sulphates: Sulphate content
+alcohol: Alcohol percentage
+quality: Wine quality score (numerical)
+type: Wine type (Red or White)
+
+This dataset is ideal for machine learning tasks such as binary classification (predicting wine type), regression (predicting quality), or exploratory data analysis to uncover relationships between chemical properties and wine characteristics. It combines data from red and white wine datasets, making it a versatile resource for researchers, data scientists, and wine enthusiasts.
+
+This data set is a combined version of the two separate files (distinct red and white wine data sets) originally shared in the UCI Machine Learning Repository.
+
+=== About this file ===
+
+About this file
+This dataset contains 6,497 samples of red and white wines, with 13 features describing their chemical properties and quality.
+
+
+=== Columns & descriptions ===
+
+fixed acidity: The amount of acetic acid in wine
+volatile acidity: The amount of acetic acid in wine
+citric acid: The amount of citric acid in wine
+residual sugar: The amount of sugar remaining after fermentation s
+chlorides: The amount of chloride in the wine
+free sulfur dioxide: The amount of free sulfur dioxide in the wine
+total sulfur dioxide: The amount of total sulfur dioxide in the wine
+density: The density of water is close to that of water depending on the percent alcohol and sugar content
+pH: Describes how acidic or basic a wine is on a scale from 0 (very acidic) to 14 (very basic); most wines are between 3-4 on the
+sulphates: A wine additive which can contribute to sulfur dioxide gas (S02) levels, wich acts as an antimicrobial and
+alcohol: [no description]
+quality: [no description]
+type: [no description]

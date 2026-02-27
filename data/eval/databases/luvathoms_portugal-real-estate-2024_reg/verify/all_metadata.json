@@ -1,0 +1,329 @@
+{
+    "question": {
+        "target": [
+            "Price"
+        ],
+        "target_candidates": [
+            "Price"
+        ],
+        "related_features": [
+            "TotalArea",
+            "PublishDate",
+            "NumberOfWC",
+            "EnergyCertificate",
+            "Parking",
+            "BuiltArea",
+            "HasParking",
+            "Floor",
+            "NumberOfBathrooms",
+            "TotalRooms",
+            "ConstructionYear",
+            "EnergyEfficiencyLevel",
+            "District",
+            "ElectricCarsCharging",
+            "LivingArea",
+            "Town",
+            "ConservationStatus",
+            "City",
+            "GrossArea",
+            "NumberOfBedrooms",
+            "Garage",
+            "LotSize",
+            "Type",
+            "Elevator"
+        ],
+        "not_filtered_related_features": [
+            "TotalArea",
+            "NumberOfWC",
+            "EnergyCertificate",
+            "Parking",
+            "BuiltArea",
+            "HasParking",
+            "NumberOfBathrooms",
+            "TotalRooms",
+            "ConstructionYear",
+            "EnergyEfficiencyLevel",
+            "ElectricCarsCharging",
+            "LivingArea",
+            "ConservationStatus",
+            "GrossArea",
+            "NumberOfBedrooms",
+            "Garage",
+            "LotSize",
+            "Elevator"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "TotalArea": [
+                -7196067.0,
+                61420071105.0
+            ],
+            "NumberOfWC": [
+                -15.0,
+                59.0
+            ],
+            "EnergyCertificate": [
+                "NC",
+                "A+",
+                "D",
+                "C",
+                "B",
+                "A",
+                "B-",
+                "E",
+                "F",
+                "G",
+                "Not available",
+                "No Certificate"
+            ],
+            "Parking": [
+                0.0,
+                3.0
+            ],
+            "BuiltArea": [
+                -1.0,
+                12750000.0
+            ],
+            "HasParking": [
+                false,
+                true
+            ],
+            "NumberOfBathrooms": [
+                -13.0,
+                131.0
+            ],
+            "TotalRooms": [
+                0.0,
+                2751.0
+            ],
+            "ConstructionYear": [
+                1900.0,
+                2025.0
+            ],
+            "EnergyEfficiencyLevel": [
+                "F",
+                "NC",
+                "D",
+                "C",
+                "E",
+                "B-",
+                "B",
+                "A",
+                "A+",
+                "G",
+                "No Certificate"
+            ],
+            "ElectricCarsCharging": [
+                false,
+                true
+            ],
+            "LivingArea": [
+                0.0,
+                5429000.0
+            ],
+            "ConservationStatus": [
+                "Needs renovation",
+                "Like new",
+                "Good condition",
+                "Reasonable",
+                "New",
+                "Used"
+            ],
+            "GrossArea": [
+                -7.0,
+                12750000.0
+            ],
+            "NumberOfBedrooms": [
+                0.0,
+                21.0
+            ],
+            "Garage": [
+                false,
+                true
+            ],
+            "LotSize": [
+                0.0,
+                992301000.0
+            ],
+            "Elevator": [
+                false,
+                true
+            ]
+        },
+        "selected_features": [
+            "LotSize",
+            "Parking",
+            "HasParking",
+            "Elevator",
+            "EnergyEfficiencyLevel",
+            "ConstructionYear",
+            "TotalArea",
+            "LivingArea",
+            "GrossArea",
+            "TotalRooms",
+            "Garage"
+        ],
+        "train_v2_save_file": "./luvathoms_portugal-real-estate-2024_reg/source/train_v2.sqlite",
+        "val_v2_save_file": "./luvathoms_portugal-real-estate-2024_reg/source/val_v2.sqlite",
+        "val_no_err_save_file": "./luvathoms_portugal-real-estate-2024_reg/source/val_v1.sqlite",
+        "train_no_err_save_file": "./luvathoms_portugal-real-estate-2024_reg/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./luvathoms_portugal-real-estate-2024_reg/source/train_v1.sqlite",
+        "train_test_ratio": 0.8,
+        "save_file_type": "sqlite",
+        "imputer_type": "median",
+        "random_state": 44,
+        "model_type": "Lasso",
+        "output_file": "./luvathoms_portugal-real-estate-2024_reg/prediction.csv",
+        "ground_truth_file": "./luvathoms_portugal-real-estate-2024_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./luvathoms_portugal-real-estate-2024_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Price": "numerical",
+            "District": "categorical",
+            "City": "categorical",
+            "Town": "categorical",
+            "Type": "categorical",
+            "EnergyCertificate": "categorical",
+            "GrossArea": "numerical",
+            "TotalArea": "numerical",
+            "Parking": "numerical",
+            "HasParking": "categorical",
+            "Floor": "numerical",
+            "ConstructionYear": "numerical",
+            "EnergyEfficiencyLevel": "categorical",
+            "PublishDate": "categorical",
+            "Garage": "categorical",
+            "Elevator": "categorical",
+            "ElectricCarsCharging": "categorical",
+            "TotalRooms": "numerical",
+            "NumberOfBedrooms": "numerical",
+            "NumberOfWC": "numerical",
+            "ConservationStatus": "categorical",
+            "LivingArea": "numerical",
+            "LotSize": "numerical",
+            "BuiltArea": "numerical",
+            "NumberOfBathrooms": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "LotSize",
+            "Parking",
+            "ConstructionYear",
+            "TotalArea",
+            "LivingArea",
+            "GrossArea",
+            "TotalRooms"
+        ],
+        "categorical_features": [
+            "HasParking",
+            "Elevator",
+            "EnergyEfficiencyLevel",
+            "Garage"
+        ]
+    },
+    "data_info": {
+        "id": 5922174,
+        "ref": "luvathoms/portugal-real-estate-2024",
+        "subtitle": "A Comprehensive Dataset on Real Estate Asking Prices and Property Features",
+        "creatorName": "Thomas Gaehtgens",
+        "creatorUrl": "luvathoms",
+        "totalBytes": 3121442,
+        "url": "https://www.kaggle.com/datasets/luvathoms/portugal-real-estate-2024",
+        "lastUpdated": "2025-03-09T00:24:18.000Z",
+        "downloadCount": 1942,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Thomas Gaehtgens",
+        "ownerRef": "luvathoms",
+        "kernelCount": 4,
+        "title": "Real Estate Listings in Portugal",
+        "viewCount": 9165,
+        "voteCount": 31,
+        "currentVersionNumber": 19,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "europe",
+                "name": "europe",
+                "description": "You can find some European linguistic type datasets here as well as other European-like datasets and kernels.",
+                "fullPath": "geography and places > europe",
+                "competitionCount": 3,
+                "datasetCount": 1529,
+                "scriptCount": 298,
+                "totalCount": 1830
+            },
+            {
+                "ref": "real estate",
+                "name": "real estate",
+                "description": "Datsets and kernels analyzing housing, apartments, and property in general. For those of you house-hunting, you should avoid max(house_price). It's high. Really high.",
+                "fullPath": "subject > people and society > business > real estate",
+                "competitionCount": 5,
+                "datasetCount": 4240,
+                "scriptCount": 915,
+                "totalCount": 5160
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 5922174,
+        "datasetSlug": "portugal-real-estate-2024",
+        "ownerUser": "luvathoms",
+        "usabilityRating": 1.0,
+        "totalViews": 8924,
+        "totalVotes": 31,
+        "totalDownloads": 1890,
+        "title": "Real Estate Listings in Portugal",
+        "subtitle": "A Comprehensive Dataset on Real Estate Asking Prices and Property Features",
+        "description": "### Portuguese Real Estate Listings\n\nThis **weekly updated** dataset contains the more than 100k real **asking prices** for real estate properties listed on **Portuguese real estate websites**. The data was legally and ethically scraped from several online platforms, ensuring compliance with the platforms' terms and conditions.\n\nThe dataset includes detailed information about each property listing, such as:\n\n- **Price**: The asking price of the property in Euros.\n- **District, City, Town**: The geographical location of the property, allowing for regional analysis.\n- **Type**: The type of property (e.g., Apartment, House, Garage, Land).\n- **EnergyCertificate**: The energy efficiency rating of the property, according to Portuguese energy certification standards.\n- **Area Measurements**: Several columns related to the size and area of the property, including:\n  - **GrossPrivateArea**: The private gross area of the property.\n  - **UsableArea**: The area that can be used for living.\n  - **LivingArea**: The actual livable space inside the property.\n  - **LotSize**: The size of the land associated with the property.\n  - **BuiltArea**: The total constructed area of the property.\n- **Rooms, Bedrooms, Bathrooms, WCs**: Detailed breakdowns of the number of rooms, bedrooms, bathrooms, and water closets in the property.\n- **Floor**: The floor on which the property is located.\n- **Parking, Garage**: Information on parking availability and the presence of a garage.\n- **Additional Features**: Whether the property includes amenities like elevators or electric car charging stations.\n- **ConstructionYear**: The year the property was built.\n- **PublishDate**: The date when the listing was published.\n\nThe dataset is suitable for a variety of analyses, including:\n- **Price trends**: Understanding the relationship between location, property features, and asking prices.\n- **Energy efficiency**: Investigating how energy certification impacts property values.\n- **Geographical analysis**: Exploring regional differences in real estate pricing across Portugal.\n\nThis dataset offers a comprehensive snapshot of the Portuguese real estate market, enabling users to gain insights into current pricing, property types, and location-based factors influencing the market.\n\n=== About this file ===\n\nAbout this file\nThe dataset includes detailed information about each property listing, such as:\nPrice\n: The asking price of the property in Euros.\nDistrict, City, Town\n: The geographical location of the property, allowing for regional analysis.\nType\n: The type of property (e.g., Apartment, House, Garage, Land).\nEnergyCertificate\n: The energy efficiency rating of the property, according to Portuguese energy certification standards.\nArea Measurements\n: Several columns related to the size and area of the property, including:\nGrossPrivateArea\n: The private gross area of the property.\nUsableArea\n: The area that can be used for living.\nLivingArea\n: The actual livable space inside the property.\nLotSize\n: The size of the land associated with the property.\nBuiltArea\n: The total constructed area of the property.\nRooms, Bedrooms, Bathrooms, WCs\n: Detailed breakdowns of the number of rooms, bedrooms, bathrooms, and water closets in the property.\nFloor\n: The floor on which the property is located.\nParking, Garage\n: Information on parking availability and the presence of a garage.\nAdditional Features\n: Whether the property includes amenities like elevators or electric car charging stations.\nConstructionYear\n: The year the property was built.\nPublishDate\n: The date when the listing was published.\n\n\n=== Columns & descriptions ===\n\nPrice: [no description]\nDistrict: [no description]\nCity: Name of City\nTown: [no description]\nType: [no description]\nEnergyCertificate: [no description]\nGrossArea: [no description]\nTotalArea: [no description]\nParking: [no description]\nHasParking: [no description]\nFloor: [no description]\nConstructionYear: [no description]\nEnergyEfficiencyLevel: [no description]\nPublishDate: [no description]\nGarage: [no description]\nElevator: [no description]\nElectricCarsCharging: [no description]\nTotalRooms: [no description]\nNumberOfBedrooms: [no description]\nNumberOfWC: [no description]\nConservationStatus: [no description]\nLivingArea: [no description]\nLotSize: [no description]\nBuiltArea: [no description]\nNumberOfBathrooms: [no description]\n",
+        "keywords": [
+            "europe",
+            "real estate",
+            "data visualization",
+            "tabular",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

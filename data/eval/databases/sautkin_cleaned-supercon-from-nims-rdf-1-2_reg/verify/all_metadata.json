@@ -1,0 +1,353 @@
+{
+    "question": {
+        "target": [
+            "critical_temp_K"
+        ],
+        "target_candidates": [
+            "critical_temp_K"
+        ],
+        "related_features": [
+            "pcohere_value",
+            "t1_value",
+            "thermopower_300K_uVK",
+            "t2_value",
+            "tcn_value",
+            "t3_value",
+            "moment_value",
+            "curiet",
+            "lower_critical_field_0K_T",
+            "upper_critical_field_0K_T",
+            "neelt",
+            "oz",
+            "ppenet_value",
+            "gapene",
+            "density_gcm3",
+            "tcwidth_value",
+            "rh300",
+            "resistivity_roomtemp_uOhmcm",
+            "penetration_depth_nm",
+            "tcsus_value",
+            "resistivity_normal_uOhmcm",
+            "phc2zero_value",
+            "gamma_sommerfeld_mJmolK2",
+            "coherence_length_nm",
+            "kaizero_value",
+            "energy_gap_meV",
+            "dhc2dt_TK",
+            "debyet",
+            "nhc2zero_value",
+            "dtcdp_KGPa"
+        ],
+        "not_filtered_related_features": [
+            "pcohere_value",
+            "t1_value",
+            "thermopower_300K_uVK",
+            "t2_value",
+            "tcn_value",
+            "t3_value",
+            "moment_value",
+            "curiet",
+            "lower_critical_field_0K_T",
+            "upper_critical_field_0K_T",
+            "neelt",
+            "oz",
+            "ppenet_value",
+            "gapene",
+            "density_gcm3",
+            "tcwidth_value",
+            "rh300",
+            "resistivity_roomtemp_uOhmcm",
+            "penetration_depth_nm",
+            "tcsus_value",
+            "resistivity_normal_uOhmcm",
+            "phc2zero_value",
+            "gamma_sommerfeld_mJmolK2",
+            "coherence_length_nm",
+            "kaizero_value",
+            "energy_gap_meV",
+            "dhc2dt_TK",
+            "debyet",
+            "nhc2zero_value",
+            "dtcdp_KGPa"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "thermopower_300K_uVK": [
+                -62900.0,
+                2000.0
+            ],
+            "dtcdp_KGPa": [
+                -61.0,
+                25.0
+            ],
+            "oz": [
+                0.0,
+                42.0
+            ],
+            "t2_value": [
+                0.0,
+                323.0
+            ],
+            "tcsus_value": [
+                0.0,
+                340.0
+            ],
+            "resistivity_roomtemp_uOhmcm": [
+                0.0,
+                9600000000.0
+            ],
+            "ppenet_value": [
+                0.0,
+                20000.0
+            ],
+            "neelt": [
+                0.0,
+                832.0
+            ],
+            "pcohere_value": [
+                1.0,
+                9400.0
+            ],
+            "t3_value": [
+                0.0,
+                333.0
+            ],
+            "resistivity_normal_uOhmcm": [
+                0.0,
+                35900000.0
+            ],
+            "energy_gap_meV": [
+                0.0,
+                88.0
+            ],
+            "rh300": [
+                -95.0,
+                15.0
+            ],
+            "tcn_value": [
+                0.0,
+                108.0
+            ],
+            "curiet": [
+                0.0,
+                659.0
+            ],
+            "density_gcm3": [
+                1.0,
+                19.0
+            ],
+            "moment_value": [
+                0.0,
+                12.0
+            ],
+            "phc2zero_value": [
+                0.0,
+                3034.0
+            ],
+            "t1_value": [
+                0.0,
+                310.0
+            ],
+            "dhc2dt_TK": [
+                -7.0,
+                73.0
+            ]
+        },
+        "selected_features": [
+            "dtcdp_KGPa",
+            "tcn_value",
+            "moment_value",
+            "resistivity_roomtemp_uOhmcm",
+            "phc2zero_value",
+            "rh300",
+            "energy_gap_meV",
+            "t2_value",
+            "pcohere_value",
+            "resistivity_normal_uOhmcm",
+            "dhc2dt_TK",
+            "density_gcm3"
+        ],
+        "train_v2_save_file": "./sautkin_cleaned-supercon-from-nims-rdf-1-2_reg/source/train_v2.parquet",
+        "val_v2_save_file": "./sautkin_cleaned-supercon-from-nims-rdf-1-2_reg/source/val_v2.parquet",
+        "val_no_err_save_file": "./sautkin_cleaned-supercon-from-nims-rdf-1-2_reg/source/val_v1.parquet",
+        "train_no_err_save_file": "./sautkin_cleaned-supercon-from-nims-rdf-1-2_reg/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./sautkin_cleaned-supercon-from-nims-rdf-1-2_reg/source/train_v1.parquet",
+        "train_test_ratio": 0.9,
+        "save_file_type": "parquet",
+        "imputer_type": "median",
+        "random_state": 49,
+        "model_type": "LinearRegression",
+        "output_file": "./sautkin_cleaned-supercon-from-nims-rdf-1-2_reg/prediction.csv",
+        "ground_truth_file": "./sautkin_cleaned-supercon-from-nims-rdf-1-2_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./sautkin_cleaned-supercon-from-nims-rdf-1-2_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "comment": "categorical",
+            "curiet": "numerical",
+            "debyet": "numerical",
+            "element": "categorical",
+            "gapene": "numerical",
+            "kaizero_value": "numerical",
+            "moment_value": "numerical",
+            "name": "categorical",
+            "neelt": "numerical",
+            "nhc2zero_value": "numerical",
+            "oz": "numerical",
+            "pcohere_value": "numerical",
+            "phc2zero_value": "numerical",
+            "ppenet_value": "numerical",
+            "rh300": "numerical",
+            "shape": "categorical",
+            "t1_value": "numerical",
+            "t2_value": "numerical",
+            "t3_value": "numerical",
+            "tcn_value": "numerical",
+            "tcsus_value": "numerical",
+            "tcwidth_value": "numerical",
+            "critical_temp_K": "numerical",
+            "upper_critical_field_0K_T": "numerical",
+            "gamma_sommerfeld_mJmolK2": "numerical",
+            "resistivity_normal_uOhmcm": "numerical",
+            "resistivity_roomtemp_uOhmcm": "numerical",
+            "penetration_depth_nm": "numerical",
+            "coherence_length_nm": "numerical",
+            "dhc2dt_TK": "numerical",
+            "dtcdp_KGPa": "numerical",
+            "density_gcm3": "numerical",
+            "lower_critical_field_0K_T": "numerical",
+            "thermopower_300K_uVK": "numerical",
+            "energy_gap_meV": "numerical",
+            "data_quality_flag": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "dtcdp_KGPa",
+            "tcn_value",
+            "moment_value",
+            "resistivity_roomtemp_uOhmcm",
+            "phc2zero_value",
+            "rh300",
+            "energy_gap_meV",
+            "t2_value",
+            "pcohere_value",
+            "resistivity_normal_uOhmcm",
+            "dhc2dt_TK",
+            "density_gcm3"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7137758,
+        "ref": "sautkin/cleaned-supercon-from-nims-rdf-1-2",
+        "subtitle": "30k+ superconductors: Processed data from NIMS RDF 1.2",
+        "creatorName": "Sautkin",
+        "creatorUrl": "sautkin",
+        "totalBytes": 1177500,
+        "url": "https://www.kaggle.com/datasets/sautkin/cleaned-supercon-from-nims-rdf-1-2",
+        "lastUpdated": "2025-04-14T07:10:54.723Z",
+        "downloadCount": 28,
+        "licenseName": "Attribution 4.0 International (CC BY 4.0)",
+        "description": "",
+        "ownerName": "Sautkin",
+        "ownerRef": "sautkin",
+        "kernelCount": 1,
+        "title": "Cleaned SuperCon (from NIMS RDF 1.2)",
+        "viewCount": 176,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "earth and nature",
+                "name": "earth and nature",
+                "description": "",
+                "fullPath": "subject > earth and nature",
+                "competitionCount": 19,
+                "datasetCount": 79489,
+                "scriptCount": 394,
+                "totalCount": 79902
+            },
+            {
+                "ref": "chemistry",
+                "name": "chemistry",
+                "description": "Chemistry addresses topics such as how atoms and molecules interact via chemical bonds to form new chemical compounds.",
+                "fullPath": "subject > earth and nature > physical science > chemistry",
+                "competitionCount": 11,
+                "datasetCount": 983,
+                "scriptCount": 347,
+                "totalCount": 1341
+            },
+            {
+                "ref": "physics",
+                "name": "physics",
+                "description": "Physics is the natural science that involves the study of matter and its motion and behavior through space and time, along with related concepts such as energy and force.",
+                "fullPath": "subject > earth and nature > physical science > physics",
+                "competitionCount": 17,
+                "datasetCount": 1492,
+                "scriptCount": 1070,
+                "totalCount": 2579
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "data cleaning",
+                "name": "data cleaning",
+                "description": "",
+                "fullPath": "analysis > data cleaning",
+                "competitionCount": 32,
+                "datasetCount": 4384,
+                "scriptCount": 14497,
+                "totalCount": 18913
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7137758,
+        "datasetSlug": "cleaned-supercon-from-nims-rdf-1-2",
+        "ownerUser": "sautkin",
+        "usabilityRating": 1.0,
+        "totalViews": 128,
+        "totalDownloads": 20,
+        "title": "Cleaned SuperCon (from NIMS RDF 1.2)",
+        "subtitle": "30k+ superconductors: Processed data from NIMS RDF 1.2",
+        "description": "# Cleaned SuperCon Superconductors Data (from NIMS RDF 1.2)\n\n## Dataset Overview\n\nThis dataset provides cleaned and processed data on superconducting materials, originally sourced from the **SuperCon RDF Ver.1.2** knowledge base developed by the National Institute for Materials Science (NIMS), Japan. The original RDF dataset (DOI: [10.48505/nims.4571](https://doi.org/10.48505/nims.4571)) was processed to create a user-friendly CSV file suitable for machine learning and data analysis tasks.\n\nThe cleaning process focused on standardizing units for key physical properties, handling missing values, renaming columns for clarity, and flagging potentially erroneous or controversial entries.\n\n## Source & License\n\n*   **Original Data Source:** MDR SuperCon RDF Ver.1.2 by Masashi Ishii (National Institute for Materials Science).\n*   **Original DOI:** [https://doi.org/10.48505/nims.4571](https://doi.org/10.48505/nims.4571)\n*   **License:** [Creative Commons BY Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). This license permits sharing and adaptation as long as attribution is given to the original source.\n*   **Original Schema Publication:** M. Ishii and K. Sakamoto, 'Structuring superconductor data with ontology: reproducing historical datasets as knowledge bases', Science and Technology of Advanced Materials: Methods, 3(1) 2223051 (2023). [https://doi.org/10.1080/27660400.2023.2223051](https://doi.org/10.1080/27660400.2023.2223051)\n\n## Data Cleaning and Processing Steps\n\nThe original data (presumably derived from the RDF source) underwent the following processing steps:\n\n1.  **Unit Standardization:** Units for key physical properties were standardized, and the resulting unit was incorporated into the column name. Affected columns include:\n    *   `critical_temp_K` (Kelvin)\n    *   `upper_critical_field_0K_T` (Tesla)\n    *   `lower_critical_field_0K_T` (Tesla)\n    *   `gamma_sommerfeld_mJmolK2` (mJ/mol\u00b7K\u00b2)\n    *   `resistivity_normal_uOhmcm` (\u00b5\u03a9\u00b7cm)\n    *   `resistivity_roomtemp_uOhmcm` (\u00b5\u03a9\u00b7cm)\n    *   `penetration_depth_nm` (nanometers)\n    *   `coherence_length_nm` (nanometers)\n    *   `dhc2dt_TK` (Tesla/Kelvin)\n    *   `dtcdp_KGPa` (Kelvin/GPa)\n    *   `density_gcm3` (g/cm\u00b3)\n    *   `thermopower_300K_uVK` (\u00b5V/K)\n    *   `energy_gap_meV` (meV)\n    *   `tc_width_K` (Kelvin)\n2.  **Column Dropping:** Columns with more than 99% missing values were removed to reduce sparsity. Original `_unit` columns were dropped after standardization or if they contained too many missing values. Columns ending in `_value` without a corresponding standardized unit remain as they were in the source (units might be inconsistent or missing).\n3.  **Handling Errors:** Entries with physically impossible negative values for Curie (`curiet`) or Neel (`neelt`) temperatures were replaced with NaN.\n4.  **Data Quality Flagging:** A `data_quality_flag` column was added to highlight potential issues or points of interest:\n    *   `Likely Error: ...`: Indicates values (especially Tc) that are highly anomalous for the given material or likely data entry errors.\n    *   `Controversial Claim ...`: Marks entries related to highly debated or unconfirmed reports (e.g., near-ambient pressure LuH).\n    *   `Warning: Statistical Tc Outlier (IQR)`: Flags Tc values that fall outside the typical range based on the Interquartile Range method.\n    *   `Check: Tc=0 (Non-superconducting?)`: Indicates the material did not show superconductivity down to the lowest measured temperature.\n    *   `Info: Very Low Tc (&lt;0.1K)`: Marks materials with very low critical temperatures.\n5.  **Final Format:** The processed data is provided in CSV format (`superconductors_kaggle_ready.csv`).\n\n## Citation / Attribution\n\nWhen using this dataset, please acknowledge the original source as requested by NIMS:\n\n&gt; This dataset is derived from the MDR SuperCon RDF Ver.1.2 (https://doi.org/10.48505/nims.4571), a semantic structuring data for superconducting materials, which is made public by the National Institute for Materials Science (NIMS). This Kaggle dataset represents a cleaned and processed version of the original data. The details of the original RDF schema are discussed in a publication [1].\n&gt;\n&gt; [1] M. Ishii and K. Sakamoto, 'Structuring superconductor data with ontology: reproducing historical datasets as knowledge bases', Science and Technology of Advanced Materials: Methods, 3(1) 2223051 (2023). https://doi.org/10.1080/27660400.2023.2223051\n\n## Column Descriptions\n\n*(Based on the 29 columns in the final file)*\n\n*   `element`: Chemical formula of the material.\n*   `name`: Common name or alternative formula.\n*   `shape`: Code representing the sample shape (original codes preserved).\n*   `comment`: Original comments from the source data.\n*   `debyet`: Debye temperature in Kelvin (K).\n*   `isotope_value`: Isotope effect exponent (value, units not standardized/available).\n*   `kaizero_value`: Initial magnetic susceptibility (value, units not standardized/available).\n*   `moment_value`: Magnetic moment (value, units not standardized/available).\n*   `neelt`: Neel temperature in Kelvin (K). *Note: Negative values replaced by NaN.*\n*   `tcn_value`: Critical temperature (n-type? value, units not standardized/available).\n*   `gapene`: Energy gap parameter (value, units not standardized/available).\n*   `pcohere_value`: Coherence length (p-wave? value, units not standardized/available).\n*   `rh300`: Hall coefficient at 300K? (value, units not standardized/available).\n*   `curiet`: Curie temperature in Kelvin (K). *Note: Negative values replaced by NaN.*\n*   `critical_temp_K`: Critical superconducting transition temperature in Kelvin (K).\n*   `upper_critical_field_0K_T`: Upper critical magnetic field at 0 Kelvin in Tesla (T).\n*   `lower_critical_field_0K_T`: Lower critical magnetic field at 0 Kelvin in Tesla (T).\n*   `gamma_sommerfeld_mJmolK2`: Sommerfeld coefficient (electronic specific heat) in milliJoules per mole per Kelvin squared (mJ/mol\u00b7K\u00b2).\n*   `resistivity_normal_uOhmcm`: Electrical resistivity in the normal state (often near Tc) in microOhm-centimeters (\u00b5\u03a9\u00b7cm).\n*   `resistivity_roomtemp_uOhmcm`: Electrical resistivity at room temperature (approx. 300K) in microOhm-centimeters (\u00b5\u03a9\u00b7cm).\n*   `penetration_depth_nm`: Magnetic penetration depth in nanometers (nm).\n*   `coherence_length_nm`: Superconducting coherence length in nanometers (nm).\n*   `dhc2dt_TK`: Slope of the upper critical field versus temperature near Tc in Tesla per Kelvin (T/K).\n*   `dtcdp_KGPa`: Pressure dependence of the critical temperature in Kelvin per Gigapascal (K/GPa).\n*   `density_gcm3`: Material density in grams per cubic centimeter (g/cm\u00b3).\n*   `thermopower_300K_uVK`: Thermoelectric power (Seebeck coefficient) at 300K in microVolts per Kelvin (\u00b5V/K).\n*   `energy_gap_meV`: Superconducting energy gap in milli-electronVolts (meV).\n*   `tc_width_K`: Width of the superconducting transition in Kelvin (K).\n*   `data_quality_flag`: Flags indicating potential data issues or points of interest (e.g., `Likely Error...`, `Controversial Claim...`, `Warning: Statistical Tc Outlier (IQR)`, `Check: Tc=0...`, `Info: Very Low Tc...`). See description above for details. Blank/NaN means no specific flag was assigned during cleaning.\n\n\nshape_01: \"single phase (bulk)\"\nshape_02: \"multi phase (bulk)\"\nshape_03: \"single crystal (bulk)\"\nshape_04: \"film\"\nshape_05: \"film (single)\"\nshape_06, shape_08, shape_09, shape_12: \"unknown shape X\"\n\n=== About this file ===\n\nAbout this file\nThis CSV file contains the cleaned and processed superconductor data derived from the NIMS SuperCon RDF Ver.1.2 dataset. Units for key properties have been standardized (indicated in column names), highly sparse columns removed, obvious errors corrected (replaced with NaN), and a\ndata_quality_flag\ncolumn added to highlight potential issues. See the main dataset description for full details on processing and column definitions.\n\n\n=== Columns & descriptions ===\n\ncomment: Original comments from the source data.\ncuriet: [no description]\ndebyet: [no description]\nelement: [no description]\ngapene: [no description]\nkaizero_value: [no description]\nmoment_value: [no description]\nname: [no description]\nneelt: [no description]\nnhc2zero_value: [no description]\noz: [no description]\npcohere_value: [no description]\nphc2zero_value: [no description]\nppenet_value: [no description]\nrh300: [no description]\nshape: [no description]\nt1_value: [no description]\nt2_value: [no description]\nt3_value: [no description]\ntcn_value: [no description]\ntcsus_value: [no description]\ntcwidth_value: [no description]\ncritical_temp_K: [no description]\nupper_critical_field_0K_T: [no description]\ngamma_sommerfeld_mJmolK2: [no description]\nresistivity_normal_uOhmcm: [no description]\nresistivity_roomtemp_uOhmcm: [no description]\npenetration_depth_nm: [no description]\ncoherence_length_nm: [no description]\ndhc2dt_TK: [no description]\ndtcdp_KGPa: [no description]\ndensity_gcm3: [no description]\nlower_critical_field_0K_T: [no description]\nthermopower_300K_uVK: [no description]\nenergy_gap_meV: [no description]\ndata_quality_flag: [no description]\n",
+        "keywords": [
+            "earth and nature",
+            "chemistry",
+            "physics",
+            "exploratory data analysis",
+            "data cleaning",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "Attribution 4.0 International (CC BY 4.0)"
+            }
+        ]
+    }
+}

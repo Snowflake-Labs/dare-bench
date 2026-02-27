@@ -1,0 +1,179 @@
+{
+    "question": {
+        "target": [
+            "17, 20-21, 24-30 Manufacturing (new orders) Original index"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Month",
+        "time_format": "%YM%m",
+        "is_resampled": false,
+        "related_features": [
+            "17 Manufacture of paper and paper products Original index",
+            "20-21 Chemical industry Original index",
+            "24-30 Metal industry Original index"
+        ],
+        "not_filtered_related_features": [
+            "17 Manufacture of paper and paper products Original index",
+            "20-21 Chemical industry Original index",
+            "24-30 Metal industry Original index"
+        ],
+        "selected_features": [
+            "17 Manufacture of paper and paper products Original index",
+            "24-30 Metal industry Original index"
+        ],
+        "expected_ranges": {
+            "17 Manufacture of paper and paper products Original index": [
+                39.5,
+                116.8
+            ],
+            "20-21 Chemical industry Original index": [
+                54.6,
+                139.2
+            ],
+            "24-30 Metal industry Original index": [
+                47.2,
+                167.6
+            ]
+        },
+        "column_type_inference": {
+            "Month": "object",
+            "17, 20-21, 24-30 Manufacturing (new orders) Original index": "numeric",
+            "17 Manufacture of paper and paper products Original index": "numeric",
+            "20-21 Chemical industry Original index": "numeric",
+            "24-30 Metal industry Original index": "numeric"
+        },
+        "train_save_file": "./justushelo_new-orders-in-manufacturing-original-index_ts/source/train.csv",
+        "val_v1_save_file": "./justushelo_new-orders-in-manufacturing-original-index_ts/source/val_v1.csv",
+        "val_v2_save_file": "./justushelo_new-orders-in-manufacturing-original-index_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./justushelo_new-orders-in-manufacturing-original-index_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./justushelo_new-orders-in-manufacturing-original-index_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./justushelo_new-orders-in-manufacturing-original-index_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 31,
+        "model_type": "Prophet",
+        "output_file": "./justushelo_new-orders-in-manufacturing-original-index_ts/prediction.json",
+        "ground_truth_v1_file": "./justushelo_new-orders-in-manufacturing-original-index_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./justushelo_new-orders-in-manufacturing-original-index_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./justushelo_new-orders-in-manufacturing-original-index_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2023-03-01 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7614405,
+        "ref": "justushelo/new-orders-in-manufacturing-original-index",
+        "subtitle": "Practice dataset for time series models and econometrics",
+        "creatorName": "Justus Helo",
+        "creatorUrl": "justushelo",
+        "totalBytes": 3039,
+        "url": "https://www.kaggle.com/datasets/justushelo/new-orders-in-manufacturing-original-index",
+        "lastUpdated": "2025-06-08T08:28:52.000Z",
+        "downloadCount": 19,
+        "licenseName": "Attribution 4.0 International (CC BY 4.0)",
+        "description": "",
+        "ownerName": "Justus Helo",
+        "ownerRef": "justushelo",
+        "kernelCount": 1,
+        "title": "New Orders in Manufacturing: Original Index",
+        "viewCount": 118,
+        "currentVersionNumber": 3,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "europe",
+                "name": "europe",
+                "description": "You can find some European linguistic type datasets here as well as other European-like datasets and kernels.",
+                "fullPath": "geography and places > europe",
+                "competitionCount": 3,
+                "datasetCount": 1529,
+                "scriptCount": 298,
+                "totalCount": 1830
+            },
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "economics",
+                "name": "economics",
+                "description": "The economics tag contains resources for analyzing the production, consumption, and transfer of wealth.",
+                "fullPath": "subject > people and society > social science > economics",
+                "competitionCount": 3,
+                "datasetCount": 3842,
+                "scriptCount": 844,
+                "totalCount": 4689
+            },
+            {
+                "ref": "manufacturing",
+                "name": "manufacturing",
+                "description": "Manufacturing is the production of merchandise for use or sale using labour and machines, tools, chemical and biological processing, or formulation.",
+                "fullPath": "subject > science and technology > engineering > manufacturing",
+                "competitionCount": 39,
+                "datasetCount": 2920,
+                "scriptCount": 93,
+                "totalCount": 3052
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14200,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34359
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7614405,
+        "datasetSlug": "new-orders-in-manufacturing-original-index",
+        "ownerUser": "justushelo",
+        "usabilityRating": 1.0,
+        "totalViews": 98,
+        "totalDownloads": 18,
+        "title": "New Orders in Manufacturing: Original Index",
+        "subtitle": "Practice dataset for time series models and econometrics",
+        "description": "New orders in manufacturing (2021=100) by Month, Information and Standard Industrial Classification (TOL 2008). \n\nUnit: Index Point Figure\n\nThe monthly data is updated 40 days after the corresponding month.\n\nSource:\nNew orders in manufacturing [online publication].\nISSN=1798-6737. Helsinki: Statistics Finland [Referenced: 8.6.2025].\nAccess method for more information: https://stat.fi/en/statistics/teul\nAccess method for data: https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__teul/statfin_teul_pxt_14mi.px/\nLicence reference: https://creativecommons.org/licenses/by/4.0/deed.en\n\n=== About this file ===\n\nAbout this file\n\"The statistics on new orders in manufacturing describe development in new orders of enterprises for those commodities and services that are produced by establishments located in Finland. The task of the index of new orders in manufacturing is to provide rapid and reliable information about the development of new orders. In addition, the compiled statistics indicate how production and turnover are likely to change in future.\" (Source: Statistics Finland, 2025)\n\n\n=== Columns & descriptions ===\n\nMonth: Year and Month\n17, 20-21, 24-30 Manufacturing (new orders) Original index: 17, 20-21, 24-30 Manufacturing (new orders)\n17 Manufacture of paper and paper products Original index: 17 Manufacture of paper and paper products\n20-21 Chemical industry Original index: 20-21 Chemical industry\n24-30 Metal industry Original index: 24-30 Metal industry\n",
+        "keywords": [
+            "europe",
+            "business",
+            "economics",
+            "manufacturing",
+            "time series analysis",
+            "tabular"
+        ],
+        "licenses": [
+            {
+                "name": "Attribution 4.0 International (CC BY 4.0)"
+            }
+        ]
+    }
+}

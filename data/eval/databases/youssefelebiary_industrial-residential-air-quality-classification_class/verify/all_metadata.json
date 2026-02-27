@@ -1,0 +1,197 @@
+{
+    "question": {
+        "target": [
+            "Type"
+        ],
+        "target_candidates": [
+            "Type"
+        ],
+        "related_features": [
+            "PM10",
+            "NO2",
+            "O3",
+            "PM2.5",
+            "SO2",
+            "CO"
+        ],
+        "not_filtered_related_features": [
+            "PM10",
+            "NO2",
+            "CO",
+            "PM2.5",
+            "SO2",
+            "O3"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "PM10": [
+                0.0,
+                662.0
+            ],
+            "NO2": [
+                0.0,
+                218.0
+            ],
+            "CO": [
+                0.0,
+                12876.0
+            ],
+            "PM2.5": [
+                0.0,
+                460.0
+            ],
+            "SO2": [
+                0.0,
+                498.0
+            ],
+            "O3": [
+                0.0,
+                342.0
+            ]
+        },
+        "selected_features": [
+            "NO2",
+            "PM10",
+            "SO2",
+            "PM2.5"
+        ],
+        "train_v2_save_file": "./youssefelebiary_industrial-residential-air-quality-classification_class/source/train_v2.csv",
+        "val_v2_save_file": "./youssefelebiary_industrial-residential-air-quality-classification_class/source/val_v2.csv",
+        "val_no_err_save_file": "./youssefelebiary_industrial-residential-air-quality-classification_class/source/val_v1.csv",
+        "train_no_err_save_file": "./youssefelebiary_industrial-residential-air-quality-classification_class/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./youssefelebiary_industrial-residential-air-quality-classification_class/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "most_frequent",
+        "random_state": 63,
+        "model_type": "LinearSVC",
+        "output_file": "./youssefelebiary_industrial-residential-air-quality-classification_class/prediction.csv",
+        "ground_truth_file": "./youssefelebiary_industrial-residential-air-quality-classification_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./youssefelebiary_industrial-residential-air-quality-classification_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Date": "categorical",
+            "City": "categorical",
+            "CO": "numerical",
+            "NO2": "numerical",
+            "SO2": "numerical",
+            "O3": "numerical",
+            "PM2.5": "numerical",
+            "PM10": "numerical",
+            "Type": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "NO2",
+            "PM10",
+            "SO2",
+            "PM2.5"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7710064,
+        "ref": "youssefelebiary/industrial-residential-air-quality-classification",
+        "subtitle": "Air quality readings of 3 industrial and 3 residential cities during 2024",
+        "creatorName": "Youssef Elebiary",
+        "creatorUrl": "youssefelebiary",
+        "totalBytes": 753040,
+        "url": "https://www.kaggle.com/datasets/youssefelebiary/industrial-residential-air-quality-classification",
+        "lastUpdated": "2025-06-21T10:45:38.000Z",
+        "downloadCount": 1272,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Youssef Elebiary",
+        "ownerRef": "youssefelebiary",
+        "kernelCount": 13,
+        "title": "Industrial-Residential Air Quality Classification",
+        "viewCount": 5656,
+        "voteCount": 31,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "environment",
+                "name": "environment",
+                "description": "The environment tag is chock full of datasets and kernels that are generally showing how poorly we are treating the planet. One positive side to this tag is that it wasn't printed on paper.",
+                "fullPath": "subject > earth and nature > environment",
+                "competitionCount": 24,
+                "datasetCount": 1605,
+                "scriptCount": 612,
+                "totalCount": 2241
+            },
+            {
+                "ref": "pollution",
+                "name": "pollution",
+                "description": "Pollution is the introduction of contaminants into the natural environment that cause adverse change.",
+                "fullPath": "subject > earth and nature > environment > pollution",
+                "competitionCount": 6,
+                "datasetCount": 445,
+                "scriptCount": 228,
+                "totalCount": 679
+            },
+            {
+                "ref": "weather and climate",
+                "name": "weather and climate",
+                "description": "Weather datasets and kernels come in all wind speeds and directions. You have weather data about hurricanes and other inclement phenomena, hourly readings, and general weather for various cities.",
+                "fullPath": "subject > earth and nature > environment > weather and climate",
+                "competitionCount": 42,
+                "datasetCount": 1439,
+                "scriptCount": 667,
+                "totalCount": 2148
+            },
+            {
+                "ref": "history",
+                "name": "history",
+                "description": "History is generally the study of past events that have shaped the world. Here on Kaggle, you'll find historical records and analyses on topics like Bitcoin data, UFO sightings, and sports tournaments.",
+                "fullPath": "subject > people and society > social science > history",
+                "competitionCount": 3,
+                "datasetCount": 2367,
+                "scriptCount": 339,
+                "totalCount": 2709
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7710064,
+        "datasetSlug": "industrial-residential-air-quality-classification",
+        "ownerUser": "youssefelebiary",
+        "usabilityRating": 1.0,
+        "totalViews": 4101,
+        "totalVotes": 30,
+        "totalDownloads": 900,
+        "title": "Industrial-Residential Air Quality Classification",
+        "subtitle": "Air quality readings of 3 industrial and 3 residential cities during 2024",
+        "description": "# Context\nAir pollution is a global concern, contributing to **7 million premature deaths annually** (WHO). This dataset enables researchers and data scientists to:\n- Analyze air quality differences between industrial and residential areas\n- Develop classification models to predict area types based on pollution levels\n- Investigate environmental impacts of urban zoning\n\n# Overview\n| Category        | Detail                          |\n|-----------------|---------------------------------|\n| Records         | 10,000+ daily measurements     |\n| Timeframe       | January - December 2024 GMT Time Zone       |\n| Locations       | Moscow, Delhi, Beijing, Zurich, Vancouver, Stockholm   |\n| Pollutants      | CO, NO\u2082, SO\u2082, O\u2083, PM2.5, PM10  |\n| Classification  | Industrial or Residential labels |\n\n# Files\n* `City_Types.csv`\n   - All locations with `Location` and `Classification` (Industrial/Residential) identifiers\n   - Complete 2024 daily records\n\n# Key Features\n1. **Temporal Coverage**: Daily data for all of 2024.\n2. **Classification Labels**: Each record labeled as \"Industrial\" or \"Residential\" for machine learning tasks.\n3. **Geographical Diversity**: Includes urban areas with varied industrial and residential zoning.\n4. **Standardized Units**: Explicitly documented (e.g., CO\u2082 in ppm, others in \u00b5g/m\u00b3).\n\n# Uses\nThis dataset is suitable for a wide range of tasks, including:\n- **Classification Modeling**: Build models to predict industrial vs. residential areas based on air quality metrics.\n- **Pollutant Correlation Analysis**: Identify which pollutants (e.g., PM2.5, NO\u2082) most distinguish industrial from residential zones.\n- **Environmental Impact Studies**: Compare air quality trends between industrial and residential areas.\n- **Policy Analysis**: Link pollutant levels to urban planning and zoning regulations.\n\n## Licensing\nThis dataset is published under the **MIT License**, allowing free use for both personal and commercial purposes. Attribution is encouraged but not required.\n\n=== About this file ===\n\nAbout this file\nContains over 52,000 entries representing the air quality of 3 industrial cities and 3 residential cities.\n\n\n=== Columns & descriptions ===\n\nDate: Date of the reading\nCity: City of reading\nCO: Carbon Monoxide Concentration in \u00b5g/m\u00b3\nNO2: Nitrogen Dioxide Concentration in \u00b5g/m\u00b3\nSO2: Sulphur Dioxide Concentration in \u00b5g/m\u00b3\nO3: Ozone Concentration in \u00b5g/m\u00b3\nPM2.5: Particulate Matter 2.5 Concentration in \u00b5g/m\u00b3\nPM10: Particulate Matter 10 Concentration in \u00b5g/m\u00b3\nType: Type of city\n",
+        "keywords": [
+            "environment",
+            "pollution",
+            "weather and climate",
+            "history",
+            "classification"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

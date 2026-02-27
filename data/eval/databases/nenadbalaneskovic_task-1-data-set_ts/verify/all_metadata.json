@@ -1,0 +1,210 @@
+{
+    "question": {
+        "target": [
+            "price"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "date",
+        "time_format": "%Y-%m-%dT%H:%M:%S",
+        "is_resampled": true,
+        "related_features": [
+            "district",
+            "property_type",
+            "buyer_type",
+            "seller_type",
+            "square_meters",
+            "condition",
+            "economic_status",
+            "historical_significance"
+        ],
+        "not_filtered_related_features": [
+            "district",
+            "property_type",
+            "buyer_type",
+            "seller_type",
+            "square_meters",
+            "condition",
+            "economic_status"
+        ],
+        "selected_features": [
+            "square_meters",
+            "economic_status",
+            "property_type",
+            "buyer_type",
+            "condition"
+        ],
+        "expected_ranges": {
+            "district": [
+                "Faunarium",
+                "Mercantil",
+                "Academia",
+                "Costal",
+                "Central",
+                "Technica",
+                "Historica"
+            ],
+            "property_type": [
+                "Office",
+                "Historical Property",
+                "Park Estate",
+                "Tech Campus",
+                "Stock Exchange Building",
+                "Luxury Villa",
+                "Apartment"
+            ],
+            "buyer_type": [
+                "Developer",
+                "Individual",
+                "Corporation",
+                "Investment Firm"
+            ],
+            "seller_type": [
+                "Developer",
+                "Corporation",
+                "Government",
+                "Private Owner"
+            ],
+            "square_meters": [
+                50.0,
+                1000.0
+            ],
+            "condition": [
+                "Renovated",
+                "Needs Repair",
+                "Abandoned",
+                "New"
+            ],
+            "economic_status": [
+                "Boom",
+                "Stable",
+                "Recession"
+            ]
+        },
+        "column_type_inference": {
+            "_id": "object",
+            "date": "object",
+            "district": "object",
+            "property_type": "object",
+            "price": "numeric",
+            "buyer_type": "object",
+            "seller_type": "object",
+            "square_meters": "numeric",
+            "condition": "object",
+            "economic_status": "object",
+            "historical_significance": "numeric"
+        },
+        "train_save_file": "./nenadbalaneskovic_task-1-data-set_ts/source/train.csv",
+        "val_v1_save_file": "./nenadbalaneskovic_task-1-data-set_ts/source/val_v1.csv",
+        "val_v2_save_file": "./nenadbalaneskovic_task-1-data-set_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./nenadbalaneskovic_task-1-data-set_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./nenadbalaneskovic_task-1-data-set_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./nenadbalaneskovic_task-1-data-set_ts/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 94,
+        "model_type": "Prophet",
+        "output_file": "./nenadbalaneskovic_task-1-data-set_ts/prediction.json",
+        "ground_truth_v1_file": "./nenadbalaneskovic_task-1-data-set_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./nenadbalaneskovic_task-1-data-set_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./nenadbalaneskovic_task-1-data-set_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "1988-08-07 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7556296,
+        "ref": "nenadbalaneskovic/task-1-data-set",
+        "subtitle": "Portion of the main Flower Hill data set",
+        "creatorName": "Nenad Balaneskovic",
+        "creatorUrl": "nenadbalaneskovic",
+        "totalBytes": 3162440,
+        "url": "https://www.kaggle.com/datasets/nenadbalaneskovic/task-1-data-set",
+        "lastUpdated": "2025-05-30T20:17:07.000Z",
+        "downloadCount": 44,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Nenad Balaneskovic",
+        "ownerRef": "nenadbalaneskovic",
+        "kernelCount": 2,
+        "title": "flower_hill_data_task_1.csv",
+        "viewCount": 134,
+        "voteCount": 1,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "feature engineering",
+                "name": "feature engineering",
+                "description": "",
+                "fullPath": "technique > feature engineering",
+                "competitionCount": 21,
+                "datasetCount": 880,
+                "scriptCount": 8963,
+                "totalCount": 9864
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7556296,
+        "datasetSlug": "task-1-data-set",
+        "ownerUser": "nenadbalaneskovic",
+        "usabilityRating": 1.0,
+        "totalViews": 123,
+        "totalVotes": 1,
+        "totalDownloads": 40,
+        "title": "flower_hill_data_task_1.csv",
+        "subtitle": "Portion of the main Flower Hill data set",
+        "description": "## \ud83d\udcdc Flower Hill's Story\nFlower Hill is a flourishing City, consisting of 7 districts: Costal, Central, Mercantil, Faunarium, Technica, Academia and Historica. \nCostal department contains usually high valued real estate items, such as villas, luxury appartments, etc. \nCentral is the center of the city consisting mostly of offices. Mercantil revolves around the Stock Exchange of the City. \nFaunarium contains parks, lakes and real estate items connected with them. Technica contains technology companies, Academia district is \ncentered around the Flower University of Technology, whereas Historica represents a traditional, historical real estate district. \nThe City dates back almost 200 years and we could try to create a data set of real estate purchases from 1900 till 2025.  \n\n### **Notebook link**\nhttps://www.kaggle.com/code/nenadbalaneskovic/notebook2ce12425b7\n\n=== About this file ===\n\nAbout this file\n\ud83d\udcdc Defining the Core Data Schema\nSince we are tracking\nreal estate transactions\nacross\nhistorical time periods\n, our dataset is structured as follows:\nCore Fields\nField Name\nType\nDescription\ntransaction_id\nString\nUnique identifier for each purchase\ndate\nDateTime\nTransaction timestamp (from 1900 to 2025)\ndistrict\nString\nOne of Flower Hill's 7 districts\nproperty_type\nString\nApartment, villa, commercial, park-related, historical property, etc.\nprice\nFloat\nTransaction price in standard currency\nbuyer_type\nString\nIndividual, corporation, developer, etc.\nseller_type\nString\nPrivate owner, government, corporation\nsquare_meters\nFloat\nProperty size in m\u00b2\ncondition\nString\nNew, renovated, needs repair, abandoned\neconomic_status\nString\nCity-wide economy marker (e.g., boom, recession)\nhistorical_significance\nBoolean\nWhether the property has historical relevance\n\n\n=== Columns & descriptions ===\n\n_id: Unique identifier for each purchase\ndate: Transaction timestamp (from 1900 to 2025)\ndistrict: One of Flower Hill's 7 districts\nproperty_type: Apartment, villa, commercial, park-related, historical property, etc.\nprice: Transaction price in standard currency\nbuyer_type: Individual, corporation, developer, etc.\nseller_type: Private owner, government, corporation\nsquare_meters: Property size in m\u00b2\ncondition: New, renovated, needs repair, abandoned\neconomic_status: City-wide economy marker (e.g., boom, recession)\nhistorical_significance: Whether the property has historical relevance\n",
+        "keywords": [
+            "exploratory data analysis",
+            "time series analysis",
+            "classification",
+            "feature engineering"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

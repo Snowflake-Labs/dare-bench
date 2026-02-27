@@ -1,0 +1,24 @@
+This data comes from a panel of 4360 observations from 1980 to 1987. It includes information about a worker's type of job, residence area, hourly wage, and so on.
+
+
+=== About this file ===
+
+About this file
+Information about workers, their wage and other relevant features
+
+
+=== Columns & descriptions ===
+
+rownames: [no description]
+nr: identifier
+year: [no description]
+school: years of schooling
+exper: years of experience (=age-6-school)
+union: wage set by collective bargaining?
+ethn: ethnicity (black, hisp, other)
+maried: married?
+health: health issues?
+wage: Log of hourly wage
+industry: a factor with 12 levels
+occupation: a factor with 9 levels
+residence: a factor with levels (rural area, north east, northern central, south)

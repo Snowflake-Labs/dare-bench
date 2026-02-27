@@ -1,0 +1,33 @@
+**Description:**
+This dataset contains the monthly passenger traffic in Sri Lanka from January 2011 to December 2023. It includes the total number of passengers (arrivals and departures combined) for each month. The data from 2014 to 2023 were extracted from official performance reports of the Department of Immigration & Emigration of Sri Lanka. The data from 2011 to 2013 were generated using AI-based extrapolation to maintain continuity.  
+
+**Columns:  **
+- `Month`: The year and month in YYYY-MM format (e.g., "2011-01" for January 2011).  
+- `Passengers`: The total number of passengers recorded for that month (arrivals + departures).  
+
+**Source: **
+- Data (2014–2023) from official reports of the Department of Immigration & Emigration of Sri Lanka.  
+- AI-generated data (2011–2013) for consistency and trend continuity.  
+
+**Usage:**
+This dataset is valuable for time series forecasting, tourism trend analysis, economic research, and machine learning applications.  
+
+**License:** CC0 1.0 (Public Domain Dedication) – No restrictions, allowing free use without attribution.  
+
+Credits & Acknowledgments
+Department of Immigration & Emigration of Sri Lanka – For publishing the official performance reports used as the primary data source (2014–2023).
+
+Thanuja Hennayake – For data extraction, structuring, and compilation of the dataset.
+
+ChatGPT (OpenAI) – For assisting in generating missing data (2011–2013) through AI-based extrapolation.
+
+=== About this file ===
+
+About this file
+This file contains monthly passenger traffic data for Sri Lanka from 2011 to 2018. It includes the total number of passengers (arrivals + departures) recorded each month. Data from 2014 to 2018 were extracted from official reports, while 2011 to 2014 data were AI-generated for continuity. This dataset is useful for trend analysis, forecasting, and research on Sri Lanka’s travel patterns.
+
+
+=== Columns & descriptions ===
+
+Month: (YYYY-MM)
+Passengers: Count

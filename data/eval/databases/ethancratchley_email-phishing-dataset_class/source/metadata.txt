@@ -1,0 +1,42 @@
+# Dataset Description
+**Overview:**
+This dataset is designed for phishing email detection using machine learning. It combines:
+- ~500,000 non-phishing ("safe") emails from the [Enron Email Dataset](https://www.kaggle.com/datasets/wcukierski/enron-email-dataset)
+- ~20,000 phishing and safe emails from the [Phishing Email Dataset](https://www.kaggle.com/datasets/subhajournal/phishingemails)
+
+Every email was cleaned and passed through a custom NLP feature extraction pipeline that focuses on phishing indicators. The goal is to provide a ready-to-use dataset for classification tasks with minimal preprocessing.
+
+# Column Details
+- `num_words` - Total number of words in the email body
+- `num_unique_words`- Count of unique words used
+- `num_stopwords`	- Count of common stopwords (e.g., "the", "and", "in")
+- `num_links` - Number of hyperlinks detected
+- `num_unique_domains` - Number of unique domains in links (e.g., "paypal.com")
+- `num_email_addresses` - Count of email addresses found in the text
+- `num_spelling_errors`	- Count of misspelled words
+- `num_urgent_keywords` - Number of urgent words (e.g., "urgent", "verify", "update")
+- `label` - Target variable: 0 = Safe Email, 1 = Phishing Email
+
+**Notes:**
+- This dataset does not contain raw text or headers, only engineered features for training/testing models.
+- Spell checking used pyspellchecker on filtered tokens.
+- Stopwords were a fixed English list.
+- No personal or PII information is included.
+
+=== About this file ===
+
+About this file
+Contains >500k rows and a multitude of features for emails.
+
+
+=== Columns & descriptions ===
+
+num_words: # of Words
+num_unique_words: # of Unique Words
+num_stopwords: # of Stopwords
+num_links: # of Links
+num_unique_domains: # of Unique Domains
+num_email_addresses: # of Email Addresses
+num_spelling_errors: # of Spelling Errors
+num_urgent_keywords: # of Urgent Keywords
+label: Label

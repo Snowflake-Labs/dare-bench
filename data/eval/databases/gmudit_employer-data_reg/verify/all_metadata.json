@@ -1,0 +1,218 @@
+{
+    "question": {
+        "target": [
+            "Salary"
+        ],
+        "target_candidates": [
+            "Salary"
+        ],
+        "related_features": [
+            "Education_Level",
+            "Age",
+            "Location",
+            "Gender",
+            "Experience_Years",
+            "Job_Title",
+            "Department"
+        ],
+        "not_filtered_related_features": [
+            "Education_Level",
+            "Age",
+            "Location",
+            "Gender",
+            "Experience_Years",
+            "Job_Title",
+            "Department"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "Education_Level": [
+                "Master",
+                "Bachelor",
+                "PhD"
+            ],
+            "Age": [
+                21,
+                60
+            ],
+            "Location": [
+                "Austin",
+                "Seattle",
+                "New York",
+                "San Francisco",
+                "Chicago"
+            ],
+            "Gender": [
+                "Female",
+                "Male"
+            ],
+            "Experience_Years": [
+                0,
+                37
+            ],
+            "Job_Title": [
+                "Engineer",
+                "Executive",
+                "Intern",
+                "Analyst",
+                "Manager"
+            ],
+            "Department": [
+                "Engineering",
+                "Sales",
+                "Finance",
+                "HR",
+                "Marketing",
+                "Product"
+            ]
+        },
+        "selected_features": [
+            "Department",
+            "Experience_Years",
+            "Education_Level",
+            "Age",
+            "Location"
+        ],
+        "train_v2_save_file": "./gmudit_employer-data_reg/source/train_v2.parquet",
+        "val_v2_save_file": "./gmudit_employer-data_reg/source/val_v2.parquet",
+        "val_no_err_save_file": "./gmudit_employer-data_reg/source/val_v1.parquet",
+        "train_no_err_save_file": "./gmudit_employer-data_reg/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./gmudit_employer-data_reg/source/train_v1.parquet",
+        "train_test_ratio": 0.7,
+        "save_file_type": "parquet",
+        "imputer_type": "median",
+        "random_state": 5,
+        "model_type": "Lasso",
+        "output_file": "./gmudit_employer-data_reg/prediction.csv",
+        "ground_truth_file": "./gmudit_employer-data_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./gmudit_employer-data_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Employee_ID": "categorical",
+            "Name": "categorical",
+            "Age": "numerical",
+            "Gender": "categorical",
+            "Department": "categorical",
+            "Job_Title": "categorical",
+            "Experience_Years": "numerical",
+            "Education_Level": "categorical",
+            "Location": "categorical",
+            "Salary": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Experience_Years",
+            "Age"
+        ],
+        "categorical_features": [
+            "Department",
+            "Education_Level",
+            "Location"
+        ]
+    },
+    "data_info": {
+        "id": 7802809,
+        "ref": "gmudit/employer-data",
+        "subtitle": "employee_salary_dataset",
+        "creatorName": "Mudit Gaur",
+        "creatorUrl": "gmudit",
+        "totalBytes": 166688,
+        "url": "https://www.kaggle.com/datasets/gmudit/employer-data",
+        "lastUpdated": "2025-07-04T18:14:00.000Z",
+        "downloadCount": 2887,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Mudit Gaur",
+        "ownerRef": "gmudit",
+        "kernelCount": 18,
+        "title": "Employee Data",
+        "viewCount": 9614,
+        "voteCount": 42,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "employment",
+                "name": "employment",
+                "description": "Where does it pay to attend college? What impacts employee satisfaction and what makes them quit their jobs? Explore these questions and others in kernels and datasets with this tag.",
+                "fullPath": "subject > people and society > jobs and career > employment",
+                "competitionCount": 1,
+                "datasetCount": 703,
+                "scriptCount": 262,
+                "totalCount": 966
+            },
+            {
+                "ref": "data analytics",
+                "name": "data analytics",
+                "description": "",
+                "fullPath": "technique > data analytics",
+                "competitionCount": 32,
+                "datasetCount": 9201,
+                "scriptCount": 15324,
+                "totalCount": 24557
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7802809,
+        "datasetSlug": "employer-data",
+        "ownerUser": "gmudit",
+        "usabilityRating": 1.0,
+        "totalViews": 66,
+        "totalVotes": 1,
+        "totalDownloads": 10,
+        "title": "Employee Data",
+        "subtitle": "employee_salary_dataset",
+        "description": "# Employee Salary Dataset\n\nThis is a **synthetic dataset** generated for educational and machine learning purposes. It is designed for **salary prediction** as a regression problem and includes realistic employee attributes with logically consistent relationships between features such as education level, job title, experience, and salary.\n\n## \ud83e\uddfe Dataset Summary\n\n- **Rows:** 10,000  \n- **Target Variable:** `Salary`  or use column as per your choice\n- **Use Case:** Regression, EDA, feature engineering, model evaluation, fairness analysis\n\n## \ud83d\udccc Features\n\n| Column             | Type        | Description |\n|--------------------|-------------|-------------|\n| `Employee_ID`      | Integer     | Unique identifier for each employee |\n| `Name`             | String      | Full name (gender-aware generation) |\n| `Gender`           | Categorical | Male or Female |\n| `Age`              | Integer     | Age of the employee (based on education level and job title) |\n| `Education_Level`  | Categorical | One of: High School, Bachelor, Master, PhD |\n| `Experience_Years` | Integer     | Number of years of professional experience |\n| `Department`       | Categorical | Business unit, e.g., HR, Engineering, Marketing, etc. |\n| `Job_Title`        | Categorical | Role of the employee, e.g., Analyst, Engineer, Manager, etc. |\n| `Location`         | Categorical | Work location (e.g., New York, San Francisco, etc.) |\n| `Salary`           | Integer     | Annual salary in USD (target for regression) |\n\n## \u2705 Characteristics\n\n- All entries are **complete** with no missing values.\n- The data reflects **realistic correlations**:\n  - Higher education \u2192 Higher job levels \u2192 Higher salaries\n  - Interns are younger with low salaries\n  - PhDs are older and placed in senior positions\n- Salary distributions are varied across departments and locations.\n\n## \ud83c\udfaf Applications\n\nThis dataset is excellent for:\n- Linear and nonlinear regression models\n- Feature importance & engineering\n- Categorical encoding techniques\n- Hyperparameter tuning\n- Fairness and bias detection (e.g., gender-based wage gaps)\n- Visualization and EDA practice\n\n\n\n\n=== About this file ===\n\nAbout this file\nFile: employee_salary_dataset.csv\nThis file contains a synthetic dataset of 10,000 employee records generated for machine learning applications, particularly\nsalary prediction\nusing regression techniques. The data includes demographic information, educational background, job roles, performance metrics, and the corresponding annual salary (target variable).\nKey Characteristics:\nClean and consistent\n: No missing values\nRealistic relationships\n: Salary depends on experience, education level, job title, and location\nDiverse features\n: Includes numerical, categorical, and ordinal variables\nRounded salary\n: All salaries are rounded to the nearest $5,000 or $10,000\nEthically safe\n: Fully synthetic and safe for public ML training and testing\nTarget Variable:\nSalary\n: Annual compensation in USD\nUse this file to practice regression modeling, feature engineering, or explore fairness and explainability in ML models.\n\n\n=== Columns & descriptions ===\n\nEmployee_ID: Integer\nName: String\nAge: Integer\nGender: [no description]\nDepartment: [no description]\nJob_Title: [no description]\nExperience_Years: [no description]\nEducation_Level: [no description]\nLocation: [no description]\nSalary: Integer\n",
+        "keywords": [
+            "employment",
+            "data analytics",
+            "classification",
+            "tabular",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

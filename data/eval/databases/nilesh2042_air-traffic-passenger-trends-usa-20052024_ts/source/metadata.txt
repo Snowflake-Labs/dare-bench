@@ -1,0 +1,26 @@
+This dataset contains monthly air traffic passenger statistics for major U.S. airports from 1999 to 2025. It includes data on domestic and international passengers, categorized by terminal, airline, and destination. Useful for aviation trends, forecasting, and transportation analysis.
+
+=== About this file ===
+
+About this file
+This dataset contains detailed monthly air traffic passenger statistics recorded at U.S. airports. Each row represents the number of passengers handled by a specific airline, terminal, and geographic route grouping during a specific period.
+It is well-suited for analyzing trends in air travel, including airport usage, airline market share, terminal traffic, and domestic vs international flow.
+
+
+=== Columns & descriptions ===
+
+Activity Period: Year and month of the activity, formatted as YYYYMM. For example, 202405 represents May 2024.
+Activity Period Start Date: The starting date of the reporting period (typically the first of the month).
+Operating Airline: The airline that operated the flight.
+Operating Airline IATA Code: IATA (International Air Transport Association) 2-letter code for the operating airline.
+Published Airline: The airline that sold the ticket or published the flight, which may differ from the operating carrier in code-share scenarios.
+Published Airline IATA Code: IATA code for the published airlin
+GEO Summary: Summarized geographic category of the route (e.g., Domestic, International).
+GEO Region: Specific region or market (e.g., Asia, Europe, Canada, Latin America)
+Activity Type Code: The type of activity reported (e.g., Enplaned, Deplaned, Through).
+Price Category Code: Passenger type based on fare: typically Revenue (paying customers) or NonRevenue (staff, free seats, etc.).
+Terminal: [no description]
+Boarding Area: [no description]
+Passenger Count: [no description]
+data_as_of: [no description]
+data_loaded_at: [no description]

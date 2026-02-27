@@ -1,0 +1,65 @@
+# Don't forget to hit the upvote🙏🙂
+
+
+The `Consumer Complaints Dataset` is a structured collection of 14,000 complaints filed by customers regarding financial products and services. It is designed to analyze consumer grievances, company responses, and resolution efficiency. The dataset helps in identifying patterns in customer complaints, dispute trends, resolution times, and company performance across different financial institutions.
+
+This dataset is crucial for financial analysts, data scientists, regulatory bodies, and businesses looking to improve customer satisfaction, ensure compliance, and optimize their complaint resolution processes.
+
+
+
+## Columns-Details:
+
+`ID (int)` – A unique identifier for each complaint.
+
+`Company (object)` – The name of the company that received the complaint.
+
+`Product (object)` – The type of financial product the complaint is about (e.g., Mortgage, Credit card).
+
+`Issue (object)` – The specific issue related to the complaint (e.g., Loan servicing, Billing issues).
+
+`State (object)` – The U.S. state where the complaint was filed.
+
+`Submitted via (object)` – The method used to submit the complaint (e.g., Web, Phone, Email).
+
+`Date received (object)` – The date the complaint was received.
+
+`Date resolved (object)` – The date the complaint was resolved.
+
+`Timely response? (object)` – Indicates whether the company responded in a timely manner (Yes/No).
+
+`Consumer disputed? (object)` – Indicates whether the consumer disputed the company’s response (Yes/No).
+
+`State name (object)` – The full name of the U.S. state corresponding to the "State" column.
+
+`Date received.1 (object)` – Duplicate of the "Date received" column.
+
+`Date resolved.1 (object)` – Duplicate of the "Date resolved" column.
+
+`Resolution time (in days) (int)` – The number of days taken to resolve the complaint.
+
+`Year (int)` – The year in which the complaint was filed.
+
+`QTR (US FLY) (object)` – The quarter of the year in which the complaint was filed (e.g., Q1, Q2, Q3, Q4).
+
+=== About this file ===
+
+About this file
+Your dataset file (Consumer Complaints Dataset) contains 14,000 consumer complaints with 16 columns related to customer grievances in the financial sector.
+
+
+=== Columns & descriptions ===
+
+ID: unique identifier for each complaint
+Company: [no description]
+Product: [no description]
+Issue: [no description]
+State: [no description]
+Submitted via: [no description]
+Date received: [no description]
+Date resolved: [no description]
+Timely response?: [no description]
+Consumer disputed?: [no description]
+state name: [no description]
+Resolution time(in days): [no description]
+Year: [no description]
+QTR (US FLY): [no description]

@@ -1,0 +1,29 @@
+This dataset provides daily stock price data for Apple and several of its key affiliated companies. It includes essential financial metrics such as open, high, low, close prices, and trading volumes, making it ideal for:
+
+📈 Financial analysis
+
+🔁 Time series forecasting
+
+🔍 Correlation and trend studies
+
+🤝 Comparative studies across the tech sector
+
+The data can be used to explore market behavior, investment strategies, and stock movement patterns between Apple and its ecosystem partners.
+
+💡 If you find this dataset helpful for your projects or research, please consider giving it an upvote — it helps support my work and allows more people to discover useful data. Thank you! 🙌
+
+=== About this file ===
+
+About this file
+This dataset contains historical stock price data for Apple Inc. (AAPL), collected from publicly available sources such as Yahoo Finance. It includes daily trading information such as open and close prices, trading volume, and adjusted closing prices. This data is often used in financial analysis, trend detection, and machine learning projects for time series forecasting or investment modeling.
+
+
+=== Columns & descriptions ===
+
+Date: The trading date in YYYY-MM-DD format
+Open: Stock price at the beginning of the trading day
+High: Highest stock price during the trading day
+Low: Lowest stock price during the trading day
+Close: Stock price at market close on that trading day
+Adj Close: Closing price adjusted for dividends and stock splits
+Volume: Total number of shares traded on that particular day

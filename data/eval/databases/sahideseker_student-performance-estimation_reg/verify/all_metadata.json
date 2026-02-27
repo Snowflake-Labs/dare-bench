@@ -1,0 +1,172 @@
+{
+    "question": {
+        "target": [
+            "final_grade"
+        ],
+        "target_candidates": [
+            "final_grade"
+        ],
+        "related_features": [
+            "study_hours",
+            "absences",
+            "school_support"
+        ],
+        "not_filtered_related_features": [
+            "study_hours",
+            "absences",
+            "school_support"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "study_hours": [
+                0.0,
+                30.0
+            ],
+            "absences": [
+                0,
+                20
+            ],
+            "school_support": [
+                "no",
+                "yes"
+            ]
+        },
+        "selected_features": [
+            "study_hours",
+            "school_support"
+        ],
+        "train_v2_save_file": "./sahideseker_student-performance-estimation_reg/source/train_v2.sqlite",
+        "val_v2_save_file": "./sahideseker_student-performance-estimation_reg/source/val_v2.sqlite",
+        "val_no_err_save_file": "./sahideseker_student-performance-estimation_reg/source/val_v1.sqlite",
+        "train_no_err_save_file": "./sahideseker_student-performance-estimation_reg/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./sahideseker_student-performance-estimation_reg/source/train_v1.sqlite",
+        "train_test_ratio": 0.8,
+        "save_file_type": "sqlite",
+        "imputer_type": "median",
+        "random_state": 85,
+        "model_type": "DecisionTreeRegressor",
+        "output_file": "./sahideseker_student-performance-estimation_reg/prediction.csv",
+        "ground_truth_file": "./sahideseker_student-performance-estimation_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./sahideseker_student-performance-estimation_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "student_id": "categorical",
+            "study_hours": "numerical",
+            "absences": "numerical",
+            "school_support": "categorical",
+            "final_grade": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "study_hours"
+        ],
+        "categorical_features": [
+            "school_support"
+        ]
+    },
+    "data_info": {
+        "id": 7025588,
+        "ref": "sahideseker/student-performance-estimation",
+        "subtitle": "Analyzing how study habits and school support affect student grades",
+        "creatorName": "\ud83c\uddf9\ud83c\uddf7 \u015eahide \u015eeker, MSc",
+        "creatorUrl": "sahideseker",
+        "totalBytes": 7113,
+        "url": "https://www.kaggle.com/datasets/sahideseker/student-performance-estimation",
+        "lastUpdated": "2025-04-01T20:04:21.323Z",
+        "downloadCount": 418,
+        "licenseName": "CC BY-SA 4.0",
+        "description": "",
+        "ownerName": "\ud83c\uddf9\ud83c\uddf7 \u015eahide \u015eeker, MSc",
+        "ownerRef": "sahideseker",
+        "kernelCount": 1,
+        "title": "Student Performance Estimation",
+        "viewCount": 1943,
+        "voteCount": 6,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "education",
+                "name": "education",
+                "description": "Education datasets and kernels relate to statistics on student performance, university rankings, and answers for all your homework questions.",
+                "fullPath": "subject > people and society > education",
+                "competitionCount": 57,
+                "datasetCount": 35552,
+                "scriptCount": 15076,
+                "totalCount": 50685
+            },
+            {
+                "ref": "xgboost",
+                "name": "xgboost",
+                "description": "A library that implements the gradient boosting framework onto a wide range of problems including regression and classification. It is optimized for speed and efficiency.",
+                "fullPath": "packages > xgboost",
+                "competitionCount": 4,
+                "datasetCount": 186,
+                "scriptCount": 7771,
+                "totalCount": 7961
+            },
+            {
+                "ref": "decision tree",
+                "name": "decision tree",
+                "description": "",
+                "fullPath": "technique > decision tree",
+                "competitionCount": 4,
+                "datasetCount": 366,
+                "scriptCount": 3966,
+                "totalCount": 4336
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            },
+            {
+                "ref": "synthetic",
+                "name": "synthetic",
+                "description": "",
+                "fullPath": "data type > synthetic",
+                "competitionCount": 8,
+                "datasetCount": 510,
+                "scriptCount": 70,
+                "totalCount": 588
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7025588,
+        "datasetSlug": "student-performance-estimation",
+        "ownerUser": "sahideseker",
+        "usabilityRating": 1.0,
+        "totalViews": 1820,
+        "totalVotes": 5,
+        "totalDownloads": 399,
+        "title": "Student Performance Estimation",
+        "subtitle": "Analyzing how study habits and school support affect student grades",
+        "description": "**\ud83c\uddec\ud83c\udde7 English:**\n\nThis dataset simulates student performance data for academic analysis. It includes information on study hours, absences, school support availability, and final grades.\nYou can use it to predict academic success and understand how different factors contribute to student achievement.\n\n**Use this dataset to:**\n\n- Predict student final grades using ML models like Decision Tree or XGBoost\n- Analyze the impact of study time, attendance, and support systems\n- Practice educational analytics with a synthetic dataset\n\n**Features:**\n\n- student_id: Unique ID for each student (S0001\u2013S1000)\n- study_hours: Total study time per week\n- absences: Number of absences\n- school_support: Whether the student received school-provided academic support\n- final_grade: Final exam score (0\u2013100)\n\n---\n\n**\ud83c\uddf9\ud83c\uddf7 T\u00fcrk\u00e7e:**\n\nBu veri seti, \u00f6\u011frencilerin akademik performans\u0131n\u0131 tahmin etmek amac\u0131yla olu\u015fturulmu\u015f sentetik bir veridir. \u00c7al\u0131\u015fma s\u00fcresi, devams\u0131zl\u0131k ve okul deste\u011fi gibi fakt\u00f6rlerin \u00f6\u011frenci notlar\u0131na etkisi analiz edilebilir.\n\n**Bu veri seti sayesinde:**\n\n- Decision Tree ve XGBoost gibi ML modelleriyle \u00f6\u011frenci ba\u015far\u0131 tahmini yap\u0131labilir\n- \u00c7al\u0131\u015fma s\u00fcresi, devams\u0131zl\u0131k ve destek sistemlerinin etkisi incelenebilir\n- E\u011fitim alan\u0131nda analitik \u00e7al\u0131\u015fmalar prati\u011fi yap\u0131labilir\n\n**De\u011fi\u015fkenler:**\n\n- student_id: \u00d6\u011frenci kimli\u011fi (S0001\u2013S1000)\n- study_hours: Haftal\u0131k \u00e7al\u0131\u015fma s\u00fcresi\n- absences: Devams\u0131zl\u0131k say\u0131s\u0131\n- school_support: Okul deste\u011fi al\u0131p almad\u0131\u011f\u0131\n- final_grade: Final s\u0131nav\u0131 puan\u0131 (0\u2013100)\n\n=== About this file ===\n\nAbout this file\nThis CSV file contains simulated data representing student academic performance metrics. Each row corresponds to a unique student and includes weekly study hours, number of absences, whether the student received school support, and the final exam score.\n\n\n=== Columns & descriptions ===\n\nstudent_id: Unique identifier for each student (e.g., S0001\u2013S1000)\nstudy_hours: Number of hours studied per week\nabsences: Number of school days the student missed\nschool_support: Indicates if the student received school-provided support (Yes/No)\nfinal_grade: Final exam score ranging from 0 to 100\n",
+        "keywords": [
+            "education",
+            "xgboost",
+            "decision tree",
+            "regression",
+            "synthetic"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-SA-4.0"
+            }
+        ]
+    }
+}

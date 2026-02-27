@@ -1,0 +1,173 @@
+{
+    "question": {
+        "target": [
+            "page_views"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "timestamp",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "ad_spend",
+            "is_weekend",
+            "day_of_week",
+            "is_holiday"
+        ],
+        "not_filtered_related_features": [
+            "ad_spend",
+            "day_of_week"
+        ],
+        "selected_features": [
+            "ad_spend",
+            "day_of_week"
+        ],
+        "expected_ranges": {
+            "ad_spend": [
+                113.66594072976343,
+                679.5155293382126
+            ],
+            "day_of_week": [
+                "Saturday",
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ]
+        },
+        "column_type_inference": {
+            "Unnamed: 0": "numeric",
+            "timestamp": "object",
+            "page_views": "numeric",
+            "ad_spend": "numeric",
+            "is_weekend": "numeric",
+            "day_of_week": "object",
+            "is_holiday": "numeric"
+        },
+        "train_save_file": "./michealknight_personal-ecommerce-website-ad-cost-and-viewer-count_ts/source/train.csv",
+        "val_v1_save_file": "./michealknight_personal-ecommerce-website-ad-cost-and-viewer-count_ts/source/val_v1.csv",
+        "val_v2_save_file": "./michealknight_personal-ecommerce-website-ad-cost-and-viewer-count_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./michealknight_personal-ecommerce-website-ad-cost-and-viewer-count_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./michealknight_personal-ecommerce-website-ad-cost-and-viewer-count_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./michealknight_personal-ecommerce-website-ad-cost-and-viewer-count_ts/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 69,
+        "model_type": "Prophet",
+        "output_file": "./michealknight_personal-ecommerce-website-ad-cost-and-viewer-count_ts/prediction.json",
+        "ground_truth_v1_file": "./michealknight_personal-ecommerce-website-ad-cost-and-viewer-count_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./michealknight_personal-ecommerce-website-ad-cost-and-viewer-count_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./michealknight_personal-ecommerce-website-ad-cost-and-viewer-count_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2024-02-07 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7183955,
+        "ref": "michealknight/personal-ecommerce-website-ad-cost-and-viewer-count",
+        "subtitle": "Simulated Daily Web Analytics with Ad Spend, Holiday, and Weekend Impact on Page",
+        "creatorName": "Micheal_Knight",
+        "creatorUrl": "michealknight",
+        "totalBytes": 29323,
+        "url": "https://www.kaggle.com/datasets/michealknight/personal-ecommerce-website-ad-cost-and-viewer-count",
+        "lastUpdated": "2025-04-18T16:39:42.000Z",
+        "downloadCount": 1963,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Micheal_Knight",
+        "ownerRef": "michealknight",
+        "kernelCount": 7,
+        "title": "Personal Ecommerce Website Ad cost & viewer count",
+        "viewCount": 4010,
+        "voteCount": 27,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "united states",
+                "name": "united states",
+                "description": "The top datasets and kernels in this tag are about mass shootings, AirBnB, homelessness, and witchcraft. That about sums it up.",
+                "fullPath": "geography and places > north america > united states",
+                "competitionCount": 2,
+                "datasetCount": 2639,
+                "scriptCount": 675,
+                "totalCount": 3316
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "lstm",
+                "name": "lstm",
+                "description": "",
+                "fullPath": "technique > neural networks > lstm",
+                "competitionCount": 3,
+                "datasetCount": 481,
+                "scriptCount": 2385,
+                "totalCount": 2869
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14200,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34359
+            },
+            {
+                "ref": "tensorflow",
+                "name": "tensorflow",
+                "description": "TensorFlow is an open source library for machine learning. It lets researchers push the state-of-the-art in ML and developers easily build and deploy ML applications.",
+                "fullPath": "packages > tensorflow",
+                "competitionCount": 2,
+                "datasetCount": 642,
+                "scriptCount": 15962,
+                "totalCount": 16606
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7183955,
+        "datasetSlug": "personal-ecommerce-website-ad-cost-and-viewer-count",
+        "ownerUser": "michealknight",
+        "usabilityRating": 1.0,
+        "totalViews": 3845,
+        "totalVotes": 27,
+        "totalDownloads": 1939,
+        "title": "Personal Ecommerce Website Ad cost & viewer count",
+        "subtitle": "Simulated Daily Web Analytics with Ad Spend, Holiday, and Weekend Impact on Page",
+        "description": "\ud83d\udcca **Dataset Description: Daily Website Traffic and Engagement Metrics**\n\nThis dataset contains daily web traffic and user engagement information for a live website, recorded over an extended period. It provides a comprehensive view of how user activity on the platform varies in response to marketing initiatives and temporal factors such as weekends and holidays.\n\nThe dataset is particularly suited for time series forecasting, seasonality analysis, and marketing effectiveness studies. It is valuable for both academic and practical applications in fields such as digital analytics, marketing strategy, and predictive modeling.\n\n\ud83e\uddfe **Use Case Scenarios:**\n\n- Forecasting future page views using past behavior and external influencing factors\n- Evaluating the impact of advertising spend on web traffic and ROI\n- Detecting seasonality and weekly/cyclical patterns in user engagement\n- Developing time-aware models for resource planning (e.g., server load, content drops)\n- Training and benchmarking time series models such as ARIMA, SARIMA, RNN, LSTM, and GRU\n\n=== About this file ===\n\nAbout this file\nThis CSV file contains daily web traffic statistics and contextual variables to support time series forecasting and behavioral analysis.\n\n\n=== Columns & descriptions ===\n\n: [no description]\ntimestamp: The date of the observation (daily frequency). Used as the time index for all analysis.\npage_views: Total number of page views recorded on the website for the corresponding day. Serves as the primary indicator of user engagement.\nad_spend: Amount of money (in dollars or any applicable currency) spent on digital advertising campaigns on that specific day. This is a key driver variable for forecasting traffic.\nis_weekend: Indicates whether the given date falls on a weekend (Saturday or Sunday). Used to model periodic dips or surges in traffic.\nday_of_week: It indicates the Days of the week\nis_holiday: Denotes whether the given day is a public or special holiday. Holidays often result in abnormal traffic patterns and are crucial for improving forecasting accuracy.\n",
+        "keywords": [
+            "united states",
+            "time series analysis",
+            "lstm",
+            "tabular",
+            "tensorflow"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

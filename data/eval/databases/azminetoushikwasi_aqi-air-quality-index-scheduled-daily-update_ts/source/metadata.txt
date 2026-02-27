@@ -1,0 +1,47 @@
+# Context
+This dataset contains Air Quality Index of most the countries of the world.
+
+# Challenges
+- Time Series Analysis and Prediction
+- Seasonality finding
+- Geospatial Analysis
+
+# About  Air Quality Index (AQI
+The Air Quality Index (AQI) is used for reporting daily air quality. It tells you how clean or polluted your air is, and what associated health effects might be a concern for you. The AQI focuses on health effects you may experience within a few hours or days after breathing polluted air.
+
+[![air-quality-index-numerical-scale-vector-24061819.jpg](https://i.postimg.cc/kgRWWChK/air-quality-index-numerical-scale-vector-24061819.jpg)](https://postimg.cc/tsy1HKb4)
+
+# Content
+- **data_date.csv** - date wise organised
+
+# Related Notebooks
+- [**AQI- Air Quality Index : EDA, Forecast [Scheduled]**](https://www.kaggle.com/azminetoushikwasi/aqi-air-quality-index-eda-forecast-scheduled/)
+
+
+# Download
+- kaggle API Command
+`!kaggle datasets download -d azminetoushikwasi/aqi-air-quality-index-scheduled-daily-update`
+
+## Disclaimer
+- The data collected are all publicly available and it's intended for educational purposes only.
+
+## Acknowledgement
+- Cover image taken from internet.
+
+## Appreciate, Support, Share
+
+=== About this file ===
+
+About this file
+Remote source:
+https://www.kaggle.com/code/azminetoushikwasi/daily-aqi-geospatial-analysis
+Date wise organized file.
+Multiple values can be present for same day, you are requested to take average by date and country for proper result - as AQI differs from morning to noon - evening - nights.
+
+
+=== Columns & descriptions ===
+
+Date: Date
+Country: Country
+Status: status
+AQI Value: AQI Value

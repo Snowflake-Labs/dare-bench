@@ -1,0 +1,50 @@
+## 📄 Açıklama
+
+Bu veri seti, İzmir iline ait **2015–2024** yılları arasındaki aylık baraj doluluk oranı (**DolulukOrani_Yuzde**) ve barajlardaki su miktarı (**SuDurumu_m3**) verilerini içermektedir.  
+
+Veriler; **İZSU (İzmir Su ve Kanalizasyon İdaresi)** ve **TÜİK (Türkiye İstatistik Kurumu)** kaynaklarından derlenmiş, ek olarak:
+- Nüfus
+- Ortalama sıcaklık
+- Yağış
+- Aylık su tüketimi
+- Aylık su üretimi
+- Turist sayısı 
+
+bilgilerini de kapsamaktadır.  
+
+Bu sürüm, modelleme sürecinde **mevsimsel özellikler**, **lag (önceki ay)** ve **rolling (3 aylık ortalama)** değişkenleri eklenmeden önceki **hamlaştırılmış** veridir.  
+
+**Kullanım Alanları:**
+- 📈 Zaman serisi analizi
+- 🔍 Regresyon tabanlı tahmin modelleri
+- 🌦 Mevsimsellik ve iklim etkilerinin incelenmesi
+- 💧 Su kaynakları yönetimi senaryo çalışmaları
+
+
+=== About this file ===
+
+About this file
+📂 Dosya Bilgisi
+Dosya adı:
+modellemeson.csv
+Boyut:
+~KB seviyesinde
+Satır sayısı:
+120
+Sütun sayısı:
+9
+Frekans:
+Aylık veriler (2015–2024, 10 yıl x 12 ay)
+
+
+=== Columns & descriptions ===
+
+Tarih: Aylık tarih bilgisi (YYYY-MM-DD formatında, her ayın ilk günü)
+DolulukOrani_Yuzde: Baraj doluluk oranı (%)
+SuDurumu_m3: Barajlardaki toplam su miktarı (m³)
+Nufus: İzmir ili toplam nüfusu (yıllık, tüm aylara aynı değer yansıtılır)
+Sicaklik_Ort: Aylık ortalama sıcaklık (°C)
+Yagis_mm: Aylık toplam yağış miktarı (mm)
+Su_Tuketim_Aylik_m3: Aylık toplam su tüketimi (m³)
+URETIM_MIKTARI: Aylık toplam su üretimi (m³)
+Turist_Sayisi: Turist sayısı(yıllık, tüm aylara aynı değer yansıtılır)
