@@ -1,4 +1,7 @@
-<img src="figs/logo_title.png" height="55">
+<div>
+  <img src="figs/logo.png" height="55" align="left" style="margin-right: 12px;">
+  <h1>DARE-Bench</h1>
+</div>
 
 
 **[ICLR 2026]** DARE-Bench: Evaluating Modeling and Instruction Fidelity of LLMs in Data Science
@@ -25,7 +28,7 @@
 
 ## Overview
 
-DARE-Bench is a large-scale benchmark for evaluating LLM agents on data science tasks, featuring **6,300 tasks** across classification, regression, and time series forecasting. Here we open-source a subset of 4,598 tasks. DARE-Bench provides:
+DARE-Bench is a large-scale benchmark for evaluating LLM agents on data science tasks, featuring **6,300 tasks** across classification, regression, and time series forecasting. Here we make available a subset of the tasks. DARE-Bench provides:
 
 - ✅ **Verifiable ground truth** for objective and reproducible evaluation
 - 🎯 **Process-aware instruction following** tasks with deterministic outcomes
@@ -45,9 +48,9 @@ DARE-Bench is a large-scale benchmark for evaluating LLM agents on data science 
 | Time-series-CF | Canonical Forecasting | 681 | 52 |
 | | **Total** | **4,274** | **324** |
 
-> The table above reports the **open-sourced subset** released in this repository. For the **full dataset** statistics (as reported in the paper), expand the section below.
+> The table above reflects the tasks released in this repository. 
 >
-> **Note:** Here we open-source a subset of the original data (Train: **4,274**, Eval: **324**, Total: **4,598**). The paper reports results/statistics on the full dataset (Train: **5,948**, Eval: **352**, Total: **6,300**).
+> **Note:** The paper reports results/statistics on the full dataset (Train: **5,948**, Eval: **352**, Total: **6,300**). For the **full dataset** statistics (as reported in the paper), expand the section below.
 >
 > Task type is inferred from the dataset folder suffix: `*_class` → Classification, `*_reg` → Regression, `*_ts` → Time-series.
 >
@@ -87,7 +90,7 @@ Performance of various LLMs on DARE-Bench evaluation tasks (score in %):
 | Qwen3-32B | 16.67 | 30.92 | 15.08 | 35.42 | 27.26 | 0.00 |
 | Qwen3-4B | 3.43 | 4.99 | 0.79 | 2.28 | 7.00 | 0.00 |
 
-> The table above reports results on the **open-sourced subset** released in this repository. For the **full evaluation results** (as reported in the paper), expand the section below.
+> The table above reflects the results of the tasks released in this repository. For the **full evaluation results** (as reported in the paper), expand the section below.
 
 <details>
 <summary><strong>Full Evaluation Results (as reported in paper)</strong></summary>
