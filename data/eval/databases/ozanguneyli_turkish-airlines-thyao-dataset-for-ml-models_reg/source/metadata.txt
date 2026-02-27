@@ -1,0 +1,20 @@
+This dataset was collected, curated, and organized by myself from various reliable financial sources. It contains monthly financial and technical indicators for THYAO (Turkish Airlines Inc.), including features such as total assets, liabilities, equity, P/E ratio, SMA, RSI, and the target variable "Highest Price". All preprocessing and feature engineering steps were performed to ensure the dataset's suitability for regression modeling and time series analysis.
+
+=== About this file ===
+
+About this file
+This dataset contains monthly financial and technical indicators for Turkish Airlines (THYAO). The data includes key balance sheet items, P/E ratio, technical indicators (SMA, RSI), and the highest monthly stock price as the target variable. All financial data was collected and compiled from official and reliable sources. SMA and RSI values were calculated using the collected data and added to the dataset. This file is suitable for regression and time series modeling tasks in financial analysis.
+
+
+=== Columns & descriptions ===
+
+Month: The reporting period in year/month format (YYYY/MM).
+Total Current Assets: Total current assets of Turkish Airlines for the given month (in TRY).
+Total Non-Current Assets: Total non-current (long-term) assets for the given month (in TRY).
+Total Current Liabilities: Total current liabilities for the given month (in TRY).
+Total Long-term Liabilities: Total long-term liabilities for the given month (in TRY).
+Total Equity: Total equity (shareholders’ equity) for the given month (in TRY).
+P/E: Price-to-Earnings ratio for Turkish Airlines in the given month.
+SMA: Simple Moving Average, a technical indicator calculated from the closing prices.
+RSI: Relative Strength Index, a technical indicator measuring the speed and change of price movements.
+Highest Price: The highest stock price of Turkish Airlines in the given month (target variable).

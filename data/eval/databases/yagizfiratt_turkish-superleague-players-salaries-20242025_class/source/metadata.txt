@@ -1,0 +1,26 @@
+You can access the salary information of the football players in the Turkish Super League for the 2024-2025 season from this data. One-to-one data to work in areas such as data analysis, data editing, data visualization.
+
+=== About this file ===
+
+About this file
+Turkish Super League Players Salaries (2024/2025)
+
+
+=== Columns & descriptions ===
+
+Player: Player Name
+Verified: Verified Salary
+Gross P/W (EUR): Weekly Earning
+Gross P/Y (EUR): Yearly Earning
+Bonus P/Y (EUR): Bonus Earning
+Signed: Signing Date
+Expiration: Expiration Date
+Years Remaining: Remaining Time on the Contract
+Gross Remaining (EUR): Remaining Total Fee
+Release Clause (EUR): Release Clasue Fee
+Status: Squad Status
+Pos.: Position
+Pos. Detail: Position Detail
+Age: Age
+Country: Country
+Club: Current Club to Play

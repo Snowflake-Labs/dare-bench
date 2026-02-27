@@ -1,0 +1,30 @@
+Dive into a unique synthetic dataset that **predicts food taste preferences**—Spicy, Sweet, Sour, or Salty—based on lifestyle habits, sleep cycles, exercise levels, climate zones, and cultural cuisine exposure. Perfect for classification projects, EDA practice, or building recommendation systems with a flavorful twist!
+
+1.Multi-class Classification: Predict `preferred_taste` using all features.
+
+2.EDA & Visualization: Explore **how lifestyle and climate impact food preferences.**
+
+3.Missing Value Handling: Practice imputation techniques (SimpleImputer, KNN, etc.)
+
+4.Cultural Feature Encoding: Encode `historical_cuisine` creatively (OneHot, Embedding).
+
+5.Model Comparison: Test Decision Trees, SVM, XGBoost, or Neural Nets.
+
+6.Recommendation System: Build a basic taste preference recommender.
+
+=== About this file ===
+
+About this file
+Shape : 10000 Rows * 6 Columns
+Formate : CSV
+Missing values : Present
+
+
+=== Columns & descriptions ===
+
+age: Age can influence metabolism, taste sensitivity, and food preferences (e.g., younger people may prefer sweeter flavors).
+sleep_cycle: Circadian rhythms and sleep patterns can influence hormone levels, hunger, and cravings.
+exercise_habits: Active people may prefer salty/spicy due to sodium loss from sweating or increased metabolic demand.
+climate_zone: Climate influences traditional diets. Spicy food is more common in hot and humid climates (e.g., India, Mexico).
+historical_cuisine_exposure: Cuisine history reflects taste conditioning—someone exposed to Mediterranean food may prefer salty/sour, while Asian might prefer spicy or umami.
+preferred_taste: preferred_taste: Categorical label with 4 classes – 'Spicy', 'Sweet', 'Sour', 'Salty'

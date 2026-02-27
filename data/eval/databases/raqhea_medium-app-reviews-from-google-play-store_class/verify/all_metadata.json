@@ -1,0 +1,179 @@
+{
+    "question": {
+        "target": [
+            "sentiment"
+        ],
+        "target_candidates": [
+            "predicted_category",
+            "sentiment"
+        ],
+        "related_features": [
+            "replyContent",
+            "thumbsUpCount",
+            "repliedAt",
+            "score",
+            "at",
+            "predicted_category",
+            "appVersion",
+            "reviewCreatedVersion",
+            "content"
+        ],
+        "not_filtered_related_features": [
+            "thumbsUpCount",
+            "score"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "thumbsUpCount": [
+                0,
+                561
+            ],
+            "score": [
+                1,
+                5
+            ]
+        },
+        "selected_features": [
+            "score",
+            "thumbsUpCount"
+        ],
+        "train_v2_save_file": "./raqhea_medium-app-reviews-from-google-play-store_class/source/train_v2.csv",
+        "val_v2_save_file": "./raqhea_medium-app-reviews-from-google-play-store_class/source/val_v2.csv",
+        "val_no_err_save_file": "./raqhea_medium-app-reviews-from-google-play-store_class/source/val_v1.csv",
+        "train_no_err_save_file": "./raqhea_medium-app-reviews-from-google-play-store_class/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./raqhea_medium-app-reviews-from-google-play-store_class/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "median",
+        "random_state": 73,
+        "model_type": "LogisticRegression",
+        "output_file": "./raqhea_medium-app-reviews-from-google-play-store_class/prediction.csv",
+        "ground_truth_file": "./raqhea_medium-app-reviews-from-google-play-store_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./raqhea_medium-app-reviews-from-google-play-store_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "reviewId": "categorical",
+            "content": "categorical",
+            "score": "numerical",
+            "thumbsUpCount": "numerical",
+            "reviewCreatedVersion": "categorical",
+            "at": "categorical",
+            "replyContent": "categorical",
+            "repliedAt": "categorical",
+            "predicted_category": "categorical",
+            "sentiment": "categorical",
+            "appVersion": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "score",
+            "thumbsUpCount"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 2413374,
+        "ref": "raqhea/medium-app-reviews-from-google-play-store",
+        "subtitle": "Medium application reviews from google play store for text classification",
+        "creatorName": "alper",
+        "creatorUrl": "raqhea",
+        "totalBytes": 3872976,
+        "url": "https://www.kaggle.com/datasets/raqhea/medium-app-reviews-from-google-play-store",
+        "lastUpdated": "2025-06-25T03:14:39.000Z",
+        "downloadCount": 1941,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "alper",
+        "ownerRef": "raqhea",
+        "kernelCount": 4,
+        "title": "Medium App Reviews from Google Play Store",
+        "viewCount": 5882,
+        "voteCount": 29,
+        "currentVersionNumber": 147,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "text",
+                "name": "text",
+                "description": "",
+                "fullPath": "data type > text",
+                "competitionCount": 150,
+                "datasetCount": 8582,
+                "scriptCount": 4570,
+                "totalCount": 13302
+            },
+            {
+                "ref": "ratings and reviews",
+                "name": "ratings and reviews",
+                "description": "",
+                "fullPath": "subject > people and society > business > ratings and reviews",
+                "competitionCount": 2,
+                "datasetCount": 6352,
+                "scriptCount": 323,
+                "totalCount": 6677
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 2413374,
+        "datasetSlug": "medium-app-reviews-from-google-play-store",
+        "ownerUser": "raqhea",
+        "usabilityRating": 1.0,
+        "totalViews": 5812,
+        "totalVotes": 30,
+        "totalDownloads": 1932,
+        "title": "Medium App Reviews from Google Play Store",
+        "subtitle": "Medium application reviews from google play store for text classification",
+        "description": "Please upvote the dataset if you find it helpful :) \n\nThe data was collected by using the **google\\_play\\_scraper** library to pull the application reviews. I have filtered the downloaded data to English and collected every review. A small portion of the dataset is used to label the data manually. The labeling is done to categorize the reviews into four categories:\n\n**Subscription:** Since medium has a subscription option, anything related to users' opinions about subscription features should belong here.\n\n**Content:** Medium is a sharing platform, there are lots of writings from poetry to advanced artificial intelligence research. Users\u2019 opinions about a variety of topics, and the quality of the content should belong here.\n\n**Interface:** Thoughts about UI, searching articles, recommendation engine, and anything related to the interface should belong here. This also includes payment-related issues.\n\n**User Experience:** The user\u2019s general thoughts and opinions about the application. Which should be generally abstract without indicating another category.\n\n~350 samples were used to fine-tune a roBERTa model to classify the reviews, then I used the same model for sentiment analysis (without fine-tuning). \n\nMore detailed information about the data collection can be found in this notebook:\nhttps://www.kaggle.com/code/raqhea/automatically-collect-process-and-label-text-data\n\nThe model used for fine-tuning: https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment\n\n=== About this file ===\n\nAbout this file\nRemote source:\nhttps://www.kaggle.com/code/raqhea/automatically-collect-process-and-label-text-data\nCollected reviews of Medium application from google play store. Data is from 2015 to today and will be updated daily.\n\n\n=== Columns & descriptions ===\n\nreviewId: Review ID for the review\ncontent: Review text\nscore: Given score to the application\nthumbsUpCount: People can upvote the other reviews, the total upvotes for the review\nreviewCreatedVersion: The application version when the review sent\nat: Review date\nreplyContent: Reply text to the review (if any)\nrepliedAt: Reply date (if any)\npredicted_category: Predicted category using fine-tuned model\nsentiment: Predicted sentiment using a NLP model\nappVersion: [no description]\n",
+        "keywords": [
+            "intermediate",
+            "exploratory data analysis",
+            "classification",
+            "text",
+            "ratings and reviews"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

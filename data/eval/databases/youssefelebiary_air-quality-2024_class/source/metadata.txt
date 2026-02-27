@@ -1,0 +1,58 @@
+# Context
+Air pollution causes approximately **7 million premature deaths annually** (WHO). This dataset enables researchers and data scientists to:
+- Analyze global pollution disparities
+- Investigate health impacts of air quality
+- Develop predictive models for environmental monitoring
+
+# Overview
+| Category        | Detail                          |
+|-----------------|---------------------------------|
+| Records         | 52,000+ daily measurements     |
+| Timeframe       | January - December 2024 GMT Time Zone       |
+| Cities          | 6 globally distributed locations|
+| Pollutants      | CO, CO₂, NO₂, SO₂, O₃, PM2.5, PM10 |
+| Index           | European AQI                   |
+
+# Files
+1. **Combined Dataset** (`Air_Quality.csv`)
+   - All cities with `City` identifier
+   - Complete 2024 daily records
+   
+2. **City-Specific Files** (e.g., `London_Air_Quality.csv`)
+   - Same metrics without `City` column
+   - Ideal for localized analysis
+
+# Key Features
+1. Temporal Coverage: Daily data for all of 2024.
+2. Geographical Diversity: Includes cities from all inhabited continents (e.g., "London, Delhi, Sydney").
+3. Standardized Units: Explicitly documented (CO₂ in ppm, others in µg/m³).
+4. European AQI: Consistent index for cross-city comparison.
+
+# Uses
+This dataset is suitable for a wide range of tasks, including:
+- Time-series forecasting: Predict AQI based on pollutant levels.
+- Pollutant correlation analysis: Identify which gases/particulates most impact AQI.
+- Geospatial comparisons: Compare air quality trends across continents.
+- Health impact studies: Link PM2.5/PM10 levels to public health benchmarks (WHO guidelines).
+
+# Licensing
+This dataset is published under the **MIT License**, allowing free use for both personal and commercial purposes. Attribution is encouraged but not required.
+
+=== About this file ===
+
+About this file
+Contains over 52,000 entries representing the air quality of the 6 cities during 2024
+
+
+=== Columns & descriptions ===
+
+Date: Date of the reading
+City: City of reading
+CO: Carbon Monoxide Concentration in µg/m³
+CO2: Carbon Dioxide Concentration in ppm
+NO2: Nitrogen Dioxide Concentration in µg/m³
+SO2: Sulphur Dioxide Concentration in µg/m³
+O3: Ozone Concentration in µg/m³
+PM2.5: Particulate Matter 2.5 Concentration in µg/m³
+PM10: Particulate Matter 10 Concentration in µg/m³
+AQI: European Air Quality Index

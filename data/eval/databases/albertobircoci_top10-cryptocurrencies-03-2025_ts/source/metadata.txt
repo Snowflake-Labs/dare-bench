@@ -1,0 +1,51 @@
+This dataset provides daily historical data for 10 major cryptocurrencies. Each row represents a single trading day, covering the maximum range that was available at the time of extraction.
+
+Key Features
+
+Closing Price and Volume: For each cryptocurrency, two columns are provided:
+
+xxx_closing_price – The daily closing price in USD
+
+xxx_volume – The daily trading volume
+
+Date Format: Each date is listed in “dd/mm/yy” format for easy reading.
+
+Top 10 Cryptocurrencies: Includes well-known coins such as Bitcoin, Ethereum, and others with high market capitalization.
+
+- Potential Uses
+
+1.Exploratory data analysis or visualizations of crypto market trends
+
+2.Time-series modeling, forecasting, or anomaly detection
+
+3.Comparative studies between multiple cryptocurrencies
+
+=== About this file ===
+
+About this file
+This CSV contains daily historical data for 10 popular cryptocurrencies, with columns for each coin’s closing price and trading volume (e.g., btc_closing_price, btc_volume). Dates are formatted in dd/mm/yy, and tickers (e.g., BTC-USD) identify which cryptocurrency pair the data belongs to.
+
+
+=== Columns & descriptions ===
+
+Date: Curriencies price
+btc_closing_price: Daily closing price of Bitcoin (BTC) in USD.
+btc_volume: Daily trading volume of Bitcoin.
+eth_closing_price: Daily closing price of Ethereum (ETH) in USD.
+eth_volume: Daily trading volume of Ethereum
+usdt_closing_price: Daily closing price of Tether (USDT) in USD.
+usdt_volume: Daily trading volume of Tether.
+xrp_closing_price: Daily closing price of XRP in USD.
+xrp_volume: Daily trading volume of XRP.
+bnb_closing_price: Daily closing price of BNB (Binance Coin) in USD.
+bnb_volume: Daily trading volume of BNB.
+sol_closing_price: Daily closing price of Solana (SOL) in USD
+sol_volume: Daily trading volume of Solana.
+usdc_closing_price: Daily closing price of USDC
+usdc_volume: Daily trading volume of USDC
+doge_closing_price: Daily closing price of Dogecoin (DOGE) in USD.
+doge_volume: Daily trading volume of Dogecoin.
+ada_closing_price: Daily closing price of Cardano (ADA) in USD.
+ada_volume: Daily trading volume of Cardano.
+trx_closing_price: Daily closing price of TRON (TRX) in USD.
+trx_volume: Daily trading volume of TRON.

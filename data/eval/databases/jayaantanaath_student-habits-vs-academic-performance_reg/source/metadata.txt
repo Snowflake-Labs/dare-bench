@@ -1,0 +1,28 @@
+This is a simulated dataset exploring how lifestyle habits affect academic performance in students. With 1,000 synthetic student records and 15+ features including study hours, sleep patterns, social media usage, diet quality, mental health, and final exam scores, it’s perfect for ML projects, regression analysis, clustering, and data viz. Created using realistic patterns for educational practice.
+
+Ever wondered how much Netflix, sleep, or TikTok scrolling affects your grades? 👀 This dataset simulates 1,000 students' daily habits—from study time to mental health—and compares them to final exam scores. It's like spying on your GPA through the lens of lifestyle. Perfect for EDA, ML practice, or just vibing with data while pretending to be productive.
+
+=== About this file ===
+
+About this file
+This CSV file contains a simulated yet realistic dataset titled “Student Habits vs Academic Performance: A Simulated Study”, featuring 1,000 student records. Each row represents an individual student, capturing daily lifestyle habits such as study time, sleep, social media use, diet quality, mental health rating, and more—mapped against their final exam score. Designed for machine learning, regression, classification, EDA, and data visualization tasks, this dataset is ideal for educational analysis and experimentation in data science projects. It's structured, clean, and ready for exploration, modeling, and storytelling.
+
+
+=== Columns & descriptions ===
+
+student_id: Unique ID
+age: Age of student
+gender: Male/Female/Other
+study_hours_per_day: Avg. daily study time
+social_media_hours: Daily social media time
+netflix_hours: Avg. daily Netflix/binging time
+part_time_job: Yes/No
+attendance_percentage: Class attendance (0–100%)
+sleep_hours: Avg. daily sleep
+diet_quality: Poor/Fair/Good
+exercise_frequency: Times per week
+parental_education_level: [no description]
+internet_quality: [no description]
+mental_health_rating: scale 1–10
+extracurricular_participation: Yes/No
+exam_score: Final exam score (0–100)

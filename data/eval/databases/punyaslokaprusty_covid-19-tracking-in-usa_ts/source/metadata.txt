@@ -1,0 +1,40 @@
+ This is Collected from The COVID Tracking Project which is a volunteer organization launched from The Atlantic and dedicated to collecting and publishing the data required to understand the COVID-19 outbreak in the United States.
+
+=== About this file ===
+
+About this file
+Remote source:
+https://api.covidtracking.com/v1/us/daily.csv
+The COVID Tracking Project has ended all data collection as of March 7, 2021. The existing API will continue to work until May 2021, but will only include data up to March 7, 2021.
+
+
+=== Columns & descriptions ===
+
+date: integer
+Date
+
+Date on which data was collected by The COVID Tracking Project.
+states: [no description]
+positive: [no description]
+negative: [no description]
+pending: [no description]
+hospitalizedCurrently: [no description]
+hospitalizedCumulative: [no description]
+inIcuCurrently: [no description]
+inIcuCumulative: [no description]
+onVentilatorCurrently: [no description]
+onVentilatorCumulative: [no description]
+dateChecked: [no description]
+death: [no description]
+hospitalized: [no description]
+totalTestResults: [no description]
+lastModified: [no description]
+recovered: [no description]
+total: [no description]
+posNeg: [no description]
+deathIncrease: [no description]
+hospitalizedIncrease: [no description]
+negativeIncrease: [no description]
+positiveIncrease: [no description]
+totalTestResultsIncrease: [no description]
+hash: [no description]

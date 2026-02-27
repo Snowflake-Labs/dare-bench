@@ -1,0 +1,163 @@
+{
+    "question": {
+        "target": [
+            "y2",
+            "y3",
+            "y1"
+        ],
+        "target_candidates": [
+            "y1",
+            "y2",
+            "y3"
+        ],
+        "related_features": [
+            "x1235"
+        ],
+        "not_filtered_related_features": [
+            "x1235"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "x1235": [
+                4.0,
+                14.0
+            ]
+        },
+        "selected_features": [
+            "x1235"
+        ],
+        "train_v2_save_file": "./carlmcbrideellis_data-anscombes-quartet_reg/source/train_v2.csv",
+        "val_v2_save_file": "./carlmcbrideellis_data-anscombes-quartet_reg/source/val_v2.csv",
+        "val_no_err_save_file": "./carlmcbrideellis_data-anscombes-quartet_reg/source/val_v1.csv",
+        "train_no_err_save_file": "./carlmcbrideellis_data-anscombes-quartet_reg/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./carlmcbrideellis_data-anscombes-quartet_reg/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "median",
+        "random_state": 34,
+        "model_type": "Lasso",
+        "output_file": "./carlmcbrideellis_data-anscombes-quartet_reg/prediction.csv",
+        "ground_truth_file": "./carlmcbrideellis_data-anscombes-quartet_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./carlmcbrideellis_data-anscombes-quartet_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "x1235": "numerical",
+            "y1": "numerical",
+            "y2": "numerical",
+            "y3": "numerical",
+            "y5": "numerical",
+            "x4": "numerical",
+            "y4": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "x1235"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 679871,
+        "ref": "carlmcbrideellis/data-anscombes-quartet",
+        "subtitle": "On the importance of EDA",
+        "creatorName": "Carl McBride Ellis",
+        "creatorUrl": "carlmcbrideellis",
+        "totalBytes": 712,
+        "url": "https://www.kaggle.com/datasets/carlmcbrideellis/data-anscombes-quartet",
+        "lastUpdated": "2025-04-17T04:53:34.423Z",
+        "downloadCount": 3154,
+        "licenseName": "CC BY-SA 4.0",
+        "description": "",
+        "ownerName": "Carl McBride Ellis",
+        "ownerRef": "carlmcbrideellis",
+        "kernelCount": 10,
+        "title": "Data: Anscombe's quintet",
+        "viewCount": 20184,
+        "voteCount": 32,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "music",
+                "name": "music",
+                "description": "With all the music data out there, it's hard to believe someone hasn't trained robots to perform on stage yet. Or have they?",
+                "fullPath": "subject > arts and entertainment > music",
+                "competitionCount": 3,
+                "datasetCount": 21275,
+                "scriptCount": 16734,
+                "totalCount": 38012
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "linear regression",
+                "name": "linear regression",
+                "description": "",
+                "fullPath": "task > linear regression",
+                "competitionCount": 11,
+                "datasetCount": 850,
+                "scriptCount": 5938,
+                "totalCount": 6799
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 679871,
+        "datasetSlug": "data-anscombes-quartet",
+        "ownerUser": "carlmcbrideellis",
+        "usabilityRating": 1.0,
+        "totalViews": 19966,
+        "totalVotes": 32,
+        "totalDownloads": 3110,
+        "title": "Data: Anscombe's quintet",
+        "subtitle": "On the importance of EDA",
+        "description": "This file is the data set form the famous publication Francis J. Anscombe \"*Graphs in Statistical Analysis*\", The American Statistician 27 pp. 17-21 (1973) (doi: 10.1080/00031305.1973.10478966). It consists of four data sets of 11 points each. Note the peculiarity that the same 'x' values  are used for the first three data sets, and I have followed this exactly as in the original publication (originally done to save space), i.e. the first column (x123) serves as the 'x' for the next three 'y' columns; y1, y2 and y3.\n\nIn the dataset `Anscombe_quintet_data.csv` there is a new column (`y5`) as an example of Simpson's paradox ([C. McBride Ellis \"*Anscombe dataset No. 5: Simpson's paradox*\", Zenodo doi: 10.5281/zenodo.15209087 (2025)](https://doi.org/10.5281/zenodo.15209087)\n\n=== About this file ===\n\nAbout this file\nThis file consists of four data sets of 11 points each. Note the peculiarity that the same 'x' values are used for the first three data sets, and I have followed this exactly as in the original publication (originally done to save space), i.e. the first column (x123) serves as the 'x' for the next three 'y' columns.\n\n\n=== Columns & descriptions ===\n\nx123: x123\ny1: y1\ny2: y2\ny3: y3\nx4: x4\ny4: y4\n",
+        "keywords": [
+            "music",
+            "exploratory data analysis",
+            "data visualization",
+            "linear regression",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-SA-4.0"
+            }
+        ]
+    }
+}

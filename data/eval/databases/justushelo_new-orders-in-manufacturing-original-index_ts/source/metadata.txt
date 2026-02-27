@@ -1,0 +1,26 @@
+New orders in manufacturing (2021=100) by Month, Information and Standard Industrial Classification (TOL 2008). 
+
+Unit: Index Point Figure
+
+The monthly data is updated 40 days after the corresponding month.
+
+Source:
+New orders in manufacturing [online publication].
+ISSN=1798-6737. Helsinki: Statistics Finland [Referenced: 8.6.2025].
+Access method for more information: https://stat.fi/en/statistics/teul
+Access method for data: https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__teul/statfin_teul_pxt_14mi.px/
+Licence reference: https://creativecommons.org/licenses/by/4.0/deed.en
+
+=== About this file ===
+
+About this file
+"The statistics on new orders in manufacturing describe development in new orders of enterprises for those commodities and services that are produced by establishments located in Finland. The task of the index of new orders in manufacturing is to provide rapid and reliable information about the development of new orders. In addition, the compiled statistics indicate how production and turnover are likely to change in future." (Source: Statistics Finland, 2025)
+
+
+=== Columns & descriptions ===
+
+Month: Year and Month
+17, 20-21, 24-30 Manufacturing (new orders) Original index: 17, 20-21, 24-30 Manufacturing (new orders)
+17 Manufacture of paper and paper products Original index: 17 Manufacture of paper and paper products
+20-21 Chemical industry Original index: 20-21 Chemical industry
+24-30 Metal industry Original index: 24-30 Metal industry

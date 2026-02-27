@@ -1,0 +1,57 @@
+SH_LGR_ACSRHEC5 - (S.2.C.5) Extent to which countries have laws and regulations that guarantee full 
+and equal access to women and men aged 15 years and older to sexual and reproductive health care, 
+information and education: Component 5: Contraceptive Services [5.6.2]
+SH_LGR_ACSRHEC6 - (S.2.C.6) Extent to which countries have laws and regulations that guarantee full 
+and equal access to women and men aged 15 years and older to sexual and reproductive health care, 
+information and education: Component 6: Contraceptive Consent [5.6.2]
+SH_LGR_ACSRHEC7 - (S.2.C.7) Extent to which countries have laws and regulations that guarantee full 
+and equal access to women and men aged 15 years and older to sexual and reproductive health care, 
+information and education: Component 7: Emergency Contraception [5.6.2]
+SH_LGR_ACSRHEC8 - (S.3.C.8) Extent to which countries have laws and regulations that guarantee full 
+and equal access to women and men aged 15 years and older to sexual and reproductive health care, 
+information and education: Component 8: Sexuality Education Curriculum Laws [5.6.2]
+SH_LGR_ACSRHEC9 - (S.3.C.9) Extent to which countries have laws and regulations that guarantee full 
+and equal access to women and men aged 15 years and older to sexual and reproductive health care, 
+information and education: Component 9: Sexuality Education Curriculum Topi [5.6.2]
+SH_LGR_ACSRHES1 - (S.1) Extent to which countries have laws and regulations that guarantee full and 
+equal access to women and men aged 15 years and older to sexual and reproductive health care, 
+information and education: Section 1: Maternity Care [5.6.2]
+SH_LGR_ACSRHES2 - (S.2) Extent to which countries have laws and regulations that guarantee full and 
+equal access to women and men aged 15 years and older to sexual and reproductive health care, 
+information and education: Section 2: Contraceptive and Family Planning [5.6.2]
+SH_LGR_ACSRHES3 - (S.3) Extent to which countries have laws and regulations that guarantee full and 
+equal access to women and men aged 15 years and older to sexual and reproductive health care, 
+information and education: Section 3: Sexuality Education [5.6.2]
+SH_LGR_ACSRHES4 - (S.4) Extent to which countries have laws and regulations that guarantee full and 
+equal access to women and men aged 15 years and older to sexual and reproductive health care, 
+information and education: Section 4: HIV and HPV [5.6.2]
+0.e. Metadata update (META_LAST_UPDATE)
+2024-07-29
+0.f. Related indicators (SDG_RELATED_INDICATORS)
+Indicator 3.1.1: Maternal mortality ratio
+Indicator 3.1.2: Proportion of births attended by skilled health personnel
+Indicator 3.3.1: Number of new HIV infections per 1,000 uninfected population, by sex, age and key 
+populations
+Indicator 3.7.1: Proportion of women of reproductive age (aged 15–49 years) who have their need for 
+family planning satisfied with modern methods
+Indicator 3.7.2: Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age 
+group
+Indicator 5.2.1: Proportion of ever-partnered women and girls aged 15 years and older subjected to 
+physical, sexual or psychological violence by a current or former intimate partner in the previous 12 
+months, by form of violence and by age
+Indicator 5.6.1: Proportion of women aged 15-49 years who make their own informed decisions regarding
+
+=== About this file ===
+
+About this file
+Proportion of births attended by skilled health personnel Indicator.
+
+
+=== Columns & descriptions ===
+
+country: 1
+Year: 2
+mothers aged 10-19: 3
+mothers aged 20-29: 4
+mothers aged 30-39: 5
+mothers aged 40-49: 6

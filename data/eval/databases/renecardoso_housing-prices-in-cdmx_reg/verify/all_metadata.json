@@ -1,0 +1,221 @@
+{
+    "question": {
+        "target": [
+            "price_aprox_usd",
+            "price"
+        ],
+        "target_candidates": [
+            "price",
+            "price_aprox_local_currency",
+            "price_aprox_usd"
+        ],
+        "related_features": [
+            "lat",
+            "surface_covered_in_m2",
+            "lon",
+            "property_type",
+            "price_aprox_local_currency",
+            "surface_total_in_m2",
+            "places"
+        ],
+        "not_filtered_related_features": [
+            "lat",
+            "lon",
+            "surface_covered_in_m2",
+            "property_type",
+            "surface_total_in_m2",
+            "places"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "lat": [
+                19.0,
+                42.0
+            ],
+            "lon": [
+                -103.0,
+                -90.0
+            ],
+            "surface_covered_in_m2": [
+                1.0,
+                65748000.0
+            ],
+            "property_type": [
+                "apartment",
+                "house",
+                "store",
+                "PH"
+            ],
+            "surface_total_in_m2": [
+                1.0,
+                65748000.0
+            ],
+            "places": [
+                "MiguelHidalgo",
+                "Iztapalapa",
+                "Tlalpan",
+                "BenitoJuarez",
+                "AlvaroObregon",
+                "GustavoAMadero",
+                "Cuauhtemoc",
+                "Iztacalco",
+                "Azcapotzalco",
+                "VenustianoCarranza",
+                "Coyoacan",
+                "Cuajimalpa",
+                "Xochimilco",
+                "Tlahuac",
+                "MagdalenaContreras",
+                "MilpaAlta"
+            ]
+        },
+        "selected_features": [
+            "surface_total_in_m2",
+            "property_type",
+            "lon",
+            "places"
+        ],
+        "train_v2_save_file": "./renecardoso_housing-prices-in-cdmx_reg/source/train_v2.parquet",
+        "val_v2_save_file": "./renecardoso_housing-prices-in-cdmx_reg/source/val_v2.parquet",
+        "val_no_err_save_file": "./renecardoso_housing-prices-in-cdmx_reg/source/val_v1.parquet",
+        "train_no_err_save_file": "./renecardoso_housing-prices-in-cdmx_reg/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./renecardoso_housing-prices-in-cdmx_reg/source/train_v1.parquet",
+        "train_test_ratio": 0.8,
+        "save_file_type": "parquet",
+        "imputer_type": "most_frequent",
+        "random_state": 16,
+        "model_type": "DecisionTreeRegressor",
+        "output_file": "./renecardoso_housing-prices-in-cdmx_reg/prediction.csv",
+        "ground_truth_file": "./renecardoso_housing-prices-in-cdmx_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./renecardoso_housing-prices-in-cdmx_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "property_type": "categorical",
+            "places": "categorical",
+            "lat-lon": "categorical",
+            "price": "numerical",
+            "currency": "categorical",
+            "price_aprox_local_currency": "numerical",
+            "price_aprox_usd": "numerical",
+            "surface_total_in_m2": "numerical",
+            "surface_covered_in_m2": "numerical",
+            "price_usd_per_m2": "numerical",
+            "price_per_m2": "numerical",
+            "lat": "numerical",
+            "lon": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "surface_total_in_m2",
+            "lon"
+        ],
+        "categorical_features": [
+            "property_type",
+            "places"
+        ]
+    },
+    "data_info": {
+        "id": 7969637,
+        "ref": "renecardoso/housing-prices-in-cdmx",
+        "subtitle": "Mexico City housing prices, clean dataset",
+        "creatorName": "RENE CARDOSO",
+        "creatorUrl": "renecardoso",
+        "totalBytes": 1446117,
+        "url": "https://www.kaggle.com/datasets/renecardoso/housing-prices-in-cdmx",
+        "lastUpdated": "2025-07-31T00:05:16.147Z",
+        "downloadCount": 179,
+        "licenseName": "CC BY-NC-SA 4.0",
+        "description": "",
+        "ownerName": "RENE CARDOSO",
+        "ownerRef": "renecardoso",
+        "kernelCount": 2,
+        "title": "Housing Prices in CDMX",
+        "viewCount": 553,
+        "voteCount": 3,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "housing",
+                "name": "housing",
+                "description": "Explore datasets, kernels, and competitions related to housing markets in this tag.",
+                "fullPath": "subject > people and society > business > real estate > housing",
+                "competitionCount": 73,
+                "datasetCount": 855,
+                "scriptCount": 982,
+                "totalCount": 1910
+            },
+            {
+                "ref": "gradient boosting",
+                "name": "gradient boosting",
+                "description": "",
+                "fullPath": "technique > gradient boosting",
+                "competitionCount": 4,
+                "datasetCount": 128,
+                "scriptCount": 2611,
+                "totalCount": 2743
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            },
+            {
+                "ref": "social issues and advocacy",
+                "name": "social issues and advocacy",
+                "description": "",
+                "fullPath": "subject > people and society > social issues and advocacy",
+                "datasetCount": 5836,
+                "scriptCount": 238,
+                "totalCount": 6074
+            },
+            {
+                "ref": "mexico",
+                "name": "mexico",
+                "description": "",
+                "fullPath": "geography and places > north america > mexico",
+                "competitionCount": 1,
+                "datasetCount": 115,
+                "scriptCount": 27,
+                "totalCount": 143
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7969637,
+        "datasetSlug": "housing-prices-in-cdmx",
+        "ownerUser": "renecardoso",
+        "usabilityRating": 1.0,
+        "totalViews": 557,
+        "totalVotes": 3,
+        "totalDownloads": 180,
+        "title": "Housing Prices in CDMX",
+        "subtitle": "Mexico City housing prices, clean dataset",
+        "description": "# Housing Prices in CDMX\n\nThis dataset provides a snapshot of housing prices in Mexico City (CDMX), captured during a period when the Mexican Peso was approximately 18.80 against the US Dollar. It offers a clear view into the residential real estate market within CDMX, a dynamic and influential urban center. The data includes key variables such as property type, specific locality within the city, pricing details, and surface area. This combination allows for a focused analysis of how these core characteristics influence property values in a significant Latin American metropolis under specific economic conditions.\n\nThis cleaned and refined dataset is derived from the original work of [Omar Faruk](https://www.kaggle.com/omarnot2far). While the foundational information comes from his valuable contribution, I've undertaken a significant process of **data cleaning** and **feature reduction**. My aim was to enhance the dataset's **readability** and **usability**, making it more accessible for researchers, data scientists, and anyone interested in real estate trends in CDMX. By focusing on the most relevant features and ensuring data integrity, this version is streamlined for more direct and efficient analysis.\n\nWhether you're exploring urban economics, real estate analytics, or simply curious about housing market dynamics in Mexico City, this dataset offers a practical starting point. It's designed to facilitate straightforward exploratory data analysis and basic predictive modeling, providing foundational insights into pricing structures amidst specific currency exchange rates. Your feedback and findings are highly encouraged!\n\n\n## Features\n| **Feature**                  | **Description**                                                        |\n| ---------------------------- | ---------------------------------------------------------------------- |\n| `property_type`              | Type of property (e.g., 'apartment', 'house', 'PH', 'store').          |\n| `places`                     | Name of the location (borough or neighborhood) within Mexico City.     |\n| `lat-lon`                    | Latitude and longitude pair representing the location of the property. |\n| `price`                      | Original price as listed by the seller.                                |\n| `price_aprox_local_currency` | Approximate price in Mexican Pesos (MXN).                              |\n| `price_aprox_usd`            | Approximate price in US Dollars.                                       |\n| `surface_total_in_m2`        | Total surface area of the property in square meters.                   |\n| `surface_covered_in_m2`      | Covered (built) area of the property in square meters.                 |\n| `price_usd_per_m2`           | Price per square meter in USD.                                         |\n| `price_per_m2`               | Price per square meter in MXN.                                         |\n\n\nNotes:\n1. For listings missing geographic coordinates, we imputed latitude and longitude values using official territorial references from INEGI (Mexico's National Institute of Statistics and Geography).\n2. Second version have two additional features. Since there was several values in 'lat-lon' that were wrongly separated, I fixed that. Also, while maintaining the original feature, I separated the latitude and longitud values for mapping flexibility (the 2 extras features).\n3. If you found this project valuable or insightful, I invite you to support it by giving it an upvote. Your encouragement helps amplify meaningful work and motivates continued research and sharing of open data resources.\n\n=== About this file ===\n\nAbout this file\nThis dataset contains detailed information on real estate listings in Mexico City (CDMX), including property type, location, surface areas, prices in both local currency (MXN) and USD. All listings are geolocated and can be categorized by boroughs or neighborhoods. The dataset has been cleaned to remove missing, zero, or infinite values, making it suitable for regression modeling, price prediction, and geospatial analysis.\n\n\n=== Columns & descriptions ===\n\nproperty_type: Type of property (e.g., 'apartment', 'house', 'PH', 'store').\nplaces: Name of the location\nlat-lon: Latitude and longitude\nprice: Original price as listed by the seller.\ncurrency: MXN or USD\nprice_aprox_local_currency: Approximate price in Mexican Pesos (MXN).\nprice_aprox_usd: Approximate price in US Dollars.\nsurface_total_in_m2: Total surface area of the property in square meters.\nsurface_covered_in_m2: Covered (built) area of the property in square meters.\nprice_usd_per_m2: Price per square meter in USD.\nprice_per_m2: Price per square meter in MXN.\n",
+        "keywords": [
+            "housing",
+            "gradient boosting",
+            "regression",
+            "social issues and advocacy",
+            "mexico"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-NC-SA-4.0"
+            }
+        ]
+    }
+}

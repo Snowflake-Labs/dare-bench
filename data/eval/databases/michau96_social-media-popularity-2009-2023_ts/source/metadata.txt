@@ -1,0 +1,40 @@
+## Context
+Social media are today a very popular way of exchanging information with other people via the Internet. It's hard not to notice that over the years new ones are created and old ones "die". The database below presents the popularity of various social networking sites since 2009, showing the percentage of their share in the social media market.
+
+## Content
+The database saved in .csv form contains several columns. The first column contains the date (YYYY-MM) of the measurement period. Each subsequent column contains the percentage of share in the social media market, given as a percentage, rounded to 2 decimal places (if the share is less than 0.5%, the value 0 remains, even though it may constitute a very small percentage of the share). We have almost 180 rows, 15 years of data for monthly periods.
+
+## Source
+The database comes from the [Statcounter](https://gs.statcounter.com/) and is made available in the operation with CC BY-SA 3.0 license which allows to copy, use and disseminate data also for commercial purposes after providing the source.
+
+=== About this file ===
+
+About this file
+Dataset
+
+
+=== Columns & descriptions ===
+
+Date: YYYY-DD
+Facebook: Share in %
+Pinterest: Share in %
+Twitter: Share in %
+StumbleUpon: Share in %
+YouTube: Share in %
+Instagram: Share in %
+Tumblr: Share in %
+reddit: Share in %
+VKontakte: Share in %
+LinkedIn: Share in %
+Google+: Share in %
+Digg: Share in %
+MySpace: Share in %
+Fark: Share in %
+NowPublic: Share in %
+iWiW: Share in %
+news.ycombinator.com: Share in %
+Delicious: Share in %
+orkut: Share in %
+Odnoklassniki: Share in %
+Vimeo: Share in %
+Other: Share in %

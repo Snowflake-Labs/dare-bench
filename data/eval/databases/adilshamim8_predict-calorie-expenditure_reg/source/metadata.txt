@@ -1,0 +1,78 @@
+This dataset is curated for the **Playground Series - Season 5, Episode 5**, and centers on predicting **caloric energy expenditure** based on biometric and activity-related features. The data provides a robust testbed for regression techniques, feature engineering, and experimentation with modern machine learning pipelines.
+
+###  Dataset Background
+
+The dataset is **synthetically generated** using a deep learning model trained on the real-world **[Calories Burnt Prediction Dataset](https://www.kaggle.com/datasets/mlg-ulb/Calorie-Burn-Prediction)**. While the overall distribution and structure are aligned with the original dataset, key statistical nuances have been deliberately altered to introduce challenge and prevent overfitting to known solutions.
+
+This provides an excellent opportunity for:
+
+* Evaluating generalization capabilities of regression models.
+* Exploring **transfer learning** by pretraining on the original dataset and fine-tuning on this one.
+* Performing **domain adaptation** and comparative feature analysis.
+
+###  Dataset Files
+
+* `train.csv` – Training set with complete features and the continuous target variable `Calories`.
+* `test.csv` – Test set with the same input features (target `Calories` withheld for prediction).
+
+###  Problem Statement
+
+Develop a predictive model that estimates **Calories Burnt** given a mix of individual-level biometric and physiological features. The target variable is continuous, making this a **regression problem**. Accuracy and generalization are crucial, especially across subtly shifted distributions in the synthetic test set.
+
+###  Why This Dataset?
+
+*  **Synthetic Realism**: Maintains practical relevance while offering flexibility for public leaderboard competitions.
+*  **ML Playground**: Ideal for experimenting with regression algorithms (Linear Regression, XGBoost, LightGBM, CatBoost, Neural Nets, etc.).
+*  **Feature Engineering Friendly**: Includes features conducive to creative engineering and interaction term exploration.
+*  **Transfer Learning Potential**: Leverage the original calorie dataset for comparative performance improvement.
+
+###  Recommended Explorations
+
+* Analyze feature importances to understand drivers of caloric expenditure.
+* Compare performance with and without the original dataset as supplemental training data.
+* Investigate the model's robustness using cross-validation and adversarial feature perturbation.
+
+
+=== About this file ===
+
+About this file
+test.csv
+– File Description
+This file contains the
+unlabeled test data
+used for evaluating model performance in the "Predict Calorie Expenditure" challenge. It includes biometric and physiological information for each individual, with the goal of predicting the corresponding number of
+Calories burned
+(not included in this file). Submissions should provide predicted values for the
+Calories
+variable corresponding to each row.
+Column Descriptions
+Column Name
+Description
+id
+Unique identifier for each sample in the test dataset. Used for aligning predictions in the submission file.
+Sex
+Biological sex of the individual. Typically encoded as categorical (e.g., 'male' or 'female'), potentially affecting calorie expenditure due to physiological differences.
+Age
+Age of the individual (in years). Age influences metabolism and energy consumption.
+Height
+Height of the individual (in centimeters). Affects BMI and indirectly influences energy needs.
+Weight
+Weight of the individual (in kilograms). A critical factor in determining energy burned during physical activity.
+Duration
+Duration of physical activity or exercise (in minutes). A direct measure of exercise volume impacting calories burned.
+Heart_Rate
+Heart rate recorded during the activity (in beats per minute). Reflects intensity of the physical effort.
+Body_Temp
+Body temperature during the activity (in degrees Celsius). Can indicate metabolic rate or physiological response to exertion.
+
+
+=== Columns & descriptions ===
+
+id: Unique identifier for each sample in the test dataset. Used for aligning predictions in the submission file.
+Sex: Biological sex of the individual. Typically encoded as categorical (e.g., 'male' or 'female'), potentially affecting calorie expenditure due to physiological differences.
+Age: Age of the individual (in years). Age influences metabolism and energy consumption.
+Height: Height of the individual (in centimeters). Affects BMI and indirectly influences energy needs.
+Weight: Weight of the individual (in kilograms). A critical factor in determining energy burned during physical activity.
+Duration: Duration of physical activity or exercise (in minutes). A direct measure of exercise volume impacting calories burned.
+Heart_Rate: Heart rate recorded during the activity (in beats per minute). Reflects intensity of the physical effort.
+Body_Temp: Body temperature during the activity (in degrees Celsius). Can indicate metabolic rate or physiological response to exertion.

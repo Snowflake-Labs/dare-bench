@@ -1,0 +1,143 @@
+{
+    "question": {
+        "target": [
+            "Passengers"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Month",
+        "time_format": "%Y-%m",
+        "is_resampled": false,
+        "related_features": [],
+        "not_filtered_related_features": [],
+        "selected_features": [],
+        "expected_ranges": {},
+        "column_type_inference": {
+            "Month": "object",
+            "Passengers": "numeric"
+        },
+        "train_save_file": "./thanujahennayake_sri-lanka-monthly-passenger-data-2012-2018_ts/source/train.csv",
+        "val_v1_save_file": "./thanujahennayake_sri-lanka-monthly-passenger-data-2012-2018_ts/source/val_v1.csv",
+        "val_v2_save_file": "./thanujahennayake_sri-lanka-monthly-passenger-data-2012-2018_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./thanujahennayake_sri-lanka-monthly-passenger-data-2012-2018_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./thanujahennayake_sri-lanka-monthly-passenger-data-2012-2018_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./thanujahennayake_sri-lanka-monthly-passenger-data-2012-2018_ts/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 79,
+        "model_type": "Prophet",
+        "output_file": "./thanujahennayake_sri-lanka-monthly-passenger-data-2012-2018_ts/prediction.json",
+        "ground_truth_v1_file": "./thanujahennayake_sri-lanka-monthly-passenger-data-2012-2018_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./thanujahennayake_sri-lanka-monthly-passenger-data-2012-2018_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./thanujahennayake_sri-lanka-monthly-passenger-data-2012-2018_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2020-02-01 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7018769,
+        "ref": "thanujahennayake/sri-lanka-monthly-passenger-data-2012-2018",
+        "subtitle": "Monthly Passenger Traffic in Sri Lanka (2011-2018) \u2013 Trends, Insights, Analysis",
+        "creatorName": "Thanuja Hennayake",
+        "creatorUrl": "thanujahennayake",
+        "totalBytes": 1052,
+        "url": "https://www.kaggle.com/datasets/thanujahennayake/sri-lanka-monthly-passenger-data-2012-2018",
+        "lastUpdated": "2025-04-06T06:29:49.000Z",
+        "downloadCount": 72,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Thanuja Hennayake",
+        "ownerRef": "thanujahennayake",
+        "kernelCount": 1,
+        "title": "Sri Lanka Monthly Passenger Data (2012-2018)",
+        "viewCount": 330,
+        "voteCount": 1,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "random forest",
+                "name": "random forest",
+                "description": "",
+                "fullPath": "technique > random forest",
+                "competitionCount": 5,
+                "datasetCount": 390,
+                "scriptCount": 7570,
+                "totalCount": 7965
+            },
+            {
+                "ref": "linear regression",
+                "name": "linear regression",
+                "description": "",
+                "fullPath": "task > linear regression",
+                "competitionCount": 11,
+                "datasetCount": 850,
+                "scriptCount": 5938,
+                "totalCount": 6799
+            },
+            {
+                "ref": "lstm",
+                "name": "lstm",
+                "description": "",
+                "fullPath": "technique > neural networks > lstm",
+                "competitionCount": 3,
+                "datasetCount": 481,
+                "scriptCount": 2385,
+                "totalCount": 2869
+            },
+            {
+                "ref": "travel",
+                "name": "travel",
+                "description": "",
+                "fullPath": "subject > people and society > business > travel",
+                "competitionCount": 3,
+                "datasetCount": 8915,
+                "scriptCount": 1388,
+                "totalCount": 10306
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7018769,
+        "datasetSlug": "sri-lanka-monthly-passenger-data-2012-2018",
+        "ownerUser": "thanujahennayake",
+        "usabilityRating": 1.0,
+        "totalViews": 310,
+        "totalVotes": 1,
+        "totalDownloads": 62,
+        "title": "Sri Lanka Monthly Passenger Data (2012-2018)",
+        "subtitle": "Monthly Passenger Traffic in Sri Lanka (2011-2018) \u2013 Trends, Insights, Analysis",
+        "description": "**Description:**\nThis dataset contains the monthly passenger traffic in Sri Lanka from January 2011 to December 2023. It includes the total number of passengers (arrivals and departures combined) for each month. The data from 2014 to 2023 were extracted from official performance reports of the Department of Immigration & Emigration of Sri Lanka. The data from 2011 to 2013 were generated using AI-based extrapolation to maintain continuity.  \n\n**Columns:  **\n- `Month`: The year and month in YYYY-MM format (e.g., \"2011-01\" for January 2011).  \n- `Passengers`: The total number of passengers recorded for that month (arrivals + departures).  \n\n**Source: **\n- Data (2014\u20132023) from official reports of the Department of Immigration & Emigration of Sri Lanka.  \n- AI-generated data (2011\u20132013) for consistency and trend continuity.  \n\n**Usage:**\nThis dataset is valuable for time series forecasting, tourism trend analysis, economic research, and machine learning applications.  \n\n**License:** CC0 1.0 (Public Domain Dedication) \u2013 No restrictions, allowing free use without attribution.  \n\nCredits & Acknowledgments\nDepartment of Immigration & Emigration of Sri Lanka \u2013 For publishing the official performance reports used as the primary data source (2014\u20132023).\n\nThanuja Hennayake \u2013 For data extraction, structuring, and compilation of the dataset.\n\nChatGPT (OpenAI) \u2013 For assisting in generating missing data (2011\u20132013) through AI-based extrapolation.\n\n=== About this file ===\n\nAbout this file\nThis file contains monthly passenger traffic data for Sri Lanka from 2011 to 2018. It includes the total number of passengers (arrivals + departures) recorded each month. Data from 2014 to 2018 were extracted from official reports, while 2011 to 2014 data were AI-generated for continuity. This dataset is useful for trend analysis, forecasting, and research on Sri Lanka\u2019s travel patterns.\n\n\n=== Columns & descriptions ===\n\nMonth: (YYYY-MM)\nPassengers: Count\n",
+        "keywords": [
+            "time series analysis",
+            "random forest",
+            "linear regression",
+            "lstm",
+            "travel"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

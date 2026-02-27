@@ -1,0 +1,234 @@
+{
+    "question": {
+        "target": [
+            "temperature_2m_max",
+            "wind_speed_10m_max"
+        ],
+        "target_candidates": [
+            "temperature_2m_max",
+            "precipitation_sum",
+            "wind_speed_10m_max"
+        ],
+        "related_features": [
+            "temperature_2m_min",
+            "weather_code",
+            "date",
+            "wind_direction_10m_dominant",
+            "rain_sum",
+            "apparent_temperature_min",
+            "apparent_temperature_max",
+            "wind_gusts_10m_max",
+            "precipitation_sum",
+            "city"
+        ],
+        "not_filtered_related_features": [
+            "temperature_2m_min",
+            "wind_direction_10m_dominant",
+            "rain_sum",
+            "apparent_temperature_min",
+            "apparent_temperature_max",
+            "wind_gusts_10m_max",
+            "city"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "temperature_2m_min": [
+                1.0,
+                35.0
+            ],
+            "wind_direction_10m_dominant": [
+                0,
+                360
+            ],
+            "rain_sum": [
+                0.0,
+                340.0
+            ],
+            "apparent_temperature_min": [
+                -2.0,
+                38.0
+            ],
+            "apparent_temperature_max": [
+                10.0,
+                50.0
+            ],
+            "wind_gusts_10m_max": [
+                10.0,
+                143.0
+            ],
+            "city": [
+                "Delhi",
+                "Mumbai",
+                "Kolkata",
+                "Chennai",
+                "Bangalore",
+                "Hyderabad",
+                "Ahmedabad",
+                "Pune",
+                "Jaipur",
+                "Lucknow"
+            ]
+        },
+        "selected_features": [
+            "temperature_2m_min",
+            "wind_gusts_10m_max",
+            "apparent_temperature_min",
+            "city",
+            "apparent_temperature_max"
+        ],
+        "train_v2_save_file": "./developerghost_climate-in-india-daily-weather-data-2000-2024_reg/source/train_v2.parquet",
+        "val_v2_save_file": "./developerghost_climate-in-india-daily-weather-data-2000-2024_reg/source/val_v2.parquet",
+        "val_no_err_save_file": "./developerghost_climate-in-india-daily-weather-data-2000-2024_reg/source/val_v1.parquet",
+        "train_no_err_save_file": "./developerghost_climate-in-india-daily-weather-data-2000-2024_reg/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./developerghost_climate-in-india-daily-weather-data-2000-2024_reg/source/train_v1.parquet",
+        "train_test_ratio": 0.9,
+        "save_file_type": "parquet",
+        "imputer_type": "mean",
+        "random_state": 88,
+        "model_type": "Ridge",
+        "output_file": "./developerghost_climate-in-india-daily-weather-data-2000-2024_reg/prediction.csv",
+        "ground_truth_file": "./developerghost_climate-in-india-daily-weather-data-2000-2024_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./developerghost_climate-in-india-daily-weather-data-2000-2024_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "city": "categorical",
+            "date": "categorical",
+            "temperature_2m_max": "numerical",
+            "temperature_2m_min": "numerical",
+            "apparent_temperature_max": "numerical",
+            "apparent_temperature_min": "numerical",
+            "precipitation_sum": "numerical",
+            "rain_sum": "numerical",
+            "weather_code": "categorical",
+            "wind_speed_10m_max": "numerical",
+            "wind_gusts_10m_max": "numerical",
+            "wind_direction_10m_dominant": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "temperature_2m_min",
+            "wind_gusts_10m_max",
+            "apparent_temperature_min",
+            "apparent_temperature_max"
+        ],
+        "categorical_features": [
+            "city"
+        ]
+    },
+    "data_info": {
+        "id": 8024981,
+        "ref": "developerghost/climate-in-india-daily-weather-data-2000-2024",
+        "subtitle": "Temperature, rainfall, humidity & more from 2000 to 2024",
+        "creatorName": "DeveloperGhost",
+        "creatorUrl": "developerghost",
+        "totalBytes": 1515183,
+        "url": "https://www.kaggle.com/datasets/developerghost/climate-in-india-daily-weather-data-2000-2024",
+        "lastUpdated": "2025-08-07T07:56:37.903Z",
+        "downloadCount": 32,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "DeveloperGhost",
+        "ownerRef": "developerghost",
+        "kernelCount": 1,
+        "title": "India Daily Weather (2000\u20132024) \u2013 Major Cities",
+        "viewCount": 121,
+        "voteCount": 1,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "india",
+                "name": "india",
+                "description": "This tag will take you to the wonderful land of datasets and kernels related to India. You will find topics that range far and wide. There's education, travel, weather, and crime, too.",
+                "fullPath": "geography and places > asia > india",
+                "competitionCount": 4,
+                "datasetCount": 2433,
+                "scriptCount": 945,
+                "totalCount": 3382
+            },
+            {
+                "ref": "atmospheric science",
+                "name": "atmospheric science",
+                "description": "",
+                "fullPath": "subject > earth and nature > earth science > atmospheric science",
+                "competitionCount": 6,
+                "datasetCount": 1964,
+                "scriptCount": 381,
+                "totalCount": 2351
+            },
+            {
+                "ref": "weather and climate",
+                "name": "weather and climate",
+                "description": "Weather datasets and kernels come in all wind speeds and directions. You have weather data about hurricanes and other inclement phenomena, hourly readings, and general weather for various cities.",
+                "fullPath": "subject > earth and nature > environment > weather and climate",
+                "competitionCount": 42,
+                "datasetCount": 1439,
+                "scriptCount": 667,
+                "totalCount": 2148
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "data analytics",
+                "name": "data analytics",
+                "description": "",
+                "fullPath": "technique > data analytics",
+                "competitionCount": 32,
+                "datasetCount": 9201,
+                "scriptCount": 15324,
+                "totalCount": 24557
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 8024981,
+        "datasetSlug": "climate-in-india-daily-weather-data-2000-2024",
+        "ownerUser": "developerghost",
+        "usabilityRating": 1.0,
+        "totalViews": 121,
+        "totalVotes": 1,
+        "totalDownloads": 33,
+        "title": "India Daily Weather (2000\u20132024) \u2013 Major Cities",
+        "subtitle": "Temperature, rainfall, humidity & more from 2000 to 2024",
+        "description": "This dataset contains daily weather data for major cities in India from January 1, 2000 to December 31, 2024. It is designed for use in climate analysis, weather trend studies, and machine learning applications such as regression, forecasting, and time-series modeling.\n\nIt includes both standard and apparent (feels-like) temperatures, along with various meteorological measurements.\n\n---\n\n### \ud83c\udf26\ufe0f Features Included:\n\n- **city** \u2013 Name of the Indian city\n- **date** \u2013 Daily timestamp (YYYY-MM-DD)\n- **temperature_2m_max (\u00b0C)** \u2013 Maximum air temperature at 2 meters height\n- **temperature_2m_min (\u00b0C)** \u2013 Minimum air temperature at 2 meters height\n- **apparent_temperature_max (\u00b0C)** \u2013 Feels-like max temperature considering humidity & wind\n- **apparent_temperature_min (\u00b0C)** \u2013 Feels-like min temperature\n- **precipitation_sum (mm)** \u2013 Total daily precipitation\n- **rain_sum (mm)** \u2013 Total daily rainfall\n- **weather_code** \u2013 WMO weather interpretation code\n- **wind_speed_10m_max (km/h)** \u2013 Max wind speed at 10m height\n- **wind_gusts_10m_max (km/h)** \u2013 Max wind gusts at 10m\n- **wind_direction_10m_dominant (\u00b0)** \u2013 Dominant wind direction in degrees\n\n---\n\n### \ud83d\udcc5 Time Period:\n- **Start:** 2000-01-01  \n- **End:** 2024-12-31\n\n---\n\n### \ud83d\udccd Geographic Coverage:\n- Ahmedabad\n- Bangalore\n- Chennai\n- Delhi\n- Hyderabad\n- Jaipur\n- Kolkata\n- Lucknow\n- Mumbai\n- Pune\n\n---\n\n### \ud83d\udcda Use Cases:\n- Climate trend analysis\n- Time-series and regression modeling\n- Weather forecasting using ML\n- Environmental and energy impact analysis\n- Study of apparent vs actual temperature impact\n\n---\n\n### \ud83d\udcc1 Format:\n- CSV file with 12 columns and over 9,000 rows per city (depending on city count)\n\n---\n\n### \u26a0\ufe0f Notes:\n- Weather codes follow WMO standards\n- Apparent temperature is calculated using wind and humidity factors\n- Data is cleaned and ready for use in Python, R, or ML pipelines\n\n---\n\nIf you use this dataset in your work, please consider citing it or sharing the source to help others discover it.\n\n\n=== About this file ===\n\nAbout this file\nA cleaned CSV file containing daily weather data for 10 major Indian cities from 2000 to 2024.\nRows: ~91,000+ (10 cities \u00d7 ~9,131 days)\nColumns: 12\nFormat: UTF-8, comma-separated\nDate range: 2000-01-01 to 2024-12-31\nReady for time-series, regression, and forecasting tasks\n\n\n=== Columns & descriptions ===\n\ncity: Name of the Indian city where the weather data was recorded\ndate: Date of the observation in YYYY-MM-DD format\ntemperature_2m_max: Maximum air temperature at 2 meters above ground\ntemperature_2m_min: Minimum air temperature at 2 meters above ground\napparent_temperature_max: Maximum feels-like temperature (adjusted for humidity and wind)\napparent_temperature_min: Minimum feels-like temperature\nprecipitation_sum: Total daily precipitation including all forms (rain, snow, etc.)\nrain_sum: Total daily rainfall (liquid precipitation only)\nweather_code: Encoded weather condition based on WMO standards\nwind_speed_10m_max: Maximum wind speed measured at 10 meters above ground\nwind_gusts_10m_max: Maximum wind gusts measured at 10 meters\nwind_direction_10m_dominant: Dominant wind direction (in degrees from north) at 10 meters\n",
+        "keywords": [
+            "india",
+            "atmospheric science",
+            "weather and climate",
+            "time series analysis",
+            "data analytics",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

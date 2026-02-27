@@ -1,0 +1,182 @@
+{
+    "question": {
+        "target": [
+            "money"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "datetime",
+        "time_format": "%Y-%m-%d %H:%M:%S.%f",
+        "is_resampled": true,
+        "related_features": [
+            "cash_type",
+            "coffee_name"
+        ],
+        "not_filtered_related_features": [
+            "cash_type",
+            "coffee_name"
+        ],
+        "selected_features": [
+            "cash_type",
+            "coffee_name"
+        ],
+        "expected_ranges": {
+            "cash_type": [
+                "card",
+                "cash"
+            ],
+            "coffee_name": [
+                "Latte",
+                "Hot Chocolate",
+                "Americano",
+                "Americano with Milk",
+                "Cocoa",
+                "Cortado",
+                "Espresso",
+                "Cappuccino"
+            ]
+        },
+        "column_type_inference": {
+            "date": "object",
+            "datetime": "object",
+            "cash_type": "object",
+            "card": "object",
+            "money": "numeric",
+            "coffee_name": "object"
+        },
+        "train_save_file": "./ihelon_coffee-sales_ts/source/train.csv",
+        "val_v1_save_file": "./ihelon_coffee-sales_ts/source/val_v1.csv",
+        "val_v2_save_file": "./ihelon_coffee-sales_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./ihelon_coffee-sales_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./ihelon_coffee-sales_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./ihelon_coffee-sales_ts/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 96,
+        "model_type": "Prophet",
+        "output_file": "./ihelon_coffee-sales_ts/prediction.json",
+        "ground_truth_v1_file": "./ihelon_coffee-sales_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./ihelon_coffee-sales_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./ihelon_coffee-sales_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2025-02-02 12:56:04.653000",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 5328600,
+        "ref": "ihelon/coffee-sales",
+        "subtitle": "Coffee sales in a vending machine",
+        "creatorName": "Yaroslav Isaienkov",
+        "creatorUrl": "ihelon",
+        "totalBytes": 43929,
+        "url": "https://www.kaggle.com/datasets/ihelon/coffee-sales",
+        "lastUpdated": "2025-03-25T10:20:05.000Z",
+        "downloadCount": 42342,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Yaroslav Isaienkov",
+        "ownerRef": "ihelon",
+        "kernelCount": 108,
+        "title": "Coffee Sales",
+        "viewCount": 168205,
+        "voteCount": 435,
+        "currentVersionNumber": 21,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13479,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65529
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14200,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34359
+            },
+            {
+                "ref": "retail and shopping",
+                "name": "retail and shopping",
+                "description": "",
+                "fullPath": "subject > people and society > people > retail and shopping",
+                "competitionCount": 6,
+                "datasetCount": 12258,
+                "scriptCount": 588,
+                "totalCount": 12852
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 5328600,
+        "datasetSlug": "coffee-sales",
+        "ownerUser": "ihelon",
+        "usabilityRating": 1.0,
+        "totalViews": 158669,
+        "totalVotes": 406,
+        "totalDownloads": 39388,
+        "title": "Coffee Sales",
+        "subtitle": "Coffee sales in a vending machine",
+        "description": "# Overview\nThis dataset contains detailed records of coffee sales from a vending machine. \nThe vending machine is the work of a dataset author who is committed to providing an open dataset to the community.\nIt is intended for analysis of purchasing patterns, sales trends, and customer preferences related to coffee products.\n\n# Data Collection Period\nThe dataset spans from March 2024 to Present time, capturing daily transaction data. And new information continues to be added.\n\n# Tasks\n- Time Series Exploratory Data Analysis\n- Next day/week/month sales\n- Specific customer purchases\n\n# Author\nYaroslav Isaienkov @ihelon\n\n\n=== About this file ===\n\nAbout this file\nAll cash and card transactions about purchasing coffee (machine_1)\n\n\n=== Columns & descriptions ===\n\ndate: Date of purchasing\ndatetime: Datetime of purchasing\ncash_type: Cash or card purchasing\ncard: Anonymous card number\nmoney: Amount of money in Ukrainian hryvnias\ncoffee_name: Coffee type\n",
+        "keywords": [
+            "business",
+            "beginner",
+            "data visualization",
+            "time series analysis",
+            "tabular",
+            "retail and shopping"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

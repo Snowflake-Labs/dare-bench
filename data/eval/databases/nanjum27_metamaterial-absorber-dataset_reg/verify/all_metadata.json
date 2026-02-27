@@ -1,0 +1,170 @@
+{
+    "question": {
+        "target": [
+            "Absorptance"
+        ],
+        "target_candidates": [
+            "Absorptance"
+        ],
+        "related_features": [
+            "m",
+            "Frequency",
+            "p"
+        ],
+        "not_filtered_related_features": [
+            "m",
+            "Frequency",
+            "p"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "m": [
+                3,
+                8
+            ],
+            "Frequency": [
+                0.0,
+                18.0
+            ],
+            "p": [
+                11,
+                14
+            ]
+        },
+        "selected_features": [
+            "Frequency",
+            "p"
+        ],
+        "train_v2_save_file": "./nanjum27_metamaterial-absorber-dataset_reg/source/train_v2.sqlite",
+        "val_v2_save_file": "./nanjum27_metamaterial-absorber-dataset_reg/source/val_v2.sqlite",
+        "val_no_err_save_file": "./nanjum27_metamaterial-absorber-dataset_reg/source/val_v1.sqlite",
+        "train_no_err_save_file": "./nanjum27_metamaterial-absorber-dataset_reg/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./nanjum27_metamaterial-absorber-dataset_reg/source/train_v1.sqlite",
+        "train_test_ratio": 0.7,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 58,
+        "model_type": "DecisionTreeRegressor",
+        "output_file": "./nanjum27_metamaterial-absorber-dataset_reg/prediction.csv",
+        "ground_truth_file": "./nanjum27_metamaterial-absorber-dataset_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./nanjum27_metamaterial-absorber-dataset_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "p": "numerical",
+            "m": "numerical",
+            "Frequency": "numerical",
+            "Absorptance": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Frequency",
+            "p"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 8051351,
+        "ref": "nanjum27/metamaterial-absorber-dataset",
+        "subtitle": "Parametric Terahertz Metamaterial Absorber Dataset",
+        "creatorName": "Nafisa Anjum",
+        "creatorUrl": "nanjum27",
+        "totalBytes": 73474,
+        "url": "https://www.kaggle.com/datasets/nanjum27/metamaterial-absorber-dataset",
+        "lastUpdated": "2025-08-11T18:41:57.000Z",
+        "downloadCount": 2,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Nafisa Anjum",
+        "ownerRef": "nanjum27",
+        "kernelCount": 1,
+        "title": "Metamaterial Absorber Dataset",
+        "viewCount": 60,
+        "voteCount": 1,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "earth and nature",
+                "name": "earth and nature",
+                "description": "",
+                "fullPath": "subject > earth and nature",
+                "competitionCount": 19,
+                "datasetCount": 79489,
+                "scriptCount": 394,
+                "totalCount": 79902
+            },
+            {
+                "ref": "physics",
+                "name": "physics",
+                "description": "Physics is the natural science that involves the study of matter and its motion and behavior through space and time, along with related concepts such as energy and force.",
+                "fullPath": "subject > earth and nature > physical science > physics",
+                "competitionCount": 17,
+                "datasetCount": 1492,
+                "scriptCount": 1070,
+                "totalCount": 2579
+            },
+            {
+                "ref": "artificial intelligence",
+                "name": "artificial intelligence",
+                "description": "This tag has datasets and kernels where people come together and use cutting-edge research to train models on pictures of cats.",
+                "fullPath": "subject > science and technology > computer science > artificial intelligence",
+                "competitionCount": 57,
+                "datasetCount": 2969,
+                "scriptCount": 2948,
+                "totalCount": 5974
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 8051351,
+        "datasetSlug": "metamaterial-absorber-dataset",
+        "ownerUser": "nanjum27",
+        "usabilityRating": 1.0,
+        "totalViews": 60,
+        "totalVotes": 1,
+        "totalDownloads": 3,
+        "title": "Metamaterial Absorber Dataset",
+        "subtitle": "Parametric Terahertz Metamaterial Absorber Dataset",
+        "description": "Parametric Terahertz Metamaterial Absorber Dataset\n\n**Description:**\nThis dataset contains 9,018 simulated measurements of a terahertz metamaterial absorber. Each record includes two geometric parameters (`p`, `m`), the excitation frequency, and the resulting absorptance. The data is well-structured with no missing values and covers frequency values from 0.0 to 18.0, with absorptance ranging from near zero to almost unity. It can be used for parametric analysis, regression modeling, and optimization studies in absorber design.\n\n**Dataset Overview:**\n- **Shape:** (9018, 4)\n- **Columns:** `p`, `m`, `Frequency`, `Absorptance`\n- **Data Types:** `int64`, `int64`, `float64`, `float64`\n- **Missing Values:** None\n- **Frequency Range:** 0.0 to 18.0\n- **Absorptance Range:** ~0.0 to ~1.0\n\n\n\ud83d\udcdd Citation\n```bibtex\n@article{anjum2025performance,\n  title={Performance Benchmarking of Machine Learning Models for Terahertz Metamaterial Absorber Prediction},\n  author={Anjum, Nafisa and Hasan, Robiul},\n  journal={arXiv preprint arXiv:2508.08611},\n  year={2025}\n}\n```\n\n=== About this file ===\n\nAbout this file\nDataset shape: (9018, 4)\nColumn names:\n['p', 'm', 'Frequency', 'Absorptance']\nData types:\np                int64\nm                int64\nFrequency      float64\nAbsorptance    float64\ndtype: object\n\n\n=== Columns & descriptions ===\n\np: Periodic Dimension\nm: Dielectric Thickness\nFrequency: Frequency\nAbsorptance: Absorbance\n",
+        "keywords": [
+            "earth and nature",
+            "physics",
+            "artificial intelligence",
+            "tabular",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

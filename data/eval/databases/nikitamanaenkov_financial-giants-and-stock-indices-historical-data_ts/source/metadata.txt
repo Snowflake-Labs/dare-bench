@@ -1,0 +1,111 @@
+#### **Overview**  
+This dataset provides **historical daily stock price data** for the **20 largest financial companies** and **major global stock indices**. It is designed for financial analysis, market trend exploration, and correlation studies. The dataset includes stock price history for the past **1 year** for financial companies and for stock indices.  
+
+#### **Contents**  
+The dataset consists of multiple CSV files:  
+1. **Stock data files (`stock_JPM.csv`, `stock_BAC.csv`, etc.)** – Each file contains daily price data for a specific financial company.  
+2. **`indices.csv`** – A merged dataset containing daily closing prices for major stock indices.  
+
+---
+
+### **Dataset Structure**  
+
+#### **1. Stock Data Files (`stock_JPM.csv`, `stock_BAC.csv`, etc.)**  
+Each stock file contains the following columns:  
+- **`Date`** – Trading day’s closing date (`YYYY-MM-DD` format).  
+- **`Open`** – Opening price of the stock.  
+- **`High`** – Highest price during the trading day.  
+- **`Low`** – Lowest price during the trading day.  
+- **`Close`** – Closing price of the stock.  
+- **`Volume`** – Number of shares traded.  
+
+**Removed Columns:**  
+- **`Dividends`** – Removed to focus on price movements.  
+- **`Stock Splits`** – Removed as it does not impact short-term trading analysis.  
+
+Each file represents a **single company’s** daily stock performance over the past **365 days**.  
+
+---
+
+#### **2. Stock Indices File (`indices.csv`)**  
+This file contains historical **daily closing prices** for major global stock indices over the past **six months**.  
+
+**Columns:**  
+- **`Date`** – Trading day’s closing date (`YYYY-MM-DD` format).  
+- **`GSPC`** – **S&P 500 Index**.  
+- **`IXIC`** – **NASDAQ Composite Index**.  
+- **`DJI`** – **Dow Jones Industrial Average (DJIA)**.  
+- **`RUT`** – **Russell 2000 Index**.  
+- **`GDAXI`** – **DAX Index (Germany)**.  
+- **`FTSE`** – **FTSE 100 Index (United Kingdom)**.  
+- **`FCHI`** – **CAC 40 Index (France)**.  
+- **`HSI`** – **Hang Seng Index (Hong Kong)**.  
+- **`N225`** – **Nikkei 225 Index (Japan)**.  
+- **`BSESN`** – **BSE Sensex Index (India)**.  
+- **`BVSP`** – **Bovespa Index (Brazil)**.  
+
+**Key Adjustments:**  
+- The **ticker for `S&P 500` (`^GSPC`) has been renamed to `GSPC`** to avoid special characters.  
+- The file **does not include separate index files**, only the merged dataset.  
+- Missing values are **forward-filled** to maintain continuity in time series analysis.  
+
+---
+
+### **Data Sources & Processing**  
+- Stock and index data were **collected and processed** using the **Yahoo Finance API**.  
+- The dataset was prepared with **[equity_analysis](https://github.com/niki8885/equity_analysis/tree/master/equity_analysis)**, a custom module developed for efficient equity data retrieval.  
+- The data updates cover:  
+  - **Financial companies:** Last **365 days** of daily price data.  
+  - **Stock indices:** Last **180 days** of daily closing prices.  
+
+---
+
+### **Potential Use Cases**  
+This dataset is valuable for:  
+✅ **Stock Market Analysis** – Studying price trends, volatility, and historical market behavior.  
+✅ **Financial Modeling** – Training machine learning models for market prediction.  
+✅ **Portfolio Optimization** – Analyzing the correlation between different financial assets.  
+✅ **Comparing Global Markets** – Investigating relationships between US, European, and Asian indices.  
+✅ **Backtesting Trading Strategies** – Using historical price data for algorithmic trading strategies.  
+
+---
+
+### **Technical Details**  
+- **File format:** CSV (comma-separated values)  
+- **Date format:** `YYYY-MM-DD`  
+- **Data interval:** **Daily**  
+- **Timezone:** UTC (without timezone adjustments)  
+- **Size:** Varies depending on the number of records  
+
+---
+
+### **Final Notes**  
+- The dataset is **regularly updated** with the latest stock and index data.  
+- It is intended for **educational and research purposes only**, not for real-time trading decisions.  
+- Future improvements may include additional financial indicators, sentiment analysis, or alternative data sources.  
+
+🚀 **Use this dataset to explore market trends, build models, and gain financial insights!**
+
+=== About this file ===
+
+About this file
+The indices.csv file contains historical daily closing prices for major global stock indices.
+If a market was closed on a particular day (e.g., holidays), the corresponding values might be missing.
+Missing values are forward-filled using the last available price.
+All dates are provided in UTC without timezone adjustments.
+
+
+=== Columns & descriptions ===
+
+Date: [no description]
+GSPC: S&P 500 Index
+IXIC: NASDAQ Composite Index
+DJI: Dow Jones Industrial Average
+RUT: Russell 2000 Index
+GDAXI: DAX Index
+FTSE: FTSE 100 Index
+FCHI: CAC 40 Index
+HSI: Hang Seng Index
+N225: Nikkei 225 Index
+BSESN: [no description]
+BVSP: [no description]

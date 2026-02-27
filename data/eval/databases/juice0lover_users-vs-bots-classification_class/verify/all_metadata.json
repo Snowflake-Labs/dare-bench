@@ -1,0 +1,444 @@
+{
+    "question": {
+        "target": [
+            "target"
+        ],
+        "target_candidates": [
+            "target"
+        ],
+        "related_features": [
+            "phone_numbers_ratio",
+            "has_games",
+            "has_interests",
+            "has_maiden_name",
+            "has_last_name",
+            "has_military_service",
+            "has_occupation",
+            "can_add_as_friend",
+            "posts_count",
+            "avg_keywords",
+            "has_relatives",
+            "occupation_type_work",
+            "has_hometown",
+            "has_first_name",
+            "links_ratio",
+            "has_short_name",
+            "has_personal_data",
+            "occupation_type_university",
+            "can_invite_to_group",
+            "gender",
+            "all_posts_visible",
+            "access_to_closed_profile",
+            "city",
+            "avg_text_uniqueness",
+            "has_mobile",
+            "has_schools",
+            "posting_frequency_days",
+            "avg_likes",
+            "ads_ratio",
+            "reposts_ratio",
+            "is_confirmed",
+            "has_quotes",
+            "has_universities",
+            "avg_views",
+            "has_career",
+            "has_music",
+            "marital_status",
+            "has_domain",
+            "has_photo",
+            "is_profile_closed",
+            "can_send_message",
+            "subscribers_count",
+            "has_status",
+            "can_post_on_wall",
+            "avg_comments",
+            "has_birth_date",
+            "has_activities",
+            "has_about",
+            "has_website",
+            "has_books",
+            "audio_available",
+            "has_movies",
+            "is_verified",
+            "hashtags_ratio",
+            "has_nickname",
+            "has_tv",
+            "attachments_ratio",
+            "is_blacklisted",
+            "avg_text_length"
+        ],
+        "not_filtered_related_features": [
+            "phone_numbers_ratio",
+            "has_games",
+            "has_maiden_name",
+            "has_interests",
+            "has_last_name",
+            "has_military_service",
+            "has_occupation",
+            "can_add_as_friend",
+            "posts_count",
+            "avg_keywords",
+            "has_first_name",
+            "has_relatives",
+            "has_short_name",
+            "has_hometown",
+            "links_ratio",
+            "occupation_type_work",
+            "has_personal_data",
+            "occupation_type_university",
+            "can_invite_to_group",
+            "gender",
+            "all_posts_visible",
+            "access_to_closed_profile",
+            "avg_text_uniqueness",
+            "has_mobile",
+            "has_schools",
+            "posting_frequency_days",
+            "avg_likes",
+            "ads_ratio",
+            "reposts_ratio",
+            "is_confirmed",
+            "has_quotes",
+            "has_universities",
+            "avg_views",
+            "has_career",
+            "has_music",
+            "marital_status",
+            "has_domain",
+            "has_photo",
+            "is_profile_closed",
+            "can_send_message",
+            "has_status",
+            "can_post_on_wall",
+            "avg_comments",
+            "has_birth_date",
+            "has_activities",
+            "has_about",
+            "has_website",
+            "has_books",
+            "audio_available",
+            "has_movies",
+            "is_verified",
+            "hashtags_ratio",
+            "has_nickname",
+            "has_tv",
+            "attachments_ratio",
+            "is_blacklisted",
+            "avg_text_length"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "can_send_message": [
+                "0.0",
+                "1.0",
+                "Unknown"
+            ],
+            "has_occupation": [
+                "Unknown",
+                "1.0"
+            ],
+            "has_tv": [
+                "Unknown",
+                "0.0",
+                "1.0"
+            ],
+            "marital_status": [
+                "Unknown",
+                "0.0",
+                "4.0",
+                "7.0",
+                "1.0",
+                "2.0",
+                "6.0",
+                "3.0",
+                "5.0"
+            ],
+            "avg_views": [
+                0.0,
+                41416.0
+            ],
+            "phone_numbers_ratio": [
+                0.0,
+                1.0
+            ],
+            "posts_count": [
+                1.0,
+                20.0
+            ],
+            "has_domain": [
+                "1.0",
+                "Unknown"
+            ],
+            "has_interests": [
+                "Unknown",
+                "0.0",
+                "1.0"
+            ],
+            "access_to_closed_profile": [
+                "1.0",
+                "0.0",
+                "Unknown"
+            ],
+            "has_quotes": [
+                "Unknown",
+                "0.0",
+                "1.0"
+            ],
+            "is_confirmed": [
+                "Unknown",
+                "0.0",
+                "1.0"
+            ],
+            "has_relatives": [
+                "Unknown",
+                "0.0",
+                "1.0"
+            ],
+            "ads_ratio": [
+                0.0,
+                1.0
+            ],
+            "all_posts_visible": [
+                "Unknown",
+                "1.0",
+                "0.0"
+            ],
+            "avg_text_uniqueness": [
+                0.0,
+                1.0
+            ],
+            "has_nickname": [
+                "Unknown",
+                "0.0",
+                "1.0"
+            ],
+            "has_status": [
+                "Unknown",
+                "0.0",
+                "1.0"
+            ],
+            "has_career": [
+                "Unknown",
+                "0.0",
+                "1.0"
+            ],
+            "has_movies": [
+                "Unknown",
+                "0.0",
+                "1.0"
+            ]
+        },
+        "selected_features": [
+            "has_nickname",
+            "avg_views",
+            "ads_ratio",
+            "has_tv",
+            "phone_numbers_ratio",
+            "marital_status",
+            "has_quotes",
+            "is_confirmed",
+            "has_occupation",
+            "has_relatives",
+            "can_send_message",
+            "posts_count"
+        ],
+        "train_v2_save_file": "./juice0lover_users-vs-bots-classification_class/source/train_v2.csv",
+        "val_v2_save_file": "./juice0lover_users-vs-bots-classification_class/source/val_v2.csv",
+        "val_no_err_save_file": "./juice0lover_users-vs-bots-classification_class/source/val_v1.csv",
+        "train_no_err_save_file": "./juice0lover_users-vs-bots-classification_class/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./juice0lover_users-vs-bots-classification_class/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "most_frequent",
+        "random_state": 44,
+        "model_type": "LinearSVC",
+        "output_file": "./juice0lover_users-vs-bots-classification_class/prediction.csv",
+        "ground_truth_file": "./juice0lover_users-vs-bots-classification_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./juice0lover_users-vs-bots-classification_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "has_domain": "categorical",
+            "has_birth_date": "categorical",
+            "has_photo": "categorical",
+            "can_post_on_wall": "categorical",
+            "can_send_message": "categorical",
+            "has_website": "categorical",
+            "gender": "categorical",
+            "has_short_name": "categorical",
+            "has_first_name": "categorical",
+            "has_last_name": "categorical",
+            "access_to_closed_profile": "categorical",
+            "is_profile_closed": "categorical",
+            "target": "categorical",
+            "has_nickname": "categorical",
+            "has_maiden_name": "categorical",
+            "has_mobile": "categorical",
+            "all_posts_visible": "categorical",
+            "audio_available": "categorical",
+            "has_interests": "categorical",
+            "has_books": "categorical",
+            "has_tv": "categorical",
+            "has_quotes": "categorical",
+            "has_about": "categorical",
+            "has_games": "categorical",
+            "has_movies": "categorical",
+            "has_activities": "categorical",
+            "has_music": "categorical",
+            "can_add_as_friend": "categorical",
+            "can_invite_to_group": "categorical",
+            "subscribers_count": "numerical",
+            "is_blacklisted": "categorical",
+            "has_career": "categorical",
+            "has_military_service": "categorical",
+            "has_hometown": "categorical",
+            "marital_status": "categorical",
+            "has_universities": "categorical",
+            "has_schools": "categorical",
+            "has_relatives": "categorical",
+            "is_verified": "categorical",
+            "is_confirmed": "categorical",
+            "has_status": "categorical",
+            "posts_count": "numerical",
+            "avg_likes": "numerical",
+            "links_ratio": "numerical",
+            "hashtags_ratio": "numerical",
+            "avg_keywords": "numerical",
+            "avg_text_length": "numerical",
+            "attachments_ratio": "numerical",
+            "avg_comments": "numerical",
+            "reposts_ratio": "numerical",
+            "ads_ratio": "numerical",
+            "avg_views": "numerical",
+            "posting_frequency_days": "numerical",
+            "phone_numbers_ratio": "numerical",
+            "avg_text_uniqueness": "numerical",
+            "city": "categorical",
+            "has_occupation": "categorical",
+            "occupation_type_university": "categorical",
+            "occupation_type_work": "categorical",
+            "has_personal_data": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "avg_views",
+            "ads_ratio",
+            "phone_numbers_ratio",
+            "posts_count"
+        ],
+        "categorical_features": [
+            "has_nickname",
+            "has_tv",
+            "marital_status",
+            "has_quotes",
+            "is_confirmed",
+            "has_occupation",
+            "has_relatives",
+            "can_send_message"
+        ]
+    },
+    "data_info": {
+        "id": 6999922,
+        "ref": "juice0lover/users-vs-bots-classification",
+        "subtitle": "Vkontakte (vk.com) fake and real users classification dataset",
+        "creatorName": "Aleksei Zagorskii",
+        "creatorUrl": "juice0lover",
+        "totalBytes": 112490,
+        "url": "https://www.kaggle.com/datasets/juice0lover/users-vs-bots-classification",
+        "lastUpdated": "2025-03-30T13:38:07.167Z",
+        "downloadCount": 3168,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Aleksei Zagorskii",
+        "ownerRef": "juice0lover",
+        "kernelCount": 19,
+        "title": "Users vs bots classification",
+        "viewCount": 14975,
+        "voteCount": 41,
+        "currentVersionNumber": 3,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "categorical",
+                "name": "categorical",
+                "description": "Categorical data are observations that fall into discrete categories, like dog breed, dog color or whether or not a dog likes chew toys.",
+                "fullPath": "data type > categorical",
+                "competitionCount": 40,
+                "datasetCount": 2985,
+                "scriptCount": 2411,
+                "totalCount": 5436
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "gradient boosting",
+                "name": "gradient boosting",
+                "description": "",
+                "fullPath": "technique > gradient boosting",
+                "competitionCount": 4,
+                "datasetCount": 128,
+                "scriptCount": 2611,
+                "totalCount": 2743
+            },
+            {
+                "ref": "binary classification",
+                "name": "binary classification",
+                "description": "",
+                "fullPath": "task > binary-classification",
+                "competitionCount": 11364,
+                "datasetCount": 1560,
+                "scriptCount": 7641,
+                "totalCount": 20565
+            },
+            {
+                "ref": "social networks",
+                "name": "social networks",
+                "description": "",
+                "fullPath": "subject > science and technology > internet > online communities > social networks",
+                "competitionCount": 6,
+                "datasetCount": 7333,
+                "scriptCount": 4517,
+                "totalCount": 11856
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6999922,
+        "datasetSlug": "users-vs-bots-classification",
+        "ownerUser": "juice0lover",
+        "usabilityRating": 1.0,
+        "totalViews": 14641,
+        "totalVotes": 41,
+        "totalDownloads": 3094,
+        "title": "Users vs bots classification",
+        "subtitle": "Vkontakte (vk.com) fake and real users classification dataset",
+        "description": "This dataset contains profile data collected from VK.com (VKontakte), Russia's largest social network, for distinguishing between genuine users and automated bots. The data includes both numerical and categorical features extracted from user profiles.\n\nData Collection:\nCollected from public VK.com profiles.\nIncludes both verified human users and verified bot accounts.\nRepresents realistic social network conditions with incomplete profiles.\n\nFeature Types:\nNumerical Features (NaN values preserved):\nActivity metrics (average posts per week, hashtag usage, etc.)\nFriend/follower counts.\nCategorical Features (missing values marked as 'unknown'):\nProfile attributes (has_photo, has_mobile, etc.)\nPrivacy settings (is_closed_profile, etc)\nBinary flags (can_post, can_message, etc)\n\nData Processing:\nMissing values handled differently by feature type:\nCategorical: Filled with 'unknown' string\nNumerical: Preserved as NaN\nBoolean values converted to binary (0/1) where applicable\n\nPotential Use Cases:\nBinary classification (user vs bot detection)\nSocial media behavior analysis\nAnomaly detection in social networks\nFeature engineering exercises\nDataset Size:\n5874 rows \u00d7 60 features (balanced 50/50))\n\n=== About this file ===\n\nAbout this file\nDataset csv file\n\n\n=== Columns & descriptions ===\n\nhas_domain: [no description]\nhas_birth_date: All values are 1 or unknown\nhas_photo: [no description]\ncan_post_on_wall: [no description]\ncan_send_message: [no description]\nhas_website: [no description]\ngender: 2 is unspecified\nhas_short_name: All values are 1\nhas_first_name: All values are 1\nhas_last_name: [no description]\naccess_to_closed_profile: [no description]\nis_profile_closed: [no description]\ntarget: [no description]\nhas_nickname: [no description]\nhas_maiden_name: [no description]\nhas_mobile: [no description]\nall_posts_visible: [no description]\naudio_available: [no description]\nhas_interests: [no description]\nhas_books: [no description]\nhas_tv: [no description]\nhas_quotes: [no description]\nhas_about: [no description]\nhas_games: [no description]\nhas_movies: [no description]\nhas_activities: [no description]\nhas_music: [no description]\ncan_add_as_friend: [no description]\ncan_invite_to_group: [no description]\nsubscribers_count: [no description]\nis_blacklisted: [no description]\nhas_career: [no description]\nhas_military_service: [no description]\nhas_hometown: [no description]\nmarital_status: [no description]\nhas_universities: [no description]\nhas_schools: [no description]\nhas_relatives: [no description]\nis_verified: [no description]\nis_confirmed: [no description]\nhas_status: [no description]\nposts_count: [no description]\navg_likes: [no description]\nlinks_ratio: [no description]\nhashtags_ratio: [no description]\navg_keywords: [no description]\navg_text_length: [no description]\nattachments_ratio: [no description]\navg_comments: [no description]\nreposts_ratio: [no description]\nads_ratio: [no description]\navg_views: [no description]\nposting_frequency_days: [no description]\nphone_numbers_ratio: [no description]\navg_text_uniqueness: [no description]\ncity: [no description]\nhas_occupation: [no description]\noccupation_type_university: [no description]\noccupation_type_work: [no description]\nhas_personal_data: [no description]\n",
+        "keywords": [
+            "categorical",
+            "classification",
+            "gradient boosting",
+            "binary classification",
+            "social networks"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

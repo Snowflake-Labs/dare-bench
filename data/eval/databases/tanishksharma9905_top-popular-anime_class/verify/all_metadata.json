@@ -1,0 +1,200 @@
+{
+    "question": {
+        "target": [
+            "rating",
+            "status"
+        ],
+        "target_candidates": [
+            "status",
+            "type",
+            "rating"
+        ],
+        "related_features": [
+            "episodes",
+            "scored_by",
+            "rank",
+            "studios",
+            "score",
+            "producers",
+            "duration_per_ep",
+            "genres",
+            "type"
+        ],
+        "not_filtered_related_features": [
+            "episodes",
+            "scored_by",
+            "rank",
+            "score"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "episodes": [
+                1.0,
+                3057.0
+            ],
+            "scored_by": [
+                101.0,
+                2943048.0
+            ],
+            "rank": [
+                0.0,
+                21729.0
+            ],
+            "score": [
+                1.0,
+                10.0
+            ]
+        },
+        "selected_features": [
+            "score",
+            "rank",
+            "episodes"
+        ],
+        "train_v2_save_file": "./tanishksharma9905_top-popular-anime_class/source/train_v2.parquet",
+        "val_v2_save_file": "./tanishksharma9905_top-popular-anime_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./tanishksharma9905_top-popular-anime_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./tanishksharma9905_top-popular-anime_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./tanishksharma9905_top-popular-anime_class/source/train_v1.parquet",
+        "train_test_ratio": 0.9,
+        "save_file_type": "parquet",
+        "imputer_type": "most_frequent",
+        "random_state": 71,
+        "model_type": "LogisticRegression",
+        "output_file": "./tanishksharma9905_top-popular-anime_class/prediction.csv",
+        "ground_truth_file": "./tanishksharma9905_top-popular-anime_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./tanishksharma9905_top-popular-anime_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "id": "categorical",
+            "name": "categorical",
+            "genres": "categorical",
+            "type": "categorical",
+            "episodes": "numerical",
+            "status": "categorical",
+            "aired_from": "numerical",
+            "aired_to": "numerical",
+            "duration_per_ep": "numerical",
+            "score": "numerical",
+            "scored_by": "numerical",
+            "rank": "numerical",
+            "rating": "categorical",
+            "studios": "categorical",
+            "producers": "categorical",
+            "image": "categorical",
+            "trailer": "categorical",
+            "synopsis": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "score",
+            "rank",
+            "episodes"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7691220,
+        "ref": "tanishksharma9905/top-popular-anime",
+        "subtitle": "most popular anime with 22000+ entries in dataset scraped from the Jikan API.",
+        "creatorName": "Tanishk Sharma",
+        "creatorUrl": "tanishksharma9905",
+        "totalBytes": 5363394,
+        "url": "https://www.kaggle.com/datasets/tanishksharma9905/top-popular-anime",
+        "lastUpdated": "2025-06-18T16:51:50.807Z",
+        "downloadCount": 1659,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Tanishk Sharma",
+        "ownerRef": "tanishksharma9905",
+        "kernelCount": 8,
+        "title": "Top Popular Anime",
+        "viewCount": 6962,
+        "voteCount": 38,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "recommender systems",
+                "name": "recommender systems",
+                "description": "",
+                "fullPath": "technique > recommender systems",
+                "competitionCount": 15,
+                "datasetCount": 769,
+                "scriptCount": 1372,
+                "totalCount": 2156
+            },
+            {
+                "ref": "anime and manga",
+                "name": "anime and manga",
+                "description": "",
+                "fullPath": "subject > arts and entertainment > comics and animation > anime and manga",
+                "competitionCount": 4,
+                "datasetCount": 3481,
+                "scriptCount": 760,
+                "totalCount": 4245
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7691220,
+        "datasetSlug": "top-popular-anime",
+        "ownerUser": "tanishksharma9905",
+        "usabilityRating": 1.0,
+        "totalViews": 797,
+        "totalVotes": 5,
+        "totalDownloads": 146,
+        "title": "Top Popular Anime",
+        "subtitle": "most popular anime with 22000+ entries in dataset scraped from the Jikan API.",
+        "description": "\ud83d\udcd6 Description\n\nThis dataset contains detailed information about the top anime series and movies as ranked on MyAnimeList, sourced through the Jikan API \u2014 an unofficial REST API for MyAnimeList.\n\nIt includes data from over 1,100+ pages (more than 22,000 anime entries), making it one of the most comprehensive open-source anime datasets available.\n\nThe dataset was collected using a custom Python script that respects API rate limits and includes logging, error handling, and structured ingestion into a SQL database.\n\n\ud83d\udcc8 Potential Uses:-\n\nAnime recommendation systems\n\nData visualization and trend analysis\n\nNatural Language Processing (NLP) on synopses\n\nAnime clustering by genres or ratings\n\nStudio performance analytics\n\n=== About this file ===\n\nAbout this file\n\u26a0\ufe0f Notes on Missing Values\nSome values may be null due to unavailability in the source:\nSome anime do not have English titles (name)\nNew or niche anime might not have scores, trailers, or episode duration\naired_to will be null for currently airing anime\nColumn\nDescription\nid\nUnique identifier (MyAnimeList ID)\nname\nEnglish title of the anime (fallback to original or Japanese title)\ngenres\nComma-separated list of genres\ntype\nType of anime (e.g. TV, Movie, OVA)\nepisodes\nNumber of episodes\nstatus\nAiring status (Finished, Airing, Upcoming)\naired_from\nStart date of airing\naired_to\nEnd date of airing\nduration_per_ep\nDuration per episode\nscore\nUser score (rating out of 10)\nscored_by\nNumber of users who rated it\nrank\nRank on MyAnimeList\nrating\nAge rating (e.g., PG-13, R)\nstudios\nStudios involved in production\nproducers\nProducers listed\nimage\nURL to the cover image\ntrailer\nURL to the trailer video\nsynopsis\nShort plot summary\n\n\n=== Columns & descriptions ===\n\nid: Unique identifier (MyAnimeList ID)\nname: English title of the anime (fallback to original or Japanese title)\ngenres: Comma-separated list of genres\ntype: Type of anime (e.g. TV, Movie, OVA)\nepisodes: Number of episodes\nstatus: Airing status (Finished, Airing, Upcoming)\naired_from: Start date of airing\naired_to: End date of airing\nduration_per_ep: Duration per episode\nscore: User score (rating out of 10)\nscored_by: [no description]\nrank: [no description]\nrating: [no description]\nstudios: [no description]\nproducers: [no description]\nimage: [no description]\ntrailer: [no description]\nsynopsis: [no description]\n",
+        "keywords": [
+            "exploratory data analysis",
+            "data visualization",
+            "classification",
+            "recommender systems",
+            "anime and manga"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+This dataset contains daily weather data for major cities in India from January 1, 2000 to December 31, 2024. It is designed for use in climate analysis, weather trend studies, and machine learning applications such as regression, forecasting, and time-series modeling.
+
+It includes both standard and apparent (feels-like) temperatures, along with various meteorological measurements.
+
+---
+
+### 🌦️ Features Included:
+
+- **city** – Name of the Indian city
+- **date** – Daily timestamp (YYYY-MM-DD)
+- **temperature_2m_max (°C)** – Maximum air temperature at 2 meters height
+- **temperature_2m_min (°C)** – Minimum air temperature at 2 meters height
+- **apparent_temperature_max (°C)** – Feels-like max temperature considering humidity & wind
+- **apparent_temperature_min (°C)** – Feels-like min temperature
+- **precipitation_sum (mm)** – Total daily precipitation
+- **rain_sum (mm)** – Total daily rainfall
+- **weather_code** – WMO weather interpretation code
+- **wind_speed_10m_max (km/h)** – Max wind speed at 10m height
+- **wind_gusts_10m_max (km/h)** – Max wind gusts at 10m
+- **wind_direction_10m_dominant (°)** – Dominant wind direction in degrees
+
+---
+
+### 📅 Time Period:
+- **Start:** 2000-01-01  
+- **End:** 2024-12-31
+
+---
+
+### 📍 Geographic Coverage:
+- Ahmedabad
+- Bangalore
+- Chennai
+- Delhi
+- Hyderabad
+- Jaipur
+- Kolkata
+- Lucknow
+- Mumbai
+- Pune
+
+---
+
+### 📚 Use Cases:
+- Climate trend analysis
+- Time-series and regression modeling
+- Weather forecasting using ML
+- Environmental and energy impact analysis
+- Study of apparent vs actual temperature impact
+
+---
+
+### 📁 Format:
+- CSV file with 12 columns and over 9,000 rows per city (depending on city count)
+
+---
+
+### ⚠️ Notes:
+- Weather codes follow WMO standards
+- Apparent temperature is calculated using wind and humidity factors
+- Data is cleaned and ready for use in Python, R, or ML pipelines
+
+---
+
+If you use this dataset in your work, please consider citing it or sharing the source to help others discover it.
+
+
+=== About this file ===
+
+About this file
+A cleaned CSV file containing daily weather data for 10 major Indian cities from 2000 to 2024.
+Rows: ~91,000+ (10 cities × ~9,131 days)
+Columns: 12
+Format: UTF-8, comma-separated
+Date range: 2000-01-01 to 2024-12-31
+Ready for time-series, regression, and forecasting tasks
+
+
+=== Columns & descriptions ===
+
+city: Name of the Indian city where the weather data was recorded
+date: Date of the observation in YYYY-MM-DD format
+temperature_2m_max: Maximum air temperature at 2 meters above ground
+temperature_2m_min: Minimum air temperature at 2 meters above ground
+apparent_temperature_max: Maximum feels-like temperature (adjusted for humidity and wind)
+apparent_temperature_min: Minimum feels-like temperature
+precipitation_sum: Total daily precipitation including all forms (rain, snow, etc.)
+rain_sum: Total daily rainfall (liquid precipitation only)
+weather_code: Encoded weather condition based on WMO standards
+wind_speed_10m_max: Maximum wind speed measured at 10 meters above ground
+wind_gusts_10m_max: Maximum wind gusts measured at 10 meters
+wind_direction_10m_dominant: Dominant wind direction (in degrees from north) at 10 meters

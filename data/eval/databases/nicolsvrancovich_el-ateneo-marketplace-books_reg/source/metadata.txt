@@ -1,0 +1,31 @@
+The data comes from the website of [*El Ateneo*](https://es.wikipedia.org/wiki/El_Ateneo_Grand_Splendid), one of the most iconic and traditional bookstores in Argentina. 
+
+El Ateneo Grand Splendid is one of the most iconic bookstores in the world, located in the neighborhood of Recoleta, in Buenos Aires, Argentina. Originally opened in 1912 as the Grand Splendid Theater, the building has a rich cultural history. 
+
+In the early 2000s, the space was carefully transformed into a bookstore by the Argentine publishing house Grupo Ilhsa, preserving much of the theater’s original architecture. 
+
+El Ateneo has received international acclaim for its beauty and atmosphere. In 2008, the British newspaper The Guardian ranked it as the second most beautiful bookstore in the world. Later, in 2019, National Geographic named it the most beautiful bookstore in the world.
+
+The dataset was generated through web scraping performed on May 17th, 2025, capturing information about books listed on [*El Ateneo's online marketplace*](https://www.yenny-elateneo.com/libros/).
+
+=== About this file ===
+
+About this file
+Contains over 15k books, ready for exploring patterns, trends, and preferences in the Argentinian publishing industry.
+
+
+=== Columns & descriptions ===
+
+url: Web link to the book’s page.
+codigo_isbn: ISBN number (unique book identifier).
+titulo: Title of the book.
+autor: Author of the book.
+editorial: Publisher of the book.
+idioma: Language the book is written in.
+nro_paginas: Total number of pages in the book.
+fecha_publicacion: Date the book was published.
+encuadernacion: Type of book binding or format.
+categoria: Main category or classification of the book.
+genero: Genre of the book (e.g., fiction, history).
+subgenero: More specific subgenre classification.
+precio: Price of the book in local currency.

@@ -1,0 +1,175 @@
+{
+    "question": {
+        "target": [
+            "Transaction Type",
+            "Transaction Status"
+        ],
+        "target_candidates": [
+            "Transaction Status",
+            "Transaction Type"
+        ],
+        "related_features": [
+            "Transaction Amount",
+            "Product Purchased",
+            "Transaction Date",
+            "Payment Method"
+        ],
+        "not_filtered_related_features": [
+            "Transaction Amount",
+            "Payment Method"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Transaction Amount": [
+                20.0,
+                500.0
+            ],
+            "Payment Method": [
+                "Cash",
+                "PayPal",
+                "Gift Card",
+                "Credit Card",
+                "Debit Card"
+            ]
+        },
+        "selected_features": [
+            "Payment Method",
+            "Transaction Amount"
+        ],
+        "train_v2_save_file": "./johnkiriba_customer-segmentation-transactions_class/source/train_v2.csv",
+        "val_v2_save_file": "./johnkiriba_customer-segmentation-transactions_class/source/val_v2.csv",
+        "val_no_err_save_file": "./johnkiriba_customer-segmentation-transactions_class/source/val_v1.csv",
+        "train_no_err_save_file": "./johnkiriba_customer-segmentation-transactions_class/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./johnkiriba_customer-segmentation-transactions_class/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "most_frequent",
+        "random_state": 12,
+        "model_type": "LogisticRegression",
+        "output_file": "./johnkiriba_customer-segmentation-transactions_class/prediction.csv",
+        "ground_truth_file": "./johnkiriba_customer-segmentation-transactions_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./johnkiriba_customer-segmentation-transactions_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Customer ID": "categorical",
+            "Transaction Date": "categorical",
+            "Product Purchased": "categorical",
+            "Transaction Amount": "numerical",
+            "Payment Method": "categorical",
+            "Transaction Status": "categorical",
+            "Transaction Type": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Transaction Amount"
+        ],
+        "categorical_features": [
+            "Payment Method"
+        ]
+    },
+    "data_info": {
+        "id": 7462979,
+        "ref": "johnkiriba/customer-segmentation-transactions",
+        "subtitle": "Customer segmentation transcation data",
+        "creatorName": "Chiwai",
+        "creatorUrl": "johnkiriba",
+        "totalBytes": 4194921,
+        "url": "https://www.kaggle.com/datasets/johnkiriba/customer-segmentation-transactions",
+        "lastUpdated": "2025-05-19T18:31:10.497Z",
+        "downloadCount": 269,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Chiwai",
+        "ownerRef": "johnkiriba",
+        "kernelCount": 1,
+        "title": "Customer Transactions",
+        "viewCount": 1306,
+        "voteCount": 5,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "k-means",
+                "name": "k-means",
+                "description": "",
+                "fullPath": "technique > k-means",
+                "competitionCount": 2,
+                "datasetCount": 193,
+                "scriptCount": 1695,
+                "totalCount": 1890
+            },
+            {
+                "ref": "retail and shopping",
+                "name": "retail and shopping",
+                "description": "",
+                "fullPath": "subject > people and society > people > retail and shopping",
+                "competitionCount": 6,
+                "datasetCount": 12258,
+                "scriptCount": 588,
+                "totalCount": 12852
+            },
+            {
+                "ref": "synthetic",
+                "name": "synthetic",
+                "description": "",
+                "fullPath": "data type > synthetic",
+                "competitionCount": 8,
+                "datasetCount": 510,
+                "scriptCount": 70,
+                "totalCount": 588
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7462979,
+        "datasetSlug": "customer-segmentation-transactions",
+        "ownerUser": "johnkiriba",
+        "usabilityRating": 0.9411764705882353,
+        "totalViews": 1051,
+        "totalVotes": 4,
+        "totalDownloads": 205,
+        "title": "Customer Transactions",
+        "subtitle": "Customer segmentation transcation data",
+        "description": "The dataset contains 100000 entries and mimics real time transactional data for customers over a period of time. It contains the, Customer ID, Payment Method, Product Purchased, Transaction Amount, Transaction Date, Transaction Status, and Transaction Type\n\n=== About this file ===\n\nAbout this file\nCustomers\n\n\n=== Columns & descriptions ===\n\nCustomer ID: Customer ID\nTransaction Date: Date of transaction\nProduct Purchased: Product that was purchased\nTransaction Amount: Amount incurred\nPayment Method: Payment method used\nTransaction Status: Status of transaction\nTransaction Type: Type of transaction\n",
+        "keywords": [
+            "exploratory data analysis",
+            "classification",
+            "k-means",
+            "retail and shopping",
+            "synthetic"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

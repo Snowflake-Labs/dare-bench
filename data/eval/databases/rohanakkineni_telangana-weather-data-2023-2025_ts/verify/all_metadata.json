@@ -1,0 +1,195 @@
+{
+    "question": {
+        "target": [
+            "Rain (mm)"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%d-%b-%y",
+        "is_resampled": false,
+        "related_features": [
+            "District",
+            "Mandal",
+            "Min Temp (\u00b0C)",
+            "Max Temp (\u00b0C)",
+            "Min Humidity (%)",
+            "Max Humidity (%)",
+            "Min Wind Speed (Kmph)",
+            "Max Wind Speed (Kmph)"
+        ],
+        "not_filtered_related_features": [
+            "Min Temp (\u00b0C)",
+            "Max Temp (\u00b0C)",
+            "Min Humidity (%)",
+            "Max Humidity (%)",
+            "Min Wind Speed (Kmph)",
+            "Max Wind Speed (Kmph)"
+        ],
+        "selected_features": [
+            "Max Wind Speed (Kmph)",
+            "Max Humidity (%)",
+            "Min Wind Speed (Kmph)",
+            "Max Temp (\u00b0C)"
+        ],
+        "expected_ranges": {
+            "Min Temp (\u00b0C)": [
+                0.0,
+                35.3
+            ],
+            "Max Temp (\u00b0C)": [
+                -1.0,
+                47.2
+            ],
+            "Min Humidity (%)": [
+                -1.0,
+                99.9
+            ],
+            "Max Humidity (%)": [
+                0.0,
+                100.0
+            ],
+            "Min Wind Speed (Kmph)": [
+                0.0,
+                28.8
+            ],
+            "Max Wind Speed (Kmph)": [
+                0.0,
+                69.9
+            ]
+        },
+        "column_type_inference": {
+            "District": "object",
+            "Mandal": "object",
+            "Date": "object",
+            "Rain (mm)": "numeric",
+            "Min Temp (\u00b0C)": "numeric",
+            "Max Temp (\u00b0C)": "numeric",
+            "Min Humidity (%)": "numeric",
+            "Max Humidity (%)": "numeric",
+            "Min Wind Speed (Kmph)": "numeric",
+            "Max Wind Speed (Kmph)": "numeric"
+        },
+        "train_save_file": "./rohanakkineni_telangana-weather-data-2023-2025_ts/source/train.csv",
+        "val_v1_save_file": "./rohanakkineni_telangana-weather-data-2023-2025_ts/source/val_v1.csv",
+        "val_v2_save_file": "./rohanakkineni_telangana-weather-data-2023-2025_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./rohanakkineni_telangana-weather-data-2023-2025_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./rohanakkineni_telangana-weather-data-2023-2025_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./rohanakkineni_telangana-weather-data-2023-2025_ts/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 92,
+        "model_type": "Prophet",
+        "output_file": "./rohanakkineni_telangana-weather-data-2023-2025_ts/prediction.json",
+        "ground_truth_v1_file": "./rohanakkineni_telangana-weather-data-2023-2025_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./rohanakkineni_telangana-weather-data-2023-2025_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./rohanakkineni_telangana-weather-data-2023-2025_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2024-01-25 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 6931358,
+        "ref": "rohanakkineni/telangana-weather-data-2023-2025",
+        "subtitle": "Implement and Test models on Real Time Weather Data of Telangana",
+        "creatorName": "Rohan Akkineni",
+        "creatorUrl": "rohanakkineni",
+        "totalBytes": 5806418,
+        "url": "https://www.kaggle.com/datasets/rohanakkineni/telangana-weather-data-2023-2025",
+        "lastUpdated": "2025-03-21T12:03:21.000Z",
+        "downloadCount": 41,
+        "licenseName": "Attribution 4.0 International (CC BY 4.0)",
+        "description": "",
+        "ownerName": "Rohan Akkineni",
+        "ownerRef": "rohanakkineni",
+        "kernelCount": 1,
+        "title": "Telangana Weather Data (2023-2025)",
+        "viewCount": 177,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "weather and climate",
+                "name": "weather and climate",
+                "description": "Weather datasets and kernels come in all wind speeds and directions. You have weather data about hurricanes and other inclement phenomena, hourly readings, and general weather for various cities.",
+                "fullPath": "subject > earth and nature > environment > weather and climate",
+                "competitionCount": 42,
+                "datasetCount": 1439,
+                "scriptCount": 667,
+                "totalCount": 2148
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13479,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65529
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "data analytics",
+                "name": "data analytics",
+                "description": "",
+                "fullPath": "technique > data analytics",
+                "competitionCount": 32,
+                "datasetCount": 9201,
+                "scriptCount": 15324,
+                "totalCount": 24557
+            },
+            {
+                "ref": "deep learning",
+                "name": "deep learning",
+                "description": "",
+                "fullPath": "technique > deep learning",
+                "competitionCount": 70,
+                "datasetCount": 4482,
+                "scriptCount": 17709,
+                "totalCount": 22261
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6931358,
+        "datasetSlug": "telangana-weather-data-2023-2025",
+        "ownerUser": "rohanakkineni",
+        "usabilityRating": 1.0,
+        "totalViews": 149,
+        "totalDownloads": 37,
+        "title": "Telangana Weather Data (2023-2025)",
+        "subtitle": "Implement and Test models on Real Time Weather Data of Telangana",
+        "description": "The dataset was retrieved from Open Data Telangana, from February 1, 2023, to January 31, 2025 with daily granularity. The dataset contains various fields such as District, Mandal, Date, rainfall (in millimeters), minimum and maximum temperature (in Celsius), minimum and maximum wind speed, and humidity. It provides a District and Mandal wise distribution as well.\n\nTotal Rows - 4,45,213\nTotal Columns - 10\n\n=== About this file ===\n\nAbout this file\nColumn Descriptors\nDistrict\n- Name of District (String)\nMandal\n- Name of Mandal (String)\nDate\n- Date (String)\nRain (mm)\n- Rainfall as measured in millimeters (Float)\nMin Temp (\u00b0C)\n- Minimum Temperature as measured in Celsius (Float)\nMax Temp (\u00b0C)\n- Maximum Temperature as measured in Celsius (Float)\nMin Humidity (%)\n- Minimum Humidity as measured in Percentage (Float)\nMax Humidity (%)\n- Maximum Humidity as measured in Percentage (Float)\nMin Wind Speed (Kmph)\n- Minimum Windspeed as measured in Kmph (Float)\nMax Wind Speed (Kmph)\n- Maximum Windspeed as measured in Kmph (Float)\n\n\n=== Columns & descriptions ===\n\nDistrict: Name of District (String)\nMandal: Name of Mandal (String)\nDate: Date (String)\nRain (mm): Rainfall as measured in millimeters (Float)\nMin Temp (\u00b0C): Minimum Temperature as measured in Celsius (Float)\nMax Temp (\u00b0C): Maximum Temperature as measured in Celsius (Float)\nMin Humidity (%): Minimum Humidity as measured in Percentage (Float)\nMax Humidity (%): Maximum Humidity as measured in Percentage (Float)\nMin Wind Speed (Kmph): Minimum Windspeed as measured in Kmph (Float)\nMax Wind Speed (Kmph): Maximum Windspeed as measured in Kmph (Float)\n",
+        "keywords": [
+            "weather and climate",
+            "beginner",
+            "time series analysis",
+            "data analytics",
+            "deep learning"
+        ],
+        "licenses": [
+            {
+                "name": "Attribution 4.0 International (CC BY 4.0)"
+            }
+        ]
+    }
+}

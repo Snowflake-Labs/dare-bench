@@ -1,0 +1,23 @@
+This dataset contains comprehensive 5-year financial data for 8 major automotive companies listed on Borsa Istanbul (BIST). It includes daily trading information for leading Turkish automotive firms such as Anadolu Isuzu, Dogus Oto, Ford Otosan, Karsan, Otokar, Tofas, Tumosan, and Turk Traktor, covering the period from 2020 to 2025.
+
+The dataset provides complete daily trading metrics for each stock, including opening and closing prices, daily highs and lows, daily returns, adjusted closing prices, and trading volumes. With 10,000 rows of data, it offers researchers and analysts a rich resource for in-depth examination of the Turkish automotive sector's financial performance over a significant time period.
+
+This dataset serves as an ideal resource for various financial analysis studies, including time series analysis, stock price prediction, sector performance comparison, and portfolio optimization. The clean and structured format makes it readily usable for both academic research and practical investment analysis, providing valuable insights into one of Turkey's key industrial sectors.
+
+=== About this file ===
+
+About this file
+The dataset contains daily stock market data organized in a tabular format where each row represents a single trading day for a specific automotive stock. The data is structured for immediate analysis without requiring additional preprocessing.
+
+
+=== Columns & descriptions ===
+
+date: Trading date in standard format
+stock_name: Name of the automotive company
+open: Opening price of the stock at the beginning of the trading day
+high: Highest price reached by the stock during the trading day
+low: Lowest price reached by the stock during the trading day
+close: Closing price of the stock at the end of the trading day
+daily_return: Daily percentage return calculated as (close - previous_close) / previous_close
+adj_close: Adjusted closing price that accounts for dividends, stock splits, and other corporate actions
+volume: Total number of shares traded during the trading day

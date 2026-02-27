@@ -1,0 +1,217 @@
+{
+    "question": {
+        "target": [
+            "Timely response?"
+        ],
+        "target_candidates": [
+            "Timely response?",
+            "Consumer disputed?"
+        ],
+        "related_features": [
+            "Issue",
+            "Company",
+            "QTR (US FLY)",
+            "Submitted via",
+            "Year",
+            "Consumer disputed?",
+            "Product",
+            "State",
+            "Resolution time(in days)"
+        ],
+        "not_filtered_related_features": [
+            "Submitted via",
+            "QTR (US FLY)",
+            "Year",
+            "Product",
+            "Resolution time(in days)"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Submitted via": [
+                "Web",
+                "Email",
+                "Postal mail",
+                "Phone",
+                "Fax"
+            ],
+            "QTR (US FLY)": [
+                "Q4",
+                "Q1",
+                "Q2",
+                "Q3"
+            ],
+            "Year": [
+                2013,
+                2016
+            ],
+            "Product": [
+                "Mortgage",
+                "Debt collection",
+                "Credit card",
+                "Credit reporting",
+                "Student loan",
+                "Bank account or service",
+                "Payday loan",
+                "Consumer Loan",
+                "Prepaid card",
+                "Money transfers",
+                "Other financial service",
+                "Virtual currency"
+            ],
+            "Resolution time(in days)": [
+                -1,
+                286
+            ]
+        },
+        "selected_features": [
+            "Resolution time(in days)",
+            "QTR (US FLY)",
+            "Product"
+        ],
+        "train_v2_save_file": "./anandshaw2001_consumer-complaints_class/source/train_v2.csv",
+        "val_v2_save_file": "./anandshaw2001_consumer-complaints_class/source/val_v2.csv",
+        "val_no_err_save_file": "./anandshaw2001_consumer-complaints_class/source/val_v1.csv",
+        "train_no_err_save_file": "./anandshaw2001_consumer-complaints_class/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./anandshaw2001_consumer-complaints_class/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "median",
+        "random_state": 11,
+        "model_type": "GaussianNB",
+        "output_file": "./anandshaw2001_consumer-complaints_class/prediction.csv",
+        "ground_truth_file": "./anandshaw2001_consumer-complaints_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./anandshaw2001_consumer-complaints_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "ID": "categorical",
+            "Company": "categorical",
+            "Product": "categorical",
+            "Issue": "categorical",
+            "State": "categorical",
+            "Submitted via": "categorical",
+            "Date received": "categorical",
+            "Date resolved": "categorical",
+            "Timely response?": "categorical",
+            "Consumer disputed?": "categorical",
+            "state name": "categorical",
+            "Date received.1": "categorical",
+            "Date resolved.1": "categorical",
+            "Resolution time(in days)": "numerical",
+            "Year": "numerical",
+            "QTR (US FLY)": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Resolution time(in days)"
+        ],
+        "categorical_features": [
+            "QTR (US FLY)",
+            "Product"
+        ]
+    },
+    "data_info": {
+        "id": 6748478,
+        "ref": "anandshaw2001/consumer-complaints",
+        "subtitle": " Uncover Trends | Analyze Resolutions | Improve Customer Experience",
+        "creatorName": "Anand Shaw",
+        "creatorUrl": "anandshaw2001",
+        "totalBytes": 417445,
+        "url": "https://www.kaggle.com/datasets/anandshaw2001/consumer-complaints",
+        "lastUpdated": "2025-02-26T17:54:03.000Z",
+        "downloadCount": 430,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Anand Shaw",
+        "ownerRef": "anandshaw2001",
+        "kernelCount": 1,
+        "title": "Consumer Complaints Dataset",
+        "viewCount": 2705,
+        "voteCount": 13,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "arts and entertainment",
+                "name": "arts and entertainment",
+                "description": "Activities that holds the attention and interest of an audience, or gives pleasure and delight. It can be an idea or a task, but is more likely to be one of the activities or events that have developed over thousands of years specifically for the purpose of keeping an audience's attention.",
+                "fullPath": "subject > arts and entertainment",
+                "competitionCount": 3,
+                "datasetCount": 72636,
+                "scriptCount": 22779,
+                "totalCount": 95418
+            },
+            {
+                "ref": "computer science",
+                "name": "computer science",
+                "description": "There is one thing we can say for sure about computer science: Computer science leads to more computer games which leads to better GPUs which leads to smarter AI.",
+                "fullPath": "subject > science and technology > computer science",
+                "competitionCount": 10,
+                "datasetCount": 57850,
+                "scriptCount": 733,
+                "totalCount": 58593
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6748478,
+        "datasetSlug": "consumer-complaints",
+        "ownerUser": "anandshaw2001",
+        "usabilityRating": 1.0,
+        "totalViews": 2705,
+        "totalVotes": 13,
+        "totalDownloads": 431,
+        "title": "Consumer Complaints Dataset",
+        "subtitle": " Uncover Trends | Analyze Resolutions | Improve Customer Experience",
+        "description": "# Don't forget to hit the upvote\ud83d\ude4f\ud83d\ude42\n\n\nThe `Consumer Complaints Dataset` is a structured collection of 14,000 complaints filed by customers regarding financial products and services. It is designed to analyze consumer grievances, company responses, and resolution efficiency. The dataset helps in identifying patterns in customer complaints, dispute trends, resolution times, and company performance across different financial institutions.\n\nThis dataset is crucial for financial analysts, data scientists, regulatory bodies, and businesses looking to improve customer satisfaction, ensure compliance, and optimize their complaint resolution processes.\n\n\n\n## Columns-Details:\n\n`ID (int)` \u2013 A unique identifier for each complaint.\n\n`Company (object)` \u2013 The name of the company that received the complaint.\n\n`Product (object)` \u2013 The type of financial product the complaint is about (e.g., Mortgage, Credit card).\n\n`Issue (object)` \u2013 The specific issue related to the complaint (e.g., Loan servicing, Billing issues).\n\n`State (object)` \u2013 The U.S. state where the complaint was filed.\n\n`Submitted via (object)` \u2013 The method used to submit the complaint (e.g., Web, Phone, Email).\n\n`Date received (object)` \u2013 The date the complaint was received.\n\n`Date resolved (object)` \u2013 The date the complaint was resolved.\n\n`Timely response? (object)` \u2013 Indicates whether the company responded in a timely manner (Yes/No).\n\n`Consumer disputed? (object)` \u2013 Indicates whether the consumer disputed the company\u2019s response (Yes/No).\n\n`State name (object)` \u2013 The full name of the U.S. state corresponding to the \"State\" column.\n\n`Date received.1 (object)` \u2013 Duplicate of the \"Date received\" column.\n\n`Date resolved.1 (object)` \u2013 Duplicate of the \"Date resolved\" column.\n\n`Resolution time (in days) (int)` \u2013 The number of days taken to resolve the complaint.\n\n`Year (int)` \u2013 The year in which the complaint was filed.\n\n`QTR (US FLY) (object)` \u2013 The quarter of the year in which the complaint was filed (e.g., Q1, Q2, Q3, Q4).\n\n=== About this file ===\n\nAbout this file\nYour dataset file (Consumer Complaints Dataset) contains 14,000 consumer complaints with 16 columns related to customer grievances in the financial sector.\n\n\n=== Columns & descriptions ===\n\nID: unique identifier for each complaint\nCompany: [no description]\nProduct: [no description]\nIssue: [no description]\nState: [no description]\nSubmitted via: [no description]\nDate received: [no description]\nDate resolved: [no description]\nTimely response?: [no description]\nConsumer disputed?: [no description]\nstate name: [no description]\nResolution time(in days): [no description]\nYear: [no description]\nQTR (US FLY): [no description]\n",
+        "keywords": [
+            "arts and entertainment",
+            "computer science",
+            "exploratory data analysis",
+            "data visualization",
+            "classification"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

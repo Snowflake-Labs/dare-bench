@@ -1,0 +1,29 @@
+**Transactional data used for retail or e-commerce analytics.**
+
+Common analysis tasks include:
+       Customer segmentation
+       Sales trends by time or region
+       Product popularity   
+       Revenue forecasting
+
+=== About this file ===
+
+About this file
+This is transactional data — often used in retail or e-commerce analytics.
+Common analysis tasks include:
+Customer segmentation
+Sales trends by time or region
+Product popularity
+Revenue forecasting
+
+
+=== Columns & descriptions ===
+
+InvoiceNo: Identifies a specific order or bill.
+StockCode: A unique code for the product/item
+Description: Text description of the product.
+Quantity: Number of units purchased in that line of the invoice
+InvoiceDate: The timestamp when the invoice was generated.
+UnitPrice: Price per unit of the item, in the currency of the seller
+CustomerID: Unique ID for the customer.
+Country: Country

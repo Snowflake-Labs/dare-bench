@@ -1,0 +1,34 @@
+This dataset comprises a collection of used car listings from Spinny, a prominent Indian car-reseller. It offers valuable information for various analytical tasks, particularly for predicting the resale value of a car. The dataset contains details about 8104 cars with 14 features ranging from car model to number of previous owners.
+
+Key features of this dataset include:
+
+Vehicle Details: Make, model, and variant, which are crucial for assessing a car's market value.
+
+Car Specifications: Features such as the number of previous owners, body type, transmission type, and registration year, all of which significantly influence resale value.
+
+Geographical Data: The dataset can be used to analyze how resale values vary across different Indian states. For example, it could be used to investigate why certain regions, like Delhi, might have a lower resale value for used cars.
+
+Market Insights: This dataset also provides a basis for understanding car-buyer preferences in the Indian market, such as popular models, body types, and transmission choices.
+
+=== About this file ===
+
+About this file
+The file contains details about 8104 used cars. Each car has 14 features associated with it.
+
+
+=== Columns & descriptions ===
+
+city: City in which the car is being sold
+make: Manufacturer of the car
+model: Model name of the car
+variant: Specific variant of the car
+mileage: Number of kilometers driven
+make_year: Manufacturing year of the car
+price: List price of the car
+fuel_type: fuel type: petrol/diesel/CNG
+no_of_owners: Number of previous owners of the car
+color: Exterior color of the car
+body_type: [no description]
+transmission: [no description]
+registration_year: [no description]
+latest_publish_date: [no description]

@@ -1,0 +1,225 @@
+{
+    "question": {
+        "target": [
+            "ripeness"
+        ],
+        "target_candidates": [
+            "ripeness"
+        ],
+        "related_features": [
+            "size_cm3",
+            "firmness",
+            "sound_db",
+            "saturation",
+            "color_category",
+            "brightness",
+            "weight_g",
+            "hue"
+        ],
+        "not_filtered_related_features": [
+            "size_cm3",
+            "firmness",
+            "sound_db",
+            "saturation",
+            "color_category",
+            "brightness",
+            "weight_g",
+            "hue"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "size_cm3": [
+                100,
+                299
+            ],
+            "firmness": [
+                10.0,
+                99.0
+            ],
+            "sound_db": [
+                30,
+                79
+            ],
+            "saturation": [
+                30,
+                99
+            ],
+            "color_category": [
+                "black",
+                "green",
+                "dark green",
+                "purple"
+            ],
+            "brightness": [
+                10,
+                78
+            ],
+            "weight_g": [
+                152,
+                299
+            ],
+            "hue": [
+                1,
+                329
+            ]
+        },
+        "selected_features": [
+            "sound_db",
+            "saturation",
+            "weight_g",
+            "brightness",
+            "color_category"
+        ],
+        "train_v2_save_file": "./amldvvs_avocado-ripeness-classification-dataset_class/source/train_v2.csv",
+        "val_v2_save_file": "./amldvvs_avocado-ripeness-classification-dataset_class/source/val_v2.csv",
+        "val_no_err_save_file": "./amldvvs_avocado-ripeness-classification-dataset_class/source/val_v1.csv",
+        "train_no_err_save_file": "./amldvvs_avocado-ripeness-classification-dataset_class/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./amldvvs_avocado-ripeness-classification-dataset_class/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "median",
+        "random_state": 4,
+        "model_type": "MLPClassifier",
+        "output_file": "./amldvvs_avocado-ripeness-classification-dataset_class/prediction.csv",
+        "ground_truth_file": "./amldvvs_avocado-ripeness-classification-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./amldvvs_avocado-ripeness-classification-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "firmness": "numerical",
+            "hue": "numerical",
+            "saturation": "numerical",
+            "brightness": "numerical",
+            "color_category": "categorical",
+            "sound_db": "numerical",
+            "weight_g": "numerical",
+            "size_cm3": "numerical",
+            "ripeness": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "sound_db",
+            "saturation",
+            "weight_g",
+            "brightness"
+        ],
+        "categorical_features": [
+            "color_category"
+        ]
+    },
+    "data_info": {
+        "id": 7377614,
+        "ref": "amldvvs/avocado-ripeness-classification-dataset",
+        "subtitle": "A carefully crafted synthetic dataset",
+        "creatorName": "Amal Dev",
+        "creatorUrl": "amldvvs",
+        "totalBytes": 3730,
+        "url": "https://www.kaggle.com/datasets/amldvvs/avocado-ripeness-classification-dataset",
+        "lastUpdated": "2025-05-09T19:48:49.707Z",
+        "downloadCount": 4031,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Amal Dev",
+        "ownerRef": "amldvvs",
+        "kernelCount": 23,
+        "title": "Avocado Ripeness Classification Dataset",
+        "viewCount": 12602,
+        "voteCount": 40,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "earth and nature",
+                "name": "earth and nature",
+                "description": "",
+                "fullPath": "subject > earth and nature",
+                "competitionCount": 19,
+                "datasetCount": 79487,
+                "scriptCount": 394,
+                "totalCount": 79900
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "random forest",
+                "name": "random forest",
+                "description": "",
+                "fullPath": "technique > random forest",
+                "competitionCount": 5,
+                "datasetCount": 390,
+                "scriptCount": 7570,
+                "totalCount": 7965
+            },
+            {
+                "ref": "logistic regression",
+                "name": "logistic regression",
+                "description": "",
+                "fullPath": "task > logistic regression",
+                "competitionCount": 33,
+                "datasetCount": 366,
+                "scriptCount": 5287,
+                "totalCount": 5686
+            },
+            {
+                "ref": "multiclass classification",
+                "name": "multiclass classification",
+                "description": "",
+                "fullPath": "task > multiclass classification",
+                "competitionCount": 831,
+                "datasetCount": 1470,
+                "scriptCount": 3846,
+                "totalCount": 6147
+            },
+            {
+                "ref": "food",
+                "name": "food",
+                "description": "",
+                "fullPath": "subject > health and fitness > food",
+                "competitionCount": 10,
+                "datasetCount": 13083,
+                "scriptCount": 709,
+                "totalCount": 13802
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7377614,
+        "datasetSlug": "avocado-ripeness-classification-dataset",
+        "ownerUser": "amldvvs",
+        "usabilityRating": 1.0,
+        "totalViews": 11081,
+        "totalVotes": 39,
+        "totalDownloads": 2739,
+        "title": "Avocado Ripeness Classification Dataset",
+        "subtitle": "A carefully crafted synthetic dataset",
+        "description": "**Hass avocado** is a popular variety of avocado known for its distinctive pebbly, dark green to black skin and creamy, buttery flesh when ripe. It's a large fruit, and is the most common commercial variety globally.\n\nA synthetic dataset simulating measurements designed for a classification task in predicting avocado ripeness stages using physical characteristics.\n##Columns##\n###1. Features###\n\n| Column | Description | Measurement Method | Unit/Range | Biological Significance/<br>Key Patterns |\n| --- | --- | --- | --- | --- |\n| firmness | Resistance to penetration | Penetrometer | 10-100 N | - Hard: 80-100N (unripe)<br>- Ripe: 10-20N (soft) |\n| hue | Color wavelength | Camera + HSB conversion | 0-360\u00b0 | Green(60-120\u00b0) \u2192 Purple(270-330\u00b0) \u2192 Black(0-30\u00b0) |\n| saturation | Color intensity | Camera + HSB conversion | 0-100% | Decreases with ripeness |\n| brightness | Color lightness | Camera + HSB conversion | 0-100% | Darkens when ripe |\n| color_category | Visual skin color | Image analysis | - Dark green<br>- Green<br>- Purple<br>- Black | - Dark green \u2192 Unripe<br>- Purple \u2192 Mid-ripening<br>- Black \u2192 Overripe |\n| sound_db | Acoustic response | Microphone<br>(tapping test) | 30-80 dB | - High-frequency (70-80dB)<br>(Loud taps) = Hard fruit<br>- Lower-frequency (30-40dB)<br>(Dull sound) = Ripe fruit |\n| weight_g | Fruit mass | Digital scale | 150-300g | - Decreases with ripeness<br>(water loss)<br>- Hard: 220-300g<br>- Ripe: 150-220g |\n| size_cm3 | Volume measurement | Calipers | 100-300 cm\u00b3 | - Increases with ripeness<br>(gas formation)<br>- Hard: 100-160 cm\u00b3<br>- Ripe: 260-300 cm\u00b3 |\n\n###2. Target###\n| Column | Description | Classes |\n| --- | --- | --- |\n| ripeness | Maturation stage | 1. Hard<br>2. Pre-conditioned<br>3. Breaking<br>4. Firm-ripe<br>5. Ripe |\n\n---\n###Misc.###\nIn avocado ripening, weight and size have indirect but measurable relationships with ripeness, primarily through moisture content and cellular structure changes. Here's how I would structure their relationship in the synthetic dataset:\n\n**1. Weight Patterns**\nAs avocados ripen, they lose moisture through respiration and cell wall degradation, reducing weight while maintaining similar size.\n- **Unripe (Hard)**: 200-300g\n(Dense cellular structure retains moisture)\n- **Pre-conditioned**: 180-280g\n(Initial moisture loss begins)\n- **Breaking**: 160-260g\n(Cell walls start breaking down)\n- **Firm-ripe**: 150-240g\n(Significant moisture evaporation)\n- **Ripe**: 150-220g\n(Maximal water loss due to metabolic activity)\n\n**2. Size Patterns**\nRipening causes cell separation and gas accumulation (ethylene production), slightly increasing apparent size despite weight loss.\n- **Unripe (Hard)**: 100-200 cm\u00b3\n(Compact cellular structure)\n- **Pre-conditioned**: 120-220 cm\u00b3\n(Initial cell expansion)\n- **Breaking**: 140-240 cm\u00b3\n(Cell separation begins)\n- **Firm-ripe**: 160-260 cm\u00b3\n(Visible tissue softening)\n- **Ripe**: 180-300 cm\u00b3\n(Maximum cell separation and gas pockets)\n\n\n**3. Key Relationship: Density**\n*This density gradient becomes a hidden predictor even if not explicitly included in the dataset.*\n\n*Density (g/cm\u00b3) = Weight / Size*\n\n| Ripeness Stage | Density Range |\n| ---------------- | --------------- |\n|Hard|1.4 - 1.8|\n|Pre-conditioned|1.2 - 1.6|\n|Breaking|1.0 - 1.4|\n|Firm-ripe|0.8 - 1.2|\n|Ripe|0.6 - 1.0|\n\n---\n\n##Color Measurement Methodology##\n\n###Data Collection###\n\n- Instrumentation: High-resolution RGB camera with controlled lighting\n- Process: Captured images were converted from RGB to HSB color space\n<pre><code>def rgb_to_hsb(rgb_image):\n     hsv_image = cv2.cvtColor(rgb_image, cv2.COLOR_RGB2HSV)\n     hue = hsv_image[:, :, 0].astype(np.float32) * 2\n     saturation = hsv_image[:, :, 1].astype(np.float32) * (100/255)\n     brightness = hsv_image[:, :, 2].astype(np.float32) * (100/255)\n     return hue, saturation, brightness</code></pre>\n\n###Classification###\n\n| Color Category | Hue<br>(0-360\u00b0) | Saturation<br>(0-100%) | Brightness<br>(0-100%) |\n| --- | --- | --- | --- |\n| Dark Green | 60-120\u00b0 | 70-100% | 40-70% |\n| Green | 45-90\u00b0 | 60-90% | 50-80% |\n| Purple | 270-330\u00b0 | 50-80% | 30-60% |\n| Black | 0-30\u00b0 | 30-60% | 10-40% |\n\n=== About this file ===\n\nAbout this file\nA synthetic dataset simulating laboratory measurements of Hass avocado ripeness, designed for machine learning classification tasks. Contains 250 hand-validated entries (50 per ripeness stage) with camera-derived HSB color values and physical properties.\n\n\n=== Columns & descriptions ===\n\nfirmness: Penetrometer reading in Newtons (10.0-100.0N)\nhue: Dominant color wavelength (0-360\u00b0)\nsaturation: Color purity percentage (0-100%)\nbrightness: Light intensity percentage (0-100%)\ncolor_category: Color derived from HSB value\nsound_db: Acoustic response in decibels (30-80dB)\nweight_g: Mass in grams (150-300g)\nsize_cm3: Volume in cubic centimeters (100-300cm\u00b3)\nripeness: Target variable: [\"hard\", \"pre-conditioned\", \"breaking\", \"firm-ripe\", \"ripe\"]\n",
+        "keywords": [
+            "earth and nature",
+            "classification",
+            "random forest",
+            "logistic regression",
+            "multiclass classification",
+            "food"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

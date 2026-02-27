@@ -1,0 +1,294 @@
+{
+    "question": {
+        "target": [
+            "MedianSalesPriceofHousesSold"
+        ],
+        "target_candidates": [
+            "HomePriceIndex",
+            "AverageSalesPrice",
+            "MedianSalesPriceofHousesSold"
+        ],
+        "related_features": [
+            "HomePriceIndex",
+            "MedianDaysonMarket",
+            "UnemploymentRate",
+            "VacantHousingUnits_1",
+            "TotalHousingUnits",
+            "HomeownershipRate",
+            "RenterOccupiedHousingUnits",
+            "VacantHousingUnits_2",
+            "OccupiedHousingUnits",
+            "AverageSalesPrice",
+            "MonthlySupplyofNewHouses",
+            "MedianListingPriceperSquareFeet",
+            "AverageSalesPrice_NewHousesSold",
+            "NewOneFamilyHousesSold",
+            "TotalShipmentsofNewHomes",
+            "EconomicPolicyUncertaintyIndex",
+            "VacantforOtherReasons",
+            "VacantHousingUnits_NotYetOccupied",
+            "VacantHousingUnits_forSale"
+        ],
+        "not_filtered_related_features": [
+            "TotalShipmentsofNewHomes",
+            "HomeownershipRate",
+            "EconomicPolicyUncertaintyIndex",
+            "MedianDaysonMarket",
+            "UnemploymentRate",
+            "RenterOccupiedHousingUnits",
+            "VacantHousingUnits_2",
+            "OccupiedHousingUnits",
+            "MedianListingPriceperSquareFeet",
+            "VacantforOtherReasons",
+            "VacantHousingUnits_1",
+            "MonthlySupplyofNewHouses",
+            "AverageSalesPrice_NewHousesSold",
+            "VacantHousingUnits_NotYetOccupied",
+            "TotalHousingUnits",
+            "VacantHousingUnits_forSale",
+            "NewOneFamilyHousesSold"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "TotalShipmentsofNewHomes": [
+                40.0,
+                390.0
+            ],
+            "HomeownershipRate": [
+                62.0,
+                70.0
+            ],
+            "EconomicPolicyUncertaintyIndex": [
+                10.0,
+                627.0
+            ],
+            "MedianDaysonMarket": [
+                6.0,
+                88.0
+            ],
+            "UnemploymentRate": [
+                3.0,
+                15.0
+            ],
+            "RenterOccupiedHousingUnits": [
+                29287.0,
+                46149.0
+            ],
+            "VacantHousingUnits_2": [
+                4900.0,
+                7758.0
+            ],
+            "OccupiedHousingUnits": [
+                91916.0,
+                132404.0
+            ],
+            "MedianListingPriceperSquareFeet": [
+                21.0,
+                233.0
+            ],
+            "VacantforOtherReasons": [
+                1988.0,
+                4144.0
+            ],
+            "VacantHousingUnits_1": [
+                1728.0,
+                2461.0
+            ],
+            "MonthlySupplyofNewHouses": [
+                3.0,
+                13.0
+            ],
+            "AverageSalesPrice_NewHousesSold": [
+                137700.0,
+                541200.0
+            ],
+            "VacantHousingUnits_NotYetOccupied": [
+                606.0,
+                1386.0
+            ],
+            "TotalHousingUnits": [
+                104973.0,
+                147807.0
+            ],
+            "VacantHousingUnits_forSale": [
+                650.0,
+                2286.0
+            ],
+            "NewOneFamilyHousesSold": [
+                270.0,
+                1389.0
+            ]
+        },
+        "selected_features": [
+            "OccupiedHousingUnits",
+            "HomeownershipRate",
+            "EconomicPolicyUncertaintyIndex",
+            "VacantforOtherReasons",
+            "NewOneFamilyHousesSold",
+            "UnemploymentRate",
+            "RenterOccupiedHousingUnits",
+            "VacantHousingUnits_NotYetOccupied",
+            "TotalHousingUnits",
+            "VacantHousingUnits_1",
+            "TotalShipmentsofNewHomes"
+        ],
+        "train_v2_save_file": "./digantabhattacharya_usa-house-price-index-and-macroeconomic-variables_reg/source/train_v2.parquet",
+        "val_v2_save_file": "./digantabhattacharya_usa-house-price-index-and-macroeconomic-variables_reg/source/val_v2.parquet",
+        "val_no_err_save_file": "./digantabhattacharya_usa-house-price-index-and-macroeconomic-variables_reg/source/val_v1.parquet",
+        "train_no_err_save_file": "./digantabhattacharya_usa-house-price-index-and-macroeconomic-variables_reg/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./digantabhattacharya_usa-house-price-index-and-macroeconomic-variables_reg/source/train_v1.parquet",
+        "train_test_ratio": 0.9,
+        "save_file_type": "parquet",
+        "imputer_type": "median",
+        "random_state": 85,
+        "model_type": "Lasso",
+        "output_file": "./digantabhattacharya_usa-house-price-index-and-macroeconomic-variables_reg/prediction.csv",
+        "ground_truth_file": "./digantabhattacharya_usa-house-price-index-and-macroeconomic-variables_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./digantabhattacharya_usa-house-price-index-and-macroeconomic-variables_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Date": "categorical",
+            "Region": "categorical",
+            "AverageSalesPrice_NewHousesSold": "numerical",
+            "AverageSalesPrice": "numerical",
+            "HomePriceIndex": "numerical",
+            "NewOneFamilyHousesSold": "numerical",
+            "MonthlySupplyofNewHouses": "numerical",
+            "MedianSalesPriceofHousesSold": "numerical",
+            "HomeownershipRate": "numerical",
+            "TotalShipmentsofNewHomes": "numerical",
+            "UnemploymentRate": "numerical",
+            "EconomicPolicyUncertaintyIndex": "numerical",
+            "VacantHousingUnits_1": "numerical",
+            "OccupiedHousingUnits": "numerical",
+            "VacantHousingUnits_2": "numerical",
+            "VacantforOtherReasons": "numerical",
+            "RenterOccupiedHousingUnits": "numerical",
+            "VacantHousingUnits_NotYetOccupied": "numerical",
+            "VacantHousingUnits_forSale": "numerical",
+            "TotalHousingUnits": "numerical",
+            "MedianDaysonMarket": "numerical",
+            "MedianListingPriceperSquareFeet": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "OccupiedHousingUnits",
+            "HomeownershipRate",
+            "EconomicPolicyUncertaintyIndex",
+            "VacantforOtherReasons",
+            "NewOneFamilyHousesSold",
+            "UnemploymentRate",
+            "RenterOccupiedHousingUnits",
+            "VacantHousingUnits_NotYetOccupied",
+            "TotalHousingUnits",
+            "VacantHousingUnits_1",
+            "TotalShipmentsofNewHomes"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7591118,
+        "ref": "digantabhattacharya/usa-house-price-index-and-macroeconomic-variables",
+        "subtitle": "Only USA level Home Price Index and Related Macro-Economic data from FRED",
+        "creatorName": "Diganta",
+        "creatorUrl": "digantabhattacharya",
+        "totalBytes": 31094,
+        "url": "https://www.kaggle.com/datasets/digantabhattacharya/usa-house-price-index-and-macroeconomic-variables",
+        "lastUpdated": "2025-06-19T00:31:02.167Z",
+        "downloadCount": 361,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Diganta",
+        "ownerRef": "digantabhattacharya",
+        "kernelCount": 2,
+        "title": "USA House Price Index & MacroEconomic Variables",
+        "viewCount": 1444,
+        "voteCount": 17,
+        "currentVersionNumber": 3,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "united states",
+                "name": "united states",
+                "description": "The top datasets and kernels in this tag are about mass shootings, AirBnB, homelessness, and witchcraft. That about sums it up.",
+                "fullPath": "geography and places > north america > united states",
+                "competitionCount": 2,
+                "datasetCount": 2639,
+                "scriptCount": 675,
+                "totalCount": 3316
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7591118,
+        "datasetSlug": "usa-house-price-index-and-macroeconomic-variables",
+        "ownerUser": "digantabhattacharya",
+        "usabilityRating": 1.0,
+        "totalViews": 1122,
+        "totalVotes": 16,
+        "totalDownloads": 237,
+        "title": "USA House Price Index & MacroEconomic Variables",
+        "subtitle": "Only USA level Home Price Index and Related Macro-Economic data from FRED",
+        "description": "- USA house price index and multiple associated macro-economic data from FRED.\n\n- Contains monthly data from 1990-01-01 to 2025-01-01.\n\n- The added column names are the series names on FRED : https://fred.stlouisfed.org/\n\n- To create custom aggregates on any available FRED data you can follow : https://github.com/OfficialBhattacharya/Geographical-Home-Price-Ranker\n\n1. Average Sales Price for New Houses Sold in the United States: https://fred.stlouisfed.org/series/ASPNHSUS\n\n2. Average Sales Price of Houses Sold for the United States: https://fred.stlouisfed.org/series/ASPUS\n\n3. New One Family Houses Sold: https://fred.stlouisfed.org/series/HSN1F\n\n4. Monthly Supply of New Houses in the United States: https://fred.stlouisfed.org/series/MSACSR\n\n5. Median Sales Price of Houses Sold for the United States: https://fred.stlouisfed.org/series/MSPUS\n\n6. Homeownership Rate in the United States: https://fred.stlouisfed.org/series/RHORUSQ156N\n\n7. Total Shipments of New Manufactured Homes: https://fred.stlouisfed.org/series/SHTSAUS\n\n8. Unemployment Rate:  https://fred.stlouisfed.org/series/UNRATE\n\n9. Economic Policy Uncertainty Index for United States: https://fred.stlouisfed.org/series/USEPUINDXD\n\n10. S&P CoreLogic Case-Shiller U.S. National Home Price Index: https://fred.stlouisfed.org/series/CSUSHPINSA\n\n11. Vacant Housing Units Held Off the Market in the United States : https://fred.stlouisfed.org/series/EOCCUSEUSQ176N\n\n12. Occupied Housing Units in the United States: https://fred.stlouisfed.org/series/EOCCUSQ176N\n\n13. Vacant Housing Units Held Off the Market in the United States: https://fred.stlouisfed.org/series/EOFFMARUSQ176N\n\n14. Vacant for Other Reasons in the United States: https://fred.stlouisfed.org/series/EOTHUSQ176N\n\n15. Renter Occupied Housing Units in the United States: https://fred.stlouisfed.org/series/ERNTOCCUSQ176N\n\n16. Vacant Housing Units Not Yet Occupied in the United States: https://fred.stlouisfed.org/series/ERNTSLDUSQ176N\n\n17. Vacant Housing Units for Sale in the United States: https://fred.stlouisfed.org/series/ESALEUSQ176N\n\n18. Total Housing Units in the United States: https://fred.stlouisfed.org/series/ETOTALUSQ176N\n\n19. Median Days on Market in the United States: https://fred.stlouisfed.org/series/MEDDAYONMARUS\n\n20. Median Listing Price per Square Feet in the United States: https://fred.stlouisfed.org/series/MEDLISPRIPERSQUFEEUS\n\n=== About this file ===\n\nAbout this file\nUp to the month of 2025-01-01 from 1990-01-01\n\n\n=== Columns & descriptions ===\n\nDate: Date\nRegion: Region\nAverageSalesPrice_NewHousesSold: Avg Sales Price for New Homes\nAverageSalesPrice: Avg Sales Price\nHomePriceIndex: Home Price Index\nNewOneFamilyHousesSold: New 1 Family Homes\nMonthlySupplyofNewHouses: Monthly Supply of Homes\nMedianSalesPriceofHousesSold: Median Sale Price\nHomeownershipRate: Homeownership Rate\nTotalShipmentsofNewHomes: Total Shipment of Homes\nUnemploymentRate: Unemployment Rate\nEconomicPolicyUncertaintyIndex: Economic Policy Indicator USA\nVacantHousingUnits_1: Vacant Housing Units 1\nOccupiedHousingUnits: Occupied Housing Units 2\nVacantHousingUnits_2: Vacant Housing Units 2\nVacantforOtherReasons: Vacant Housing Units 3\nRenterOccupiedHousingUnits: Renter Occupied\nVacantHousingUnits_NotYetOccupied: Vacant Housing Units 4\nVacantHousingUnits_forSale: Vacant Housing Units 5\nTotalHousingUnits: Total Housing Units\nMedianDaysonMarket: Median Days on Market\nMedianListingPriceperSquareFeet: Median Listing Price Per Square Feet\n",
+        "keywords": [
+            "united states",
+            "beginner",
+            "intermediate",
+            "tabular",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

@@ -1,0 +1,194 @@
+{
+    "question": {
+        "target": [
+            "Electric Vehicle Type",
+            "Clean Alternative Fuel Vehicle (CAFV) Eligibility"
+        ],
+        "target_candidates": [
+            "Electric Vehicle Type",
+            "Clean Alternative Fuel Vehicle (CAFV) Eligibility"
+        ],
+        "related_features": [
+            "City",
+            "Model Year",
+            "Electric Range",
+            "Legislative District",
+            "Postal Code",
+            "Vehicle Location",
+            "Make",
+            "Electric Utility",
+            "Model",
+            "2020 Census Tract",
+            "County",
+            "Base MSRP"
+        ],
+        "not_filtered_related_features": [
+            "Model Year",
+            "Electric Range",
+            "Base MSRP"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Model Year": [
+                2000,
+                2026
+            ],
+            "Electric Range": [
+                0.0,
+                337.0
+            ],
+            "Base MSRP": [
+                0.0,
+                845000.0
+            ]
+        },
+        "selected_features": [
+            "Electric Range",
+            "Model Year"
+        ],
+        "train_v2_save_file": "./yanghu583_electric-vehicle-population-data-2025_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./yanghu583_electric-vehicle-population-data-2025_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./yanghu583_electric-vehicle-population-data-2025_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./yanghu583_electric-vehicle-population-data-2025_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./yanghu583_electric-vehicle-population-data-2025_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.9,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 40,
+        "model_type": "GaussianNB",
+        "output_file": "./yanghu583_electric-vehicle-population-data-2025_class/prediction.csv",
+        "ground_truth_file": "./yanghu583_electric-vehicle-population-data-2025_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./yanghu583_electric-vehicle-population-data-2025_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "VIN (1-10)": "categorical",
+            "County": "categorical",
+            "City": "categorical",
+            "State": "categorical",
+            "Postal Code": "categorical",
+            "Model Year": "numerical",
+            "Make": "categorical",
+            "Model": "categorical",
+            "Electric Vehicle Type": "categorical",
+            "Clean Alternative Fuel Vehicle (CAFV) Eligibility": "categorical",
+            "Electric Range": "numerical",
+            "Base MSRP": "numerical",
+            "Legislative District": "categorical",
+            "DOL Vehicle ID": "categorical",
+            "Vehicle Location": "categorical",
+            "Electric Utility": "categorical",
+            "2020 Census Tract": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Electric Range",
+            "Model Year"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 8027754,
+        "ref": "yanghu583/electric-vehicle-population-data-2025",
+        "subtitle": "Public data provided by the state of Washington Open Data Program",
+        "creatorName": "yyh",
+        "creatorUrl": "yanghu583",
+        "totalBytes": 8281096,
+        "url": "https://www.kaggle.com/datasets/yanghu583/electric-vehicle-population-data-2025",
+        "lastUpdated": "2025-08-07T15:16:39.673Z",
+        "downloadCount": 195,
+        "licenseName": "Other (specified in description)",
+        "description": "",
+        "ownerName": "yyh",
+        "ownerRef": "yanghu583",
+        "kernelCount": 1,
+        "title": "Electric Vehicle Population Data 2025",
+        "viewCount": 789,
+        "voteCount": 1,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "transportation",
+                "name": "transportation",
+                "description": "Most of the various modes of transport are all covered in this tag. Not all though because so far there are no kernels or datasets about teleportation.",
+                "fullPath": "subject > science and technology > transportation",
+                "competitionCount": 7,
+                "datasetCount": 12014,
+                "scriptCount": 604,
+                "totalCount": 12625
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "clustering",
+                "name": "clustering",
+                "description": "",
+                "fullPath": "task > clustering",
+                "competitionCount": 25,
+                "datasetCount": 1011,
+                "scriptCount": 2949,
+                "totalCount": 3985
+            },
+            {
+                "ref": "multilabel classification",
+                "name": "multilabel classification",
+                "description": "",
+                "fullPath": "task > multilabel-classification",
+                "competitionCount": 25,
+                "datasetCount": 312,
+                "scriptCount": 723,
+                "totalCount": 1060
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 8027754,
+        "datasetSlug": "electric-vehicle-population-data-2025",
+        "ownerUser": "yanghu583",
+        "usabilityRating": 1.0,
+        "totalViews": 794,
+        "totalVotes": 1,
+        "totalDownloads": 197,
+        "title": "Electric Vehicle Population Data 2025",
+        "subtitle": "Public data provided by the state of Washington Open Data Program",
+        "description": "This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through Washington State Department of Licensing (DOL).\n\n### Access & Use Information\n- **Source**: https://catalog.data.gov/dataset/electric-vehicle-population-data\n- **Public**: This dataset is intended for public access and use.\n- **License**: [Open Data Commons Open Database License (ODbL) v1.0](https://opendatacommons.org/licenses/odbl/1-0/)\n\n=== About this file ===\n\nAbout this file\nThis dataset, sourced from the U.S. Government's open data portal, contains information about Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) currently registered with the Washington State Department of Licensing (DOL). Each record represents an individual vehicle and reflects the growing population of electric vehicles in Washington State. Have fun exploring it!\n\n\n=== Columns & descriptions ===\n\nVIN (1-10): The first 10 characters of the Vehicle Identification Number (VIN) are provided for partial identification, with the rest of the VIN truncated for privacy.\nCounty: The county in Washington State where the vehicle is registered.\nCity: The city in Washington State where the vehicle is registered.\nState: The U.S. state where the vehicle is registered (all entries are from Washington).\nPostal Code: The ZIP code where the vehicle is registered.\nModel Year: The manufacturing year of the vehicle.\nMake: The manufacturer or brand of the vehicle (e.g., Tesla, Ford, Toyota).\nModel: The specific model of the vehicle (e.g., Leaf, Model 3, Bolt).\nElectric Vehicle Type: Indicates whether the vehicle is a Battery Electric Vehicle (BEV) or a Plug-in Hybrid Electric Vehicle (PHEV).\nClean Alternative Fuel Vehicle (CAFV) Eligibility: Shows whether the vehicle qualifies under Washington's CAFV program.\nElectric Range: [no description]\nBase MSRP: [no description]\nLegislative District: [no description]\nDOL Vehicle ID: [no description]\nVehicle Location: [no description]\nElectric Utility: [no description]\n2020 Census Tract: [no description]\n",
+        "keywords": [
+            "transportation",
+            "data visualization",
+            "classification",
+            "clustering",
+            "multilabel classification"
+        ],
+        "licenses": [
+            {
+                "name": "other"
+            }
+        ]
+    }
+}

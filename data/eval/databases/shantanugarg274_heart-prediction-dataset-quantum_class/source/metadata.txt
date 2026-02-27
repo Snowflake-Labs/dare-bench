@@ -1,0 +1,31 @@
+This dataset is designed for heart disease prediction and integrates both traditional medical indicators and an additional QuantumPatternFeature. The dataset includes key clinical attributes such as Age, Gender, Blood Pressure, Cholesterol, and Heart Rate, which are commonly used in cardiovascular risk assessment.
+
+The QuantumPatternFeature introduces an additional layer of complexity by capturing intricate, non-linear relationships. This feature enhances the dataset’s potential for advanced predictive modeling, allowing researchers to explore new approaches in both classical and quantum machine learning.
+
+With 500 samples, this dataset provides a well-structured foundation for testing various machine learning techniques, feature importance analysis, and model interpretability in medical diagnosis.
+
+=== About this file ===
+
+About this file
+Filename: Heart Prediction Quantum Dataset.csv
+Rows: 500
+Columns: 7
+Features:
+Age: Patient's age in years
+Gender: 0 (Female), 1 (Male)
+BloodPressure: Blood pressure level
+Cholesterol: Cholesterol level
+HeartRate: Heart rate in beats per minute
+QuantumPatternFeature: A custom-engineered feature , so that best performing model can be distinguished.
+HeartDisease (Target): 0 (No heart disease), 1 (Heart disease present)
+
+
+=== Columns & descriptions ===
+
+Age: Represents the age of the patient in years, a crucial factor in heart disease risk assessment.
+Gender: Binary indicator (0 = Female, 1 = Male) representing the patient's gender, which can influence heart disease likelihood.
+BloodPressure: The recorded blood pressure level, an essential cardiovascular health metric
+Cholesterol: Measured cholesterol level, a key determinant in evaluating heart disease risk
+HeartRate: The patient’s recorded heart rate, which helps assess overall cardiac health and possible irregularities
+QuantumPatternFeature: A mathematically derived feature incorporating complex, non-linear patterns, potentially aiding in more advanced pattern recognition
+HeartDisease: The target variable (0 = No Heart Disease, 1 = Presence of Heart Disease), indicating the presence or absence of a cardiovascular condition.

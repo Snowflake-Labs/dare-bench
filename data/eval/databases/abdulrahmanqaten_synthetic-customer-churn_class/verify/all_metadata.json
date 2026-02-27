@@ -1,0 +1,257 @@
+{
+    "question": {
+        "target": [
+            "Churn"
+        ],
+        "target_candidates": [
+            "Churn"
+        ],
+        "related_features": [
+            "StreamingMovies",
+            "SubscriptionDurationMonths",
+            "ContractType",
+            "Gender",
+            "Age",
+            "PaymentMethod",
+            "StreamingTV",
+            "OnlineSecurity",
+            "MonthlyCharges",
+            "TechSupport",
+            "Location",
+            "TotalCharges"
+        ],
+        "not_filtered_related_features": [
+            "StreamingMovies",
+            "SubscriptionDurationMonths",
+            "ContractType",
+            "Gender",
+            "Age",
+            "PaymentMethod",
+            "StreamingTV",
+            "OnlineSecurity",
+            "MonthlyCharges",
+            "TechSupport",
+            "Location",
+            "TotalCharges"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "StreamingMovies": [
+                "Yes",
+                "No internet service",
+                "No"
+            ],
+            "SubscriptionDurationMonths": [
+                1,
+                72
+            ],
+            "ContractType": [
+                "Month-to-month",
+                "One year",
+                "Two year"
+            ],
+            "Gender": [
+                "Female",
+                "Male"
+            ],
+            "Age": [
+                18,
+                79
+            ],
+            "PaymentMethod": [
+                "Mailed check",
+                "Credit card (automatic)",
+                "Bank transfer (automatic)",
+                "Electronic check"
+            ],
+            "StreamingTV": [
+                "Yes",
+                "No",
+                "No internet service"
+            ],
+            "OnlineSecurity": [
+                "No",
+                "Yes",
+                "No internet service"
+            ],
+            "MonthlyCharges": [
+                20.0,
+                120.0
+            ],
+            "TechSupport": [
+                "Yes",
+                "No",
+                "No internet service"
+            ],
+            "Location": [
+                "Chicago",
+                "Phoenix",
+                "Los Angeles",
+                "New York",
+                "Houston"
+            ],
+            "TotalCharges": [
+                65.0,
+                8348.0
+            ]
+        },
+        "selected_features": [
+            "SubscriptionDurationMonths",
+            "StreamingMovies",
+            "MonthlyCharges",
+            "Location",
+            "TotalCharges",
+            "StreamingTV",
+            "Gender",
+            "ContractType"
+        ],
+        "train_v2_save_file": "./abdulrahmanqaten_synthetic-customer-churn_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./abdulrahmanqaten_synthetic-customer-churn_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./abdulrahmanqaten_synthetic-customer-churn_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./abdulrahmanqaten_synthetic-customer-churn_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./abdulrahmanqaten_synthetic-customer-churn_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.7,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 24,
+        "model_type": "LogisticRegression",
+        "output_file": "./abdulrahmanqaten_synthetic-customer-churn_class/prediction.csv",
+        "ground_truth_file": "./abdulrahmanqaten_synthetic-customer-churn_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./abdulrahmanqaten_synthetic-customer-churn_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "CustomerID": "categorical",
+            "Age": "numerical",
+            "Gender": "categorical",
+            "Location": "categorical",
+            "SubscriptionDurationMonths": "numerical",
+            "MonthlyCharges": "numerical",
+            "ContractType": "categorical",
+            "PaymentMethod": "categorical",
+            "OnlineSecurity": "categorical",
+            "TechSupport": "categorical",
+            "StreamingTV": "categorical",
+            "StreamingMovies": "categorical",
+            "TotalCharges": "numerical",
+            "Churn": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "SubscriptionDurationMonths",
+            "MonthlyCharges",
+            "TotalCharges"
+        ],
+        "categorical_features": [
+            "StreamingMovies",
+            "Location",
+            "StreamingTV",
+            "Gender",
+            "ContractType"
+        ]
+    },
+    "data_info": {
+        "id": 7501677,
+        "ref": "abdulrahmanqaten/synthetic-customer-churn",
+        "subtitle": "A clean, simulated dataset ideal for learning churn prediction and basic EDA.",
+        "creatorName": "Abdulrahman Qaten",
+        "creatorUrl": "abdulrahmanqaten",
+        "totalBytes": 13792,
+        "url": "https://www.kaggle.com/datasets/abdulrahmanqaten/synthetic-customer-churn",
+        "lastUpdated": "2025-05-24T10:40:02.000Z",
+        "downloadCount": 122,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Abdulrahman Qaten",
+        "ownerRef": "abdulrahmanqaten",
+        "kernelCount": 2,
+        "title": "Synthetic Telecom Customer Churn Data",
+        "viewCount": 633,
+        "voteCount": 5,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "logistic regression",
+                "name": "logistic regression",
+                "description": "",
+                "fullPath": "task > logistic regression",
+                "competitionCount": 33,
+                "datasetCount": 366,
+                "scriptCount": 5287,
+                "totalCount": 5686
+            },
+            {
+                "ref": "decision tree",
+                "name": "decision tree",
+                "description": "",
+                "fullPath": "technique > decision tree",
+                "competitionCount": 4,
+                "datasetCount": 366,
+                "scriptCount": 3966,
+                "totalCount": 4336
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7501677,
+        "datasetSlug": "synthetic-customer-churn",
+        "ownerUser": "abdulrahmanqaten",
+        "usabilityRating": 0.9411764705882353,
+        "totalViews": 506,
+        "totalVotes": 3,
+        "totalDownloads": 102,
+        "title": "Synthetic Telecom Customer Churn Data",
+        "subtitle": "A clean, simulated dataset ideal for learning churn prediction and basic EDA.",
+        "description": "```If you found the dataset useful, your upvote will help others discover it. Thanks for your support!```\n\nThis dataset simulates customer behavior for a fictional telecommunications company. It contains demographic information, account details, services subscribed to, and whether the customer ultimately churned (stopped using the service) or not. The data is synthetically generated but designed to reflect realistic patterns often found in telecom churn scenarios.\n\n**Purpose:**\n\nThe primary goal of this dataset is to provide a clean and straightforward resource for beginners learning about:\n\n*   **Exploratory Data Analysis (EDA):** Understanding customer characteristics and identifying potential drivers of churn through visualization and statistical summaries.\n*   **Data Preprocessing:** Handling categorical features (like converting text to numbers) and scaling numerical features.\n*   **Classification Modeling:** Building and evaluating simple machine learning models (like Logistic Regression or Decision Trees) to predict customer churn.\n\n**Features:**\n\nThe dataset includes the following columns:\n\n*   `CustomerID`: Unique identifier for each customer.\n*   `Age`: Customer's age in years.\n*   `Gender`: Customer's gender (Male/Female).\n*   `Location`: General location of the customer (e.g., New York, Los Angeles).\n*   `SubscriptionDurationMonths`: How many months the customer has been subscribed.\n*   `MonthlyCharges`: The amount the customer is charged each month.\n*   `TotalCharges`: The total amount the customer has been charged over their subscription period.\n*   `ContractType`: The type of contract the customer has (Month-to-month, One year, Two year).\n*   `PaymentMethod`: How the customer pays their bill (e.g., Electronic check, Credit card).\n*   `OnlineSecurity`: Whether the customer has online security service (Yes, No, No internet service).\n*   `TechSupport`: Whether the customer has tech support service (Yes, No, No internet service).\n*   `StreamingTV`: Whether the customer has TV streaming service (Yes, No, No internet service).\n*   `StreamingMovies`: Whether the customer has movie streaming service (Yes, No, No internet service).\n*   `Churn`: **(Target Variable)** Whether the customer churned (1 = Yes, 0 = No).\n\n**Data Quality:**\n\nThis dataset is intentionally clean with no missing values, making it easy for beginners to focus on analysis and modeling concepts without complex data cleaning steps.\n\n**Inspiration:**\n\nUnderstanding customer churn is crucial for many businesses. This dataset provides a sandbox environment to practice the fundamental techniques used in churn analysis and prediction.\n\n=== About this file ===\n\nAbout this file\nThis is main file!\n\n\n=== Columns & descriptions ===\n\nCustomerID: Unique identifier for each customer\nAge: Customer's age in years\nGender: Customer's gender (M/F)\nLocation: General location of the customer\nSubscriptionDurationMonths: How many months the customer has been subscribed\nMonthlyCharges: The amount the customer is charged each month\nContractType: The type of contract the customer has (Month-to-month, One year, Two year)\nPaymentMethod: How the customer pays their bill\nOnlineSecurity: Whether the customer has online security service\nTechSupport: Whether the customer has tech support service (Yes, No, No internet service)\nStreamingTV: Whether the customer has TV streaming service (Yes, No, No internet service)\nStreamingMovies: Whether the customer has movie streaming service (Yes, No, No internet service)\nTotalCharges: The total amount the customer has been charged over their subscription period\nChurn: (Target Variable) Whether the customer churned (1 = Yes, 0 = No)\n",
+        "keywords": [
+            "beginner",
+            "exploratory data analysis",
+            "classification",
+            "logistic regression",
+            "decision tree"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

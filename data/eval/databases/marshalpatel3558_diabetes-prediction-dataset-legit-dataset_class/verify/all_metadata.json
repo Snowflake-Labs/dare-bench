@@ -1,0 +1,239 @@
+{
+    "question": {
+        "target": [
+            "CLASS"
+        ],
+        "target_candidates": [
+            "CLASS"
+        ],
+        "related_features": [
+            "HbA1c",
+            "Urea",
+            "Gender",
+            "Cr",
+            "LDL",
+            "BMI",
+            "AGE",
+            "HDL",
+            "VLDL",
+            "Chol",
+            "TG"
+        ],
+        "not_filtered_related_features": [
+            "HbA1c",
+            "TG",
+            "Gender",
+            "Cr",
+            "LDL",
+            "BMI",
+            "AGE",
+            "HDL",
+            "VLDL",
+            "Chol",
+            "Urea"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "HbA1c": [
+                0.0,
+                16.0
+            ],
+            "TG": [
+                0.0,
+                14.0
+            ],
+            "Gender": [
+                "F",
+                "M",
+                "f"
+            ],
+            "Cr": [
+                6,
+                800
+            ],
+            "LDL": [
+                0.0,
+                10.0
+            ],
+            "BMI": [
+                19.0,
+                48.0
+            ],
+            "AGE": [
+                20,
+                79
+            ],
+            "HDL": [
+                0.0,
+                10.0
+            ],
+            "VLDL": [
+                0.0,
+                35.0
+            ],
+            "Chol": [
+                0.0,
+                11.0
+            ],
+            "Urea": [
+                0.0,
+                39.0
+            ]
+        },
+        "selected_features": [
+            "VLDL",
+            "BMI",
+            "HDL",
+            "HbA1c",
+            "Urea",
+            "Chol",
+            "TG"
+        ],
+        "train_v2_save_file": "./marshalpatel3558_diabetes-prediction-dataset-legit-dataset_class/source/train_v2.csv",
+        "val_v2_save_file": "./marshalpatel3558_diabetes-prediction-dataset-legit-dataset_class/source/val_v2.csv",
+        "val_no_err_save_file": "./marshalpatel3558_diabetes-prediction-dataset-legit-dataset_class/source/val_v1.csv",
+        "train_no_err_save_file": "./marshalpatel3558_diabetes-prediction-dataset-legit-dataset_class/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./marshalpatel3558_diabetes-prediction-dataset-legit-dataset_class/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "most_frequent",
+        "random_state": 97,
+        "model_type": "MLPClassifier",
+        "output_file": "./marshalpatel3558_diabetes-prediction-dataset-legit-dataset_class/prediction.csv",
+        "ground_truth_file": "./marshalpatel3558_diabetes-prediction-dataset-legit-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./marshalpatel3558_diabetes-prediction-dataset-legit-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "ID": "categorical",
+            "No_Pation": "categorical",
+            "Gender": "categorical",
+            "AGE": "numerical",
+            "Urea": "numerical",
+            "Cr": "numerical",
+            "HbA1c": "numerical",
+            "Chol": "numerical",
+            "TG": "numerical",
+            "HDL": "numerical",
+            "LDL": "numerical",
+            "VLDL": "numerical",
+            "BMI": "numerical",
+            "CLASS": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "VLDL",
+            "BMI",
+            "HDL",
+            "HbA1c",
+            "Urea",
+            "Chol",
+            "TG"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7069902,
+        "ref": "marshalpatel3558/diabetes-prediction-dataset-legit-dataset",
+        "subtitle": "A Multi-faceted Dataset for Understanding and Prediction.",
+        "creatorName": "Marshal Patel3558",
+        "creatorUrl": "marshalpatel3558",
+        "totalBytes": 15992,
+        "url": "https://www.kaggle.com/datasets/marshalpatel3558/diabetes-prediction-dataset-legit-dataset",
+        "lastUpdated": "2025-04-07T05:14:22.827Z",
+        "downloadCount": 4112,
+        "licenseName": "Attribution 4.0 International (CC BY 4.0)",
+        "description": "",
+        "ownerName": "Marshal Patel3558",
+        "ownerRef": "marshalpatel3558",
+        "kernelCount": 12,
+        "title": "Diabetes Prediction Dataset",
+        "viewCount": 17439,
+        "voteCount": 36,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "healthcare",
+                "name": "healthcare",
+                "description": "AI in healthcare is a growing interest. One of the major problems is simply converting research into an application. Should be easy, right?",
+                "fullPath": "subject > health and fitness > health > healthcare",
+                "competitionCount": 26,
+                "datasetCount": 2131,
+                "scriptCount": 1942,
+                "totalCount": 4099
+            },
+            {
+                "ref": "health",
+                "name": "health",
+                "description": "Consider the health tag your data science gym. Get in there and work out those data science muscles on health analytics. Analyze heart disease until you sweat. Then recover with with a nice candy production dataset.",
+                "fullPath": "subject > health and fitness > health",
+                "competitionCount": 402,
+                "datasetCount": 23200,
+                "scriptCount": 8160,
+                "totalCount": 31762
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "multiclass classification",
+                "name": "multiclass classification",
+                "description": "",
+                "fullPath": "task > multiclass classification",
+                "competitionCount": 831,
+                "datasetCount": 1470,
+                "scriptCount": 3846,
+                "totalCount": 6147
+            },
+            {
+                "ref": "diabetes",
+                "name": "diabetes",
+                "description": "",
+                "fullPath": "subject > health and fitness > health > health conditions > diabetes",
+                "competitionCount": 1,
+                "datasetCount": 6488,
+                "scriptCount": 767,
+                "totalCount": 7256
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7069902,
+        "datasetSlug": "diabetes-prediction-dataset-legit-dataset",
+        "ownerUser": "marshalpatel3558",
+        "usabilityRating": 1.0,
+        "totalViews": 16805,
+        "totalVotes": 33,
+        "totalDownloads": 3962,
+        "title": "Diabetes Prediction Dataset",
+        "subtitle": "A Multi-faceted Dataset for Understanding and Prediction.",
+        "description": "The provided dataset appears to be related to diabetes and contains various biomedical measurements and patient characteristics. Here's a detailed description of the dataset columns:\n\n*   **ID**: A unique identifier for each record in the dataset.\n*   **No_Pation**: Another identifier for the patient. It might be a patient number or record ID.\n*   **Gender**: The gender of the patient (F for Female, M for Male).\n*   **AGE**: The age of the patient in years.\n*   **Urea**: Urea level in the blood (likely measured in mg/dL or mmol/L). Urea is a waste product of protein metabolism and can indicate kidney function.\n*   **Cr**: Creatinine level in the blood (likely measured in mg/dL or \u00b5mol/L). Creatinine is another waste product that indicates kidney function.\n*   **HbA1c**: Glycated hemoglobin, a measure of average blood sugar levels over the past 2-3 months (expressed as a percentage).\n*   **Chol**: Cholesterol level in the blood (likely measured in mg/dL or mmol/L). This typically refers to total cholesterol.\n*   **TG**: Triglycerides level in the blood (likely measured in mg/dL or mmol/L). Triglycerides are a type of fat in the blood.\n*   **HDL**: High-density lipoprotein cholesterol level (often called \"good\" cholesterol, measured in mg/dL or mmol/L).\n*   **LDL**: Low-density lipoprotein cholesterol level (often called \"bad\" cholesterol, measured in mg/dL or mmol/L).\n*   **VLDL**: Very low-density lipoprotein cholesterol level (measured in mg/dL or mmol/L).\n*   **BMI**: Body Mass Index, a measure of body fat based on height and weight (calculated as weight in kilograms divided by height in meters squared).\n*   **CLASS**: The class label indicating the diabetes status of the patient. The possible values seem to be:\n    *   N: Non-diabetic\n    *   P: Prediabetic\n    *   Y: Diabetic\n\n\n=== About this file ===\n\nAbout this file\nPlease Upvote, if you like the dataset.\nAny sort of review is appreciated.\nThe provided dataset appears to be related to diabetes and contains various biomedical measurements and patient characteristics.\n\n\n=== Columns & descriptions ===\n\nID: A unique identifier for each record in the dataset.\nNo_Pation: Another identifier for the patient. It might be a patient number or record ID.\nGender: The gender of the patient (F for Female, M for Male).\nAGE: The age of the patient in years.\nUrea: Urea level in the blood (likely measured in mg/dL or mmol/L). Urea is a waste product of protein metabolism and can indicate kidney function.\nCr: Creatinine level in the blood (likely measured in mg/dL or \u00b5mol/L). Creatinine is another waste product that indicates kidney function.\nHbA1c: Glycated hemoglobin, a measure of average blood sugar levels over the past 2-3 months (expressed as a percentage).\nChol: Cholesterol level in the blood (likely measured in mg/dL or mmol/L). This typically refers to total cholesterol.\nTG: Triglycerides level in the blood (likely measured in mg/dL or mmol/L). Triglycerides are a type of fat in the blood.\nHDL: High-density lipoprotein cholesterol level (often called \"good\" cholesterol, measured in mg/dL or mmol/L).\nLDL: Low-density lipoprotein cholesterol level (often called \"bad\" cholesterol, measured in mg/dL or mmol/L).\nVLDL: Very low-density lipoprotein cholesterol level (measured in mg/dL or mmol/L).\nBMI: Body Mass Index, a measure of body fat based on height and weight (calculated as weight in kilograms divided by height in meters squared).\nCLASS: The class label indicating the diabetes status of the patient. The possible values seem to be: N: Non-diabetic P: Prediabetic Y: Diabetic\n",
+        "keywords": [
+            "healthcare",
+            "health",
+            "classification",
+            "multiclass classification",
+            "diabetes"
+        ],
+        "licenses": [
+            {
+                "name": "Attribution 4.0 International (CC BY 4.0)"
+            }
+        ]
+    }
+}

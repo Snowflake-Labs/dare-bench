@@ -1,0 +1,23 @@
+Detecção de Fraudes em Estornos
+Este dataset sintético foi criado com o objetivo de apoiar estudos e treinamentos relacionados à detecção de fraudes envolvendo estornos realizados no varejo. As transações simulam pagamentos realizados em diferentes lojas, incluindo informações de valor, horários das transações e dos estornos.
+
+Contexto
+O processo de estorno pode ser utilizado de maneira fraudulenta, exigindo das empresas esforços contínuos para monitorar e identificar padrões suspeitos. Este conjunto de dados reproduz condições típicas enfrentadas por equipes antifraude e oferece uma plataforma prática para desenvolver, testar e validar modelos preditivos que distinguem estornos legítimos daqueles potencialmente fraudulentos. Em particular, o dataset permite a aplicação de algoritmos de classificação de machine learning, como Regressão Logística, Árvores de Decisão, Random Forest e Redes Neurais, para aprimorar estratégias analíticas e aumentar a eficiência no combate as fraudes.
+
+=== About this file ===
+
+About this file
+O dataset contém dados sintéticos estruturados sobre transações comerciais simuladas com foco na detecção de fraudes relacionadas a estornos no contexto varejista. Cada linha representa uma transação específica, com informações sobre identificação da transação, loja, valores monetários, datas e horários de pagamentos e estornos, tempo decorrido entre pagamento e solicitação de estorno, horário de fim do expediente das lojas e indicação de fraude. O arquivo é ideal para treinamento e validação de algoritmos de machine learning voltados à classificação e detecção proativa de fraudes.
+
+
+=== Columns & descriptions ===
+
+transacao: Identificador numérico único da transação
+loja: Identificador numérico da loja
+status: Status atual da transação (e.g., "ESTORNADO")
+valor: Valor da transação
+dh_pagamento: Data e hora do pagamento
+dh_estorno: Data e hora do estorno
+dif_minutos: Diferença de tempo em minutos entre pagamento e estorno
+hora_fim_expediente: Hora de encerramento do expediente na loja
+fraude: Indicador binário de fraude (1 indica fraude, 0 indica legítimo)

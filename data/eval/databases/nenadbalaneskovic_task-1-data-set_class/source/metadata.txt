@@ -1,0 +1,72 @@
+## 📜 Flower Hill's Story
+Flower Hill is a flourishing City, consisting of 7 districts: Costal, Central, Mercantil, Faunarium, Technica, Academia and Historica. 
+Costal department contains usually high valued real estate items, such as villas, luxury appartments, etc. 
+Central is the center of the city consisting mostly of offices. Mercantil revolves around the Stock Exchange of the City. 
+Faunarium contains parks, lakes and real estate items connected with them. Technica contains technology companies, Academia district is 
+centered around the Flower University of Technology, whereas Historica represents a traditional, historical real estate district. 
+The City dates back almost 200 years and we could try to create a data set of real estate purchases from 1900 till 2025.  
+
+### **Notebook link**
+https://www.kaggle.com/code/nenadbalaneskovic/notebook2ce12425b7
+
+=== About this file ===
+
+About this file
+📜 Defining the Core Data Schema
+Since we are tracking
+real estate transactions
+across
+historical time periods
+, our dataset is structured as follows:
+Core Fields
+Field Name
+Type
+Description
+transaction_id
+String
+Unique identifier for each purchase
+date
+DateTime
+Transaction timestamp (from 1900 to 2025)
+district
+String
+One of Flower Hill's 7 districts
+property_type
+String
+Apartment, villa, commercial, park-related, historical property, etc.
+price
+Float
+Transaction price in standard currency
+buyer_type
+String
+Individual, corporation, developer, etc.
+seller_type
+String
+Private owner, government, corporation
+square_meters
+Float
+Property size in m²
+condition
+String
+New, renovated, needs repair, abandoned
+economic_status
+String
+City-wide economy marker (e.g., boom, recession)
+historical_significance
+Boolean
+Whether the property has historical relevance
+
+
+=== Columns & descriptions ===
+
+_id: Unique identifier for each purchase
+date: Transaction timestamp (from 1900 to 2025)
+district: One of Flower Hill's 7 districts
+property_type: Apartment, villa, commercial, park-related, historical property, etc.
+price: Transaction price in standard currency
+buyer_type: Individual, corporation, developer, etc.
+seller_type: Private owner, government, corporation
+square_meters: Property size in m²
+condition: New, renovated, needs repair, abandoned
+economic_status: City-wide economy marker (e.g., boom, recession)
+historical_significance: Whether the property has historical relevance

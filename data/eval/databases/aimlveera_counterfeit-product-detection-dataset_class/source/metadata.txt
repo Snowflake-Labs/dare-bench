@@ -1,0 +1,85 @@
+# Overview
+This synthetic dataset was specifically designed to support machine learning research and development in counterfeit product detection and anti-fraud systems. The dataset mimics real-world patterns found in e-commerce platforms while containing no actual sensitive or proprietary information, making it ideal for educational purposes, algorithm development, and public research.
+
+##Key Features and Data Points
+
+###Product-Level Features
+
+####Basic Product Information:
+
+- Product ID, category, brand name, and pricing
+- Six main categories: Electronics, Fashion, Cosmetics, Pharmaceuticals, Luxury Goods, and Automotive Parts
+- Realistic brand variations including subtle misspellings common in counterfeit products
+
+####Seller Characteristics:
+- Seller ratings (1.0-5.0 scale) with counterfeits typically showing lower ratings
+- Review counts ranging from 0 to 10,000, with legitimate sellers having more reviews
+- Geographic information including seller country and shipping origin
+
+####Quality Indicators:
+- Number of product images (counterfeits typically have fewer)
+- Product description length (counterfeits often have shorter, less detailed descriptions)
+- Spelling errors count in product listings
+- Certification badges and warranty information
+- Domain age of seller websites
+
+####Operational Metrics:
+- Shipping timeframes (counterfeits often have longer delivery times)
+- Payment method variety (legitimate sellers offer more options)
+- Return policy clarity and contact information completeness
+- Product views, purchases, and wishlist additions
+
+###Transaction-Level Features
+####Transaction Details:
+- Unique transaction and customer identifiers
+- Transaction dates spanning one year of activity
+- Customer demographics and purchase history
+- Quantity and pricing information with realistic market ranges
+
+####Payment and Shipping:
+- Payment methods including credit cards, PayPal, cryptocurrency, and wire transfers
+- Shipping speeds and costs
+- Discount patterns and promotional activity
+
+####Risk Indicators:
+- Transaction velocity flags for unusual purchasing patterns
+- Geolocation mismatches between customer and payment information
+- Device fingerprint analysis for new vs. returning customers
+- Bulk order patterns and refund request frequencies
+
+#####  Key Applications
+- Training classification models for counterfeit product detection
+- Developing fraud detection algorithms for e-commerce platforms
+- Academic research in consumer protection and marketplace security
+- Building risk assessment systems for online marketplaces
+- Educational projects in data science and machine learning
+
+=== About this file ===
+
+About this file
+Transaction Dataset (3,000 samples)
+Sales transaction records that capture purchasing patterns and fraud indicators associated with counterfeit product sales.
+
+
+=== Columns & descriptions ===
+
+transaction_id: UniquUnique identifier for each completed purchase transactione 8-character identifier for each product listing
+customer_id: Unique identifier for the customer account making the purchase
+transaction_date: Complete timestamp of when the transaction was completed
+customer_age: Age of the customer in years at time of purchase
+customer_location: Customer's country (ISO 2-letter code) based on billing/shipping address
+quantity: Number of items purchased in this transaction, with bulk orders being suspicious
+unit_price: Price per individual item before discounts and shipping
+total_amount: Final amount charged including taxes, shipping, and after discounts
+payment_method: Type of payment used: Credit Card, PayPal, Cryptocurrency, Wire Transfer, etc.
+shipping_speed: Delivery option selected: Standard, Express, Priority, or Economy
+customer_history_orders: [no description]
+discount_applied: [no description]
+discount_percentage: [no description]
+shipping_cost: [no description]
+delivery_time_days: [no description]
+refund_requested: [no description]
+velocity_flag: [no description]
+geolocation_mismatch: [no description]
+device_fingerprint_new: [no description]
+involves_counterfeit: [no description]

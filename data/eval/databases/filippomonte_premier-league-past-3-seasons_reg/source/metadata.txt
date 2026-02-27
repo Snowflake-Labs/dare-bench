@@ -1,0 +1,24 @@
+Match records from the 2022-2025 season, including matches that have not occurred yet. I included a link for each match to find additional information on it. The dataset is meant to be used in educational purposes, for programmers to create and test predictive algorithms. It's still a work in progress... 
+
+=== About this file ===
+
+About this file
+This is a dataset containing records of all premier league matches since 2022/2023 season, plus uncompleted matches for the 2024/2025 season.
+
+
+=== Columns & descriptions ===
+
+Matchday: Game's matchday for that season
+Date: Date of match
+Time: Time match started in UK time
+Home Team: Home team for that game
+homeScore: Amount of goals scored by home team
+homeXG: Expected goals for home team
+awayScore: Amount of goals scored by away team
+awayXG: Expected goals for away team
+Away Team: Away team for that match
+Attendance: Amount of people attending stadium of match
+Referee: [no description]
+Stadium: [no description]
+Result: [no description]
+*Additional Stats: [no description]

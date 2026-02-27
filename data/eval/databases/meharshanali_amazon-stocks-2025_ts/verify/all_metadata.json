@@ -1,0 +1,193 @@
+{
+    "question": {
+        "target": [
+            "Close"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%Y-%m-%d %H:%M:%S%z",
+        "is_resampled": false,
+        "related_features": [
+            "Open",
+            "High",
+            "Low",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+        ],
+        "not_filtered_related_features": [
+            "Open",
+            "High",
+            "Low",
+            "Volume",
+            "Dividends",
+            "Stock Splits"
+        ],
+        "selected_features": [
+            "Low",
+            "Open",
+            "High",
+            "Stock Splits"
+        ],
+        "expected_ranges": {
+            "Open": [
+                0.0703129991889,
+                239.0200042724609
+            ],
+            "High": [
+                0.0723960027098655,
+                242.5200042724609
+            ],
+            "Low": [
+                0.0656249970197677,
+                238.02999877929688
+            ],
+            "Volume": [
+                9744000,
+                2086584000
+            ],
+            "Dividends": [
+                0.0,
+                0.0
+            ],
+            "Stock Splits": [
+                0.0,
+                20.0
+            ]
+        },
+        "column_type_inference": {
+            "Date": "object",
+            "Open": "numeric",
+            "High": "numeric",
+            "Low": "numeric",
+            "Close": "numeric",
+            "Volume": "numeric",
+            "Dividends": "numeric",
+            "Stock Splits": "numeric"
+        },
+        "train_save_file": "./meharshanali_amazon-stocks-2025_ts/source/train.csv",
+        "val_v1_save_file": "./meharshanali_amazon-stocks-2025_ts/source/val_v1.csv",
+        "val_v2_save_file": "./meharshanali_amazon-stocks-2025_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./meharshanali_amazon-stocks-2025_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./meharshanali_amazon-stocks-2025_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./meharshanali_amazon-stocks-2025_ts/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 2,
+        "model_type": "Prophet",
+        "output_file": "./meharshanali_amazon-stocks-2025_ts/prediction.json",
+        "ground_truth_v1_file": "./meharshanali_amazon-stocks-2025_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./meharshanali_amazon-stocks-2025_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./meharshanali_amazon-stocks-2025_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2019-08-01 00:00:00-04:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 6778668,
+        "ref": "meharshanali/amazon-stocks-2025",
+        "subtitle": "All time amazon stocks dataset 1977 to 2025",
+        "creatorName": "Mehar Shan Ali",
+        "creatorUrl": "meharshanali",
+        "totalBytes": 165462,
+        "url": "https://www.kaggle.com/datasets/meharshanali/amazon-stocks-2025",
+        "lastUpdated": "2025-03-03T09:46:30.000Z",
+        "downloadCount": 1620,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Mehar Shan Ali",
+        "ownerRef": "meharshanali",
+        "kernelCount": 13,
+        "title": "Amazon Stocks 2025",
+        "viewCount": 7733,
+        "voteCount": 36,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "finance",
+                "name": "finance",
+                "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+                "fullPath": "subject > people and society > business > finance",
+                "competitionCount": 101,
+                "datasetCount": 12683,
+                "scriptCount": 4576,
+                "totalCount": 17360
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "retail and shopping",
+                "name": "retail and shopping",
+                "description": "",
+                "fullPath": "subject > people and society > people > retail and shopping",
+                "competitionCount": 6,
+                "datasetCount": 12258,
+                "scriptCount": 588,
+                "totalCount": 12852
+            },
+            {
+                "ref": "e-commerce services",
+                "name": "e-commerce services",
+                "description": "",
+                "fullPath": "subject > people and society > business > e-commerce services",
+                "competitionCount": 6,
+                "datasetCount": 3467,
+                "scriptCount": 579,
+                "totalCount": 4052
+            },
+            {
+                "ref": "investing",
+                "name": "investing",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > investing",
+                "competitionCount": 5,
+                "datasetCount": 11998,
+                "scriptCount": 18559,
+                "totalCount": 30562
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6778668,
+        "datasetSlug": "amazon-stocks-2025",
+        "ownerUser": "meharshanali",
+        "usabilityRating": 1.0,
+        "totalViews": 7443,
+        "totalVotes": 33,
+        "totalDownloads": 1522,
+        "title": "Amazon Stocks 2025",
+        "subtitle": "All time amazon stocks dataset 1977 to 2025",
+        "description": "# \ud83d\udcca Amazon (AMZN) Stock Market Dataset\n\n## \ud83d\udccc Dataset Description\nThis dataset provides historical stock market data for Amazon (AMZN), one of the world's largest technology companies. The data has been sourced from Yahoo Finance and includes essential stock market attributes, allowing investors, analysts, and data scientists to analyze market trends, volatility, and stock performance.\n\n## \ud83d\udcc8 Features Included\nThis dataset contains the following stock attributes:\n\n- **Date**: The trading date for Amazon stock.\n- **Open Price**: The price at which the stock began trading on a given day.\n- **High Price**: The highest price recorded for the stock during the trading session.\n- **Low Price**: The lowest price recorded for the stock during the trading session.\n- **Close Price**: The final trading price of the stock at the end of the day.\n- **Volume**: The number of shares traded on a specific day.\n- **Dividends**: The amount of dividend issued per share (if any).\n- **Stock Splits**: Information on stock splits that occurred over time.\n\n## \ud83d\udcca Why This Dataset?\nThis dataset is useful for financial analysts, traders, researchers, and data scientists who want to:\n\n\u2705 **Analyze Stock Trends**: Explore long-term and short-term price movements.  \n\u2705 **Study Market Volatility**: Understand stock fluctuations and investor sentiment.  \n\u2705 **Identify Trading Patterns**: Observe correlations between stock volume and price changes.  \n\u2705 **Evaluate Corporate Actions**: Assess the impact of dividends and stock splits.  \n\u2705 **Develop Predictive Models**: Use machine learning techniques to forecast stock prices.  \n\n## \ud83d\udd0d Potential Use Cases\n- **Time Series Analysis**: Identify patterns in historical stock prices.\n- **Technical Analysis**: Apply moving averages, Bollinger Bands, and other indicators.\n- **Investment Strategy Development**: Backtest trading strategies.\n- **Stock Price Prediction**: Use machine learning models to predict future prices.\n- **Market Research & Reports**: Generate insights for financial reports and investment decisions.\n\n## \ud83d\udcbe Dataset Details\n- **Source**: Yahoo Finance  \n- **Ticker Symbol**: `AMZN`  \n- **Data Format**: CSV  \n- **Date Range**: Maximum available historical data  \n- **File Size**: Varies based on data range  \n\n## \ud83d\ude80 Next Steps\nThis dataset can be used for financial research, exploratory data analysis (EDA), and algorithmic trading strategies. Use statistical and machine learning techniques to uncover insights and improve decision-making in stock investments.\n\n---\n\u26a1 **Start analyzing Amazon stock trends today!** \u26a1\n\n\n=== About this file ===\n\nAbout this file\nThe data has been sourced from Yahoo Finance and includes essential stock market attributes, allowing investors, analysts, and data scientists to analyze market trends, volatility, and stock performance.\n\n\n=== Columns & descriptions ===\n\nDate: The trading date for Amazon stock\nOpen: The price at which the stock began trading on a given day\nHigh: The highest price recorded for the stock during the trading session\nLow: The lowest price recorded for the stock during the trading session\nClose: The final trading price of the stock at the end of the day\nVolume: The number of shares traded on a specific day\nDividends: The amount of dividend issued per share\nStock Splits: Information on stock splits that occurred over time\n",
+        "keywords": [
+            "finance",
+            "time series analysis",
+            "retail and shopping",
+            "e-commerce services",
+            "investing"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

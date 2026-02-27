@@ -1,0 +1,207 @@
+{
+    "question": {
+        "target": [
+            "City"
+        ],
+        "target_candidates": [
+            "City"
+        ],
+        "related_features": [
+            "PM10",
+            "NO2",
+            "O3",
+            "PM2.5",
+            "SO2",
+            "CO"
+        ],
+        "not_filtered_related_features": [
+            "PM10",
+            "NO2",
+            "CO",
+            "PM2.5",
+            "SO2",
+            "O3"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "PM10": [
+                0.0,
+                550.0
+            ],
+            "NO2": [
+                0.0,
+                252.0
+            ],
+            "CO": [
+                48.0,
+                2145.0
+            ],
+            "PM2.5": [
+                0.0,
+                144.0
+            ],
+            "SO2": [
+                0.0,
+                201.0
+            ],
+            "O3": [
+                0.0,
+                425.0
+            ]
+        },
+        "selected_features": [
+            "PM10",
+            "O3",
+            "CO",
+            "SO2"
+        ],
+        "train_v2_save_file": "./youssefelebiary_global-air-quality-2023-6-cities_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./youssefelebiary_global-air-quality-2023-6-cities_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./youssefelebiary_global-air-quality-2023-6-cities_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./youssefelebiary_global-air-quality-2023-6-cities_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./youssefelebiary_global-air-quality-2023-6-cities_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.9,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 22,
+        "model_type": "LinearSVC",
+        "output_file": "./youssefelebiary_global-air-quality-2023-6-cities_class/prediction.csv",
+        "ground_truth_file": "./youssefelebiary_global-air-quality-2023-6-cities_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./youssefelebiary_global-air-quality-2023-6-cities_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Date": "categorical",
+            "City": "categorical",
+            "CO": "numerical",
+            "NO2": "numerical",
+            "SO2": "numerical",
+            "O3": "numerical",
+            "PM2.5": "numerical",
+            "PM10": "numerical",
+            "AQI": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "PM10",
+            "O3",
+            "CO",
+            "SO2"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7677348,
+        "ref": "youssefelebiary/global-air-quality-2023-6-cities",
+        "subtitle": "Air Quality of 6 different cities in 2023",
+        "creatorName": "Youssef Elebiary",
+        "creatorUrl": "youssefelebiary",
+        "totalBytes": 1947473,
+        "url": "https://www.kaggle.com/datasets/youssefelebiary/global-air-quality-2023-6-cities",
+        "lastUpdated": "2025-06-16T22:38:43.947Z",
+        "downloadCount": 1548,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Youssef Elebiary",
+        "ownerRef": "youssefelebiary",
+        "kernelCount": 10,
+        "title": "Global Air Quality (2023) - 6 Cities",
+        "viewCount": 7132,
+        "voteCount": 38,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "environment",
+                "name": "environment",
+                "description": "The environment tag is chock full of datasets and kernels that are generally showing how poorly we are treating the planet. One positive side to this tag is that it wasn't printed on paper.",
+                "fullPath": "subject > earth and nature > environment",
+                "competitionCount": 24,
+                "datasetCount": 1605,
+                "scriptCount": 612,
+                "totalCount": 2241
+            },
+            {
+                "ref": "pollution",
+                "name": "pollution",
+                "description": "Pollution is the introduction of contaminants into the natural environment that cause adverse change.",
+                "fullPath": "subject > earth and nature > environment > pollution",
+                "competitionCount": 6,
+                "datasetCount": 445,
+                "scriptCount": 228,
+                "totalCount": 679
+            },
+            {
+                "ref": "history",
+                "name": "history",
+                "description": "History is generally the study of past events that have shaped the world. Here on Kaggle, you'll find historical records and analyses on topics like Bitcoin data, UFO sightings, and sports tournaments.",
+                "fullPath": "subject > people and society > social science > history",
+                "competitionCount": 3,
+                "datasetCount": 2367,
+                "scriptCount": 339,
+                "totalCount": 2709
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            },
+            {
+                "ref": "social issues and advocacy",
+                "name": "social issues and advocacy",
+                "description": "",
+                "fullPath": "subject > people and society > social issues and advocacy",
+                "datasetCount": 5836,
+                "scriptCount": 238,
+                "totalCount": 6074
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7677348,
+        "datasetSlug": "global-air-quality-2023-6-cities",
+        "ownerUser": "youssefelebiary",
+        "usabilityRating": 1.0,
+        "totalViews": 5860,
+        "totalVotes": 36,
+        "totalDownloads": 1349,
+        "title": "Global Air Quality (2023) - 6 Cities",
+        "subtitle": "Air Quality of 6 different cities in 2023",
+        "description": "# Context\nAir pollution causes approximately **7 million premature deaths annually** (WHO). This dataset enables researchers and data scientists to:\n- Analyze global pollution disparities\n- Investigate health impacts of air quality\n- Develop predictive models for environmental monitoring\n\nThe data for 2024 is available [here](https://www.kaggle.com/datasets/youssefelebiary/air-quality-2024).\n\n# Overview\n| Category        | Detail                          |\n|-----------------|---------------------------------|\n| Records         | 52,000+ daily measurements     |\n| Timeframe       | January - December 2023 GMT Time Zone       |\n| Cities          | 6 globally distributed locations|\n| Pollutants      | CO, CO\u2082, NO\u2082, SO\u2082, O\u2083, PM2.5, PM10 |\n| Index           | European AQI                   |\n\n# Files\n1. **Combined Dataset** (`Air_Quality.csv`)\n   - All cities with `City` identifier\n   - Complete 2024 daily records\n   \n2. **City-Specific Files** (e.g., `London_Air_Quality.csv`)\n   - Same metrics without `City` column\n   - Ideal for localized analysis\n\n# Key Features\n1. Temporal Coverage: Hourly data for all of 2023.\n2. Geographical Diversity: Includes cities from all inhabited continents (e.g., \"London, Delhi, Sydney\").\n3. Standardized Units: Explicitly documented (CO\u2082 in ppm, others in \u00b5g/m\u00b3).\n4. European AQI: Consistent index for cross-city comparison.\n\n# Uses\nThis dataset is suitable for a wide range of tasks, including:\n- Time-series forecasting: Predict AQI based on pollutant levels.\n- Pollutant correlation analysis: Identify which gases/particulates most impact AQI.\n- Geospatial comparisons: Compare air quality trends across continents.\n- Health impact studies: Link PM2.5/PM10 levels to public health benchmarks (WHO guidelines).\n\n# Licensing\nThis dataset is published under the **MIT License**, allowing free use for both personal and commercial purposes. Attribution is encouraged but not required.\n\n=== About this file ===\n\nAbout this file\nContains over 52,000 entries representing the air quality of the 6 cities during 2023\n\n\n=== Columns & descriptions ===\n\nDate: Date of the reading\nCity: City of reading\nCO: Carbon Monoxide Concentration in \u00b5g/m\u00b3\nNO2: Nitrogen Dioxide concentration in \u00b5g/m\u00b3\nSO2: Sulphur Dioxide concentration in \u00b5g/m\u00b3\nO3: Ozone Concentration in \u00b5g/m\u00b3\nPM2.5: Particulate Matter (<= 2.5 \u00b5m) concentration in \u00b5g/m\u00b3\nPM10: Particulate Matter (<= 10 \u00b5m) concentration in \u00b5g/m\u00b3\nAQI: Air Quality Index (composite score)\n",
+        "keywords": [
+            "environment",
+            "pollution",
+            "history",
+            "classification",
+            "regression",
+            "social issues and advocacy"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

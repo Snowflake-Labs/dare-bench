@@ -1,0 +1,198 @@
+{
+    "question": {
+        "target": [
+            "OrderCount"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "WorkDate",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "Customer",
+            "Location",
+            "BusinessType"
+        ],
+        "not_filtered_related_features": [
+            "Customer",
+            "Location",
+            "BusinessType"
+        ],
+        "selected_features": [
+            "Location",
+            "BusinessType"
+        ],
+        "expected_ranges": {
+            "Customer": [
+                "Amazon",
+                "Home Depot",
+                "T.J. Maxx",
+                "Home Goods",
+                "Chick-Fil-A",
+                "Chipotle",
+                "Lowes",
+                "Starbucks",
+                "Costco",
+                "Walmart",
+                "Target",
+                "Shein"
+            ],
+            "Location": [
+                "Chicago",
+                "Sacramento",
+                "Detroit",
+                "Atlanta",
+                "Houston",
+                "Seattle",
+                "San Francisco",
+                "Los Angeles",
+                "Birmingham",
+                "Tampa Bay",
+                "Dallas",
+                "Miami",
+                "Milwaukee",
+                "Nashville",
+                "San Diego",
+                "Minneapolis",
+                "New York"
+            ],
+            "BusinessType": [
+                "Final Mile",
+                "Middle Mile",
+                "First Mile"
+            ]
+        },
+        "column_type_inference": {
+            "WorkDate": "object",
+            "Customer": "object",
+            "Location": "object",
+            "BusinessType": "object",
+            "OrderCount": "numeric",
+            "NumberOfPieces": "numeric",
+            "TotalRevenue": "numeric"
+        },
+        "train_save_file": "./philiphyde1_time-series-supply-chain-dataset_ts/source/train.csv",
+        "val_v1_save_file": "./philiphyde1_time-series-supply-chain-dataset_ts/source/val_v1.csv",
+        "val_v2_save_file": "./philiphyde1_time-series-supply-chain-dataset_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./philiphyde1_time-series-supply-chain-dataset_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./philiphyde1_time-series-supply-chain-dataset_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./philiphyde1_time-series-supply-chain-dataset_ts/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 10,
+        "model_type": "Prophet",
+        "output_file": "./philiphyde1_time-series-supply-chain-dataset_ts/prediction.json",
+        "ground_truth_v1_file": "./philiphyde1_time-series-supply-chain-dataset_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./philiphyde1_time-series-supply-chain-dataset_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./philiphyde1_time-series-supply-chain-dataset_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2024-05-24 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7761553,
+        "ref": "philiphyde1/time-series-supply-chain-dataset",
+        "subtitle": "Orders, Pieces, and Revenue for Daily Deliveries in Different Locations",
+        "creatorName": "Philip Hyde",
+        "creatorUrl": "philiphyde1",
+        "totalBytes": 982625,
+        "url": "https://www.kaggle.com/datasets/philiphyde1/time-series-supply-chain-dataset",
+        "lastUpdated": "2025-06-29T21:25:06.257Z",
+        "downloadCount": 505,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Philip Hyde",
+        "ownerRef": "philiphyde1",
+        "kernelCount": 3,
+        "title": "Time Series Supply Chain Dataset",
+        "viewCount": 2415,
+        "voteCount": 4,
+        "currentVersionNumber": 3,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "transportation",
+                "name": "transportation",
+                "description": "Most of the various modes of transport are all covered in this tag. Not all though because so far there are no kernels or datasets about teleportation.",
+                "fullPath": "subject > science and technology > transportation",
+                "competitionCount": 7,
+                "datasetCount": 12016,
+                "scriptCount": 604,
+                "totalCount": 12627
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "retail and shopping",
+                "name": "retail and shopping",
+                "description": "",
+                "fullPath": "subject > people and society > people > retail and shopping",
+                "competitionCount": 6,
+                "datasetCount": 12258,
+                "scriptCount": 588,
+                "totalCount": 12852
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7761553,
+        "datasetSlug": "time-series-supply-chain-dataset",
+        "ownerUser": "philiphyde1",
+        "usabilityRating": 1.0,
+        "totalViews": 636,
+        "totalVotes": 1,
+        "totalDownloads": 112,
+        "title": "Time Series Supply Chain Dataset",
+        "subtitle": "Orders, Pieces, and Revenue for Daily Deliveries in Different Locations",
+        "description": "This dataset contains 5 years of simulated delivery data for several customers in several different locations. The purpose of this dataset is to mimic real-world delivery patters by including seasonality, demand spikes, and holiday closures. This dataset is perfect for anyone trying to practice time-series forecasting, demand planning, or supply chain analysis.\n\n=== About this file ===\n\nAbout this file\n5 years of synthetic delivery data for several customers and locations\n\n\n=== Columns & descriptions ===\n\nWorkDate: Date of delivery\nCustomer: Customer serviced\nLocation: Hub location where orders originated from\nBusinessType: Type of delivery done\nOrderCount: Number of orders\nNumberOfPieces: Number of pieces\nTotalRevenue: Total revenue collected from deliveries\n",
+        "keywords": [
+            "business",
+            "transportation",
+            "exploratory data analysis",
+            "time series analysis",
+            "retail and shopping"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

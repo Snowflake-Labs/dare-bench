@@ -1,0 +1,178 @@
+{
+    "question": {
+        "target": [
+            "Taxa Selic"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "IPCA",
+            "IGP-M",
+            "INPC",
+            "Desemprego PNADC"
+        ],
+        "not_filtered_related_features": [
+            "IPCA",
+            "IGP-M",
+            "INPC",
+            "Desemprego PNADC"
+        ],
+        "selected_features": [
+            "IPCA",
+            "Desemprego PNADC",
+            "IGP-M"
+        ],
+        "expected_ranges": {
+            "IPCA": [
+                -0.68,
+                1.62
+            ],
+            "IGP-M": [
+                -1.93,
+                4.34
+            ],
+            "INPC": [
+                -0.6,
+                1.71
+            ],
+            "Desemprego PNADC": [
+                6.1,
+                14.9
+            ]
+        },
+        "column_type_inference": {
+            "Date": "object",
+            "Taxa Selic": "numeric",
+            "IPCA": "numeric",
+            "IGP-M": "numeric",
+            "INPC": "numeric",
+            "Desemprego PNADC": "numeric"
+        },
+        "train_save_file": "./andrewmvd_brazilian-stock-market_ts/source/train.csv",
+        "val_v1_save_file": "./andrewmvd_brazilian-stock-market_ts/source/val_v1.csv",
+        "val_v2_save_file": "./andrewmvd_brazilian-stock-market_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./andrewmvd_brazilian-stock-market_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./andrewmvd_brazilian-stock-market_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./andrewmvd_brazilian-stock-market_ts/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 62,
+        "model_type": "Prophet",
+        "output_file": "./andrewmvd_brazilian-stock-market_ts/prediction.json",
+        "ground_truth_v1_file": "./andrewmvd_brazilian-stock-market_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./andrewmvd_brazilian-stock-market_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./andrewmvd_brazilian-stock-market_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2020-08-11 00:00:00",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 2510758,
+        "ref": "andrewmvd/brazilian-stock-market",
+        "subtitle": "Data on more than 400 Brazilian Stocks",
+        "creatorName": "Larxel",
+        "creatorUrl": "andrewmvd",
+        "totalBytes": 18737796,
+        "url": "https://www.kaggle.com/datasets/andrewmvd/brazilian-stock-market",
+        "lastUpdated": "2025-02-27T04:05:53.583Z",
+        "downloadCount": 1630,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Larxel",
+        "ownerRef": "andrewmvd",
+        "kernelCount": 6,
+        "title": "Brazilian Stock Market (daily updated)",
+        "viewCount": 10340,
+        "voteCount": 83,
+        "currentVersionNumber": 859,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "finance",
+                "name": "finance",
+                "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+                "fullPath": "subject > people and society > business > finance",
+                "competitionCount": 101,
+                "datasetCount": 12683,
+                "scriptCount": 4576,
+                "totalCount": 17360
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "investing",
+                "name": "investing",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > investing",
+                "competitionCount": 5,
+                "datasetCount": 11998,
+                "scriptCount": 18559,
+                "totalCount": 30562
+            },
+            {
+                "ref": "currencies and foreign exchange",
+                "name": "currencies and foreign exchange",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > currencies and foreign exchange",
+                "competitionCount": 3,
+                "datasetCount": 6932,
+                "scriptCount": 2007,
+                "totalCount": 8942
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 2510758,
+        "datasetSlug": "brazilian-stock-market",
+        "ownerUser": "andrewmvd",
+        "usabilityRating": 1.0,
+        "totalViews": 10186,
+        "totalVotes": 83,
+        "totalDownloads": 1600,
+        "title": "Brazilian Stock Market (daily updated)",
+        "subtitle": "Data on more than 400 Brazilian Stocks",
+        "description": "&gt; Brazil's B3 Stock Exchange is the one and only public financial market of the 13th largest economy in the world with a 2021 market cap of R$ 5.2 trillion BRL.\n\n&gt; With the goal of improving financial literacy, this dataset contains more than 400 stock listings that are updated daily for the purposes of providing data for quantitative analysis.\n\n\n# How to use this dataset\n&gt; - Create a time series regression model to predict ^IBOV value and/or stock prices.\n- Explore the yield and volatility of the stocks listed.\n- Identify high and low performance stocks among the list.\n\n\n# Highlighted Notebooks\n&gt; - Your kernel can be featured here!\n- [More datasets](https://www.kaggle.com/andrewmvd/datasets)\n\n\n\n# Acknowledgements\n\n&gt; ### License\nCC0: Public Domain\n\n\n&gt; ### Splash banner\nStonks by unknown memer.\n\n\n\n=== About this file ===\n\nAbout this file\nRemote source:\nhttps://www.kaggle.com/code/andrewmvd/bmf-crawler\nMarket indexes file\nThis file includes the major Brazilian financial market indexes.\n\n\n=== Columns & descriptions ===\n\nDate: Date\nSymbol: Index Symbol\nAdj Close: Adjusted Close\nClose: Closing Price\nHigh: Max Daily Price\nLow: Min Daily Price\nOpen: Opening Price\nVolume: Amount of shares\n",
+        "keywords": [
+            "business",
+            "finance",
+            "time series analysis",
+            "investing",
+            "currencies and foreign exchange"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

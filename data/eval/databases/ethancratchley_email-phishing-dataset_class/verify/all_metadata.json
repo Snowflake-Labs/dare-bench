@@ -1,0 +1,222 @@
+{
+    "question": {
+        "target": [
+            "label"
+        ],
+        "target_candidates": [
+            "label"
+        ],
+        "related_features": [
+            "num_links",
+            "num_unique_words",
+            "num_spelling_errors",
+            "num_words",
+            "num_stopwords",
+            "num_unique_domains",
+            "num_email_addresses",
+            "num_urgent_keywords"
+        ],
+        "not_filtered_related_features": [
+            "num_links",
+            "num_unique_words",
+            "num_spelling_errors",
+            "num_words",
+            "num_stopwords",
+            "num_unique_domains",
+            "num_email_addresses",
+            "num_urgent_keywords"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "num_links": [
+                0,
+                824
+            ],
+            "num_unique_words": [
+                0,
+                51251
+            ],
+            "num_spelling_errors": [
+                0,
+                190104
+            ],
+            "num_words": [
+                0,
+                2339682
+            ],
+            "num_stopwords": [
+                0,
+                720411
+            ],
+            "num_unique_domains": [
+                0,
+                524
+            ],
+            "num_email_addresses": [
+                0,
+                1150
+            ],
+            "num_urgent_keywords": [
+                0,
+                7
+            ]
+        },
+        "selected_features": [
+            "num_unique_domains",
+            "num_urgent_keywords",
+            "num_email_addresses",
+            "num_spelling_errors",
+            "num_stopwords"
+        ],
+        "train_v2_save_file": "./ethancratchley_email-phishing-dataset_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./ethancratchley_email-phishing-dataset_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./ethancratchley_email-phishing-dataset_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./ethancratchley_email-phishing-dataset_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./ethancratchley_email-phishing-dataset_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.7,
+        "save_file_type": "sqlite",
+        "imputer_type": "median",
+        "random_state": 60,
+        "model_type": "LinearSVC",
+        "output_file": "./ethancratchley_email-phishing-dataset_class/prediction.csv",
+        "ground_truth_file": "./ethancratchley_email-phishing-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./ethancratchley_email-phishing-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "num_words": "numerical",
+            "num_unique_words": "numerical",
+            "num_stopwords": "numerical",
+            "num_links": "numerical",
+            "num_unique_domains": "numerical",
+            "num_email_addresses": "numerical",
+            "num_spelling_errors": "numerical",
+            "num_urgent_keywords": "numerical",
+            "label": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "num_unique_domains",
+            "num_urgent_keywords",
+            "num_email_addresses",
+            "num_spelling_errors",
+            "num_stopwords"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7016979,
+        "ref": "ethancratchley/email-phishing-dataset",
+        "subtitle": "Cleaned and Feature-Engineered Email Phishing Detection Dataset",
+        "creatorName": "Ethan Cratchley",
+        "creatorUrl": "ethancratchley",
+        "totalBytes": 3336668,
+        "url": "https://www.kaggle.com/datasets/ethancratchley/email-phishing-dataset",
+        "lastUpdated": "2025-04-01T01:23:06.577Z",
+        "downloadCount": 4692,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Ethan Cratchley",
+        "ownerRef": "ethancratchley",
+        "kernelCount": 22,
+        "title": "Email Phishing Dataset",
+        "viewCount": 19356,
+        "voteCount": 44,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "nlp",
+                "name": "nlp",
+                "description": "Natural Language Processing gives a computer program the ability to extract meaning human language. Applications include sentiment analysis, translation, and speech recognition.",
+                "fullPath": "analysis > nlp",
+                "competitionCount": 103,
+                "datasetCount": 4980,
+                "scriptCount": 9018,
+                "totalCount": 14101
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "xgboost",
+                "name": "xgboost",
+                "description": "A library that implements the gradient boosting framework onto a wide range of problems including regression and classification. It is optimized for speed and efficiency.",
+                "fullPath": "packages > xgboost",
+                "competitionCount": 4,
+                "datasetCount": 186,
+                "scriptCount": 7771,
+                "totalCount": 7961
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "email and messaging",
+                "name": "email and messaging",
+                "description": "",
+                "fullPath": "subject > science and technology > internet > email and messaging",
+                "competitionCount": 1,
+                "datasetCount": 5856,
+                "scriptCount": 181,
+                "totalCount": 6038
+            },
+            {
+                "ref": "cyber security",
+                "name": "cyber security",
+                "description": "",
+                "fullPath": "subject > cyber security",
+                "competitionCount": 9,
+                "datasetCount": 391,
+                "scriptCount": 103,
+                "totalCount": 503
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7016979,
+        "datasetSlug": "email-phishing-dataset",
+        "ownerUser": "ethancratchley",
+        "usabilityRating": 1.0,
+        "totalViews": 18236,
+        "totalVotes": 42,
+        "totalDownloads": 4357,
+        "title": "Email Phishing Dataset",
+        "subtitle": "Cleaned and Feature-Engineered Email Phishing Detection Dataset",
+        "description": "# Dataset Description\n**Overview:**\nThis dataset is designed for phishing email detection using machine learning. It combines:\n- ~500,000 non-phishing (\"safe\") emails from the [Enron Email Dataset](https://www.kaggle.com/datasets/wcukierski/enron-email-dataset)\n- ~20,000 phishing and safe emails from the [Phishing Email Dataset](https://www.kaggle.com/datasets/subhajournal/phishingemails)\n\nEvery email was cleaned and passed through a custom NLP feature extraction pipeline that focuses on phishing indicators. The goal is to provide a ready-to-use dataset for classification tasks with minimal preprocessing.\n\n# Column Details\n- `num_words` - Total number of words in the email body\n- `num_unique_words`- Count of unique words used\n- `num_stopwords`\t- Count of common stopwords (e.g., \"the\", \"and\", \"in\")\n- `num_links` - Number of hyperlinks detected\n- `num_unique_domains` - Number of unique domains in links (e.g., \"paypal.com\")\n- `num_email_addresses` - Count of email addresses found in the text\n- `num_spelling_errors`\t- Count of misspelled words\n- `num_urgent_keywords` - Number of urgent words (e.g., \"urgent\", \"verify\", \"update\")\n- `label` - Target variable: 0 = Safe Email, 1 = Phishing Email\n\n**Notes:**\n- This dataset does not contain raw text or headers, only engineered features for training/testing models.\n- Spell checking used pyspellchecker on filtered tokens.\n- Stopwords were a fixed English list.\n- No personal or PII information is included.\n\n=== About this file ===\n\nAbout this file\nContains >500k rows and a multitude of features for emails.\n\n\n=== Columns & descriptions ===\n\nnum_words: # of Words\nnum_unique_words: # of Unique Words\nnum_stopwords: # of Stopwords\nnum_links: # of Links\nnum_unique_domains: # of Unique Domains\nnum_email_addresses: # of Email Addresses\nnum_spelling_errors: # of Spelling Errors\nnum_urgent_keywords: # of Urgent Keywords\nlabel: Label\n",
+        "keywords": [
+            "nlp",
+            "classification",
+            "xgboost",
+            "tabular",
+            "email and messaging",
+            "cyber security"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,59 @@
+## 🚀 Title: **One-Hour High-Frequency Crypto Snapshot – Top 250 Coins, ~75K Ticks**
+
+### 📝 Overview
+This dataset captures **live market snapshots every 12 seconds** for the **top 250 cryptocurrencies**, all fetched over a **one-hour period** using the CoinGecko Demo API. Perfect for real-time trend tracking, volatility analysis, and comparison across major coins.
+
+---
+
+### 📊 Schema Summary
+
+| **Column**                      | **Type**     | **Description**                                           |
+|--------------------------------|--------------|-----------------------------------------------------------|
+| `timestamp`                    | datetime     | UTC timestamp of the market snapshot (ISO format)         |
+| `id`                           | string       | CoinGecko ID (e.g., `bitcoin`)                           |
+| `symbol`                       | string       | Coin symbol (e.g., `btc`)                                |
+| `name`                         | string       | Coin name (e.g., `Bitcoin`)                              |
+| `current_price`                | float (USD)  | Real-time price in USD                                   |
+| `market_cap`                   | float (USD)  | Market capitalization in USD                             |
+| `total_volume`                 | float (USD)  | 24-hour trading volume                                   |
+| `high_24h`                     | float (USD)  | Highest price in the last 24 hours                       |
+| `low_24h`                      | float (USD)  | Lowest price in the last 24 hours                        |
+| `price_change_percentage_24h`  | float (%)    | Percent change in price over the past 24 hours           |
+
+---
+
+### 🎯 Use Cases
+
+- Visualize **real-time price evolution** for Bitcoin, Ethereum, and other major coins
+- Compute **rolling averages** and **short-term volatility**
+- Perform **coin-to-coin comparisons** (price dynamics, volume trends)
+- Explore **volume-price correlations**, and flag **anomaly detection**
+- Build **heatmaps**, **live dashboards**, or **time-series models**
+
+---
+
+### 📌 Attribution & Licensing
+
+&gt; Data collected via CoinGecko API—**Data powered by CoinGecko**  
+
+---
+
+
+=== About this file ===
+
+About this file
+A one-hour, high-frequency dataset capturing ~75,000 live ticks of real-time market data for the top 250 cryptocurrencies, sampled every 12 seconds via the CoinGecko API. Each entry includes timestamped price, volume, market cap, 24-hour high/low, and percent price change—perfect for time-series analysis, trend detection, volatility measurement, and comparative studies. (Data powered by CoinGecko API.)
+
+
+=== Columns & descriptions ===
+
+timestamp: 2025-06-20 2025-06-20
+id: id
+symbol: symbol
+name: name
+current_price: current_price
+market_cap: market_cap
+total_volume: total_volume
+high_24h: high_24
+low_24h: low_24h
+price_change_percentage_24h: price_change_percentage_24h

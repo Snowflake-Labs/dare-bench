@@ -1,0 +1,815 @@
+row_id,city,make,model,variant,mileage,make_year,fuel_type,no_of_owners,color,body_type,transmission,registration_year,latest_publish_date
+1,ghaziabad,Volkswagen,Polo,Highline1.2L (P),61037,2015,petrol,2,red,hatchback,manual,2015,2025-08-11 12:01:39
+2,bangalore,Hyundai,Creta,1.6 SX AT VTVT,33208,2019,petrol,2,red,suv,automatic,2019,2025-08-13 17:23:15
+3,delhi-ncr,Maruti Suzuki,Baleno,Alpha 1.2 AT,31417,2018,petrol,2,blue,hatchback,automatic,2018,2025-07-12 05:07:28
+4,bangalore,Maruti Suzuki,Alto K10,VXI AMT (O),48489,2017,petrol,3,white,hatchback,automatic,2017,2025-08-18 06:02:05
+5,ghaziabad,Hyundai,Creta,SX+ SE,47912,2017,petrol,1,white,suv,manual,2017,2025-07-15 07:31:51
+6,delhi-ncr,Hyundai,Verna,SX (O) 1.6 VTVT AT,62270,2017,petrol,1,silver,sedan,automatic,2017,2025-08-05 17:37:48
+7,bangalore,Hyundai,Verna,Fluidic 1.6 VTVT SX,47632,2013,petrol,1,purple,sedan,manual,2013,2025-07-02 15:45:20
+8,delhi,Maruti Suzuki,Baleno,Delta 1.2,27740,2018,petrol,1,red,hatchback,manual,2018,2025-07-21 05:17:38
+9,lucknow,Maruti Suzuki,Alto 800,LXi,72718,2016,petrol,1,grey,hatchback,manual,2016,2025-08-13 14:45:54
+10,faridabad,Renault,Triber,RXT,66088,2022,petrol,1,silver,muv,manual,2022,2025-08-12 07:23:44
+11,delhi,Renault,Triber,RXZ Dual Tone,27372,2021,petrol,1,silver,muv,manual,2021,2025-08-11 12:19:19
+12,delhi-ncr,Maruti Suzuki,Ertiga,VXI CNG (outside fitted),44079,2013,cng,1,white,muv,manual,2013,2025-08-05 17:41:20
+13,ahmedabad,Hyundai,Aura,SX 1.2 CNG,47541,2023,cng,1,blue,sedan,manual,2023,2025-08-14 15:03:57
+14,chandigarh,Maruti Suzuki,Celerio,ZXi Plus,9637,2022,petrol,1,grey,hatchback,manual,2022,2025-06-30 15:39:34
+15,delhi-ncr,Maruti Suzuki,XL6,Alpha Plus AT Petrol,72960,2022,petrol,1,blue,muv,automatic,2022,2025-07-27 06:22:20
+16,jaipur,Mercedes-Benz,C-Class,C 200 Avantgarde,41783,2016,petrol,2,white,sedan,automatic,2016,2025-08-18 12:38:46
+17,delhi-ncr,Ford,EcoSport,Titanium + 1.5L Ti-VCT AT,93863,2018,petrol,1,white,suv,automatic,2018,2025-05-13 06:02:25
+18,lucknow,Renault,Kwid,RXT (O) 1.0 SCE Edition,23972,2019,petrol,1,red,hatchback,manual,2019,2025-08-02 16:44:45
+19,pune,Hyundai,Venue,SX Plus 1.0 Turbo DCT,34087,2022,petrol,1,white,suv,automatic,2022,2025-08-05 08:46:43
+20,delhi,Hyundai,Aura,SX 1.2 CNG,35874,2023,cng,1,blue,sedan,manual,2023,2025-08-05 05:47:55
+21,delhi,Hyundai,Eon,Magna +,56593,2014,petrol,1,white,hatchback,manual,2014,2025-08-11 12:56:48
+22,hyderabad,Maruti Suzuki,Ciaz,Alpha 1.5,23560,2021,petrol,1,blue,sedan,manual,2022,2025-08-12 16:28:13
+23,gurgaon,Hyundai,Creta,1.6 SX Plus Auto Petrol,105064,2016,petrol,2,silver,suv,automatic,2016,2025-06-11 11:32:46
+24,noida,Maruti Suzuki,Swift,VXi AMT,52223,2022,petrol,2,grey,hatchback,automatic,2023,2025-08-18 09:36:27
+25,kolkata,Hyundai,New i20,Asta (O) 1.0 Turbo DCT,8629,2022,petrol,1,blue,hatchback,automatic,2022,2025-07-28 08:43:34
+26,pune,Hyundai,Venue,SX 1.0 (O) Turbo iMT,36740,2022,petrol,1,grey,suv,manual,2022,2025-04-24 06:13:28
+27,jaipur,Tata,Tiago,XZA Plus,4960,2024,petrol,1,white,hatchback,automatic,2024,2025-07-17 16:26:11
+28,delhi-ncr,Maruti Suzuki,Grand Vitara,Sigma Smart Hybrid,24881,2024,petrol,1,white,suv,manual,2024,2025-07-08 08:36:50
+29,hyderabad,Skoda,Kushaq,Style 1.0L TSI AT (6 Airbags),17073,2022,petrol,1,grey,suv,automatic,2023,2025-07-15 10:48:23
+30,bangalore,Hyundai,Eon,Magna +,34652,2014,petrol,1,grey,hatchback,manual,2014,2025-08-07 06:37:45
+31,ahmedabad,Maruti Suzuki,Swift,VXI,23044,2019,petrol,1,blue,hatchback,manual,2019,2025-08-10 07:47:48
+32,hyderabad,Kia,Sonet,GTX Plus 1.0 Turbo Petrol iMT,8582,2023,petrol,2,black,suv,manual,2023,2025-08-01 09:36:52
+33,pune,Tata,Altroz,XZ Plus 1.5,68537,2023,diesel,1,white,hatchback,manual,2023,2025-07-29 07:28:54
+34,pune,Hyundai,New i20,Asta (O) 1.2 MT,15690,2023,petrol,1,white,hatchback,manual,2023,2025-06-02 11:28:20
+35,noida,Kia,Sonet,HTX Plus 1.0 iMT,28654,2022,petrol,1,red,suv,manual,2022,2025-06-15 13:31:34
+36,hyderabad,Hyundai,Venue,S 1.5 CRDi,36137,2021,diesel,1,white,suv,manual,2021,2025-07-15 16:13:41
+37,delhi-ncr,Hyundai,Creta,1.6 SX AT VTVT,47455,2018,petrol,3,white,suv,automatic,2018,2025-08-18 05:49:46
+38,delhi-ncr,Hyundai,Venue,SX 1.0 (O) Petrol,98897,2019,petrol,1,white,suv,manual,2019,2025-06-27 04:36:07
+39,delhi-ncr,Hyundai,i20 Active,1.2 S,63004,2015,petrol,1,brown,crossover,manual,2015,2025-06-30 15:31:00
+40,delhi,Volkswagen,Polo,Comfortline 1.2L (P),78462,2015,petrol,1,white,hatchback,manual,2015,2025-08-18 07:03:45
+41,delhi-ncr,Honda,City,VX,46336,2015,petrol,1,brown,sedan,manual,2015,2025-08-15 16:03:36
+42,hyderabad,Maruti Suzuki,XL6,Alpha Plus MT Petrol Dual Tone,32301,2023,petrol,1,brown,muv,manual,2023,2025-08-01 06:15:22
+43,ghaziabad,Hyundai,Fluidic Verna 4S,1.6 VTVT SX AT,45056,2016,petrol,2,black,sedan,automatic,2016,2025-07-17 15:33:17
+44,mumbai,Ford,EcoSport,Titanium 1.5L Ti-VCT,55641,2016,petrol,1,white,suv,manual,2016,2025-07-13 14:15:02
+45,ahmedabad,Kia,Seltos,GTX Plus DCT,52568,2021,petrol,1,white,suv,automatic,2021,2025-08-15 06:17:58
+46,chennai,Honda,City,V CVT,97327,2018,petrol,1,white,sedan,automatic,2018,2025-05-15 17:01:22
+47,delhi-ncr,Hyundai,Venue,SX 1.2 Petrol,49598,2023,petrol,1,black,suv,manual,2023,2025-08-16 17:38:51
+48,pune,Honda,WR-V,VX MT Diesel,101218,2017,diesel,1,orange,suv,manual,2017,2025-08-16 17:26:09
+49,ahmedabad,Maruti Suzuki,Alto 800,VXi (O),27068,2018,petrol,1,grey,hatchback,manual,2018,2025-07-10 05:16:35
+50,hyderabad,Hyundai,Grand i10,Sportz 1.2 Kappa VTVT,96240,2016,petrol,1,white,hatchback,manual,2017,2025-08-17 08:12:15
+51,delhi-ncr,Honda,Amaze,1.2 V MT Petrol,121793,2020,petrol,1,red,sedan,manual,2020,2025-06-10 04:41:00
+52,gurgaon,Mercedes-Benz,GLA,200,53446,2022,petrol,1,blue,suv,automatic,2022,2025-08-16 09:03:43
+53,noida,Maruti Suzuki,Ciaz,Delta 1.4 MT,41137,2018,petrol,1,grey,sedan,manual,2018,2025-08-18 10:21:11
+54,ahmedabad,MG Motors,Hector,Sharp 1.5 Petrol CVT,46018,2021,petrol,1,white,suv,automatic,2021,2025-08-05 17:49:51
+55,ahmedabad,Honda,Amaze,1.2 S CVT Petrol,83840,2019,petrol,1,white,sedan,automatic,2019,2025-08-15 04:00:12
+56,hyderabad,Ford,Figo Aspire,Titanium 1.2 Ti-VCT,56988,2016,petrol,2,white,sedan,manual,2016,2025-06-24 17:53:14
+57,chennai,Honda,City,V Diesel,118253,2015,diesel,1,red,sedan,manual,2015,2025-06-22 14:57:09
+58,delhi-ncr,Hyundai,Verna,SX (O) 1.0 Turbo DCT,46247,2022,petrol,1,black,sedan,automatic,2022,2025-06-21 14:59:24
+59,bangalore,Hyundai,i10,Sportz 1.1 iRDE2,54297,2015,petrol,2,white,hatchback,manual,2015,2025-08-15 14:03:12
+60,delhi-ncr,Hyundai,Fluidic Verna 4S,1.6 VTVT SX,65237,2015,petrol,1,grey,sedan,manual,2015,2025-08-08 05:53:03
+61,pune,Mahindra,KUV100,K8 6 STR,80647,2016,petrol,1,grey,crossover,manual,2016,2025-08-13 15:47:25
+62,ahmedabad,Maruti Suzuki,Ciaz,Zeta 1.5,23239,2023,petrol,1,blue,sedan,manual,2024,2025-07-01 16:20:16
+63,gurgaon,Maruti Suzuki,Wagon R 1.2,ZXI AMT,9841,2023,petrol,1,red,hatchback,automatic,2023,2025-07-08 07:19:17
+64,bangalore,Mahindra,XUV500,W9,102327,2019,diesel,1,black,suv,manual,2019,2025-08-05 17:48:58
+65,delhi-ncr,Maruti Suzuki,Swift,VXI,28267,2014,petrol,2,grey,hatchback,manual,2014,2025-08-11 12:20:09
+66,pune,Maruti Suzuki,Dzire,ZXI Plus AMT,11379,2022,petrol,1,blue,sedan,automatic,2022,2025-08-05 17:38:13
+67,delhi-ncr,Maruti Suzuki,Celerio,ZXi AMT,66241,2018,petrol,1,grey,hatchback,automatic,2018,2025-08-06 06:51:11
+68,bangalore,Kia,Seltos,GTX Plus DCT 1.4,50443,2020,petrol,1,black,suv,automatic,2020,2025-08-14 06:42:42
+69,ahmedabad,Hyundai,Creta,SX Petrol,29749,2022,petrol,1,white,suv,manual,2022,2025-07-20 17:35:33
+70,delhi,Maruti Suzuki,Baleno,Delta Automatic,13322,2019,petrol,1,blue,hatchback,automatic,2019,2025-07-30 09:23:35
+71,delhi-ncr,Maruti Suzuki,Baleno,Alpha AGS,22913,2023,petrol,1,white,hatchback,automatic,2023,2025-08-03 10:51:36
+72,bangalore,Ford,EcoSport,Ambiente 1.5L TDCi,62914,2017,diesel,1,red,suv,manual,2017,2025-08-18 06:50:20
+73,noida,Maruti Suzuki,Dzire,VXi,34586,2018,petrol,1,silver,sedan,manual,2018,2025-06-24 11:09:26
+74,ahmedabad,Honda,City,VX CVT,70852,2016,petrol,1,white,sedan,automatic,2016,2025-08-17 14:55:34
+75,delhi-ncr,Maruti Suzuki,Swift Dzire,VXI,100767,2012,petrol,1,silver,sedan,manual,2012,2025-08-11 06:23:36
+76,delhi,Nissan,Magnite,XL,100156,2021,petrol,1,silver,suv,manual,2021,2025-08-01 06:23:36
+77,noida,Maruti Suzuki,Baleno,Sigma MT,24073,2024,petrol,1,white,hatchback,manual,2024,2025-08-12 02:19:44
+78,delhi,Hyundai,Elite i20,Sportz 1.2,72681,2016,petrol,1,maroon,hatchback,manual,2016,2025-08-14 09:11:32
+79,chennai,Maruti Suzuki,Swift,ZXI,121695,2021,petrol,1,white,hatchback,manual,2021,2025-07-09 07:14:19
+80,mumbai,Maruti Suzuki,Swift,VXi,19228,2023,petrol,1,red,hatchback,manual,2023,2025-07-29 07:46:33
+81,ghaziabad,Maruti Suzuki,Grand Vitara,Alpha Plus Intelligent Hybrid eCVT,48993,2023,hybrid,1,blue,suv,automatic,2023,2025-08-05 17:48:38
+82,bangalore,Mercedes-Benz,C-Class,C 300d AMG Line,50563,2019,diesel,2,blue,sedan,automatic,2020,2025-08-11 06:25:08
+83,delhi,Jeep,Compass,Model S (O) Diesel 4x4 AT,46666,2021,diesel,1,black,suv,automatic,2021,2025-08-18 10:32:15
+84,delhi,Maruti Suzuki,XL6,Zeta MT Petrol,17067,2022,petrol,1,blue,muv,manual,2022,2025-08-18 06:43:11
+85,noida,Honda,Amaze,VX CVT 1.2 Petrol,31381,2022,petrol,1,brown,sedan,automatic,2022,2025-08-05 17:53:34
+86,lucknow,Tata,Tiago,XE,29561,2023,petrol,1,white,hatchback,manual,2023,2025-08-11 14:28:01
+87,ahmedabad,Ford,EcoSport,Titanium 1.5L Ti-VCT AT,68934,2017,petrol,3,white,suv,automatic,2017,2025-05-31 05:27:09
+88,noida,Maruti Suzuki,Baleno,Zeta AGS,25961,2023,petrol,1,silver,hatchback,automatic,2023,2025-07-13 05:58:09
+89,chennai,Hyundai,i10,Sportz 1.1 iRDE2,106541,2014,petrol,1,grey,hatchback,manual,2014,2025-08-08 07:16:05
+90,delhi-ncr,Hyundai,Xcent,S 1.2,56378,2015,petrol,1,blue,sedan,manual,2015,2025-07-21 05:47:23
+91,pune,Honda,City,Hybrid eHEV ZX,49373,2023,hybrid,1,white,sedan,automatic,2023,2025-06-17 14:07:29
+92,lucknow,Honda,WR-V,SV MT Petrol,86041,2020,petrol,1,silver,suv,manual,2020,2025-07-05 12:24:14
+93,mumbai,Maruti Suzuki,Alto K10,LXi (O),1254,2022,petrol,1,grey,hatchback,manual,2022,2025-08-14 07:09:33
+94,chennai,Tata,Tigor,Revotron XZA+ Leatherette Pack AMT,21981,2023,petrol,1,blue,sedan,automatic,2023,2025-08-05 17:37:36
+95,ahmedabad,Tata,Punch,Creative Dual Tone,22390,2021,petrol,1,blue,suv,manual,2022,2025-08-11 06:30:14
+96,bangalore,Hyundai,Alcazar,Signature (O) 7 STR 1.5 Petrol DCT,26885,2024,petrol,1,white,suv,automatic,2024,2025-07-29 09:39:11
+97,noida,Maruti Suzuki,Baleno,Zeta AGS,29956,2022,petrol,1,silver,hatchback,automatic,2022,2025-08-18 12:31:02
+98,noida,Hyundai,Verna,SX 1.6 VTVT,96096,2018,petrol,1,black,sedan,manual,2018,2025-07-22 05:44:53
+99,gurgaon,Kia,Seltos,HTX IVT G,37999,2020,petrol,1,grey,suv,automatic,2020,2025-08-05 17:52:33
+100,jaipur,Mahindra,Scorpio,S5,40396,2022,diesel,1,white,suv,manual,2022,2025-06-30 17:58:47
+101,ahmedabad,Skoda,Kushaq,Style 1.5L TSI DSG,73739,2021,petrol,1,red,suv,automatic,2021,2025-08-05 17:53:11
+102,pune,Kia,Sonet,HTX 1.0 iMT,44075,2021,petrol,1,white,suv,manual,2021,2025-08-11 10:01:53
+103,hyderabad,Maruti Suzuki,Wagon R,VXI,34339,2014,petrol,1,silver,hatchback,manual,2015,2025-08-01 06:15:51
+104,delhi-ncr,Hyundai,Creta,SX OPT Turbo DCT Petrol,78074,2020,petrol,1,white,suv,automatic,2020,2025-06-30 09:21:47
+105,bangalore,Ford,EcoSport,Titanium 1.5L TDCi,45467,2016,diesel,1,white,suv,manual,2016,2025-07-22 05:58:44
+106,ghaziabad,Honda,City,SV Petrol,44003,2019,petrol,1,silver,sedan,manual,2019,2025-06-07 06:40:49
+107,gurgaon,Jeep,Compass,Model S (O) Diesel 4x4 AT,46666,2021,diesel,1,black,suv,automatic,2021,2025-08-18 10:32:15
+108,delhi-ncr,Kia,Sonet,GTX Plus 1.0 DCT,70559,2022,petrol,1,black,suv,automatic,2022,2025-08-15 10:40:42
+109,delhi,Hyundai,Grand i10,Sportz 1.2 Kappa VTVT,10855,2018,petrol,1,red,hatchback,manual,2018,2025-07-31 14:34:29
+110,ghaziabad,Maruti Suzuki,Baleno,Alpha 1.2,53728,2017,petrol,1,red,hatchback,manual,2017,2025-08-14 14:57:31
+111,delhi-ncr,Honda,Amaze,1.2 VX MT Petrol,43482,2019,petrol,1,white,sedan,manual,2020,2025-06-01 06:15:07
+112,lucknow,Maruti Suzuki,Ciaz,Alpha Hybrid 1.5,49566,2019,petrol,1,black,sedan,manual,2019,2025-08-02 11:25:18
+113,noida,Hyundai,Creta,EX Diesel,41780,2021,diesel,1,white,suv,manual,2021,2025-06-16 08:08:33
+114,lucknow,Hyundai,Creta,EX Petrol,107289,2023,petrol,1,white,suv,manual,2023,2025-08-06 17:04:09
+115,ghaziabad,Maruti Suzuki,Baleno,Zeta 1.2 AT,69858,2017,petrol,2,silver,hatchback,automatic,2017,2025-08-01 16:01:53
+116,pune,Honda,City,ZX CVT Petrol,54192,2021,petrol,1,red,sedan,automatic,2022,2025-08-17 10:17:36
+117,faridabad,Honda,Amaze,VX MT 1.2 Petrol,26750,2022,petrol,1,white,sedan,manual,2023,2025-06-30 17:16:57
+118,hyderabad,Maruti Suzuki,Ertiga,ZXi,10501,2022,petrol,1,silver,muv,manual,2022,2025-08-11 10:15:14
+119,lucknow,Hyundai,New i20,Asta (O) 1.2 IVT,12963,2024,petrol,1,blue,hatchback,automatic,2024,2025-08-04 11:32:16
+120,delhi-ncr,Volkswagen,Polo,Comfortline 1.2L (P),90709,2016,petrol,1,white,hatchback,manual,2016,2025-07-01 18:34:36
+121,bangalore,Renault,Kwid,1.0 RXT Edition,59923,2017,petrol,1,red,hatchback,manual,2017,2025-08-12 06:36:03
+122,delhi-ncr,Hyundai,Fluidic Verna 4S,1.6 VTVT SX,50067,2016,petrol,2,grey,sedan,manual,2016,2025-06-16 10:33:13
+123,delhi,Datsun,Redi-GO,S 1.0,57920,2017,petrol,3,silver,hatchback,manual,2018,2025-08-11 12:11:40
+124,ghaziabad,Honda,Amaze,1.2 VX i-VTEC,41202,2016,petrol,2,red,sedan,manual,2016,2025-06-21 05:31:00
+125,noida,Hyundai,Creta,1.6L SX VTVT,100757,2019,petrol,1,black,suv,manual,2019,2025-08-06 08:00:04
+126,noida,Hyundai,Eon,D-Lite +,31613,2015,petrol,1,silver,hatchback,manual,2015,2025-08-05 09:24:03
+127,lucknow,Chevrolet,Spark,LS 1.0,32113,2013,petrol,1,grey,hatchback,manual,2013,2025-07-08 06:20:00
+128,hyderabad,Maruti Suzuki,New Ertiga,ZXi AT,73572,2020,petrol,1,grey,muv,automatic,2021,2025-08-17 08:23:42
+129,ghaziabad,Maruti Suzuki,Swift Dzire,VXI,100767,2012,petrol,1,silver,sedan,manual,2012,2025-08-11 06:23:36
+130,delhi-ncr,Jeep,Compass,Model S (O) Diesel 4x4 AT,46666,2021,diesel,1,black,suv,automatic,2021,2025-08-18 10:32:15
+131,gurgaon,Maruti Suzuki,Swift,ZXI AMT,57854,2019,petrol,1,grey,hatchback,automatic,2019,2025-07-24 07:00:18
+132,chennai,Maruti Suzuki,XL6,Alpha Plus Dual Tone MT Petrol,38719,2022,petrol,1,red,muv,manual,2022,2025-06-17 14:11:03
+133,delhi-ncr,Hyundai,Grand i10,Sportz 1.2 Kappa VTVT,47225,2014,petrol,1,red,hatchback,manual,2014,2025-07-12 05:22:29
+134,delhi-ncr,Tata,Tiago,XZ Plus Dual Tone Roof,64829,2019,petrol,1,orange,hatchback,manual,2019,2025-08-12 05:56:40
+135,delhi,Honda,Amaze,1.2 VX i-VTEC,63935,2015,petrol,1,red,sedan,manual,2015,2025-08-06 09:35:28
+136,delhi-ncr,Maruti Suzuki,Alto 800,Lxi,39788,2014,petrol,1,grey,hatchback,manual,2014,2025-08-11 12:12:59
+137,delhi,Maruti Suzuki,Dzire,ZXi,39201,2022,petrol,1,grey,sedan,manual,2022,2025-07-19 08:49:57
+138,bangalore,Hyundai,Elite i20,Asta 1.4 CRDi,25505,2018,diesel,1,grey,hatchback,manual,2018,2025-07-26 06:26:02
+139,bangalore,Tata,Nexon,XZ Plus,30205,2022,petrol,1,red,suv,manual,2022,2025-08-06 05:54:45
+140,ghaziabad,Kia,Sonet,HTX Plus 1.0 iMT,48799,2022,petrol,1,black,suv,manual,2022,2025-08-01 07:13:44
+141,delhi-ncr,Hyundai,i10,Magna 1.1 iRDE2,59750,2014,petrol,2,white,hatchback,manual,2014,2025-08-17 08:04:44
+142,delhi,Maruti Suzuki,Swift Dzire,VXI,77836,2016,petrol,2,white,sedan,manual,2016,2025-08-07 11:56:04
+143,delhi,Maruti Suzuki,Ciaz,ZXi,64304,2015,petrol,2,brown,sedan,manual,2015,2025-07-04 06:56:40
+144,delhi-ncr,Hyundai,Eon,Era +,46246,2015,petrol,2,white,hatchback,manual,2015,2025-08-01 07:28:34
+145,delhi,Tata,Tiago NRG,Petrol,68234,2018,petrol,2,grey,hatchback,manual,2018,2025-07-21 07:04:07
+146,ghaziabad,Maruti Suzuki,XL6,Zeta MT Petrol,17067,2022,petrol,1,blue,muv,manual,2022,2025-08-18 06:43:11
+147,delhi,Renault,Kwid,1.0 RXT SCE Opt CNG (Outside Fitted),54686,2017,cng,2,grey,hatchback,manual,2017,2025-06-30 09:23:29
+148,pune,Hyundai,Grand i10,Asta 1.2 Kappa VTVT (O),74013,2016,petrol,2,orange,hatchback,manual,2016,2025-08-17 12:41:16
+149,chennai,Kia,Sonet,HTX 1.0 iMT,50774,2021,petrol,2,blue,suv,manual,2021,2025-08-04 08:00:17
+150,ghaziabad,Hyundai,Venue,SX Plus 1.0 Turbo DCT,33106,2019,petrol,1,white,suv,automatic,2019,2025-07-05 12:11:55
+151,ahmedabad,Renault,Kwid,RXT Opt,70686,2016,petrol,1,silver,hatchback,manual,2017,2025-08-12 09:01:41
+152,bangalore,Hyundai,Grand i10,Asta AT 1.2 Kappa VTVT,76473,2014,petrol,2,red,hatchback,automatic,2014,2025-08-16 17:19:03
+153,pune,Mahindra,XUV500,W8,98780,2015,diesel,1,white,suv,manual,2015,2025-07-09 07:23:52
+154,kolkata,Tata,Altroz,XZ 1.5,41439,2021,diesel,1,grey,hatchback,manual,2021,2025-08-08 06:23:01
+155,bangalore,Renault,Kiger,RXZ Turbo CVT Dual Tone,69647,2021,petrol,1,white,suv,automatic,2021,2025-06-24 14:35:57
+156,bangalore,Volkswagen,Polo,Highline1.2L (P),115087,2015,petrol,1,blue,hatchback,manual,2015,2025-07-07 07:28:56
+157,delhi,Honda,Jazz,V AT Petrol,69773,2015,petrol,1,red,hatchback,automatic,2015,2025-08-10 17:02:05
+158,delhi,Renault,Kiger,RXZ MT,58839,2021,petrol,1,silver,suv,manual,2021,2025-06-20 16:41:52
+159,pune,Tata,Nexon,XZA Plus,20494,2021,petrol,1,grey,suv,automatic,2021,2025-08-03 12:17:22
+160,gurgaon,Kia,Seltos,GTX Plus 1.4,30425,2022,petrol,1,white,suv,manual,2022,2025-08-13 07:48:47
+161,noida,Maruti Suzuki,New Ertiga,VXi AT,59824,2019,petrol,1,red,muv,automatic,2019,2025-08-08 04:44:17
+162,delhi,Nissan,Magnite,XV Premium Turbo CVT,30997,2021,petrol,1,white,suv,automatic,2021,2025-08-06 08:03:03
+163,delhi,Ford,EcoSport,Titanium 1.5L Ti-VCT,68754,2019,petrol,1,white,suv,manual,2019,2025-08-05 10:12:37
+164,chennai,Kia,Seltos,GTX Plus,50296,2021,petrol,1,black,suv,manual,2021,2025-06-12 07:50:34
+165,ahmedabad,Tata,Tigor,Revotron XZ+,114056,2019,petrol,1,white,sedan,manual,2019,2025-06-23 06:17:33
+166,faridabad,Volkswagen,Polo,Comfortline 1.0L (P),68859,2019,petrol,2,grey,hatchback,manual,2019,2025-08-08 04:49:06
+167,delhi,Hyundai,Venue,SX 1.0 (O) Petrol,77729,2019,petrol,2,white,suv,manual,2019,2025-08-16 10:02:05
+168,ghaziabad,Kia,Sonet,HTX Plus 1.0 iMT,28654,2022,petrol,1,red,suv,manual,2022,2025-06-15 13:31:34
+169,hyderabad,Maruti Suzuki,Vitara Brezza,ZXi,90727,2021,petrol,1,grey,suv,manual,2021,2025-07-20 04:51:49
+170,delhi-ncr,Tata,Tiago,Revotron XZ Plus CNG,24763,2022,petrol+cng,1,grey,hatchback,manual,2022,2025-07-14 07:54:24
+171,chennai,Renault,Triber,RXZ AMT,16832,2022,petrol,1,blue,muv,automatic,2022,2025-07-30 10:47:54
+172,ahmedabad,Hyundai,Grand i10 Nios,Sportz 1.2 Kappa CNG,12428,2023,cng,1,blue,hatchback,manual,2023,2025-08-16 17:22:33
+173,hyderabad,Kia,Carens,Premium (O) 1.5 Petrol 7 STR,4004,2024,petrol,1,white,muv,manual,2024,2025-08-05 11:14:02
+174,lucknow,Maruti Suzuki,S-Presso,VXi Plus (O) AMT,2423,2024,petrol,1,grey,hatchback,automatic,2024,2025-07-20 15:26:35
+175,delhi-ncr,Maruti Suzuki,Baleno,Zeta 1.2 AT,93079,2017,petrol,1,blue,hatchback,automatic,2017,2025-07-11 18:03:08
+176,delhi-ncr,Tata,Nexon,XZ Plus (O),88659,2021,petrol,1,grey,suv,manual,2021,2025-07-11 07:18:39
+177,chennai,Hyundai,Creta,S Plus 1.5 Petrol Knight,47519,2023,petrol,1,silver,suv,manual,2023,2025-07-16 04:40:33
+178,ahmedabad,Maruti Suzuki,Dzire,ZXi,60988,2019,petrol,1,silver,sedan,manual,2019,2025-07-05 12:10:21
+179,delhi-ncr,Maruti Suzuki,Alto K10,VXI CNG (Outside Fitted),57211,2015,cng,1,silver,hatchback,manual,2015,2025-08-11 14:41:44
+180,lucknow,Maruti Suzuki,Swift,VXi,13503,2024,petrol,1,white,hatchback,manual,2024,2025-08-01 12:36:44
+181,bangalore,Audi,A3,35 TDI Premium + Sunroof,62427,2016,diesel,2,silver,sedan,automatic,2017,2025-07-15 08:40:55
+182,pune,Volkswagen,Vento,1.0L Comfortline Petrol,71077,2021,petrol,1,white,sedan,manual,2021,2025-08-06 13:21:17
+183,delhi-ncr,Honda,Amaze,1.2 EX i-VTEC,59495,2013,petrol,1,silver,sedan,manual,2013,2025-08-05 11:11:58
+184,ghaziabad,Hyundai,Eon,Era +,47434,2016,petrol,2,silver,hatchback,manual,2016,2025-08-04 10:00:48
+185,ghaziabad,Tata,Harrier,XZA Plus Dark Edition AT,86820,2021,diesel,1,black,suv,automatic,2021,2025-08-05 17:48:32
+186,delhi-ncr,Hyundai,Elite i20,Sportz 1.2,109231,2016,petrol,1,white,hatchback,manual,2016,2025-07-01 18:24:36
+187,delhi,Kia,Seltos,GTX Plus,69263,2019,petrol,1,white,suv,manual,2019,2025-07-17 10:04:32
+188,lucknow,Maruti Suzuki,Baleno,Delta Automatic,7069,2021,petrol,1,blue,hatchback,automatic,2021,2025-08-17 09:18:34
+189,faridabad,Hyundai,Grand i10,Magna 1.2 Kappa VTVT,48793,2013,petrol,3,beige,hatchback,manual,2013,2025-08-04 05:38:57
+190,ahmedabad,Volkswagen,Polo,Comfortline 1.0L (P),94988,2019,petrol,1,white,hatchback,manual,2019,2025-07-01 08:14:35
+191,pune,Renault,Triber,RXZ EASY-R AMT,3519,2022,petrol,1,blue,muv,automatic,2022,2025-08-16 09:06:22
+192,delhi-ncr,Renault,Triber,RXZ Dual Tone,27372,2021,petrol,1,silver,muv,manual,2021,2025-08-11 12:19:19
+193,gurgaon,Hyundai,Elite i20,Asta 1.2,27300,2015,petrol,1,red,hatchback,manual,2015,2025-08-17 07:01:23
+194,gurgaon,Audi,Q3,Technology,21088,2023,petrol,1,white,suv,automatic,2023,2025-08-11 05:55:03
+195,noida,Maruti Suzuki,Fronx,Zeta 1.0L Turbo MT,30285,2023,petrol,1,blue,suv,manual,2023,2025-07-12 16:59:28
+196,ahmedabad,Tata,Nexon,Kraz Petrol,31483,2019,petrol,1,black,suv,manual,2019,2025-08-16 07:03:55
+197,ahmedabad,Hyundai,New Santro 1.1,Sportz MT,116948,2020,petrol,1,grey,hatchback,manual,2020,2025-07-01 18:34:47
+198,bangalore,Hyundai,i20,Asta 1.4 AT with AVN,80784,2012,petrol,2,grey,hatchback,automatic,2012,2025-08-17 06:58:49
+199,noida,Maruti Suzuki,New Ertiga,ZXi AT,50444,2020,petrol,1,white,muv,automatic,2020,2025-08-13 08:02:17
+200,hyderabad,Maruti Suzuki,Baleno,Delta 1.2,41367,2017,petrol,1,blue,hatchback,manual,2017,2025-06-23 06:40:29
+201,ahmedabad,Honda,Jazz,ZX CVT,32550,2021,petrol,1,grey,hatchback,automatic,2021,2025-06-02 15:46:18
+202,chennai,Volkswagen,Polo,Comfortline 1.0L (P),119553,2018,petrol,1,white,hatchback,manual,2018,2025-05-08 05:52:30
+203,ghaziabad,Maruti Suzuki,Dzire,VXi,13760,2022,petrol,1,blue,sedan,manual,2022,2025-08-03 11:20:46
+204,noida,Hyundai,Verna,SX 1.5 CRDi AT,102741,2021,diesel,1,white,sedan,automatic,2021,2025-08-05 11:02:15
+205,delhi-ncr,Hyundai,Creta,SX (O) AT Diesel,43633,2022,diesel,1,white,suv,automatic,2022,2025-05-19 09:09:54
+206,hyderabad,Maruti Suzuki,Swift,VXi,93526,2013,petrol,2,white,hatchback,manual,2014,2025-08-06 10:36:21
+207,bangalore,Hyundai,Elite i20,Magna Executive 1.2,36657,2018,petrol,2,blue,hatchback,manual,2018,2025-08-17 15:00:03
+208,hyderabad,Maruti Suzuki,Ritz,Zxi BS-IV,78984,2014,petrol,1,silver,hatchback,manual,2015,2025-08-06 07:34:23
+209,jaipur,Renault,Kwid,RXT 1.0 SCE Special,47391,2018,petrol,1,grey,hatchback,manual,2018,2025-08-05 07:16:52
+210,delhi-ncr,Maruti Suzuki,Baleno,Delta 1.2,45191,2018,petrol,1,grey,hatchback,manual,2018,2025-08-13 12:45:51
+211,delhi,Honda,City,VX Petrol,20453,2022,petrol,1,white,sedan,manual,2022,2025-07-31 13:36:09
+212,bangalore,Renault,Kwid,RXT,67642,2016,petrol,2,silver,hatchback,manual,2017,2025-08-15 08:32:57
+213,chandigarh,Tata,Zest,XT Diesel,75308,2015,diesel,1,golden,sedan,manual,2016,2025-08-05 17:53:03
+214,gurgaon,Maruti Suzuki,Baleno,Alpha 1.2 AT,36420,2018,petrol,2,silver,hatchback,automatic,2018,2025-07-27 06:27:43
+215,chennai,Hyundai,Exter,S 1.2 AMT,28014,2024,petrol,1,white,suv,automatic,2024,2025-08-17 09:35:53
+216,delhi-ncr,Tata,Altroz,XE Petrol,12000,2022,petrol,1,red,hatchback,manual,2022,2025-08-02 13:29:42
+217,bangalore,Hyundai,Grand i10,Asta AT 1.2 Kappa VTVT (O),113482,2016,petrol,1,white,hatchback,automatic,2016,2025-08-14 04:28:06
+218,noida,Maruti Suzuki,XL6,Alpha MT Petrol,27630,2023,petrol,1,white,muv,manual,2023,2025-08-05 05:47:37
+219,pune,Nissan,Magnite,XV Premium Turbo (O),31084,2022,petrol,1,white,suv,manual,2023,2025-08-05 08:44:47
+220,chennai,Hyundai,Verna,SX (O)1.5 MPi,91083,2021,petrol,1,black,sedan,manual,2021,2025-07-18 10:40:26
+221,delhi-ncr,Maruti Suzuki,Ignis,Sigma 1.2 MT,37555,2023,petrol,1,grey,hatchback,manual,2023,2025-08-09 09:01:21
+222,pune,Maruti Suzuki,Wagon R,LXI CNG,103796,2014,cng,1,blue,hatchback,manual,2014,2025-08-02 09:54:07
+223,gurgaon,Maruti Suzuki,Baleno,Zeta 1.2 AT,34151,2018,petrol,1,blue,hatchback,automatic,2018,2025-06-25 17:46:56
+224,hyderabad,Maruti Suzuki,Alto K10,VXi,70657,2019,petrol,2,silver,hatchback,manual,2019,2025-07-23 04:06:06
+225,delhi-ncr,Honda,City,VX,100405,2014,petrol,1,red,sedan,manual,2014,2025-07-26 11:56:48
+226,bangalore,Kia,Carens,Luxury 1.5 Turbo Petrol iMT 7 STR,7873,2023,petrol,1,black,muv,manual,2023,2025-08-09 07:24:43
+227,delhi,Maruti Suzuki,Baleno,Zeta,16655,2021,petrol,1,white,hatchback,manual,2021,2025-07-12 07:11:13
+228,jaipur,Audi,Q3,Technology,21088,2023,petrol,1,white,suv,automatic,2023,2025-08-11 05:55:03
+229,bangalore,Hyundai,Venue,SX 1.0  Turbo,31226,2021,petrol,1,silver,suv,manual,2021,2025-06-12 07:54:48
+230,jaipur,Maruti Suzuki,Ignis,Sigma 1.2 MT,33890,2023,petrol,1,silver,hatchback,manual,2023,2025-08-09 07:44:01
+231,delhi,Hyundai,Venue,S+ 1.2,24701,2022,petrol,1,blue,suv,manual,2022,2025-06-29 08:29:12
+232,kolkata,Honda,City,ZX Petrol MT,8521,2023,petrol,1,red,sedan,manual,2023,2025-06-21 17:06:42
+233,bangalore,Hyundai,New i20,Sportz 1.2 IVT,27148,2023,petrol,1,grey,hatchback,automatic,2023,2025-08-16 06:27:32
+234,lucknow,Hyundai,Venue,S 1.2 Petrol,26624,2022,petrol,1,white,suv,manual,2022,2025-08-15 11:43:36
+235,delhi-ncr,Hyundai,Grand i10,Magna 1.2 Kappa VTVT,16650,2017,petrol,1,grey,hatchback,manual,2017,2025-08-16 06:37:35
+236,mumbai,Maruti Suzuki,Ciaz,Delta Hybrid 1.5 AT,58892,2019,petrol,1,white,sedan,automatic,2019,2025-08-01 07:02:52
+237,lucknow,Hyundai,Venue,SX Plus 1.0 Turbo DCT,66965,2019,petrol,1,white,suv,automatic,2019,2025-08-05 17:48:51
+238,noida,Tata,Nexon,XM (S),26968,2022,petrol,1,grey,suv,manual,2022,2025-07-22 08:12:11
+239,gurgaon,Renault,Kwid,CLIMBER 1.0 AMT,38976,2017,petrol,3,blue,hatchback,automatic,2017,2025-08-16 05:36:06
+240,delhi-ncr,Honda,Jazz,V Petrol,66979,2016,petrol,1,brown,hatchback,manual,2016,2025-07-07 06:30:56
+241,hyderabad,Honda,City,ZX Petrol,24241,2022,petrol,1,white,sedan,manual,2022,2025-08-07 09:53:23
+242,ghaziabad,Hyundai,Verna,Fluidic 1.6 VTVT SX,76633,2013,petrol,2,white,sedan,manual,2013,2025-08-13 07:17:00
+243,bangalore,Nissan,Magnite,XV Premium Turbo CVT,28732,2021,petrol,2,white,suv,automatic,2021,2025-08-11 06:06:48
+244,noida,Tata,Safari,XZ Plus Dark Edition,99841,2022,diesel,1,black,suv,manual,2022,2025-07-09 06:26:43
+245,jaipur,Honda,Amaze,VX CVT 1.2 Petrol,48245,2022,petrol,1,brown,sedan,automatic,2022,2025-08-11 06:22:28
+246,hyderabad,Maruti Suzuki,Swift Dzire,VXI,50794,2014,petrol,2,black,sedan,manual,2014,2025-07-22 10:20:03
+247,noida,Honda,City,ZX CVT,72632,2017,petrol,1,grey,sedan,automatic,2017,2025-07-01 18:30:43
+248,hyderabad,Maruti Suzuki,Baleno,Delta 1.2,35636,2018,petrol,1,blue,hatchback,manual,2018,2025-08-18 13:15:11
+249,delhi-ncr,Honda,City,ZX CVT,59721,2017,petrol,1,brown,sedan,automatic,2017,2025-08-05 17:50:57
+250,kolkata,Skoda,Rapid New,Style Petrol AT,36704,2018,petrol,1,grey,sedan,automatic,2018,2025-06-05 08:10:08
+251,chennai,Maruti Suzuki,S-Presso,VXi (O) AMT,17167,2022,petrol,1,white,hatchback,automatic,2022,2025-08-16 14:36:54
+252,gurgaon,Maruti Suzuki,Ciaz,Alpha 1.4 MT,51458,2018,petrol,1,blue,sedan,manual,2018,2025-08-14 06:03:01
+253,delhi-ncr,Renault,Triber,RXL,44645,2021,petrol,1,silver,muv,manual,2021,2025-08-18 07:10:18
+254,gurgaon,Toyota,Innova Crysta,ZX 2.7 AT 7 STR,54175,2022,petrol,1,grey,muv,automatic,2022,2025-08-05 17:52:04
+255,delhi-ncr,Honda,City,VX CVT,97115,2014,petrol,2,brown,sedan,automatic,2014,2025-07-29 05:12:40
+256,jaipur,Honda,Jazz,V Petrol,108256,2016,petrol,1,grey,hatchback,manual,2016,2025-07-16 05:20:05
+257,bangalore,Toyota,Glanza,G AMT,5496,2023,petrol,1,white,hatchback,automatic,2023,2025-08-11 11:54:41
+258,noida,Honda,City,VX,48355,2016,petrol,1,white,sedan,manual,2016,2025-08-16 11:41:02
+259,noida,Kia,Sonet,GTX Plus 1.0 DCT,70559,2022,petrol,1,black,suv,automatic,2022,2025-08-15 10:40:42
+260,lucknow,Volkswagen,Polo,Trendline 1.0L (P),50466,2019,petrol,1,grey,hatchback,manual,2020,2025-07-19 14:07:55
+261,bangalore,Tata,Nano,Twist XT Petrol,51141,2014,petrol,1,purple,hatchback,manual,2014,2025-08-11 05:22:31
+262,gurgaon,Tata,Nexon,Kraz Petrol,23433,2019,petrol,1,black,suv,manual,2019,2025-08-02 04:49:47
+263,delhi,Toyota,Innova Crysta,GX 2.4 AT 7 STR,51277,2022,diesel,1,silver,muv,automatic,2022,2025-06-11 11:35:26
+264,mumbai,Hyundai,New Santro 1.1,Asta MT,69266,2019,petrol,1,grey,hatchback,manual,2019,2025-08-14 07:03:22
+265,hyderabad,Maruti Suzuki,S-Cross,Zeta,42527,2022,petrol,1,blue,suv,manual,2022,2025-06-23 11:10:02
+266,delhi-ncr,Hyundai,Venue,SX 1.0 Turbo,82766,2022,petrol,1,blue,suv,manual,2022,2025-07-15 04:16:25
+267,hyderabad,Renault,Kwid,CLIMBER 1.0,68760,2018,petrol,2,grey,hatchback,manual,2018,2025-08-15 17:43:45
+268,pune,Toyota,Glanza,V AMT,19856,2024,petrol,1,white,hatchback,automatic,2024,2025-06-30 17:17:50
+269,jaipur,Hyundai,Elite i20,Asta 1.2,42882,2017,petrol,1,white,hatchback,manual,2017,2025-08-11 12:28:49
+270,gurgaon,Maruti Suzuki,Baleno,Alpha 1.2 AT,31417,2018,petrol,2,blue,hatchback,automatic,2018,2025-07-12 05:07:28
+271,delhi,Honda,WR-V,VX MT Petrol,43458,2018,petrol,1,grey,suv,manual,2018,2025-08-15 16:12:21
+272,noida,Hyundai,Elite i20,Asta 1.2,119647,2018,petrol,1,silver,hatchback,manual,2018,2025-07-05 10:50:34
+273,hyderabad,Maruti Suzuki,Ciaz,Alpha 1.4 AT,110838,2018,petrol,1,silver,sedan,automatic,2018,2025-07-28 06:40:31
+274,faridabad,Hyundai,Grand i10,Asta 1.2 Kappa VTVT,41296,2014,petrol,1,silver,hatchback,manual,2014,2025-07-21 11:30:48
+275,bangalore,Hyundai,Grand i10,Sportz 1.2 Kappa VTVT,38101,2020,petrol,1,red,hatchback,manual,2020,2025-07-09 06:56:23
+276,gurgaon,Tata,Nexon,XZ Plus (O),44290,2021,petrol,1,grey,suv,manual,2021,2025-07-05 12:03:24
+277,mumbai,Maruti Suzuki,Ignis,Alpha 1.2 AMT,37844,2017,petrol,1,red,hatchback,automatic,2017,2025-07-08 07:43:50
+278,delhi,Honda,Amaze,1.2 S i-VTEC Opt,48157,2018,petrol,1,grey,sedan,manual,2018,2025-08-17 14:11:53
+279,delhi-ncr,Maruti Suzuki,S-Cross,Zeta,21365,2020,petrol,1,white,suv,manual,2020,2025-08-06 09:33:36
+280,ahmedabad,Maruti Suzuki,Alto 800,LXi,79258,2017,petrol,1,white,hatchback,manual,2017,2025-08-02 15:56:31
+281,mumbai,Honda,City,V CVT Petrol,47701,2022,petrol,1,white,sedan,automatic,2022,2025-07-26 17:38:19
+282,delhi-ncr,Maruti Suzuki,Vitara Brezza,LXi,35187,2020,petrol,1,grey,suv,manual,2020,2025-08-15 16:12:00
+283,bangalore,Renault,Kwid,RXT (O) 1.0 SCE Edition,59911,2018,petrol,1,red,hatchback,manual,2019,2025-08-10 08:35:45
+284,hyderabad,Hyundai,New Santro 1.1,Magna,26190,2022,petrol,1,red,hatchback,manual,2022,2025-08-13 10:25:20
+285,noida,Honda,Amaze,S CVT 1.2 Petrol,25525,2023,petrol,1,red,sedan,automatic,2023,2025-08-02 17:41:26
+286,ahmedabad,Maruti Suzuki,Swift,ZXI Plus AMT,6261,2024,petrol,1,silver,hatchback,automatic,2024,2025-08-05 17:51:59
+287,ahmedabad,Honda,Amaze,1.2 S i-VTEC,56385,2016,petrol,2,silver,sedan,manual,2016,2025-08-15 14:49:55
+288,bangalore,Honda,City,ZX CVT Petrol,47386,2021,petrol,1,white,sedan,automatic,2021,2025-08-11 12:22:08
+289,delhi-ncr,Maruti Suzuki,S-Cross,Zeta AT,83063,2020,petrol,1,grey,suv,automatic,2020,2025-07-25 11:40:47
+290,faridabad,Ford,EcoSport,Titanium 1.5 Ti-VCT AT,46450,2014,petrol,1,silver,suv,automatic,2014,2025-07-21 11:28:42
+291,ghaziabad,Toyota,Innova Crysta,ZX 2.7 AT 7 STR,26219,2022,petrol,1,black,muv,automatic,2022,2025-08-18 07:43:05
+292,delhi-ncr,Hyundai,Venue,SX 1.0 Turbo iMT,29278,2022,petrol,2,blue,suv,manual,2022,2025-06-02 08:22:30
+293,delhi-ncr,Maruti Suzuki,XL6,Zeta MT Petrol,17067,2022,petrol,1,blue,muv,manual,2022,2025-08-18 06:43:11
+294,jaipur,Hyundai,Verna,SX 1.5 Turbo Petrol DCT,26263,2023,petrol,2,black,sedan,automatic,2023,2025-08-07 15:17:26
+295,ahmedabad,Hyundai,Xcent,SX  Petrol+CNG (Outside Fitted),52319,2019,cng,1,silver,sedan,manual,2019,2025-07-23 12:49:11
+296,delhi-ncr,Hyundai,Creta,1.6 SX OPT VTVT,34805,2019,petrol,1,white,suv,manual,2019,2025-07-14 06:49:59
+297,mumbai,Maruti Suzuki,S-Cross,Delta 1.6,28592,2015,diesel,1,blue,suv,manual,2016,2025-08-10 09:28:39
+298,pune,Maruti Suzuki,Ignis,Delta 1.2 AMT,44436,2017,petrol,1,white,hatchback,automatic,2017,2025-07-24 11:37:55
+299,mumbai,Maruti Suzuki,Ciaz,Alpha AT Petrol,50044,2021,petrol,1,white,sedan,automatic,2021,2025-06-02 15:56:38
+300,bangalore,Honda,Brio,VX MT,43920,2018,petrol,1,red,hatchback,manual,2018,2025-08-06 05:45:06
+301,bangalore,Tata,Nexon,XZA Plus (O) Diesel,87421,2022,diesel,1,white,suv,automatic,2022,2025-08-05 17:37:42
+302,noida,BMW,3 Series,Gran Limousine 330Li Luxury Line,26502,2021,petrol,2,white,sedan,automatic,2022,2025-08-16 09:03:33
+303,noida,Hyundai,Verna,SX (O)1.6 VTVT,34303,2019,petrol,1,white,sedan,manual,2019,2025-06-27 08:01:10
+304,mumbai,Mahindra,XUV700,AX 7 Diesel AT 7 STR,33427,2022,diesel,1,blue,suv,automatic,2022,2025-08-01 15:12:33
+305,mumbai,Maruti Suzuki,Ciaz,ZXI+,98051,2016,petrol,2,grey,sedan,manual,2016,2025-08-12 07:28:24
+306,mumbai,Renault,Kiger,RXZ AMT,29090,2022,petrol,1,white,suv,automatic,2022,2025-07-09 08:21:46
+307,ahmedabad,Renault,Triber,RXT,44463,2019,petrol,2,orange,muv,manual,2019,2025-08-18 09:07:33
+308,pune,Toyota,Glanza,V AMT,31846,2023,petrol,1,grey,hatchback,automatic,2023,2025-08-13 14:47:09
+309,ghaziabad,Tata,Punch,Adventure Rhythm Pack AMT,60865,2021,petrol,1,grey,suv,automatic,2022,2025-07-25 07:36:51
+310,delhi,Hyundai,Creta,SX OPT Turbo DCT Petrol,78074,2020,petrol,1,white,suv,automatic,2020,2025-06-30 09:21:47
+311,mumbai,Nissan,Kicks,XV Diesel,87780,2019,diesel,1,black,suv,manual,2020,2025-08-02 07:18:49
+312,pune,Mercedes-Benz,GLA,200 CGI Sport,27197,2019,petrol,2,red,suv,automatic,2019,2025-07-17 10:59:06
+313,noida,Honda,City,VX Petrol,20453,2022,petrol,1,white,sedan,manual,2022,2025-07-31 13:36:09
+314,hyderabad,Maruti Suzuki,Swift,ZXi,32673,2021,petrol,1,white,hatchback,manual,2021,2025-08-11 07:15:27
+315,bangalore,Maruti Suzuki,Ciaz,Alpha AT Petrol,109465,2020,petrol,1,grey,sedan,automatic,2020,2025-06-24 10:46:41
+316,ahmedabad,Mahindra,Alturas G4,4WD AT,50334,2019,diesel,1,black,suv,automatic,2019,2025-08-05 08:39:55
+317,hyderabad,Hyundai,Elite i20,Asta 1.4 CRDI,144762,2016,diesel,1,blue,hatchback,manual,2016,2025-08-08 07:17:29
+318,mumbai,Hyundai,Verna,SX 1.6 VTVT,31968,2019,petrol,1,brown,sedan,manual,2019,2025-07-26 13:46:31
+319,delhi,Hyundai,Grand i10,Sportz (O) 1.2 Kappa VTVT,100868,2017,petrol,1,silver,hatchback,manual,2017,2025-08-01 16:06:47
+320,delhi-ncr,Mercedes-Benz,GLA,200,53446,2022,petrol,1,blue,suv,automatic,2022,2025-08-16 09:03:43
+321,mumbai,Toyota,Urban Cruiser,Premium Grade AT,23946,2022,petrol,1,grey,suv,automatic,2022,2025-08-17 08:51:48
+322,ghaziabad,Honda,Amaze,1.2 E MT Petrol,26744,2019,petrol,1,white,sedan,manual,2019,2025-08-18 10:22:12
+323,gurgaon,Hyundai,Venue,SX 1.0  Turbo iMT,36659,2022,petrol,1,silver,suv,manual,2022,2025-08-11 08:58:15
+324,noida,Hyundai,Grand i10,Sportz (O) AT 1.2 Kappa VTVT,62751,2017,petrol,2,red,hatchback,automatic,2018,2025-07-11 11:55:27
+325,ghaziabad,Tata,Altroz,XE 1.5,46309,2021,diesel,1,white,hatchback,manual,2021,2025-07-05 06:42:42
+326,hyderabad,Ford,Freestyle,Titanium 1.2,50548,2018,petrol,1,white,crossover,manual,2018,2025-08-18 09:17:48
+327,delhi-ncr,Maruti Suzuki,S-Cross,Alpha,50527,2021,petrol,1,grey,suv,manual,2021,2025-06-02 15:40:16
+328,bangalore,Toyota,Etios,G SP,58304,2014,petrol,2,silver,sedan,manual,2014,2025-08-06 06:05:37
+329,hyderabad,Maruti Suzuki,New Ertiga,ZXi,44603,2020,petrol,1,blue,muv,manual,2020,2025-08-07 07:37:44
+330,jaipur,Honda,City,ZX CVT Petrol,45569,2022,petrol,1,white,sedan,automatic,2022,2025-06-02 15:47:27
+331,kolkata,Maruti Suzuki,Baleno,Zeta Automatic,50839,2020,petrol,1,blue,hatchback,automatic,2020,2025-08-11 12:47:17
+332,delhi-ncr,Maruti Suzuki,Wagon R,LXi 1.0 CNG,79754,2021,cng,1,white,hatchback,manual,2021,2025-08-17 07:24:44
+333,lucknow,Maruti Suzuki,Alto 800,VXi,21943,2022,petrol,1,grey,hatchback,manual,2022,2025-07-23 16:57:01
+334,pune,Maruti Suzuki,Dzire,VXi AMT,29060,2018,petrol,1,blue,sedan,automatic,2018,2025-08-12 10:37:43
+335,bangalore,Hyundai,Creta,SX OPT Turbo DCT Petrol,29947,2020,petrol,1,black,suv,automatic,2020,2025-08-17 07:07:55
+336,gurgaon,Ford,EcoSport,Ambiente 1.5L Ti-VCT,61894,2019,petrol,1,blue,suv,manual,2019,2025-08-10 14:16:43
+337,gurgaon,Maruti Suzuki,Ciaz,ZXi  AT,57397,2016,petrol,2,white,sedan,automatic,2016,2025-08-14 05:23:46
+338,delhi-ncr,Hyundai,Verna,SX (O)1.5 MPi,32923,2022,petrol,1,white,sedan,manual,2022,2025-08-11 08:59:19
+339,chennai,Hyundai,Creta,SX Petrol,21101,2023,petrol,2,grey,suv,manual,2023,2025-07-03 09:14:41
+340,gurgaon,Kia,Seltos,HTX D,81294,2022,diesel,1,white,suv,manual,2022,2025-06-29 07:21:44
+341,delhi,Kia,Sonet,GTX Plus 1.0 DCT,70559,2022,petrol,1,black,suv,automatic,2022,2025-08-15 10:40:42
+342,bangalore,Volkswagen,Polo,Comfortline 1.2L (P),36349,2012,petrol,2,grey,hatchback,manual,2012,2025-08-18 06:10:45
+343,gurgaon,Maruti Suzuki,Swift,ZXi AMT,51772,2020,petrol,1,grey,hatchback,automatic,2020,2025-07-26 04:39:02
+344,delhi-ncr,Hyundai,Elite i20,Sportz 1.2,63293,2016,petrol,2,grey,hatchback,manual,2017,2025-07-04 06:03:49
+345,chennai,Hyundai,Creta,1.6 SX,81952,2019,diesel,1,white,suv,manual,2019,2025-07-28 13:54:14
+346,delhi-ncr,Mahindra,Thar,LX Hard Top Diesel AT 4WD,52426,2021,diesel,1,brown,suv,automatic,2021,2025-08-07 10:58:42
+347,delhi-ncr,Toyota,Urban Cruiser,High Grade AT,35890,2021,petrol,1,grey,suv,automatic,2021,2025-08-17 14:10:01
+348,delhi-ncr,Maruti Suzuki,Vitara Brezza,ZXi Plus,45625,2022,petrol,1,white,suv,manual,2022,2025-08-01 17:34:46
+349,ahmedabad,Maruti Suzuki,A-Star,VXI,42020,2013,petrol,1,silver,hatchback,manual,2013,2025-08-16 17:22:11
+350,delhi-ncr,Kia,Sonet,HTX 1.0 iMT,29303,2021,petrol,2,black,suv,manual,2021,2025-07-31 14:54:48
+351,pune,Tata,Tigor,XZ Plus CNG Leatherette Pack,19863,2023,cng,1,blue,sedan,manual,2023,2025-08-07 04:01:52
+352,pune,Tata,Altroz,XZA Plus Petrol,29934,2023,petrol,1,blue,hatchback,automatic,2023,2025-07-25 11:46:01
+353,kolkata,Maruti Suzuki,S-Presso,VXi,51407,2021,petrol,1,silver,hatchback,manual,2021,2025-08-03 07:17:05
+354,ghaziabad,Honda,Amaze,VX CVT 1.2 Petrol,20402,2023,petrol,1,white,sedan,automatic,2023,2025-08-01 06:37:21
+355,ghaziabad,Honda,Amaze,1.2 VX MT Petrol,48600,2020,petrol,1,white,sedan,manual,2020,2025-08-04 15:10:06
+356,chandigarh,Honda,City,ZX Petrol,49692,2021,petrol,1,grey,sedan,manual,2021,2025-08-16 09:08:33
+357,delhi-ncr,Maruti Suzuki,Ciaz,Alpha 1.4 AT,37628,2017,petrol,2,grey,sedan,automatic,2017,2025-08-01 17:47:30
+358,delhi,Maruti Suzuki,Ciaz,ZXI+,63014,2016,petrol,1,silver,sedan,manual,2016,2025-07-19 08:17:54
+359,hyderabad,Maruti Suzuki,Alto K10,VXi Plus,25612,2022,petrol,2,silver,hatchback,manual,2023,2025-08-17 13:51:37
+360,jaipur,Audi,A3,40 TFSI Premium,33576,2015,petrol,1,blue,sedan,automatic,2015,2025-08-06 12:50:17
+361,ahmedabad,Tata,Nexon,XZA+  1.2l LUXS Dark Edition Petrol AT,36399,2023,petrol,1,black,suv,automatic,2023,2025-05-15 15:04:50
+362,lucknow,Maruti Suzuki,Alto 800,LXi,56617,2017,petrol,1,white,hatchback,manual,2017,2025-08-14 15:20:34
+363,delhi-ncr,Honda,Mobilio,V Petrol,40784,2014,petrol,1,white,muv,manual,2014,2025-07-13 05:44:30
+364,pune,Maruti Suzuki,Wagon R,LXi 1.0 CNG,35713,2019,cng,1,brown,hatchback,manual,2019,2025-08-12 10:15:23
+365,pune,Maruti Suzuki,Baleno,Zeta,33914,2021,petrol,1,blue,hatchback,manual,2021,2025-08-09 17:03:07
+366,delhi-ncr,Hyundai,Creta,1.6L SX VTVT,45032,2018,petrol,2,white,suv,manual,2018,2025-08-05 17:48:40
+367,bangalore,Kia,Sonet,GTX Plus 1.5 Diesel AT,16000,2024,diesel,1,silver,suv,automatic,2024,2025-08-04 11:57:34
+368,delhi-ncr,Datsun,Redi-GO,S 1.0,57920,2017,petrol,3,silver,hatchback,manual,2018,2025-08-11 12:11:40
+369,hyderabad,Volkswagen,Virtus,Topline 1.0 TSI MT,31463,2023,petrol,1,yellow,sedan,manual,2023,2025-08-06 06:14:21
+370,pune,Hyundai,Venue,S (O) 1.2 Petrol,29762,2023,petrol,1,red,suv,manual,2023,2025-08-16 05:01:00
+371,delhi,Toyota,Glanza,G CVT,17839,2021,petrol,1,silver,hatchback,automatic,2021,2025-08-09 08:16:28
+372,delhi-ncr,Tata,Altroz,XT 1.2,17427,2023,petrol,1,grey,hatchback,manual,2023,2025-08-12 12:46:55
+373,delhi-ncr,Honda,City,VX CVT,65217,2015,petrol,1,silver,sedan,automatic,2015,2025-07-30 01:42:01
+374,gurgaon,Kia,Sonet,GTX Plus 1.5,54763,2021,diesel,1,white,suv,manual,2021,2025-06-02 15:40:36
+375,bangalore,Volkswagen,Polo,Highline1.2L (P),50207,2013,petrol,1,grey,hatchback,manual,2013,2025-08-08 06:13:14
+376,delhi,Hyundai,Verna,SX (O) 1.6 VTVT AT,62270,2017,petrol,1,silver,sedan,automatic,2017,2025-08-05 17:37:48
+377,gurgaon,Kia,Carens,Luxury Plus 1.5 Turbo Petrol DCT 7 STR,59477,2023,petrol,1,blue,muv,automatic,2023,2025-08-07 12:54:37
+378,delhi-ncr,Tata,Nexon,XMA AMT Petrol,100726,2019,petrol,1,grey,suv,automatic,2019,2025-08-05 18:06:05
+379,lucknow,Maruti Suzuki,Alto K10,VXi Plus (O) AGS,3075,2024,petrol,1,white,hatchback,automatic,2024,2025-08-05 11:15:54
+380,faridabad,Honda,City,1.5 V MT,79321,2012,petrol,1,red,sedan,manual,2012,2025-08-13 08:01:54
+381,ghaziabad,Honda,Amaze,1.2 V CVT Petrol,52435,2019,petrol,1,white,sedan,automatic,2019,2025-08-13 07:37:43
+382,lucknow,Mahindra,XUV 3XO,AX5L 1.2 Petrol AT,4055,2024,petrol,1,red,suv,automatic,2024,2025-07-11 09:43:05
+383,bangalore,Volkswagen,Polo,Highline1.2L (D),120431,2014,diesel,1,grey,hatchback,manual,2014,2025-07-31 04:05:37
+384,delhi,Maruti Suzuki,Baleno,Zeta,66656,2019,petrol,1,blue,hatchback,manual,2019,2025-07-06 09:14:41
+385,ahmedabad,Maruti Suzuki,Fronx,Zeta 1.0L Turbo MT,11199,2024,petrol,1,grey,suv,manual,2024,2025-07-02 09:51:51
+386,delhi-ncr,Hyundai,Grand i10,Asta 1.2 Kappa VTVT,40495,2017,petrol,1,white,hatchback,manual,2017,2025-07-01 11:32:35
+387,lucknow,Maruti Suzuki,Celerio,VXi,22280,2024,petrol,1,white,hatchback,manual,2025,2025-07-16 07:34:47
+388,ahmedabad,Toyota,Urban Cruiser,Premium Grade AT,62810,2022,petrol,1,brown,suv,automatic,2022,2025-08-04 11:43:01
+389,pune,Maruti Suzuki,Baleno,Alpha 1.2 AT,31299,2017,petrol,1,silver,hatchback,automatic,2017,2025-08-08 17:06:48
+390,faridabad,Tata,Altroz,XM Plus Petrol,20337,2022,petrol,1,grey,hatchback,manual,2022,2025-08-08 04:47:00
+391,delhi-ncr,Tata,Tiago,Revotron XZ,29807,2017,petrol,2,silver,hatchback,manual,2017,2025-08-16 19:35:11
+392,chandigarh,Maruti Suzuki,Ignis,Alpha 1.2 MT,47876,2022,petrol,1,grey,hatchback,manual,2022,2025-08-15 14:21:17
+393,chennai,Mahindra,KUV100,K8 6 STR,60187,2016,petrol,1,silver,crossover,manual,2016,2025-08-05 17:49:50
+394,delhi,Tata,Tiago NRG,Petrol+cng(outside fitted),53434,2019,cng,2,grey,hatchback,manual,2020,2025-08-13 07:46:13
+395,chennai,Maruti Suzuki,Vitara Brezza,ZDi Plus,73732,2017,diesel,2,white,suv,manual,2017,2025-08-14 13:17:21
+396,hyderabad,Honda,City,SV CVT,75394,2014,petrol,2,brown,sedan,automatic,2014,2025-08-04 11:08:33
+397,chennai,Hyundai,Elite i20,Sportz 1.2,88026,2016,petrol,1,grey,hatchback,manual,2016,2025-08-07 12:18:06
+398,ahmedabad,Maruti Suzuki,Ciaz,Alpha Petrol+cng(outside fitted),118731,2017,cng,1,white,sedan,manual,2017,2025-07-16 08:34:43
+399,ahmedabad,Hyundai,Venue,SX (O) 1.0 Turbo DCT,24810,2023,petrol,1,black,suv,automatic,2023,2025-08-16 07:06:22
+400,delhi,Mahindra,Thar,LX Hard Top Petrol AT 4WD,17386,2023,petrol,1,grey,suv,automatic,2023,2025-07-06 11:23:36
+401,gurgaon,Hyundai,Venue,SX (O) 1.5 CRDi,58211,2023,diesel,1,white,suv,manual,2023,2025-08-04 10:06:43
+402,hyderabad,Ford,Figo,Trend 1.2 Ti-VCT,65806,2016,petrol,3,blue,hatchback,manual,2016,2025-08-15 08:46:53
+403,delhi,Hyundai,Grand i10,Sportz 1.2 Kappa VTVT,104815,2017,petrol,1,silver,hatchback,manual,2017,2025-07-16 10:00:04
+404,chandigarh,Tata,Nexon,XZ Plus (O),51772,2020,petrol,2,red,suv,manual,2020,2025-08-16 12:12:22
+405,gurgaon,Tata,Tiago,Revotron XM,52251,2018,petrol,2,grey,hatchback,manual,2018,2025-07-12 07:05:37
+406,mumbai,Mahindra,Thar,LX Hard Top Diesel AT 4WD,44129,2023,diesel,1,black,suv,automatic,2023,2025-08-14 10:10:27
+407,gurgaon,Honda,City,V Petrol,31282,2018,petrol,2,red,sedan,manual,2018,2025-07-17 09:33:50
+408,mumbai,Tata,Punch,Camo Accomplished Dazzle AMT,19790,2023,petrol,1,green,suv,automatic,2023,2025-08-14 07:23:46
+409,delhi-ncr,Maruti Suzuki,S-Cross,Zeta,57193,2022,petrol,1,silver,suv,manual,2022,2025-07-05 10:44:38
+410,chandigarh,Hyundai,Grand i10,Sportz AT 1.2 Kappa VTVT,32412,2018,petrol,1,white,hatchback,automatic,2018,2025-08-16 08:33:38
+411,noida,Maruti Suzuki,Baleno,Zeta 1.2,41000,2015,petrol,1,silver,hatchback,manual,2015,2025-07-25 06:51:55
+412,delhi-ncr,Tata,Safari,XZ Plus Dark Edition,99841,2022,diesel,1,black,suv,manual,2022,2025-07-09 06:26:43
+413,delhi-ncr,Maruti Suzuki,Dzire,ZXI Plus,44141,2021,petrol,1,red,sedan,manual,2021,2025-08-05 17:50:25
+414,bangalore,Hyundai,Verna,SX 1.6 VTVT,45292,2018,petrol,1,white,sedan,manual,2018,2025-08-18 06:11:41
+415,delhi,Ford,EcoSport,Titanium + 1.5L Ti-VCT AT,34900,2021,petrol,2,white,suv,automatic,2021,2025-05-11 03:15:31
+416,gurgaon,Honda,Amaze,VX CVT 1.2 Petrol,17246,2023,petrol,1,grey,sedan,automatic,2023,2025-08-13 12:29:55
+417,noida,Tata,Tiago,Revotron XZ Plus,44307,2019,petrol,1,grey,hatchback,manual,2019,2025-06-20 11:12:34
+418,noida,Volkswagen,Polo,Allstar 1.2 (P),90376,2016,petrol,3,red,hatchback,manual,2016,2025-08-16 05:40:58
+419,noida,Honda,City,VX (O) MT,66443,2015,petrol,1,grey,sedan,manual,2015,2025-07-25 12:58:25
+420,hyderabad,Maruti Suzuki,Ciaz,Alpha AT Petrol,57700,2018,petrol,1,grey,sedan,automatic,2018,2025-07-05 12:25:02
+421,delhi-ncr,Ford,EcoSport,Titanium + 1.5L Ti-VCT AT,89395,2017,petrol,1,red,suv,automatic,2018,2025-07-30 05:37:51
+422,chandigarh,Kia,Seltos,GTX Plus DCT,37990,2021,petrol,1,white,suv,automatic,2021,2025-08-13 05:47:13
+423,noida,Hyundai,Grand i10,Magna 1.2 Kappa VTVT,16650,2017,petrol,1,grey,hatchback,manual,2017,2025-08-16 06:37:35
+424,noida,Hyundai,Grand i10,Magna 1.2 Kappa VTVT,27991,2016,petrol,1,grey,hatchback,manual,2016,2025-07-21 06:54:26
+425,delhi-ncr,Honda,Amaze,1.2 VX CVT Petrol,53406,2019,petrol,1,brown,sedan,automatic,2019,2025-08-08 07:01:49
+426,delhi-ncr,Maruti Suzuki,Alto 800,LXi (O),20359,2023,petrol,1,grey,hatchback,manual,2023,2025-08-11 11:00:03
+427,delhi-ncr,Kia,Carens,Prestige Plus 1.5 Turbo Petrol DCT 7 STR,22843,2023,petrol,1,blue,muv,automatic,2023,2025-07-12 07:27:39
+428,delhi-ncr,Kia,Sonet,HTX 1.0 iMT,41729,2021,petrol,1,black,suv,manual,2021,2025-08-10 09:48:52
+429,bangalore,Renault,Kiger,RXZ Turbo CVT,40789,2021,petrol,1,silver,suv,automatic,2021,2025-07-31 11:03:43
+430,delhi-ncr,Hyundai,Venue,SX 1.0 (O) Petrol,68488,2019,petrol,3,red,suv,manual,2019,2025-07-12 17:02:58
+431,lucknow,Hyundai,Grand i10 Nios,Sportz 1.2 Kappa VTVT CNG,109550,2021,cng,1,silver,hatchback,manual,2021,2025-08-12 12:10:05
+432,chennai,Hyundai,Xcent,SX AT (O) Petrol,101104,2014,petrol,1,silver,sedan,automatic,2014,2025-05-15 15:06:21
+433,delhi-ncr,Maruti Suzuki,Dzire,VXi,34586,2018,petrol,1,silver,sedan,manual,2018,2025-06-24 11:09:26
+434,mumbai,Hyundai,Venue,SX 1.0 (O) Turbo iMT,47495,2021,petrol,1,grey,suv,manual,2021,2025-05-27 07:50:12
+435,delhi-ncr,Hyundai,Creta,1.6 SX AT VTVT,58017,2019,petrol,1,black,suv,automatic,2019,2025-08-08 06:26:54
+436,ghaziabad,Jeep,Compass,Limited 1.4 Petrol AT,47358,2018,petrol,2,black,suv,automatic,2018,2025-08-13 07:50:09
+437,bangalore,Datsun,Redi-GO,S (O),34739,2017,petrol,2,grey,hatchback,manual,2017,2025-08-05 06:53:11
+438,delhi-ncr,Maruti Suzuki,Fronx,Delta Plus 1.2L AGS,36031,2024,petrol,1,silver,suv,automatic,2024,2025-08-15 10:43:04
+439,noida,Honda,City,VX CVT Petrol,55015,2022,petrol,1,grey,sedan,automatic,2022,2025-07-18 08:58:45
+440,ghaziabad,Maruti Suzuki,Wagon R,LXI CNG (O),32261,2019,cng,1,grey,hatchback,manual,2019,2025-08-18 07:01:59
+441,ahmedabad,Maruti Suzuki,Baleno,Zeta,44108,2020,petrol,1,blue,hatchback,manual,2020,2025-07-25 09:52:36
+442,chennai,Mahindra,XUV 300,W6 1.2 Petrol,4405,2024,petrol,1,blue,suv,manual,2024,2025-07-27 11:12:35
+443,chennai,Hyundai,Creta,SX (O) Diesel,49260,2022,diesel,1,white,suv,manual,2022,2025-08-16 14:46:29
+444,mumbai,Maruti Suzuki,Ignis,Alpha 1.2 AMT,33819,2019,petrol,1,blue,hatchback,automatic,2019,2025-08-04 15:09:28
+445,ahmedabad,Maruti Suzuki,Swift,ZXI,68629,2017,petrol,3,white,hatchback,manual,2017,2025-07-31 12:51:56
+446,bangalore,Honda,Mobilio,V Petrol,78526,2014,petrol,2,silver,muv,manual,2014,2025-08-17 08:08:07
+447,mumbai,MG Motors,Hector,Sharp 1.5 DCT Petrol,22031,2021,petrol,1,silver,suv,automatic,2021,2025-08-15 06:44:21
+448,lucknow,Hyundai,Grand i10 Nios,Sportz AMT 1.2 Kappa VTVT,24602,2023,petrol,1,white,hatchback,automatic,2023,2025-07-22 08:13:43
+449,lucknow,Tata,Tigor,XZ,44630,2022,petrol,1,white,sedan,manual,2022,2025-07-15 14:41:17
+450,delhi,Hyundai,Verna,SX (O)1.6 VTVT,34303,2019,petrol,1,white,sedan,manual,2019,2025-06-27 08:01:10
+451,bangalore,MG Motors,Gloster,Savvy 2.0 Twin Turbo 6 STR 4WD,59379,2021,diesel,1,red,suv,automatic,2021,2025-08-13 08:56:46
+452,delhi-ncr,Hyundai,Grand i10,Sportz 1.2 Kappa VTVT,67003,2015,petrol,1,red,hatchback,manual,2015,2025-07-01 06:31:56
+453,delhi-ncr,Toyota,Glanza,V,34282,2022,petrol,1,silver,hatchback,manual,2022,2025-07-12 07:37:29
+454,mumbai,Toyota,Innova,2.5 VX 8 STR,123491,2015,diesel,3,brown,muv,manual,2015,2025-08-11 13:15:36
+455,hyderabad,Skoda,Slavia,Style 1.5L TSI DSG,38169,2022,petrol,1,white,sedan,automatic,2023,2025-07-26 10:22:59
+456,delhi-ncr,Tata,Tigor,Revotron XTA Petrol + CNG (Outside Fitted),94944,2017,cng,1,white,sedan,automatic,2018,2025-08-06 06:52:50
+457,mumbai,Hyundai,Grand i10,Asta 1.2 Kappa VTVT,22425,2017,petrol,1,red,hatchback,manual,2017,2025-07-19 04:56:46
+458,lucknow,Nissan,Sunny,XV,104504,2013,petrol,1,grey,sedan,manual,2014,2025-07-29 09:43:48
+459,kolkata,Mahindra,KUV100,K8 6 STR,107256,2017,petrol,1,orange,crossover,manual,2017,2025-08-10 08:18:12
+460,ghaziabad,Hyundai,Grand i10,Magna 1.2 Kappa VTVT,27991,2016,petrol,1,grey,hatchback,manual,2016,2025-07-21 06:54:26
+461,gurgaon,Maruti Suzuki,Baleno,Zeta 1.2,81664,2018,petrol,1,blue,hatchback,manual,2018,2025-08-05 17:36:35
+462,kolkata,Maruti Suzuki,Dzire,VXi,14228,2018,petrol,1,blue,sedan,manual,2018,2025-08-12 17:25:14
+463,bangalore,Hyundai,Venue,SX Plus 1.0 Turbo DCT,50467,2021,petrol,1,blue,suv,automatic,2021,2025-07-08 09:18:14
+464,hyderabad,Maruti Suzuki,Swift,VDi,92549,2020,diesel,1,white,hatchback,manual,2020,2025-08-08 07:21:58
+465,bangalore,Hyundai,Eon,1.0 Kappa Magna + (O),29258,2016,petrol,1,grey,hatchback,manual,2016,2025-08-12 10:25:10
+466,delhi,Hyundai,Grand i10,Asta 1.2 Kappa VTVT,63968,2017,petrol,1,white,hatchback,manual,2017,2025-08-16 05:20:21
+467,faridabad,Ford,EcoSport,Titanium 1.5 Ti-VCT AT,79037,2015,petrol,2,black,suv,automatic,2015,2025-07-30 09:15:36
+468,noida,Hyundai,Creta,SX (O) Diesel,34985,2022,diesel,1,black,suv,manual,2022,2025-08-12 02:22:25
+469,bangalore,Kia,Seltos,HTX+ G1.5 T-GDI Petrol IMT,27708,2023,petrol,1,red,suv,manual,2023,2025-08-10 14:04:13
+470,delhi,Honda,City,VX Petrol,75860,2017,petrol,1,grey,sedan,manual,2017,2025-08-18 12:01:10
+471,mumbai,Maruti Suzuki,Baleno,Zeta AT Petrol,40295,2017,petrol,1,blue,hatchback,automatic,2017,2025-07-05 11:53:41
+472,delhi-ncr,Hyundai,Creta,SX (O) Diesel,34985,2022,diesel,1,black,suv,manual,2022,2025-08-12 02:22:25
+473,gurgaon,Maruti Suzuki,Ciaz,ZXI+ AT,62290,2017,petrol,1,silver,sedan,automatic,2017,2025-06-12 06:11:47
+474,delhi-ncr,Maruti Suzuki,Alto K10,LXi,28527,2017,petrol,1,white,hatchback,manual,2017,2025-08-08 04:49:51
+475,noida,Maruti Suzuki,Vitara Brezza,ZXi Plus,45625,2022,petrol,1,white,suv,manual,2022,2025-08-01 17:34:46
+476,noida,Ford,EcoSport,Titanium + 1.5L Ti-VCT,67256,2019,petrol,1,white,suv,manual,2019,2025-08-13 14:43:45
+477,gurgaon,Maruti Suzuki,XL6,Alpha AT Petrol,24138,2023,petrol,1,silver,muv,automatic,2023,2025-08-14 14:56:01
+478,delhi-ncr,Maruti Suzuki,Baleno,Alpha AGS,8415,2024,petrol,1,white,hatchback,automatic,2024,2025-08-17 14:16:13
+479,delhi-ncr,Hyundai,Creta,1.6 SX Plus Auto Petrol,75170,2016,petrol,3,blue,suv,automatic,2016,2025-07-31 07:50:02
+480,jaipur,Tata,Tigor,Revotron XZ+,72315,2022,petrol,1,white,sedan,manual,2022,2025-07-03 14:59:43
+481,lucknow,Kia,Seltos,GTX Plus DCT,65387,2022,petrol,1,black,suv,automatic,2022,2025-08-11 06:30:01
+482,hyderabad,Maruti Suzuki,Baleno,Alpha MT,29345,2022,petrol,2,blue,hatchback,manual,2022,2025-08-12 08:01:24
+483,delhi,Nissan,Micra,XL CVT,81674,2017,petrol,2,white,hatchback,automatic,2017,2025-08-18 10:26:19
+484,mumbai,Mahindra,XUV500,W7 AT,70968,2021,diesel,1,silver,suv,automatic,2021,2025-08-01 04:13:20
+485,bangalore,Mahindra,XUV500,W8 AT,71580,2016,diesel,1,silver,suv,automatic,2016,2025-07-29 09:32:45
+486,ahmedabad,Toyota,Glanza,G E-CNG,50320,2023,cng,2,white,hatchback,manual,2023,2025-06-26 16:26:07
+487,pune,Mahindra,Thar,LX Convertible Petrol AT 4WD,9745,2021,petrol,1,black,suv,automatic,2021,2025-08-13 14:47:15
+488,chandigarh,Mahindra,XUV500,W10,90308,2016,diesel,1,grey,suv,manual,2016,2025-07-13 09:08:35
+489,delhi-ncr,Hyundai,Fluidic Verna 4S,1.6 VTVT SX,53488,2016,petrol,2,white,sedan,manual,2016,2025-08-01 06:24:52
+490,delhi,Volkswagen,Polo,Highline1.2L (P),81525,2013,petrol,1,silver,hatchback,manual,2013,2025-08-16 07:20:24
+491,jaipur,Volkswagen,Polo,All Star 1.2 (P),76593,2017,petrol,1,white,hatchback,manual,2017,2025-08-05 17:49:31
+492,pune,Hyundai,Exter,SX (O) Connect 1.2 AMT Knight Edition,13415,2024,petrol,1,blue,suv,automatic,2024,2025-08-16 08:50:33
+493,ahmedabad,Maruti Suzuki,Baleno,Zeta 1.2,57707,2018,petrol,1,red,hatchback,manual,2018,2025-08-06 17:08:26
+494,delhi,Maruti Suzuki,Baleno,RS 1.0,44312,2017,petrol,1,blue,hatchback,manual,2017,2025-07-04 11:49:38
+495,delhi-ncr,Toyota,Corolla Altis,J(S) Petrol,20795,2014,petrol,2,silver,sedan,manual,2014,2025-08-04 15:08:39
+496,delhi,Kia,Sonet,GTX Plus 1.0 DCT,37679,2021,petrol,1,black,suv,automatic,2021,2025-07-12 06:44:41
+497,mumbai,Maruti Suzuki,Baleno,Alpha 1.2,53740,2017,petrol,2,blue,hatchback,manual,2017,2025-07-29 07:44:44
+498,delhi-ncr,Volkswagen,Taigun,Topline 1.0 TSI AT,77145,2022,petrol,1,grey,suv,automatic,2022,2025-07-14 06:41:24
+499,bangalore,Renault,Duster,110 PS RXZ 4X2 MT Diesel,83996,2017,diesel,1,red,suv,manual,2017,2025-08-14 09:25:21
+500,delhi-ncr,Tata,Punch,Accomplished MT,26014,2022,petrol,1,grey,suv,manual,2022,2025-08-09 12:25:56
+501,ahmedabad,Ford,EcoSport,Trend 1.5 TDCi,82321,2014,diesel,1,white,suv,manual,2015,2025-08-16 07:09:58
+502,hyderabad,Honda,Jazz,V AT Petrol,51814,2017,petrol,1,brown,hatchback,automatic,2017,2025-08-05 10:19:51
+503,mumbai,Maruti Suzuki,S-Presso,VXi (O) AMT,31185,2021,petrol,1,white,hatchback,automatic,2021,2025-08-08 15:11:29
+504,mumbai,Hyundai,Grand i10 Nios,Sportz 1.2 Kappa VTVT CNG,79535,2020,cng,1,blue,hatchback,manual,2020,2025-07-25 12:33:29
+505,bangalore,Renault,Kwid,CLIMBER 1.0 AMT (O),65661,2021,petrol,1,blue,hatchback,automatic,2021,2025-08-16 17:17:24
+506,delhi-ncr,Maruti Suzuki,Ciaz,ZXI+ AT,62290,2017,petrol,1,silver,sedan,automatic,2017,2025-06-12 06:11:47
+507,delhi-ncr,Maruti Suzuki,Baleno,Zeta 1.2 AT,46252,2016,petrol,1,silver,hatchback,automatic,2016,2025-08-18 07:26:04
+508,gurgaon,Maruti Suzuki,Celerio,ZXI (O) AMT,48501,2017,petrol,2,grey,hatchback,automatic,2017,2025-08-18 06:34:12
+509,bangalore,Maruti Suzuki,S-Presso,VXi Plus AMT,18760,2020,petrol,1,grey,hatchback,automatic,2020,2025-08-18 11:37:57
+510,noida,Maruti Suzuki,Baleno,Alpha 1.2,63063,2016,petrol,1,blue,hatchback,manual,2016,2025-07-16 05:05:14
+511,bangalore,Renault,Kwid,RXT,76168,2016,petrol,1,grey,hatchback,manual,2016,2025-07-31 07:15:10
+512,ahmedabad,Renault,Kwid,RXT 1.0 SCE Special (O),50385,2017,petrol,1,red,hatchback,manual,2017,2025-07-17 09:59:30
+513,hyderabad,Maruti Suzuki,Baleno,Zeta 1.2,98899,2017,petrol,1,red,hatchback,manual,2017,2025-06-18 09:02:45
+514,chennai,Maruti Suzuki,Baleno,Alpha Automatic,98810,2019,petrol,1,blue,hatchback,automatic,2019,2025-07-15 10:59:50
+515,chennai,Kia,Seltos,GTX Plus AT D,88362,2022,diesel,1,red,suv,automatic,2022,2025-07-11 08:26:17
+516,hyderabad,Tata,Nexon,XZA Plus Diesel Kaziranga,37439,2022,diesel,1,beige,suv,automatic,2022,2025-08-17 07:39:15
+517,hyderabad,Maruti Suzuki,Brezza,ZXi Plus,36226,2023,petrol,1,grey,suv,manual,2023,2025-07-17 08:19:06
+518,delhi-ncr,Kia,Seltos,GTX,66513,2019,petrol,1,white,suv,manual,2019,2025-08-16 18:35:16
+519,delhi-ncr,Tata,Tigor,Revotron XM Petrol+CNG (outside fitted),80812,2019,cng,1,blue,sedan,manual,2019,2025-08-18 05:51:36
+520,gurgaon,Nissan,Micra,Fashion Edition,31367,2017,petrol,1,black,hatchback,automatic,2018,2025-08-18 06:39:43
+521,ghaziabad,Maruti Suzuki,Baleno,Sigma 1.2,40186,2017,petrol,1,blue,hatchback,manual,2017,2025-08-14 09:09:54
+522,delhi-ncr,Maruti Suzuki,Alto K10,VXi,28292,2016,petrol,1,grey,hatchback,manual,2016,2025-08-09 12:04:55
+523,gurgaon,Mahindra,XUV700,AX 7 Petrol AT Luxury Pack 7 STR,111932,2022,petrol,1,silver,suv,automatic,2023,2025-08-06 10:38:44
+524,ahmedabad,Hyundai,Creta,SX OPT Turbo DCT Petrol,22443,2022,petrol,1,white,suv,automatic,2022,2025-08-05 17:51:47
+525,delhi-ncr,Maruti Suzuki,Swift Dzire,VXI,65317,2014,petrol,2,blue,sedan,manual,2014,2025-07-18 07:11:35
+526,lucknow,Maruti Suzuki,Wagon R 1.2,ZXI Plus,9788,2024,petrol,1,grey,hatchback,manual,2024,2025-08-11 06:29:23
+527,delhi,Hyundai,Eon,Sportz,81199,2014,petrol,1,red,hatchback,manual,2015,2025-08-11 12:57:41
+528,ghaziabad,Maruti Suzuki,Ciaz,VXi+,44222,2016,petrol,1,brown,sedan,manual,2016,2025-07-07 08:23:55
+529,ghaziabad,Hyundai,Grand i10,Sportz 1.2 Kappa VTVT,18737,2019,petrol,1,grey,hatchback,manual,2019,2025-07-04 06:58:53
+530,chennai,Ford,EcoSport,Titanium 1.0 Ecoboost,107711,2014,petrol,2,grey,suv,manual,2014,2025-08-07 07:57:13
+531,pune,Hyundai,Creta,1.6 SX Plus Auto,93729,2016,diesel,2,white,suv,automatic,2016,2025-08-16 13:36:23
+532,delhi-ncr,MG Motors,Hector Plus,Sharp 1.5 Petrol Turbo CVT 6-STR,25945,2022,petrol,2,black,suv,automatic,2023,2025-08-14 11:36:03
+533,bangalore,Maruti Suzuki,Dzire,LDi,65023,2020,diesel,1,white,sedan,manual,2020,2025-08-05 17:49:01
+534,kolkata,Maruti Suzuki,Alto 800,LXi,40527,2016,petrol,1,red,hatchback,manual,2016,2025-07-17 05:00:00
+535,mumbai,Maruti Suzuki,Ignis,Alpha 1.2 AMT,22388,2022,petrol,1,blue,hatchback,automatic,2022,2025-08-07 07:52:10
+536,chandigarh,Kia,Sonet,GTX Plus 1.5 Dual Tone,29792,2021,diesel,1,red,suv,manual,2021,2025-08-11 06:23:17
+537,noida,Ford,EcoSport,Titanium 1.5 Ti-VCT AT,112298,2014,petrol,2,white,suv,automatic,2014,2025-07-05 12:10:14
+538,delhi,Jeep,Compass,Limited 1.4 Petrol AT,47358,2018,petrol,2,black,suv,automatic,2018,2025-08-13 07:50:09
+539,delhi-ncr,Tata,Nexon,XM Diesel,43891,2022,diesel,1,white,suv,manual,2022,2025-08-05 17:48:36
+540,delhi,Kia,Seltos,HTX D,52405,2022,diesel,1,white,suv,manual,2022,2025-07-08 15:20:57
+541,pune,Tata,Altroz,XZ Plus 1.2 Turbo DT,40077,2021,petrol,1,white,hatchback,manual,2021,2025-08-09 12:43:28
+542,delhi,Honda,City,ZX CVT Petrol,72312,2017,petrol,1,silver,sedan,automatic,2017,2025-08-08 06:25:50
+543,pune,Renault,Triber,RXZ,13279,2023,petrol,1,brown,muv,manual,2023,2025-07-13 12:29:42
+544,chennai,Hyundai,Aura,SX Plus 1.2 AMT CRDI,114962,2020,diesel,1,brown,sedan,automatic,2020,2025-08-05 17:48:40
+545,jaipur,Hyundai,Alcazar,Platinum (O) 6 STR 2.0 Petrol AT,43715,2022,petrol,1,blue,suv,automatic,2022,2025-07-19 14:14:24
+546,delhi-ncr,Maruti Suzuki,Baleno,Zeta Automatic,53606,2021,petrol,2,red,hatchback,automatic,2021,2025-08-12 02:14:55
+547,hyderabad,Tata,Altroz,XZA Plus Petrol Dark Edtion,17389,2022,petrol,1,black,hatchback,automatic,2022,2025-05-16 08:40:27
+548,ghaziabad,Maruti Suzuki,Swift Dzire,VXI,48745,2015,petrol,1,grey,sedan,manual,2015,2025-05-01 07:33:20
+549,delhi-ncr,Maruti Suzuki,Wagon R 1.0,VXI Petrol + CNG (Outside Fitted),54216,2016,cng,1,grey,hatchback,manual,2016,2025-08-17 07:48:13
+550,mumbai,Toyota,Innova Crysta,2.4 V 8 STR,40245,2019,diesel,2,red,muv,manual,2019,2025-08-15 12:31:36
+551,delhi,Honda,City,ZX CVT Petrol,40397,2021,petrol,1,grey,sedan,automatic,2021,2025-07-01 18:26:18
+552,pune,Mahindra,XUV500,W7,40217,2021,diesel,1,white,suv,manual,2021,2025-05-26 06:37:59
+553,delhi-ncr,Maruti Suzuki,Swift,ZXi,40037,2018,petrol,2,grey,hatchback,manual,2018,2025-08-15 10:36:36
+554,delhi,Tata,Altroz,XZ Plus 1.5,24060,2023,diesel,1,grey,hatchback,manual,2023,2025-08-05 17:40:48
+555,noida,Tata,Nexon,XZ Petrol,45086,2019,petrol,1,silver,suv,manual,2019,2025-08-05 17:48:51
+556,bangalore,Honda,City,VX CVT,70071,2014,petrol,1,black,sedan,automatic,2014,2025-08-03 05:25:36
+557,noida,Ford,EcoSport,Titanium 1.5L Ti-VCT,78543,2019,petrol,1,red,suv,manual,2019,2025-06-19 07:04:09
+558,noida,Honda,City,1.5 V MT,74131,2012,petrol,1,silver,sedan,manual,2012,2025-08-16 07:19:00
+559,delhi,Tata,Nexon,XZ Plus (O),88659,2021,petrol,1,grey,suv,manual,2021,2025-07-11 07:18:39
+560,delhi-ncr,Maruti Suzuki,Swift,VXI,38841,2019,petrol,1,grey,hatchback,manual,2019,2025-08-04 15:08:45
+561,pune,Maruti Suzuki,Baleno,Zeta 1.2,48626,2018,petrol,1,blue,hatchback,manual,2018,2025-08-12 02:14:49
+562,mumbai,Tata,Punch,Creative Dual Tone,29899,2022,petrol,2,brown,suv,manual,2022,2025-08-17 16:18:44
+563,pune,Maruti Suzuki,Ertiga,ZXi,40988,2012,petrol,1,blue,muv,manual,2012,2025-08-16 06:33:52
+564,delhi-ncr,Mahindra,XUV 300,W8 AMT (O) Diesel,64871,2020,diesel,1,white,suv,automatic,2020,2025-08-13 07:17:59
+565,delhi,Hyundai,Xcent,SX  Petrol+CNG (Outside Fitted),45351,2020,cng,1,grey,sedan,manual,2020,2025-07-30 10:43:32
+566,delhi-ncr,Renault,Kwid,1.0 RXT AMT Opt,46114,2019,petrol,1,bronze,hatchback,automatic,2019,2025-07-30 13:52:36
+567,hyderabad,Maruti Suzuki,Alto 800,Vxi,83687,2015,petrol,1,silver,hatchback,manual,2015,2025-08-11 12:54:57
+568,gurgaon,Hyundai,New Santro 1.1,Sportz MT,59147,2021,petrol,1,white,hatchback,manual,2021,2025-07-13 04:30:35
+569,delhi-ncr,Kia,Sonet,HTX 1.0 iMT,38441,2021,petrol,2,white,suv,manual,2021,2025-08-14 15:00:19
+570,pune,Hyundai,Elite i20,Asta 1.2 AT,52300,2018,petrol,3,red,hatchback,automatic,2018,2025-08-17 08:03:15
+571,mumbai,Mahindra,XUV700,AX 7 Diesel MT Luxury Pack 7 STR,21479,2022,diesel,2,silver,suv,manual,2022,2025-08-06 12:25:07
+572,ahmedabad,Tata,Punch,Adventure Rhythm iCNG,24180,2024,petrol+cng,1,white,suv,manual,2024,2025-07-22 12:12:24
+573,delhi-ncr,Honda,Jazz,SV Petrol+cng(outside fitted),89514,2017,cng,1,brown,hatchback,manual,2017,2025-07-06 06:53:39
+574,delhi,Honda,City,SV,62838,2014,petrol,1,brown,sedan,manual,2014,2025-07-24 05:43:37
+575,delhi-ncr,Skoda,Kushaq,Ambition 1.0L TSI AT,22801,2022,petrol,1,silver,suv,automatic,2022,2025-08-15 04:56:50
+576,ghaziabad,Volkswagen,Polo,Comfortline 1.2L (P),78462,2015,petrol,1,white,hatchback,manual,2015,2025-08-18 07:03:45
+577,delhi,Hyundai,Creta,1.6 SX Plus Petrol,88791,2017,petrol,2,white,suv,manual,2017,2025-06-23 06:19:41
+578,delhi-ncr,Tata,Nexon,XZA Plus AMT Petrol,30298,2019,petrol,1,red,suv,automatic,2019,2025-07-07 08:23:04
+579,delhi-ncr,Hyundai,Grand i10 Nios,Asta 1.2 Kappa AMT,6136,2024,petrol,1,white,hatchback,automatic,2024,2025-07-18 08:12:20
+580,delhi-ncr,Maruti Suzuki,Fronx,Alpha 1.0L Turbo MT,14392,2023,petrol,1,white,suv,manual,2023,2025-08-06 05:24:04
+581,delhi-ncr,Hyundai,Grand i10,Sportz 1.2 Kappa VTVT,44080,2017,petrol,1,grey,hatchback,manual,2017,2025-07-16 09:59:17
+582,lucknow,Maruti Suzuki,Ritz,Vdi BS-IV,123336,2015,diesel,1,white,hatchback,manual,2015,2025-06-12 07:42:24
+583,ahmedabad,Tata,Nexon,XZ Plus,21327,2023,petrol,1,grey,suv,manual,2023,2025-07-25 12:02:28
+584,bangalore,Honda,City,ZX Diesel,144306,2017,diesel,1,grey,sedan,manual,2017,2025-08-17 05:35:04
+585,delhi-ncr,Hyundai,Creta,1.6L SX VTVT,69643,2019,petrol,1,white,suv,manual,2019,2025-07-23 18:11:55
+586,ghaziabad,Honda,Amaze,1.2 SX i-VTEC,23447,2015,petrol,1,brown,sedan,manual,2015,2025-08-14 09:15:49
+587,ahmedabad,Tata,Hexa,XTA,90528,2017,diesel,2,silver,suv,automatic,2017,2025-07-18 16:59:05
+588,mumbai,Maruti Suzuki,Swift Dzire,VXI,28738,2015,petrol,1,blue,sedan,manual,2015,2025-08-05 17:54:17
+589,mumbai,MG Motors,Astor,Savvy 1.3 Turbo AT S Red,29183,2021,petrol,2,red,suv,automatic,2021,2025-08-05 17:48:36
+590,hyderabad,Kia,Sonet,GTX Plus 1.5 AT,113205,2021,diesel,1,black,suv,automatic,2021,2025-07-29 17:48:28
+591,noida,Hyundai,Grand i10,Asta 1.2 Kappa VTVT,33056,2015,petrol,1,white,hatchback,manual,2015,2025-05-19 06:05:57
+592,bangalore,Maruti Suzuki,Ciaz,ZXi  AT,70001,2016,petrol,2,brown,sedan,automatic,2016,2025-07-29 09:02:00
+593,faridabad,Tata,Punch,Creative Dual Tone,19102,2023,petrol,1,beige,suv,manual,2023,2025-07-04 11:53:30
+594,lucknow,Maruti Suzuki,Swift,ZXI Plus,8389,2023,petrol,1,grey,hatchback,manual,2023,2025-08-11 06:28:15
+595,delhi,Maruti Suzuki,Ciaz,Alpha Hybrid 1.5 AT,28430,2018,petrol,1,grey,sedan,automatic,2018,2025-08-01 16:04:21
+596,bangalore,Maruti Suzuki,Ertiga,VDi 1.3 Diesel,65401,2018,diesel,1,silver,muv,manual,2019,2025-07-16 07:49:18
+597,kolkata,Maruti Suzuki,Ciaz,Delta AT Petrol,23895,2021,petrol,1,blue,sedan,automatic,2021,2025-06-05 08:08:45
+598,hyderabad,Hyundai,Creta,SX OPT Turbo DCT Petrol,38490,2020,petrol,1,black,suv,automatic,2020,2025-07-17 12:52:17
+599,delhi-ncr,Maruti Suzuki,Ciaz,VXi+,51167,2015,petrol,1,brown,sedan,manual,2015,2025-07-10 06:10:47
+600,chennai,Mahindra,Thar,LX Hard Top Petrol AT 4WD,38859,2021,petrol,1,black,suv,automatic,2021,2025-07-25 10:43:29
+601,kolkata,Maruti Suzuki,Baleno,Delta,10848,2021,petrol,1,blue,hatchback,manual,2021,2025-07-15 04:17:15
+602,ahmedabad,Ford,Freestyle,Titanium 1.2,40907,2019,petrol,1,white,crossover,manual,2019,2025-07-31 12:53:12
+603,noida,Maruti Suzuki,Grand Vitara,Alpha Plus Intelligent Hybrid eCVT,48993,2023,hybrid,1,blue,suv,automatic,2023,2025-08-05 17:48:38
+604,pune,Maruti Suzuki,XL6,Alpha MT Petrol,19044,2021,petrol,1,white,muv,manual,2021,2025-08-17 06:54:48
+605,delhi-ncr,Mahindra,XUV700,AX 5 Petrol AT 5 STR,34396,2022,petrol,1,white,suv,automatic,2022,2025-08-04 15:09:59
+606,mumbai,Ford,EcoSport,Titanium 1.0 Ecoboost,64375,2014,petrol,1,grey,suv,manual,2014,2025-07-30 17:26:57
+607,pune,Renault,Duster,RXZ 1.3 Turbo Petrol MT,30299,2020,petrol,1,orange,suv,manual,2022,2025-08-15 08:51:59
+608,noida,Hyundai,Venue,SX 1.0 Turbo iMT,25577,2021,petrol,2,white,suv,manual,2021,2025-08-17 07:43:25
+609,delhi-ncr,Hyundai,Venue,SX Plus 1.0 Turbo DCT,98275,2021,petrol,1,blue,suv,automatic,2021,2025-05-17 14:23:12
+610,delhi,Maruti Suzuki,Dzire,VXi AMT,37312,2018,petrol,1,silver,sedan,automatic,2018,2025-07-14 06:42:48
+611,bangalore,Ford,EcoSport,Titanium 1.5L Ti-VCT AT,69919,2020,petrol,1,white,suv,automatic,2020,2025-08-04 15:09:37
+612,hyderabad,Hyundai,Grand i10 Nios,Asta 1.2 Kappa VTVT,49728,2020,petrol,1,red,hatchback,manual,2020,2025-07-14 06:27:25
+613,chennai,Maruti Suzuki,S-Presso,Vxi Plus (O),5087,2024,petrol,1,red,hatchback,manual,2024,2025-07-30 04:29:52
+614,lucknow,Tata,Altroz,XT 1.2,40077,2021,petrol,1,white,hatchback,manual,2021,2025-08-11 06:22:11
+615,faridabad,Maruti Suzuki,Ciaz,Alpha 1.5,39245,2021,petrol,1,grey,sedan,manual,2021,2025-08-17 08:04:54
+616,chennai,Hyundai,New i20,Asta 1.0 Turbo IMT,100019,2021,petrol,1,blue,hatchback,manual,2021,2025-06-02 15:55:18
+617,ghaziabad,Honda,City,ZX Petrol,31824,2022,petrol,1,white,sedan,manual,2022,2025-08-02 13:24:49
+618,mumbai,Honda,City,1.5 V MT,74443,2012,petrol,1,golden,sedan,manual,2012,2025-08-09 12:19:08
+619,delhi-ncr,Hyundai,Elite i20,Sportz 1.2,55028,2016,petrol,1,red,hatchback,manual,2016,2025-07-08 09:32:56
+620,delhi,Renault,Triber,RXZ,40262,2019,petrol,1,orange,muv,manual,2020,2025-07-30 12:12:34
+621,mumbai,Ford,Freestyle,Trend Plus 1.2 Ti-VCT,27654,2018,petrol,1,white,crossover,manual,2019,2025-08-16 08:25:05
+622,delhi-ncr,Maruti Suzuki,Wagon R 1.0,LXI CNG (outside fitted),72340,2016,cng,1,grey,hatchback,manual,2016,2025-07-28 06:28:37
+623,faridabad,Hyundai,Elite i20,Magna 1.2,96781,2014,petrol,1,red,hatchback,manual,2014,2025-07-09 06:52:13
+624,pune,Ford,EcoSport,Titanium + 1.5L Ti-VCT AT,57084,2020,petrol,1,white,suv,automatic,2020,2025-08-14 13:02:07
+625,lucknow,Maruti Suzuki,Ignis,Zeta 1.2 AMT,91581,2022,petrol,1,blue,hatchback,automatic,2022,2025-08-11 06:25:21
+626,delhi,Tata,Punch,Adventure Rhythm Pack AMT,60865,2021,petrol,1,grey,suv,automatic,2022,2025-07-25 07:36:51
+627,bangalore,Hyundai,Venue,SX 1.0 (O) Turbo iMT Dual Tone Sport,52393,2020,petrol,1,black,suv,manual,2020,2025-06-12 07:40:50
+628,bangalore,Renault,Triber,RXZ,11219,2024,petrol,1,brown,muv,manual,2024,2025-08-17 08:06:53
+629,delhi,Tata,Tigor,XZ Plus,20979,2023,petrol,1,grey,sedan,manual,2023,2025-08-11 12:34:45
+630,kolkata,Maruti Suzuki,Wagon R 1.0,VXi 1.0,7938,2021,petrol,1,grey,hatchback,manual,2021,2025-08-14 17:15:41
+631,delhi-ncr,Hyundai,Grand i10,Sportz 1.2 Kappa VTVT,59608,2016,petrol,2,silver,hatchback,manual,2016,2025-08-13 08:10:13
+632,pune,Maruti Suzuki,S-Cross,Zeta 1.3,102149,2018,diesel,1,blue,suv,manual,2018,2025-08-12 12:27:45
+633,delhi-ncr,Maruti Suzuki,S-Cross,Alpha AT,97067,2021,petrol,2,blue,suv,automatic,2021,2025-07-19 06:51:13
+634,delhi,Hyundai,Creta,1.6L SX VTVT,57727,2019,petrol,1,white,suv,manual,2019,2025-07-25 09:24:52
+635,hyderabad,Toyota,Etios,G,59126,2012,petrol,2,silver,sedan,manual,2012,2025-08-18 12:26:42
+636,ghaziabad,Honda,Jazz,V AT Petrol,33935,2016,petrol,1,white,hatchback,automatic,2016,2025-08-14 05:44:30
+637,ghaziabad,Maruti Suzuki,Dzire,ZXi AMT,28784,2017,petrol,1,blue,sedan,automatic,2017,2025-07-08 09:33:19
+638,hyderabad,Hyundai,Creta,1.6 SX AT VTVT,73827,2018,petrol,1,red,suv,automatic,2018,2025-07-26 03:32:55
+639,ahmedabad,Renault,Kwid,RXE,77385,2015,petrol,1,white,hatchback,manual,2015,2025-08-14 04:19:26
+640,chennai,Volkswagen,T-Roc,1.5 TSI DSG,111713,2021,petrol,1,black,suv,automatic,2022,2025-07-23 04:57:15
+641,chennai,Maruti Suzuki,Swift,VDi,61931,2014,diesel,1,grey,hatchback,manual,2014,2025-08-02 12:27:15
+642,bangalore,Hyundai,New Santro 1.1,Magna Petrol + CNG (outside fitted),36647,2021,petrol+cng,1,white,hatchback,manual,2021,2025-08-01 08:32:19
+643,chandigarh,Honda,Brio,S MT,100057,2012,petrol,3,grey,hatchback,manual,2012,2025-07-20 17:39:35
+644,lucknow,Hyundai,Creta,EX Petrol,39293,2023,petrol,1,grey,suv,manual,2023,2025-08-11 06:27:33
+645,ghaziabad,Hyundai,Verna,SX 1.6 VTVT,41819,2019,petrol,2,silver,sedan,manual,2019,2025-07-29 11:49:49
+646,delhi-ncr,Volkswagen,Taigun,Highline 1.0 TSI MT,28541,2022,petrol,1,grey,suv,manual,2022,2025-08-04 06:17:48
+647,bangalore,Renault,Kiger,RXT AMT Dual Tone,36932,2021,petrol,1,blue,suv,automatic,2021,2025-08-16 07:11:41
+648,hyderabad,Hyundai,Grand i10,Asta 1.2 Kappa VTVT,99113,2019,petrol,1,grey,hatchback,manual,2020,2025-05-21 16:16:36
+649,lucknow,Mahindra,Scorpio,S9,49225,2021,diesel,1,white,suv,manual,2021,2025-08-05 17:48:50
+650,chennai,Volkswagen,Polo,Comfortline 1.2L (P),121991,2016,petrol,1,white,hatchback,manual,2016,2025-06-07 08:14:15
+651,jaipur,Hyundai,Venue,SX Plus 1.0 Turbo DCT,44766,2021,petrol,1,blue,suv,automatic,2021,2025-08-11 06:27:40
+652,delhi-ncr,Hyundai,Creta,SX OPT Turbo DCT Petrol,64437,2020,petrol,2,black,suv,automatic,2020,2025-06-23 06:27:16
+653,delhi,Maruti Suzuki,Swift,VXI,59335,2013,petrol,1,grey,hatchback,manual,2013,2025-07-16 05:04:24
+654,hyderabad,Ford,EcoSport,Titanium 1.5L Ti-VCT,48068,2019,petrol,2,brown,suv,manual,2019,2025-08-18 12:05:40
+655,hyderabad,Hyundai,Verna,Fluidic 1.6 VTVT SX,113669,2011,petrol,2,silver,sedan,manual,2011,2025-08-09 08:26:27
+656,chennai,Nissan,Magnite,XV Premium Turbo CVT Dual Tone,34807,2021,petrol,1,red,suv,automatic,2021,2025-08-18 13:03:59
+657,lucknow,Ford,EcoSport,Titanium 1.5L TDCi,92860,2019,diesel,1,silver,suv,manual,2019,2025-07-26 03:46:48
+658,delhi-ncr,Hyundai,Creta,1.6L SX VTVT,65406,2019,petrol,1,white,suv,manual,2019,2025-08-15 05:40:14
+659,ghaziabad,Honda,City,V Petrol,44701,2017,petrol,1,white,sedan,manual,2017,2025-08-09 05:02:27
+660,faridabad,Hyundai,Xcent,S 1.2,57671,2014,petrol,1,red,sedan,manual,2014,2025-08-04 06:39:26
+661,delhi-ncr,Maruti Suzuki,Ciaz,ZXi,55865,2015,petrol,2,white,sedan,manual,2015,2025-07-28 06:54:50
+662,ghaziabad,Volkswagen,Polo,Highline Plus 1.0 (P) 16 Alloy,41048,2018,petrol,1,red,hatchback,manual,2018,2025-08-18 06:41:15
+663,delhi,Kia,Seltos,GTX Plus AT D,89980,2021,diesel,1,grey,suv,automatic,2021,2025-06-20 07:17:15
+664,mumbai,Hyundai,Grand i10 Nios,Sportz Petrol+cng(outside fitted),22126,2022,petrol+cng,1,blue,hatchback,manual,2022,2025-06-12 08:29:30
+665,delhi-ncr,Maruti Suzuki,Alto 800,Lxi,20665,2014,petrol,1,white,hatchback,manual,2014,2025-08-04 07:33:13
+666,delhi,Maruti Suzuki,Dzire,VXi AGS,95519,2021,petrol,1,white,sedan,automatic,2021,2025-07-25 09:29:26
+667,gurgaon,Renault,Kiger,RXZ Turbo CVT,43374,2021,petrol,1,brown,suv,automatic,2021,2025-07-16 04:30:44
+668,delhi-ncr,Maruti Suzuki,Baleno,Alpha 1.2,63063,2016,petrol,1,blue,hatchback,manual,2016,2025-07-16 05:05:14
+669,delhi-ncr,Maruti Suzuki,Brezza,ZXi Plus,32494,2022,petrol,1,red,suv,manual,2022,2025-08-08 12:57:32
+670,chennai,Hyundai,Elite i20,Magna Executive 1.4 CRDI,93607,2017,diesel,1,red,hatchback,manual,2017,2025-08-16 07:51:11
+671,hyderabad,Mercedes-Benz,E-Class,E 250 CDI Edition E,35848,2016,diesel,2,black,sedan,automatic,2017,2025-08-07 11:52:39
+672,delhi,Renault,Kiger,RXT 1.0 Turbo MT,14328,2021,petrol,1,brown,suv,manual,2021,2025-07-05 12:17:16
+673,hyderabad,Hyundai,Creta,SX (O) AT Diesel,54140,2020,diesel,1,blue,suv,automatic,2020,2025-08-04 15:09:42
+674,gurgaon,Volkswagen,Taigun,Highline 1.0 TSI AT,65793,2022,petrol,1,silver,suv,automatic,2022,2025-07-08 06:54:24
+675,delhi,Hyundai,Xcent,S 1.2,56378,2015,petrol,1,blue,sedan,manual,2015,2025-07-21 05:47:23
+676,hyderabad,Maruti Suzuki,Wagon R 1.0,LXi CNG,45968,2013,cng,1,silver,hatchback,manual,2013,2025-08-09 08:40:18
+677,delhi-ncr,Hyundai,New Santro 1.1,Sportz Executive CNG,71421,2022,petrol+cng,1,grey,hatchback,manual,2022,2025-08-04 14:03:43
+678,delhi-ncr,Honda,City,1.5 S MT,91204,2012,petrol,2,brown,sedan,manual,2012,2025-08-06 12:07:51
+679,faridabad,BMW,3 Series,Gran Limousine 330Li Luxury Line,26502,2021,petrol,2,white,sedan,automatic,2022,2025-08-16 09:03:33
+680,hyderabad,Maruti Suzuki,Swift Dzire,Automatic,63860,2013,petrol,2,white,sedan,automatic,2013,2025-08-02 07:09:31
+681,bangalore,Hyundai,Grand i10,Asta AT 1.2 Kappa VTVT,73064,2015,petrol,1,orange,hatchback,automatic,2015,2025-08-12 09:57:03
+682,ahmedabad,Hyundai,Grand i10 Nios,Sportz 1.2 Kappa CNG,26674,2023,cng,1,white,hatchback,manual,2023,2025-07-19 13:57:27
+683,bangalore,Volkswagen,Ameo,Highline1.5L (D),85628,2018,diesel,2,grey,sedan,manual,2018,2025-08-16 06:49:43
+684,delhi-ncr,Honda,WR-V,VX MT Petrol,31297,2018,petrol,1,orange,suv,manual,2018,2025-08-05 17:39:53
+685,hyderabad,Maruti Suzuki,XL6,Zeta MT Petrol,73602,2021,petrol,1,red,muv,manual,2021,2025-08-05 10:10:12
+686,noida,Honda,City,VX CVT,80090,2017,petrol,1,grey,sedan,automatic,2017,2025-08-06 08:05:42
+687,ahmedabad,Hyundai,i20 N Line,N8 1.0 Turbo DCT,50579,2021,petrol,2,red,hatchback,automatic,2021,2025-08-03 06:02:38
+688,delhi-ncr,Maruti Suzuki,Swift,LXI (O),24286,2016,petrol,1,white,hatchback,manual,2016,2025-07-21 05:21:32
+689,hyderabad,Renault,Kwid,1.0 RXT AMT Opt,60811,2018,petrol,2,silver,hatchback,automatic,2018,2025-08-11 10:57:16
+690,bangalore,Hyundai,Elite i20,Asta 1.4 CRDI,99396,2015,diesel,1,white,hatchback,manual,2015,2025-05-09 10:01:47
+691,delhi-ncr,Renault,Kwid,RXT 1.0 SCE Edition,53151,2017,petrol,1,bronze,hatchback,manual,2017,2025-08-12 13:11:24
+692,delhi-ncr,Honda,City,ZX CVT Petrol,38603,2019,petrol,1,white,sedan,automatic,2019,2025-07-25 09:14:52
+693,ahmedabad,Ford,EcoSport,Titanium 1.5L Ti-VCT,60064,2015,petrol,1,red,suv,manual,2015,2025-08-13 06:09:43
+694,hyderabad,Maruti Suzuki,Baleno,Zeta 1.2,35244,2018,petrol,1,grey,hatchback,manual,2018,2025-07-28 06:40:54
+695,chandigarh,Maruti Suzuki,Swift,VXI,18253,2022,petrol,1,grey,hatchback,manual,2022,2025-07-13 09:06:16
+696,noida,Hyundai,Eon,Era +,48628,2014,petrol,1,grey,hatchback,manual,2014,2025-08-11 07:09:58
+697,chandigarh,Mahindra,XUV700,AX 7 Petrol AT 7 STR,36336,2021,petrol,1,blue,suv,automatic,2021,2025-07-19 13:01:24
+698,kolkata,Tata,Tiago,Revotron XZ,47494,2016,petrol,1,yellow,hatchback,manual,2016,2025-08-17 08:41:36
+699,noida,Tata,Altroz,XE Petrol,12000,2022,petrol,1,red,hatchback,manual,2022,2025-08-02 13:29:42
+700,delhi-ncr,Maruti Suzuki,New Ertiga,ZXi Plus,62081,2019,petrol,1,red,muv,manual,2019,2025-07-19 05:10:27
+701,mumbai,Renault,Kwid,RXL (O) 1.0,1945,2022,petrol,1,bronze,hatchback,manual,2022,2025-08-14 07:19:58
+702,hyderabad,Hyundai,Elite i20,Asta (O) CVT,43779,2019,petrol,2,blue,hatchback,automatic,2019,2025-07-01 18:37:49
+703,delhi,Tata,Punch,Creative AMT Dual Tone,8610,2023,petrol,1,grey,suv,automatic,2023,2025-05-28 07:23:12
+704,mumbai,Tata,Nexon,XZ Plus,114874,2018,petrol,1,blue,suv,manual,2018,2025-08-12 08:44:07
+705,mumbai,Hyundai,New Santro 1.1,Sportz AMT,19394,2020,petrol,1,grey,hatchback,automatic,2020,2025-08-18 10:02:04
+706,delhi-ncr,Renault,Kwid,1.0 RXT AMT Opt,32764,2017,petrol,1,grey,hatchback,automatic,2017,2025-08-18 06:36:24
+707,pune,Tata,Nexon,XZ Plus (O),38970,2020,petrol,1,blue,suv,manual,2020,2025-08-12 08:38:10
+708,delhi-ncr,Hyundai,Grand i10,Sportz (O) AT 1.2 Kappa VTVT,62751,2017,petrol,2,red,hatchback,automatic,2018,2025-07-11 11:55:27
+709,gurgaon,Toyota,Fortuner,2.7 2WD AT Petrol,81108,2018,petrol,1,silver,suv,automatic,2018,2025-07-24 06:15:20
+710,chandigarh,Hyundai,Aura,SX 1.2 Petrol,15352,2023,petrol,1,white,sedan,manual,2023,2025-07-27 17:58:24
+711,delhi-ncr,Kia,Seltos,HTK 1.5,20901,2021,petrol,1,red,suv,manual,2021,2025-08-08 15:21:14
+712,delhi-ncr,Volkswagen,Cross Polo,1.2 MPI Highline,53344,2016,petrol,2,silver,crossover,manual,2016,2025-08-04 05:46:16
+713,gurgaon,Maruti Suzuki,Swift Dzire,VXI,91162,2013,petrol,1,blue,sedan,manual,2013,2025-07-12 07:51:16
+714,noida,Hyundai,New Santro 1.1,Sportz Executive CNG,71421,2022,petrol+cng,1,grey,hatchback,manual,2022,2025-08-04 14:03:43
+715,mumbai,Maruti Suzuki,Dzire,VXi AMT,46297,2018,petrol,2,blue,sedan,automatic,2018,2025-06-29 08:53:29
+716,ahmedabad,Honda,City,ZX CVT Petrol,54059,2022,petrol,1,grey,sedan,automatic,2022,2025-05-15 15:17:09
+717,hyderabad,Toyota,Glanza,V CVT,40251,2021,petrol,2,red,hatchback,automatic,2021,2025-07-01 18:34:30
+718,delhi-ncr,Maruti Suzuki,Baleno,Alpha,18474,2019,petrol,1,blue,hatchback,manual,2019,2025-07-04 16:21:17
+719,delhi-ncr,Tata,Tigor,Revotron XT,72091,2018,petrol,1,grey,sedan,manual,2018,2025-08-11 08:55:25
+720,bangalore,Audi,A3,35 TDI Premium + Sunroof,62427,2016,diesel,2,silver,sedan,automatic,2017,2025-07-15 08:40:55
+721,gurgaon,Hyundai,Creta,1.6 SX Plus Auto Petrol,64535,2016,petrol,1,white,suv,automatic,2016,2025-08-18 05:47:38
+722,delhi-ncr,Renault,Kwid,RXL,65291,2019,petrol,2,grey,hatchback,manual,2019,2025-08-13 12:44:45
+723,hyderabad,Skoda,Kushaq,Ambition 1.0L TSI AT,36515,2022,petrol,1,grey,suv,automatic,2022,2025-07-22 04:40:55
+724,ahmedabad,Hyundai,Elite i20,Sportz 1.2 (O),53360,2014,petrol,1,silver,hatchback,manual,2014,2025-08-11 07:18:50
+725,gurgaon,Skoda,Slavia,Style 1.0L TSI MT,31339,2022,petrol,2,grey,sedan,manual,2022,2025-08-01 17:51:12
+726,pune,Maruti Suzuki,Alto 800,Lxi,70033,2013,petrol,2,blue,hatchback,manual,2013,2025-08-14 09:34:47
+727,noida,Hyundai,Xcent,S 1.2,75401,2014,petrol,1,silver,sedan,manual,2014,2025-07-22 06:11:12
+728,delhi-ncr,Mahindra,Thar,LX Hard Top Petrol AT 4WD,45375,2021,petrol,1,black,suv,automatic,2021,2025-08-04 06:25:24
+729,pune,Tata,Tiago,Revotron XZ Plus CNG,37279,2022,petrol+cng,1,grey,hatchback,manual,2022,2025-08-15 13:35:36
+730,gurgaon,Tata,Tigor,Revotron XT,34808,2018,petrol,1,silver,sedan,manual,2018,2025-07-13 07:07:08
+731,delhi-ncr,Honda,City,ZX CVT Petrol,51109,2017,petrol,1,grey,sedan,automatic,2017,2025-08-03 07:49:45
+732,ahmedabad,Maruti Suzuki,XL6,Alpha Plus AT Petrol,25374,2022,petrol,1,grey,muv,automatic,2022,2025-08-06 09:27:56
+733,delhi,Renault,Kiger,RXZ Turbo CVT,20391,2021,petrol,1,silver,suv,automatic,2022,2025-07-04 11:46:51
+734,ghaziabad,Mahindra,Thar,LX Hard Top Petrol AT 4WD,43325,2021,petrol,1,grey,suv,automatic,2021,2025-07-01 12:20:40
+735,ahmedabad,Maruti Suzuki,Baleno,Delta 1.2,67607,2018,petrol,1,blue,hatchback,manual,2018,2025-07-29 05:04:09
+736,noida,Hyundai,New i20,Sportz 1.0 Turbo DCT,41819,2022,petrol,1,white,hatchback,automatic,2022,2025-08-17 14:20:05
+737,bangalore,Maruti Suzuki,XL6,Zeta AT Petrol,22446,2022,petrol,1,silver,muv,automatic,2022,2025-07-17 15:33:18
+738,chandigarh,Honda,Amaze,1.2 SX i-VTEC,50452,2015,petrol,1,silver,sedan,manual,2016,2025-08-18 11:01:13
+739,delhi-ncr,Toyota,Corolla Altis,G Petrol,67458,2016,petrol,2,white,sedan,manual,2016,2025-07-27 09:32:44
+740,chennai,Kia,Seltos,GTX Plus DCT,56128,2022,petrol,1,silver,suv,automatic,2022,2025-06-24 09:40:14
+741,delhi-ncr,Hyundai,Creta,SX Petrol,12029,2020,petrol,1,white,suv,manual,2020,2025-08-14 14:49:40
+742,delhi-ncr,Hyundai,Elite i20,Magna 1.2,96781,2014,petrol,1,red,hatchback,manual,2014,2025-07-09 06:52:13
+743,delhi,Hyundai,Grand i10,Sportz 1.2 Kappa VTVT,59608,2016,petrol,2,silver,hatchback,manual,2016,2025-08-13 08:10:13
+744,delhi-ncr,Tata,Punch,Accomplished iCNG,30478,2024,cng,1,white,suv,manual,2024,2025-08-01 08:12:48
+745,delhi-ncr,Honda,City,V 4th Gen,58698,2017,petrol,1,brown,sedan,manual,2017,2025-07-19 06:10:07
+746,mumbai,Maruti Suzuki,Dzire,ZXi Plus AMT,50293,2018,petrol,1,silver,sedan,automatic,2018,2025-06-24 11:20:24
+747,gurgaon,Maruti Suzuki,Grand Vitara,Sigma Smart Hybrid,24881,2024,petrol,1,white,suv,manual,2024,2025-07-08 08:36:50
+748,lucknow,Tata,Tiago,Revotron XZ Plus,26745,2021,petrol,1,grey,hatchback,manual,2021,2025-07-25 11:19:10
+749,ahmedabad,Maruti Suzuki,Swift,VDi,112968,2016,diesel,1,red,hatchback,manual,2016,2025-08-16 07:06:07
+750,delhi-ncr,Mahindra,Scorpio,S5 2WD 7 STR,50376,2020,diesel,1,white,suv,manual,2020,2025-08-05 09:34:54
+751,lucknow,Maruti Suzuki,Wagon R 1.0,VXi 1.0,35413,2021,petrol,1,grey,hatchback,manual,2021,2025-08-03 15:51:41
+752,noida,Hyundai,Elite i20,Sportz 1.2,41597,2014,petrol,1,blue,hatchback,manual,2014,2025-07-21 11:29:03
+753,delhi-ncr,Maruti Suzuki,Wagon R,ZXI 1.2,20884,2022,petrol,1,grey,hatchback,manual,2022,2025-08-12 02:23:32
+754,noida,Hyundai,Aura,SX 1.2 CNG,35874,2023,cng,1,blue,sedan,manual,2023,2025-08-05 05:47:55
+755,delhi-ncr,Hyundai,Eon,Magna +,56593,2014,petrol,1,white,hatchback,manual,2014,2025-08-11 12:56:48
+756,delhi-ncr,Hyundai,Creta,1.6 SX Plus Auto Petrol,64535,2016,petrol,1,white,suv,automatic,2016,2025-08-18 05:47:38
+757,delhi-ncr,Honda,Amaze,1.2 V CVT Petrol,113609,2018,petrol,1,silver,sedan,automatic,2018,2025-07-08 07:39:36
+758,ahmedabad,Mahindra,KUV100,K8 6 STR,23287,2017,petrol,1,silver,crossover,manual,2017,2025-08-11 12:26:03
+759,pune,Maruti Suzuki,Brezza,Zxi Plus Dual Tone,64467,2022,petrol,1,red,suv,manual,2023,2025-07-28 09:43:08
+760,chandigarh,Renault,Kiger,RXZ 1.0 Turbo MT,25208,2021,petrol,1,blue,suv,manual,2021,2025-08-05 17:51:39
+761,gurgaon,Maruti Suzuki,XL6,Zeta MT Petrol,23498,2022,petrol,1,white,muv,manual,2022,2025-08-14 14:56:25
+762,hyderabad,Hyundai,Venue,SX Plus 1.0 Turbo DCT,42150,2019,petrol,2,white,suv,automatic,2019,2025-08-15 14:16:08
+763,lucknow,Maruti Suzuki,Alto 800,VXi,27556,2019,petrol,1,silver,hatchback,manual,2019,2025-08-18 06:05:42
+764,mumbai,Hyundai,Venue,SX (O) 1.0 Turbo iMT,11270,2022,petrol,1,red,suv,manual,2022,2025-07-11 07:08:52
+765,noida,Hyundai,Eon,Sportz,81199,2014,petrol,1,red,hatchback,manual,2015,2025-08-11 12:57:41
+766,ghaziabad,Renault,Kwid,CLIMBER 1.0,46689,2017,petrol,1,blue,hatchback,manual,2017,2025-08-14 06:24:22
+767,bangalore,Toyota,Urban Cruiser Hyryder,V Hybrid,82815,2022,hybrid,1,white,suv,automatic,2022,2025-08-10 10:15:02
+768,noida,Tata,Tiago,Revotron XZ,54377,2019,petrol,1,white,hatchback,manual,2020,2025-08-12 05:57:07
+769,delhi-ncr,Skoda,Slavia,Style 1.0L TSI MT,31339,2022,petrol,2,grey,sedan,manual,2022,2025-08-01 17:51:12
+770,pune,Hyundai,Exter,SX (O) Connect 1.2 AMT,4915,2023,petrol,1,green,suv,automatic,2024,2025-08-09 16:50:09
+771,kolkata,Maruti Suzuki,Alto 800,Vxi Plus,11503,2021,petrol,1,black,hatchback,manual,2021,2025-08-11 06:23:10
+772,bangalore,Maruti Suzuki,Dzire,ZDi AMT,70143,2017,diesel,1,silver,sedan,automatic,2017,2025-08-12 12:28:05
+773,bangalore,Honda,City,1.5 V MT,78995,2013,petrol,2,red,sedan,manual,2013,2025-08-18 06:11:26
+774,delhi,Hyundai,Eon,Era +,46246,2015,petrol,2,white,hatchback,manual,2015,2025-08-01 07:28:34
+775,chennai,Tata,Nexon,XZA Plus Dual Tone Roof Optional Diesel AMT,28774,2021,diesel,1,white,suv,automatic,2021,2025-08-07 10:36:46
+776,mumbai,Volkswagen,Ameo,Highline1.2L (P),77759,2017,petrol,2,silver,sedan,manual,2017,2025-07-29 12:16:11
+777,hyderabad,Hyundai,Venue,SX 1.5 CRDi,67531,2021,diesel,1,green,suv,manual,2021,2025-08-17 08:31:48
+778,hyderabad,Maruti Suzuki,Celerio,VXi,51462,2015,petrol,2,white,hatchback,manual,2016,2025-07-31 10:40:12
+779,delhi,Maruti Suzuki,Swift,ZXI AMT,31681,2018,petrol,2,white,hatchback,automatic,2018,2025-06-03 07:41:57
+780,delhi,Renault,Duster,RXS CVT,58769,2019,petrol,1,bronze,suv,automatic,2019,2025-07-31 08:58:00
+781,chennai,Volkswagen,Polo,Trendline 1.0 (P),124581,2020,petrol,1,red,hatchback,manual,2020,2025-07-01 18:26:19
+782,delhi-ncr,Tata,Tiago,XZ Plus,24448,2021,petrol,1,blue,hatchback,manual,2021,2025-08-18 12:02:31
+783,noida,Hyundai,Elite i20,Asta 1.2,83220,2015,petrol,1,blue,hatchback,manual,2015,2025-08-16 10:48:33
+784,lucknow,Honda,Amaze,1.2 V MT Petrol,63145,2020,petrol,1,red,sedan,manual,2020,2025-06-29 11:04:15
+785,pune,Hyundai,Venue,SX 1.0 (O) Turbo iMT,80022,2021,petrol,1,white,suv,manual,2021,2025-06-15 05:17:16
+786,chandigarh,Hyundai,Creta,SX (O) Diesel,38399,2022,diesel,1,white,suv,manual,2022,2025-08-02 17:28:32
+787,delhi-ncr,Maruti Suzuki,Swift,VXi,35362,2018,petrol,1,silver,hatchback,manual,2018,2025-08-03 08:10:16
+788,bangalore,Maruti Suzuki,Baleno,Zeta,30425,2021,petrol,1,blue,hatchback,manual,2021,2025-08-18 06:14:41
+789,ghaziabad,Honda,Brio,S MT,69764,2013,petrol,1,brown,hatchback,manual,2013,2025-07-08 08:24:28
+790,delhi-ncr,Renault,Kiger,RXT (O) Turbo MT,9132,2022,petrol,1,brown,suv,manual,2023,2025-08-05 17:38:55
+791,delhi,Maruti Suzuki,Baleno,Delta 1.2,32495,2018,petrol,1,silver,hatchback,manual,2018,2025-07-31 13:34:31
+792,hyderabad,Hyundai,Xcent,SX,64462,2017,petrol,1,silver,sedan,manual,2018,2025-08-18 07:27:35
+793,noida,Honda,Brio,S MT,58830,2013,petrol,1,brown,hatchback,manual,2013,2025-08-11 06:33:06
+794,delhi-ncr,Tata,Tigor,XZ Plus CNG,60711,2022,cng,1,grey,sedan,manual,2022,2025-07-23 07:01:36
+795,chandigarh,Maruti Suzuki,Alto K10,VXi,30441,2016,petrol,2,white,hatchback,manual,2016,2025-08-11 14:23:26
+796,delhi-ncr,Hyundai,Verna,Fluidic 1.6 VTVT SX Opt AT,26990,2012,petrol,2,silver,sedan,automatic,2012,2025-08-11 06:24:39
+797,delhi,Hyundai,Venue,SX 1.2 Petrol,52956,2022,petrol,1,red,suv,manual,2022,2025-08-04 06:21:10
+798,delhi-ncr,Hyundai,Creta,1.6 SX AT VTVT,93654,2018,petrol,1,grey,suv,automatic,2018,2025-06-30 11:20:06
+799,chennai,Mahindra,Scorpio N,Z8 L Diesel 7 STR,66129,2024,diesel,1,silver,suv,manual,2024,2025-07-25 09:29:06
+800,ahmedabad,Hyundai,Creta,SX OPT Turbo DCT Petrol,66764,2022,petrol,1,white,suv,automatic,2022,2025-08-03 09:56:55
+801,delhi-ncr,Hyundai,Venue,SX 1.0 (O) Turbo iMT,56752,2020,petrol,1,blue,suv,manual,2020,2025-07-05 11:57:28
+802,chandigarh,Volkswagen,Virtus,Highline 1.0 TSI AT,26091,2023,petrol,1,silver,sedan,automatic,2024,2025-08-11 06:30:23
+803,gurgaon,Maruti Suzuki,Swift,VXi,21795,2023,petrol,1,silver,hatchback,manual,2023,2025-08-11 10:57:41
+804,noida,Hyundai,Grand i10,Asta 1.2 Kappa VTVT,63968,2017,petrol,1,white,hatchback,manual,2017,2025-08-16 05:20:21
+805,mumbai,Maruti Suzuki,Ciaz,Alpha 1.5,7545,2022,petrol,2,blue,sedan,manual,2022,2025-07-21 06:58:21
+806,delhi-ncr,Maruti Suzuki,XL6,Alpha AT Petrol,35168,2019,petrol,1,bronze,muv,automatic,2019,2025-07-05 03:54:57
+807,noida,Hyundai,Aura,SX 1.2 Petrol,20452,2022,petrol,1,silver,sedan,manual,2023,2025-07-25 09:20:26
+808,bangalore,Maruti Suzuki,Vitara Brezza,ZDi Plus Dual Tone AGS,81636,2018,diesel,1,orange,suv,automatic,2018,2025-06-25 06:26:48
+809,bangalore,Maruti Suzuki,Baleno,Alpha MT,26807,2023,petrol,1,white,hatchback,manual,2023,2025-08-16 04:01:17
+810,delhi,Honda,City,VX CVT Petrol,55015,2022,petrol,1,grey,sedan,automatic,2022,2025-07-18 08:58:45
+811,bangalore,Maruti Suzuki,Alto K10,VXi Plus AGS,5571,2024,petrol,1,grey,hatchback,automatic,2024,2025-08-09 06:16:34
+812,ahmedabad,Honda,Amaze,1.2 S i-VTEC,90094,2013,petrol,1,maroon,sedan,manual,2013,2025-08-08 11:39:01
+813,delhi-ncr,Renault,Triber,RXT,23876,2022,petrol,1,white,muv,manual,2023,2025-08-06 10:38:26
+814,ghaziabad,Hyundai,Elite i20,Sportz 1.2 (O),81926,2015,petrol,1,silver,hatchback,manual,2015,2025-08-07 06:39:12

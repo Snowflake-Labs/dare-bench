@@ -1,0 +1,166 @@
+{
+    "question": {
+        "target": [
+            "mood"
+        ],
+        "target_candidates": [
+            "mood"
+        ],
+        "related_features": [
+            "screen_time",
+            "caffeine_mg",
+            "sleep_hours",
+            "exercise_minutes"
+        ],
+        "not_filtered_related_features": [
+            "screen_time",
+            "caffeine_mg",
+            "sleep_hours",
+            "exercise_minutes"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "screen_time": [
+                0.0,
+                10.0
+            ],
+            "caffeine_mg": [
+                0.0,
+                237.0
+            ],
+            "sleep_hours": [
+                4.0,
+                10.0
+            ],
+            "exercise_minutes": [
+                0.0,
+                60.0
+            ]
+        },
+        "selected_features": [
+            "caffeine_mg",
+            "screen_time",
+            "sleep_hours"
+        ],
+        "train_v2_save_file": "./ianktoo_moodify-data_class/source/train_v2.parquet",
+        "val_v2_save_file": "./ianktoo_moodify-data_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./ianktoo_moodify-data_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./ianktoo_moodify-data_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./ianktoo_moodify-data_class/source/train_v1.parquet",
+        "train_test_ratio": 0.9,
+        "save_file_type": "parquet",
+        "imputer_type": "mean",
+        "random_state": 80,
+        "model_type": "LogisticRegression",
+        "output_file": "./ianktoo_moodify-data_class/prediction.csv",
+        "ground_truth_file": "./ianktoo_moodify-data_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./ianktoo_moodify-data_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "sleep_hours": "numerical",
+            "screen_time": "numerical",
+            "exercise_minutes": "numerical",
+            "caffeine_mg": "numerical",
+            "mood": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "caffeine_mg",
+            "screen_time",
+            "sleep_hours"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7796080,
+        "ref": "ianktoo/moodify-data",
+        "subtitle": "Daily habits and mood labels for ML classification",
+        "creatorName": "Ian Too",
+        "creatorUrl": "ianktoo",
+        "totalBytes": 1877,
+        "url": "https://www.kaggle.com/datasets/ianktoo/moodify-data",
+        "lastUpdated": "2025-07-03T18:00:24.097Z",
+        "downloadCount": 20,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Ian Too",
+        "ownerRef": "ianktoo",
+        "kernelCount": 1,
+        "title": "Moodify: Simulated Mood Prediction Dataset",
+        "viewCount": 251,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "mental health",
+                "name": "mental health",
+                "description": "Mental health is a level of psychological well-being, or an absence of mental illness.",
+                "fullPath": "subject > health and fitness > health > health conditions > mental health",
+                "competitionCount": 1,
+                "datasetCount": 2391,
+                "scriptCount": 371,
+                "totalCount": 2763
+            },
+            {
+                "ref": "computer science",
+                "name": "computer science",
+                "description": "There is one thing we can say for sure about computer science: Computer science leads to more computer games which leads to better GPUs which leads to smarter AI.",
+                "fullPath": "subject > science and technology > computer science",
+                "competitionCount": 10,
+                "datasetCount": 57850,
+                "scriptCount": 733,
+                "totalCount": 58593
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "simulations",
+                "name": "simulations",
+                "description": "",
+                "fullPath": "subject > culture and humanities > games > video games > simulations",
+                "competitionCount": 64,
+                "datasetCount": 691,
+                "scriptCount": 238,
+                "totalCount": 993
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7796080,
+        "datasetSlug": "moodify-data",
+        "ownerUser": "ianktoo",
+        "usabilityRating": 1.0,
+        "totalViews": 28,
+        "totalDownloads": 7,
+        "title": "Moodify: Simulated Mood Prediction Dataset",
+        "subtitle": "Daily habits and mood labels for ML classification",
+        "description": "### Description\n\nThis dataset simulates daily behavioral patterns to predict self-reported mood. It includes 200 samples with the following features:\n\n- sleep_hours: Average hours of sleep per night (4\u201310 hours)\n- screen_time: Total screen time in hours (0\u201310 hours)\n- exercise_minutes: Minutes of exercise per day (0\u201360 minutes)\n- caffeine_mg: Caffeine intake in milligrams (0\u2013300 mg)\n- mood: Self-reported mood label \u2014 Happy, Neutral, or Stressed\n\nThe data is artificially generated based on wellness heuristics, making it ideal for machine learning experiments in:\n\n- Multi-class classification\n- Feature interaction analysis\n- Model interpretation and deployment (e.g. Streamlit/Gradio apps)\n\n### Recommended Use Cases:\n\nPerfect for beginners learning with Scikit-learn, or testing out workflow deployments without requiring sensitive or personal data. \n\n\n=== About this file ===\n\nAbout this file\nRemote source:\nhttps://www.kaggle.com/code/ianktoo/moodify\nThis dataset simulates daily behavioral patterns to predict self-reported mood.\n\n\n=== Columns & descriptions ===\n\nsleep_hours: Number of hours slept\nscreen_time: Screen time in hours\nexercise_minutes: Number of minutes spent exercising\ncaffeine_mg: Amount of caffein taken\nmood: Mood\n",
+        "keywords": [
+            "mental health",
+            "computer science",
+            "classification",
+            "simulations"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

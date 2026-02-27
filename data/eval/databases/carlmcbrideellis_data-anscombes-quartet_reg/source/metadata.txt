@@ -1,0 +1,18 @@
+This file is the data set form the famous publication Francis J. Anscombe "*Graphs in Statistical Analysis*", The American Statistician 27 pp. 17-21 (1973) (doi: 10.1080/00031305.1973.10478966). It consists of four data sets of 11 points each. Note the peculiarity that the same 'x' values  are used for the first three data sets, and I have followed this exactly as in the original publication (originally done to save space), i.e. the first column (x123) serves as the 'x' for the next three 'y' columns; y1, y2 and y3.
+
+In the dataset `Anscombe_quintet_data.csv` there is a new column (`y5`) as an example of Simpson's paradox ([C. McBride Ellis "*Anscombe dataset No. 5: Simpson's paradox*", Zenodo doi: 10.5281/zenodo.15209087 (2025)](https://doi.org/10.5281/zenodo.15209087)
+
+=== About this file ===
+
+About this file
+This file consists of four data sets of 11 points each. Note the peculiarity that the same 'x' values are used for the first three data sets, and I have followed this exactly as in the original publication (originally done to save space), i.e. the first column (x123) serves as the 'x' for the next three 'y' columns.
+
+
+=== Columns & descriptions ===
+
+x123: x123
+y1: y1
+y2: y2
+y3: y3
+x4: x4
+y4: y4

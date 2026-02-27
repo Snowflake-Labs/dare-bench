@@ -1,0 +1,191 @@
+{
+    "question": {
+        "target": [
+            "product_type",
+            "provider_type"
+        ],
+        "target_candidates": [
+            "provider_type",
+            "product_type"
+        ],
+        "related_features": [
+            "tot_provs_report_2015_edition",
+            "tot_provs_report_2011_edition",
+            "tot_provs_report_developer",
+            "tot_provs_report_2014_edition",
+            "developer",
+            "program_year"
+        ],
+        "not_filtered_related_features": [
+            "tot_provs_report_2015_edition",
+            "tot_provs_report_2011_edition",
+            "tot_provs_report_developer",
+            "tot_provs_report_2014_edition",
+            "program_year"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "tot_provs_report_2015_edition": [
+                0,
+                5875
+            ],
+            "tot_provs_report_2011_edition": [
+                0,
+                54204
+            ],
+            "tot_provs_report_developer": [
+                0,
+                92241
+            ],
+            "tot_provs_report_2014_edition": [
+                0,
+                79831
+            ],
+            "program_year": [
+                2011,
+                2016
+            ]
+        },
+        "selected_features": [
+            "tot_provs_report_2015_edition",
+            "tot_provs_report_developer",
+            "tot_provs_report_2014_edition"
+        ],
+        "train_v2_save_file": "./toystory2_ehr-vendor-count_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./toystory2_ehr-vendor-count_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./toystory2_ehr-vendor-count_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./toystory2_ehr-vendor-count_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./toystory2_ehr-vendor-count_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.9,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 95,
+        "model_type": "LinearSVC",
+        "output_file": "./toystory2_ehr-vendor-count_class/prediction.csv",
+        "ground_truth_file": "./toystory2_ehr-vendor-count_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./toystory2_ehr-vendor-count_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "developer": "categorical",
+            "provider_type": "categorical",
+            "program_year": "numerical",
+            "tot_provs_report_developer": "numerical",
+            "tot_provs_report_2015_edition": "numerical",
+            "tot_provs_report_2014_edition": "numerical",
+            "tot_provs_report_2011_edition": "numerical",
+            "product_type": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "tot_provs_report_2015_edition",
+            "tot_provs_report_developer",
+            "tot_provs_report_2014_edition"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7399282,
+        "ref": "toystory2/ehr-vendor-count",
+        "subtitle": "EHR Developers Reported- Health Care Providers Participating in Federal Program",
+        "creatorName": "Ishita",
+        "creatorUrl": "toystory2",
+        "totalBytes": 51700,
+        "url": "https://www.kaggle.com/datasets/toystory2/ehr-vendor-count",
+        "lastUpdated": "2025-05-12T15:00:57.000Z",
+        "downloadCount": 62,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Ishita",
+        "ownerRef": "toystory2",
+        "kernelCount": 1,
+        "title": "EHR Vendor count",
+        "viewCount": 390,
+        "voteCount": 8,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "healthcare",
+                "name": "healthcare",
+                "description": "AI in healthcare is a growing interest. One of the major problems is simply converting research into an application. Should be easy, right?",
+                "fullPath": "subject > health and fitness > health > healthcare",
+                "competitionCount": 26,
+                "datasetCount": 2131,
+                "scriptCount": 1942,
+                "totalCount": 4099
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7399282,
+        "datasetSlug": "ehr-vendor-count",
+        "ownerUser": "toystory2",
+        "usabilityRating": 1.0,
+        "totalViews": 316,
+        "totalVotes": 8,
+        "totalDownloads": 53,
+        "title": "EHR Vendor count",
+        "subtitle": "EHR Developers Reported- Health Care Providers Participating in Federal Program",
+        "description": "Overview\nThe Medicare & Medicaid Electronic Health Record (EHR) Incentive Programs Counts dataset tracks the number of eligible health care providers who have attested to using a certified EHR product under the Medicare EHR Incentive Program. It covers two major provider settings\u2014office-based (ambulatory) practitioners and non-federal acute-care hospitals\u2014and reports counts by developer/vendor product.\n\nCoverage & Granularity\n\nTime span: Program Years 2011 through 2016 (most recent available).\n\nProvider types:\n\nOffice-based health care providers (ambulatory)\n\nNon-federal acute-care hospitals (inpatient)\n\nDimensions:\n\nDeveloper/Vendor \u2013 name of the EHR product developer\n\nProgramYear \u2013 reporting year (filterable via API)\n\nProviderType \u2013 ambulatory vs. inpatient\n\nProviderCount \u2013 number of providers attesting\n\n=== About this file ===\n\nAbout this file\ndeveloper\nType: String\nWhat it is: The name of the certified EHR (electronic health record) vendor providers report using when attesting under the Medicare EHR Incentive Program.\nWhy it matters: Allows you to group and compare usage by vendor. For a full list of CEHRT-certified vendors, see the ONC Certified Health IT Products List (CHPL).\nprovider_type\nType: Categorical (professional | hospital)\nWhat it is: Indicates whether the reporting entity is an office-based clinician (\u201cprofessional\u201d) or a non-federal acute-care hospital (\u201chospital\u201d).\nWhy it matters: Enables analysis of adoption patterns separately for individual clinicians versus hospitals.\nprogram_year\nType: Integer (2011 \u2013 2016)\nWhat it is: The Medicare EHR Incentive Program year in which the attestation occurs. Totals for each year are cumulative up through that year.\nWhy it matters: Tracks growth over time in provider participation and technology uptake.\ntot_provs_report_developer\nType: Integer\nWhat it is: The total count of providers (of that provider_type, through the given program_year) who report using any certified product from that developer.\nWhy it matters: Measures the overall market share of each vendor.\ntot_provs_report_2015_edition\nType: Integer\nWhat it is: How many of those providers reporting a product by that developer are on the 2015 Edition certification?\nWhy it matters: Shows uptake of the most recent certification standard (2015 Edition).\ntot_provs_report_2014_edition\nType: Integer\nWhat it is: How many of those providers reporting a product by that developer are on the 2014 Edition certification?\nWhy it matters: Tracks continued use of the prior certification standard.\ntot_provs_report_2011_edition\nType: Integer\nWhat it is: How many of those providers reporting a product by that developer are on the original 2011 Edition certification?\nWhy it matters: Indicates how many providers have not yet upgraded beyond the initial standard.\nproduct_type\nType: Categorical (commercial | self-developed)\nWhat it is: Classifies each EHR product as either commercially marketed (sold broadly) or self-developed (created in-house for exclusive use by that organization).\nWhy it matters: Differentiates widespread commercial solutions from bespoke, internally built systems.\n\n\n=== Columns & descriptions ===\n\ndeveloper: name of the certified EHR (electronic health record) vendor provider\nprovider_type: Categorical (professional | hospital)\nprogram_year: Integer (2011 \u2013 2016)\ntot_provs_report_developer: total count of providers\ntot_provs_report_2015_edition: providers reporting a product by that developer are on the 2015 Edition\ntot_provs_report_2014_edition: providers reporting a product by that developer are on the 2014 Edition\ntot_provs_report_2011_edition: providers reporting a product by that developer are on the original 2011 Edition\nproduct_type: Categorical (commercial | self-developed)\n",
+        "keywords": [
+            "healthcare",
+            "beginner",
+            "exploratory data analysis",
+            "data visualization",
+            "classification"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

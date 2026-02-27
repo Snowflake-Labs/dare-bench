@@ -1,0 +1,19 @@
+*BBC News articles, with text and labels (sport, business ...). This dataset can be used for several tasks, including classification, text summarization ...
+
+*I also include a new version of the dataset, with extra labels. They include text complexity scores and text summary.
+
+=== About this file ===
+
+About this file
+Updated version of the dataset. It includes new columns.
+
+
+=== Columns & descriptions ===
+
+text: text
+labels: article type
+no_sentences: number of sentences in the text
+Flesch Reading Ease Score: Flesch Reading Ease Score of th text
+Dale-Chall Readability Score: Dale-Chall Readability Score of the text
+text_rank_summary: First type of text summarization
+lsa_summary: second type of text summarization

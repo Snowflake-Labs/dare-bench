@@ -1,0 +1,46 @@
+## Algerian Forst Fires Dataset
+
+Data Set information
+
+The dataset inclueds 244 instances that regroup a data of two regions of Algeria, namely Bejaia region location in the northeast of Algeria and the Sidi Bel-abbes region located in the northwest of Algeria.
+
+122 instances for each region
+
+The period from June 2012 to September 2012. The dataset includes 11 attributes and 1 output attribute (class). The 244 instances have been classified into fire(138 cases) and not fire (106) classes.
+
+Attribute Information:
+- Date: (DD/MM/YYYY) Day, month, year weather data infomation
+- Temp; temperature noon in Celcius degree
+- RH: Relative Humidity in %
+- Ws: Wind Speed
+- Rain: total day in mm
+- Fine Fuel Moisture Code(FFMC): index from the FWI system
+- Duff Moisture Code (DMC) index from FWI system
+- Drought Code (DC) index from FWI system
+- Initial Spread Index (ISI) from the FWI system
+- Buildup Index (BUI) from the FWI system
+- Fire Weather Index (FWI) 
+- Classes Fire, Not Fire
+
+=== About this file ===
+
+About this file
+This file includes 244 instances that regroup a data of two regions of Algeria, namely the Bejaia region located in the northeast of Algeria and the Sidi Bel-abbes region located in the northwest of Algeria.
+
+
+=== Columns & descriptions ===
+
+day: day
+month: from July to August
+year: year 2012
+Temperature: Temperature at noon in C
+RH: Relative humidity in %
+Ws: Wind speed in Km/h
+Rain: Amount of rainfall in mm
+FFMC: Fine Fuel Moisture Code - It tells us how dry the surface layer of forest or grassland fuels are, and therefore how easily they might ignite and spread fire
+DMC: Duff Moisture Code - It is a numeric rating of the average moisture content of loosely compacted organic layers of moderate depth.
+DC: Drought Code - It is a numeric rating of the average moisture content of deep, compact organic layers
+ISI: Initial Spread Index - It  is a numeric rating of the expected rate of fire spread. It is based on wind speed and FFMC
+BUI: Buildup Index - It is a numeric rating of the total amount of fuel available for combustion. It is based on the DMC and the DC
+FWI: Fire Weather Index - It is a numeric rating of fire intensity. It is based on the ISI and the BUI, and is used as a general index of fire danger throughout the forested areas of Canada.
+Classes: Classes of Fire and Not Fire

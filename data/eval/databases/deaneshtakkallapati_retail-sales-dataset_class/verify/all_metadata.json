@@ -1,0 +1,169 @@
+{
+    "question": {
+        "target": [
+            "Country"
+        ],
+        "target_candidates": [
+            "Country"
+        ],
+        "related_features": [
+            "InvoiceDate",
+            "UnitPrice",
+            "Quantity"
+        ],
+        "not_filtered_related_features": [
+            "UnitPrice",
+            "Quantity"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "UnitPrice": [
+                -11063.0,
+                38970.0
+            ],
+            "Quantity": [
+                -80995,
+                80995
+            ]
+        },
+        "selected_features": [
+            "Quantity",
+            "UnitPrice"
+        ],
+        "train_v2_save_file": "./deaneshtakkallapati_retail-sales-dataset_class/source/train_v2.parquet",
+        "val_v2_save_file": "./deaneshtakkallapati_retail-sales-dataset_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./deaneshtakkallapati_retail-sales-dataset_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./deaneshtakkallapati_retail-sales-dataset_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./deaneshtakkallapati_retail-sales-dataset_class/source/train_v1.parquet",
+        "train_test_ratio": 0.7,
+        "save_file_type": "parquet",
+        "imputer_type": "mean",
+        "random_state": 73,
+        "model_type": "DecisionTreeClassifier",
+        "output_file": "./deaneshtakkallapati_retail-sales-dataset_class/prediction.csv",
+        "ground_truth_file": "./deaneshtakkallapati_retail-sales-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./deaneshtakkallapati_retail-sales-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "InvoiceNo": "categorical",
+            "StockCode": "categorical",
+            "Description": "categorical",
+            "Quantity": "numerical",
+            "InvoiceDate": "numerical",
+            "UnitPrice": "numerical",
+            "CustomerID": "categorical",
+            "Country": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Quantity",
+            "UnitPrice"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 8028150,
+        "ref": "deaneshtakkallapati/retail-sales-dataset",
+        "subtitle": "Data Cleanup and Analysis on Retail dataset",
+        "creatorName": "deanesh takkallapati",
+        "creatorUrl": "deaneshtakkallapati",
+        "totalBytes": 7717557,
+        "url": "https://www.kaggle.com/datasets/deaneshtakkallapati/retail-sales-dataset",
+        "lastUpdated": "2025-08-07T16:23:24.000Z",
+        "downloadCount": 17,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "deanesh takkallapati",
+        "ownerRef": "deaneshtakkallapati",
+        "kernelCount": 1,
+        "title": "Retail_Sales_Dataset",
+        "viewCount": 141,
+        "voteCount": 3,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "europe",
+                "name": "europe",
+                "description": "You can find some European linguistic type datasets here as well as other European-like datasets and kernels.",
+                "fullPath": "geography and places > europe",
+                "competitionCount": 3,
+                "datasetCount": 1529,
+                "scriptCount": 298,
+                "totalCount": 1830
+            },
+            {
+                "ref": "categorical",
+                "name": "categorical",
+                "description": "Categorical data are observations that fall into discrete categories, like dog breed, dog color or whether or not a dog likes chew toys.",
+                "fullPath": "data type > categorical",
+                "competitionCount": 40,
+                "datasetCount": 2985,
+                "scriptCount": 2411,
+                "totalCount": 5436
+            },
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114015,
+                "scriptCount": 25612,
+                "totalCount": 139665
+            },
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 8028150,
+        "datasetSlug": "retail-sales-dataset",
+        "ownerUser": "deaneshtakkallapati",
+        "usabilityRating": 1.0,
+        "totalViews": 141,
+        "totalVotes": 3,
+        "totalDownloads": 18,
+        "title": "Retail_Sales_Dataset",
+        "subtitle": "Data Cleanup and Analysis on Retail dataset",
+        "description": "**Transactional data used for retail or e-commerce analytics.**\n\nCommon analysis tasks include:\n       Customer segmentation\n       Sales trends by time or region\n       Product popularity   \n       Revenue forecasting\n\n=== About this file ===\n\nAbout this file\nThis is transactional data \u2014 often used in retail or e-commerce analytics.\nCommon analysis tasks include:\nCustomer segmentation\nSales trends by time or region\nProduct popularity\nRevenue forecasting\n\n\n=== Columns & descriptions ===\n\nInvoiceNo: Identifies a specific order or bill.\nStockCode: A unique code for the product/item\nDescription: Text description of the product.\nQuantity: Number of units purchased in that line of the invoice\nInvoiceDate: The timestamp when the invoice was generated.\nUnitPrice: Price per unit of the item, in the currency of the seller\nCustomerID: Unique ID for the customer.\nCountry: Country\n",
+        "keywords": [
+            "europe",
+            "categorical",
+            "business",
+            "intermediate",
+            "classification"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+**🇬🇧 English:**
+
+This dataset simulates student performance data for academic analysis. It includes information on study hours, absences, school support availability, and final grades.
+You can use it to predict academic success and understand how different factors contribute to student achievement.
+
+**Use this dataset to:**
+
+- Predict student final grades using ML models like Decision Tree or XGBoost
+- Analyze the impact of study time, attendance, and support systems
+- Practice educational analytics with a synthetic dataset
+
+**Features:**
+
+- student_id: Unique ID for each student (S0001–S1000)
+- study_hours: Total study time per week
+- absences: Number of absences
+- school_support: Whether the student received school-provided academic support
+- final_grade: Final exam score (0–100)
+
+---
+
+**🇹🇷 Türkçe:**
+
+Bu veri seti, öğrencilerin akademik performansını tahmin etmek amacıyla oluşturulmuş sentetik bir veridir. Çalışma süresi, devamsızlık ve okul desteği gibi faktörlerin öğrenci notlarına etkisi analiz edilebilir.
+
+**Bu veri seti sayesinde:**
+
+- Decision Tree ve XGBoost gibi ML modelleriyle öğrenci başarı tahmini yapılabilir
+- Çalışma süresi, devamsızlık ve destek sistemlerinin etkisi incelenebilir
+- Eğitim alanında analitik çalışmalar pratiği yapılabilir
+
+**Değişkenler:**
+
+- student_id: Öğrenci kimliği (S0001–S1000)
+- study_hours: Haftalık çalışma süresi
+- absences: Devamsızlık sayısı
+- school_support: Okul desteği alıp almadığı
+- final_grade: Final sınavı puanı (0–100)
+
+=== About this file ===
+
+About this file
+This CSV file contains simulated data representing student academic performance metrics. Each row corresponds to a unique student and includes weekly study hours, number of absences, whether the student received school support, and the final exam score.
+
+
+=== Columns & descriptions ===
+
+student_id: Unique identifier for each student (e.g., S0001–S1000)
+study_hours: Number of hours studied per week
+absences: Number of school days the student missed
+school_support: Indicates if the student received school-provided support (Yes/No)
+final_grade: Final exam score ranging from 0 to 100

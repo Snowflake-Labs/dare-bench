@@ -1,0 +1,36 @@
+### Description
+
+This dataset simulates daily behavioral patterns to predict self-reported mood. It includes 200 samples with the following features:
+
+- sleep_hours: Average hours of sleep per night (4–10 hours)
+- screen_time: Total screen time in hours (0–10 hours)
+- exercise_minutes: Minutes of exercise per day (0–60 minutes)
+- caffeine_mg: Caffeine intake in milligrams (0–300 mg)
+- mood: Self-reported mood label — Happy, Neutral, or Stressed
+
+The data is artificially generated based on wellness heuristics, making it ideal for machine learning experiments in:
+
+- Multi-class classification
+- Feature interaction analysis
+- Model interpretation and deployment (e.g. Streamlit/Gradio apps)
+
+### Recommended Use Cases:
+
+Perfect for beginners learning with Scikit-learn, or testing out workflow deployments without requiring sensitive or personal data. 
+
+
+=== About this file ===
+
+About this file
+Remote source:
+https://www.kaggle.com/code/ianktoo/moodify
+This dataset simulates daily behavioral patterns to predict self-reported mood.
+
+
+=== Columns & descriptions ===
+
+sleep_hours: Number of hours slept
+screen_time: Screen time in hours
+exercise_minutes: Number of minutes spent exercising
+caffeine_mg: Amount of caffein taken
+mood: Mood

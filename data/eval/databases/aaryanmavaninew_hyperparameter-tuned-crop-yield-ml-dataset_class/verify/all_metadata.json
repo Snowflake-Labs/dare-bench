@@ -1,0 +1,221 @@
+{
+    "question": {
+        "target": [
+            "State"
+        ],
+        "target_candidates": [
+            "Crop",
+            "Season",
+            "State"
+        ],
+        "related_features": [
+            "Production",
+            "Annual_Rainfall",
+            "Crop",
+            "Area",
+            "Pesticide",
+            "Fertilizer",
+            "Yield",
+            "Season",
+            "State",
+            "Crop_Year"
+        ],
+        "not_filtered_related_features": [
+            "Production",
+            "Annual_Rainfall",
+            "Area",
+            "Pesticide",
+            "Fertilizer",
+            "Yield",
+            "Season",
+            "Crop_Year"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Production": [
+                0,
+                6326000000
+            ],
+            "Annual_Rainfall": [
+                301.0,
+                6553.0
+            ],
+            "Area": [
+                0.0,
+                50808100.0
+            ],
+            "Pesticide": [
+                0.0,
+                15750511.0
+            ],
+            "Fertilizer": [
+                54.0,
+                4835406877.0
+            ],
+            "Yield": [
+                0.0,
+                21105.0
+            ],
+            "Season": [
+                "Whole Year",
+                "Kharif",
+                "Rabi",
+                "Autumn",
+                "Summer",
+                "Winter"
+            ],
+            "Crop_Year": [
+                1997,
+                2020
+            ]
+        },
+        "selected_features": [
+            "Season",
+            "Production",
+            "Fertilizer",
+            "Yield",
+            "Area"
+        ],
+        "train_v2_save_file": "./aaryanmavaninew_hyperparameter-tuned-crop-yield-ml-dataset_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./aaryanmavaninew_hyperparameter-tuned-crop-yield-ml-dataset_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./aaryanmavaninew_hyperparameter-tuned-crop-yield-ml-dataset_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./aaryanmavaninew_hyperparameter-tuned-crop-yield-ml-dataset_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./aaryanmavaninew_hyperparameter-tuned-crop-yield-ml-dataset_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.9,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 21,
+        "model_type": "MLPClassifier",
+        "output_file": "./aaryanmavaninew_hyperparameter-tuned-crop-yield-ml-dataset_class/prediction.csv",
+        "ground_truth_file": "./aaryanmavaninew_hyperparameter-tuned-crop-yield-ml-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./aaryanmavaninew_hyperparameter-tuned-crop-yield-ml-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Crop": "categorical",
+            "Crop_Year": "numerical",
+            "Season": "categorical",
+            "State": "categorical",
+            "Area": "numerical",
+            "Production": "numerical",
+            "Annual_Rainfall": "numerical",
+            "Fertilizer": "numerical",
+            "Pesticide": "numerical",
+            "Yield": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Production",
+            "Fertilizer",
+            "Yield",
+            "Area"
+        ],
+        "categorical_features": [
+            "Season"
+        ]
+    },
+    "data_info": {
+        "id": 7874794,
+        "ref": "aaryanmavaninew/hyperparameter-tuned-crop-yield-ml-dataset",
+        "subtitle": "Optimized dataset for crop yield forecasting using tuned ML algorithms",
+        "creatorName": "Aaryan Mavani_new",
+        "creatorUrl": "aaryanmavaninew",
+        "totalBytes": 487518,
+        "url": "https://www.kaggle.com/datasets/aaryanmavaninew/hyperparameter-tuned-crop-yield-ml-dataset",
+        "lastUpdated": "2025-07-15T19:18:30.000Z",
+        "downloadCount": 79,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Aaryan Mavani_new",
+        "ownerRef": "aaryanmavaninew",
+        "kernelCount": 1,
+        "title": "Hyperparameter-Tuned Crop Yield ML Dataset",
+        "viewCount": 413,
+        "voteCount": 1,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "agriculture",
+                "name": "agriculture",
+                "description": "You could be well on your way to creating the next big precision agriculture company with the resources in this tag. At the very least, you can use Weekly Corn Prices to make more informed decisions about your purchases at the store.",
+                "fullPath": "subject > earth and nature > environment > agriculture",
+                "competitionCount": 5,
+                "datasetCount": 1460,
+                "scriptCount": 549,
+                "totalCount": 2014
+            },
+            {
+                "ref": "data cleaning",
+                "name": "data cleaning",
+                "description": "",
+                "fullPath": "analysis > data cleaning",
+                "competitionCount": 32,
+                "datasetCount": 4384,
+                "scriptCount": 14497,
+                "totalCount": 18913
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "random forest",
+                "name": "random forest",
+                "description": "",
+                "fullPath": "technique > random forest",
+                "competitionCount": 5,
+                "datasetCount": 390,
+                "scriptCount": 7570,
+                "totalCount": 7965
+            },
+            {
+                "ref": "decision tree",
+                "name": "decision tree",
+                "description": "",
+                "fullPath": "technique > decision tree",
+                "competitionCount": 4,
+                "datasetCount": 366,
+                "scriptCount": 3966,
+                "totalCount": 4336
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7874794,
+        "datasetSlug": "hyperparameter-tuned-crop-yield-ml-dataset",
+        "ownerUser": "aaryanmavaninew",
+        "usabilityRating": 1.0,
+        "totalViews": 158,
+        "totalVotes": 1,
+        "totalDownloads": 27,
+        "title": "Hyperparameter-Tuned Crop Yield ML Dataset",
+        "subtitle": "Optimized dataset for crop yield forecasting using tuned ML algorithms",
+        "description": "**Dataset Description**\nThis dataset presents historical crop yield data curated for the purpose of applying machine learning models\u2014especially those involving hyperparameter tuning\u2014to improve crop yield forecasting accuracy.\n\n**Context & Objective**\nAgriculture is the backbone of many economies, and crop yield prediction plays a vital role in ensuring food security, optimizing resource use, and planning logistics. However, traditional statistical methods often fail to capture nonlinear relationships between multiple agricultural factors. This dataset enables the application of modern ML techniques to achieve more reliable yield forecasts.\n\nThe main objective behind compiling this dataset is to support academic, research, and industry projects focusing on:\n\n- Crop yield regression modeling\n- Model comparison and evaluation\n- Hyperparameter tuning (Grid Search, Random Search, Bayesian Optimization)\n- Agricultural decision support systems\n- Sustainable farming solutions using AI\n\n**Source Information**\nThis dataset is based on open government agricultural records from India, particularly data released by:\nThe Ministry of Agriculture & Farmers Welfare, Government of India State-level agricultural departments and public datasets\n\nIt has been cleaned, preprocessed, and standardized to be ML-ready, with categorical encoding and structured formats suitable for both beginner and advanced ML workflows.\n\n**Dataset Structure**\nKey features in the dataset include:\n\n- State_Name: Name of the Indian state\n- District_Name: Name of the district\n- Crop_Year: Year of cultivation\n- Season: Season of planting (e.g., Kharif, Rabi)\n- Crop: Name of the crop (e.g., Rice, Wheat, Cotton)\n- Area: Cultivation area in hectares\n- Production: Actual production in tonnes\n\nYou can apply normalization, feature engineering, and one-hot encoding for categorical variables during preprocessing.\n\n**Inspiration**\nThis dataset was inspired by the need to build AI-driven systems for smarter agriculture, especially those that can generalize across time periods, regions, and crop types. It is also intended to aid students and practitioners in learning about:\n\n- ML model pipelines\n- The impact of feature importance in agriculture\n- Model optimization through hyperparameter tuning\n- Addressing real-world challenges in agricultural data (e.g., missing values, seasonality)\n\n\n\n=== About this file ===\n\nAbout this file\nHistorical crop yield data across Indian states, districts, seasons, and years.\nIncludes features like crop type, season, area cultivated, and production quantity.\nSuitable for machine learning models with a focus on hyperparameter tuning.\n\n\n=== Columns & descriptions ===\n\nCrop: Name of crop cultivated\nCrop_Year: Year in which the crop was sown or harvested\nSeason: Season during which the crop was grown\nState: Name of indian state\nArea: Cultivation area in hectares\nProduction: Total production in tonnes\nAnnual_Rainfall: Amount of rainfall received in that year\nFertilizer: Amount of fertilizer applied to the land during the cultivation period\nPesticide: Used to protect crops from pests and diseases\nYield: The productivity of the crop, calculated as production per unit area.\n",
+        "keywords": [
+            "agriculture",
+            "data cleaning",
+            "classification",
+            "random forest",
+            "decision tree"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

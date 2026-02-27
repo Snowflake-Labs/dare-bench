@@ -1,0 +1,78 @@
+- USA house price index and multiple associated macro-economic data from FRED.
+
+- Contains monthly data from 1990-01-01 to 2025-01-01.
+
+- The added column names are the series names on FRED : https://fred.stlouisfed.org/
+
+- To create custom aggregates on any available FRED data you can follow : https://github.com/OfficialBhattacharya/Geographical-Home-Price-Ranker
+
+1. Average Sales Price for New Houses Sold in the United States: https://fred.stlouisfed.org/series/ASPNHSUS
+
+2. Average Sales Price of Houses Sold for the United States: https://fred.stlouisfed.org/series/ASPUS
+
+3. New One Family Houses Sold: https://fred.stlouisfed.org/series/HSN1F
+
+4. Monthly Supply of New Houses in the United States: https://fred.stlouisfed.org/series/MSACSR
+
+5. Median Sales Price of Houses Sold for the United States: https://fred.stlouisfed.org/series/MSPUS
+
+6. Homeownership Rate in the United States: https://fred.stlouisfed.org/series/RHORUSQ156N
+
+7. Total Shipments of New Manufactured Homes: https://fred.stlouisfed.org/series/SHTSAUS
+
+8. Unemployment Rate:  https://fred.stlouisfed.org/series/UNRATE
+
+9. Economic Policy Uncertainty Index for United States: https://fred.stlouisfed.org/series/USEPUINDXD
+
+10. S&P CoreLogic Case-Shiller U.S. National Home Price Index: https://fred.stlouisfed.org/series/CSUSHPINSA
+
+11. Vacant Housing Units Held Off the Market in the United States : https://fred.stlouisfed.org/series/EOCCUSEUSQ176N
+
+12. Occupied Housing Units in the United States: https://fred.stlouisfed.org/series/EOCCUSQ176N
+
+13. Vacant Housing Units Held Off the Market in the United States: https://fred.stlouisfed.org/series/EOFFMARUSQ176N
+
+14. Vacant for Other Reasons in the United States: https://fred.stlouisfed.org/series/EOTHUSQ176N
+
+15. Renter Occupied Housing Units in the United States: https://fred.stlouisfed.org/series/ERNTOCCUSQ176N
+
+16. Vacant Housing Units Not Yet Occupied in the United States: https://fred.stlouisfed.org/series/ERNTSLDUSQ176N
+
+17. Vacant Housing Units for Sale in the United States: https://fred.stlouisfed.org/series/ESALEUSQ176N
+
+18. Total Housing Units in the United States: https://fred.stlouisfed.org/series/ETOTALUSQ176N
+
+19. Median Days on Market in the United States: https://fred.stlouisfed.org/series/MEDDAYONMARUS
+
+20. Median Listing Price per Square Feet in the United States: https://fred.stlouisfed.org/series/MEDLISPRIPERSQUFEEUS
+
+=== About this file ===
+
+About this file
+Up to the month of 2025-01-01 from 1990-01-01
+
+
+=== Columns & descriptions ===
+
+Date: Date
+Region: Region
+AverageSalesPrice_NewHousesSold: Avg Sales Price for New Homes
+AverageSalesPrice: Avg Sales Price
+HomePriceIndex: Home Price Index
+NewOneFamilyHousesSold: New 1 Family Homes
+MonthlySupplyofNewHouses: Monthly Supply of Homes
+MedianSalesPriceofHousesSold: Median Sale Price
+HomeownershipRate: Homeownership Rate
+TotalShipmentsofNewHomes: Total Shipment of Homes
+UnemploymentRate: Unemployment Rate
+EconomicPolicyUncertaintyIndex: Economic Policy Indicator USA
+VacantHousingUnits_1: Vacant Housing Units 1
+OccupiedHousingUnits: Occupied Housing Units 2
+VacantHousingUnits_2: Vacant Housing Units 2
+VacantforOtherReasons: Vacant Housing Units 3
+RenterOccupiedHousingUnits: Renter Occupied
+VacantHousingUnits_NotYetOccupied: Vacant Housing Units 4
+VacantHousingUnits_forSale: Vacant Housing Units 5
+TotalHousingUnits: Total Housing Units
+MedianDaysonMarket: Median Days on Market
+MedianListingPriceperSquareFeet: Median Listing Price Per Square Feet

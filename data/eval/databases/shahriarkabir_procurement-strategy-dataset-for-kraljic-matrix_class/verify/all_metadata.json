@@ -1,0 +1,195 @@
+{
+    "question": {
+        "target": [
+            "Kraljic_Category"
+        ],
+        "target_candidates": [
+            "Kraljic_Category"
+        ],
+        "related_features": [
+            "Lead_Time_Days",
+            "Profit_Impact_Score",
+            "Cost_per_Unit",
+            "Environmental_Impact",
+            "Supply_Risk_Score",
+            "Supplier_Region",
+            "Order_Volume_Units",
+            "Single_Source_Risk"
+        ],
+        "not_filtered_related_features": [
+            "Lead_Time_Days",
+            "Profit_Impact_Score",
+            "Supply_Risk_Score",
+            "Cost_per_Unit",
+            "Environmental_Impact",
+            "Order_Volume_Units",
+            "Supplier_Region",
+            "Single_Source_Risk"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Lead_Time_Days": [
+                7,
+                89
+            ],
+            "Profit_Impact_Score": [
+                1,
+                5
+            ],
+            "Supply_Risk_Score": [
+                1,
+                5
+            ],
+            "Cost_per_Unit": [
+                10.0,
+                500.0
+            ],
+            "Environmental_Impact": [
+                1,
+                5
+            ],
+            "Order_Volume_Units": [
+                50,
+                19940
+            ],
+            "Supplier_Region": [
+                "South America",
+                "Asia",
+                "Africa",
+                "Europe",
+                "North America",
+                "Global"
+            ],
+            "Single_Source_Risk": [
+                "Yes",
+                "No"
+            ]
+        },
+        "selected_features": [
+            "Cost_per_Unit",
+            "Profit_Impact_Score",
+            "Supply_Risk_Score",
+            "Environmental_Impact",
+            "Lead_Time_Days"
+        ],
+        "train_v2_save_file": "./shahriarkabir_procurement-strategy-dataset-for-kraljic-matrix_class/source/train_v2.parquet",
+        "val_v2_save_file": "./shahriarkabir_procurement-strategy-dataset-for-kraljic-matrix_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./shahriarkabir_procurement-strategy-dataset-for-kraljic-matrix_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./shahriarkabir_procurement-strategy-dataset-for-kraljic-matrix_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./shahriarkabir_procurement-strategy-dataset-for-kraljic-matrix_class/source/train_v1.parquet",
+        "train_test_ratio": 0.7,
+        "save_file_type": "parquet",
+        "imputer_type": "median",
+        "random_state": 39,
+        "model_type": "LinearSVC",
+        "output_file": "./shahriarkabir_procurement-strategy-dataset-for-kraljic-matrix_class/prediction.csv",
+        "ground_truth_file": "./shahriarkabir_procurement-strategy-dataset-for-kraljic-matrix_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./shahriarkabir_procurement-strategy-dataset-for-kraljic-matrix_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Product_ID": "categorical",
+            "Product_Name": "categorical",
+            "Supplier_Region": "categorical",
+            "Lead_Time_Days": "numerical",
+            "Order_Volume_Units": "numerical",
+            "Cost_per_Unit": "numerical",
+            "Supply_Risk_Score": "numerical",
+            "Profit_Impact_Score": "numerical",
+            "Environmental_Impact": "numerical",
+            "Single_Source_Risk": "categorical",
+            "Kraljic_Category": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Cost_per_Unit",
+            "Profit_Impact_Score",
+            "Supply_Risk_Score",
+            "Environmental_Impact",
+            "Lead_Time_Days"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7226254,
+        "ref": "shahriarkabir/procurement-strategy-dataset-for-kraljic-matrix",
+        "subtitle": "Real-World Synthetic Dataset for Supply Chain Risk Management",
+        "creatorName": "Shahriar Kabir",
+        "creatorUrl": "shahriarkabir",
+        "totalBytes": 13798,
+        "url": "https://www.kaggle.com/datasets/shahriarkabir/procurement-strategy-dataset-for-kraljic-matrix",
+        "lastUpdated": "2025-04-23T03:15:41.273Z",
+        "downloadCount": 778,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Shahriar Kabir",
+        "ownerRef": "shahriarkabir",
+        "kernelCount": 7,
+        "title": "Procurement Strategy Dataset for Kraljic Matrix",
+        "viewCount": 4384,
+        "voteCount": 27,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114015,
+                "scriptCount": 25612,
+                "totalCount": 139665
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "benchmark",
+                "name": "benchmark",
+                "description": "",
+                "fullPath": "technique > benchmark",
+                "competitionCount": 6,
+                "datasetCount": 164,
+                "scriptCount": 62,
+                "totalCount": 232
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7226254,
+        "datasetSlug": "procurement-strategy-dataset-for-kraljic-matrix",
+        "ownerUser": "shahriarkabir",
+        "usabilityRating": 1.0,
+        "totalViews": 3948,
+        "totalVotes": 26,
+        "totalDownloads": 711,
+        "title": "Procurement Strategy Dataset for Kraljic Matrix",
+        "subtitle": "Real-World Synthetic Dataset for Supply Chain Risk Management",
+        "description": "This dataset simulates **procurement and supply chain** data for strategic decision-making using the **Kraljic Matrix**, a framework to classify products/services based on supply risk and profit impact. It includes realistic biases and patterns to mimic real-world procurement scenarios, such as supplier dependencies, geopolitical risks, and sustainability challenges.\n\n\nDataset Details\n\n- Instances: 1,000 synthetic procurement items.\n- Features: 11 columns (mix of categorical, numerical, and ordinal data).\n- File: realistic_kraljic_dataset.csv\n\n## Key Features\nReal-World Biases:\n\n- Strategic Items (e.g., lithium batteries) have high costs, long lead times, and high single-source risk.\n- Bottleneck Items (e.g., rare earth metals) are concentrated in limited regions with high supply risk.\n- Leverage Items (e.g., steel beams) have high order volumes and low supply risk.\n- Non-Critical Items (e.g., office supplies) have low costs and high order volumes.\n\n### Risk Scores:\n\n- Scores (1\u20135) for supply risk, profit impact, and environmental impact are calibrated to reflect real procurement challenges.\n\n### Geopolitical Clustering:\n\n- Strategic items are often sourced from geopolitically volatile regions (e.g., Asia, Africa).\n\n## Potential Use Cases\n\n- Segmentation Analysis: Classify products into Kraljic quadrants.\n- Risk Assessment: Identify high-risk items (e.g., single-source dependencies).\n- Sustainability Analysis: Correlate environmental impact with supply risk.\n- Predictive Modeling: Train models to auto-classify procurement items.\n\n=== About this file ===\n\nAbout this file\nA synthetic procurement dataset (1000 entries) for Kraljic Matrix analysis, featuring supply risk, profit impact, cost, environmental scores, and supplier dependencies. Includes quadrant classifications (Strategic, Bottleneck, Leverage, Non-Critical) in CSV format.\n\n\n=== Columns & descriptions ===\n\nProduct_ID: Unique identifier for the product.\nProduct_Name: Name of the product (e.g., lithium batteries, office supplies).\nSupplier_Region: Geographic region of the supplier.\nLead_Time_Days: Time taken to deliver the product (in days).\nOrder_Volume_Units: Annual units purchased.\nCost_per_Unit: Price per unit in USD.\nSupply_Risk_Score: Risk of supply disruption (1=Low, 5=High).\nProfit_Impact_Score: Impact on profitability (1=Low, 5=High).\nEnvironmental_Impact: Sustainability risk (1=Low, 5=High).\nSingle_Source_Risk: Dependency on a single supplier (Yes/No).\nKraljic_Category: Quadrant classification: Strategic, Bottleneck, Leverage, Non-Critical.\n",
+        "keywords": [
+            "business",
+            "classification",
+            "benchmark"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

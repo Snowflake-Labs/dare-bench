@@ -1,0 +1,39 @@
+## Context
+Operating systems are a very important element needed to effectively use devices such as laptops, telephones and tablets. The market is developing all the time, so user preferences also affect the selection of more and more new systems. The database below contains data from the last 15 years showing how the operating system market looked like in terms of shares held by various companies.
+
+## Content
+The .csv base contains several columns. The first column contains the date (yyyy-mm) from the measurement period. Each column except the date contains the percentage of share in the operating systems market given in percentage rounded to 2 decimal places (if the share is less than 0.5%, the value 0 remains, although it can be a very small part of the share). In total, we have 180 rows, i.e. full data from 15 years for each month.
+​
+## Source
+The database comes from the [Statcounter](https://gs.statcounter.com/os-market-share) and is made available in the operation with CC BY-SA 3.0 license which allows to copy, use and disseminate data also for commercial purposes after providing the source.
+
+=== About this file ===
+
+About this file
+All data
+
+
+=== Columns & descriptions ===
+
+Date: YYYY-MM
+Windows: Share in %
+Android: Share in %
+iOS: Share in %
+OS X: Share in %
+Unknown: Share in %
+Linux: Share in %
+Series 40: Share in %
+SymbianOS: Share in %
+Samsung: Share in %
+BlackBerry OS: [no description]
+Chrome OS: [no description]
+Nokia Unknown: [no description]
+Playstation: [no description]
+Sony Ericsson: [no description]
+KaiOS: [no description]
+Xbox: [no description]
+bada: [no description]
+Tizen: [no description]
+LG: [no description]
+Nintendo: [no description]
+Other: [no description]

@@ -1,0 +1,197 @@
+{
+    "question": {
+        "target": [
+            "Selling_Price"
+        ],
+        "target_candidates": [
+            "Selling_Price"
+        ],
+        "related_features": [
+            "Car_Name",
+            "Year",
+            "Kms_Driven",
+            "Owner",
+            "Seller_Type",
+            "Fuel_Type",
+            "Present_Price",
+            "Transmission"
+        ],
+        "not_filtered_related_features": [
+            "Year",
+            "Kms_Driven",
+            "Owner",
+            "Seller_Type",
+            "Fuel_Type",
+            "Present_Price",
+            "Transmission"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "Year": [
+                2003,
+                2018
+            ],
+            "Kms_Driven": [
+                500,
+                500000
+            ],
+            "Owner": [
+                0,
+                3
+            ],
+            "Seller_Type": [
+                "Dealer",
+                "Individual"
+            ],
+            "Fuel_Type": [
+                "Petrol",
+                "Diesel",
+                "CNG"
+            ],
+            "Present_Price": [
+                0.0,
+                93.0
+            ],
+            "Transmission": [
+                "Manual",
+                "Automatic"
+            ]
+        },
+        "selected_features": [
+            "Fuel_Type",
+            "Present_Price",
+            "Transmission",
+            "Year",
+            "Owner"
+        ],
+        "train_v2_save_file": "./brsahan_extensive-used-car-price-for-predictive-modeling_reg/source/train_v2.csv",
+        "val_v2_save_file": "./brsahan_extensive-used-car-price-for-predictive-modeling_reg/source/val_v2.csv",
+        "val_no_err_save_file": "./brsahan_extensive-used-car-price-for-predictive-modeling_reg/source/val_v1.csv",
+        "train_no_err_save_file": "./brsahan_extensive-used-car-price-for-predictive-modeling_reg/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./brsahan_extensive-used-car-price-for-predictive-modeling_reg/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "mean",
+        "random_state": 13,
+        "model_type": "MLPRegressor",
+        "output_file": "./brsahan_extensive-used-car-price-for-predictive-modeling_reg/prediction.csv",
+        "ground_truth_file": "./brsahan_extensive-used-car-price-for-predictive-modeling_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./brsahan_extensive-used-car-price-for-predictive-modeling_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Car_Name": "categorical",
+            "Year": "numerical",
+            "Selling_Price": "numerical",
+            "Present_Price": "numerical",
+            "Kms_Driven": "numerical",
+            "Fuel_Type": "categorical",
+            "Seller_Type": "categorical",
+            "Transmission": "categorical",
+            "Owner": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Present_Price",
+            "Year",
+            "Owner"
+        ],
+        "categorical_features": [
+            "Fuel_Type",
+            "Transmission"
+        ]
+    },
+    "data_info": {
+        "id": 7040194,
+        "ref": "brsahan/extensive-used-car-price-for-predictive-modeling",
+        "subtitle": "A curated dataset of used cars with various attributes like price, mileage, fuel",
+        "creatorName": "Batuhan \u015eahan",
+        "creatorUrl": "brsahan",
+        "totalBytes": 3852,
+        "url": "https://www.kaggle.com/datasets/brsahan/extensive-used-car-price-for-predictive-modeling",
+        "lastUpdated": "2025-04-03T12:39:18.000Z",
+        "downloadCount": 586,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Batuhan \u015eahan",
+        "ownerRef": "brsahan",
+        "kernelCount": 7,
+        "title": "Extensive Used Car Price for Predictive Modeling",
+        "viewCount": 2703,
+        "voteCount": 33,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "science and technology",
+                "name": "science and technology",
+                "description": "",
+                "fullPath": "subject > science and technology",
+                "competitionCount": 9,
+                "datasetCount": 4390,
+                "scriptCount": 1588,
+                "totalCount": 5987
+            },
+            {
+                "ref": "automobiles and vehicles",
+                "name": "automobiles and vehicles",
+                "description": "The automobile tag is everything about cars. Analyze insurance rates or how far you can go on one gallon of petrol.",
+                "fullPath": "subject > science and technology > transportation > automobiles and vehicles",
+                "competitionCount": 10,
+                "datasetCount": 14763,
+                "scriptCount": 1883,
+                "totalCount": 16656
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            },
+            {
+                "ref": "automl",
+                "name": "automl",
+                "description": "The process of automating the end to end workflow of machine learning in order to make it more accessible for non-experts.",
+                "fullPath": "technique > automl",
+                "competitionCount": 5,
+                "datasetCount": 306,
+                "scriptCount": 2489,
+                "totalCount": 2800
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7040194,
+        "datasetSlug": "extensive-used-car-price-for-predictive-modeling",
+        "ownerUser": "brsahan",
+        "usabilityRating": 1.0,
+        "totalViews": 2601,
+        "totalVotes": 33,
+        "totalDownloads": 562,
+        "title": "Extensive Used Car Price for Predictive Modeling",
+        "subtitle": "A curated dataset of used cars with various attributes like price, mileage, fuel",
+        "description": "Overview:\nThis dataset provides a comprehensive collection of used car details suitable for regression analysis and predictive modeling. It includes various attributes such as car name, year of manufacture, selling price, present price, kilometers driven, fuel type, transmission type, seller type, and number of previous owners.\n\nSource:\nThe dataset is synthetically generated to simulate the used car market in India, with attributes commonly found in car listing websites and dealership databases.\n\nUse Cases:\n\nPredictive Modeling (e.g., Price Prediction)\n\nExploratory Data Analysis (EDA)\n\nMachine Learning Algorithms (e.g., Decision Tree, Random Forest, Linear Regression)\n\nRegression and Classification Tasks\n\nFeature Engineering and Data Preprocessing Exercises\n\nInspiration:\nThis dataset is designed for data scientists and machine learning enthusiasts looking to practice predictive modeling and analysis on a structured, real-world inspired dataset.\n\n=== About this file ===\n\nAbout this file\nA CSV file containing details of used cars including their attributes required for price prediction and regression analysis.\n\n\n=== Columns & descriptions ===\n\nCar_Name: The model name of the car.\nYear: The manufacturing year of the car.\nSelling_Price: The price at which the car is being sold (in Lakh INR).\nPresent_Price: The current showroom price of the car (in Lakh INR).\nKms_Driven: The total kilometers driven by the car.\nFuel_Type: The type of fuel used by the car (e.g., Petrol, Diesel, CNG).\nSeller_Type: The type of seller (Dealer or Individual).\nTransmission: The transmission type of the car (Manual or Automatic).\nOwner: Number of previous owners.\n",
+        "keywords": [
+            "science and technology",
+            "automobiles and vehicles",
+            "regression",
+            "automl"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

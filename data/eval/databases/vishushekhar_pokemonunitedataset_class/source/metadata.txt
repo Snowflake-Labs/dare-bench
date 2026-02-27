@@ -1,0 +1,36 @@
+**Description**
+
+Pokemon Unite is a new MOBA(Multiplayer Online Battle Arena) released for Mobile and Nintendo Switch. The game became instantly popular after its initial release on Nintendo Switch but it has grown even more after being released on Mobile devices and even won game of the year on play store in US region and several other awards in different categories in several other regions in the annual Google Play Awards 2021. 
+
+However I didn't find any dataset on Pokemon Unite on kaggle even after such popularity, so I decided to make one. The data is collected from the official Pokemon Unite website : https://unite.pokemon.com/en-us/ and processed and cleaned by me. It has all the information about every pokemon released in the game till date and I hope to keep on updating it after every new pokemon release in the game.
+
+The data contains all the information one would get if one tries to get information by logging into the game, but with this dataset one can easily compare  pokemons which is bit difficult to do in the game directly.
+
+**Acknowledgement**
+Pokemon Unite official website : https://unite.pokemon.com/en-us/ 
+
+**Inspiration**
+There are a number of pokemons which I personally believe do not justify the stats(Offense, Endurance etc.) comapred to the role assigned, so from this data I hope one can get meaningful and new insights.
+
+ **About the Data**
+The data is a csv file which contains all the information one can get from the game. 
+
+=== About this file ===
+
+About this file
+About the Data
+The data is a csv file which contains all the information about every pokemon released so far in the Pokemon Unite.
+
+
+=== Columns & descriptions ===
+
+Name: Name of the Pokemon.
+Description: Description of the pokemon.
+Role: Role of the pokemon in the game.
+Ranged_or_Melee: Whether the attacks of the pokemon are ranged or close
+UsageDifficulty: How easy is to fully utilize the moves to make most out of the pokemon.
+Offense: Offense stat of the pokemon out of 5.0
+Endurance: Endurance stat of the pokemon out of 5.0
+Mobility: Mobility stat of the pokemon out of 5.0
+Scoring: Scoring stat of the pokemon out of 5.0
+Support: Support stat of the pokemon out of 5.0

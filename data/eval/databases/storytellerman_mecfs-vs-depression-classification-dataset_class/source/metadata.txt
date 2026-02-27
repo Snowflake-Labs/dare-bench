@@ -1,0 +1,100 @@
+# ME/CFS vs Depression Dataset
+
+Welcome to a synthetic dataset designed for classification tasks between **Myalgic Encephalomyelitis / Chronic Fatigue Syndrome (ME/CFS)** and **Depression**.  
+This is the first dataset of its kind created specifically to help beginners and researchers explore complex cases of differential diagnosis in mental and chronic health conditions.
+
+---
+
+## 🎯 Objective
+
+Predict whether a patient has:
+- `ME/CFS`
+- `Depression`
+- Or both (`Both`)
+
+Based on behavioral, clinical, and symptomatic features.
+
+---
+
+## 📋 Features
+
+| Feature Name | Description |
+|--------------|-------------|
+| `age` | Patient's age |
+| `gender` | Gender (Male / Female / Other) |
+| `fatigue_severity_scale_score` | Fatigue Severity Scale (FSS), 0–10 |
+| `depression_phq9_score` | PHQ-9 depression score, 0–27 |
+| `pem_present` | Whether Post-Exertional Malaise (PEM) is present (Yes/No or 1/0) |
+| `pem_duration_hours` | Duration of PEM in hours |
+| `sleep_quality_index` | Sleep quality (1–10 scale) |
+| `brain_fog_level` | Brain fog level (1–10) |
+| `physical_pain_score` | Physical pain intensity (1–10) |
+| `stress_level` | Stress level (1–10) |
+| `work_status` | Work status: Working / Partially working / Not working |
+| `social_activity_level` | Social activity: Very low – Very high |
+| `exercise_frequency` | Exercise frequency: Never – Daily |
+| `meditation_or_mindfulness` | Does the patient practice mindfulness or meditation? Yes/No |
+| `hours_of_sleep_per_night` | Average sleep duration per night |
+| `diagnosis` | Target variable: `ME/CFS`, `Depression`, `Both` |
+
+---
+
+## ⚠️ Key Characteristics
+
+- Contains **missing values (`NaN`)** in most features (1–5%), simulating real-world data collection issues.
+- All numeric features contain **controlled noise** to prevent perfect class separation.
+- Diagnosis logic is based on **clinical-like heuristics**, making it suitable for training models that could support real-world decisions.
+
+---
+
+## 🛠 Suggested Use Cases
+
+- Binary classification: `ME/CFS` vs `Depression`
+- Multiclass classification: `ME/CFS`, `Depression`, `Both`
+- EDA and feature engineering practice
+- Missing data imputation techniques
+- Medical ML modeling and interpretability
+
+---
+
+## 📦 Format
+
+- CSV file
+- ~1,000 rows
+- UTF-8 encoding
+
+---
+
+## 🙌 Author
+
+Created with ❤️ for the Kaggle community.
+
+If you like this dataset — please upvote!  
+If you have any suggestions or improvements — feel free to comment.
+
+=== About this file ===
+
+About this file
+This dataset is designed to help machine learning practitioners and researchers explore the challenging task of differential diagnosis between Myalgic Encephalomyelitis / Chronic Fatigue Syndrome (ME/CFS) and Depression.
+The data is synthetic but modeled after real-world clinical features such as fatigue severity, depression scores, sleep quality, cognitive symptoms, and lifestyle factors. It includes realistic noise and missing values to simulate conditions found in actual medical datasets.
+All features are generated with clinically inspired logic to ensure meaningful patterns for model training and analysis.
+
+
+=== Columns & descriptions ===
+
+age: Age of the patient in years
+gender: (Male / Female)
+sleep_quality_index: (1–10 scale)
+brain_fog_level: level (1–10)
+physical_pain_score: level (1–10)
+stress_level: level (1–10)
+depression_phq9_score: level (0–10)
+fatigue_severity_scale_score: (FSS) 0–10
+pem_duration_hours: in hours
+hours_of_sleep_per_night: in hours
+pem_present: [no description]
+work_status: [no description]
+social_activity_level: [no description]
+exercise_frequency: [no description]
+meditation_or_mindfulness: [no description]
+diagnosis: [no description]

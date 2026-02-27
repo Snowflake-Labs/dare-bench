@@ -1,0 +1,220 @@
+{
+    "question": {
+        "target": [
+            "is_booking"
+        ],
+        "target_candidates": [
+            "is_booking",
+            "hotel_cluster"
+        ],
+        "related_features": [
+            "cnt",
+            "orig_destination_distance",
+            "is_mobile",
+            "hotel_cluster",
+            "site_name",
+            "user_location_city",
+            "hotel_market",
+            "srch_destination_type_id",
+            "srch_adults_cnt",
+            "user_location_region",
+            "user_location_country",
+            "srch_children_cnt",
+            "hotel_country",
+            "srch_destination_id",
+            "is_package",
+            "channel",
+            "srch_rm_cnt",
+            "posa_continent",
+            "hotel_continent"
+        ],
+        "not_filtered_related_features": [
+            "srch_rm_cnt",
+            "srch_children_cnt",
+            "cnt",
+            "orig_destination_distance",
+            "srch_adults_cnt"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "srch_rm_cnt": [
+                0,
+                8
+            ],
+            "srch_children_cnt": [
+                0,
+                9
+            ],
+            "cnt": [
+                1,
+                120
+            ],
+            "orig_destination_distance": [
+                0.0,
+                11966.0
+            ],
+            "srch_adults_cnt": [
+                0,
+                9
+            ]
+        },
+        "selected_features": [
+            "cnt",
+            "srch_rm_cnt",
+            "orig_destination_distance"
+        ],
+        "train_v2_save_file": "./jacopoferretti_expedia-travel-dataset_class/source/train_v2.csv",
+        "val_v2_save_file": "./jacopoferretti_expedia-travel-dataset_class/source/val_v2.csv",
+        "val_no_err_save_file": "./jacopoferretti_expedia-travel-dataset_class/source/val_v1.csv",
+        "train_no_err_save_file": "./jacopoferretti_expedia-travel-dataset_class/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./jacopoferretti_expedia-travel-dataset_class/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "most_frequent",
+        "random_state": 78,
+        "model_type": "GaussianNB",
+        "output_file": "./jacopoferretti_expedia-travel-dataset_class/prediction.csv",
+        "ground_truth_file": "./jacopoferretti_expedia-travel-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./jacopoferretti_expedia-travel-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Unnamed: 0": "numerical",
+            "date_time": "categorical",
+            "site_name": "categorical",
+            "posa_continent": "categorical",
+            "user_location_country": "categorical",
+            "user_location_region": "categorical",
+            "user_location_city": "categorical",
+            "orig_destination_distance": "numerical",
+            "user_id": "categorical",
+            "is_mobile": "categorical",
+            "is_package": "categorical",
+            "channel": "categorical",
+            "srch_ci": "categorical",
+            "srch_co": "categorical",
+            "srch_adults_cnt": "numerical",
+            "srch_children_cnt": "numerical",
+            "srch_rm_cnt": "numerical",
+            "srch_destination_id": "categorical",
+            "srch_destination_type_id": "categorical",
+            "is_booking": "categorical",
+            "cnt": "numerical",
+            "hotel_continent": "categorical",
+            "hotel_country": "categorical",
+            "hotel_market": "categorical",
+            "hotel_cluster": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "cnt",
+            "srch_rm_cnt",
+            "orig_destination_distance"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 6165451,
+        "ref": "jacopoferretti/expedia-travel-dataset",
+        "subtitle": "Expedia booking information",
+        "creatorName": "Jacopo Ferretti",
+        "creatorUrl": "jacopoferretti",
+        "totalBytes": 4156845,
+        "url": "https://www.kaggle.com/datasets/jacopoferretti/expedia-travel-dataset",
+        "lastUpdated": "2025-08-01T04:19:17.407Z",
+        "downloadCount": 2472,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Jacopo Ferretti",
+        "ownerRef": "jacopoferretti",
+        "kernelCount": 11,
+        "title": "Expedia Travel Dataset",
+        "viewCount": 15823,
+        "voteCount": 62,
+        "currentVersionNumber": 8,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "global",
+                "name": "global",
+                "description": "A country is a region that is identified as a distinct national entity in political geography.",
+                "fullPath": "geography and places > global",
+                "competitionCount": 6,
+                "datasetCount": 1596,
+                "scriptCount": 593,
+                "totalCount": 2195
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "clustering",
+                "name": "clustering",
+                "description": "",
+                "fullPath": "task > clustering",
+                "competitionCount": 25,
+                "datasetCount": 1011,
+                "scriptCount": 2949,
+                "totalCount": 3985
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "travel",
+                "name": "travel",
+                "description": "",
+                "fullPath": "subject > people and society > business > travel",
+                "competitionCount": 3,
+                "datasetCount": 8914,
+                "scriptCount": 1388,
+                "totalCount": 10305
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6165451,
+        "datasetSlug": "expedia-travel-dataset",
+        "ownerUser": "jacopoferretti",
+        "usabilityRating": 1.0,
+        "totalViews": 15049,
+        "totalVotes": 59,
+        "totalDownloads": 2344,
+        "title": "Expedia Travel Dataset",
+        "subtitle": "Expedia booking information",
+        "description": "Info about the users' clicks and bookings on Expedia. The dataset includes information about the destination, hotel, number of visitors ... and also details about the type of reservation.\n\n=== About this file ===\n\nAbout this file\nBooking and customer information\n\n\n=== Columns & descriptions ===\n\n: [no description]\ndate_time: Timestamp: date when the customer booked/clicked\nsite_name: ID of the Expedia point of sale\nposa_continent: ID of continent associated with site_name\nuser_location_country: ID of the country the customer is located\nuser_location_region: ID of the region the customer is located\nuser_location_city: ID of the city the customer is located\norig_destination_distance: Physical distance between hotel and customer at the time of search\nuser_id: Customer ID\nis_mobile: 1 if the user connected from mobile, 0 otherwise\nis_package: 1 if the click/booking was generated as part of a package, 0 otherwise\nchannel: ID of marketing channel\nsrch_ci: Checkin date\nsrch_co: Checkout date\nsrch_adults_cnt: Number of adults in the hotel room\nsrch_children_cnt: Number of children in the hotel room\nsrch_rm_cnt: Number of hotel room in the search\nsrch_destination_id: ID of the destination\nsrch_destination_type_id: Type of destination\nis_booking: 1 if booking, 0 if click\ncnt: Number of similar events in the context of the same user session\nhotel_continent: Continent of the hotel\nhotel_country: Country of the hotel\nhotel_market: Hotel market\nhotel_cluster: ID of a hotel cluster\n",
+        "keywords": [
+            "global",
+            "classification",
+            "clustering",
+            "tabular",
+            "travel"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

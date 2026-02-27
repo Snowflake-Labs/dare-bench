@@ -1,0 +1,38 @@
+The data used to create this dataset was taken from the database of the [Centro Sismológico Nacional](https://evtdb.csn.uchile.cl/), which contains data about significant (perceptible) earthquakes in Chile.
+
+Chile is a country famous for its high seismic activity. In fact, its one of the most seismic places in the world, which makes it a place of interest for many researchers investigating this topic.
+
+This dataset contain a single file called **seismic_data.csv**, which is composed from the following columns:
+- **Date(UTC)**: Timestamp in which the earthquake was registered (precision up to 1 second).
+- **Latitude/Longitude**: The location of the earthquake.
+- **Depth**: The depth (measured in km) of the earthquake.
+- **Magnitude**: The earthquake's magnitude.
+
+This data covers earthquakes with magnitudes ranging from 3 to 9, and that occurred between 2012-01-01 and today. The data is generated from a notebook that's scheduled to run daily, so the dataset should receive frequent updates. All the earthquakes in the dataset have a maximum depth of 300 km.
+
+# What can you do with this data?
+
+- Explore the data to find the zones with the highest probability of earthquakes.
+- Search the zones with the highest seismical energy.
+- Relate earthquake occurrence with physical variables available on other datasets.
+- Estimate the probability of occurrence of a big earthquake given previous events.
+- And much more!
+
+=== About this file ===
+
+About this file
+Remote source:
+https://www.kaggle.com/code/nicolasgonzalezmunoz/web-scrapping-centro-sismol-gico-chile
+Data source:
+Centro Sismológico Nacional de Chile
+.
+Date range: 2012-01-01 - Today.
+
+
+=== Columns & descriptions ===
+
+Date(UTC): Timestamp where the earthquake was registered.
+Latitude: Earthquake's latitude [°].
+Longitude: Earthquake's longitude [°].
+Depth: Earthquake's depth [km].
+Magnitude: Earthquake's magnitude.

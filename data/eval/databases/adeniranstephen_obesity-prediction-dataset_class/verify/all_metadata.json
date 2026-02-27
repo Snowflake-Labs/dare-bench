@@ -1,0 +1,260 @@
+{
+    "question": {
+        "target": [
+            "NObeyesdad"
+        ],
+        "target_candidates": [
+            "NObeyesdad"
+        ],
+        "related_features": [
+            "Gender",
+            "Age",
+            "FCVC",
+            "Weight",
+            "SMOKE",
+            "FAF",
+            "family_history_with_overweight",
+            "TUE",
+            "CAEC",
+            "CALC",
+            "Height",
+            "FAVC",
+            "NCP",
+            "SCC",
+            "CH2O",
+            "MTRANS"
+        ],
+        "not_filtered_related_features": [
+            "SCC",
+            "Gender",
+            "Age",
+            "Weight",
+            "SMOKE",
+            "family_history_with_overweight",
+            "CAEC",
+            "CALC",
+            "Height",
+            "NCP",
+            "FAVC",
+            "MTRANS"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "SCC": [
+                "no",
+                "yes"
+            ],
+            "Gender": [
+                "Female",
+                "Male"
+            ],
+            "Age": [
+                14,
+                61
+            ],
+            "Weight": [
+                39.0,
+                173.0
+            ],
+            "SMOKE": [
+                "no",
+                "yes"
+            ],
+            "family_history_with_overweight": [
+                "yes",
+                "no"
+            ],
+            "CAEC": [
+                "Sometimes",
+                "Frequently",
+                "Always",
+                "no"
+            ],
+            "CALC": [
+                "no",
+                "Sometimes",
+                "Frequently",
+                "Always"
+            ],
+            "Height": [
+                1.0,
+                2.0
+            ],
+            "NCP": [
+                1.0,
+                4.0
+            ],
+            "FAVC": [
+                "no",
+                "yes"
+            ],
+            "MTRANS": [
+                "Public_Transportation",
+                "Walking",
+                "Automobile",
+                "Motorbike",
+                "Bike"
+            ]
+        },
+        "selected_features": [
+            "Weight",
+            "CAEC",
+            "Gender",
+            "Age",
+            "Height",
+            "SMOKE",
+            "NCP",
+            "MTRANS"
+        ],
+        "train_v2_save_file": "./adeniranstephen_obesity-prediction-dataset_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./adeniranstephen_obesity-prediction-dataset_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./adeniranstephen_obesity-prediction-dataset_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./adeniranstephen_obesity-prediction-dataset_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./adeniranstephen_obesity-prediction-dataset_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.7,
+        "save_file_type": "sqlite",
+        "imputer_type": "most_frequent",
+        "random_state": 81,
+        "model_type": "DecisionTreeClassifier",
+        "output_file": "./adeniranstephen_obesity-prediction-dataset_class/prediction.csv",
+        "ground_truth_file": "./adeniranstephen_obesity-prediction-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./adeniranstephen_obesity-prediction-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Gender": "categorical",
+            "Age": "numerical",
+            "Height": "numerical",
+            "Weight": "numerical",
+            "family_history_with_overweight": "categorical",
+            "FAVC": "categorical",
+            "FCVC": "categorical",
+            "NCP": "numerical",
+            "CAEC": "categorical",
+            "SMOKE": "categorical",
+            "CH2O": "categorical",
+            "SCC": "categorical",
+            "FAF": "categorical",
+            "TUE": "categorical",
+            "CALC": "categorical",
+            "MTRANS": "categorical",
+            "NObeyesdad": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Weight",
+            "Age",
+            "Height",
+            "NCP"
+        ],
+        "categorical_features": [
+            "CAEC",
+            "Gender",
+            "SMOKE",
+            "MTRANS"
+        ]
+    },
+    "data_info": {
+        "id": 6626835,
+        "ref": "adeniranstephen/obesity-prediction-dataset",
+        "subtitle": "Analyze lifestyle habits and predict obesity levels with real and synthetic data",
+        "creatorName": "Stephen Adeniran",
+        "creatorUrl": "adeniranstephen",
+        "totalBytes": 33445,
+        "url": "https://www.kaggle.com/datasets/adeniranstephen/obesity-prediction-dataset",
+        "lastUpdated": "2025-02-08T10:12:34.000Z",
+        "downloadCount": 7502,
+        "licenseName": "Attribution 4.0 International (CC BY 4.0)",
+        "description": "",
+        "ownerName": "Stephen Adeniran",
+        "ownerRef": "adeniranstephen",
+        "kernelCount": 43,
+        "title": "Obesity Prediction Dataset",
+        "viewCount": 30040,
+        "voteCount": 73,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "nutrition",
+                "name": "nutrition",
+                "description": "Nutrition is the science that interprets the interaction of nutrients and other substances in food in relation to maintenance, growth, reproduction, health and disease of an organism. In this tag you'll find the most nutrtitious datasets and kernels.",
+                "fullPath": "subject > health and fitness > health > nutrition",
+                "datasetCount": 2144,
+                "scriptCount": 184,
+                "totalCount": 2328
+            },
+            {
+                "ref": "public health",
+                "name": "public health",
+                "description": "This tag contains datasets and kernels on things that affect the general health of the public. They include foodborne illness, dengue fever, immunization records, and all the other things that mean you have to get a shot at the doctor's office.",
+                "fullPath": "subject > health and fitness > health > public health",
+                "competitionCount": 2,
+                "datasetCount": 2021,
+                "scriptCount": 872,
+                "totalCount": 2895
+            },
+            {
+                "ref": "health",
+                "name": "health",
+                "description": "Consider the health tag your data science gym. Get in there and work out those data science muscles on health analytics. Analyze heart disease until you sweat. Then recover with with a nice candy production dataset.",
+                "fullPath": "subject > health and fitness > health",
+                "competitionCount": 402,
+                "datasetCount": 23200,
+                "scriptCount": 8160,
+                "totalCount": 31762
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6626835,
+        "datasetSlug": "obesity-prediction-dataset",
+        "ownerUser": "adeniranstephen",
+        "usabilityRating": 1.0,
+        "totalViews": 29146,
+        "totalVotes": 71,
+        "totalDownloads": 7245,
+        "title": "Obesity Prediction Dataset",
+        "subtitle": "Analyze lifestyle habits and predict obesity levels with real and synthetic data",
+        "description": "This dataset helps estimate obesity levels based on eating habits, family history and physical condition. It includes data from individuals in Mexico, Peru, and Colombia, covering 16 lifestyle and health-related features with 2111 records. The labels classify obesity levels, ranging from underweight to different obesity types.\n\nMost of the data was generated using synthetic techniques, while some were collected directly from users through a web platform. It is useful for classification, regression, and clustering tasks.\n\nSource: [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition)\n\nInspiration:\nUnderstanding lifestyle factors that contribute to obesity can help with early intervention, health recommendations, and machine learning applications in healthcare.\n\n\n**Column Descriptions:**\nGender \u2013 Male or Female.\nAge \u2013 The person\u2019s age in years.\nHeight \u2013 Height in meters.\nWeight \u2013 Weight in kilograms.\nfamily_history_with_overweight \u2013 Whether the person has a family history of being overweight (yes/no).\nFAVC \u2013 If the person frequently consumes high-calorie foods (yes/no).\nFCVC \u2013 Frequency of vegetable consumption (scale from 1 to 3).\nNCP \u2013 Number of main meals per day.\nCAEC \u2013 Frequency of consuming food between meals (Never, Sometimes, Frequently, Always).\nSMOKE \u2013 Whether the person smokes (yes/no).\nCH2O \u2013 Daily water intake (scale from 1 to 3).\nSCC \u2013 If the person monitors their calorie intake (yes/no).\nFAF \u2013 Physical activity frequency (scale from 0 to 3).\nTUE \u2013 Time spent using technology (scale from 0 to 3).\nCALC \u2013 Frequency of alcohol consumption (Never, Sometimes, Frequently, Always).\nMTRANS \u2013 Main mode of transportation (Automobile, Bike, Motorbike, Public Transportation, Walking).\nNObeyesdad \u2013 Obesity level (Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, Obesity Type III).\n\nThis dataset provides a structured view of how different lifestyle factors relate to obesity levels, making it useful for healthcare analysis and decision-making.\n\n\n=== About this file ===\n\nAbout this file\nGender \u2013 Male or Female.\nAge \u2013 The person\u2019s age in years.\nHeight \u2013 Height in meters.\nWeight \u2013 Weight in kilograms.\nfamily_history_with_overweight \u2013 Whether the person has a family history of being overweight (yes/no).\nFAVC \u2013 If the person frequently consumes high-calorie foods (yes/no).\nFCVC \u2013 Frequency of vegetable consumption (scale from 1 to 3).\nNCP \u2013 Number of main meals per day.\nCAEC \u2013 Frequency of consuming food between meals (Never, Sometimes, Frequently, Always).\nSMOKE \u2013 Whether the person smokes (yes/no).\nCH2O \u2013 Daily water intake (scale from 1 to 3).\nSCC \u2013 If the person monitors their calorie intake (yes/no).\nFAF \u2013 Physical activity frequency (scale from 0 to 3).\nTUE \u2013 Time spent using technology (scale from 0 to 3).\nCALC \u2013 Frequency of alcohol consumption (Never, Sometimes, Frequently, Always).\nMTRANS \u2013 Main mode of transportation (Automobile, Bike, Motorbike, Public Transportation, Walking).\nNObeyesdad \u2013 Obesity level (Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, Obesity Type III).\n\n\n=== Columns & descriptions ===\n\nGender: Gender \u2013 Male or Female.\nAge: The person\u2019s age in years.\nHeight: Height in meters.\nWeight: Weight in kilograms.\nfamily_history_with_overweight: Whether the person has a family history of being overweight (yes/no).\nFAVC: If the person frequently consumes high-calorie foods (yes/no).\nFCVC: Frequency of vegetable consumption (scale from 1 to 3).\nNCP: Number of main meals per day.\nCAEC: Frequency of consuming food between meals (Never, Sometimes, Frequently, Always).\nSMOKE: Whether the person smokes (yes/no).\nCH2O: Daily water intake (scale from 1 to 3).\nSCC: If the person monitors their calorie intake (yes/no).\nFAF: Physical activity frequency (scale from 0 to 3).\nTUE: Time spent using technology (scale from 0 to 3).\nCALC: Frequency of alcohol consumption (Never, Sometimes, Frequently, Always).\nMTRANS: Main mode of transportation (Automobile, Bike, Motorbike, Public Transportation, Walking).\nNObeyesdad: Obesity level (Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, Obesity Type III).\n",
+        "keywords": [
+            "nutrition",
+            "public health",
+            "health",
+            "classification",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "Attribution 4.0 International (CC BY 4.0)"
+            }
+        ]
+    }
+}

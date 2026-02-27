@@ -1,0 +1,261 @@
+{
+    "question": {
+        "target": [
+            "wage"
+        ],
+        "target_candidates": [
+            "wage"
+        ],
+        "related_features": [
+            "industry",
+            "school",
+            "maried",
+            "residence",
+            "exper",
+            "health",
+            "occupation",
+            "ethn",
+            "year",
+            "union"
+        ],
+        "not_filtered_related_features": [
+            "industry",
+            "school",
+            "maried",
+            "residence",
+            "exper",
+            "health",
+            "occupation",
+            "ethn",
+            "year",
+            "union"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "industry": [
+                "Business_and_Repair_Service",
+                "Personal_Service",
+                "Trade",
+                "Construction",
+                "Manufacturing",
+                "Transportation",
+                "Professional_and_Related Service",
+                "Finance",
+                "Entertainment",
+                "Public_Administration",
+                "Agricultural",
+                "Mining"
+            ],
+            "school": [
+                3,
+                16
+            ],
+            "maried": [
+                "no",
+                "yes"
+            ],
+            "residence": [
+                "north_east",
+                "south",
+                "nothern_central",
+                "rural_area"
+            ],
+            "exper": [
+                0,
+                18
+            ],
+            "health": [
+                "no",
+                "yes"
+            ],
+            "occupation": [
+                "Service_Workers",
+                "Craftsmen, Foremen_and_kindred",
+                "Managers, Officials_and_Proprietors",
+                "Laborers_and_farmers",
+                "Clerical_and_kindred",
+                "Sales_Workers",
+                "Operatives_and_kindred",
+                "Professional, Technical_and_kindred",
+                "Farm_Laborers_and_Foreman"
+            ],
+            "ethn": [
+                "other",
+                "black",
+                "hisp"
+            ],
+            "year": [
+                1980,
+                1987
+            ],
+            "union": [
+                "no",
+                "yes"
+            ]
+        },
+        "selected_features": [
+            "school",
+            "maried",
+            "year",
+            "health",
+            "industry",
+            "occupation"
+        ],
+        "train_v2_save_file": "./jacopoferretti_wages-and-education-of-young-males-dataset_reg/source/train_v2.parquet",
+        "val_v2_save_file": "./jacopoferretti_wages-and-education-of-young-males-dataset_reg/source/val_v2.parquet",
+        "val_no_err_save_file": "./jacopoferretti_wages-and-education-of-young-males-dataset_reg/source/val_v1.parquet",
+        "train_no_err_save_file": "./jacopoferretti_wages-and-education-of-young-males-dataset_reg/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./jacopoferretti_wages-and-education-of-young-males-dataset_reg/source/train_v1.parquet",
+        "train_test_ratio": 0.9,
+        "save_file_type": "parquet",
+        "imputer_type": "most_frequent",
+        "random_state": 57,
+        "model_type": "Ridge",
+        "output_file": "./jacopoferretti_wages-and-education-of-young-males-dataset_reg/prediction.csv",
+        "ground_truth_file": "./jacopoferretti_wages-and-education-of-young-males-dataset_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./jacopoferretti_wages-and-education-of-young-males-dataset_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "rownames": "categorical",
+            "nr": "categorical",
+            "year": "numerical",
+            "school": "numerical",
+            "exper": "numerical",
+            "union": "categorical",
+            "ethn": "categorical",
+            "maried": "categorical",
+            "health": "categorical",
+            "wage": "numerical",
+            "industry": "categorical",
+            "occupation": "categorical",
+            "residence": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "school",
+            "year"
+        ],
+        "categorical_features": [
+            "maried",
+            "health",
+            "industry",
+            "occupation"
+        ]
+    },
+    "data_info": {
+        "id": 5987986,
+        "ref": "jacopoferretti/wages-and-education-of-young-males-dataset",
+        "subtitle": "Is there a relation between education, industry-type, experience ... and wage?",
+        "creatorName": "Jacopo Ferretti",
+        "creatorUrl": "jacopoferretti",
+        "totalBytes": 73450,
+        "url": "https://www.kaggle.com/datasets/jacopoferretti/wages-and-education-of-young-males-dataset",
+        "lastUpdated": "2025-06-03T02:17:47.000Z",
+        "downloadCount": 1947,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Jacopo Ferretti",
+        "ownerRef": "jacopoferretti",
+        "kernelCount": 7,
+        "title": "Wages and Education of Young Males Dataset",
+        "viewCount": 10899,
+        "voteCount": 48,
+        "currentVersionNumber": 6,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114018,
+                "scriptCount": 25612,
+                "totalCount": 139668
+            },
+            {
+                "ref": "education",
+                "name": "education",
+                "description": "Education datasets and kernels relate to statistics on student performance, university rankings, and answers for all your homework questions.",
+                "fullPath": "subject > people and society > education",
+                "competitionCount": 57,
+                "datasetCount": 35552,
+                "scriptCount": 15076,
+                "totalCount": 50685
+            },
+            {
+                "ref": "demographics",
+                "name": "demographics",
+                "description": "Demographics cover different aspects of life: youth, religion, housing, employment, taxes and mortality. This tag contains census data that describe various populations and communities.",
+                "fullPath": "subject > people and society > social science > demographics",
+                "competitionCount": 2,
+                "datasetCount": 1019,
+                "scriptCount": 334,
+                "totalCount": 1355
+            },
+            {
+                "ref": "economics",
+                "name": "economics",
+                "description": "The economics tag contains resources for analyzing the production, consumption, and transfer of wealth.",
+                "fullPath": "subject > people and society > social science > economics",
+                "competitionCount": 3,
+                "datasetCount": 3842,
+                "scriptCount": 844,
+                "totalCount": 4689
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 5987986,
+        "datasetSlug": "wages-and-education-of-young-males-dataset",
+        "ownerUser": "jacopoferretti",
+        "usabilityRating": 1.0,
+        "totalViews": 10750,
+        "totalVotes": 46,
+        "totalDownloads": 1914,
+        "title": "Wages and Education of Young Males Dataset",
+        "subtitle": "Is there a relation between education, industry-type, experience ... and wage?",
+        "description": "This data comes from a panel of 4360 observations from 1980 to 1987. It includes information about a worker's type of job, residence area, hourly wage, and so on.\n\n\n=== About this file ===\n\nAbout this file\nInformation about workers, their wage and other relevant features\n\n\n=== Columns & descriptions ===\n\nrownames: [no description]\nnr: identifier\nyear: [no description]\nschool: years of schooling\nexper: years of experience (=age-6-school)\nunion: wage set by collective bargaining?\nethn: ethnicity (black, hisp, other)\nmaried: married?\nhealth: health issues?\nwage: Log of hourly wage\nindustry: a factor with 12 levels\noccupation: a factor with 9 levels\nresidence: a factor with levels (rural area, north east, northern central, south)\n",
+        "keywords": [
+            "business",
+            "education",
+            "demographics",
+            "economics",
+            "tabular",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

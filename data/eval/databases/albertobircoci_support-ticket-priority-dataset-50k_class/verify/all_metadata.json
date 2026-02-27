@@ -1,0 +1,342 @@
+{
+    "question": {
+        "target": [
+            "priority_cat"
+        ],
+        "target_candidates": [
+            "priority_cat"
+        ],
+        "related_features": [
+            "company_size",
+            "booking_channel_cat",
+            "description_length",
+            "org_users",
+            "booking_channel",
+            "security_incident_flag",
+            "error_rate_pct",
+            "region",
+            "region_cat",
+            "customer_sentiment",
+            "payment_impact_flag",
+            "industry_cat",
+            "customers_affected",
+            "past_90d_incidents",
+            "company_size_cat",
+            "company_id",
+            "customer_tier_cat",
+            "customer_tier",
+            "industry",
+            "past_30d_tickets",
+            "reported_by_role",
+            "product_area",
+            "data_loss_flag",
+            "product_area_cat",
+            "reported_by_role_cat",
+            "has_runbook",
+            "day_of_week",
+            "downtime_min",
+            "day_of_week_num",
+            "customer_sentiment_cat"
+        ],
+        "not_filtered_related_features": [
+            "company_size",
+            "description_length",
+            "org_users",
+            "booking_channel",
+            "error_rate_pct",
+            "region",
+            "customer_sentiment",
+            "customers_affected",
+            "past_90d_incidents",
+            "customer_tier",
+            "industry",
+            "past_30d_tickets",
+            "reported_by_role",
+            "product_area",
+            "day_of_week",
+            "downtime_min"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "company_size": [
+                "Small",
+                "Medium",
+                "Large"
+            ],
+            "description_length": [
+                20,
+                815
+            ],
+            "org_users": [
+                71,
+                5757
+            ],
+            "booking_channel": [
+                "web",
+                "chat",
+                "email",
+                "phone"
+            ],
+            "error_rate_pct": [
+                0.0,
+                80.0
+            ],
+            "region": [
+                "APAC",
+                "AMER",
+                "EMEA"
+            ],
+            "customer_sentiment": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "customers_affected": [
+                0,
+                5757
+            ],
+            "past_90d_incidents": [
+                0,
+                12
+            ],
+            "customer_tier": [
+                "Basic",
+                "Plus",
+                "Enterprise"
+            ],
+            "industry": [
+                "media",
+                "healthcare",
+                "gaming",
+                "ecommerce",
+                "saas_b2b",
+                "logistics",
+                "fintech"
+            ],
+            "past_30d_tickets": [
+                0,
+                19
+            ],
+            "reported_by_role": [
+                "support",
+                "product_manager",
+                "devops",
+                "finance",
+                "c_level"
+            ],
+            "product_area": [
+                "mobile",
+                "analytics",
+                "notifications",
+                "auth",
+                "billing",
+                "data_pipeline"
+            ],
+            "day_of_week": [
+                "Wed",
+                "Sat",
+                "Mon",
+                "Thu",
+                "Tue",
+                "Fri",
+                "Sun"
+            ],
+            "downtime_min": [
+                0,
+                196
+            ]
+        },
+        "selected_features": [
+            "error_rate_pct",
+            "company_size",
+            "region",
+            "industry",
+            "past_90d_incidents",
+            "org_users",
+            "product_area",
+            "customers_affected",
+            "description_length",
+            "booking_channel"
+        ],
+        "train_v2_save_file": "./albertobircoci_support-ticket-priority-dataset-50k_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./albertobircoci_support-ticket-priority-dataset-50k_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./albertobircoci_support-ticket-priority-dataset-50k_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./albertobircoci_support-ticket-priority-dataset-50k_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./albertobircoci_support-ticket-priority-dataset-50k_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.8,
+        "save_file_type": "sqlite",
+        "imputer_type": "most_frequent",
+        "random_state": 11,
+        "model_type": "LinearSVC",
+        "output_file": "./albertobircoci_support-ticket-priority-dataset-50k_class/prediction.csv",
+        "ground_truth_file": "./albertobircoci_support-ticket-priority-dataset-50k_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./albertobircoci_support-ticket-priority-dataset-50k_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "ticket_id": "categorical",
+            "day_of_week": "categorical",
+            "day_of_week_num": "categorical",
+            "company_id": "categorical",
+            "company_size": "categorical",
+            "company_size_cat": "categorical",
+            "industry": "categorical",
+            "industry_cat": "categorical",
+            "customer_tier": "categorical",
+            "customer_tier_cat": "categorical",
+            "org_users": "numerical",
+            "region": "categorical",
+            "region_cat": "categorical",
+            "past_30d_tickets": "numerical",
+            "past_90d_incidents": "numerical",
+            "product_area": "categorical",
+            "product_area_cat": "categorical",
+            "booking_channel": "categorical",
+            "booking_channel_cat": "categorical",
+            "reported_by_role": "categorical",
+            "reported_by_role_cat": "categorical",
+            "customers_affected": "numerical",
+            "error_rate_pct": "numerical",
+            "downtime_min": "numerical",
+            "payment_impact_flag": "categorical",
+            "security_incident_flag": "categorical",
+            "data_loss_flag": "categorical",
+            "has_runbook": "categorical",
+            "customer_sentiment": "categorical",
+            "customer_sentiment_cat": "categorical",
+            "description_length": "numerical",
+            "priority": "categorical",
+            "priority_cat": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "error_rate_pct",
+            "past_90d_incidents",
+            "org_users",
+            "customers_affected",
+            "description_length"
+        ],
+        "categorical_features": [
+            "company_size",
+            "region",
+            "industry",
+            "product_area",
+            "booking_channel"
+        ]
+    },
+    "data_info": {
+        "id": 8074146,
+        "ref": "albertobircoci/support-ticket-priority-dataset-50k",
+        "subtitle": "Multi-company, multi-region helpdesk data for priority classification",
+        "creatorName": "Albert5913",
+        "creatorUrl": "albertobircoci",
+        "totalBytes": 1227794,
+        "url": "https://www.kaggle.com/datasets/albertobircoci/support-ticket-priority-dataset-50k",
+        "lastUpdated": "2025-08-15T11:15:31.793Z",
+        "downloadCount": 11,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Albert5913",
+        "ownerRef": "albertobircoci",
+        "kernelCount": 3,
+        "title": "Support Ticket Priority Dataset (50K)",
+        "viewCount": 87,
+        "voteCount": 5,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "categorical",
+                "name": "categorical",
+                "description": "Categorical data are observations that fall into discrete categories, like dog breed, dog color or whether or not a dog likes chew toys.",
+                "fullPath": "data type > categorical",
+                "competitionCount": 40,
+                "datasetCount": 2985,
+                "scriptCount": 2411,
+                "totalCount": 5436
+            },
+            {
+                "ref": "earth and nature",
+                "name": "earth and nature",
+                "description": "",
+                "fullPath": "subject > earth and nature",
+                "competitionCount": 19,
+                "datasetCount": 79487,
+                "scriptCount": 394,
+                "totalCount": 79900
+            },
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114015,
+                "scriptCount": 25612,
+                "totalCount": 139665
+            },
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "gradient boosting",
+                "name": "gradient boosting",
+                "description": "",
+                "fullPath": "technique > gradient boosting",
+                "competitionCount": 4,
+                "datasetCount": 128,
+                "scriptCount": 2611,
+                "totalCount": 2743
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 8074146,
+        "datasetSlug": "support-ticket-priority-dataset-50k",
+        "ownerUser": "albertobircoci",
+        "usabilityRating": 1.0,
+        "totalViews": 87,
+        "totalVotes": 5,
+        "totalDownloads": 13,
+        "title": "Support Ticket Priority Dataset (50K)",
+        "subtitle": "Multi-company, multi-region helpdesk data for priority classification",
+        "description": "**Overview**\n\nSynthetic tabular dataset of 50,000 support tickets from 25 companies used to study priority classification (low, medium, high). Companies differ by size and industry; large companies operate across multiple regions. Features mix numeric and categorical signals commonly available at ticket intake. Data is fully artificial\u2014no real users, systems, or proprietary logs.\n\nIntended use: benchmarking supervised learning for tabular classification (e.g., Gradient Boosting, XGBoost, LightGBM, AdaBoost, SVM, Naive Bayes), feature engineering, handling mixed types, class imbalance, and mild label noise.\n\n**File & schema**\n\n**Identifiers & time**\n\n-ticket_id (int64): unique ticket identifier (randomized order)\n\n-day_of_week (Mon\u2013Sun), day_of_week_num (1\u20137; Mon=1)\n\n**Company profile (replicated per row)**\n\n-company_id (int), company_size (Small/Medium/Large + _cat),\n\n-industry (7 categories + _cat),\n\n-customer_tier (Basic/Plus/Enterprise + _cat),\n\n-org_users (int): active user seats (Large up to ~10,000)\n\n**Context**\n\n-region (AMER/EMEA/APAC + _cat)\n\n-past_30d_tickets (int), past_90d_incidents (int)\n\n**Product & channel**\n\n-product_area (auth, billing, mobile, data_pipeline, analytics, notifications + _cat)\n\n-booking_channel (web, email, chat, phone + _cat)\n\n-reported_by_role (support, devops, product_manager, finance, c_level + _cat)\n\n**Impact & flags**\n\n-customers_affected (int, heavy-tailed)\n\n-error_rate_pct (float, 0\u2013100; sometimes 0.0 as \u201cunmeasured\u201d)\n\n-downtime_min (int, 0 when only degraded)\n\n-payment_impact_flag, security_incident_flag, data_loss_flag, has_runbook (0/1)\n\n**Text proxy**\n\n-customer_sentiment (negative/neutral/positive + _cat with 0 = missing)\n\n-description_length (int, 20\u20132000)\n\n**Target**\n\n-priority (low/medium/high + priority_cat = 1/2/3)\n\n**Notes & limitations**\n\n- Fully synthetic; suitable for education, benchmarking, and tutorials.\n- No temporal ordering or post-resolution fields are included, avoiding label leakage.\n- The noise level is tuned for ~97\u201398% ceiling performance with well-optimized models, not perfect separability.\n\n\n=== About this file ===\n\nAbout this file\nSingle CSV with 50,000 synthetic support tickets and priority labels (low/med/high).\n\n\n=== Columns & descriptions ===\n\nticket_id: ticket id\nday_of_week: day of week\nday_of_week_num: day of week cat\ncompany_id: company id\ncompany_size: company size\ncompany_size_cat: company size cat\nindustry: industry\nindustry_cat: industry cat\ncustomer_tier: customer tier\ncustomer_tier_cat: customer tier cat\norg_users: org users\nregion: region\nregion_cat: region cat\npast_30d_tickets: past 30d\npast_90d_incidents: past 90d\nproduct_area: prod area\nproduct_area_cat: prod area cat\nbooking_channel: booking channel\nbooking_channel_cat: booking cat\nreported_by_role: reported by role\nreported_by_role_cat: reported cat\ncustomers_affected: customer affected\nerror_rate_pct: error rate pct\ndowntime_min: downtine min\npayment_impact_flag: payment impact\nsecurity_incident_flag: security incident\ndata_loss_flag: data loss flag\nhas_runbook: has runbook\ncustomer_sentiment: customer sentiment\ncustomer_sentiment_cat: customer sentiment cat\ndescription_length: description lenght\npriority: priority\npriority_cat: priority cat\n",
+        "keywords": [
+            "categorical",
+            "earth and nature",
+            "business",
+            "intermediate",
+            "classification",
+            "gradient boosting"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

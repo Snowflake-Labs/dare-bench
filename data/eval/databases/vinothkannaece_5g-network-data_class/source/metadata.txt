@@ -1,0 +1,31 @@
+This project simulates a large-scale 5G network performance dataset using Python and pandas in Google Colab. It generates synthetic data for various real-world metrics like signal strength, speed, latency, jitter, battery levels, and user experience across different cities — with special focus on Indian metro areas like Mumbai, Chennai, Delhi, and Kolkata. The dataset includes detailed attributes like device model, carrier (Jio, Airtel, Vi), 5G frequency bands (n78, n28, n258), and environmental conditions. This data can be used for exploratory data analysis (EDA), network optimization modeling, predictive analytics, and machine learning experiments related to telecom service quality.
+
+=== About this file ===
+
+About this file
+This project simulates a large-scale 5G network performance dataset using Python and pandas in Google Colab. It generates synthetic data for various real-world metrics like signal strength, speed, latency, jitter, battery levels, and user experience across different cities — with special focus on Indian metro areas like Mumbai, Chennai, Delhi, and Kolkata. The dataset includes detailed attributes like device model, carrier (Jio, Airtel, Vi), 5G frequency bands (n78, n28, n258), and environmental conditions. This data can be used for exploratory data analysis (EDA), network optimization modeling, predictive analytics, and machine learning experiments related to telecom service quality.
+
+
+=== Columns & descriptions ===
+
+Timestamp: Date and time when the measurement was taken (recorded every 10 minutes).
+Location: City where the test was conducted (Indian and global cities).
+Signal Strength (dBm): Signal strength in decibels; values range from -110 (weak) to -60 (strong).
+Download Speed (Mbps): [no description]
+Upload Speed (Mbps): [no description]
+Latency (ms): [no description]
+Jitter (ms): [no description]
+Network Type: [no description]
+Device Model: [no description]
+Carrier: [no description]
+Band: [no description]
+Battery Level (%): [no description]
+Temperature (°C): [no description]
+Connected Duration (min): [no description]
+Handover Count: [no description]
+Data Usage (MB): [no description]
+Video Streaming Quality: [no description]
+VoNR Enabled: [no description]
+Network Congestion Level: [no description]
+Ping to Google (ms): [no description]
+Dropped Connection: [no description]

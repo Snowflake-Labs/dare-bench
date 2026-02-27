@@ -1,0 +1,175 @@
+{
+    "question": {
+        "target": [
+            "homeXG",
+            "awayXG"
+        ],
+        "target_candidates": [
+            "homeXG",
+            "awayXG"
+        ],
+        "related_features": [
+            "Time",
+            "Date",
+            "Home Team",
+            "Matchday",
+            "Referee",
+            "Away Team",
+            "Stadium",
+            "Attendance"
+        ],
+        "not_filtered_related_features": [
+            "Matchday"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "Matchday": [
+                1,
+                38
+            ]
+        },
+        "selected_features": [
+            "Matchday"
+        ],
+        "train_v2_save_file": "./filippomonte_premier-league-past-3-seasons_reg/source/train_v2.csv",
+        "val_v2_save_file": "./filippomonte_premier-league-past-3-seasons_reg/source/val_v2.csv",
+        "val_no_err_save_file": "./filippomonte_premier-league-past-3-seasons_reg/source/val_v1.csv",
+        "train_no_err_save_file": "./filippomonte_premier-league-past-3-seasons_reg/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./filippomonte_premier-league-past-3-seasons_reg/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "mean",
+        "random_state": 98,
+        "model_type": "MLPRegressor",
+        "output_file": "./filippomonte_premier-league-past-3-seasons_reg/prediction.csv",
+        "ground_truth_file": "./filippomonte_premier-league-past-3-seasons_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./filippomonte_premier-league-past-3-seasons_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Matchday": "numerical",
+            "Date": "categorical",
+            "Time": "categorical",
+            "Home Team": "categorical",
+            "homeScore": "numerical",
+            "homeXG": "numerical",
+            "awayScore": "numerical",
+            "awayXG": "numerical",
+            "Away Team": "categorical",
+            "Attendance": "numerical",
+            "Referee": "categorical",
+            "Stadium": "categorical",
+            "Result": "categorical",
+            "*Additional Stats": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Matchday"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 6896500,
+        "ref": "filippomonte/premier-league-past-3-seasons",
+        "subtitle": "2022/2023, 2023/2024, 2024/2025",
+        "creatorName": "Filippo Monte",
+        "creatorUrl": "filippomonte",
+        "totalBytes": 36425,
+        "url": "https://www.kaggle.com/datasets/filippomonte/premier-league-past-3-seasons",
+        "lastUpdated": "2025-03-18T00:29:58.683Z",
+        "downloadCount": 1246,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Filippo Monte",
+        "ownerRef": "filippomonte",
+        "kernelCount": 3,
+        "title": "Premier League Past 3 Seasons",
+        "viewCount": 4870,
+        "voteCount": 19,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "football",
+                "name": "football",
+                "description": "Some call it association football, some call it soccer, most call it sport ball. Come analyze the teams and players of the beautiful game.",
+                "fullPath": "subject > health and fitness > exercise > sports > football",
+                "competitionCount": 13,
+                "datasetCount": 5349,
+                "scriptCount": 1044,
+                "totalCount": 6406
+            },
+            {
+                "ref": "sports",
+                "name": "sports",
+                "description": "The sports tag covers the whole spectrum of sports around the world. We've got tennis, we've got football, and we've even got kitefoil racing.",
+                "fullPath": "subject > health and fitness > exercise > sports",
+                "competitionCount": 32,
+                "datasetCount": 11351,
+                "scriptCount": 3631,
+                "totalCount": 15014
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6896500,
+        "datasetSlug": "premier-league-past-3-seasons",
+        "ownerUser": "filippomonte",
+        "usabilityRating": 1.0,
+        "totalViews": 4769,
+        "totalVotes": 19,
+        "totalDownloads": 1233,
+        "title": "Premier League Past 3 Seasons",
+        "subtitle": "2022/2023, 2023/2024, 2024/2025",
+        "description": "Match records from the 2022-2025 season, including matches that have not occurred yet. I included a link for each match to find additional information on it. The dataset is meant to be used in educational purposes, for programmers to create and test predictive algorithms. It's still a work in progress... \n\n=== About this file ===\n\nAbout this file\nThis is a dataset containing records of all premier league matches since 2022/2023 season, plus uncompleted matches for the 2024/2025 season.\n\n\n=== Columns & descriptions ===\n\nMatchday: Game's matchday for that season\nDate: Date of match\nTime: Time match started in UK time\nHome Team: Home team for that game\nhomeScore: Amount of goals scored by home team\nhomeXG: Expected goals for home team\nawayScore: Amount of goals scored by away team\nawayXG: Expected goals for away team\nAway Team: Away team for that match\nAttendance: Amount of people attending stadium of match\nReferee: [no description]\nStadium: [no description]\nResult: [no description]\n*Additional Stats: [no description]\n",
+        "keywords": [
+            "football",
+            "sports",
+            "beginner",
+            "tabular",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

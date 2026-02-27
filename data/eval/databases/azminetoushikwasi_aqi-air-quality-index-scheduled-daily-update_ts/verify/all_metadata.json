@@ -1,0 +1,172 @@
+{
+    "question": {
+        "target": [
+            "AQI Value"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": true,
+        "related_features": [
+            "Country",
+            "Status"
+        ],
+        "not_filtered_related_features": [
+            "Status"
+        ],
+        "selected_features": [
+            "Status"
+        ],
+        "expected_ranges": {
+            "Status": [
+                "Good",
+                "Moderate",
+                "Unhealthy for Sensitive Groups",
+                "Unhealthy",
+                "Very Unhealthy",
+                "Hazardous"
+            ]
+        },
+        "column_type_inference": {
+            "Date": "object",
+            "Country": "object",
+            "Status": "object",
+            "AQI Value": "numeric"
+        },
+        "train_save_file": "./azminetoushikwasi_aqi-air-quality-index-scheduled-daily-update_ts/source/train.csv",
+        "val_v1_save_file": "./azminetoushikwasi_aqi-air-quality-index-scheduled-daily-update_ts/source/val_v1.csv",
+        "val_v2_save_file": "./azminetoushikwasi_aqi-air-quality-index-scheduled-daily-update_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./azminetoushikwasi_aqi-air-quality-index-scheduled-daily-update_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./azminetoushikwasi_aqi-air-quality-index-scheduled-daily-update_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./azminetoushikwasi_aqi-air-quality-index-scheduled-daily-update_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 8,
+        "model_type": "Prophet",
+        "output_file": "./azminetoushikwasi_aqi-air-quality-index-scheduled-daily-update_ts/prediction.json",
+        "ground_truth_v1_file": "./azminetoushikwasi_aqi-air-quality-index-scheduled-daily-update_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./azminetoushikwasi_aqi-air-quality-index-scheduled-daily-update_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./azminetoushikwasi_aqi-air-quality-index-scheduled-daily-update_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2025-02-27 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 2354989,
+        "ref": "azminetoushikwasi/aqi-air-quality-index-scheduled-daily-update",
+        "subtitle": "Country wise Daily AQI - Air Quality Index ",
+        "creatorName": "Azmine Toushik Wasi",
+        "creatorUrl": "azminetoushikwasi",
+        "totalBytes": 94359,
+        "url": "https://www.kaggle.com/datasets/azminetoushikwasi/aqi-air-quality-index-scheduled-daily-update",
+        "lastUpdated": "2025-08-21T02:30:51.123Z",
+        "downloadCount": 10429,
+        "licenseName": "Database: Open Database, Contents: \u00a9 Original Authors",
+        "description": "",
+        "ownerName": "Azmine Toushik Wasi",
+        "ownerRef": "azminetoushikwasi",
+        "kernelCount": 16,
+        "title": "AQI - Air Quality Index",
+        "viewCount": 52374,
+        "voteCount": 104,
+        "currentVersionNumber": 159,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "united states",
+                "name": "united states",
+                "description": "The top datasets and kernels in this tag are about mass shootings, AirBnB, homelessness, and witchcraft. That about sums it up.",
+                "fullPath": "geography and places > north america > united states",
+                "competitionCount": 2,
+                "datasetCount": 2639,
+                "scriptCount": 675,
+                "totalCount": 3316
+            },
+            {
+                "ref": "environment",
+                "name": "environment",
+                "description": "The environment tag is chock full of datasets and kernels that are generally showing how poorly we are treating the planet. One positive side to this tag is that it wasn't printed on paper.",
+                "fullPath": "subject > earth and nature > environment",
+                "competitionCount": 24,
+                "datasetCount": 1605,
+                "scriptCount": 612,
+                "totalCount": 2241
+            },
+            {
+                "ref": "pollution",
+                "name": "pollution",
+                "description": "Pollution is the introduction of contaminants into the natural environment that cause adverse change.",
+                "fullPath": "subject > earth and nature > environment > pollution",
+                "competitionCount": 6,
+                "datasetCount": 445,
+                "scriptCount": 228,
+                "totalCount": 679
+            },
+            {
+                "ref": "computer science",
+                "name": "computer science",
+                "description": "There is one thing we can say for sure about computer science: Computer science leads to more computer games which leads to better GPUs which leads to smarter AI.",
+                "fullPath": "subject > science and technology > computer science",
+                "competitionCount": 10,
+                "datasetCount": 57853,
+                "scriptCount": 733,
+                "totalCount": 58596
+            },
+            {
+                "ref": "geospatial analysis",
+                "name": "geospatial analysis",
+                "description": "",
+                "fullPath": "analysis > geospatial analysis",
+                "competitionCount": 22,
+                "datasetCount": 1243,
+                "scriptCount": 984,
+                "totalCount": 2249
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 2354989,
+        "datasetSlug": "aqi-air-quality-index-scheduled-daily-update",
+        "ownerUser": "azminetoushikwasi",
+        "usabilityRating": 1.0,
+        "totalViews": 51037,
+        "totalVotes": 103,
+        "totalDownloads": 9965,
+        "title": "AQI - Air Quality Index",
+        "subtitle": "Country wise Daily AQI - Air Quality Index ",
+        "description": "# Context\nThis dataset contains Air Quality Index of most the countries of the world.\n\n# Challenges\n- Time Series Analysis and Prediction\n- Seasonality finding\n- Geospatial Analysis\n\n# About  Air Quality Index (AQI\nThe Air Quality Index (AQI) is used for reporting daily air quality. It tells you how clean or polluted your air is, and what associated health effects might be a concern for you. The AQI focuses on health effects you may experience within a few hours or days after breathing polluted air.\n\n[![air-quality-index-numerical-scale-vector-24061819.jpg](https://i.postimg.cc/kgRWWChK/air-quality-index-numerical-scale-vector-24061819.jpg)](https://postimg.cc/tsy1HKb4)\n\n# Content\n- **data_date.csv** - date wise organised\n\n# Related Notebooks\n- [**AQI- Air Quality Index : EDA, Forecast [Scheduled]**](https://www.kaggle.com/azminetoushikwasi/aqi-air-quality-index-eda-forecast-scheduled/)\n\n\n# Download\n- kaggle API Command\n`!kaggle datasets download -d azminetoushikwasi/aqi-air-quality-index-scheduled-daily-update`\n\n## Disclaimer\n- The data collected are all publicly available and it's intended for educational purposes only.\n\n## Acknowledgement\n- Cover image taken from internet.\n\n## Appreciate, Support, Share\n\n=== About this file ===\n\nAbout this file\nRemote source:\nhttps://www.kaggle.com/code/azminetoushikwasi/daily-aqi-geospatial-analysis\nDate wise organized file.\nMultiple values can be present for same day, you are requested to take average by date and country for proper result - as AQI differs from morning to noon - evening - nights.\n\n\n=== Columns & descriptions ===\n\nDate: Date\nCountry: Country\nStatus: status\nAQI Value: AQI Value\n",
+        "keywords": [
+            "united states",
+            "environment",
+            "pollution",
+            "computer science",
+            "geospatial analysis",
+            "time series analysis"
+        ],
+        "licenses": [
+            {
+                "name": "ODbL-1.0"
+            }
+        ]
+    }
+}

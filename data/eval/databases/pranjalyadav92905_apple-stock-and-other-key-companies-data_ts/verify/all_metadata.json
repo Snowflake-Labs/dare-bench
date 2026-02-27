@@ -1,0 +1,185 @@
+{
+    "question": {
+        "target": [
+            "Close"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "Open",
+            "High",
+            "Low",
+            "Adj Close",
+            "Volume"
+        ],
+        "not_filtered_related_features": [
+            "Open",
+            "High",
+            "Low",
+            "Adj Close",
+            "Volume"
+        ],
+        "selected_features": [
+            "High",
+            "Open",
+            "Adj Close"
+        ],
+        "expected_ranges": {
+            "Open": [
+                0.0496650002896785,
+                236.47999572753903
+            ],
+            "High": [
+                0.0496650002896785,
+                237.4900054931641
+            ],
+            "Low": [
+                0.0491070002317428,
+                234.4499969482422
+            ],
+            "Adj Close": [
+                0.0378148816525936,
+                236.22010803222656
+            ],
+            "Volume": [
+                0,
+                7421640800
+            ]
+        },
+        "column_type_inference": {
+            "Date": "object",
+            "Open": "numeric",
+            "High": "numeric",
+            "Low": "numeric",
+            "Close": "numeric",
+            "Adj Close": "numeric",
+            "Volume": "numeric"
+        },
+        "train_save_file": "./pranjalyadav92905_apple-stock-and-other-key-companies-data_ts/source/train.csv",
+        "val_v1_save_file": "./pranjalyadav92905_apple-stock-and-other-key-companies-data_ts/source/val_v1.csv",
+        "val_v2_save_file": "./pranjalyadav92905_apple-stock-and-other-key-companies-data_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./pranjalyadav92905_apple-stock-and-other-key-companies-data_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./pranjalyadav92905_apple-stock-and-other-key-companies-data_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./pranjalyadav92905_apple-stock-and-other-key-companies-data_ts/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 49,
+        "model_type": "Prophet",
+        "output_file": "./pranjalyadav92905_apple-stock-and-other-key-companies-data_ts/prediction.json",
+        "ground_truth_v1_file": "./pranjalyadav92905_apple-stock-and-other-key-companies-data_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./pranjalyadav92905_apple-stock-and-other-key-companies-data_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./pranjalyadav92905_apple-stock-and-other-key-companies-data_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2011-08-23 00:00:00",
+        "contain_multiple_files": true
+    },
+    "data_info": {
+        "id": 7780859,
+        "ref": "pranjalyadav92905/apple-stock-and-other-key-companies-data",
+        "subtitle": "This dataset includes daily stock prices for Apple and its key companies Data",
+        "creatorName": "Pranjal Yadav",
+        "creatorUrl": "pranjalyadav92905",
+        "totalBytes": 990678,
+        "url": "https://www.kaggle.com/datasets/pranjalyadav92905/apple-stock-and-other-key-companies-data",
+        "lastUpdated": "2025-07-01T15:37:33.000Z",
+        "downloadCount": 56,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Pranjal Yadav",
+        "ownerRef": "pranjalyadav92905",
+        "kernelCount": 2,
+        "title": "Apple Stock and other key companies Data",
+        "viewCount": 353,
+        "voteCount": 3,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "finance",
+                "name": "finance",
+                "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+                "fullPath": "subject > people and society > business > finance",
+                "competitionCount": 101,
+                "datasetCount": 12683,
+                "scriptCount": 4576,
+                "totalCount": 17360
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "investing",
+                "name": "investing",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > investing",
+                "competitionCount": 5,
+                "datasetCount": 11998,
+                "scriptCount": 18559,
+                "totalCount": 30562
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7780859,
+        "datasetSlug": "apple-stock-and-other-key-companies-data",
+        "ownerUser": "pranjalyadav92905",
+        "usabilityRating": 1.0,
+        "totalViews": 120,
+        "totalVotes": 2,
+        "totalDownloads": 10,
+        "title": "Apple Stock and other key companies Data",
+        "subtitle": "This dataset includes daily stock prices for Apple and its key companies Data",
+        "description": "This dataset provides daily stock price data for Apple and several of its key affiliated companies. It includes essential financial metrics such as open, high, low, close prices, and trading volumes, making it ideal for:\n\n\ud83d\udcc8 Financial analysis\n\n\ud83d\udd01 Time series forecasting\n\n\ud83d\udd0d Correlation and trend studies\n\n\ud83e\udd1d Comparative studies across the tech sector\n\nThe data can be used to explore market behavior, investment strategies, and stock movement patterns between Apple and its ecosystem partners.\n\n\ud83d\udca1 If you find this dataset helpful for your projects or research, please consider giving it an upvote \u2014 it helps support my work and allows more people to discover useful data. Thank you! \ud83d\ude4c\n\n=== About this file ===\n\nAbout this file\nThis dataset contains historical stock price data for Apple Inc. (AAPL), collected from publicly available sources such as Yahoo Finance. It includes daily trading information such as open and close prices, trading volume, and adjusted closing prices. This data is often used in financial analysis, trend detection, and machine learning projects for time series forecasting or investment modeling.\n\n\n=== Columns & descriptions ===\n\nDate: The trading date in YYYY-MM-DD format\nOpen: Stock price at the beginning of the trading day\nHigh: Highest stock price during the trading day\nLow: Lowest stock price during the trading day\nClose: Stock price at market close on that trading day\nAdj Close: Closing price adjusted for dividends and stock splits\nVolume: Total number of shares traded on that particular day\n",
+        "keywords": [
+            "business",
+            "finance",
+            "exploratory data analysis",
+            "time series analysis",
+            "investing"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,188 @@
+{
+    "question": {
+        "target": [
+            "Rate your academic stress index"
+        ],
+        "target_candidates": [
+            "Rate your academic stress index"
+        ],
+        "related_features": [
+            "Do you have any bad habits like smoking, drinking on a daily basis?",
+            "What would you rate the academic  competition in your student life",
+            "Study Environment",
+            "Your Academic Stage",
+            "What coping strategy you use as a student?",
+            "Peer pressure",
+            "Academic pressure from your home"
+        ],
+        "not_filtered_related_features": [
+            "Do you have any bad habits like smoking, drinking on a daily basis?",
+            "What would you rate the academic  competition in your student life",
+            "Study Environment",
+            "Your Academic Stage",
+            "What coping strategy you use as a student?",
+            "Peer pressure",
+            "Academic pressure from your home"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Do you have any bad habits like smoking, drinking on a daily basis?": [
+                "No",
+                "prefer not to say",
+                "Yes"
+            ],
+            "What would you rate the academic  competition in your student life": [
+                1,
+                5
+            ],
+            "Study Environment": [
+                "Noisy",
+                "Peaceful",
+                "disrupted"
+            ],
+            "Your Academic Stage": [
+                "undergraduate",
+                "high school",
+                "post-graduate"
+            ],
+            "What coping strategy you use as a student?": [
+                "Analyze the situation and handle it with intellect",
+                "Social support (friends, family)",
+                "Emotional breakdown (crying a lot)"
+            ],
+            "Peer pressure": [
+                1,
+                5
+            ],
+            "Academic pressure from your home": [
+                1,
+                5
+            ]
+        },
+        "selected_features": [
+            "Academic pressure from your home",
+            "What coping strategy you use as a student?",
+            "Do you have any bad habits like smoking, drinking on a daily basis?",
+            "Study Environment",
+            "What would you rate the academic  competition in your student life"
+        ],
+        "train_v2_save_file": "./poushal02_student-academic-stress-real-world-dataset_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./poushal02_student-academic-stress-real-world-dataset_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./poushal02_student-academic-stress-real-world-dataset_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./poushal02_student-academic-stress-real-world-dataset_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./poushal02_student-academic-stress-real-world-dataset_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.7,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 49,
+        "model_type": "GaussianNB",
+        "output_file": "./poushal02_student-academic-stress-real-world-dataset_class/prediction.csv",
+        "ground_truth_file": "./poushal02_student-academic-stress-real-world-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./poushal02_student-academic-stress-real-world-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Timestamp": "categorical",
+            "Your Academic Stage": "categorical",
+            "Peer pressure": "numerical",
+            "Academic pressure from your home": "numerical",
+            "Study Environment": "categorical",
+            "What coping strategy you use as a student?": "categorical",
+            "Do you have any bad habits like smoking, drinking on a daily basis?": "categorical",
+            "What would you rate the academic  competition in your student life": "numerical",
+            "Rate your academic stress index": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Academic pressure from your home",
+            "What would you rate the academic  competition in your student life"
+        ],
+        "categorical_features": [
+            "What coping strategy you use as a student?",
+            "Do you have any bad habits like smoking, drinking on a daily basis?",
+            "Study Environment"
+        ]
+    },
+    "data_info": {
+        "id": 8032342,
+        "ref": "poushal02/student-academic-stress-real-world-dataset",
+        "subtitle": "The academic stress of students in current days.",
+        "creatorName": "Poushali Bhattacharyya",
+        "creatorUrl": "poushal02",
+        "totalBytes": 2104,
+        "url": "https://www.kaggle.com/datasets/poushal02/student-academic-stress-real-world-dataset",
+        "lastUpdated": "2025-08-20T07:49:12.000Z",
+        "downloadCount": 1517,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Poushali Bhattacharyya",
+        "ownerRef": "poushal02",
+        "kernelCount": 18,
+        "title": "Student Academic Stress Real World Dataset",
+        "viewCount": 6169,
+        "voteCount": 40,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "universities and colleges",
+                "name": "universities and colleges",
+                "description": "This tag contains all kinds of information about which colleges are good and how much money people make after attending classes there.",
+                "fullPath": "subject > people and society > education > universities and colleges",
+                "competitionCount": 1,
+                "datasetCount": 13676,
+                "scriptCount": 506,
+                "totalCount": 14183
+            },
+            {
+                "ref": "india",
+                "name": "india",
+                "description": "This tag will take you to the wonderful land of datasets and kernels related to India. You will find topics that range far and wide. There's education, travel, weather, and crime, too.",
+                "fullPath": "geography and places > asia > india",
+                "competitionCount": 4,
+                "datasetCount": 2433,
+                "scriptCount": 945,
+                "totalCount": 3382
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 8032342,
+        "datasetSlug": "student-academic-stress-real-world-dataset",
+        "ownerUser": "poushal02",
+        "usabilityRating": 1.0,
+        "totalViews": 6174,
+        "totalVotes": 40,
+        "totalDownloads": 1519,
+        "title": "Student Academic Stress Real World Dataset",
+        "subtitle": "The academic stress of students in current days.",
+        "description": "***\n\n## \ud83d\udcc4 **Dataset: Academic Stress Analysis Among Students**\n\n### **Overview**\nThis dataset captures **real-world insights into the academic stress levels of students** across different educational stages. The data was collected via **Google Forms** from a diverse group of students spanning **high school, undergraduate, and postgraduate** levels. \n\nYou can give your data by filling this form and help this dataset grow :\nhttps://forms.gle/awqySh98RqENkmVc9\n\nAcademic stress is a growing concern among students worldwide, significantly affecting their mental well-being and academic performance. This dataset aims to quantify the factors contributing to academic stress and provide a foundation for **data-driven research, mental health analysis, and educational policy improvement**.\n\n***\n\n### \ud83e\udde9 **Data Collection**\n- **Source:** Structured Google Form survey  \n- **Population:** Students from various institutions, academic stages, and disciplines  \n- **Sampling Method:** Voluntary participation through social media groups, student communities, and direct outreach  \n- **Location:** Collected from diverse regions (can specify if country/region-specific)  \n- **Time Frame:** (Add date/month/year)  \n\n***\n\n### \ud83d\udcca **Dataset Structure**\nThe dataset maintains a **tabular format** with 8 columns:  \n\n| Column Name | Data Type | Description |\n|-------------|-----------|-------------|\n| **Academic Stage** | Categorical (`high school`, `undergraduate`, `postgraduate`) | Educational level of the student, useful for analyzing stress differences by stage. |\n| **Peer Pressure** | Numerical (1\u20135 scale) | Influence of peers through competition, comparison, and social expectations \u2014 a notable driver of stress. |\n| **Academic Pressure from Home** | Numerical (1\u20135 scale) | Extent of academic expectations or pressure exerted by family or household. |\n| **Study Environment** | Categorical (`noisy`, `peaceful`, `disrupted`) | Quality of the study environment impacting focus and productivity. |\n| **Coping Strategy** | Categorical (`analyzing the problem with intellect`, `emotional breakdown`, `social support`) | Methods students use to cope with stress and challenges. |\n| **Bad Habits** | Text / Multi-category (e.g., `smoking`, `drinking`, `none`) | Negative habits students may resort to under stress. |\n| **Academic Competition** | Numerical (1\u20135 scale) | Intensity of competition among peers, which can elevate stress levels. |\n| **Stress Index** *(Target Variable)* | Numerical (1\u20135 scale) | Self-reported stress level of the student, serving as the dependent variable for prediction. |\n\n***\n## **\ud83d\udcdf Data Feature details**\n**Academic Stage** : This feature has the values high school, undergraduate, postgraduate. The academic stage can be an effective information on this data.\n\n**Peer Pressure** : This feature is the scaling from 1 to 5. Peer pressure on the sense of jealousy, competition, comparison, etc factors that highly impact the student's mental health. In many cases students feel less confident, or stressful reasoned by these matters.\n\n**Academic Pressure from your home** : This feature is the scaling from 1 to 5. In our society the pressure from household effects negatively in the academic life of students. In most scenarios the reasons behind the cases of suicides of students are found in the household environment of students.\n\n**Study Environment** : This feature has the choices - noisy, peaceful, disrupted. The peaceful, organized study desk brings the most productive study methods, and creates an organized mindset for the student. On the contrary, the noisy, disrupted desk often ruins the academic mentality of student, increasing stress.\n\n**Coping strategy students use** : This feature has the values - analyzing the problem with intellect, the emotional breakdown, or social support. The reason behind this topic is to identify the source of emotional intelligence of student, which reversibly impacts the stress of the student.\n\n**Bad Habits** : This feature is included to get the student's stress relief methodology. The more the student lean on bad habits like smoking, drinking, or etc the less likely their stress is going to release.\n\n**Academic Competition** : This feature has one goal, to get the academic competition among students, which largely increases stress.\n\n**Stress Index** : The output column taken from the student on a scale of 1 to 5.\n\n\n***\n### \ud83c\udfaf **Purpose & Goals**\nThe primary goal of this dataset is to **analyze trends, factors, and correlations** contributing to academic stress. It can be used for:\n- **Mental Health Studies** \u2013 Understanding behavioral and environmental triggers of stress.\n- **Educational Research** \u2013 Building models to predict stress levels and recommending interventions.\n- **Policy Making** \u2013 Designing informed programs to reduce student stress.\n- **Machine Learning Projects** \u2013 Stress prediction, regression modeling, clustering for identifying stress profiles.\n\n***\n\n### \ud83d\udca1 **Potential Use Cases**\n- **Stress Level Prediction:** Train ML models to predict stress index using academic and environmental factors.\n- **Correlation Analysis:** Study relationships between peer pressure, academic competition, and mental well-being.\n- **Cluster Analysis:** Group students into stress categories to design tailored support strategies.\n- **Data Visualization Projects:** Create dashboards communicating student well-being patterns.\n\n***\n\n### \u26a0\ufe0f **Ethical Considerations**\n- All responses were collected **anonymously** with participant consent.\n- The dataset should not be used for profiling or making harmful assumptions about specific individuals or groups.\n- When building predictive models, be mindful of **bias** and the **context of the results**.\n\n***\n\n### \ud83d\udccc **Acknowledgements**\nSpecial thanks to all participating students for their openness and contribution toward understanding academic stress. Your insights can help shape better support systems for learners worldwide.  \n\n***\n\n=== About this file ===\n\nAbout this file\nThis is the second version of this dataset, containing 140 values.\n\n\n=== Columns & descriptions ===\n\nTimestamp: Time when the responses came\nYour Academic Stage: Academic stage of responder\nPeer pressure: Peer pressure marked from 1 to 5\nAcademic pressure from your home: Academic pressure marked from 1 to 5\nStudy Environment: Study environment description\nWhat coping strategy you use as a student?: Coping Strategy description\nDo you have any bad habits like smoking, drinking on a daily basis?: Bad habits like smoking drinking etc\nWhat would you rate the academic  competition in your student life: Rating of academic competition\nRate your academic stress index: Final column rating of academic stress\n",
+        "keywords": [
+            "universities and colleges",
+            "india",
+            "classification"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

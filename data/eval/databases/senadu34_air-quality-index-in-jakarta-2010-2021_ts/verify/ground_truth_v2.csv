@@ -1,0 +1,556 @@
+tanggal,stasiun,max
+2023-06-17,DKI1 (Bunderan HI),85.0
+2023-07-02,DKI1 (Bunderan HI),83.0
+2023-10-02,DKI1 (Bunderan HI),122.0
+2023-11-18,DKI1 (Bunderan HI),120.0
+2023-11-19,DKI1 (Bunderan HI),80.0
+2023-11-23,DKI1 (Bunderan HI),93.0
+2023-11-26,DKI1 (Bunderan HI),75.0
+2023-11-28,DKI1 (Bunderan HI),96.0
+2023-11-30,DKI1 (Bunderan HI),67.0
+2024-01-02,DKI1 (Bunderan HI),93.0
+2024-01-04,DKI1 (Bunderan HI),112.0
+2024-07-02,DKI1 (Bunderan HI),74.0
+2024-07-09,DKI1 (Bunderan HI),66.0
+2024-07-23,DKI1 (Bunderan HI),92.0
+2024-09-06,DKI1 (Bunderan HI),86.0
+2024-09-08,DKI1 (Bunderan HI),84.0
+2024-09-20,DKI1 (Bunderan HI),88.0
+2024-10-21,DKI1 (Bunderan HI),82.0
+2024-10-27,DKI1 (Bunderan HI),78.0
+2024-11-11,DKI1 (Bunderan HI),71.0
+2024-12-01,DKI1 (Bunderan HI),67.0
+2024-12-02,DKI1 (Bunderan HI),67.0
+2024-12-03,DKI1 (Bunderan HI),67.0
+2024-12-04,DKI1 (Bunderan HI),67.0
+2024-12-05,DKI1 (Bunderan HI),67.0
+2024-12-06,DKI1 (Bunderan HI),68.0
+2024-12-07,DKI1 (Bunderan HI),103.0
+2024-12-08,DKI1 (Bunderan HI),68.0
+2024-12-09,DKI1 (Bunderan HI),69.0
+2024-12-10,DKI1 (Bunderan HI),68.0
+2024-12-11,DKI1 (Bunderan HI),68.0
+2024-12-12,DKI1 (Bunderan HI),68.0
+2024-12-14,DKI1 (Bunderan HI),68.0
+2024-12-15,DKI1 (Bunderan HI),68.0
+2024-12-16,DKI1 (Bunderan HI),68.0
+2024-12-17,DKI1 (Bunderan HI),68.0
+2024-12-18,DKI1 (Bunderan HI),69.0
+2024-12-19,DKI1 (Bunderan HI),68.0
+2024-12-20,DKI1 (Bunderan HI),69.0
+2024-12-21,DKI1 (Bunderan HI),53.0
+2024-12-22,DKI1 (Bunderan HI),80.0
+2024-12-23,DKI1 (Bunderan HI),78.0
+2024-12-25,DKI1 (Bunderan HI),79.0
+2024-12-26,DKI1 (Bunderan HI),62.0
+2024-12-27,DKI1 (Bunderan HI),83.0
+2024-12-28,DKI1 (Bunderan HI),101.0
+2025-01-14,DKI1 (Bunderan HI),54.0
+2025-01-15,DKI1 (Bunderan HI),62.0
+2025-01-16,DKI1 (Bunderan HI),62.0
+2025-01-19,DKI1 (Bunderan HI),50.0
+2025-02-05,DKI1 (Bunderan HI),47.0
+2025-02-06,DKI1 (Bunderan HI),53.0
+2025-02-21,DKI1 (Bunderan HI),72.0
+2022-05-11,DKI2 (Kelapa Gading),81.0
+2022-05-13,DKI2 (Kelapa Gading),65.0
+2022-06-03,DKI2 (Kelapa Gading),72.0
+2022-06-28,DKI2 (Kelapa Gading),82.0
+2022-07-03,DKI2 (Kelapa Gading),126.0
+2022-07-08,DKI2 (Kelapa Gading),95.0
+2022-07-09,DKI2 (Kelapa Gading),107.0
+2022-07-21,DKI2 (Kelapa Gading),114.0
+2022-07-24,DKI2 (Kelapa Gading),94.0
+2022-07-25,DKI2 (Kelapa Gading),91.0
+2022-07-27,DKI2 (Kelapa Gading),118.0
+2022-08-08,DKI2 (Kelapa Gading),97.0
+2022-08-09,DKI2 (Kelapa Gading),103.0
+2022-08-12,DKI2 (Kelapa Gading),97.0
+2022-08-16,DKI2 (Kelapa Gading),181.0
+2022-08-17,DKI2 (Kelapa Gading),108.0
+2022-08-22,DKI2 (Kelapa Gading),79.0
+2022-09-23,DKI2 (Kelapa Gading),97.0
+2022-10-25,DKI2 (Kelapa Gading),53.0
+2022-11-18,DKI2 (Kelapa Gading),53.0
+2022-12-23,DKI2 (Kelapa Gading),57.0
+2022-12-25,DKI2 (Kelapa Gading),57.0
+2022-12-26,DKI2 (Kelapa Gading),62.0
+2022-12-27,DKI2 (Kelapa Gading),58.0
+2022-12-29,DKI2 (Kelapa Gading),57.0
+2023-01-01,DKI2 (Kelapa Gading),61.0
+2023-01-02,DKI2 (Kelapa Gading),59.0
+2023-01-03,DKI2 (Kelapa Gading),57.0
+2023-01-04,DKI2 (Kelapa Gading),60.0
+2023-01-23,DKI2 (Kelapa Gading),62.0
+2023-01-24,DKI2 (Kelapa Gading),60.0
+2023-01-25,DKI2 (Kelapa Gading),60.0
+2023-11-13,DKI2 (Kelapa Gading),94.0
+2023-12-23,DKI2 (Kelapa Gading),57.0
+2023-12-25,DKI2 (Kelapa Gading),57.0
+2023-12-26,DKI2 (Kelapa Gading),62.0
+2023-12-27,DKI2 (Kelapa Gading),58.0
+2023-12-29,DKI2 (Kelapa Gading),57.0
+2024-01-07,DKI2 (Kelapa Gading),87.0
+2024-01-12,DKI2 (Kelapa Gading),57.0
+2024-01-27,DKI2 (Kelapa Gading),53.0
+2024-02-04,DKI2 (Kelapa Gading),54.0
+2024-02-23,DKI2 (Kelapa Gading),62.0
+2024-02-25,DKI2 (Kelapa Gading),56.0
+2024-02-28,DKI2 (Kelapa Gading),62.0
+2024-03-07,DKI2 (Kelapa Gading),55.0
+2024-03-08,DKI2 (Kelapa Gading),54.0
+2024-03-09,DKI2 (Kelapa Gading),55.0
+2024-03-16,DKI2 (Kelapa Gading),54.0
+2024-03-18,DKI2 (Kelapa Gading),55.0
+2024-04-08,DKI2 (Kelapa Gading),82.0
+2024-04-18,DKI2 (Kelapa Gading),70.0
+2024-04-19,DKI2 (Kelapa Gading),64.0
+2024-05-01,DKI2 (Kelapa Gading),66.0
+2024-05-10,DKI2 (Kelapa Gading),103.0
+2024-05-11,DKI2 (Kelapa Gading),92.0
+2024-05-12,DKI2 (Kelapa Gading),89.0
+2024-05-16,DKI2 (Kelapa Gading),115.0
+2024-05-17,DKI2 (Kelapa Gading),102.0
+2024-05-18,DKI2 (Kelapa Gading),110.0
+2024-05-19,DKI2 (Kelapa Gading),95.0
+2024-06-06,DKI2 (Kelapa Gading),87.0
+2024-06-11,DKI2 (Kelapa Gading),99.0
+2024-06-15,DKI2 (Kelapa Gading),77.0
+2024-06-20,DKI2 (Kelapa Gading),94.0
+2024-06-23,DKI2 (Kelapa Gading),104.0
+2024-06-27,DKI2 (Kelapa Gading),96.0
+2024-06-28,DKI2 (Kelapa Gading),75.0
+2024-06-30,DKI2 (Kelapa Gading),68.0
+2024-07-10,DKI2 (Kelapa Gading),79.0
+2024-07-12,DKI2 (Kelapa Gading),98.0
+2024-07-15,DKI2 (Kelapa Gading),96.0
+2024-07-18,DKI2 (Kelapa Gading),95.0
+2024-07-21,DKI2 (Kelapa Gading),89.0
+2024-07-24,DKI2 (Kelapa Gading),115.0
+2024-07-25,DKI2 (Kelapa Gading),92.0
+2024-07-26,DKI2 (Kelapa Gading),93.0
+2024-07-27,DKI2 (Kelapa Gading),100.0
+2024-07-28,DKI2 (Kelapa Gading),104.0
+2024-07-30,DKI2 (Kelapa Gading),106.0
+2024-08-03,DKI2 (Kelapa Gading),70.0
+2024-08-04,DKI2 (Kelapa Gading),83.0
+2024-08-06,DKI2 (Kelapa Gading),83.0
+2024-08-24,DKI2 (Kelapa Gading),101.0
+2024-08-25,DKI2 (Kelapa Gading),93.0
+2024-08-28,DKI2 (Kelapa Gading),94.0
+2024-09-03,DKI2 (Kelapa Gading),100.0
+2024-09-04,DKI2 (Kelapa Gading),89.0
+2024-09-09,DKI2 (Kelapa Gading),72.0
+2024-09-10,DKI2 (Kelapa Gading),79.0
+2024-09-17,DKI2 (Kelapa Gading),87.0
+2024-09-18,DKI2 (Kelapa Gading),84.0
+2024-09-19,DKI2 (Kelapa Gading),89.0
+2024-10-03,DKI2 (Kelapa Gading),96.0
+2024-10-05,DKI2 (Kelapa Gading),82.0
+2024-10-08,DKI2 (Kelapa Gading),84.0
+2024-10-17,DKI2 (Kelapa Gading),77.0
+2024-10-18,DKI2 (Kelapa Gading),80.0
+2024-10-19,DKI2 (Kelapa Gading),102.0
+2024-10-22,DKI2 (Kelapa Gading),106.0
+2024-10-23,DKI2 (Kelapa Gading),90.0
+2024-10-28,DKI2 (Kelapa Gading),90.0
+2024-10-29,DKI2 (Kelapa Gading),86.0
+2024-11-09,DKI2 (Kelapa Gading),100.0
+2024-11-10,DKI2 (Kelapa Gading),77.0
+2024-11-21,DKI2 (Kelapa Gading),70.0
+2024-11-28,DKI2 (Kelapa Gading),59.0
+2024-12-13,DKI2 (Kelapa Gading),72.0
+2024-12-24,DKI2 (Kelapa Gading),63.0
+2024-12-29,DKI2 (Kelapa Gading),61.0
+2024-12-30,DKI2 (Kelapa Gading),50.0
+2024-12-31,DKI2 (Kelapa Gading),35.0
+2025-02-13,DKI2 (Kelapa Gading),79.0
+2025-02-18,DKI2 (Kelapa Gading),69.0
+2023-02-10,DKI3 (Jagakarsa),53.0
+2023-02-13,DKI3 (Jagakarsa),53.0
+2023-02-15,DKI3 (Jagakarsa),53.0
+2023-02-16,DKI3 (Jagakarsa),54.0
+2023-02-17,DKI3 (Jagakarsa),53.0
+2023-02-20,DKI3 (Jagakarsa),56.0
+2023-02-21,DKI3 (Jagakarsa),45.0
+2023-02-22,DKI3 (Jagakarsa),44.0
+2023-02-25,DKI3 (Jagakarsa),61.0
+2023-02-28,DKI3 (Jagakarsa),63.0
+2023-03-03,DKI3 (Jagakarsa),52.0
+2023-03-04,DKI3 (Jagakarsa),60.0
+2023-03-06,DKI3 (Jagakarsa),55.0
+2023-03-07,DKI3 (Jagakarsa),70.0
+2023-03-08,DKI3 (Jagakarsa),87.0
+2023-03-10,DKI3 (Jagakarsa),79.0
+2023-03-14,DKI3 (Jagakarsa),81.0
+2023-03-24,DKI3 (Jagakarsa),87.0
+2023-04-02,DKI3 (Jagakarsa),56.0
+2023-04-04,DKI3 (Jagakarsa),69.0
+2023-04-10,DKI3 (Jagakarsa),57.0
+2023-04-13,DKI3 (Jagakarsa),60.0
+2023-05-01,DKI3 (Jagakarsa),80.0
+2023-11-27,DKI3 (Jagakarsa),77.0
+2023-12-09,DKI3 (Jagakarsa),94.0
+2023-12-13,DKI3 (Jagakarsa),71.0
+2023-12-14,DKI3 (Jagakarsa),71.0
+2023-12-21,DKI3 (Jagakarsa),86.0
+2023-12-24,DKI3 (Jagakarsa),92.0
+2023-12-28,DKI3 (Jagakarsa),66.0
+2024-01-13,DKI3 (Jagakarsa),66.0
+2024-01-17,DKI3 (Jagakarsa),65.0
+2024-01-18,DKI3 (Jagakarsa),76.0
+2024-01-19,DKI3 (Jagakarsa),76.0
+2024-01-20,DKI3 (Jagakarsa),66.0
+2024-01-21,DKI3 (Jagakarsa),79.0
+2024-01-22,DKI3 (Jagakarsa),56.0
+2024-01-24,DKI3 (Jagakarsa),65.0
+2024-02-06,DKI3 (Jagakarsa),74.0
+2024-02-13,DKI3 (Jagakarsa),187.0
+2024-02-14,DKI3 (Jagakarsa),202.0
+2024-02-26,DKI3 (Jagakarsa),56.0
+2024-03-04,DKI3 (Jagakarsa),61.0
+2024-03-05,DKI3 (Jagakarsa),62.0
+2024-03-06,DKI3 (Jagakarsa),61.0
+2024-03-11,DKI3 (Jagakarsa),79.0
+2024-03-13,DKI3 (Jagakarsa),68.0
+2024-03-14,DKI3 (Jagakarsa),65.0
+2024-03-15,DKI3 (Jagakarsa),62.0
+2024-03-17,DKI3 (Jagakarsa),58.0
+2024-03-19,DKI3 (Jagakarsa),75.0
+2024-03-20,DKI3 (Jagakarsa),62.0
+2024-03-21,DKI3 (Jagakarsa),68.0
+2024-04-06,DKI3 (Jagakarsa),92.0
+2024-04-09,DKI3 (Jagakarsa),84.0
+2024-06-14,DKI3 (Jagakarsa),91.0
+2024-06-17,DKI3 (Jagakarsa),81.0
+2024-06-18,DKI3 (Jagakarsa),141.0
+2024-06-25,DKI3 (Jagakarsa),98.0
+2024-07-06,DKI3 (Jagakarsa),61.0
+2024-07-07,DKI3 (Jagakarsa),85.0
+2024-07-08,DKI3 (Jagakarsa),66.0
+2024-11-03,DKI3 (Jagakarsa),81.0
+2024-11-04,DKI3 (Jagakarsa),77.0
+2024-11-12,DKI3 (Jagakarsa),82.0
+2024-11-23,DKI3 (Jagakarsa),78.0
+2024-11-24,DKI3 (Jagakarsa),68.0
+2024-11-25,DKI3 (Jagakarsa),73.0
+2024-11-26,DKI3 (Jagakarsa),71.0
+2024-11-27,DKI3 (Jagakarsa),77.0
+2024-11-29,DKI3 (Jagakarsa),67.0
+2024-11-30,DKI3 (Jagakarsa),67.0
+2025-01-01,DKI3 (Jagakarsa),73.0
+2025-01-02,DKI3 (Jagakarsa),60.0
+2025-01-03,DKI3 (Jagakarsa),69.0
+2025-01-04,DKI3 (Jagakarsa),62.0
+2025-01-05,DKI3 (Jagakarsa),68.0
+2025-01-06,DKI3 (Jagakarsa),79.0
+2025-01-07,DKI3 (Jagakarsa),71.0
+2025-01-08,DKI3 (Jagakarsa),54.0
+2025-01-09,DKI3 (Jagakarsa),51.0
+2025-01-10,DKI3 (Jagakarsa),77.0
+2025-01-11,DKI3 (Jagakarsa),63.0
+2025-01-12,DKI3 (Jagakarsa),64.0
+2025-01-13,DKI3 (Jagakarsa),59.0
+2025-01-17,DKI3 (Jagakarsa),59.0
+2025-01-21,DKI3 (Jagakarsa),58.0
+2025-01-23,DKI3 (Jagakarsa),90.0
+2025-01-24,DKI3 (Jagakarsa),75.0
+2025-01-26,DKI3 (Jagakarsa),63.0
+2025-01-27,DKI3 (Jagakarsa),54.0
+2025-01-28,DKI3 (Jagakarsa),46.0
+2025-01-29,DKI3 (Jagakarsa),40.0
+2025-01-31,DKI3 (Jagakarsa),55.0
+2025-02-01,DKI3 (Jagakarsa),57.0
+2025-02-02,DKI3 (Jagakarsa),68.0
+2025-02-03,DKI3 (Jagakarsa),64.0
+2025-02-04,DKI3 (Jagakarsa),84.0
+2025-02-07,DKI3 (Jagakarsa),58.0
+2025-02-08,DKI3 (Jagakarsa),56.0
+2025-02-09,DKI3 (Jagakarsa),60.0
+2025-02-10,DKI3 (Jagakarsa),69.0
+2025-02-11,DKI3 (Jagakarsa),66.0
+2025-02-12,DKI3 (Jagakarsa),85.0
+2025-02-14,DKI3 (Jagakarsa),71.0
+2025-02-15,DKI3 (Jagakarsa),60.0
+2025-02-16,DKI3 (Jagakarsa),92.0
+2025-02-17,DKI3 (Jagakarsa),75.0
+2025-02-20,DKI3 (Jagakarsa),56.0
+2025-02-22,DKI3 (Jagakarsa),70.0
+2025-02-24,DKI3 (Jagakarsa),70.0
+2025-02-26,DKI3 (Jagakarsa),65.0
+2023-09-12,DKI4 (Lubang Buaya),152.0
+2023-09-13,DKI4 (Lubang Buaya),107.0
+2023-09-14,DKI4 (Lubang Buaya),93.0
+2023-09-15,DKI4 (Lubang Buaya),108.0
+2023-09-16,DKI4 (Lubang Buaya),113.0
+2023-09-17,DKI4 (Lubang Buaya),110.0
+2023-09-18,DKI4 (Lubang Buaya),86.0
+2023-09-19,DKI4 (Lubang Buaya),109.0
+2023-09-20,DKI4 (Lubang Buaya),98.0
+2023-09-21,DKI4 (Lubang Buaya),101.0
+2023-09-22,DKI4 (Lubang Buaya),93.0
+2023-09-23,DKI4 (Lubang Buaya),111.0
+2023-09-24,DKI4 (Lubang Buaya),92.0
+2023-09-25,DKI4 (Lubang Buaya),114.0
+2023-09-26,DKI4 (Lubang Buaya),249.0
+2023-09-27,DKI4 (Lubang Buaya),217.0
+2023-09-28,DKI4 (Lubang Buaya),287.0
+2023-09-29,DKI4 (Lubang Buaya),143.0
+2023-10-01,DKI4 (Lubang Buaya),199.0
+2023-10-03,DKI4 (Lubang Buaya),93.0
+2023-10-04,DKI4 (Lubang Buaya),115.0
+2023-10-05,DKI4 (Lubang Buaya),123.0
+2023-10-06,DKI4 (Lubang Buaya),111.0
+2023-10-07,DKI4 (Lubang Buaya),141.0
+2023-10-08,DKI4 (Lubang Buaya),148.0
+2023-10-09,DKI4 (Lubang Buaya),122.0
+2023-10-10,DKI4 (Lubang Buaya),121.0
+2023-10-11,DKI4 (Lubang Buaya),106.0
+2023-10-12,DKI4 (Lubang Buaya),123.0
+2023-10-13,DKI4 (Lubang Buaya),121.0
+2023-10-14,DKI4 (Lubang Buaya),110.0
+2023-10-15,DKI4 (Lubang Buaya),117.0
+2023-10-16,DKI4 (Lubang Buaya),122.0
+2023-10-17,DKI4 (Lubang Buaya),129.0
+2023-10-18,DKI4 (Lubang Buaya),122.0
+2023-10-19,DKI4 (Lubang Buaya),116.0
+2023-10-20,DKI4 (Lubang Buaya),106.0
+2023-10-21,DKI4 (Lubang Buaya),109.0
+2023-10-22,DKI4 (Lubang Buaya),114.0
+2023-10-23,DKI4 (Lubang Buaya),133.0
+2023-10-24,DKI4 (Lubang Buaya),107.0
+2023-10-25,DKI4 (Lubang Buaya),103.0
+2023-10-26,DKI4 (Lubang Buaya),114.0
+2023-10-27,DKI4 (Lubang Buaya),116.0
+2023-10-28,DKI4 (Lubang Buaya),122.0
+2023-10-29,DKI4 (Lubang Buaya),150.0
+2023-10-30,DKI4 (Lubang Buaya),108.0
+2023-10-31,DKI4 (Lubang Buaya),108.0
+2023-11-01,DKI4 (Lubang Buaya),104.0
+2023-11-02,DKI4 (Lubang Buaya),109.0
+2023-11-03,DKI4 (Lubang Buaya),108.0
+2023-11-04,DKI4 (Lubang Buaya),124.0
+2023-11-05,DKI4 (Lubang Buaya),74.0
+2023-11-06,DKI4 (Lubang Buaya),92.0
+2023-11-07,DKI4 (Lubang Buaya),107.0
+2023-11-08,DKI4 (Lubang Buaya),92.0
+2023-11-09,DKI4 (Lubang Buaya),109.0
+2023-11-10,DKI4 (Lubang Buaya),109.0
+2023-11-12,DKI4 (Lubang Buaya),93.0
+2023-11-14,DKI4 (Lubang Buaya),109.0
+2023-11-15,DKI4 (Lubang Buaya),79.0
+2023-11-16,DKI4 (Lubang Buaya),95.0
+2023-11-17,DKI4 (Lubang Buaya),87.0
+2023-11-21,DKI4 (Lubang Buaya),89.0
+2023-11-22,DKI4 (Lubang Buaya),74.0
+2023-11-29,DKI4 (Lubang Buaya),105.0
+2023-12-01,DKI4 (Lubang Buaya),93.0
+2023-12-02,DKI4 (Lubang Buaya),94.0
+2023-12-03,DKI4 (Lubang Buaya),100.0
+2023-12-04,DKI4 (Lubang Buaya),95.0
+2023-12-05,DKI4 (Lubang Buaya),117.0
+2023-12-06,DKI4 (Lubang Buaya),107.0
+2023-12-07,DKI4 (Lubang Buaya),88.0
+2023-12-08,DKI4 (Lubang Buaya),85.0
+2023-12-10,DKI4 (Lubang Buaya),72.0
+2023-12-11,DKI4 (Lubang Buaya),72.0
+2023-12-12,DKI4 (Lubang Buaya),62.0
+2023-12-15,DKI4 (Lubang Buaya),60.0
+2023-12-16,DKI4 (Lubang Buaya),83.0
+2023-12-17,DKI4 (Lubang Buaya),98.0
+2023-12-18,DKI4 (Lubang Buaya),96.0
+2023-12-19,DKI4 (Lubang Buaya),99.0
+2023-12-20,DKI4 (Lubang Buaya),154.0
+2023-12-22,DKI4 (Lubang Buaya),65.0
+2023-12-30,DKI4 (Lubang Buaya),64.0
+2023-12-31,DKI4 (Lubang Buaya),73.0
+2024-01-01,DKI4 (Lubang Buaya),110.0
+2024-01-03,DKI4 (Lubang Buaya),66.0
+2024-01-05,DKI4 (Lubang Buaya),62.0
+2024-01-06,DKI4 (Lubang Buaya),70.0
+2024-01-08,DKI4 (Lubang Buaya),76.0
+2024-01-09,DKI4 (Lubang Buaya),84.0
+2024-01-10,DKI4 (Lubang Buaya),102.0
+2024-01-11,DKI4 (Lubang Buaya),81.0
+2024-01-14,DKI4 (Lubang Buaya),64.0
+2024-01-16,DKI4 (Lubang Buaya),62.0
+2024-01-23,DKI4 (Lubang Buaya),58.0
+2024-01-25,DKI4 (Lubang Buaya),62.0
+2024-01-26,DKI4 (Lubang Buaya),77.0
+2024-01-29,DKI4 (Lubang Buaya),63.0
+2024-01-30,DKI4 (Lubang Buaya),82.0
+2024-01-31,DKI4 (Lubang Buaya),57.0
+2024-02-01,DKI4 (Lubang Buaya),90.0
+2024-02-03,DKI4 (Lubang Buaya),56.0
+2024-02-05,DKI4 (Lubang Buaya),77.0
+2024-02-07,DKI4 (Lubang Buaya),58.0
+2024-02-08,DKI4 (Lubang Buaya),90.0
+2024-02-09,DKI4 (Lubang Buaya),86.0
+2024-02-10,DKI4 (Lubang Buaya),74.0
+2024-02-11,DKI4 (Lubang Buaya),85.0
+2024-02-12,DKI4 (Lubang Buaya),80.0
+2024-02-15,DKI4 (Lubang Buaya),76.0
+2024-02-16,DKI4 (Lubang Buaya),103.0
+2024-02-17,DKI4 (Lubang Buaya),74.0
+2024-02-18,DKI4 (Lubang Buaya),71.0
+2024-02-19,DKI4 (Lubang Buaya),91.0
+2024-02-20,DKI4 (Lubang Buaya),94.0
+2024-02-22,DKI4 (Lubang Buaya),86.0
+2024-02-24,DKI4 (Lubang Buaya),67.0
+2024-02-27,DKI4 (Lubang Buaya),96.0
+2024-02-29,DKI4 (Lubang Buaya),59.0
+2024-03-02,DKI4 (Lubang Buaya),72.0
+2024-03-03,DKI4 (Lubang Buaya),58.0
+2024-03-10,DKI4 (Lubang Buaya),96.0
+2024-03-23,DKI4 (Lubang Buaya),122.0
+2024-03-25,DKI4 (Lubang Buaya),69.0
+2024-03-26,DKI4 (Lubang Buaya),93.0
+2024-03-27,DKI4 (Lubang Buaya),92.0
+2024-03-28,DKI4 (Lubang Buaya),128.0
+2024-04-01,DKI4 (Lubang Buaya),113.0
+2024-04-03,DKI4 (Lubang Buaya),97.0
+2024-04-07,DKI4 (Lubang Buaya),83.0
+2024-04-10,DKI4 (Lubang Buaya),96.0
+2024-04-11,DKI4 (Lubang Buaya),62.0
+2024-04-16,DKI4 (Lubang Buaya),64.0
+2024-04-20,DKI4 (Lubang Buaya),95.0
+2024-04-21,DKI4 (Lubang Buaya),76.0
+2024-04-23,DKI4 (Lubang Buaya),84.0
+2024-04-26,DKI4 (Lubang Buaya),71.0
+2024-04-27,DKI4 (Lubang Buaya),80.0
+2024-04-28,DKI4 (Lubang Buaya),80.0
+2024-04-29,DKI4 (Lubang Buaya),81.0
+2024-04-30,DKI4 (Lubang Buaya),91.0
+2024-05-05,DKI4 (Lubang Buaya),107.0
+2024-05-06,DKI4 (Lubang Buaya),97.0
+2024-05-09,DKI4 (Lubang Buaya),111.0
+2024-05-13,DKI4 (Lubang Buaya),82.0
+2024-05-15,DKI4 (Lubang Buaya),98.0
+2024-05-20,DKI4 (Lubang Buaya),110.0
+2024-05-21,DKI4 (Lubang Buaya),107.0
+2024-05-23,DKI4 (Lubang Buaya),95.0
+2024-05-24,DKI4 (Lubang Buaya),95.0
+2024-05-27,DKI4 (Lubang Buaya),104.0
+2024-05-29,DKI4 (Lubang Buaya),94.0
+2024-05-30,DKI4 (Lubang Buaya),100.0
+2024-06-04,DKI4 (Lubang Buaya),106.0
+2024-06-13,DKI4 (Lubang Buaya),72.0
+2024-07-01,DKI4 (Lubang Buaya),98.0
+2024-07-29,DKI4 (Lubang Buaya),97.0
+2024-07-31,DKI4 (Lubang Buaya),113.0
+2024-08-22,DKI4 (Lubang Buaya),102.0
+2024-08-23,DKI4 (Lubang Buaya),103.0
+2024-08-29,DKI4 (Lubang Buaya),187.0
+2024-08-31,DKI4 (Lubang Buaya),135.0
+2024-09-05,DKI4 (Lubang Buaya),118.0
+2024-09-07,DKI4 (Lubang Buaya),162.0
+2024-09-29,DKI4 (Lubang Buaya),104.0
+2025-01-30,DKI4 (Lubang Buaya),52.0
+2024-06-01,DKI5 (Kebon Jeruk),124.0
+2024-06-02,DKI5 (Kebon Jeruk),112.0
+2024-06-03,DKI5 (Kebon Jeruk),76.0
+2024-06-05,DKI5 (Kebon Jeruk),128.0
+2024-06-07,DKI5 (Kebon Jeruk),103.0
+2024-06-08,DKI5 (Kebon Jeruk),109.0
+2024-06-09,DKI5 (Kebon Jeruk),99.0
+2024-06-10,DKI5 (Kebon Jeruk),104.0
+2024-06-12,DKI5 (Kebon Jeruk),92.0
+2024-06-16,DKI5 (Kebon Jeruk),74.0
+2024-06-19,DKI5 (Kebon Jeruk),112.0
+2024-06-21,DKI5 (Kebon Jeruk),110.0
+2024-06-22,DKI5 (Kebon Jeruk),105.0
+2024-06-24,DKI5 (Kebon Jeruk),103.0
+2024-06-26,DKI5 (Kebon Jeruk),84.0
+2024-06-29,DKI5 (Kebon Jeruk),87.0
+2024-07-03,DKI5 (Kebon Jeruk),121.0
+2024-07-04,DKI5 (Kebon Jeruk),84.0
+2024-07-05,DKI5 (Kebon Jeruk),78.0
+2024-07-11,DKI5 (Kebon Jeruk),117.0
+2024-07-13,DKI5 (Kebon Jeruk),112.0
+2024-07-14,DKI5 (Kebon Jeruk),104.0
+2024-07-16,DKI5 (Kebon Jeruk),99.0
+2024-07-17,DKI5 (Kebon Jeruk),99.0
+2024-07-19,DKI5 (Kebon Jeruk),93.0
+2024-07-20,DKI5 (Kebon Jeruk),91.0
+2024-07-22,DKI5 (Kebon Jeruk),82.0
+2024-08-01,DKI5 (Kebon Jeruk),107.0
+2024-08-02,DKI5 (Kebon Jeruk),90.0
+2024-08-05,DKI5 (Kebon Jeruk),84.0
+2024-08-07,DKI5 (Kebon Jeruk),101.0
+2024-08-08,DKI5 (Kebon Jeruk),118.0
+2024-08-09,DKI5 (Kebon Jeruk),97.0
+2024-08-10,DKI5 (Kebon Jeruk),89.0
+2024-08-11,DKI5 (Kebon Jeruk),85.0
+2024-08-12,DKI5 (Kebon Jeruk),86.0
+2024-08-13,DKI5 (Kebon Jeruk),110.0
+2024-08-14,DKI5 (Kebon Jeruk),109.0
+2024-08-15,DKI5 (Kebon Jeruk),100.0
+2024-08-16,DKI5 (Kebon Jeruk),103.0
+2024-08-17,DKI5 (Kebon Jeruk),107.0
+2024-08-18,DKI5 (Kebon Jeruk),107.0
+2024-08-19,DKI5 (Kebon Jeruk),94.0
+2024-08-20,DKI5 (Kebon Jeruk),115.0
+2024-08-21,DKI5 (Kebon Jeruk),118.0
+2024-08-26,DKI5 (Kebon Jeruk),102.0
+2024-08-27,DKI5 (Kebon Jeruk),116.0
+2024-08-30,DKI5 (Kebon Jeruk),127.0
+2024-09-01,DKI5 (Kebon Jeruk),93.0
+2024-09-02,DKI5 (Kebon Jeruk),85.0
+2024-09-11,DKI5 (Kebon Jeruk),68.0
+2024-09-12,DKI5 (Kebon Jeruk),103.0
+2024-09-13,DKI5 (Kebon Jeruk),81.0
+2024-09-14,DKI5 (Kebon Jeruk),88.0
+2024-09-15,DKI5 (Kebon Jeruk),87.0
+2024-09-16,DKI5 (Kebon Jeruk),93.0
+2024-09-21,DKI5 (Kebon Jeruk),98.0
+2024-09-22,DKI5 (Kebon Jeruk),109.0
+2024-09-23,DKI5 (Kebon Jeruk),92.0
+2024-09-24,DKI5 (Kebon Jeruk),85.0
+2024-09-25,DKI5 (Kebon Jeruk),109.0
+2024-09-26,DKI5 (Kebon Jeruk),79.0
+2024-09-27,DKI5 (Kebon Jeruk),80.0
+2024-09-28,DKI5 (Kebon Jeruk),99.0
+2024-09-30,DKI5 (Kebon Jeruk),79.0
+2024-10-01,DKI5 (Kebon Jeruk),103.0
+2024-10-02,DKI5 (Kebon Jeruk),90.0
+2024-10-04,DKI5 (Kebon Jeruk),94.0
+2024-10-06,DKI5 (Kebon Jeruk),76.0
+2024-10-07,DKI5 (Kebon Jeruk),121.0
+2024-10-09,DKI5 (Kebon Jeruk),82.0
+2024-10-10,DKI5 (Kebon Jeruk),92.0
+2024-10-11,DKI5 (Kebon Jeruk),102.0
+2024-10-12,DKI5 (Kebon Jeruk),92.0
+2024-10-13,DKI5 (Kebon Jeruk),111.0
+2024-10-14,DKI5 (Kebon Jeruk),113.0
+2024-10-15,DKI5 (Kebon Jeruk),84.0
+2024-10-16,DKI5 (Kebon Jeruk),111.0
+2024-10-20,DKI5 (Kebon Jeruk),84.0
+2024-10-24,DKI5 (Kebon Jeruk),79.0
+2024-10-25,DKI5 (Kebon Jeruk),82.0
+2024-10-26,DKI5 (Kebon Jeruk),78.0
+2024-10-30,DKI5 (Kebon Jeruk),99.0
+2024-10-31,DKI5 (Kebon Jeruk),89.0
+2024-11-01,DKI5 (Kebon Jeruk),105.0
+2024-11-02,DKI5 (Kebon Jeruk),97.0
+2024-11-05,DKI5 (Kebon Jeruk),85.0
+2024-11-06,DKI5 (Kebon Jeruk),78.0
+2024-11-07,DKI5 (Kebon Jeruk),108.0
+2024-11-08,DKI5 (Kebon Jeruk),109.0
+2024-11-13,DKI5 (Kebon Jeruk),113.0
+2024-11-14,DKI5 (Kebon Jeruk),124.0
+2024-11-15,DKI5 (Kebon Jeruk),133.0
+2024-11-16,DKI5 (Kebon Jeruk),141.0
+2024-11-17,DKI5 (Kebon Jeruk),157.0
+2024-11-18,DKI5 (Kebon Jeruk),87.0
+2024-11-19,DKI5 (Kebon Jeruk),86.0
+2024-11-20,DKI5 (Kebon Jeruk),73.0
+2024-11-22,DKI5 (Kebon Jeruk),71.0
+2025-01-18,DKI5 (Kebon Jeruk),55.0
+2025-01-20,DKI5 (Kebon Jeruk),52.0
+2025-01-22,DKI5 (Kebon Jeruk),53.0
+2025-01-25,DKI5 (Kebon Jeruk),64.0
+2025-02-19,DKI5 (Kebon Jeruk),92.0
+2025-02-23,DKI5 (Kebon Jeruk),78.0
+2025-02-25,DKI5 (Kebon Jeruk),75.0
+2025-02-27,DKI5 (Kebon Jeruk),111.0
+2025-02-28,DKI5 (Kebon Jeruk),71.0

@@ -1,0 +1,232 @@
+{
+    "question": {
+        "target": [
+            "Status",
+            "Verified"
+        ],
+        "target_candidates": [
+            "Status",
+            "Pos.",
+            "Verified"
+        ],
+        "related_features": [
+            "Release Clause (EUR)",
+            "Gross P/Y (EUR)",
+            "Gross Remaining (EUR)",
+            "Gross P/W (EUR)",
+            "Country",
+            "Age",
+            "Club",
+            "Years Remaining",
+            "Pos.",
+            "Bonus P/Y (EUR)",
+            "Pos. Detail"
+        ],
+        "not_filtered_related_features": [
+            "Release Clause (EUR)",
+            "Age",
+            "Club",
+            "Years Remaining",
+            "Pos. Detail"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Release Clause (EUR)": [
+                NaN,
+                NaN
+            ],
+            "Age": [
+                15,
+                38
+            ],
+            "Club": [
+                "Besiktas",
+                "Galatasaray",
+                "Fenerbahce",
+                "Basaksehir",
+                "Trabzonspor",
+                "Alanyaspor",
+                "Kasimpasa",
+                "Hatayspor",
+                "Caykur Rizespor",
+                "Antalyaspor",
+                "Eyupspor",
+                "Goztepe",
+                "Samsunspor",
+                "Bodrum",
+                "Gaziantep BB",
+                "Konyaspor",
+                "Sivasspor",
+                "Kayserispor",
+                "Adana Demirspor"
+            ],
+            "Years Remaining": [
+                1,
+                6
+            ],
+            "Pos. Detail": [
+                "SS",
+                "CF",
+                "CB",
+                "CM",
+                "RW",
+                "AM",
+                "DM",
+                "LB",
+                "GK",
+                "LW",
+                "RB"
+            ]
+        },
+        "selected_features": [
+            "Pos. Detail",
+            "Age",
+            "Years Remaining"
+        ],
+        "train_v2_save_file": "./yagizfiratt_turkish-superleague-players-salaries-20242025_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./yagizfiratt_turkish-superleague-players-salaries-20242025_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./yagizfiratt_turkish-superleague-players-salaries-20242025_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./yagizfiratt_turkish-superleague-players-salaries-20242025_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./yagizfiratt_turkish-superleague-players-salaries-20242025_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.7,
+        "save_file_type": "sqlite",
+        "imputer_type": "most_frequent",
+        "random_state": 42,
+        "model_type": "LinearSVC",
+        "output_file": "./yagizfiratt_turkish-superleague-players-salaries-20242025_class/prediction.csv",
+        "ground_truth_file": "./yagizfiratt_turkish-superleague-players-salaries-20242025_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./yagizfiratt_turkish-superleague-players-salaries-20242025_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Player": "categorical",
+            "Verified": "categorical",
+            "Gross P/W (EUR)": "numerical",
+            "Gross P/Y (EUR)": "numerical",
+            "Bonus P/Y (EUR)": "numerical",
+            "Signed": "categorical",
+            "Expiration": "categorical",
+            "Years Remaining": "numerical",
+            "Gross Remaining (EUR)": "numerical",
+            "Release Clause (EUR)": "numerical",
+            "Status": "categorical",
+            "Pos.": "categorical",
+            "Pos. Detail": "categorical",
+            "Age": "numerical",
+            "Country": "categorical",
+            "Club": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Age",
+            "Years Remaining"
+        ],
+        "categorical_features": [
+            "Pos. Detail"
+        ]
+    },
+    "data_info": {
+        "id": 7791053,
+        "ref": "yagizfiratt/turkish-superleague-players-salaries-20242025",
+        "subtitle": "Turkish Super League Players Salaries (2024/2025)",
+        "creatorName": "Mustafa Ya\u011f\u0131z F\u0131rat",
+        "creatorUrl": "yagizfiratt",
+        "totalBytes": 14560,
+        "url": "https://www.kaggle.com/datasets/yagizfiratt/turkish-superleague-players-salaries-20242025",
+        "lastUpdated": "2025-07-03T05:21:03.000Z",
+        "downloadCount": 171,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Mustafa Ya\u011f\u0131z F\u0131rat",
+        "ownerRef": "yagizfiratt",
+        "kernelCount": 3,
+        "title": "Turkish Super League Players Salaries (2024/2025)",
+        "viewCount": 688,
+        "voteCount": 6,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "football",
+                "name": "football",
+                "description": "Some call it association football, some call it soccer, most call it sport ball. Come analyze the teams and players of the beautiful game.",
+                "fullPath": "subject > health and fitness > exercise > sports > football",
+                "competitionCount": 13,
+                "datasetCount": 5349,
+                "scriptCount": 1044,
+                "totalCount": 6406
+            },
+            {
+                "ref": "categorical",
+                "name": "categorical",
+                "description": "Categorical data are observations that fall into discrete categories, like dog breed, dog color or whether or not a dog likes chew toys.",
+                "fullPath": "data type > categorical",
+                "competitionCount": 40,
+                "datasetCount": 2985,
+                "scriptCount": 2411,
+                "totalCount": 5436
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "data analytics",
+                "name": "data analytics",
+                "description": "",
+                "fullPath": "technique > data analytics",
+                "competitionCount": 32,
+                "datasetCount": 9201,
+                "scriptCount": 15324,
+                "totalCount": 24557
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7791053,
+        "datasetSlug": "turkish-superleague-players-salaries-20242025",
+        "ownerUser": "yagizfiratt",
+        "usabilityRating": 1.0,
+        "totalViews": 86,
+        "totalVotes": 3,
+        "totalDownloads": 29,
+        "title": "Turkish Super League Players Salaries (2024/2025)",
+        "subtitle": "Turkish Super League Players Salaries (2024/2025)",
+        "description": "You can access the salary information of the football players in the Turkish Super League for the 2024-2025 season from this data. One-to-one data to work in areas such as data analysis, data editing, data visualization.\n\n=== About this file ===\n\nAbout this file\nTurkish Super League Players Salaries (2024/2025)\n\n\n=== Columns & descriptions ===\n\nPlayer: Player Name\nVerified: Verified Salary\nGross P/W (EUR): Weekly Earning\nGross P/Y (EUR): Yearly Earning\nBonus P/Y (EUR): Bonus Earning\nSigned: Signing Date\nExpiration: Expiration Date\nYears Remaining: Remaining Time on the Contract\nGross Remaining (EUR): Remaining Total Fee\nRelease Clause (EUR): Release Clasue Fee\nStatus: Squad Status\nPos.: Position\nPos. Detail: Position Detail\nAge: Age\nCountry: Country\nClub: Current Club to Play\n",
+        "keywords": [
+            "football",
+            "categorical",
+            "data visualization",
+            "data analytics",
+            "classification"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

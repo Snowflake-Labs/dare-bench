@@ -1,0 +1,209 @@
+{
+    "question": {
+        "target": [
+            "Power Score"
+        ],
+        "target_candidates": [
+            "Power Score",
+            "Popularity Score"
+        ],
+        "related_features": [
+            "Alignment",
+            "Popularity Score",
+            "Combat Skill",
+            "Weapon",
+            "Speed",
+            "Intelligence",
+            "Strength"
+        ],
+        "not_filtered_related_features": [
+            "Alignment",
+            "Combat Skill",
+            "Weapon",
+            "Speed",
+            "Intelligence",
+            "Strength"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "Alignment": [
+                "Anti-Hero",
+                "Hero",
+                "Villain"
+            ],
+            "Combat Skill": [
+                1,
+                10
+            ],
+            "Weapon": [
+                "Sword",
+                "Shield",
+                "Hammer",
+                "Claws",
+                "Bow",
+                "Psychic",
+                "None",
+                "Magic",
+                "Tech"
+            ],
+            "Speed": [
+                1.0,
+                10.0
+            ],
+            "Intelligence": [
+                1.0,
+                10.0
+            ],
+            "Strength": [
+                1.0,
+                10.0
+            ]
+        },
+        "selected_features": [
+            "Weapon",
+            "Strength",
+            "Combat Skill",
+            "Intelligence"
+        ],
+        "train_v2_save_file": "./hemajitpatel_superheros-abilities-dataset_reg/source/train_v2.sqlite",
+        "val_v2_save_file": "./hemajitpatel_superheros-abilities-dataset_reg/source/val_v2.sqlite",
+        "val_no_err_save_file": "./hemajitpatel_superheros-abilities-dataset_reg/source/val_v1.sqlite",
+        "train_no_err_save_file": "./hemajitpatel_superheros-abilities-dataset_reg/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./hemajitpatel_superheros-abilities-dataset_reg/source/train_v1.sqlite",
+        "train_test_ratio": 0.7,
+        "save_file_type": "sqlite",
+        "imputer_type": "median",
+        "random_state": 19,
+        "model_type": "Ridge",
+        "output_file": "./hemajitpatel_superheros-abilities-dataset_reg/prediction.csv",
+        "ground_truth_file": "./hemajitpatel_superheros-abilities-dataset_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./hemajitpatel_superheros-abilities-dataset_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Name": "categorical",
+            "Universe": "categorical",
+            "Alignment": "categorical",
+            "Strength": "numerical",
+            "Speed": "numerical",
+            "Intelligence": "numerical",
+            "Combat Skill": "numerical",
+            "Weapon": "categorical",
+            "Power Score": "numerical",
+            "Popularity Score": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Strength",
+            "Combat Skill",
+            "Intelligence"
+        ],
+        "categorical_features": [
+            "Weapon"
+        ]
+    },
+    "data_info": {
+        "id": 7581696,
+        "ref": "hemajitpatel/superheros-abilities-dataset",
+        "subtitle": "A powerful fictional dataset of superhero stats across Marvel and DC",
+        "creatorName": "Hem Ajit Patel",
+        "creatorUrl": "hemajitpatel",
+        "totalBytes": 3053,
+        "url": "https://www.kaggle.com/datasets/hemajitpatel/superheros-abilities-dataset",
+        "lastUpdated": "2025-06-03T13:01:28.000Z",
+        "downloadCount": 1251,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Hem Ajit Patel",
+        "ownerRef": "hemajitpatel",
+        "kernelCount": 8,
+        "title": "Superheros_abilities_dataset",
+        "viewCount": 5177,
+        "voteCount": 29,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            },
+            {
+                "ref": "ml ethics",
+                "name": "ml ethics",
+                "description": "A study of the ethical implications of machine learning algorithms, such as unintended biases and discriminatory outputs",
+                "fullPath": "subject > people and society > social issues and advocacy > ml ethics",
+                "competitionCount": 5,
+                "datasetCount": 258,
+                "scriptCount": 524,
+                "totalCount": 787
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7581696,
+        "datasetSlug": "superheros-abilities-dataset",
+        "ownerUser": "hemajitpatel",
+        "usabilityRating": 1.0,
+        "totalViews": 4690,
+        "totalVotes": 29,
+        "totalDownloads": 1166,
+        "title": "Superheros_abilities_dataset",
+        "subtitle": "A powerful fictional dataset of superhero stats across Marvel and DC",
+        "description": "This dataset features 200 fictional superhero and villain characters drawn from Marvel and DC universes. Each entry includes stats such as strength, speed, intelligence, combat skill, and overall power. It\u2019s a clean, beginner-friendly dataset with some intentionally missing values to simulate real-world data issues.\n\nGreat for:\n\nClassification (e.g., predicting alignment)\n\nRegression (e.g., predicting power score)\n\nClustering (e.g., grouping heroes by attributes)\n\nEDA & Visualization practice\n\n=== About this file ===\n\nAbout this file\nThe dataset consists of 1 CSV file:\nsuperhero_abilities_dataset.csv\nIt includes 200 rows \u00d7 10 columns, representing stats and attributes for fictional superheroes and villains. The data is randomly generated and suitable for model training, analysis, or visualization.\nNote: This dataset is initially for beginners so the size of data is minimal, I will update it based on feedback or feature extensions.\n\n\n=== Columns & descriptions ===\n\nName: Unique name of the superhero/villain (fictional characters)\nUniverse: Unique name of the superhero/villain (fictional characters)\nAlignment: Moral alignment: Hero, Villain, or Anti-Hero\nStrength: Physical power level (1 to 10; may have missing values)\nSpeed: Movement/combat speed (1 to 10; may have missing values)\nIntelligence: Strategic thinking and intellect (1 to 10; may have missing values)\nCombat Skill: Fighting proficiency and martial skill (1 to 10)\nWeapon: Primary weapon or power type (e.g., Tech, Magic, Sword)\nPower Score: Overall calculated power rating (40\u2013100)\nPopularity Score: Fictional public popularity rating (1\u2013100)\n",
+        "keywords": [
+            "beginner",
+            "classification",
+            "tabular",
+            "regression",
+            "ml ethics"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

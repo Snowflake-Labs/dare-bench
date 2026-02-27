@@ -1,0 +1,70 @@
+Overview
+The Medicare & Medicaid Electronic Health Record (EHR) Incentive Programs Counts dataset tracks the number of eligible health care providers who have attested to using a certified EHR product under the Medicare EHR Incentive Program. It covers two major provider settings—office-based (ambulatory) practitioners and non-federal acute-care hospitals—and reports counts by developer/vendor product.
+
+Coverage & Granularity
+
+Time span: Program Years 2011 through 2016 (most recent available).
+
+Provider types:
+
+Office-based health care providers (ambulatory)
+
+Non-federal acute-care hospitals (inpatient)
+
+Dimensions:
+
+Developer/Vendor – name of the EHR product developer
+
+ProgramYear – reporting year (filterable via API)
+
+ProviderType – ambulatory vs. inpatient
+
+ProviderCount – number of providers attesting
+
+=== About this file ===
+
+About this file
+developer
+Type: String
+What it is: The name of the certified EHR (electronic health record) vendor providers report using when attesting under the Medicare EHR Incentive Program.
+Why it matters: Allows you to group and compare usage by vendor. For a full list of CEHRT-certified vendors, see the ONC Certified Health IT Products List (CHPL).
+provider_type
+Type: Categorical (professional | hospital)
+What it is: Indicates whether the reporting entity is an office-based clinician (“professional”) or a non-federal acute-care hospital (“hospital”).
+Why it matters: Enables analysis of adoption patterns separately for individual clinicians versus hospitals.
+program_year
+Type: Integer (2011 – 2016)
+What it is: The Medicare EHR Incentive Program year in which the attestation occurs. Totals for each year are cumulative up through that year.
+Why it matters: Tracks growth over time in provider participation and technology uptake.
+tot_provs_report_developer
+Type: Integer
+What it is: The total count of providers (of that provider_type, through the given program_year) who report using any certified product from that developer.
+Why it matters: Measures the overall market share of each vendor.
+tot_provs_report_2015_edition
+Type: Integer
+What it is: How many of those providers reporting a product by that developer are on the 2015 Edition certification?
+Why it matters: Shows uptake of the most recent certification standard (2015 Edition).
+tot_provs_report_2014_edition
+Type: Integer
+What it is: How many of those providers reporting a product by that developer are on the 2014 Edition certification?
+Why it matters: Tracks continued use of the prior certification standard.
+tot_provs_report_2011_edition
+Type: Integer
+What it is: How many of those providers reporting a product by that developer are on the original 2011 Edition certification?
+Why it matters: Indicates how many providers have not yet upgraded beyond the initial standard.
+product_type
+Type: Categorical (commercial | self-developed)
+What it is: Classifies each EHR product as either commercially marketed (sold broadly) or self-developed (created in-house for exclusive use by that organization).
+Why it matters: Differentiates widespread commercial solutions from bespoke, internally built systems.
+
+
+=== Columns & descriptions ===
+
+developer: name of the certified EHR (electronic health record) vendor provider
+provider_type: Categorical (professional | hospital)
+program_year: Integer (2011 – 2016)
+tot_provs_report_developer: total count of providers
+tot_provs_report_2015_edition: providers reporting a product by that developer are on the 2015 Edition
+tot_provs_report_2014_edition: providers reporting a product by that developer are on the 2014 Edition
+tot_provs_report_2011_edition: providers reporting a product by that developer are on the original 2011 Edition
+product_type: Categorical (commercial | self-developed)

@@ -1,0 +1,21 @@
+This dataset contains synthetically generated data intended for linear regression modeling. It simulates a linear relationship defined by the equation:
+$$
+y=4.5x+1+noise 
+$$
+
+- Number of data points: 230 (200 regular + 30 outliers)
+- Noise: Gaussian noise with standard deviation of 30
+- Outliers: 30 points intentionally added with large deviations to simulate subtle anomalies in the data
+
+This dataset is ideal for practicing linear regression, outlier detection, and robust modeling techniques.
+
+=== About this file ===
+
+About this file
+230 data points, out of which 200 are regular and 30 are outliers
+
+
+=== Columns & descriptions ===
+
+x: The value of x
+y: The value of y

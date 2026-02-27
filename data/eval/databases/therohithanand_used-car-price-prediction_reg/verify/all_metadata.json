@@ -1,0 +1,240 @@
+{
+    "question": {
+        "target": [
+            "price_usd"
+        ],
+        "target_candidates": [
+            "price_usd"
+        ],
+        "related_features": [
+            "owner_count",
+            "accidents_reported",
+            "service_history",
+            "color",
+            "make_year",
+            "mileage_kmpl",
+            "insurance_valid",
+            "fuel_type",
+            "transmission",
+            "engine_cc",
+            "brand"
+        ],
+        "not_filtered_related_features": [
+            "owner_count",
+            "accidents_reported",
+            "color",
+            "service_history",
+            "make_year",
+            "mileage_kmpl",
+            "insurance_valid",
+            "fuel_type",
+            "transmission",
+            "engine_cc",
+            "brand"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "owner_count": [
+                1,
+                5
+            ],
+            "accidents_reported": [
+                0,
+                5
+            ],
+            "color": [
+                "White",
+                "Black",
+                "Blue",
+                "Red",
+                "Gray",
+                "Silver"
+            ],
+            "service_history": [
+                "None",
+                "Full",
+                "Partial"
+            ],
+            "make_year": [
+                1995,
+                2023
+            ],
+            "mileage_kmpl": [
+                5.0,
+                35.0
+            ],
+            "insurance_valid": [
+                "No",
+                "Yes"
+            ],
+            "fuel_type": [
+                "Petrol",
+                "Diesel",
+                "Electric"
+            ],
+            "transmission": [
+                "Manual",
+                "Automatic"
+            ],
+            "engine_cc": [
+                800,
+                5000
+            ],
+            "brand": [
+                "Chevrolet",
+                "Honda",
+                "BMW",
+                "Hyundai",
+                "Nissan",
+                "Tesla",
+                "Toyota",
+                "Kia",
+                "Volkswagen",
+                "Ford"
+            ]
+        },
+        "selected_features": [
+            "fuel_type",
+            "make_year",
+            "mileage_kmpl",
+            "color",
+            "transmission",
+            "brand",
+            "owner_count"
+        ],
+        "train_v2_save_file": "./therohithanand_used-car-price-prediction_reg/source/train_v2.csv",
+        "val_v2_save_file": "./therohithanand_used-car-price-prediction_reg/source/val_v2.csv",
+        "val_no_err_save_file": "./therohithanand_used-car-price-prediction_reg/source/val_v1.csv",
+        "train_no_err_save_file": "./therohithanand_used-car-price-prediction_reg/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./therohithanand_used-car-price-prediction_reg/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "median",
+        "random_state": 73,
+        "model_type": "LinearRegression",
+        "output_file": "./therohithanand_used-car-price-prediction_reg/prediction.csv",
+        "ground_truth_file": "./therohithanand_used-car-price-prediction_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./therohithanand_used-car-price-prediction_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "make_year": "numerical",
+            "mileage_kmpl": "numerical",
+            "engine_cc": "numerical",
+            "fuel_type": "categorical",
+            "owner_count": "numerical",
+            "price_usd": "numerical",
+            "brand": "categorical",
+            "transmission": "categorical",
+            "color": "categorical",
+            "service_history": "categorical",
+            "accidents_reported": "numerical",
+            "insurance_valid": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "make_year",
+            "mileage_kmpl",
+            "owner_count"
+        ],
+        "categorical_features": [
+            "fuel_type",
+            "color",
+            "transmission",
+            "brand"
+        ]
+    },
+    "data_info": {
+        "id": 7621150,
+        "ref": "therohithanand/used-car-price-prediction",
+        "subtitle": "Predict Used Car Prices from Easy-to-Understand Vehicle Features",
+        "creatorName": "therohithanand",
+        "creatorUrl": "therohithanand",
+        "totalBytes": 144387,
+        "url": "https://www.kaggle.com/datasets/therohithanand/used-car-price-prediction",
+        "lastUpdated": "2025-06-09T08:04:12.000Z",
+        "downloadCount": 3483,
+        "licenseName": "CC BY-SA 4.0",
+        "description": "",
+        "ownerName": "therohithanand",
+        "ownerRef": "therohithanand",
+        "kernelCount": 22,
+        "title": "Used Car Price Prediction",
+        "viewCount": 11691,
+        "voteCount": 37,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "automobiles and vehicles",
+                "name": "automobiles and vehicles",
+                "description": "The automobile tag is everything about cars. Analyze insurance rates or how far you can go on one gallon of petrol.",
+                "fullPath": "subject > science and technology > transportation > automobiles and vehicles",
+                "competitionCount": 10,
+                "datasetCount": 14763,
+                "scriptCount": 1883,
+                "totalCount": 16656
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13474,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65524
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7621150,
+        "datasetSlug": "used-car-price-prediction",
+        "ownerUser": "therohithanand",
+        "usabilityRating": 1.0,
+        "totalViews": 10008,
+        "totalVotes": 37,
+        "totalDownloads": 3197,
+        "title": "Used Car Price Prediction",
+        "subtitle": "Predict Used Car Prices from Easy-to-Understand Vehicle Features",
+        "description": "#  Used Car Price Estimation Dataset\n\n##  Overview\nThis dataset contains **10,000 realistic entries** of used cars with various features such as mileage, engine size, number of previous owners, fuel type, and more. It is designed for **regression tasks** where the goal is to **predict the resale price** of a car in USD.\n\nIt\u2019s perfect for:\n- Practicing regression models\n- Exploring feature importance\n- Building interactive dashboards\n- Training ML models for real-world pricing prediction\n\n\n##  Use Cases\n- **Regression**: Predict `price_usd` using the other features.\n- **Feature Engineering**: Create new features like car age, fuel economy score, etc.\n- **Data Visualization**: Analyze how different factors like engine size or brand impact price.\n- **Exploratory Data Analysis (EDA)**: Great for beginners to learn cleaning and insights.\n\n\n##  Format\n- **File type**: CSV  \n- **Rows**: 10,000  \n- **File name**: `used_car_price_dataset_extended.csv`\n\n\n##  License & Credits\nThis dataset is **synthetically generated** and does not represent any real-world individual's data. Free to use for learning, teaching, and experimentation.\n\n\n=== About this file ===\n\nAbout this file\nFilename\nDescription\nRows\nFormat\nused_car_price_dataset_extended.csv\nFull dataset with 10,000 used car records\n10,000\nCSV\n\n\n=== Columns & descriptions ===\n\nmake_year: Year the car was manufactured (between 1995 and 2023).\nmileage_kmpl: Mileage of the car in kilometers per liter (kmpl).\nengine_cc: Engine capacity in cubic centimeters (e.g., 1200 cc, 2000 cc).\nfuel_type: Type of fuel used: Petrol, Diesel, or Electric.\nowner_count: Number of previous owners (1 to 5).\nprice_usd: arget variable \u2013 resale price of the car in US dollars (USD).\nbrand: Car brand name\ntransmission: Type of transmission: Manual or Automatic.\ncolor: Exterior color of the car.\nservice_history: Maintenance history: Full, Partial, or None.\naccidents_reported: Number of accidents reported for the vehicle (typically 0\u20135).\ninsurance_valid: Indicates whether insurance is currently valid: Yes or No.\n",
+        "keywords": [
+            "automobiles and vehicles",
+            "beginner",
+            "tabular",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-SA-4.0"
+            }
+        ]
+    }
+}

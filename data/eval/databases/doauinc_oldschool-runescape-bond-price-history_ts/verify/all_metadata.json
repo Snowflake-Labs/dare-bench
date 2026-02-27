@@ -1,0 +1,121 @@
+{
+    "question": {
+        "target": [
+            "Price (GP)"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%Y-%m-%d %H:%M:%S",
+        "is_resampled": false,
+        "related_features": [],
+        "not_filtered_related_features": [],
+        "selected_features": [],
+        "expected_ranges": {},
+        "column_type_inference": {
+            "Date": "object",
+            "Price (GP)": "numeric"
+        },
+        "train_save_file": "./doauinc_oldschool-runescape-bond-price-history_ts/source/train.csv",
+        "val_v1_save_file": "./doauinc_oldschool-runescape-bond-price-history_ts/source/val_v1.csv",
+        "val_v2_save_file": "./doauinc_oldschool-runescape-bond-price-history_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./doauinc_oldschool-runescape-bond-price-history_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./doauinc_oldschool-runescape-bond-price-history_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./doauinc_oldschool-runescape-bond-price-history_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 64,
+        "model_type": "Prophet",
+        "output_file": "./doauinc_oldschool-runescape-bond-price-history_ts/prediction.json",
+        "ground_truth_v1_file": "./doauinc_oldschool-runescape-bond-price-history_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./doauinc_oldschool-runescape-bond-price-history_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./doauinc_oldschool-runescape-bond-price-history_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2024-04-11 18:20:52",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 6976940,
+        "ref": "doauinc/oldschool-runescape-bond-price-history",
+        "subtitle": "A complete history of daily bond prices in OSRS",
+        "creatorName": "Ian T.",
+        "creatorUrl": "doauinc",
+        "totalBytes": 28194,
+        "url": "https://www.kaggle.com/datasets/doauinc/oldschool-runescape-bond-price-history",
+        "lastUpdated": "2025-04-07T19:22:32.803Z",
+        "downloadCount": 12,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Ian T.",
+        "ownerRef": "doauinc",
+        "kernelCount": 2,
+        "title": "Old School Runescape Bond Prices (2015-present)",
+        "viewCount": 125,
+        "voteCount": 1,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "video games",
+                "name": "video games",
+                "description": "Video games were originally created to prevent people from going to college and getting good jobs. That back-fired and now we have data centers full of GPUs training models to tell the difference between cats and dogs. All thanks to gamers.",
+                "fullPath": "subject > culture and humanities > games > video games",
+                "competitionCount": 42,
+                "datasetCount": 8900,
+                "scriptCount": 3918,
+                "totalCount": 12860
+            },
+            {
+                "ref": "economics",
+                "name": "economics",
+                "description": "The economics tag contains resources for analyzing the production, consumption, and transfer of wealth.",
+                "fullPath": "subject > people and society > social science > economics",
+                "competitionCount": 3,
+                "datasetCount": 3842,
+                "scriptCount": 844,
+                "totalCount": 4689
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6976940,
+        "datasetSlug": "oldschool-runescape-bond-price-history",
+        "ownerUser": "doauinc",
+        "usabilityRating": 1.0,
+        "totalViews": 98,
+        "totalVotes": 1,
+        "totalDownloads": 11,
+        "title": "Old School Runescape Bond Prices (2015-present)",
+        "subtitle": "A complete history of daily bond prices in OSRS",
+        "description": "This dataset provides daily price averages for Old School RuneScape (OSRS) bonds traded on the Grand Exchange. Bonds serve as a unique economic indicator as they can be:\n\u2714 Purchased with real-world currency\n\u2714 Traded for in-game gold\n\u2714 Used for membership subscriptions\n\nTime Range: 2015 (release date) to present (can be updated upon request).\nData Points: Daily timestamps with raw price values.\n\nSource: [WeirdGloop.](https://api.weirdgloop.org/#/exchange/getExchangeHistoryAll)\n\n\n## **About Old School RuneScape:**\nOld School RuneScape (OSRS) is a standalone version of RuneScape launched in 2013, based on the 2007 game build. It has grown into one of the most popular MMORPGs, with over 1.5 million monthly active players. OSRS prioritizes classic gameplay and community-driven updates and has grown to become more popular than the original game.\n\nThe Grand Exchange (GE) is OSRS\u2019s centralized trading hub, added in 2015. Tracks real-time price movements for thousands of tradeable items (data for other items can also be updated upon request, I'm only interested in bonds for now).\n\nBonds bought on the Grand Exchange become tradable again only after paying 10% of their GE value (making short-term flipping impractical). They tends to reflect long-term economic trends rather than daily volatility.\n\n\n=== About this file ===\n\nAbout this file\nRemote source:\nhttps://www.kaggle.com/code/doauinc/osrs-grand-exchange-data-fetcher\nHistorical information for Bonds in OSRS.\n\n\n=== Columns & descriptions ===\n\nDate: UTC\nPrice (GP): item cost on the GE\n",
+        "keywords": [
+            "video games",
+            "economics",
+            "time series analysis"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

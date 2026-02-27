@@ -1,0 +1,68 @@
+This dataset contains detailed records of customer interactions handled by a customer service team through various communication channels such as inbound calls, outbound calls, and digital touchpoints. It includes over 85,000 entries with information related to the nature of the issue, product categories, agent details, and customer satisfaction scores (CSAT).
+
+Key features include:
+
+**Issue Metadata:** Timestamps for when the issue was reported and responded to.
+
+**Categorization:** High-level and sub-level issue categories for better analysis.
+
+**Agent Information:** Names, supervisors, managers, shift, and tenure bucket.
+
+**Customer Feedback:** CSAT scores and free-text customer remarks.
+
+**Transactional Data:**Order IDs, product categories, item prices, and customer city.
+
+This dataset is ideal for exploratory data analysis (EDA), natural language processing (NLP), time-to-resolution analysis, customer satisfaction prediction, and performance benchmarking of service agents.
+
+### Feature-wise Explanation
+
+- **Unique id**: A unique identifier for each customer support ticket. Used for tracking, not used in modeling.  
+- **channel_name**: The communication channel used by the customer (e.g., Email, Chat, Phone), which influences response quality and time.  
+- **category**: Broad classification of the support issue (e.g., Technical, Billing, Account), useful in understanding issue trends.  
+- **Sub-category**: More specific issue label under each category (e.g., "Login Failure" under Technical) to capture granular insights.  
+- **Customer Remarks**: Free-text input from customers about their issue; useful for sentiment analysis or NLP-based features.  
+- **Order_id**: The ID of the order associated with the issue; may not be directly useful unless joined with order metadata.  
+- **order_date_time**: Timestamp of the order; can be used to derive delays or time gaps relative to issue date.  
+- **Issue_reported at**: Time when the customer reported the issue; helps calculate response and resolution delays.  
+- **issue_responded**: Time when the support agent responded; combined with report time to calculate response duration.  
+- **Survey_response_Date**: Date when customer gave the CSAT feedback; useful to understand follow-up timing, but not always predictive.  
+- **Customer_City**: The city where the customer resides; can identify location-based trends or systemic issues.  
+- **Product_category**: The type of product involved in the support ticket; some product types may result in higher or lower CSAT.  
+- **Item_price**: Price of the item involved; higher prices might lead to higher customer expectations and affect satisfaction.  
+- **connected_handling_time**: Total time spent by the agent resolving the issue; excessive durations may signal complexity or inefficiency.  
+- **Agent_name**: Name of the support agent handling the ticket; can be encoded to understand individual performance impact.  
+- **Supervisor**: The agent’s supervisor; useful to analyze team-level trends in CSAT.  
+- **Manager**: The manager overseeing the support process; can help identify management-level influence on support quality.  
+- **Tenure Bucket**: Agent experience group (e.g., 0–6 months, 6–12 months); more experienced agents might resolve issues better.  
+- **Agent Shift**: Time shift during which the case was handled (e.g., Day, Night); night shifts might see different trends in CSAT.  
+- **CSAT Score** *(Target Variable)*: Customer satisfaction score (1 to 5); the main variable we aim to classify using other features.
+
+
+=== About this file ===
+
+About this file
+This dataset captures over 85,000 customer service interactions across various channels, including call logs, issue categories, agent details, and CSAT scores. It is well-suited for analyzing customer support performance, satisfaction trends, and agent efficiency.
+
+
+=== Columns & descriptions ===
+
+Unique id: A unique identifier for each customer support ticket. Used for tracking, not used in modeling.
+channel_name: The communication channel used by the customer (e.g., Email, Chat, Phone), which influences response quality and time.
+category: Broad classification of the support issue (e.g., Technical, Billing, Account), useful in understanding issue trends.
+Sub-category: More specific issue label under each category (e.g., "Login Failure" under Technical) to capture granular insights.
+Customer Remarks: Free-text input from customers about their issue; useful for sentiment analysis or NLP-based features.
+Order_id: The ID of the order associated with the issue; may not be directly useful unless joined with order metadata.
+order_date_time: Timestamp of the order; can be used to derive delays or time gaps relative to issue date.
+Issue_reported at: Time when the customer reported the issue; helps calculate response and resolution delays.
+issue_responded: Time when the support agent responded; combined with report time to calculate response duration.
+Survey_response_Date: Date when customer gave the CSAT feedback; useful to understand follow-up timing, but not always predictive.
+Customer_City: The city where the customer resides; can identify location-based trends or systemic issues.
+Product_category: The type of product involved in the support ticket; some product types may result in higher or lower CSAT.
+Item_price: Price of the item involved; higher prices might lead to higher customer expectations and affect satisfaction.
+connected_handling_time: Total time spent by the agent resolving the issue; excessive durations may signal complexity or inefficiency.
+Agent_name: Name of the support agent handling the ticket; can be encoded to understand individual performance impact.
+Supervisor: The agent’s supervisor; useful to analyze team-level trends in CSAT.
+Manager: The manager overseeing the support process; can help identify management-level influence on support quality.
+Tenure Bucket: Agent experience group (e.g., 0–6 months, 6–12 months); more experienced agents might resolve issues better.
+Agent Shift: Time shift during which the case was handled (e.g., Day, Night); night shifts might see different trends in CSAT.
+CSAT Score: Customer satisfaction score (1 to 5); the main variable we aim to classify using other features.

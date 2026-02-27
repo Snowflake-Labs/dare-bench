@@ -1,0 +1,42 @@
+This dataset contains detailed **Spotify listening history of a user.** Each record captures information about a specific track played on Spotify, including metadata about the track, playback behavior, and the user's interaction with the platform. It spans multiple years and provides insights into user behavior, track preferences, and session dynamics.
+
+
+## Columns/Features Descriptions:
+
+
+spotify_track_uri – A unique identifier (URI) assigned to each track by Spotify.
+
+ts – The timestamp when the track playback started.
+
+platform – The platform or device used for playback (e.g., web player).
+
+ms_played – Number of milliseconds the track was played before being stopped or skipped.
+
+track_name – The name/title of the track.
+
+artist_name – The artist or band who performed the track.
+
+album_name – The album the track belongs to.
+
+reason_start – Indicates what triggered the playback (e.g., autoplay, user click).
+
+reason_end – Describes how the playback ended (e.g., track completed, skipped).
+
+shuffle – A boolean field indicating if shuffle mode was enabled during playback.
+
+skipped – A boolean field indicating whether the track was skipped (True) or played fully (False).
+
+=== About this file ===
+
+About this file
+This dataset captures detailed records of a user's listening behavior on Spotify, spanning a total of
+149,860
+plays across various devices and sessions. It is structured with
+11 columns
+, each representing specific metadata or behavioral information related to individual track plays.
+
+
+=== Columns & descriptions ===
+
+Field: Columns/Features
+Description: Columns Description

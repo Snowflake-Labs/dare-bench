@@ -1,0 +1,17 @@
+This dataset contains 5 years of simulated delivery data for several customers in several different locations. The purpose of this dataset is to mimic real-world delivery patters by including seasonality, demand spikes, and holiday closures. This dataset is perfect for anyone trying to practice time-series forecasting, demand planning, or supply chain analysis.
+
+=== About this file ===
+
+About this file
+5 years of synthetic delivery data for several customers and locations
+
+
+=== Columns & descriptions ===
+
+WorkDate: Date of delivery
+Customer: Customer serviced
+Location: Hub location where orders originated from
+BusinessType: Type of delivery done
+OrderCount: Number of orders
+NumberOfPieces: Number of pieces
+TotalRevenue: Total revenue collected from deliveries

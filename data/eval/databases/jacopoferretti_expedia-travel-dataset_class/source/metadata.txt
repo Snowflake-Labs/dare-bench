@@ -1,0 +1,35 @@
+Info about the users' clicks and bookings on Expedia. The dataset includes information about the destination, hotel, number of visitors ... and also details about the type of reservation.
+
+=== About this file ===
+
+About this file
+Booking and customer information
+
+
+=== Columns & descriptions ===
+
+: [no description]
+date_time: Timestamp: date when the customer booked/clicked
+site_name: ID of the Expedia point of sale
+posa_continent: ID of continent associated with site_name
+user_location_country: ID of the country the customer is located
+user_location_region: ID of the region the customer is located
+user_location_city: ID of the city the customer is located
+orig_destination_distance: Physical distance between hotel and customer at the time of search
+user_id: Customer ID
+is_mobile: 1 if the user connected from mobile, 0 otherwise
+is_package: 1 if the click/booking was generated as part of a package, 0 otherwise
+channel: ID of marketing channel
+srch_ci: Checkin date
+srch_co: Checkout date
+srch_adults_cnt: Number of adults in the hotel room
+srch_children_cnt: Number of children in the hotel room
+srch_rm_cnt: Number of hotel room in the search
+srch_destination_id: ID of the destination
+srch_destination_type_id: Type of destination
+is_booking: 1 if booking, 0 if click
+cnt: Number of similar events in the context of the same user session
+hotel_continent: Continent of the hotel
+hotel_country: Country of the hotel
+hotel_market: Hotel market
+hotel_cluster: ID of a hotel cluster

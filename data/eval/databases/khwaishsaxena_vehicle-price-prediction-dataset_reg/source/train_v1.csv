@@ -1,0 +1,842 @@
+price,cylinders,mileage,body,doors,drivetrain,year,fuel
+46540.0,,6.0,SUV,4.0,All-wheel Drive,2023,Electric
+43475.0,4.0,2.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+61775.0,,12.0,SUV,4.0,All-wheel Drive,2024,Electric
+35913.0,6.0,15.0,Sedan,4.0,Rear-wheel Drive,2023,Gasoline
+59255.0,,10.0,SUV,4.0,All-wheel Drive,2024,Electric
+56800.0,6.0,5.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+34000.0,-2.0,-6.0,nm0sw,-1.0,rbfMSL3d8,2035,FCxa7NwAs
+67422.0,6.0,27.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+30020.0,-5.0,9713.0,pD2zQk,15.0,0zJ,2020,vylUapLh
+37135.0,4.0,399.0,SUV,4.0,Front-wheel Drive,2024,Hybrid
+49770.0,,10.0,SUV,4.0,All-wheel Drive,2024,Electric
+32406.0,4.0,11.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+67164.0,4.0,29.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+42015.0,-5.0,-8.0,GYrk,-2.0,t3hTFde,2020,7lXY
+64670.0,6.0,15.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+48364.0,6.0,4.0,Passenger Van,4.0,Front-wheel Drive,2024,Gasoline
+35795.0,4.0,41.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+26860.0,4.0,3.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+54910.0,4.0,10.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+62240.0,16.0,-4.0,AIK34qUK,10.0,s13,2014,rWD5oNe
+53160.0,6.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+72135.0,6.0,7.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+53272.0,6.0,1.0,Cargo Van,3.0,Front-wheel Drive,2024,Gasoline
+51721.0,4.0,11.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+70312.0,4.0,24.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+63440.0,4.0,5.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+40630.0,4.0,7.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+85630.0,6.0,7.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+25923.0,4.0,25.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+98180.0,16.0,9720.0,Z2t,11.0,0dQcH,2035,NiOTc
+49905.0,4.0,1.0,SUV,,All-wheel Drive,2024,Gasoline
+52263.0,-3.0,9717.0,m6r6kth,-2.0,e0GQ2B,2015,7LGScXz
+53915.0,4.0,8.0,SUV,4.0,Rear-wheel Drive,2025,Gasoline
+49632.0,8.0,2.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+60310.0,-7.0,9717.0,abMPH3mpj,-7.0,xhSgbEcWi,2035,rfV1hIur
+33969.0,4.0,0.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+35870.0,13.0,-1.0,BO1K,-4.0,P3fAnF,2033,7uiwN
+44850.0,6.0,3.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+41693.0,-1.0,9712.0,oY5mApGA5,6.0,iWSgURd,2031,A2n
+62154.0,8.0,197.0,Pickup Truck,2.0,Four-wheel Drive,2024,Gasoline
+46835.0,8.0,31.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+31537.0,4.0,11.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+46835.0,8.0,29.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+24105.0,18.0,9713.0,DqOS7KoA,15.0,nK2xDm,2014,dQHBV
+57849.0,4.0,4.0,SUV,4.0,All-wheel Drive,2024,PHEV Hybrid Fuel
+27080.0,4.0,13.0,Sedan,4.0,Front-wheel Drive,2024,Hybrid
+106215.0,,12.0,SUV,4.0,All-wheel Drive,2024,Electric
+42015.0,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+52642.0,6.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+27400.0,-9.0,9721.0,V40gJ4h,15.0,9Bauj7,2017,4Cr
+36532.0,4.0,14.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+56119.0,4.0,20.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+110445.0,,5.0,Sedan,4.0,Rear-wheel Drive,2024,Electric
+67749.0,6.0,181.0,Cargo Van,3.0,Front-wheel Drive,2024,Gasoline
+42155.0,13.0,9712.0,NLh2i43N,15.0,czA7pArP,2022,sVu9
+35775.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+59674.0,6.0,8.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+42155.0,6.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+38500.0,4.0,8.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+31535.0,4.0,7.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+51695.0,,4.0,SUV,4.0,All-wheel Drive,2024,Electric
+49260.0,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+65221.0,18.0,-6.0,j47G,6.0,TL9TndX,2026,GR47
+70115.0,6.0,8.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+77053.0,,8.0,SUV,5.0,All-wheel Drive,2024,
+37105.0,4.0,,SUV,4.0,Four-wheel Drive,2023,Gasoline
+45300.0,-9.0,9714.0,cEK,-7.0,63SJdo,2017,Wrbv2
+34698.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+46855.0,14.0,-5.0,jOZpdi9Yv,8.0,LpqyfZ,2017,tYl5
+39832.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+24105.0,4.0,12.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+90995.0,6.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+45605.0,6.0,8.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+51803.0,6.0,1.0,Cargo Van,3.0,Rear-wheel Drive,2024,Gasoline
+115445.0,-7.0,-9.0,87B,11.0,qNZLdUnEi,2021,XoH0k
+36499.0,4.0,10.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+41497.0,4.0,11.0,,4.0,All-wheel Drive,2024,Gasoline
+45842.0,,5.0,SUV,4.0,All-wheel Drive,2024,Electric
+53700.0,6.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+83845.0,6.0,,SUV,4.0,Four-wheel Drive,2024,Gasoline
+29640.0,18.0,-6.0,4hdkX9rOX,-1.0,kvk,2033,zeEQz
+66375.0,11.0,-1.0,4PyqNXAi,-2.0,zx5Cj,2013,kMLRbZig
+32485.0,4.0,48.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+84190.0,6.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+56079.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+65260.0,6.0,15.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+32198.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+32198.0,15.0,9716.0,lth,0.0,VmT,2020,bQC6
+46659.0,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+34799.0,3.0,3.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+53395.0,-10.0,-10.0,XmZIyW,7.0,NE0,2014,dr0P5
+49628.0,8.0,2.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+47785.0,8.0,32.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+34635.0,4.0,1.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+34305.0,3.0,4.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+32098.0,4.0,5.0,Hatchback,4.0,All-wheel Drive,2024,Gasoline
+52495.0,6.0,26.0,Pickup Truck,4.0,Four-wheel Drive,2023,Gasoline
+40835.0,4.0,16.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+63057.0,6.0,,SUV,4.0,Four-wheel Drive,2024,Gasoline
+44350.0,6.0,0.0,Passenger Van,4.0,Front-wheel Drive,2024,Gasoline
+,6.0,10.0,Sedan,4.0,Rear-wheel Drive,2023,Gasoline
+52640.0,6.0,6.0,Cargo Van,3.0,Rear-wheel Drive,2024,E85 Flex Fuel
+49944.0,8.0,2.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+54559.0,8.0,148.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+49836.0,6.0,7.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+39491.0,-2.0,9715.0,v9R,9.0,pfysFowQr,2022,hdAb
+22623.0,4.0,,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+65075.0,8.0,18.0,Sedan,4.0,Rear-wheel Drive,2023,Gasoline
+114160.0,15.0,-9.0,iYhVn29SP,-5.0,TOnQCB3,2020,uXRE
+47763.0,8.0,0.0,Pickup Truck,2.0,Rear-wheel Drive,2024,Gasoline
+103045.0,6.0,19.0,Sedan,4.0,Rear-wheel Drive,2024,Gasoline
+86505.0,6.0,49.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+59466.0,8.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+90995.0,17.0,9715.0,iQbs,0.0,we7OW,2034,FWDvyGu61
+32520.0,4.0,10.0,Sedan,4.0,Front-wheel Drive,2024,Hybrid
+69995.0,4.0,12.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+44759.0,9.0,9712.0,YSR,13.0,GEApQ5yHT,2028,ny5ko
+46973.0,4.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+54210.0,-1.0,-3.0,FOgDynwe,7.0,NoDp,2015,5YObpMIBg
+37430.0,4.0,9.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+46490.0,16.0,-7.0,VIZNHO,14.0,EQNQY,2033,VjUP
+27450.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+46920.0,,10.0,SUV,4.0,All-wheel Drive,2024,Electric
+47340.0,8.0,14.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+39990.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+44620.0,6.0,12.0,Cargo Van,3.0,Rear-wheel Drive,2024,Gasoline
+36331.0,4.0,17.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+24600.0,4.0,15.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+54490.0,4.0,2.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+44354.0,4.0,,SUV,4.0,All-wheel Drive,2024,Gasoline
+21637.0,4.0,4.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+35999.0,4.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+63609.0,6.0,13.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+38855.0,4.0,6.0,SUV,4.0,Front-wheel Drive,2024,Hybrid
+66902.0,4.0,10.0,Cargo Van,3.0,Rear-wheel Drive,2024,Diesel
+54403.0,-5.0,9714.0,iGCTMtv,14.0,dqFs,2019,55QA
+38870.0,4.0,5.0,Sedan,4.0,Front-wheel Drive,2024,Hybrid
+26500.0,4.0,15.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+42715.0,4.0,2.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+63862.0,-1.0,-6.0,OogoW,11.0,8CV,2020,Gwudrug
+79675.0,6.0,17.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+80095.0,6.0,20.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+80927.0,6.0,11.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+55020.0,6.0,5.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+34330.0,4.0,11.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+32580.0,-4.0,-9.0,PALfvONNU,9.0,Hs27hJ5M,2029,RN1
+61865.0,8.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+54949.0,4.0,9.0,SUV,4.0,All-wheel Drive,2024,PHEV Hybrid Fuel
+27080.0,4.0,14.0,Sedan,4.0,Front-wheel Drive,2024,Hybrid
+61860.0,4.0,5.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+64930.0,4.0,12.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+30955.0,4.0,3.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+28997.0,4.0,3.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+79934.0,6.0,22.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+49944.0,16.0,-2.0,gqfYRU4Zp,14.0,FMaz,2032,5lIkunG
+38598.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+79934.0,-8.0,-5.0,xIiFWF,6.0,gV89y7cqX,2026,c46PjI
+25515.0,4.0,8.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+49900.0,6.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+53445.0,-1.0,9714.0,Ubwx,0.0,HqY8u0Lyj,2017,99dp
+37729.0,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+73270.0,4.0,21.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+28998.0,10.0,9717.0,3XVMsdGvH,9.0,7Oh,2031,KURJ6h
+61276.0,4.0,10.0,Cargo Van,3.0,Rear-wheel Drive,2024,Diesel
+31225.0,4.0,6.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+78655.0,4.0,,SUV,4.0,Four-wheel Drive,2024,Hybrid
+52263.0,8.0,10.0,Pickup Truck,2.0,Four-wheel Drive,2024,Gasoline
+47744.0,6.0,9.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+69035.0,6.0,9.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+93335.0,,3.0,Sedan,4.0,All-wheel Drive,2024,Electric
+27555.0,13.0,-2.0,808rpORR,8.0,DIx5nB,2035,sPOhQRt3K
+69685.0,,5.0,Hatchback,4.0,Rear-wheel Drive,2024,Electric
+28000.0,3.0,5.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+,6.0,21.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+50473.0,,12.0,SUV,4.0,All-wheel Drive,2023,Electric
+29342.0,4.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+111245.0,,10.0,Sedan,4.0,All-wheel Drive,2024,Electric
+38000.0,4.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+39822.0,4.0,,SUV,4.0,All-wheel Drive,2024,Gasoline
+65928.0,6.0,,SUV,4.0,Four-wheel Drive,2024,Gasoline
+28994.0,4.0,6.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+46835.0,8.0,19.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+96860.0,11.0,-8.0,tQCBChhK,8.0,rMku,2032,IIEI5MMC
+34985.0,4.0,10.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+39935.0,15.0,-4.0,92za,10.0,pDezZk4,2020,VF42
+84860.0,6.0,6.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+54190.0,8.0,5.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+46835.0,8.0,21.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+29374.0,4.0,28.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+33573.0,-2.0,9721.0,0M39,8.0,qn4WescP,2014,PTRYGj
+64025.0,6.0,0.0,Cargo Van,3.0,All-wheel Drive,2024,Gasoline
+90995.0,-7.0,-10.0,yBMr,14.0,EBnvRvLQ,2028,OkO
+20389.0,4.0,11.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+36600.0,4.0,12.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+102287.0,8.0,4.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+37805.0,14.0,-6.0,Xn1qdkmW,-2.0,4gSck,2028,ioEOMsQu
+44565.0,,7.0,SUV,4.0,All-wheel Drive,2024,Electric
+55399.0,4.0,2.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+60600.0,6.0,10.0,Passenger Van,4.0,Front-wheel Drive,2024,Hybrid
+39370.0,6.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+39375.0,4.0,76.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+78895.0,6.0,7.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+32660.0,4.0,9.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+72435.0,,5.0,Hatchback,4.0,All-wheel Drive,2024,Electric
+45055.0,-4.0,9721.0,aJoWGqYh,12.0,pJD57o,2033,tMD
+33785.0,4.0,1.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+40474.0,13.0,-7.0,V6JY7GCV,1.0,p7aP4w,2017,GjPO7HsM
+32635.0,-9.0,9720.0,vP7,0.0,g8O,2019,Pm22
+,6.0,10.0,Sedan,4.0,Rear-wheel Drive,2023,Gasoline
+29111.0,4.0,11.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+35236.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+50377.0,17.0,9716.0,Du6kTGMed,14.0,N92UYfEbV,2022,bJ9YoJ4
+44354.0,4.0,,SUV,4.0,All-wheel Drive,2024,Gasoline
+46835.0,8.0,5.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+51380.0,6.0,10.0,Cargo Van,3.0,Front-wheel Drive,2024,Gasoline
+46835.0,8.0,32.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+40235.0,4.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+44022.0,6.0,12.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+50755.0,4.0,,SUV,4.0,Four-wheel Drive,2024,Hybrid
+38574.0,4.0,12.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+69085.0,-8.0,-2.0,5tM,-4.0,9CbpOR5p,2021,MG2s
+,,8.0,Sedan,4.0,All-wheel Drive,2024,Electric
+60904.0,6.0,532.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+33785.0,15.0,-10.0,ovqjdJM,-8.0,ZiY13j,2028,eG5
+31860.0,4.0,17.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+48510.0,,12.0,Sedan,4.0,All-wheel Drive,2024,Electric
+43727.0,6.0,9.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+72600.0,6.0,6.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+26190.0,6.0,1.0,SUV,,Front-wheel Drive,2025,Gasoline
+44710.0,4.0,48.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+86420.0,6.0,10.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+65295.0,4.0,26.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+40260.0,4.0,3.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+21123.0,4.0,6.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+51083.0,4.0,3.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+38736.0,4.0,12.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+30900.0,-9.0,9718.0,pwDoruE,-5.0,pYNb,2015,iHY
+90220.0,8.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+28867.0,4.0,1.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+52180.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+35821.0,-4.0,9714.0,h25d0Z,13.0,shFD2ExW,2020,Gc1c
+57870.0,4.0,5.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+48201.0,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+32635.0,4.0,0.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+30278.0,3.0,0.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+32011.0,4.0,11.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+41720.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+45055.0,4.0,25.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+32490.0,4.0,,SUV,4.0,All-wheel Drive,2024,Gasoline
+51361.0,4.0,3.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+35364.0,4.0,33.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+58235.0,4.0,3.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+63862.0,6.0,5.0,SUV,4.0,Rear-wheel Drive,2024,Gasoline
+47340.0,8.0,5.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+60080.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+41045.0,4.0,4.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+31721.0,4.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+63518.0,-9.0,9719.0,952TnaVp9,-4.0,UDydq1f,2020,OUdmoT
+40925.0,6.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+81663.0,6.0,10.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+28994.0,9.0,9717.0,0xaUS6PI,-8.0,hb0,2020,PiX
+55365.0,,10.0,SUV,4.0,Rear-wheel Drive,2024,Electric
+35744.0,4.0,15.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+47142.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+53099.0,6.0,30.0,Cargo Van,3.0,Front-wheel Drive,2024,Gasoline
+27998.0,4.0,3.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+46510.0,15.0,-5.0,KE8,15.0,iXPWvEi,2016,LtI
+61006.0,6.0,5.0,Cargo Van,3.0,Front-wheel Drive,2023,Gasoline
+31042.0,4.0,5.0,Sedan,4.0,All-wheel Drive,2024,Gasoline
+77525.0,8.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+40474.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+33071.0,3.0,4.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+35404.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+30305.0,4.0,11.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+53445.0,6.0,6.0,Cargo Van,3.0,Front-wheel Drive,2024,Gasoline
+45738.0,,5.0,SUV,4.0,All-wheel Drive,2024,Electric
+53820.0,,129.0,Sedan,4.0,All-wheel Drive,2023,Electric
+49395.0,4.0,5.0,SUV,4.0,Rear-wheel Drive,2024,Gasoline
+44120.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+53820.0,-6.0,-8.0,lblRW43uc,-7.0,LT2jU,2032,VOT7TH
+42295.0,10.0,9715.0,NFReweNM,-8.0,qFVraPl2,2032,E8HmpVVUs
+39555.0,4.0,1.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+37325.0,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+33390.0,4.0,10.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+59420.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+67237.0,6.0,6.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+25999.0,4.0,14.0,SUV,4.0,Four-wheel Drive,2023,Gasoline
+65315.0,6.0,9.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+52950.0,6.0,3.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+60490.0,,11.0,SUV,4.0,All-wheel Drive,2024,Electric
+35400.0,4.0,141.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+54525.0,-4.0,9721.0,FnBM3L30,0.0,x89,2032,945N
+54939.0,4.0,3.0,SUV,4.0,All-wheel Drive,2024,PHEV Hybrid Fuel
+74600.0,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+83630.0,,5.0,SUV,4.0,All-wheel Drive,2024,Electric
+48995.0,8.0,31.0,Pickup Truck,4.0,Rear-wheel Drive,2024,Gasoline
+63715.0,4.0,,SUV,4.0,Four-wheel Drive,2023,Hybrid
+33573.0,9.0,9715.0,r5dwan3,1.0,ATq,2029,qz8n
+45830.0,,0.0,SUV,4.0,All-wheel Drive,2024,Electric
+33977.0,4.0,6.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+33573.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+109545.0,,10.0,SUV,4.0,All-wheel Drive,2024,Electric
+42150.0,14.0,-7.0,HTTVV,-1.0,SOdhdu,2014,QfKlG
+31805.0,3.0,,SUV,4.0,Front-wheel Drive,2024,Gasoline
+84405.0,8.0,12.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+62240.0,0.0,0.0,SUV,4.0,All-wheel Drive,2023,Electric
+49285.0,4.0,15.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+54620.0,6.0,0.0,SUV,4.0,All-wheel Drive,2025,Gasoline
+47530.0,12.0,-6.0,bHGaXo3,0.0,LUXXpQ0,2021,WtgISTt
+30618.0,4.0,7.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+,4.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+46855.0,4.0,11.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+36083.0,-6.0,9718.0,9Nl,-8.0,mZtlcxhCp,2021,9mnBRHxK
+47340.0,8.0,34.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+54495.0,,10.0,SUV,4.0,All-wheel Drive,2024,Electric
+85845.0,8.0,2.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+27175.0,4.0,5.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+24979.0,4.0,5.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+32406.0,12.0,-6.0,6jJw,0.0,r5nyPBeWa,2029,9ZNn
+50915.0,4.0,7.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+47280.0,8.0,22.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+30383.0,4.0,13.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+,8.0,28.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+51361.0,12.0,-3.0,RXn,14.0,6nld7pP,2017,Ar6AfJs3
+53160.0,17.0,-7.0,0uylYpd1n,-7.0,vU1fpQ,2026,dfw2Js
+56800.0,6.0,5.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+25895.0,4.0,,SUV,4.0,All-wheel Drive,2024,Gasoline
+84935.0,6.0,1.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+45038.0,6.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+46670.0,8.0,5.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+86137.0,6.0,5.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+80374.0,6.0,13.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+83940.0,6.0,6.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+71999.0,6.0,252.0,Pickup Truck,4.0,Four-wheel Drive,2023,Diesel
+44720.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+38040.0,4.0,1.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+46855.0,-9.0,-8.0,EdfA,6.0,GzuxMGA,2029,49HMILK
+76648.0,8.0,3.0,SUV,4.0,Rear-wheel Drive,2024,Gasoline
+77645.0,6.0,9.0,SUV,2.0,Four-wheel Drive,2024,Gasoline
+65221.0,6.0,344.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+57650.0,6.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+,4.0,18.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+66770.0,6.0,20.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+47744.0,6.0,12.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+36195.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+38740.0,4.0,,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+30870.0,4.0,9.0,Sedan,4.0,Front-wheel Drive,2024,Hybrid
+68600.0,6.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+86670.0,,5.0,SUV,4.0,All-wheel Drive,2024,Electric
+30829.0,4.0,15.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+76475.0,8.0,2.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+54210.0,6.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2023,Gasoline
+77473.0,6.0,14.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+39025.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+58720.0,6.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+28998.0,4.0,11.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+29066.0,4.0,5.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+50565.0,4.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+35040.0,4.0,1.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+41195.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+44161.0,4.0,2.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+28860.0,4.0,7.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+24348.0,4.0,6.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+42150.0,4.0,1.0,SUV,,All-wheel Drive,2025,Gasoline
+59255.0,,10.0,SUV,4.0,All-wheel Drive,2024,Electric
+46490.0,4.0,21.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+65416.0,8.0,5.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+46163.0,6.0,,Passenger Van,4.0,Front-wheel Drive,2024,Gasoline
+28630.0,4.0,15.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+32837.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+49785.0,,5.0,SUV,4.0,All-wheel Drive,2024,Electric
+41693.0,,0.0,SUV,4.0,Rear-wheel Drive,2024,Electric
+73110.0,,19.0,SUV,4.0,All-wheel Drive,2024,Electric
+65360.0,6.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+48861.0,4.0,16.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+52350.0,6.0,16.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+50209.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+54905.0,4.0,1.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+55645.0,16.0,-9.0,if7,-7.0,usWpPxhD8,2016,GVx064K
+67422.0,-5.0,9717.0,26SizCiTA,11.0,AsVzo,2035,rHjetW2
+52631.0,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+47340.0,8.0,35.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+67164.0,9.0,-5.0,qTj1xh7M,1.0,uc2pc6KOX,2032,y4k1Y1yT
+44120.0,-9.0,9714.0,eZeh,-6.0,2V9IW6EUM,2030,uWRU
+79765.0,,9.0,Sedan,4.0,Rear-wheel Drive,2024,Electric
+25895.0,-8.0,-5.0,CXCWmqDly,-3.0,eBAnWxkoz,2035,qnO7hHFf
+110150.0,16.0,9719.0,WGY,-7.0,ui3qxZZMx,2021,PpQnpvXJU
+31390.0,3.0,9.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+40250.0,4.0,1.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+60115.0,,1.0,SUV,4.0,Rear-wheel Drive,2024,Electric
+34329.0,4.0,6.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+57545.0,4.0,3.0,Sedan,4.0,All-wheel Drive,2024,Hybrid
+88695.0,6.0,9.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+28860.0,4.0,7.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+47785.0,8.0,32.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+28469.0,4.0,0.0,Sedan,4.0,All-wheel Drive,2024,Gasoline
+88135.0,6.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+44621.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+42785.0,4.0,13.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+110150.0,6.0,650.0,SUV,4.0,Four-wheel Drive,2023,Gasoline
+63518.0,6.0,24.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+52445.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+36810.0,4.0,15.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+42466.0,,7.0,SUV,4.0,All-wheel Drive,2024,Electric
+39934.0,,5.0,SUV,4.0,All-wheel Drive,2024,
+38954.0,6.0,5.0,Passenger Van,4.0,Front-wheel Drive,2024,Gasoline
+51785.0,,12.0,SUV,4.0,All-wheel Drive,2024,Electric
+41991.0,,14.0,SUV,4.0,All-wheel Drive,2024,Electric
+34305.0,-6.0,9716.0,0tzJc,7.0,LnN6ugz6Y,2034,TVYL8nDXQ
+66334.0,6.0,6.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+37498.0,4.0,12.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+40980.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+49166.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+58909.0,4.0,34.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+41975.0,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+38870.0,4.0,9.0,Sedan,4.0,Front-wheel Drive,2024,Hybrid
+110445.0,9.0,-5.0,lf30,1.0,JH4r,2014,Q5zqAQ1h9
+47650.0,8.0,5.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+55485.0,,3.0,SUV,4.0,All-wheel Drive,2024,Electric
+49900.0,17.0,-9.0,3WIrnOn3Q,-4.0,7wYQXXcpX,2021,AoL77gZ
+69697.0,6.0,2.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+44713.0,,13.0,SUV,4.0,All-wheel Drive,2024,Electric
+26329.0,4.0,25.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+46510.0,6.0,6.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+41528.0,,14.0,SUV,4.0,All-wheel Drive,2024,Electric
+60925.0,6.0,10.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+69720.0,8.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+48595.0,-6.0,9714.0,D8t,-4.0,aevUY,2022,8LnFM
+40344.0,6.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+53535.0,4.0,4.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+37490.0,13.0,9721.0,C8v,7.0,Wo0,2019,ZHefn6MS
+47175.0,6.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+36900.0,4.0,1.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+34084.0,-1.0,-9.0,CINm,-3.0,xkRmaqWdV,2028,Kvvw
+48268.0,8.0,3.0,Pickup Truck,2.0,Rear-wheel Drive,2024,Gasoline
+68256.0,6.0,10.0,Pickup Truck,4.0,Four-wheel Drive,2024,Hybrid
+67105.0,6.0,3.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+48822.0,6.0,12.0,Cargo Van,3.0,Front-wheel Drive,2024,Gasoline
+57000.0,6.0,5581.0,Cargo Van,3.0,Rear-wheel Drive,2023,Gasoline
+34600.0,-8.0,9720.0,wyePe,-7.0,Np6S8Ag8,2028,2bGZ2sCy
+34990.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+0.0,6.0,14.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+53190.0,4.0,15.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+46835.0,8.0,21.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+35490.0,16.0,-5.0,POM5Q,10.0,jEzf,2029,wOyj
+42947.0,4.0,5.0,Pickup Truck,4.0,Rear-wheel Drive,2024,Gasoline
+46935.0,,11.0,SUV,4.0,All-wheel Drive,2023,Electric
+49496.0,-6.0,9714.0,A6wKIbKM,15.0,05n2p,2034,dzjd5Oz
+41890.0,6.0,18.0,Sedan,4.0,All-wheel Drive,2023,Gasoline
+34084.0,4.0,12.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+47340.0,8.0,32.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+42597.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+23160.0,4.0,7.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+38717.0,4.0,11.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+32491.0,4.0,10.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+49895.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+36000.0,4.0,10.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+38201.0,,12.0,SUV,4.0,Rear-wheel Drive,2024,Electric
+34600.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+61179.0,4.0,26.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+67125.0,18.0,9714.0,tflB92,0.0,IL9PKM,2018,3HhB
+21195.0,4.0,0.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+59620.0,8.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+43613.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+49404.0,4.0,7.0,,4.0,Front-wheel Drive,2024,Gasoline
+117985.0,,1.0,Sedan,4.0,All-wheel Drive,2024,Electric
+,4.0,5.0,Sedan,4.0,Rear-wheel Drive,2024,Gasoline
+35835.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+56015.0,6.0,8.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+38980.0,4.0,9.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+43475.0,4.0,2.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+30955.0,14.0,-4.0,YWk,10.0,w8E2,2030,Bd4u9b
+49496.0,8.0,2.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+43585.0,6.0,5.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+50590.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+56119.0,4.0,10.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+43684.0,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+40449.0,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+58049.0,4.0,4.0,SUV,4.0,All-wheel Drive,2024,PHEV Hybrid Fuel
+31301.0,4.0,2.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+35389.0,4.0,1.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+51820.0,,12.0,Sedan,4.0,All-wheel Drive,2023,Electric
+50058.0,8.0,2.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+96895.0,,37.0,Sedan,4.0,All-wheel Drive,2024,Electric
+88135.0,6.0,21.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+90945.0,-8.0,-7.0,NXDZBcIs,-6.0,4vdrc,2030,zjQsxjC2K
+40754.0,4.0,12.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+52388.0,,1.0,SUV,4.0,Rear-wheel Drive,2024,Electric
+,4.0,21.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+44790.0,6.0,32.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+47410.0,8.0,5.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+87075.0,8.0,9.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel (B20 capable)
+48541.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+42436.0,4.0,18.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+54525.0,6.0,0.0,Cargo Van,3.0,Rear-wheel Drive,2023,Gasoline
+33109.0,4.0,15.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+54949.0,4.0,8.0,SUV,4.0,All-wheel Drive,2024,PHEV Hybrid Fuel
+65221.0,18.0,9719.0,Q8SzUeUy,13.0,d16Q,2033,9cz67Snv
+46350.0,6.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+28867.0,4.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+55800.0,,,SUV,4.0,All-wheel Drive,2024,
+29826.0,4.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+56995.0,4.0,30.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+43490.0,4.0,18.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+36734.0,4.0,14.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+45300.0,6.0,25.0,Minivan,4.0,Front-wheel Drive,2023,Gasoline
+77885.0,8.0,105.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+67510.0,-5.0,9712.0,CT4R,-6.0,mVCNdHMK,2014,9qYT97LpK
+35864.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+42295.0,,0.0,SUV,4.0,Rear-wheel Drive,2024,Electric
+47280.0,8.0,13.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+65221.0,14.0,9717.0,svKi06,6.0,RYioz,2029,Moa
+51803.0,6.0,1.0,Cargo Van,3.0,Rear-wheel Drive,2024,Gasoline
+53796.0,6.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2023,Gasoline
+39935.0,4.0,12.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+37105.0,13.0,9713.0,iMiR,13.0,zXI,2031,JH8
+72600.0,15.0,9715.0,ds2bYDln,9.0,Yb0SaLb1K,2026,cepp8wh
+114850.0,,8.0,SUV,4.0,All-wheel Drive,2024,Electric
+81036.0,6.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+32011.0,-2.0,9718.0,vQtjA88d0,-1.0,HaG4pD9,2016,vZqAi1
+31190.0,4.0,10.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+55800.0,,,SUV,4.0,All-wheel Drive,2024,
+37729.0,14.0,-3.0,dnLn2Ybei,14.0,fCVyODw,2018,iMJR5ORK
+32009.0,4.0,1.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+25080.0,4.0,12.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+44826.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+81525.0,,153.0,Sedan,4.0,All-wheel Drive,2023,Electric
+38122.0,4.0,18.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+50595.0,4.0,1.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+35480.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+114160.0,,5.0,SUV,4.0,All-wheel Drive,2024,Electric
+32751.0,4.0,25.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+89780.0,,5.0,SUV,4.0,All-wheel Drive,2024,Electric
+52515.0,,5.0,SUV,4.0,All-wheel Drive,2024,Electric
+28860.0,4.0,11.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+35870.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+77645.0,18.0,-6.0,rmQ69uu,14.0,xvN3ivjY,2021,ZeCT
+24430.0,4.0,12.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+55183.0,6.0,13.0,Passenger Van,4.0,All-wheel Drive,2024,Gasoline
+50170.0,6.0,1.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+33573.0,12.0,9717.0,7t32e,1.0,Q1zvn,2035,YrF9xT5H6
+50923.0,6.0,4.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+65129.0,4.0,0.0,Pickup Truck,3.0,Rear-wheel Drive,2024,Diesel
+49720.0,13.0,9718.0,bI1,8.0,ZTvUKsEAf,2032,0oHu3qt
+83665.0,,728.0,SUV,4.0,Rear-wheel Drive,2024,Electric
+54209.0,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+34635.0,-2.0,9717.0,yji3Szao,-7.0,RJHC,2013,gekFdZ
+69201.0,4.0,11.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+50245.0,6.0,0.0,Cargo Van,3.0,Front-wheel Drive,2023,Gasoline
+50850.0,,10.0,Sedan,4.0,All-wheel Drive,2024,Electric
+23160.0,4.0,13.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+45716.0,8.0,10.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+52180.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+27450.0,15.0,-7.0,VKLBk,11.0,357zS6,2017,eOp97
+58399.0,4.0,4.0,SUV,4.0,All-wheel Drive,2024,PHEV Hybrid Fuel
+49496.0,8.0,2.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+66375.0,6.0,17.0,Cargo Van,3.0,Front-wheel Drive,2023,Gasoline
+24348.0,4.0,7.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+72835.0,6.0,20.0,SUV,4.0,Four-wheel Drive,2023,Gasoline
+59255.0,9.0,-4.0,lBnMeq,15.0,KRgw,2033,DXTBK3
+54620.0,6.0,5.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+58665.0,-5.0,9714.0,pZD,0.0,4IGqZ,2013,e6kIzk
+56155.0,6.0,3.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+67650.0,4.0,555.0,SUV,4.0,Four-wheel Drive,2023,Hybrid
+38870.0,4.0,14.0,Sedan,4.0,Front-wheel Drive,2024,Hybrid
+73670.0,,5.0,Hatchback,4.0,All-wheel Drive,2024,Electric
+37135.0,4.0,6.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+37335.0,4.0,1.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+81160.0,6.0,4.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+58949.0,4.0,26.0,SUV,4.0,All-wheel Drive,2024,PHEV Hybrid Fuel
+52642.0,12.0,-4.0,9fKu,-1.0,pveuvA,2031,VkZWH2Vh8
+30618.0,4.0,11.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+114850.0,13.0,9721.0,PAuGy,10.0,j5dy,2029,7X4S7MMfY
+39491.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+36900.0,4.0,1.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+30935.0,4.0,11.0,SUV,4.0,Front-wheel Drive,2024,Hybrid
+60972.0,6.0,12.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+67562.0,6.0,13.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+74990.0,6.0,15.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+27087.0,4.0,9.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+46835.0,8.0,23.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+28265.0,4.0,11.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+42455.0,4.0,1.0,SUV,,All-wheel Drive,2024,Gasoline
+195895.0,,0.0,Sedan,4.0,All-wheel Drive,2024,Electric
+44852.0,6.0,13.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+58840.0,4.0,4.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+56105.0,4.0,12.0,Hatchback,4.0,All-wheel Drive,2024,Gasoline
+53750.0,8.0,0.0,Pickup Truck,2.0,Four-wheel Drive,2024,Gasoline
+48595.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+54209.0,-1.0,9720.0,Logg71mEv,12.0,Wm8CvG,2017,7pbY
+,,4.0,Sedan,4.0,All-wheel Drive,2024,Electric
+83845.0,-5.0,-8.0,sycUhpsUA,13.0,PmGkXy,2016,uejYncy
+58665.0,4.0,0.0,Cargo Van,3.0,Rear-wheel Drive,2023,Gasoline
+84701.0,6.0,15.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+40979.0,4.0,12.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+67510.0,-9.0,9713.0,bMB7Y,-1.0,Joflb,2018,ZugS
+68095.0,6.0,188.0,Cargo Van,3.0,Front-wheel Drive,2024,Gasoline
+44604.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+40880.0,4.0,24.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+42064.0,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+48000.0,6.0,87.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+54899.0,4.0,11.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+30020.0,3.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+42790.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+46450.0,6.0,42.0,Passenger Van,4.0,All-wheel Drive,2024,Gasoline
+40145.0,4.0,9.0,SUV,4.0,Rear-wheel Drive,2024,Gasoline
+31985.0,3.0,2.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+29182.0,4.0,0.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+31490.0,4.0,350.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+71146.0,6.0,10.0,Pickup Truck,4.0,Rear-wheel Drive,2024,Hybrid
+75888.0,6.0,,SUV,4.0,Four-wheel Drive,2024,Gasoline
+24305.0,4.0,15.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+52115.0,6.0,13.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+47105.0,8.0,5.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+55399.0,4.0,2.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+,4.0,13.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+66960.0,4.0,5.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+31490.0,-2.0,9719.0,dZ4Z8jdaJ,-5.0,ULdkj,2028,jwjS
+62255.0,4.0,26.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+50565.0,-5.0,-9.0,dGwr,0.0,XNl2spPWB,2022,d5e5sFmu
+36970.0,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+46000.0,6.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+33977.0,-8.0,-9.0,BJu6PU,0.0,wtsQKowLR,2035,MdmIuYo
+50349.0,4.0,37.0,SUV,4.0,All-wheel Drive,2024,PHEV Hybrid Fuel
+51625.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+59547.0,4.0,185.0,SUV,4.0,Four-wheel Drive,2023,Hybrid
+,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+67510.0,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+56550.0,,1.0,SUV,4.0,All-wheel Drive,2024,
+47530.0,6.0,5.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+43348.0,,16.0,SUV,4.0,All-wheel Drive,2024,Electric
+64965.0,6.0,16.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+38740.0,15.0,9721.0,3Fs,14.0,hJC,2027,sFcw4
+58610.0,8.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+59547.0,11.0,-10.0,RgEw7K,1.0,L2d,2028,NYTRMndR
+96860.0,8.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+90945.0,6.0,4.0,SUV,4.0,All-wheel Drive,2025,Gasoline
+27400.0,4.0,15.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+48510.0,-5.0,9716.0,D8yb,-1.0,IRZ1NxSv,2020,u0KdR
+63145.0,6.0,5.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+61330.0,6.0,6.0,Pickup Truck,2.0,Four-wheel Drive,2024,Diesel
+37220.0,-7.0,-3.0,0ElLQZ,0.0,X500m3zz,2015,mcsG
+41720.0,-7.0,9712.0,9iW5ihM2L,15.0,Yiq5Isvt,2020,5Ssv9
+70190.0,8.0,5.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+31535.0,4.0,7.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+55439.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+86137.0,-1.0,-9.0,er3,8.0,X1tPtZtQZ,2030,QbX8
+45141.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+47030.0,6.0,5.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+,4.0,1342.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+35615.0,3.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+36280.0,4.0,241.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+28860.0,4.0,11.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+74625.0,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+55353.0,4.0,8.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+24348.0,4.0,13.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+70190.0,14.0,-1.0,DzP,15.0,CVrdHP,2029,ao6seew
+52388.0,,1.0,SUV,4.0,Rear-wheel Drive,2024,Electric
+42230.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+49075.0,6.0,1.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+55090.0,,9.0,SUV,4.0,All-wheel Drive,2024,Electric
+53455.0,6.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+24680.0,12.0,-1.0,SD2,-3.0,K3f,2028,WLb
+62295.0,4.0,8.0,Cargo Van,3.0,Rear-wheel Drive,2024,Diesel
+37805.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+28860.0,4.0,9.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+50377.0,6.0,7.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+49550.0,4.0,5.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+74391.0,6.0,85.0,Cargo Van,3.0,All-wheel Drive,2024,Gasoline
+51820.0,-5.0,-7.0,ZMzqk,13.0,B77MwDB,2018,jjB
+40260.0,15.0,-3.0,82Gf4u,14.0,DusLY,2035,nR6QM2HSI
+43904.0,,6.0,SUV,4.0,All-wheel Drive,2024,Electric
+48705.0,6.0,,Passenger Van,4.0,All-wheel Drive,2024,Gasoline
+,4.0,823.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+28867.0,4.0,8.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+36405.0,3.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+34730.0,4.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+28535.0,4.0,15.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+45038.0,-10.0,9712.0,PXPz,-3.0,yEo4H,2032,bUJnY5baL
+50955.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,PHEV Hybrid Fuel
+60555.0,6.0,5.0,SUV,4.0,Rear-wheel Drive,2024,Gasoline
+60490.0,18.0,-5.0,moSm5,13.0,2DN0Icq,2016,nWuoVsx
+30900.0,4.0,,SUV,4.0,All-wheel Drive,2024,Gasoline
+49285.0,,5.0,SUV,4.0,All-wheel Drive,2024,Electric
+71846.0,6.0,5.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+98180.0,6.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+24680.0,3.0,5.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+67125.0,6.0,5.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+54226.0,4.0,2.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+37490.0,6.0,20.0,Sedan,4.0,Rear-wheel Drive,2023,Gasoline
+60310.0,,4.0,SUV,4.0,All-wheel Drive,2024,Electric
+36083.0,6.0,20.0,Sedan,4.0,Rear-wheel Drive,2023,Gasoline
+36190.0,3.0,7.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+58230.0,4.0,17.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+37105.0,16.0,9716.0,8h048o4fY,0.0,6T7hehitj,2033,Y8jEN4
+47495.0,,0.0,SUV,,Front-wheel Drive,2024,
+74290.0,6.0,6.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+37220.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+67105.0,-1.0,-1.0,hjF7cG4,7.0,2sGzmR4E3,2015,8k4KrMy
+21000.0,4.0,5.0,Hatchback,4.0,Front-wheel Drive,2024,Gasoline
+54899.0,4.0,12.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+83640.0,6.0,6.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+26335.0,4.0,12.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+114160.0,-8.0,9721.0,EXUhV,12.0,XLlRpd5w,2020,vj4h4IIj
+43439.0,,14.0,SUV,4.0,All-wheel Drive,2024,Electric
+35490.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+24430.0,4.0,12.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+58930.0,6.0,13.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+43904.0,13.0,-2.0,8Xe,-4.0,OpsA,2022,ILi
+29895.0,4.0,10.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+64370.0,4.0,,SUV,4.0,All-wheel Drive,2024,Gasoline
+43419.0,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+20842.0,4.0,4.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+53890.0,6.0,3.0,Cargo Van,3.0,Front-wheel Drive,2024,Gasoline
+42015.0,,7.0,SUV,4.0,All-wheel Drive,2024,Electric
+52853.0,6.0,0.0,Cargo Van,3.0,Rear-wheel Drive,2024,Gasoline
+35821.0,6.0,20.0,Sedan,4.0,Rear-wheel Drive,2023,Gasoline
+54200.0,4.0,0.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+47290.0,4.0,3.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+58825.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+42876.0,4.0,147.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+29305.0,3.0,10.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+72977.0,6.0,7.0,Pickup Truck,4.0,Four-wheel Drive,2024,Hybrid
+115445.0,8.0,447.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+58399.0,12.0,9716.0,C8yFjCla,10.0,HbP5dD,2018,1XLbTwE
+34940.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+46721.0,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+58599.0,-9.0,9720.0,TIjCTBm2f,-2.0,ZiMw05MRh,2020,jjN
+53395.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+84530.0,,5.0,SUV,4.0,All-wheel Drive,2024,Electric
+52190.0,,6.0,SUV,4.0,All-wheel Drive,2024,Electric
+38546.0,4.0,73.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+63440.0,4.0,5.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+36083.0,6.0,20.0,Sedan,4.0,Rear-wheel Drive,2023,Gasoline
+72294.0,6.0,33.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+53791.0,4.0,11.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+48350.0,4.0,3.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+35885.0,-10.0,9715.0,CvvEWQ0b,-2.0,HPpG,2028,IfTI
+32580.0,3.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+24500.0,4.0,10.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+34084.0,4.0,12.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+69085.0,6.0,20.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+35400.0,18.0,-6.0,LAjb4,-6.0,H0GKxV,2017,dAPWctr
+67159.0,6.0,21.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+30000.0,4.0,0.0,SUV,4.0,Four-wheel Drive,2023,Gasoline
+27555.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+86490.0,6.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+36550.0,4.0,4.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+35885.0,4.0,15.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+63440.0,-5.0,9714.0,8Akbx15G,0.0,6R50o,2015,C7xp
+28265.0,4.0,7.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+44595.0,6.0,3.0,Cargo Van,3.0,Rear-wheel Drive,2024,Gasoline
+32751.0,4.0,51.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+38481.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+49201.0,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+31190.0,4.0,10.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+110395.0,,5.0,Sedan,4.0,All-wheel Drive,2024,Electric
+60925.0,-10.0,-8.0,G8afxkacd,-8.0,6vE06GE,2015,rpubG
+64214.0,6.0,6.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+60555.0,-10.0,9712.0,7r4TcLdv,-5.0,gpXwsBb,2029,OSS
+35210.0,3.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+42990.0,6.0,0.0,Cargo Van,3.0,Rear-wheel Drive,2024,Gasoline
+59625.0,4.0,2.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+42295.0,-3.0,-4.0,IIXP,11.0,FwGeG,2018,NR2OBu
+35994.0,6.0,10.0,Sedan,4.0,Rear-wheel Drive,2023,Gasoline
+31222.0,4.0,2.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+33109.0,-7.0,9714.0,xUimF5HLw,12.0,WtwP,2028,XfG6l2YeD
+44600.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+65075.0,8.0,18.0,Sedan,4.0,Rear-wheel Drive,2023,Gasoline
+46920.0,-6.0,-1.0,WHL2YVUXN,9.0,3rn,2034,zdX00aV
+44615.0,4.0,9.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+26600.0,4.0,15.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+43524.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+66360.0,6.0,27.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+33005.0,4.0,13.0,Sedan,4.0,Front-wheel Drive,2024,Hybrid
+37946.0,6.0,9.0,Pickup Truck,4.0,Rear-wheel Drive,2024,Gasoline
+33331.0,4.0,13.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+47165.0,8.0,31.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+94895.0,6.0,1946.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+49720.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+39390.0,4.0,10.0,SUV,4.0,Front-wheel Drive,2024,Hybrid
+35835.0,4.0,14.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+,8.0,98.0,Pickup Truck,2.0,Four-wheel Drive,2024,Gasoline
+53272.0,9.0,9721.0,ySTWos6X,6.0,f1nK4G,2015,OMMf1bjoX
+94895.0,-6.0,9718.0,mlor2hX,-6.0,BYJHnLxh,2017,HMdE
+41497.0,-3.0,-5.0,psxA0dx6,-5.0,DL3,2026,QTKTg86
+51645.0,6.0,5.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+43685.0,4.0,8.0,SUV,4.0,Rear-wheel Drive,2024,Gasoline
+63010.0,8.0,95.0,Pickup Truck,2.0,Four-wheel Drive,2023,Gasoline
+58599.0,4.0,8.0,SUV,4.0,All-wheel Drive,2024,PHEV Hybrid Fuel
+73360.0,4.0,12.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+59456.0,6.0,15.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+42597.0,-3.0,-9.0,dxClnSu,10.0,LYohY,2032,BOL9bYUV5
+33695.0,4.0,11.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+50675.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+49895.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+45051.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+28997.0,-6.0,9714.0,TqMgtd5,-8.0,0QvaNce,2033,d0sc9pJ
+47790.0,,5.0,SUV,4.0,All-wheel Drive,2024,Electric
+64214.0,-3.0,-5.0,0zXHQFpUz,-3.0,zEdbCJ,2015,UUXy
+61506.0,4.0,3.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+54403.0,6.0,14.0,Passenger Van,4.0,All-wheel Drive,2024,Gasoline
+31537.0,-3.0,9721.0,MrftEq3n3,-7.0,19wUl45v,2013,bdp556
+58840.0,15.0,9718.0,4tIarIfI,7.0,di1,2034,5hOI7
+79487.0,6.0,18.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+34835.0,4.0,9.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+39763.0,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+60573.0,6.0,1.0,Pickup Truck,4.0,Four-wheel Drive,2024,Hybrid
+58648.0,4.0,3.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+61860.0,-5.0,9712.0,gtZ2Rq9d,11.0,gePqVcnw,2032,JERS
+34000.0,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+29386.0,4.0,11.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+38954.0,6.0,8.0,Passenger Van,4.0,Front-wheel Drive,2024,Gasoline
+,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+29066.0,16.0,-8.0,MQMD,8.0,AHt4,2029,egW4f6A
+40380.0,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+22260.0,4.0,28.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+29640.0,4.0,16.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+55645.0,6.0,59.0,Cargo Van,3.0,All-wheel Drive,2024,E85 Flex Fuel
+32485.0,4.0,48.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+75595.0,4.0,6.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+44759.0,6.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+33160.0,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+45525.0,,10.0,SUV,4.0,All-wheel Drive,2023,Electric
+67446.0,6.0,296.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+47340.0,8.0,11.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+35683.0,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+38036.0,4.0,4.0,Cargo Van,4.0,Front-wheel Drive,2023,Gasoline
+33840.0,4.0,8.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+76648.0,18.0,-10.0,AJekFv,0.0,imq,2033,Eh2y
+82523.0,6.0,8.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+53700.0,18.0,-1.0,YOXZyJriJ,15.0,h48YW4,2033,6qR486
+30525.0,4.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+31200.0,4.0,11.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+35821.0,6.0,20.0,Sedan,4.0,Rear-wheel Drive,2023,Gasoline
+47785.0,8.0,34.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+35835.0,17.0,-7.0,JlK,0.0,3mnSxj,2016,dcGasfdd
+54835.0,4.0,11.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+50415.0,4.0,6.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+79300.0,,5.0,Hatchback,4.0,All-wheel Drive,2024,Electric

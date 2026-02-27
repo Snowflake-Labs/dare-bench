@@ -1,0 +1,185 @@
+{
+    "question": {
+        "target": [
+            "failure"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "timestamp",
+        "time_format": "%Y-%m-%d %H:%M:%S",
+        "is_resampled": false,
+        "related_features": [
+            "vibration",
+            "temperature",
+            "flow_rate",
+            "pressure",
+            "power_consumption"
+        ],
+        "not_filtered_related_features": [
+            "vibration",
+            "temperature",
+            "flow_rate",
+            "pressure",
+            "power_consumption"
+        ],
+        "selected_features": [
+            "pressure",
+            "power_consumption",
+            "temperature"
+        ],
+        "expected_ranges": {
+            "vibration": [
+                0.5343961364711225,
+                22.1251891637355
+            ],
+            "temperature": [
+                38.12978600590584,
+                93.50801830892712
+            ],
+            "flow_rate": [
+                79.30570167843544,
+                510.96831718895714
+            ],
+            "pressure": [
+                1.3740541625016771,
+                17.836370042802788
+            ],
+            "power_consumption": [
+                2.5852819957444213,
+                9.252819188851207
+            ]
+        },
+        "column_type_inference": {
+            "timestamp": "object",
+            "vibration": "numeric",
+            "temperature": "numeric",
+            "flow_rate": "numeric",
+            "pressure": "numeric",
+            "power_consumption": "numeric",
+            "failure": "numeric"
+        },
+        "train_save_file": "./naphtaly_sensordatarandomgenerated_ts/source/train.csv",
+        "val_v1_save_file": "./naphtaly_sensordatarandomgenerated_ts/source/val_v1.csv",
+        "val_v2_save_file": "./naphtaly_sensordatarandomgenerated_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./naphtaly_sensordatarandomgenerated_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./naphtaly_sensordatarandomgenerated_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./naphtaly_sensordatarandomgenerated_ts/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 74,
+        "model_type": "Prophet",
+        "output_file": "./naphtaly_sensordatarandomgenerated_ts/prediction.json",
+        "ground_truth_v1_file": "./naphtaly_sensordatarandomgenerated_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./naphtaly_sensordatarandomgenerated_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./naphtaly_sensordatarandomgenerated_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2024-02-18 14:40:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 6929600,
+        "ref": "naphtaly/sensordatarandomgenerated",
+        "subtitle": "100k+ records: vibration, temp, flow, pressure, power, failure indicators.",
+        "creatorName": "Naphtaly",
+        "creatorUrl": "naphtaly",
+        "totalBytes": 4858685,
+        "url": "https://www.kaggle.com/datasets/naphtaly/sensordatarandomgenerated",
+        "lastUpdated": "2025-03-21T08:23:44.407Z",
+        "downloadCount": 104,
+        "licenseName": "Community Data License Agreement - Sharing - Version 1.0",
+        "description": "",
+        "ownerName": "Naphtaly",
+        "ownerRef": "naphtaly",
+        "kernelCount": 1,
+        "title": "Simulated Centrifugal Pump Sensor Data for PM",
+        "viewCount": 476,
+        "voteCount": 1,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "engineering",
+                "name": "engineering",
+                "description": "Engineering is the application of mathematics, science, economics, empirical evidence, social, and practical knowledge to invent, innovate, design, build, maintain, research, and improve structures, machines, tools, systems, components, materials, processes, solutions, and organizations.",
+                "fullPath": "subject > science and technology > engineering",
+                "competitionCount": 4,
+                "datasetCount": 484,
+                "scriptCount": 174,
+                "totalCount": 662
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "deep learning",
+                "name": "deep learning",
+                "description": "",
+                "fullPath": "technique > deep learning",
+                "competitionCount": 70,
+                "datasetCount": 4482,
+                "scriptCount": 17709,
+                "totalCount": 22261
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14200,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34359
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6929600,
+        "datasetSlug": "sensordatarandomgenerated",
+        "ownerUser": "naphtaly",
+        "usabilityRating": 1.0,
+        "totalViews": 408,
+        "totalVotes": 1,
+        "totalDownloads": 86,
+        "title": "Simulated Centrifugal Pump Sensor Data for PM",
+        "subtitle": "100k+ records: vibration, temp, flow, pressure, power, failure indicators.",
+        "description": "This dataset, generated by ChatGPT, contains over 100,000(1 min intervals) randomly created records designed to simulate the operational data of a centrifugal pump. It includes the following columns:\n\n**Timestamp:** Time of the recorded data.\n\n**Vibration:** Vibration levels of the pump. (mm/s)\n\n**Temperature:** Operating temperature of the pump. (\u00b0C)\n\n**Flow Rate:** Rate of fluid flow through the pump. (L/min)\n\n**Pressure:** Pressure levels within the pump system. (bar)\n\n**Power Consumption:** Energy consumed by the pump during operation. (kW)\n\n**Failure:** Binary indicator (0 = normal operation, 1 = failure) to denote the pump's health status.\n\nThe dataset incorporates realistic variations and anomalies to mimic real-world scenarios, making it suitable for predictive maintenance projects, particularly for predicting the health and failure of centrifugal pumps.\n\nIf you have access to a similar dataset with real-world data (preferably free), please feel free to reach out. Your contribution would be greatly appreciated for advancing this project.\n\n\n=== About this file ===\n\nAbout this file\nTimestamp: Time of the recorded data.\nVibration: Vibration levels of the pump. (mm/s)\nTemperature: Operating temperature of the pump. (\u00b0C)\nFlow Rate: Rate of fluid flow through the pump. (L/min)\nPressure: Pressure levels within the pump system. (bar)\nPower Consumption: Energy consumed by the pump during operation. (kW)\nFailure: Binary indicator (0 = normal operation, 1 = failure) to denote the pump's health status.\n\n\n=== Columns & descriptions ===\n\ntimestamp: Time of the recorded data.\nvibration: Vibration levels of the pump (mm/s)\ntemperature: Operating temperature of the pump (\u00b0C)\nflow_rate: Rate of fluid flow through the pump. (L/min)\npressure: Pressure levels within the pump system (bar)\npower_consumption: Energy consumed by the pump during operation. (kW)\nfailure: Binary indicator (0 = normal operation, 1 = failure) to denote the pump's health status.\n",
+        "keywords": [
+            "engineering",
+            "data visualization",
+            "time series analysis",
+            "deep learning",
+            "tabular"
+        ],
+        "licenses": [
+            {
+                "name": "Community Data License Agreement - Sharing - Version 1.0"
+            }
+        ]
+    }
+}

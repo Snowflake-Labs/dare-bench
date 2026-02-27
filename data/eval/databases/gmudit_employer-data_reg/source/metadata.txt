@@ -1,0 +1,83 @@
+# Employee Salary Dataset
+
+This is a **synthetic dataset** generated for educational and machine learning purposes. It is designed for **salary prediction** as a regression problem and includes realistic employee attributes with logically consistent relationships between features such as education level, job title, experience, and salary.
+
+## 🧾 Dataset Summary
+
+- **Rows:** 10,000  
+- **Target Variable:** `Salary`  or use column as per your choice
+- **Use Case:** Regression, EDA, feature engineering, model evaluation, fairness analysis
+
+## 📌 Features
+
+| Column             | Type        | Description |
+|--------------------|-------------|-------------|
+| `Employee_ID`      | Integer     | Unique identifier for each employee |
+| `Name`             | String      | Full name (gender-aware generation) |
+| `Gender`           | Categorical | Male or Female |
+| `Age`              | Integer     | Age of the employee (based on education level and job title) |
+| `Education_Level`  | Categorical | One of: High School, Bachelor, Master, PhD |
+| `Experience_Years` | Integer     | Number of years of professional experience |
+| `Department`       | Categorical | Business unit, e.g., HR, Engineering, Marketing, etc. |
+| `Job_Title`        | Categorical | Role of the employee, e.g., Analyst, Engineer, Manager, etc. |
+| `Location`         | Categorical | Work location (e.g., New York, San Francisco, etc.) |
+| `Salary`           | Integer     | Annual salary in USD (target for regression) |
+
+## ✅ Characteristics
+
+- All entries are **complete** with no missing values.
+- The data reflects **realistic correlations**:
+  - Higher education → Higher job levels → Higher salaries
+  - Interns are younger with low salaries
+  - PhDs are older and placed in senior positions
+- Salary distributions are varied across departments and locations.
+
+## 🎯 Applications
+
+This dataset is excellent for:
+- Linear and nonlinear regression models
+- Feature importance & engineering
+- Categorical encoding techniques
+- Hyperparameter tuning
+- Fairness and bias detection (e.g., gender-based wage gaps)
+- Visualization and EDA practice
+
+
+
+
+=== About this file ===
+
+About this file
+File: employee_salary_dataset.csv
+This file contains a synthetic dataset of 10,000 employee records generated for machine learning applications, particularly
+salary prediction
+using regression techniques. The data includes demographic information, educational background, job roles, performance metrics, and the corresponding annual salary (target variable).
+Key Characteristics:
+Clean and consistent
+: No missing values
+Realistic relationships
+: Salary depends on experience, education level, job title, and location
+Diverse features
+: Includes numerical, categorical, and ordinal variables
+Rounded salary
+: All salaries are rounded to the nearest $5,000 or $10,000
+Ethically safe
+: Fully synthetic and safe for public ML training and testing
+Target Variable:
+Salary
+: Annual compensation in USD
+Use this file to practice regression modeling, feature engineering, or explore fairness and explainability in ML models.
+
+
+=== Columns & descriptions ===
+
+Employee_ID: Integer
+Name: String
+Age: Integer
+Gender: [no description]
+Department: [no description]
+Job_Title: [no description]
+Experience_Years: [no description]
+Education_Level: [no description]
+Location: [no description]
+Salary: Integer

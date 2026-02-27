@@ -1,0 +1,29 @@
+📊 **Dataset Description: Daily Website Traffic and Engagement Metrics**
+
+This dataset contains daily web traffic and user engagement information for a live website, recorded over an extended period. It provides a comprehensive view of how user activity on the platform varies in response to marketing initiatives and temporal factors such as weekends and holidays.
+
+The dataset is particularly suited for time series forecasting, seasonality analysis, and marketing effectiveness studies. It is valuable for both academic and practical applications in fields such as digital analytics, marketing strategy, and predictive modeling.
+
+🧾 **Use Case Scenarios:**
+
+- Forecasting future page views using past behavior and external influencing factors
+- Evaluating the impact of advertising spend on web traffic and ROI
+- Detecting seasonality and weekly/cyclical patterns in user engagement
+- Developing time-aware models for resource planning (e.g., server load, content drops)
+- Training and benchmarking time series models such as ARIMA, SARIMA, RNN, LSTM, and GRU
+
+=== About this file ===
+
+About this file
+This CSV file contains daily web traffic statistics and contextual variables to support time series forecasting and behavioral analysis.
+
+
+=== Columns & descriptions ===
+
+: [no description]
+timestamp: The date of the observation (daily frequency). Used as the time index for all analysis.
+page_views: Total number of page views recorded on the website for the corresponding day. Serves as the primary indicator of user engagement.
+ad_spend: Amount of money (in dollars or any applicable currency) spent on digital advertising campaigns on that specific day. This is a key driver variable for forecasting traffic.
+is_weekend: Indicates whether the given date falls on a weekend (Saturday or Sunday). Used to model periodic dips or surges in traffic.
+day_of_week: It indicates the Days of the week
+is_holiday: Denotes whether the given day is a public or special holiday. Holidays often result in abnormal traffic patterns and are crucial for improving forecasting accuracy.

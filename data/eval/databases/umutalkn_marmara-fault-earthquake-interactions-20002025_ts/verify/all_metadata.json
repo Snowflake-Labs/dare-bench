@@ -1,0 +1,230 @@
+{
+    "question": {
+        "target": [
+            "Magnitude_ML"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": true,
+        "related_features": [
+            "Latitude",
+            "Longitude",
+            "Depth_km",
+            "Nearest_Fault",
+            "Fault_Type",
+            "Fault_Length_km",
+            "Slip_Rate_mm_per_yr",
+            "Recurrence_Interval_yr",
+            "Elapsed_Time_yr",
+            "Slip_Deficit_m"
+        ],
+        "not_filtered_related_features": [
+            "Latitude",
+            "Longitude",
+            "Depth_km",
+            "Nearest_Fault",
+            "Fault_Type",
+            "Fault_Length_km",
+            "Slip_Rate_mm_per_yr",
+            "Recurrence_Interval_yr",
+            "Elapsed_Time_yr",
+            "Slip_Deficit_m"
+        ],
+        "selected_features": [
+            "Slip_Rate_mm_per_yr",
+            "Slip_Deficit_m",
+            "Fault_Length_km",
+            "Nearest_Fault",
+            "Longitude",
+            "Elapsed_Time_yr"
+        ],
+        "expected_ranges": {
+            "Latitude": [
+                39.5,
+                41.4951
+            ],
+            "Longitude": [
+                26.0,
+                30.5
+            ],
+            "Depth_km": [
+                0.71,
+                83.07
+            ],
+            "Nearest_Fault": [
+                "Kuzey Anadolu Fay Zonu",
+                "Kuzey Anadolu Fay Zonu Ganos Fay\u0131",
+                "Kuzey Anadolu Fay Zonu Ulubat Fay\u0131",
+                "Manyas Fay Zonu",
+                "Troya Fay\u0131",
+                "Mustafakemalpa\u015fa Fay\u0131",
+                "Bekten Fay\u0131",
+                "Yenice-G\u00f6nen Fay Zonu",
+                "Orhaneli Fay\u0131",
+                "Havran-Bal\u0131kesir Fay\u0131",
+                "Eski\u015fehir Fay Zonu",
+                "Yenimahalle Fay\u0131"
+            ],
+            "Fault_Type": [
+                "strike-slip",
+                "strike-slip + minor vertical",
+                "normal (listric)",
+                "oblique / uncertain",
+                "strike-slip + minor normal",
+                "strike-slip + minor thrust",
+                "strike-slip + thrust",
+                "strike-slip + transpression",
+                "left-lateral mixed",
+                "small strike-slip"
+            ],
+            "Fault_Length_km": [
+                4.0,
+                150.0
+            ],
+            "Slip_Rate_mm_per_yr": [
+                0.8,
+                7.5
+            ],
+            "Recurrence_Interval_yr": [
+                250.0,
+                750.0
+            ],
+            "Elapsed_Time_yr": [
+                17.0,
+                375.0
+            ],
+            "Slip_Deficit_m": [
+                0.0413666666666666,
+                1.25
+            ]
+        },
+        "column_type_inference": {
+            "Date": "object",
+            "Latitude": "numeric",
+            "Longitude": "numeric",
+            "Depth_km": "numeric",
+            "Magnitude_ML": "numeric",
+            "Location": "object",
+            "Nearest_Fault": "object",
+            "Fault_Length_km": "numeric",
+            "Fault_Width_m": "numeric",
+            "Fault_Depth_m": "numeric",
+            "Fault_Type": "object",
+            "Length_km": "numeric",
+            "Seismogenic_Depth_km": "numeric",
+            "Slip_Rate_mm_per_yr": "numeric",
+            "Max_Surface_Slip_m": "numeric",
+            "Recurrence_Interval_yr": "numeric",
+            "Last_Event_Year": "numeric",
+            "Last_Event_Mw": "numeric",
+            "Elapsed_Time_yr": "numeric",
+            "Slip_Deficit_m": "numeric",
+            "Normalized_Slip_m_per_km": "numeric",
+            "Moment_Potential_Nm": "numeric",
+            "Mw_Potential": "numeric"
+        },
+        "train_save_file": "./umutalkn_marmara-fault-earthquake-interactions-20002025_ts/source/train.csv",
+        "val_v1_save_file": "./umutalkn_marmara-fault-earthquake-interactions-20002025_ts/source/val_v1.csv",
+        "val_v2_save_file": "./umutalkn_marmara-fault-earthquake-interactions-20002025_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./umutalkn_marmara-fault-earthquake-interactions-20002025_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./umutalkn_marmara-fault-earthquake-interactions-20002025_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./umutalkn_marmara-fault-earthquake-interactions-20002025_ts/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 80,
+        "model_type": "Prophet",
+        "output_file": "./umutalkn_marmara-fault-earthquake-interactions-20002025_ts/prediction.json",
+        "ground_truth_v1_file": "./umutalkn_marmara-fault-earthquake-interactions-20002025_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./umutalkn_marmara-fault-earthquake-interactions-20002025_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./umutalkn_marmara-fault-earthquake-interactions-20002025_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2019-02-19 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7242991,
+        "ref": "umutalkn/marmara-fault-earthquake-interactions-20002025",
+        "subtitle": "Seismological and Geospatial Data of Marmara Faults and Earthquakes (2000\u20132025)",
+        "creatorName": "umutalkn",
+        "creatorUrl": "umutalkn",
+        "totalBytes": 398743,
+        "url": "https://www.kaggle.com/datasets/umutalkn/marmara-fault-earthquake-interactions-20002025",
+        "lastUpdated": "2025-04-24T17:55:41.103Z",
+        "downloadCount": 229,
+        "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
+        "description": "",
+        "ownerName": "umutalkn",
+        "ownerRef": "umutalkn",
+        "kernelCount": 2,
+        "title": "Marmara Fault-Earthquake Interactions (2000\u20132025)",
+        "viewCount": 1604,
+        "voteCount": 14,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "geology",
+                "name": "geology",
+                "description": "Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time",
+                "fullPath": "subject > earth and nature > earth science > geology",
+                "competitionCount": 3,
+                "datasetCount": 1433,
+                "scriptCount": 273,
+                "totalCount": 1709
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14200,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34359
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7242991,
+        "datasetSlug": "marmara-fault-earthquake-interactions-20002025",
+        "ownerUser": "umutalkn",
+        "usabilityRating": 1.0,
+        "totalViews": 1564,
+        "totalVotes": 14,
+        "totalDownloads": 225,
+        "title": "Marmara Fault-Earthquake Interactions (2000\u20132025)",
+        "subtitle": "Seismological and Geospatial Data of Marmara Faults and Earthquakes (2000\u20132025)",
+        "description": "## Description\n\nThis dataset provides a comprehensive overview of seismic activity and fault line characteristics in the Marmara Region of Turkey between **2000 and 2025**. It combines earthquake records with geological properties of nearby fault zones using spatial analysis techniques.\n\n### Contents:\n- **Earthquake Data**: latitude, longitude, depth, magnitude, location, and time.\n-  **Nearest Fault Mapping**: using KNN algorithm to associate each earthquake with the closest fault.\n-  **Fault Characteristics**:\n  - Type (e.g. strike-slip, normal)\n  - Length, width, and depth\n  - Slip rate (mm/year)\n  - Seismogenic depth\n  - Recurrence intervals\n  - Last known earthquake and magnitude\n  - Moment potential and slip deficit\n\n### Purpose\nThis dataset is designed for researchers, data scientists, and students aiming to model earthquake behavior using geophysical features. It supports time-series forecasting, geospatial analysis, and machine learning-based risk modeling.\n\n###  Licensing & Attribution\n- **Non-commercial use only**\n- **Attribution required** when using or referencing this dataset\n\n=== About this file ===\n\nAbout this file\nThis CSV file contains merged earthquake data and geological fault information for the Marmara Region, Turkey.\n\n\n=== Columns & descriptions ===\n\nDate: Date of the earthquake\nLatitude: Latitude of the earthquake epicenter\nLongitude: Longitude of the earthquake epicenter\nDepth_km: Earthquake depth in kilometers\nMagnitude_ML: Local magnitude of the earthquake\nLocation: Textual location description (nearest town or district)\nNearest_Fault: Name of the closest fault line (via KNN spatial matching)\nFault_Length_km: Estimated length of the matched fault in kilometers\nFault_Width_m: Estimated width of the fault trench in meters\nFault_Depth_m: Estimated depth of the fault trench in meters\nFault_Type: Fault classification (e.g. strike-slip, normal)\nLength_km: Represents the approximate surface length of each fault segment in kilometers, calculated using geodesic distance between coordinates. Longer faults often indicate higher earthquake potential\nSeismogenic_Depth_km: Depth of the fault capable of producing earthquakes\nSlip_Rate_mm_per_yr: Average horizontal or vertical slip rate in mm/year\nMax_Surface_Slip_m: Maximum observed slip on the fault surface in meters\nRecurrence_Interval_yr: Estimated average recurrence interval between large earthquakes\nLast_Event_Year: Year of the last known surface-breaking earthquake\nLast_Event_Mw: Moment magnitude of the last event\nElapsed_Time_yr: Years passed since the last major event\nSlip_Deficit_m: Estimated slip deficit based on time and slip rate\nNormalized_Slip_m_per_km: Normalized slip per km of fault length (m/km)\nMoment_Potential_Nm: Earthquake energy potential (moment) in Newton-meters\nMw_Potential: Theoretical maximum moment magnitude potential\n",
+        "keywords": [
+            "geology",
+            "time series analysis",
+            "tabular"
+        ],
+        "licenses": [
+            {
+                "name": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+            }
+        ]
+    }
+}

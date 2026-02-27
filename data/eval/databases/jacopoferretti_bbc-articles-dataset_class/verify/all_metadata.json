@@ -1,0 +1,174 @@
+{
+    "question": {
+        "target": [
+            "labels"
+        ],
+        "target_candidates": [
+            "labels"
+        ],
+        "related_features": [
+            "text",
+            "no_sentences",
+            "Dale-Chall Readability Score",
+            "Flesch Reading Ease Score"
+        ],
+        "not_filtered_related_features": [
+            "no_sentences",
+            "Dale-Chall Readability Score",
+            "Flesch Reading Ease Score"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "no_sentences": [
+                4,
+                252
+            ],
+            "Dale-Chall Readability Score": [
+                6.0,
+                15.0
+            ],
+            "Flesch Reading Ease Score": [
+                33.0,
+                88.0
+            ]
+        },
+        "selected_features": [
+            "no_sentences",
+            "Flesch Reading Ease Score"
+        ],
+        "train_v2_save_file": "./jacopoferretti_bbc-articles-dataset_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./jacopoferretti_bbc-articles-dataset_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./jacopoferretti_bbc-articles-dataset_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./jacopoferretti_bbc-articles-dataset_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./jacopoferretti_bbc-articles-dataset_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.8,
+        "save_file_type": "sqlite",
+        "imputer_type": "most_frequent",
+        "random_state": 26,
+        "model_type": "LinearSVC",
+        "output_file": "./jacopoferretti_bbc-articles-dataset_class/prediction.csv",
+        "ground_truth_file": "./jacopoferretti_bbc-articles-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./jacopoferretti_bbc-articles-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "text": "categorical",
+            "labels": "categorical",
+            "no_sentences": "numerical",
+            "Flesch Reading Ease Score": "numerical",
+            "Dale-Chall Readability Score": "numerical",
+            "text_rank_summary": "categorical",
+            "lsa_summary": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "no_sentences",
+            "Flesch Reading Ease Score"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 5854585,
+        "ref": "jacopoferretti/bbc-articles-dataset",
+        "subtitle": "Classify BBC NEWS articles",
+        "creatorName": "Jacopo Ferretti",
+        "creatorUrl": "jacopoferretti",
+        "totalBytes": 5762837,
+        "url": "https://www.kaggle.com/datasets/jacopoferretti/bbc-articles-dataset",
+        "lastUpdated": "2025-06-21T04:22:32.517Z",
+        "downloadCount": 3839,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Jacopo Ferretti",
+        "ownerRef": "jacopoferretti",
+        "kernelCount": 22,
+        "title": "BBC Articles Dataset with Extra Features",
+        "viewCount": 13657,
+        "voteCount": 63,
+        "currentVersionNumber": 10,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "languages",
+                "name": "languages",
+                "description": "Language is a method of communication that consists of using words arranged into meaningful patterns. This is a good place to find natural language processing datasets and kernels to study languages and train your chat bots.",
+                "fullPath": "subject > culture and humanities > languages",
+                "competitionCount": 10,
+                "datasetCount": 930,
+                "scriptCount": 354,
+                "totalCount": 1294
+            },
+            {
+                "ref": "nlp",
+                "name": "nlp",
+                "description": "Natural Language Processing gives a computer program the ability to extract meaning human language. Applications include sentiment analysis, translation, and speech recognition.",
+                "fullPath": "analysis > nlp",
+                "competitionCount": 103,
+                "datasetCount": 4980,
+                "scriptCount": 9018,
+                "totalCount": 14101
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "text",
+                "name": "text",
+                "description": "",
+                "fullPath": "data type > text",
+                "competitionCount": 150,
+                "datasetCount": 8582,
+                "scriptCount": 4570,
+                "totalCount": 13302
+            },
+            {
+                "ref": "news",
+                "name": "news",
+                "description": "",
+                "fullPath": "subject > people and society > news",
+                "competitionCount": 2,
+                "datasetCount": 16966,
+                "scriptCount": 3080,
+                "totalCount": 20048
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 5854585,
+        "datasetSlug": "bbc-articles-dataset",
+        "ownerUser": "jacopoferretti",
+        "usabilityRating": 1.0,
+        "totalViews": 12836,
+        "totalVotes": 60,
+        "totalDownloads": 3145,
+        "title": "BBC Articles Dataset with Extra Features",
+        "subtitle": "Classify BBC NEWS articles",
+        "description": "*BBC News articles, with text and labels (sport, business ...). This dataset can be used for several tasks, including classification, text summarization ...\n\n*I also include a new version of the dataset, with extra labels. They include text complexity scores and text summary.\n\n=== About this file ===\n\nAbout this file\nUpdated version of the dataset. It includes new columns.\n\n\n=== Columns & descriptions ===\n\ntext: text\nlabels: article type\nno_sentences: number of sentences in the text\nFlesch Reading Ease Score: Flesch Reading Ease Score of th text\nDale-Chall Readability Score: Dale-Chall Readability Score of the text\ntext_rank_summary: First type of text summarization\nlsa_summary: second type of text summarization\n",
+        "keywords": [
+            "languages",
+            "nlp",
+            "classification",
+            "text",
+            "news"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

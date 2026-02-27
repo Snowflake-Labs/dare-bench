@@ -1,0 +1,194 @@
+{
+    "question": {
+        "target": [
+            "Platform",
+            "Category",
+            "Location"
+        ],
+        "target_candidates": [
+            "Category",
+            "Location",
+            "Platform"
+        ],
+        "related_features": [
+            "Revenue",
+            "Discount",
+            "Units Returned",
+            "Price",
+            "Units Sold"
+        ],
+        "not_filtered_related_features": [
+            "Revenue",
+            "Discount",
+            "Units Returned",
+            "Price",
+            "Units Sold"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Revenue": [
+                1284.0,
+                10762.0
+            ],
+            "Discount": [
+                0.0,
+                1.0
+            ],
+            "Units Returned": [
+                0,
+                8
+            ],
+            "Price": [
+                10.0,
+                60.0
+            ],
+            "Units Sold": [
+                103,
+                194
+            ]
+        },
+        "selected_features": [
+            "Units Returned",
+            "Revenue",
+            "Discount"
+        ],
+        "train_v2_save_file": "./zahidmughal2343_supplement-sales-data_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./zahidmughal2343_supplement-sales-data_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./zahidmughal2343_supplement-sales-data_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./zahidmughal2343_supplement-sales-data_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./zahidmughal2343_supplement-sales-data_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.8,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 71,
+        "model_type": "LinearSVC",
+        "output_file": "./zahidmughal2343_supplement-sales-data_class/prediction.csv",
+        "ground_truth_file": "./zahidmughal2343_supplement-sales-data_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./zahidmughal2343_supplement-sales-data_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Date": "categorical",
+            "Product Name": "categorical",
+            "Category": "categorical",
+            "Units Sold": "numerical",
+            "Price": "numerical",
+            "Revenue": "numerical",
+            "Discount": "numerical",
+            "Units Returned": "numerical",
+            "Location": "categorical",
+            "Platform": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Units Returned",
+            "Revenue",
+            "Discount"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 7116628,
+        "ref": "zahidmughal2343/supplement-sales-data",
+        "subtitle": "Food Supplement Sales Data (2020-2025)",
+        "creatorName": "Zahid Feroze",
+        "creatorUrl": "zahidmughal2343",
+        "totalBytes": 66800,
+        "url": "https://www.kaggle.com/datasets/zahidmughal2343/supplement-sales-data",
+        "lastUpdated": "2025-04-11T15:01:00.227Z",
+        "downloadCount": 6812,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Zahid Feroze",
+        "ownerRef": "zahidmughal2343",
+        "kernelCount": 34,
+        "title": "Supplement Sales Data",
+        "viewCount": 24240,
+        "voteCount": 68,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "united states",
+                "name": "united states",
+                "description": "The top datasets and kernels in this tag are about mass shootings, AirBnB, homelessness, and witchcraft. That about sums it up.",
+                "fullPath": "geography and places > north america > united states",
+                "competitionCount": 2,
+                "datasetCount": 2639,
+                "scriptCount": 675,
+                "totalCount": 3316
+            },
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "data analytics",
+                "name": "data analytics",
+                "description": "",
+                "fullPath": "technique > data analytics",
+                "competitionCount": 32,
+                "datasetCount": 9201,
+                "scriptCount": 15324,
+                "totalCount": 24557
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "food",
+                "name": "food",
+                "description": "",
+                "fullPath": "subject > health and fitness > food",
+                "competitionCount": 10,
+                "datasetCount": 13083,
+                "scriptCount": 709,
+                "totalCount": 13802
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7116628,
+        "datasetSlug": "supplement-sales-data",
+        "ownerUser": "zahidmughal2343",
+        "usabilityRating": 1.0,
+        "totalViews": 22465,
+        "totalVotes": 68,
+        "totalDownloads": 6313,
+        "title": "Supplement Sales Data",
+        "subtitle": "Food Supplement Sales Data (2020-2025)",
+        "description": "\ud83d\udcca Supplement Sales Data (2020\u20132025)\nOverview\nThis dataset contains weekly sales data for a variety of health and wellness supplements from January 2020 to April 2025. The data includes products in categories like Protein, Vitamins, Omega, and Amino Acids, among others, and covers multiple e-commerce platforms such as Amazon, Walmart, and iHerb. The dataset also tracks sales in several locations including the USA, UK, and Canada.\n\nDataset Details\nTime Range: January 2020 to April 2025\n\nFrequency: Weekly (Every Monday)\n\nNumber of Rows: 4,384\n\nColumns:\n\nDate: The week of the sale.\n\nProduct Name: The name of the supplement (e.g., Whey Protein, Vitamin C, etc.).\n\nCategory: The category of the supplement (e.g., Protein, Vitamin, Omega).\n\nUnits Sold: The number of units sold in that week.\n\nPrice: The selling price of the product.\n\nRevenue: The total revenue generated (Units Sold * Price).\n\nDiscount: The discount applied on the product (as a percentage of original price).\n\nUnits Returned: The number of units returned in that week.\n\nLocation: The location of the sale (USA, UK, or Canada).\n\nPlatform: The e-commerce platform (Amazon, Walmart, iHerb).\n\nUse Cases\nThis dataset is ideal for:\n\nTime-series forecasting and sales trend analysis \ud83d\udcc8\n\nPrice vs. demand analysis and revenue prediction \ud83d\udcca\n\nSentiment analysis and impact of promotions (Discounts) on sales \ud83d\udecd\ufe0f\n\nProduct performance tracking across different platforms and locations \ud83d\uded2\n\nBusiness optimization in the health and wellness e-commerce sector \ud83d\udcbc\n\nPotential Applications\nBuild predictive models to forecast future sales \ud83d\udcc5\n\nAnalyze the effectiveness of discounts and promotions \ud83d\udcb8\n\nCreate recommendation systems for supplement products \ud83e\udde0\n\nPerform exploratory data analysis (EDA) and uncover trends \ud83d\udd0d\n\nModel return rates and their effect on overall revenue \ud83d\udcc9\n\nWhy This Dataset?\nThis dataset provides an excellent starting point for those interested in building business intelligence tools, e-commerce forecasting models, or exploring health & wellness trends. It also serves as a perfect dataset for data science learners looking to apply regression, time-series analysis, and predictive modeling techniques.\n\n=== About this file ===\n\nAbout this file\nFile Information\nFile Format: CSV\nNumber of Rows: 4,384\nNumber of Columns: 10\nFile Size: ~200 KB\nData Frequency: Weekly (Every Monday)\nTime Period: January 2020 to April 2025\n\n\n=== Columns & descriptions ===\n\nDate: Date\nProduct Name: Product Name\nCategory: Category\nUnits Sold: Units Sold\nPrice: Price\nRevenue: Revenue\nDiscount: Discount\nUnits Returned: Units Returned\nLocation: Location\nPlatform: Platform\n",
+        "keywords": [
+            "united states",
+            "intermediate",
+            "data analytics",
+            "classification",
+            "food"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

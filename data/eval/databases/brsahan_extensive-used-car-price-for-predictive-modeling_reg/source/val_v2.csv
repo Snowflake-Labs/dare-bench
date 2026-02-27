@@ -1,0 +1,32 @@
+row_id,Car_Name,Year,Present_Price,Kms_Driven,Fuel_Type,Seller_Type,Transmission,Owner
+1,Honda Activa 125,2016,0.57,24000,Petrol,Individual,Automatic,0
+2,city,2016,13.6,10980,Petrol,Dealer,Manual,0
+3,verna,2012,9.4,60000,Diesel,Dealer,Manual,0
+4,Bajaj Discover 125,2011,0.57,35000,Petrol,Individual,Manual,1
+5,corolla altis,2013,18.61,40001,Petrol,Dealer,Manual,0
+6,ciaz,2015,8.92,42367,Diesel,Dealer,Manual,0
+7,Royal Enfield Classic 350,2015,1.47,26000,Petrol,Individual,Manual,0
+8,Yamaha Fazer,2014,0.88,8000,Petrol,Individual,Manual,0
+9,Hero Splender iSmart,2016,0.54,14000,Petrol,Individual,Manual,0
+10,ertiga,2014,9.95,45000,Diesel,Dealer,Manual,0
+11,vitara brezza,2018,9.83,2071,Diesel,Dealer,Manual,0
+12,Royal Enfield Classic 350,2013,1.47,33000,Petrol,Individual,Manual,0
+13,ciaz,2014,12.04,15000,Petrol,Dealer,Automatic,0
+14,Activa 4g,2017,0.51,1300,Petrol,Individual,Automatic,0
+15,verna,2013,9.4,45000,Diesel,Dealer,Manual,0
+16,ritz,2013,4.89,64532,Petrol,Dealer,Manual,0
+17,Royal Enfield Classic 500,2012,1.75,11500,Petrol,Individual,Manual,0
+18,corolla altis,2017,18.64,8700,Petrol,Dealer,Manual,0
+19,Honda Dream Yuga,2017,0.54,8600,Petrol,Individual,Manual,0
+20,UM Renegade Mojave,2017,1.82,1400,Petrol,Individual,Manual,0
+21,Honda CB Trigger,2013,0.73,12000,Petrol,Individual,Manual,0
+22,city,2016,9.4,19434,Diesel,Dealer,Manual,0
+23,verna,2012,9.4,32322,Diesel,Dealer,Manual,0
+24,swift,2011,4.99,20000,Petrol,Dealer,Manual,0
+25,Bajaj Pulsar  NS 200,2014,0.99,25000,Petrol,Individual,Manual,0
+26,i20,2012,6.79,35000,Petrol,Dealer,Manual,0
+27,city,2013,9.9,56701,Petrol,Dealer,Manual,0
+28,etios liva,2011,5.71,43000,Petrol,Dealer,Manual,0
+29,Royal Enfield Classic 350,2017,1.47,11000,Petrol,Individual,Manual,0
+30,Royal Enfield Thunder 350,2016,1.5,18000,Petrol,Individual,Manual,0
+31,Hero Extreme,2013,0.787,16000,Petrol,Individual,Manual,0

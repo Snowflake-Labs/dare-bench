@@ -1,0 +1,31 @@
+This dataset provides daily price averages for Old School RuneScape (OSRS) bonds traded on the Grand Exchange. Bonds serve as a unique economic indicator as they can be:
+✔ Purchased with real-world currency
+✔ Traded for in-game gold
+✔ Used for membership subscriptions
+
+Time Range: 2015 (release date) to present (can be updated upon request).
+Data Points: Daily timestamps with raw price values.
+
+Source: [WeirdGloop.](https://api.weirdgloop.org/#/exchange/getExchangeHistoryAll)
+
+
+## **About Old School RuneScape:**
+Old School RuneScape (OSRS) is a standalone version of RuneScape launched in 2013, based on the 2007 game build. It has grown into one of the most popular MMORPGs, with over 1.5 million monthly active players. OSRS prioritizes classic gameplay and community-driven updates and has grown to become more popular than the original game.
+
+The Grand Exchange (GE) is OSRS’s centralized trading hub, added in 2015. Tracks real-time price movements for thousands of tradeable items (data for other items can also be updated upon request, I'm only interested in bonds for now).
+
+Bonds bought on the Grand Exchange become tradable again only after paying 10% of their GE value (making short-term flipping impractical). They tends to reflect long-term economic trends rather than daily volatility.
+
+
+=== About this file ===
+
+About this file
+Remote source:
+https://www.kaggle.com/code/doauinc/osrs-grand-exchange-data-fetcher
+Historical information for Bonds in OSRS.
+
+
+=== Columns & descriptions ===
+
+Date: UTC
+Price (GP): item cost on the GE

@@ -1,0 +1,140 @@
+# Cleaned SuperCon Superconductors Data (from NIMS RDF 1.2)
+
+## Dataset Overview
+
+This dataset provides cleaned and processed data on superconducting materials, originally sourced from the **SuperCon RDF Ver.1.2** knowledge base developed by the National Institute for Materials Science (NIMS), Japan. The original RDF dataset (DOI: [10.48505/nims.4571](https://doi.org/10.48505/nims.4571)) was processed to create a user-friendly CSV file suitable for machine learning and data analysis tasks.
+
+The cleaning process focused on standardizing units for key physical properties, handling missing values, renaming columns for clarity, and flagging potentially erroneous or controversial entries.
+
+## Source & License
+
+*   **Original Data Source:** MDR SuperCon RDF Ver.1.2 by Masashi Ishii (National Institute for Materials Science).
+*   **Original DOI:** [https://doi.org/10.48505/nims.4571](https://doi.org/10.48505/nims.4571)
+*   **License:** [Creative Commons BY Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). This license permits sharing and adaptation as long as attribution is given to the original source.
+*   **Original Schema Publication:** M. Ishii and K. Sakamoto, 'Structuring superconductor data with ontology: reproducing historical datasets as knowledge bases', Science and Technology of Advanced Materials: Methods, 3(1) 2223051 (2023). [https://doi.org/10.1080/27660400.2023.2223051](https://doi.org/10.1080/27660400.2023.2223051)
+
+## Data Cleaning and Processing Steps
+
+The original data (presumably derived from the RDF source) underwent the following processing steps:
+
+1.  **Unit Standardization:** Units for key physical properties were standardized, and the resulting unit was incorporated into the column name. Affected columns include:
+    *   `critical_temp_K` (Kelvin)
+    *   `upper_critical_field_0K_T` (Tesla)
+    *   `lower_critical_field_0K_T` (Tesla)
+    *   `gamma_sommerfeld_mJmolK2` (mJ/mol·K²)
+    *   `resistivity_normal_uOhmcm` (µΩ·cm)
+    *   `resistivity_roomtemp_uOhmcm` (µΩ·cm)
+    *   `penetration_depth_nm` (nanometers)
+    *   `coherence_length_nm` (nanometers)
+    *   `dhc2dt_TK` (Tesla/Kelvin)
+    *   `dtcdp_KGPa` (Kelvin/GPa)
+    *   `density_gcm3` (g/cm³)
+    *   `thermopower_300K_uVK` (µV/K)
+    *   `energy_gap_meV` (meV)
+    *   `tc_width_K` (Kelvin)
+2.  **Column Dropping:** Columns with more than 99% missing values were removed to reduce sparsity. Original `_unit` columns were dropped after standardization or if they contained too many missing values. Columns ending in `_value` without a corresponding standardized unit remain as they were in the source (units might be inconsistent or missing).
+3.  **Handling Errors:** Entries with physically impossible negative values for Curie (`curiet`) or Neel (`neelt`) temperatures were replaced with NaN.
+4.  **Data Quality Flagging:** A `data_quality_flag` column was added to highlight potential issues or points of interest:
+    *   `Likely Error: ...`: Indicates values (especially Tc) that are highly anomalous for the given material or likely data entry errors.
+    *   `Controversial Claim ...`: Marks entries related to highly debated or unconfirmed reports (e.g., near-ambient pressure LuH).
+    *   `Warning: Statistical Tc Outlier (IQR)`: Flags Tc values that fall outside the typical range based on the Interquartile Range method.
+    *   `Check: Tc=0 (Non-superconducting?)`: Indicates the material did not show superconductivity down to the lowest measured temperature.
+    *   `Info: Very Low Tc (&lt;0.1K)`: Marks materials with very low critical temperatures.
+5.  **Final Format:** The processed data is provided in CSV format (`superconductors_kaggle_ready.csv`).
+
+## Citation / Attribution
+
+When using this dataset, please acknowledge the original source as requested by NIMS:
+
+&gt; This dataset is derived from the MDR SuperCon RDF Ver.1.2 (https://doi.org/10.48505/nims.4571), a semantic structuring data for superconducting materials, which is made public by the National Institute for Materials Science (NIMS). This Kaggle dataset represents a cleaned and processed version of the original data. The details of the original RDF schema are discussed in a publication [1].
+&gt;
+&gt; [1] M. Ishii and K. Sakamoto, 'Structuring superconductor data with ontology: reproducing historical datasets as knowledge bases', Science and Technology of Advanced Materials: Methods, 3(1) 2223051 (2023). https://doi.org/10.1080/27660400.2023.2223051
+
+## Column Descriptions
+
+*(Based on the 29 columns in the final file)*
+
+*   `element`: Chemical formula of the material.
+*   `name`: Common name or alternative formula.
+*   `shape`: Code representing the sample shape (original codes preserved).
+*   `comment`: Original comments from the source data.
+*   `debyet`: Debye temperature in Kelvin (K).
+*   `isotope_value`: Isotope effect exponent (value, units not standardized/available).
+*   `kaizero_value`: Initial magnetic susceptibility (value, units not standardized/available).
+*   `moment_value`: Magnetic moment (value, units not standardized/available).
+*   `neelt`: Neel temperature in Kelvin (K). *Note: Negative values replaced by NaN.*
+*   `tcn_value`: Critical temperature (n-type? value, units not standardized/available).
+*   `gapene`: Energy gap parameter (value, units not standardized/available).
+*   `pcohere_value`: Coherence length (p-wave? value, units not standardized/available).
+*   `rh300`: Hall coefficient at 300K? (value, units not standardized/available).
+*   `curiet`: Curie temperature in Kelvin (K). *Note: Negative values replaced by NaN.*
+*   `critical_temp_K`: Critical superconducting transition temperature in Kelvin (K).
+*   `upper_critical_field_0K_T`: Upper critical magnetic field at 0 Kelvin in Tesla (T).
+*   `lower_critical_field_0K_T`: Lower critical magnetic field at 0 Kelvin in Tesla (T).
+*   `gamma_sommerfeld_mJmolK2`: Sommerfeld coefficient (electronic specific heat) in milliJoules per mole per Kelvin squared (mJ/mol·K²).
+*   `resistivity_normal_uOhmcm`: Electrical resistivity in the normal state (often near Tc) in microOhm-centimeters (µΩ·cm).
+*   `resistivity_roomtemp_uOhmcm`: Electrical resistivity at room temperature (approx. 300K) in microOhm-centimeters (µΩ·cm).
+*   `penetration_depth_nm`: Magnetic penetration depth in nanometers (nm).
+*   `coherence_length_nm`: Superconducting coherence length in nanometers (nm).
+*   `dhc2dt_TK`: Slope of the upper critical field versus temperature near Tc in Tesla per Kelvin (T/K).
+*   `dtcdp_KGPa`: Pressure dependence of the critical temperature in Kelvin per Gigapascal (K/GPa).
+*   `density_gcm3`: Material density in grams per cubic centimeter (g/cm³).
+*   `thermopower_300K_uVK`: Thermoelectric power (Seebeck coefficient) at 300K in microVolts per Kelvin (µV/K).
+*   `energy_gap_meV`: Superconducting energy gap in milli-electronVolts (meV).
+*   `tc_width_K`: Width of the superconducting transition in Kelvin (K).
+*   `data_quality_flag`: Flags indicating potential data issues or points of interest (e.g., `Likely Error...`, `Controversial Claim...`, `Warning: Statistical Tc Outlier (IQR)`, `Check: Tc=0...`, `Info: Very Low Tc...`). See description above for details. Blank/NaN means no specific flag was assigned during cleaning.
+
+
+shape_01: "single phase (bulk)"
+shape_02: "multi phase (bulk)"
+shape_03: "single crystal (bulk)"
+shape_04: "film"
+shape_05: "film (single)"
+shape_06, shape_08, shape_09, shape_12: "unknown shape X"
+
+=== About this file ===
+
+About this file
+This CSV file contains the cleaned and processed superconductor data derived from the NIMS SuperCon RDF Ver.1.2 dataset. Units for key properties have been standardized (indicated in column names), highly sparse columns removed, obvious errors corrected (replaced with NaN), and a
+data_quality_flag
+column added to highlight potential issues. See the main dataset description for full details on processing and column definitions.
+
+
+=== Columns & descriptions ===
+
+comment: Original comments from the source data.
+curiet: [no description]
+debyet: [no description]
+element: [no description]
+gapene: [no description]
+kaizero_value: [no description]
+moment_value: [no description]
+name: [no description]
+neelt: [no description]
+nhc2zero_value: [no description]
+oz: [no description]
+pcohere_value: [no description]
+phc2zero_value: [no description]
+ppenet_value: [no description]
+rh300: [no description]
+shape: [no description]
+t1_value: [no description]
+t2_value: [no description]
+t3_value: [no description]
+tcn_value: [no description]
+tcsus_value: [no description]
+tcwidth_value: [no description]
+critical_temp_K: [no description]
+upper_critical_field_0K_T: [no description]
+gamma_sommerfeld_mJmolK2: [no description]
+resistivity_normal_uOhmcm: [no description]
+resistivity_roomtemp_uOhmcm: [no description]
+penetration_depth_nm: [no description]
+coherence_length_nm: [no description]
+dhc2dt_TK: [no description]
+dtcdp_KGPa: [no description]
+density_gcm3: [no description]
+lower_critical_field_0K_T: [no description]
+thermopower_300K_uVK: [no description]
+energy_gap_meV: [no description]
+data_quality_flag: [no description]

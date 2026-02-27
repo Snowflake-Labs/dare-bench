@@ -1,0 +1,87 @@
+## Description:
+This dataset contains a diverse collection of randomly selected YouTube videos, retrieved directly from the YouTube Data API. It includes videos from all categories, from small videos with just tens or hundreds of views to popular videos with millions of views.
+
+### Data Fields:
+- Video ID & Title
+- Duration (in seconds)
+- Resolution (height & width)
+- Bitrate & Frame rate
+- Codec information
+- Video category & hashtags
+- Engagement metrics (views, likes, comments)
+- Original video URLs
+
+### Source:
+Collected using the YouTube Data API v3. Only publicly available video metadata is included — no copyrighted video content.
+
+### Inspiration & Use Cases:
+
+Data Visualization → Explore engagement patterns, category trends, and video quality distribution.
+
+Machine Learning → Predict video popularity or category, build recommendation models.
+
+Social Network Research → Study content trends across communities.
+
+Digital Media Analysis → Compare metrics across video genres.
+
+### Why This Dataset?
+Most YouTube datasets focus on trending or specific topics — this one offers a completely random selection from YouTube, enabling unbiased analysis and experimentation
+
+=== About this file ===
+
+About this file
+File:
+youtube_videos.csv
+This file contains details of randomly selected YouTube videos collected via the YouTube Data API.
+Columns
+video_id
+— Unique YouTube video identifier.
+title
+— Title of the video.
+description
+— Description provided by the uploader.
+category
+— The category of the video on YouTube.
+duration
+— Length of the video in seconds.
+bitrate
+— Video bitrate in kbps.
+height
+— Video resolution height in pixels.
+width
+— Video resolution width in pixels.
+frame_rate
+— Frames per second (FPS).
+codec
+— Video encoding format.
+hashtags
+— Any hashtags associated with the video.
+views
+— Total number of views.
+likes
+— Total number of likes.
+comments
+— Number of comments.
+url
+— Direct link to the video.
+
+
+=== Columns & descriptions ===
+
+video_id: Unique identifier for the YouTube video.
+duration: Length of the video in seconds.
+bitrate: Overall video bitrate in kbps.
+bitrate(video): Bitrate of the video stream only (kbps).
+height: Video resolution height in pixels.
+width: Video resolution width in pixels.
+frame rate: Actual frame rate of the video (FPS).
+frame rate(est.): Estimated frame rate based on analysis.
+codec: Video encoding format used.
+category: YouTube category of the video.
+url: Direct link to the video.
+title: Title of the video.
+description: Text description provided by the uploader.
+hashtags: Any hashtags associated with the video.
+views: Total number of views.
+likes: Total number of likes.
+comments: Number of comments.

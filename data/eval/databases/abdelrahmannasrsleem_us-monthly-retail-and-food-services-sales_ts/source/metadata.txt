@@ -1,0 +1,23 @@
+The data source is the Monthly Retail Trade Report: Retail and Food Services Sales: Excel (1992–
+present), available on https://www.census.gov/
+The data spans from 1992 to present (complete years) and includes both total sales in millions as well as details for
+subcategories of retail sales. It contains both unadjusted and seasonally adjusted numbers.
+
+In the *retail_salse_a_long * table Estimates are adjusted for seasonal variations and holiday and trading-day differences, but not for price changes. Cumulative seasonally adjusted sales estimates are not tabulated.
+
+Estimates are not adjusted for price changes. Retail and food services total and other subsector totals may include data for kinds of business not shown.
+
+
+=== About this file ===
+
+About this file
+retail_sales_a_long (seasonally adjusted)
+-In naics_code field : GAFO(1) represents stores classified in the following NAICS codes: 442, 443, 448, 451, 452, and 4532. NAICS code 4532 includes office supplies, stationery, and gift stores. -In value field : Suppressed values was replaced with NULL which is - Estimate does not meet publication standards because of high sampling variability (coefficient of variation is greater than 30%), poor response quality (total quantity response rate. NA (in the early years) was replaced with NULL also.
+
+
+=== Columns & descriptions ===
+
+month: Sales month represented as first day of each month
+naics_code: NAICS: The North American Industry Classification System
+kind_of_business: Business category
+value: In millions of US dollars

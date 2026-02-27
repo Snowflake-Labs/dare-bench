@@ -1,0 +1,34 @@
+This dataset contains realistic synthetic network logs simulating both normal and malicious activity over a one-week period.
+
+It includes two versions: 
+1.  Time-series version (with timestamps): Ideal for sequential modeling, intrusion tracking, and temporal anomaly detection.
+2.  Non-time-series version (without timestamps): Suitable for standard classification or anomaly detection pipelines.
+
+Inspiration:
+Real-world network intrusion logs are often private or restricted. This synthetic dataset provides a realistic yet accessible alternative for researchers, students, and ML engineers to build and benchmark intrusion detection systems.
+
+
+=== About this file ===
+
+About this file
+This version removes the Timestamp column, making it ideal for:
+Traditional classification tasks
+Anomaly detection models that do not rely on time-based features
+Lightweight or non-sequential ML pipelines
+Labels:
+Intrusion: Binary target (0 = Normal, 1 = Attack)
+Scan_Type: Traffic type (Normal, PortScan, BotAttack)
+
+
+=== Columns & descriptions ===
+
+Source_IP: [no description]
+Destination_IP: [no description]
+Port: [no description]
+Request_Type: [no description]
+Protocol: [no description]
+Payload_Size: [no description]
+User_Agent: [no description]
+Status: [no description]
+Intrusion: [no description]
+Scan_Type: [no description]

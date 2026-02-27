@@ -1,0 +1,25 @@
+This dataset comes from a controlled laboratory study of viral infections in mice. It contains gene expression data and immune response measurements collected from both infected and non-infected mice.
+
+The main goal is to explore whether machine learning algorithms, particularly Support Vector Machines (SVM), can accurately classify the infection status of each mouse based on these biological features.
+
+This dataset is ideal for binary classification, feature selection, and biomarker discovery projects in a biomedical context.
+
+Includes:
+
+A CSV file with labeled samples
+
+A sample Jupyter Notebook using SVM for classification
+
+Inspiration: This dataset was organized to help students and researchers understand how gene-level biological responses can be modeled computationally to detect infection.
+
+=== About this file ===
+
+About this file
+Main dataset including gene expression and immune markers. Each row represents a mouse sample with multiple biological features and a label indicating infection status.
+
+
+=== Columns & descriptions ===
+
+Med_1_mL: Volume (in mL) of the first medication administered to the mouse
+Med_2_mL: Volume (in mL) of the second medication administered to the mouse
+Virus Present: Target label indicating presence of viral infection: 1 = Infected, 0 = Healthy

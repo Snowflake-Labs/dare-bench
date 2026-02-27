@@ -1,0 +1,156 @@
+{
+    "question": {
+        "target": [
+            "Close"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Date",
+        "time_format": "%Y-%m-%d %H:%M:%S",
+        "is_resampled": false,
+        "related_features": [
+            "Open",
+            "High",
+            "Low",
+            "Volume"
+        ],
+        "not_filtered_related_features": [
+            "Open",
+            "High",
+            "Low",
+            "Volume"
+        ],
+        "selected_features": [
+            "Low",
+            "Open",
+            "Volume"
+        ],
+        "expected_ranges": {
+            "Open": [
+                24.96,
+                197.25
+            ],
+            "High": [
+                25.01,
+                201.42
+            ],
+            "Low": [
+                24.55,
+                194.98
+            ],
+            "Volume": [
+                465638,
+                119455020
+            ]
+        },
+        "column_type_inference": {
+            "Date": "object",
+            "Open": "numeric",
+            "High": "numeric",
+            "Low": "numeric",
+            "Close": "numeric",
+            "Volume": "numeric"
+        },
+        "train_save_file": "./youssefelebiary_google-stock-prices-2015-2024_ts/source/train.csv",
+        "val_v1_save_file": "./youssefelebiary_google-stock-prices-2015-2024_ts/source/val_v1.csv",
+        "val_v2_save_file": "./youssefelebiary_google-stock-prices-2015-2024_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./youssefelebiary_google-stock-prices-2015-2024_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./youssefelebiary_google-stock-prices-2015-2024_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./youssefelebiary_google-stock-prices-2015-2024_ts/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 13,
+        "model_type": "Prophet",
+        "output_file": "./youssefelebiary_google-stock-prices-2015-2024_ts/prediction.json",
+        "ground_truth_v1_file": "./youssefelebiary_google-stock-prices-2015-2024_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./youssefelebiary_google-stock-prices-2015-2024_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./youssefelebiary_google-stock-prices-2015-2024_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2022-12-29 16:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7718753,
+        "ref": "youssefelebiary/google-stock-prices-2015-2024",
+        "subtitle": "Google (GOOGL) Daily Stock Prices (2015-2024)",
+        "creatorName": "Youssef Elebiary",
+        "creatorUrl": "youssefelebiary",
+        "totalBytes": 43856,
+        "url": "https://www.kaggle.com/datasets/youssefelebiary/google-stock-prices-2015-2024",
+        "lastUpdated": "2025-06-22T20:39:33.403Z",
+        "downloadCount": 1063,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Youssef Elebiary",
+        "ownerRef": "youssefelebiary",
+        "kernelCount": 9,
+        "title": "Google Stock Prices (2015-2024)",
+        "viewCount": 4046,
+        "voteCount": 28,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114024,
+                "scriptCount": 25612,
+                "totalCount": 139674
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "investing",
+                "name": "investing",
+                "description": "",
+                "fullPath": "subject > people and society > business > finance > investing",
+                "competitionCount": 5,
+                "datasetCount": 11998,
+                "scriptCount": 18559,
+                "totalCount": 30562
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7718753,
+        "datasetSlug": "google-stock-prices-2015-2024",
+        "ownerUser": "youssefelebiary",
+        "usabilityRating": 1.0,
+        "totalViews": 1360,
+        "totalVotes": 11,
+        "totalDownloads": 317,
+        "title": "Google Stock Prices (2015-2024)",
+        "subtitle": "Google (GOOGL) Daily Stock Prices (2015-2024)",
+        "description": "# Context\nIn the dynamic world of finance, historical stock data serves as a cornerstone for analysis, predictive modeling, and strategic investment decisions. Understanding the past performance of market leaders like Alphabet Inc.'s Class A shares (GOOGL) is crucial for identifying trends, assessing volatility, and developing robust forecasting models. This dataset offers a detailed look into nearly a decade of GOOGL's daily market activity.\n\n# Overview\nThis dataset provides daily historical stock price and trading volume data for Alphabet Inc.'s Class A (voting) shares, traded under the ticker symbol GOOGL.\n\n| Category          | Detail                                        |\n|-------------------|-----------------------------------------------|\n| **Records** | 2500+ daily observations (trading days only) |\n| **Timeframe** | January 1, 2015 - December 31, 2024           |\n| **Company** | Alphabet Inc. (GOOGL)                         |\n| **Data Points** | Open, High, Low, Close, Volume                |\n| **Frequency** | Daily (trading days only)                     |\n\n# Files\n* `GoogleStockPrices.csv`\n    * Contains daily records for GOOGL.\n    * Columns: `Date`, `Open`, `High`, `Low`, `Close`, `Volume`.\n    * **Important:** This file only includes records for actual stock market trading days (weekends and public holidays are not present).\n\n# Key Features\n1.  **Extensive Temporal Coverage**: Nearly a decade of market data for GOOGL, from 2015 through 2024.\n2.  **Single Ticker Focus**: Dedicated to Alphabet Inc.'s Class A (GOOGL) shares, allowing for in-depth analysis of this specific stock.\n3.  **Comprehensive Daily Metrics**: Includes Open, High, Low, Close prices, and trading Volume, essential for detailed technical analysis.\n4.  **Trading Day Focus**: Data is strictly limited to actual market trading days, reflecting real market activity without artificial interpolations for non-trading days.\n5.  **Direct Source**: Data is derived directly from Google Finance, a reliable and widely recognized source for financial information.\n\n# Uses\nThis dataset is ideally suited for a wide range of financial and data science applications, including:\n* **Time Series Analysis**: Analyze long-term price trends, seasonality, and cycles in GOOGL's stock performance.\n* **Predictive Modeling**: Develop and test models for daily GOOGL stock price forecasting, volatility prediction, or trend identification.\n* **Algorithmic Trading Strategies**: Backtest daily trading algorithms based on GOOGL's historical price and volume data.\n* **Risk Assessment**: Study historical volatility and drawdowns of GOOGL to understand potential investment risks.\n* **Market Event Analysis**: Examine the daily impact of major corporate announcements, economic news, or global events specifically on GOOGL's stock.\n\n## Licensing\nThis dataset is published under the **MIT License**, allowing free use for both personal and commercial purposes. Attribution is encouraged but not required.\n\n=== About this file ===\n\nAbout this file\nGoogle Stock Prices from 2015 to 2024\n\n\n=== Columns & descriptions ===\n\nDate: Date of trading\nOpen: Open Price\nHigh: Highest Price\nLow: Lowest Price\nClose: Close Price\nVolume: Number of Shares Traded\n",
+        "keywords": [
+            "business",
+            "time series analysis",
+            "investing"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

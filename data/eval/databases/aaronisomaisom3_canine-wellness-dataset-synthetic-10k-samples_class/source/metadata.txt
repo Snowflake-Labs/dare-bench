@@ -1,0 +1,89 @@
+## Canine Wellness Classification Dataset (Synthetic, 10,000 Samples)
+
+### Overview
+This synthetic dataset simulates a wide range of dog breeds and their health-related characteristics. It is designed for binary classification tasks, where the target variable is whether a dog is considered healthy ("Yes") or not healthy ("No").
+
+The data was generated to reflect realistic distributions of age, breed sizes, weight, diet, and lifestyle factors that contribute to canine health. A simple rule-based logic was applied to create meaningful interactions between features and determine the target label.
+
+### Sample Starter LightGBM Notebook
+[canine-wellness-starter-notebook](https://www.kaggle.com/code/aaronisomaisom3/canine-wellness-starter-notebook)
+
+### What's Included
+- 10,000 rows of synthetic data
+- 21 features including breed, age, diet, daily activity, medications, and more
+- Binary target column: Healthy (Yes/No)
+- Randomized missing values (~3% per feature)
+- Balanced data with slight real-world skew
+
+### Use Cases
+- Binary classification with Healthy as the target
+- Tabular machine learning experiments
+- Exploratory data analysis (EDA)
+- Feature engineering practice
+- Educational demos (LightGBM, RandomForest, XGBoost, etc.)
+
+### Features
+
+| Column                     | Description |
+|---------------------------|-------------|
+| `ID`                      | Unique identifier |
+| `Breed`                   | Dog breed (15 common breeds) |
+| `Breed Size`              | Size category: Small, Medium, Large |
+| `Sex`                     | Male or Female |
+| `Age`                     | Age in years (1–13) |
+| `Weight (lbs)`            | Dog weight in pounds |
+| `Spay/Neuter Status`      | Spayed, Neutered, or None |
+| `Daily Activity Level`    | None, Low, Moderate, Active, Very Active |
+| `Diet`                    | Hard food, Wet food, Special diet, or Home cooked |
+| `Food Brand`              | Brand of food (well-known or “Special” if home cooked) |
+| `Daily Walk Distance (miles)` | Estimated distance walked daily |
+| `Other Pets in Household` | Yes or No |
+| `Medications`             | Whether the dog is currently on medication |
+| `Seizures`                | History of seizures: Yes or No |
+| `Hours of Sleep`          | Daily hours of sleep (8–14) |
+| `Play Time (hrs)`         | Average daily play time |
+| `Owner Activity Level`    | Lifestyle of the owner |
+| `Annual Vet Visits`       | Number of vet visits per year (0–4) |
+| `Average Temperature (F)` | Average local temperature |
+| `Synthetic`               | Flag indicating the data is simulated |
+| `Healthy`                 | **Target**: Yes or No |
+
+
+
+=== About this file ===
+
+About this file
+This file contains 10,000 rows of synthetic data representing a variety of dog breeds and their lifestyle, health, and environmental characteristics. It is designed for binary classification, where the target column is Healthy, indicating whether the dog is considered in good health.
+Each row simulates a unique dog, with features such as breed, age, weight, diet, spay/neuter status, daily activity, vet visits, and more. The Healthy target was generated using a rule-based scoring system informed by real-world canine health factors.
+⸻
+Key Details:
+•   Rows: 10,000
+•   Columns: 21
+•   Target Variable: Healthy (Yes/No)
+•   Missing Values: Simulated at ~3% per non-ID column
+•   Use Cases: Binary classification, EDA, feature engineering, modeling practice
+
+
+=== Columns & descriptions ===
+
+ID: A unique integer ID for each dog
+Breed: The specific breed of the dog
+Breed Size: Size classification based on breed: Small, Medium, or Large
+Sex: Biological sex of the dog: Male or Female
+Age: Age of the dog in years
+Weight (lbs): Weight of the dog in pounds
+Spay/Neuter Status: Sterilization status: Spayed, Neutered, or None
+Daily Activity Level: Dog's average daily activity level
+Diet: Type of diet: Hard food, Wet food, Special diet, Home cooked
+Food Brand: Dog food brand or 'Special' for home-cooked meals
+Daily Walk Distance (miles): Average daily walking distance
+Other Pets in Household: Whether other pets live in the same home
+Medications: Whether the dog is currently on medications
+Seizures: Whether the dog has a history of seizures
+Hours of Sleep: Average number of hours the dog sleeps per day
+Play Time (hrs): Average number of hours of play per day
+Owner Activity Level: Owner's lifestyle or activity level
+Annual Vet Visits: Number of veterinary visits per year
+Average Temperature (F): Average local temperature where the dog lives
+Synthetic: Indicator that data is synthetically generated
+Healthy: Target variable: whether the dog is considered healthy

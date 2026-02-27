@@ -1,0 +1,53 @@
+**🇬🇧 English:**
+
+This synthetic dataset is designed for classification tasks involving wine quality. It includes 1,000 samples with key chemical attributes such as acidity, sugar level, alcohol content, and density. Each sample is labeled with a wine quality class: low, medium, or high.
+
+**Use this dataset to:**
+
+- Train classification models like SVM, XGBoost, and Logistic Regression
+- Explore the impact of chemical features on wine quality
+- Practice ML tasks in a food and beverage context
+
+**Features:**
+
+- fixed_acidity: Level of fixed acidity
+- residual_sugar: Sugar level after fermentation
+- alcohol: Alcohol content (%)
+- density: Liquid density
+- quality_label: Wine quality class (low / medium / high)
+
+---
+
+**🇹🇷 Türkçe:**
+
+Bu sentetik veri seti, şarap kalitesini sınıflandırmaya yönelik makine öğrenmesi uygulamaları için tasarlanmıştır. 1.000 örnekten oluşan veri setinde asitlik, şeker oranı, alkol yüzdesi ve yoğunluk gibi kimyasal özellikler yer almakta ve her örnek düşük, orta veya yüksek kalite olarak etiketlenmiştir.
+
+**Bu veri seti sayesinde:**
+
+- SVM, XGBoost ve Lojistik Regresyon gibi sınıflandırma algoritmaları uygulanabilir
+- Kimyasal özelliklerin şarap kalitesi üzerindeki etkisi analiz edilebilir
+- Gıda ve içecek sektörüne yönelik ML uygulamaları geliştirilebilir
+
+**Değişkenler:**
+
+- fixed_acidity: Sabit asit seviyesi
+- residual_sugar: Fermantasyon sonrası kalan şeker
+- alcohol: Alkol oranı (%)
+- density: Yoğunluk değeri
+- quality_label: Kalite sınıfı (low / medium / high)
+
+
+
+=== About this file ===
+
+About this file
+This file contains 1,000 synthetic wine samples, each described by four key chemical features: fixed acidity, residual sugar, alcohol content, and density. Each sample is labeled with a wine quality class (low, medium, or high) based on a simulated quality scoring system.
+
+
+=== Columns & descriptions ===
+
+fixed_acidity: Level of fixed acidity
+residual_sugar: Sugar level remaining after fermentation
+alcohol: Alcohol content of the wine in %
+density: Density of the wine sample
+quality_label: Quality label assigned (low, medium, high)

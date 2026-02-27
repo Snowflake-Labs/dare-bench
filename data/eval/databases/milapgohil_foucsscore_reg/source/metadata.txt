@@ -1,0 +1,39 @@
+I created this dataset to explore how lifestyle and environmental factors influence human productivity, measured as a **"Focus score"** on a scale from **0 to 100**. The data was generated using logic-driven simulation techniques to mimic realistic patterns based on sleep, caffeine intake, environmental conditions, and work habits.
+
+This dataset is ideal for practicing **regression modeling, feature engineering, and end-to-end ML pipelines**. Feature correlations are intentionally embedded to help learners understand how structured inputs can drive model performance.
+
+---
+
+## 📈 Use Cases : 
+🔹Regression modeling
+
+🔹Feature importance analysis
+
+🔹EDA & preprocessing practice
+
+🔹ML pipeline building
+
+🔹Hyperparameter tuning
+
+---
+
+### 💡 Useful? Drop a quick upvote to support!
+
+
+=== About this file ===
+
+About this file
+Format: CSV (Encoding: UTF-8)
+Rows: 10,000
+Columns: 6 (including target focus_score)
+Missing Values:  Present
+
+
+=== Columns & descriptions ===
+
+hours_slept: Total hours slept in the last 24 hours (range: 3–10)
+caffeine_mg: Total caffeine intake in mg (range: 0–500)
+noise_level_db: Ambient noise level (in decibels)
+task_type: Type of work: Creative, Analytical, Routine, Managerial
+work_environment: Where work happens: Home, Office, Cafe, Co-working
+focus_score: Final focus/productivity score (0–100)

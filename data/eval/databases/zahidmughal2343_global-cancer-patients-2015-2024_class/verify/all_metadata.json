@@ -1,0 +1,230 @@
+{
+    "question": {
+        "target": [
+            "Cancer_Stage",
+            "Cancer_Type"
+        ],
+        "target_candidates": [
+            "Cancer_Type",
+            "Cancer_Stage"
+        ],
+        "related_features": [
+            "Country_Region",
+            "Air_Pollution",
+            "Age",
+            "Gender",
+            "Alcohol_Use",
+            "Year",
+            "Genetic_Risk",
+            "Obesity_Level",
+            "Smoking"
+        ],
+        "not_filtered_related_features": [
+            "Country_Region",
+            "Gender",
+            "Age",
+            "Air_Pollution",
+            "Alcohol_Use",
+            "Year",
+            "Genetic_Risk",
+            "Obesity_Level"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Country_Region": [
+                "UK",
+                "China",
+                "Pakistan",
+                "Brazil",
+                "Germany",
+                "Canada",
+                "USA",
+                "India",
+                "Australia",
+                "Russia"
+            ],
+            "Gender": [
+                "Male",
+                "Female",
+                "Other"
+            ],
+            "Age": [
+                20,
+                89
+            ],
+            "Air_Pollution": [
+                0.0,
+                10.0
+            ],
+            "Alcohol_Use": [
+                0.0,
+                10.0
+            ],
+            "Year": [
+                2015,
+                2024
+            ],
+            "Genetic_Risk": [
+                0.0,
+                10.0
+            ],
+            "Obesity_Level": [
+                0.0,
+                10.0
+            ]
+        },
+        "selected_features": [
+            "Age",
+            "Genetic_Risk",
+            "Country_Region",
+            "Obesity_Level",
+            "Air_Pollution"
+        ],
+        "train_v2_save_file": "./zahidmughal2343_global-cancer-patients-2015-2024_class/source/train_v2.csv",
+        "val_v2_save_file": "./zahidmughal2343_global-cancer-patients-2015-2024_class/source/val_v2.csv",
+        "val_no_err_save_file": "./zahidmughal2343_global-cancer-patients-2015-2024_class/source/val_v1.csv",
+        "train_no_err_save_file": "./zahidmughal2343_global-cancer-patients-2015-2024_class/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./zahidmughal2343_global-cancer-patients-2015-2024_class/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "median",
+        "random_state": 24,
+        "model_type": "DecisionTreeClassifier",
+        "output_file": "./zahidmughal2343_global-cancer-patients-2015-2024_class/prediction.csv",
+        "ground_truth_file": "./zahidmughal2343_global-cancer-patients-2015-2024_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./zahidmughal2343_global-cancer-patients-2015-2024_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Patient_ID": "categorical",
+            "Age": "numerical",
+            "Gender": "categorical",
+            "Country_Region": "categorical",
+            "Year": "numerical",
+            "Genetic_Risk": "numerical",
+            "Air_Pollution": "numerical",
+            "Alcohol_Use": "numerical",
+            "Smoking": "categorical",
+            "Obesity_Level": "numerical",
+            "Cancer_Type": "categorical",
+            "Cancer_Stage": "categorical",
+            "Treatment_Cost_USD": "numerical",
+            "Survival_Years": "numerical",
+            "Target_Severity_Score": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Age",
+            "Genetic_Risk",
+            "Obesity_Level",
+            "Air_Pollution"
+        ],
+        "categorical_features": [
+            "Country_Region"
+        ]
+    },
+    "data_info": {
+        "id": 7135891,
+        "ref": "zahidmughal2343/global-cancer-patients-2015-2024",
+        "subtitle": "Cancer Cases Report In all the World in las 10 Years",
+        "creatorName": "Zahid Feroze",
+        "creatorUrl": "zahidmughal2343",
+        "totalBytes": 1261049,
+        "url": "https://www.kaggle.com/datasets/zahidmughal2343/global-cancer-patients-2015-2024",
+        "lastUpdated": "2025-04-14T00:05:23.367Z",
+        "downloadCount": 9675,
+        "licenseName": "CC BY-NC-SA 4.0",
+        "description": "",
+        "ownerName": "Zahid Feroze",
+        "ownerRef": "zahidmughal2343",
+        "kernelCount": 26,
+        "title": "global_cancer_patients_2015_2024",
+        "viewCount": 32216,
+        "voteCount": 79,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "global",
+                "name": "global",
+                "description": "A country is a region that is identified as a distinct national entity in political geography.",
+                "fullPath": "geography and places > global",
+                "competitionCount": 6,
+                "datasetCount": 1596,
+                "scriptCount": 593,
+                "totalCount": 2195
+            },
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "data analytics",
+                "name": "data analytics",
+                "description": "",
+                "fullPath": "technique > data analytics",
+                "competitionCount": 32,
+                "datasetCount": 9201,
+                "scriptCount": 15324,
+                "totalCount": 24557
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "cancer",
+                "name": "cancer",
+                "description": "",
+                "fullPath": "subject > health and fitness > health > health conditions > cancer",
+                "competitionCount": 18,
+                "datasetCount": 16285,
+                "scriptCount": 3462,
+                "totalCount": 19765
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7135891,
+        "datasetSlug": "global-cancer-patients-2015-2024",
+        "ownerUser": "zahidmughal2343",
+        "usabilityRating": 1.0,
+        "totalViews": 31013,
+        "totalVotes": 78,
+        "totalDownloads": 9418,
+        "title": "global_cancer_patients_2015_2024",
+        "subtitle": "Cancer Cases Report In all the World in las 10 Years",
+        "description": "\ud83d\udcc4 Dataset Description:\nThis dataset contains global cancer patient data reported from 2015 to 2024, designed to simulate the key factors influencing cancer diagnosis, treatment, and survival. It includes a variety of features that are commonly studied in the medical field, such as age, gender, cancer type, environmental factors, and lifestyle behaviors. The dataset is perfect for:\n\nExploratory Data Analysis (EDA)\n\nMultiple Linear Regression and other modeling tasks\n\nFeature Selection and Correlation Analysis\n\nPredictive Modeling for cancer severity, treatment cost, and survival prediction\n\nData Visualization and creating insightful graphs\n\nKey Features:\nAge: Patient's age (20-90 years)\n\nGender: Male, Female, or Other\n\nCountry/Region: Country or region of the patient\n\nCancer Type: Various types of cancer (e.g., Breast, Lung, Colon)\n\nCancer Stage: Stage 0 to Stage IV\n\nRisk Factors: Includes genetic risk, air pollution, alcohol use, smoking, obesity, etc.\n\nTreatment Cost: Estimated cost of cancer treatment (in USD)\n\nSurvival Years: Years survived since diagnosis\n\nSeverity Score: A composite score representing cancer severity\n\nThis dataset provides a broad view of global cancer trends, making it an ideal resource for those learning data science, machine learning, and statistical analysis in healthcare.\n\n\n\n\n=== About this file ===\n\nAbout this file\n\ud83d\udcc4 Dataset File Information\n\ud83d\udcc1 File Name: global_cancer_patients_2015_2024.csv\n\ud83d\udcca File Format: CSV (Comma-Separated Values)\n\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1 Number of Rows: 1000+ (each row represents one cancer patient record)\n\ud83d\udccc Number of Columns: 14\n\ud83d\udcc6 Time Range Covered: 2015 to 2024\n\ud83c\udf0d Geographic Scope: Global (no country or state limitation)\n\ud83d\udcda Use Cases:\n\n\n=== Columns & descriptions ===\n\nPatient_ID: Patient ID\nAge: Age\nGender: Gender\nCountry_Region: Country Region\nYear: Year\nGenetic_Risk: Genetic Risk\nAir_Pollution: Air Pollution\nAlcohol_Use: Alcohol Use\nSmoking: Smoking\nObesity_Level: Obesity Level\nCancer_Type: [no description]\nCancer_Stage: [no description]\nTreatment_Cost_USD: [no description]\nSurvival_Years: [no description]\nTarget_Severity_Score: [no description]\n",
+        "keywords": [
+            "global",
+            "intermediate",
+            "data analytics",
+            "classification",
+            "cancer"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-NC-SA-4.0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "question": {
+        "target": [
+            "Virus Present"
+        ],
+        "target_candidates": [
+            "Virus Present"
+        ],
+        "related_features": [
+            "Med_1_mL",
+            "Med_2_mL"
+        ],
+        "not_filtered_related_features": [
+            "Med_1_mL",
+            "Med_2_mL"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Med_1_mL": [
+                1.0,
+                10.0
+            ],
+            "Med_2_mL": [
+                1.0,
+                10.0
+            ]
+        },
+        "selected_features": [
+            "Med_1_mL",
+            "Med_2_mL"
+        ],
+        "train_v2_save_file": "./brsahan_mouse-viral-infection-study-dataset_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./brsahan_mouse-viral-infection-study-dataset_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./brsahan_mouse-viral-infection-study-dataset_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./brsahan_mouse-viral-infection-study-dataset_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./brsahan_mouse-viral-infection-study-dataset_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.9,
+        "save_file_type": "sqlite",
+        "imputer_type": "median",
+        "random_state": 79,
+        "model_type": "LogisticRegression",
+        "output_file": "./brsahan_mouse-viral-infection-study-dataset_class/prediction.csv",
+        "ground_truth_file": "./brsahan_mouse-viral-infection-study-dataset_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./brsahan_mouse-viral-infection-study-dataset_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Med_1_mL": "numerical",
+            "Med_2_mL": "numerical",
+            "Virus Present": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Med_1_mL",
+            "Med_2_mL"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 6985761,
+        "ref": "brsahan/mouse-viral-infection-study-dataset",
+        "subtitle": "Gene expression and immune response data from viral infection study on lab mice.",
+        "creatorName": "Batuhan \u015eahan",
+        "creatorUrl": "brsahan",
+        "totalBytes": 7874,
+        "url": "https://www.kaggle.com/datasets/brsahan/mouse-viral-infection-study-dataset",
+        "lastUpdated": "2025-03-27T22:41:12.887Z",
+        "downloadCount": 489,
+        "licenseName": "CC BY-SA 4.0",
+        "description": "",
+        "ownerName": "Batuhan \u015eahan",
+        "ownerRef": "brsahan",
+        "kernelCount": 4,
+        "title": "Mouse Viral Infection Study Dataset",
+        "viewCount": 3448,
+        "voteCount": 28,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "healthcare",
+                "name": "healthcare",
+                "description": "AI in healthcare is a growing interest. One of the major problems is simply converting research into an application. Should be easy, right?",
+                "fullPath": "subject > health and fitness > health > healthcare",
+                "competitionCount": 26,
+                "datasetCount": 2131,
+                "scriptCount": 1942,
+                "totalCount": 4099
+            },
+            {
+                "ref": "genetics",
+                "name": "genetics",
+                "description": "Human genetics encompasses a variety of overlapping fields including: classical genetics, cytogenetics, molecular genetics, biochemical genetics, genomics, population genetics, developmental genetics, clinical genetics, and genetic counseling.",
+                "fullPath": "subject > earth and nature > biology > genetics",
+                "competitionCount": 7,
+                "datasetCount": 337,
+                "scriptCount": 295,
+                "totalCount": 639
+            },
+            {
+                "ref": "biology",
+                "name": "biology",
+                "description": "Explore datasets and kernels about gene expressions, transcriptomics, and even the works of Charles Darwin.",
+                "fullPath": "subject > earth and nature > biology",
+                "competitionCount": 26,
+                "datasetCount": 17666,
+                "scriptCount": 4784,
+                "totalCount": 22476
+            },
+            {
+                "ref": "medicine",
+                "name": "medicine",
+                "description": "Medicine is the science and practice of the diagnosis, treatment, and prevention of disease. We recommend you take two datasets and analyze them in the morning. If that doesn't work, analyze one dataset every four hours.",
+                "fullPath": "subject > health and fitness > health > medicine",
+                "competitionCount": 21,
+                "datasetCount": 1139,
+                "scriptCount": 1106,
+                "totalCount": 2266
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6985761,
+        "datasetSlug": "mouse-viral-infection-study-dataset",
+        "ownerUser": "brsahan",
+        "usabilityRating": 1.0,
+        "totalViews": 3332,
+        "totalVotes": 27,
+        "totalDownloads": 467,
+        "title": "Mouse Viral Infection Study Dataset",
+        "subtitle": "Gene expression and immune response data from viral infection study on lab mice.",
+        "description": "This dataset comes from a controlled laboratory study of viral infections in mice. It contains gene expression data and immune response measurements collected from both infected and non-infected mice.\n\nThe main goal is to explore whether machine learning algorithms, particularly Support Vector Machines (SVM), can accurately classify the infection status of each mouse based on these biological features.\n\nThis dataset is ideal for binary classification, feature selection, and biomarker discovery projects in a biomedical context.\n\nIncludes:\n\nA CSV file with labeled samples\n\nA sample Jupyter Notebook using SVM for classification\n\nInspiration: This dataset was organized to help students and researchers understand how gene-level biological responses can be modeled computationally to detect infection.\n\n=== About this file ===\n\nAbout this file\nMain dataset including gene expression and immune markers. Each row represents a mouse sample with multiple biological features and a label indicating infection status.\n\n\n=== Columns & descriptions ===\n\nMed_1_mL: Volume (in mL) of the first medication administered to the mouse\nMed_2_mL: Volume (in mL) of the second medication administered to the mouse\nVirus Present: Target label indicating presence of viral infection: 1 = Infected, 0 = Healthy\n",
+        "keywords": [
+            "healthcare",
+            "genetics",
+            "biology",
+            "medicine",
+            "classification"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-SA-4.0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,188 @@
+{
+    "question": {
+        "target": [
+            "HeartDisease"
+        ],
+        "target_candidates": [
+            "HeartDisease"
+        ],
+        "related_features": [
+            "HeartRate",
+            "Gender",
+            "Age",
+            "Cholesterol",
+            "QuantumPatternFeature",
+            "BloodPressure"
+        ],
+        "not_filtered_related_features": [
+            "HeartRate",
+            "Age",
+            "Cholesterol",
+            "QuantumPatternFeature",
+            "BloodPressure"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "HeartRate": [
+                60,
+                119
+            ],
+            "Age": [
+                30,
+                79
+            ],
+            "Cholesterol": [
+                150,
+                299
+            ],
+            "QuantumPatternFeature": [
+                6.0,
+                11.0
+            ],
+            "BloodPressure": [
+                90,
+                179
+            ]
+        },
+        "selected_features": [
+            "BloodPressure",
+            "Cholesterol",
+            "QuantumPatternFeature"
+        ],
+        "train_v2_save_file": "./shantanugarg274_heart-prediction-dataset-quantum_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./shantanugarg274_heart-prediction-dataset-quantum_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./shantanugarg274_heart-prediction-dataset-quantum_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./shantanugarg274_heart-prediction-dataset-quantum_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./shantanugarg274_heart-prediction-dataset-quantum_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.7,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 60,
+        "model_type": "GaussianNB",
+        "output_file": "./shantanugarg274_heart-prediction-dataset-quantum_class/prediction.csv",
+        "ground_truth_file": "./shantanugarg274_heart-prediction-dataset-quantum_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./shantanugarg274_heart-prediction-dataset-quantum_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Age": "numerical",
+            "Gender": "categorical",
+            "BloodPressure": "numerical",
+            "Cholesterol": "numerical",
+            "HeartRate": "numerical",
+            "QuantumPatternFeature": "numerical",
+            "HeartDisease": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "BloodPressure",
+            "Cholesterol",
+            "QuantumPatternFeature"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 6761300,
+        "ref": "shantanugarg274/heart-prediction-dataset-quantum",
+        "subtitle": "A Hybrid Dataset for Comparing Classical and Quantum Machine Learning Models",
+        "creatorName": "Shantanu Garg",
+        "creatorUrl": "shantanugarg274",
+        "totalBytes": 6993,
+        "url": "https://www.kaggle.com/datasets/shantanugarg274/heart-prediction-dataset-quantum",
+        "lastUpdated": "2025-02-28T14:00:06.887Z",
+        "downloadCount": 3422,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Shantanu Garg",
+        "ownerRef": "shantanugarg274",
+        "kernelCount": 24,
+        "title": "Heart Prediction Dataset (Quantum)",
+        "viewCount": 16161,
+        "voteCount": 52,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "earth and nature",
+                "name": "earth and nature",
+                "description": "",
+                "fullPath": "subject > earth and nature",
+                "competitionCount": 19,
+                "datasetCount": 79488,
+                "scriptCount": 394,
+                "totalCount": 79901
+            },
+            {
+                "ref": "computer science",
+                "name": "computer science",
+                "description": "There is one thing we can say for sure about computer science: Computer science leads to more computer games which leads to better GPUs which leads to smarter AI.",
+                "fullPath": "subject > science and technology > computer science",
+                "competitionCount": 10,
+                "datasetCount": 57850,
+                "scriptCount": 733,
+                "totalCount": 58593
+            },
+            {
+                "ref": "data analytics",
+                "name": "data analytics",
+                "description": "",
+                "fullPath": "technique > data analytics",
+                "competitionCount": 32,
+                "datasetCount": 9201,
+                "scriptCount": 15324,
+                "totalCount": 24557
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "synthetic",
+                "name": "synthetic",
+                "description": "",
+                "fullPath": "data type > synthetic",
+                "competitionCount": 8,
+                "datasetCount": 510,
+                "scriptCount": 70,
+                "totalCount": 588
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6761300,
+        "datasetSlug": "heart-prediction-dataset-quantum",
+        "ownerUser": "shantanugarg274",
+        "usabilityRating": 1.0,
+        "totalViews": 15826,
+        "totalVotes": 52,
+        "totalDownloads": 3364,
+        "title": "Heart Prediction Dataset (Quantum)",
+        "subtitle": "A Hybrid Dataset for Comparing Classical and Quantum Machine Learning Models",
+        "description": "This dataset is designed for heart disease prediction and integrates both traditional medical indicators and an additional QuantumPatternFeature. The dataset includes key clinical attributes such as Age, Gender, Blood Pressure, Cholesterol, and Heart Rate, which are commonly used in cardiovascular risk assessment.\n\nThe QuantumPatternFeature introduces an additional layer of complexity by capturing intricate, non-linear relationships. This feature enhances the dataset\u2019s potential for advanced predictive modeling, allowing researchers to explore new approaches in both classical and quantum machine learning.\n\nWith 500 samples, this dataset provides a well-structured foundation for testing various machine learning techniques, feature importance analysis, and model interpretability in medical diagnosis.\n\n=== About this file ===\n\nAbout this file\nFilename: Heart Prediction Quantum Dataset.csv\nRows: 500\nColumns: 7\nFeatures:\nAge: Patient's age in years\nGender: 0 (Female), 1 (Male)\nBloodPressure: Blood pressure level\nCholesterol: Cholesterol level\nHeartRate: Heart rate in beats per minute\nQuantumPatternFeature: A custom-engineered feature , so that best performing model can be distinguished.\nHeartDisease (Target): 0 (No heart disease), 1 (Heart disease present)\n\n\n=== Columns & descriptions ===\n\nAge: Represents the age of the patient in years, a crucial factor in heart disease risk assessment.\nGender: Binary indicator (0 = Female, 1 = Male) representing the patient's gender, which can influence heart disease likelihood.\nBloodPressure: The recorded blood pressure level, an essential cardiovascular health metric\nCholesterol: Measured cholesterol level, a key determinant in evaluating heart disease risk\nHeartRate: The patient\u2019s recorded heart rate, which helps assess overall cardiac health and possible irregularities\nQuantumPatternFeature: A mathematically derived feature incorporating complex, non-linear patterns, potentially aiding in more advanced pattern recognition\nHeartDisease: The target variable (0 = No Heart Disease, 1 = Presence of Heart Disease), indicating the presence or absence of a cardiovascular condition.\n",
+        "keywords": [
+            "earth and nature",
+            "computer science",
+            "data analytics",
+            "classification",
+            "synthetic"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

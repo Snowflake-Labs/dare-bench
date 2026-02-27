@@ -1,0 +1,296 @@
+row_id,cylinders,mileage,body,doors,drivetrain,year,fuel
+1,4.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+2,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+3,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+4,4.0,3.0,SUV,4.0,All-wheel Drive,2024,PHEV Hybrid Fuel
+5,4.0,19.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+6,6.0,23.0,SUV,4.0,Rear-wheel Drive,2024,Gasoline
+7,4.0,,SUV,4.0,All-wheel Drive,2024,Hybrid
+8,8.0,2.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+9,6.0,4.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+10,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+11,,13.0,SUV,4.0,All-wheel Drive,2024,Electric
+12,4.0,0.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+13,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+14,6.0,5.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+15,6.0,1.0,Cargo Van,3.0,Rear-wheel Drive,2024,E85 Flex Fuel
+16,6.0,16.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+17,4.0,4440.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+18,4.0,,SUV,4.0,All-wheel Drive,2024,Hybrid
+19,4.0,12.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+20,6.0,35.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+21,4.0,8.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+22,4.0,14.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+23,6.0,9711.0,SUV,4.0,Four-wheel Drive,2023,Gasoline
+24,4.0,3.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+25,,10.0,SUV,4.0,All-wheel Drive,2024,Electric
+26,4.0,5.0,,4.0,All-wheel Drive,2024,Gasoline
+27,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+28,4.0,6.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+29,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+30,6.0,20.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+31,6.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+32,4.0,11.0,Sedan,4.0,Front-wheel Drive,2024,Hybrid
+33,4.0,10.0,Hatchback,4.0,All-wheel Drive,2024,Gasoline
+34,,5.0,SUV,4.0,All-wheel Drive,2024,Electric
+35,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+36,4.0,1.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+37,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+38,4.0,0.0,SUV,4.0,Front-wheel Drive,2024,Hybrid
+39,4.0,10.0,Passenger Van,3.0,Rear-wheel Drive,2024,Diesel
+40,6.0,8.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+41,4.0,12.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+42,4.0,19.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+43,4.0,2.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+44,6.0,13.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+45,4.0,9.0,SUV,4.0,All-wheel Drive,2024,PHEV Hybrid Fuel
+46,4.0,24.0,SUV,4.0,Four-wheel Drive,2023,Gasoline
+47,4.0,1.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+48,8.0,12.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+49,3.0,14.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+50,4.0,6.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+51,4.0,7.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+52,6.0,,SUV,4.0,Four-wheel Drive,2024,Gasoline
+53,3.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+54,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+55,6.0,2.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+56,6.0,6.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+57,4.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+58,4.0,9.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+59,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+60,8.0,30.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+61,8.0,15.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+62,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+63,,12.0,SUV,4.0,All-wheel Drive,2024,Electric
+64,6.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+65,4.0,6.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+66,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+67,6.0,4.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+68,3.0,6.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+69,6.0,26.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+70,4.0,58.0,Cargo Van,3.0,Rear-wheel Drive,2024,Diesel
+71,4.0,25.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+72,6.0,8.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+73,,9.0,SUV,4.0,Rear-wheel Drive,2024,Electric
+74,8.0,33.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+75,6.0,14.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+76,4.0,14.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+77,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+78,4.0,0.0,Sedan,4.0,Front-wheel Drive,2024,Hybrid
+79,,5.0,SUV,4.0,All-wheel Drive,2024,Electric
+80,6.0,59.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+81,4.0,7.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+82,4.0,4.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+83,6.0,4357.0,Pickup Truck,4.0,Four-wheel Drive,2024,Hybrid
+84,4.0,0.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+85,8.0,32.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+86,6.0,6.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+87,8.0,32.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+88,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+89,4.0,2.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+90,4.0,13.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+91,4.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+92,,3.0,SUV,4.0,All-wheel Drive,2024,Electric
+93,,8.0,SUV,4.0,Rear-wheel Drive,2024,Electric
+94,6.0,12.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+95,,7.0,Sedan,4.0,Rear-wheel Drive,2024,Electric
+96,8.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+97,6.0,12.0,SUV,4.0,Rear-wheel Drive,2024,Gasoline
+98,6.0,,SUV,4.0,Rear-wheel Drive,2024,Gasoline
+99,4.0,12.0,Hatchback,4.0,All-wheel Drive,2024,Gasoline
+100,6.0,175.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+101,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+102,4.0,2.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+103,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+104,4.0,1.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+105,,13.0,SUV,4.0,All-wheel Drive,2024,Electric
+106,,25.0,SUV,4.0,All-wheel Drive,2024,Electric
+107,4.0,5.0,Sedan,4.0,All-wheel Drive,2024,Gasoline
+108,4.0,9.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+109,6.0,10.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+110,3.0,13.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+111,4.0,2077.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+112,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+113,4.0,51.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+114,,375.0,Sedan,4.0,Rear-wheel Drive,2024,Electric
+115,4.0,7.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+116,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+117,4.0,,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+118,4.0,68.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+119,4.0,9.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+120,4.0,16.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+121,8.0,5.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+122,8.0,22.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+123,6.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+124,4.0,33.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+125,4.0,3.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+126,8.0,2.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+127,6.0,12.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+128,6.0,22.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+129,4.0,4723.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+130,6.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+131,4.0,2.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+132,4.0,5.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+133,4.0,10.0,Cargo Van,3.0,Rear-wheel Drive,2024,Diesel
+134,6.0,25.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+135,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+136,4.0,25.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+137,4.0,1.0,SUV,,All-wheel Drive,2024,Gasoline
+138,4.0,7.0,SUV,4.0,Rear-wheel Drive,2024,Gasoline
+139,3.0,4.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+140,6.0,16.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+141,6.0,246.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+142,4.0,12.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+143,4.0,10.0,SUV,4.0,All-wheel Drive,2024,PHEV Hybrid Fuel
+144,4.0,16.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+145,6.0,,SUV,4.0,Four-wheel Drive,2024,Gasoline
+146,6.0,,SUV,4.0,Four-wheel Drive,2024,Gasoline
+147,4.0,3.0,Convertible,2.0,Rear-wheel Drive,2023,Gasoline
+148,4.0,5.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+149,4.0,7.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+150,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+151,6.0,20.0,Sedan,4.0,Rear-wheel Drive,2023,Gasoline
+152,4.0,5.0,Hatchback,4.0,All-wheel Drive,2024,Gasoline
+153,6.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+154,4.0,3.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+155,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+156,4.0,66.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+157,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+158,4.0,9.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+159,4.0,15.0,Sedan,4.0,Front-wheel Drive,2024,Hybrid
+160,3.0,8.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+161,6.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+162,6.0,15.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+163,4.0,,SUV,4.0,Four-wheel Drive,2024,Hybrid
+164,4.0,2500.0,SUV,4.0,Rear-wheel Drive,2024,Gasoline
+165,4.0,10.0,Sedan,4.0,All-wheel Drive,2024,Gasoline
+166,4.0,10.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+167,6.0,5.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+168,4.0,10.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+169,4.0,7.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+170,,16.0,SUV,4.0,All-wheel Drive,2024,Electric
+171,,12.0,Sedan,4.0,Rear-wheel Drive,2024,Electric
+172,4.0,11.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+173,4.0,9.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+174,6.0,9.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+175,6.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+176,8.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+177,4.0,3425.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+178,4.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+179,,7.0,SUV,4.0,All-wheel Drive,2024,Electric
+180,4.0,12.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+181,8.0,1.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+182,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+183,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+184,0.0,0.0,SUV,4.0,All-wheel Drive,2024,Electric
+185,4.0,3.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+186,4.0,,SUV,4.0,Four-wheel Drive,2024,Gasoline
+187,3.0,8.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+188,6.0,1.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+189,4.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+190,8.0,33.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+191,6.0,0.0,Cargo Van,3.0,Rear-wheel Drive,2024,Gasoline
+192,6.0,16.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+193,4.0,4.0,SUV,4.0,All-wheel Drive,2024,PHEV Hybrid Fuel
+194,4.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+195,4.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+196,6.0,5.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+197,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+198,6.0,13.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+199,8.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+200,6.0,16.0,SUV,4.0,Four-wheel Drive,2023,Gasoline
+201,6.0,8.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+202,4.0,35.0,SUV,4.0,Four-wheel Drive,2024,Hybrid
+203,6.0,3.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+204,,27.0,Sedan,4.0,All-wheel Drive,2023,Electric
+205,4.0,9.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+206,4.0,7.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+207,,10.0,SUV,4.0,All-wheel Drive,2024,Electric
+208,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+209,6.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+210,4.0,33.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+211,4.0,5.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+212,6.0,4501.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+213,6.0,15.0,Sedan,4.0,Rear-wheel Drive,2023,Gasoline
+214,8.0,10.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+215,6.0,6.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+216,8.0,33.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+217,6.0,24.0,Cargo Van,3.0,Rear-wheel Drive,2024,E85 Flex Fuel
+218,4.0,6.0,Sedan,4.0,Front-wheel Drive,2024,Gasoline
+219,6.0,89.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+220,8.0,2.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+221,4.0,10.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+222,,14.0,SUV,4.0,Rear-wheel Drive,2024,Electric
+223,,7.0,SUV,4.0,All-wheel Drive,2024,Electric
+224,8.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+225,4.0,11.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+226,4.0,9.0,Cargo Van,3.0,Rear-wheel Drive,2024,Diesel
+227,3.0,,SUV,4.0,Front-wheel Drive,2024,Gasoline
+228,8.0,39.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+229,6.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+230,,9.0,SUV,4.0,All-wheel Drive,2023,Electric
+231,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+232,,13.0,SUV,4.0,All-wheel Drive,2024,Electric
+233,6.0,10.0,Cargo Van,3.0,Rear-wheel Drive,2024,E85 Flex Fuel
+234,8.0,5.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+235,4.0,8.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+236,,4.0,SUV,4.0,Rear-wheel Drive,2024,Electric
+237,4.0,11.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+238,8.0,32.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+239,4.0,8.0,SUV,4.0,All-wheel Drive,2024,PHEV Hybrid Fuel
+240,,1.0,Sedan,4.0,All-wheel Drive,2024,Electric
+241,3.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+242,6.0,65.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+243,4.0,1.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+244,6.0,12.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+245,6.0,5.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+246,6.0,,SUV,4.0,Four-wheel Drive,2024,Gasoline
+247,6.0,5.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+248,3.0,3.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+249,4.0,3.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+250,6.0,0.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+251,4.0,4.0,SUV,4.0,All-wheel Drive,2024,PHEV Hybrid Fuel
+252,,10.0,Sedan,4.0,All-wheel Drive,2024,Electric
+253,6.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+254,4.0,7.0,SUV,4.0,All-wheel Drive,2024,Hybrid
+255,,4.0,SUV,4.0,All-wheel Drive,2024,Electric
+256,6.0,3838.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+257,4.0,16.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+258,4.0,0.0,SUV,4.0,Front-wheel Drive,2024,Hybrid
+259,6.0,12.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+260,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+261,6.0,4.0,Passenger Van,4.0,Front-wheel Drive,2024,Gasoline
+262,3.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+263,6.0,7.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+264,8.0,1.0,Pickup Truck,4.0,Four-wheel Drive,2023,Gasoline
+265,6.0,186.0,Cargo Van,3.0,Front-wheel Drive,2024,Gasoline
+266,4.0,10.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+267,,,SUV,4.0,All-wheel Drive,2024,
+268,6.0,14.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+269,4.0,148.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+270,6.0,22.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+271,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+272,6.0,20.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+273,8.0,34.0,SUV,4.0,All-wheel Drive,2023,Gasoline
+274,4.0,9.0,SUV,4.0,Rear-wheel Drive,2024,Gasoline
+275,8.0,0.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+276,6.0,5.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+277,6.0,4.0,Passenger Van,4.0,Front-wheel Drive,2024,Gasoline
+278,8.0,17.0,Pickup Truck,4.0,Four-wheel Drive,2024,Gasoline
+279,,16.0,SUV,4.0,All-wheel Drive,2024,Electric
+280,4.0,23.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+281,6.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+282,,0.0,SUV,,All-wheel Drive,2025,Gasoline
+283,6.0,6.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+284,4.0,12.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+285,,7.0,Sedan,4.0,All-wheel Drive,2024,Electric
+286,4.0,8.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+287,6.0,10.0,SUV,4.0,Four-wheel Drive,2024,Gasoline
+288,4.0,12.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+289,6.0,0.0,Pickup Truck,4.0,Four-wheel Drive,2023,Gasoline
+290,4.0,0.0,SUV,4.0,Front-wheel Drive,2024,Hybrid
+291,6.0,31.0,SUV,4.0,Front-wheel Drive,2024,Gasoline
+292,4.0,1.0,Pickup Truck,4.0,All-wheel Drive,2024,Gasoline
+293,4.0,54.0,SUV,4.0,All-wheel Drive,2024,Gasoline
+294,8.0,15.0,Pickup Truck,4.0,Four-wheel Drive,2024,Diesel
+295,4.0,10.0,SUV,4.0,Front-wheel Drive,2024,Gasoline

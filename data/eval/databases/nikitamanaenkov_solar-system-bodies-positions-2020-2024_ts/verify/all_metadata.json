@@ -1,0 +1,178 @@
+{
+    "question": {
+        "target": [
+            "x_au"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "date",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "name",
+            "naif_id",
+            "y_au",
+            "z_au",
+            "vx_au_per_day",
+            "vy_au_per_day",
+            "vz_au_per_day"
+        ],
+        "not_filtered_related_features": [
+            "y_au",
+            "z_au",
+            "vx_au_per_day",
+            "vy_au_per_day",
+            "vz_au_per_day"
+        ],
+        "selected_features": [
+            "vx_au_per_day",
+            "vy_au_per_day",
+            "y_au"
+        ],
+        "expected_ranges": {
+            "y_au": [
+                -31.37058172038221,
+                16.092203167462532
+            ],
+            "z_au": [
+                -2.0591121129542547,
+                0.0535116202036864
+            ],
+            "vx_au_per_day": [
+                -0.033777941583898,
+                0.0224901471559982
+            ],
+            "vy_au_per_day": [
+                -0.0269261549742627,
+                0.0293918626628249
+            ],
+            "vz_au_per_day": [
+                -0.0043400094506329,
+                0.0040632647820788
+            ]
+        },
+        "column_type_inference": {
+            "date": "object",
+            "name": "object",
+            "naif_id": "numeric",
+            "x_au": "numeric",
+            "y_au": "numeric",
+            "z_au": "numeric",
+            "vx_au_per_day": "numeric",
+            "vy_au_per_day": "numeric",
+            "vz_au_per_day": "numeric"
+        },
+        "train_save_file": "./nikitamanaenkov_solar-system-bodies-positions-2020-2024_ts/source/train.csv",
+        "val_v1_save_file": "./nikitamanaenkov_solar-system-bodies-positions-2020-2024_ts/source/val_v1.csv",
+        "val_v2_save_file": "./nikitamanaenkov_solar-system-bodies-positions-2020-2024_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./nikitamanaenkov_solar-system-bodies-positions-2020-2024_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./nikitamanaenkov_solar-system-bodies-positions-2020-2024_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./nikitamanaenkov_solar-system-bodies-positions-2020-2024_ts/source/train_v1.csv",
+        "train_test_ratio": 0.8,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 20,
+        "model_type": "Prophet",
+        "output_file": "./nikitamanaenkov_solar-system-bodies-positions-2020-2024_ts/prediction.json",
+        "ground_truth_v1_file": "./nikitamanaenkov_solar-system-bodies-positions-2020-2024_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./nikitamanaenkov_solar-system-bodies-positions-2020-2024_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./nikitamanaenkov_solar-system-bodies-positions-2020-2024_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2024-01-01 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7116361,
+        "ref": "nikitamanaenkov/solar-system-bodies-positions-2020-2024",
+        "subtitle": "Celestial Object Data from Skyfield Ephemerides for Orbital Analysis",
+        "creatorName": "Nikita Manaenkov",
+        "creatorUrl": "nikitamanaenkov",
+        "totalBytes": 3663944,
+        "url": "https://www.kaggle.com/datasets/nikitamanaenkov/solar-system-bodies-positions-2020-2024",
+        "lastUpdated": "2025-04-11T14:29:57.567Z",
+        "downloadCount": 32,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Nikita Manaenkov",
+        "ownerRef": "nikitamanaenkov",
+        "kernelCount": 2,
+        "title": "Solar System Bodies Positions (2020-2024)",
+        "viewCount": 225,
+        "voteCount": 1,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "astronomy",
+                "name": "astronomy",
+                "description": "There are lots of fun datasets here for you to analyze, and who knows, maybe you'll find a habitable planet hidden in the data that no one else saw. Then you could have a planet named after you!",
+                "fullPath": "subject > earth and nature > physical science > astronomy",
+                "competitionCount": 17,
+                "datasetCount": 1881,
+                "scriptCount": 990,
+                "totalCount": 2888
+            },
+            {
+                "ref": "physics",
+                "name": "physics",
+                "description": "Physics is the natural science that involves the study of matter and its motion and behavior through space and time, along with related concepts such as energy and force.",
+                "fullPath": "subject > earth and nature > physical science > physics",
+                "competitionCount": 17,
+                "datasetCount": 1492,
+                "scriptCount": 1070,
+                "totalCount": 2579
+            },
+            {
+                "ref": "science and technology",
+                "name": "science and technology",
+                "description": "",
+                "fullPath": "subject > science and technology",
+                "competitionCount": 9,
+                "datasetCount": 4391,
+                "scriptCount": 1588,
+                "totalCount": 5988
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7116361,
+        "datasetSlug": "solar-system-bodies-positions-2020-2024",
+        "ownerUser": "nikitamanaenkov",
+        "usabilityRating": 1.0,
+        "totalViews": 213,
+        "totalVotes": 1,
+        "totalDownloads": 31,
+        "title": "Solar System Bodies Positions (2020-2024)",
+        "subtitle": "Celestial Object Data from Skyfield Ephemerides for Orbital Analysis",
+        "description": "This dataset provides the positions and velocities of various celestial bodies in the solar system, including planets, moons, asteroids, and other objects, over a period from January 1, 2020, to December 31, 2024. The data includes daily measurements of each body's position (in astronomical units) and velocity (in AU per day) relative to the Sun, captured using the Skyfield library's ephemeris data. The dataset is ideal for analysis of orbital mechanics, trajectory modeling, and space mission planning.\n\n=== About this file ===\n\nAbout this file\nThis dataset contains the positions (in AU) and velocities (in AU per day) of various celestial bodies (planets, moons, asteroids) in the solar system from January 1, 2020, to December 31, 2024, observed from the Sun using ephemeris data from the Skyfield library.\n\n\n=== Columns & descriptions ===\n\ndate: The date the position and velocity data were recorded.\nname: The name of the celestial body (e.g., \"Earth\", \"Mars\").\nnaif_id: The NAIF ID associated with the celestial body.\nx_au: The celestial body\u2019s position along the X-axis in astronomical units (AU).\ny_au: The celestial body\u2019s position along the Y-axis in astronomical units (AU).\nz_au: The celestial body\u2019s position along the Z-axis in astronomical units (AU).\nvx_au_per_day: The celestial body\u2019s velocity along the X-axis in AU per day.\nvy_au_per_day: The celestial body\u2019s velocity along the Y-axis in AU per day.\nvz_au_per_day: The celestial body\u2019s velocity along the Z-axis in AU per day.\n",
+        "keywords": [
+            "astronomy",
+            "physics",
+            "science and technology",
+            "time series analysis"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

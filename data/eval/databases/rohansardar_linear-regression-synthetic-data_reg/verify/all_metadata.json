@@ -1,0 +1,119 @@
+{
+    "question": {
+        "target": [
+            "y"
+        ],
+        "target_candidates": [
+            "y"
+        ],
+        "related_features": [
+            "x"
+        ],
+        "not_filtered_related_features": [
+            "x"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "x": [
+                0.0,
+                100.0
+            ]
+        },
+        "selected_features": [
+            "x"
+        ],
+        "train_v2_save_file": "./rohansardar_linear-regression-synthetic-data_reg/source/train_v2.parquet",
+        "val_v2_save_file": "./rohansardar_linear-regression-synthetic-data_reg/source/val_v2.parquet",
+        "val_no_err_save_file": "./rohansardar_linear-regression-synthetic-data_reg/source/val_v1.parquet",
+        "train_no_err_save_file": "./rohansardar_linear-regression-synthetic-data_reg/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./rohansardar_linear-regression-synthetic-data_reg/source/train_v1.parquet",
+        "train_test_ratio": 0.8,
+        "save_file_type": "parquet",
+        "imputer_type": "most_frequent",
+        "random_state": 55,
+        "model_type": "Ridge",
+        "output_file": "./rohansardar_linear-regression-synthetic-data_reg/prediction.csv",
+        "ground_truth_file": "./rohansardar_linear-regression-synthetic-data_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./rohansardar_linear-regression-synthetic-data_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "x": "numerical",
+            "y": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "x"
+        ],
+        "categorical_features": []
+    },
+    "data_info": {
+        "id": 8013229,
+        "ref": "rohansardar/linear-regression-synthetic-data",
+        "subtitle": "Synthetic dataset for testing linear regression with noise and outliers",
+        "creatorName": "Rohan Sardar",
+        "creatorUrl": "rohansardar",
+        "totalBytes": 4700,
+        "url": "https://www.kaggle.com/datasets/rohansardar/linear-regression-synthetic-data",
+        "lastUpdated": "2025-08-05T11:53:52.000Z",
+        "downloadCount": 1,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Rohan Sardar",
+        "ownerRef": "rohansardar",
+        "kernelCount": 1,
+        "title": "Linear Regression Synthetic Data",
+        "viewCount": 29,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "linear regression",
+                "name": "linear regression",
+                "description": "",
+                "fullPath": "task > linear regression",
+                "competitionCount": 11,
+                "datasetCount": 850,
+                "scriptCount": 5938,
+                "totalCount": 6799
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 8013229,
+        "datasetSlug": "linear-regression-synthetic-data",
+        "ownerUser": "rohansardar",
+        "usabilityRating": 1.0,
+        "totalViews": 29,
+        "totalDownloads": 2,
+        "title": "Linear Regression Synthetic Data",
+        "subtitle": "Synthetic dataset for testing linear regression with noise and outliers",
+        "description": "This dataset contains synthetically generated data intended for linear regression modeling. It simulates a linear relationship defined by the equation:\n$$\ny=4.5x+1+noise \n$$\n\n- Number of data points: 230 (200 regular + 30 outliers)\n- Noise: Gaussian noise with standard deviation of 30\n- Outliers: 30 points intentionally added with large deviations to simulate subtle anomalies in the data\n\nThis dataset is ideal for practicing linear regression, outlier detection, and robust modeling techniques.\n\n=== About this file ===\n\nAbout this file\n230 data points, out of which 200 are regular and 30 are outliers\n\n\n=== Columns & descriptions ===\n\nx: The value of x\ny: The value of y\n",
+        "keywords": [
+            "linear regression",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

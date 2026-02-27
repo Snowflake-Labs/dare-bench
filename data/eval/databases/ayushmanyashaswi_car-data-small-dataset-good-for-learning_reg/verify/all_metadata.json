@@ -1,0 +1,207 @@
+{
+    "question": {
+        "target": [
+            "Selling_Price"
+        ],
+        "target_candidates": [
+            "Selling_Price"
+        ],
+        "related_features": [
+            "Car_Name",
+            "Year",
+            "Kms_Driven",
+            "Owner",
+            "Seller_Type",
+            "Fuel_Type",
+            "Present_Price",
+            "Transmission"
+        ],
+        "not_filtered_related_features": [
+            "Year",
+            "Kms_Driven",
+            "Owner",
+            "Seller_Type",
+            "Fuel_Type",
+            "Present_Price",
+            "Transmission"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "Year": [
+                2003,
+                2018
+            ],
+            "Kms_Driven": [
+                500,
+                500000
+            ],
+            "Owner": [
+                0,
+                3
+            ],
+            "Seller_Type": [
+                "Dealer",
+                "Individual"
+            ],
+            "Fuel_Type": [
+                "Petrol",
+                "Diesel",
+                "CNG"
+            ],
+            "Present_Price": [
+                0.0,
+                93.0
+            ],
+            "Transmission": [
+                "Manual",
+                "Automatic"
+            ]
+        },
+        "selected_features": [
+            "Fuel_Type",
+            "Seller_Type",
+            "Present_Price",
+            "Year",
+            "Transmission"
+        ],
+        "train_v2_save_file": "./ayushmanyashaswi_car-data-small-dataset-good-for-learning_reg/source/train_v2.sqlite",
+        "val_v2_save_file": "./ayushmanyashaswi_car-data-small-dataset-good-for-learning_reg/source/val_v2.sqlite",
+        "val_no_err_save_file": "./ayushmanyashaswi_car-data-small-dataset-good-for-learning_reg/source/val_v1.sqlite",
+        "train_no_err_save_file": "./ayushmanyashaswi_car-data-small-dataset-good-for-learning_reg/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./ayushmanyashaswi_car-data-small-dataset-good-for-learning_reg/source/train_v1.sqlite",
+        "train_test_ratio": 0.9,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 50,
+        "model_type": "DecisionTreeRegressor",
+        "output_file": "./ayushmanyashaswi_car-data-small-dataset-good-for-learning_reg/prediction.csv",
+        "ground_truth_file": "./ayushmanyashaswi_car-data-small-dataset-good-for-learning_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./ayushmanyashaswi_car-data-small-dataset-good-for-learning_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Car_Name": "categorical",
+            "Year": "numerical",
+            "Selling_Price": "numerical",
+            "Present_Price": "numerical",
+            "Kms_Driven": "numerical",
+            "Fuel_Type": "categorical",
+            "Seller_Type": "categorical",
+            "Transmission": "categorical",
+            "Owner": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Present_Price",
+            "Year"
+        ],
+        "categorical_features": [
+            "Fuel_Type",
+            "Seller_Type",
+            "Transmission"
+        ]
+    },
+    "data_info": {
+        "id": 7441918,
+        "ref": "ayushmanyashaswi/car-data-small-dataset-good-for-learning",
+        "subtitle": "Dataset of car info. to predict the price at the time of sellingit.",
+        "creatorName": "Ayushman Yashaswi",
+        "creatorUrl": "ayushmanyashaswi",
+        "totalBytes": 3862,
+        "url": "https://www.kaggle.com/datasets/ayushmanyashaswi/car-data-small-dataset-good-for-learning",
+        "lastUpdated": "2025-05-17T07:39:52.217Z",
+        "downloadCount": 109,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Ayushman Yashaswi",
+        "ownerRef": "ayushmanyashaswi",
+        "kernelCount": 2,
+        "title": "Car Data | Small dataset | Good for learning",
+        "viewCount": 434,
+        "voteCount": 1,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "xgboost",
+                "name": "xgboost",
+                "description": "A library that implements the gradient boosting framework onto a wide range of problems including regression and classification. It is optimized for speed and efficiency.",
+                "fullPath": "packages > xgboost",
+                "competitionCount": 4,
+                "datasetCount": 186,
+                "scriptCount": 7771,
+                "totalCount": 7961
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            },
+            {
+                "ref": "data storytelling",
+                "name": "data storytelling",
+                "description": "",
+                "fullPath": "technique > data storytelling",
+                "competitionCount": 2,
+                "datasetCount": 1033,
+                "scriptCount": 1613,
+                "totalCount": 2648
+            },
+            {
+                "ref": "multimodal",
+                "name": "multimodal",
+                "description": "",
+                "fullPath": "data type > multimodal data",
+                "competitionCount": 24,
+                "datasetCount": 516,
+                "scriptCount": 195,
+                "totalCount": 735
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7441918,
+        "datasetSlug": "car-data-small-dataset-good-for-learning",
+        "ownerUser": "ayushmanyashaswi",
+        "usabilityRating": 1.0,
+        "totalViews": 319,
+        "totalDownloads": 73,
+        "title": "Car Data | Small dataset | Good for learning",
+        "subtitle": "Dataset of car info. to predict the price at the time of sellingit.",
+        "description": "Here\u2019s your full summary with the **Modeling & Evaluation** section cleanly formatted into a comparative table \u2014 all within your detailed report structure:\n\n---\n\n\ud83d\udcca **Dataset Description and Modeling Overview**\nThis dataset was analyzed for a regression task involving prediction of a continuous target variable. It consisted of both numerical and categorical features, and the goal was to identify the most effective regression model to deliver accurate predictions.\n\n---\n\n\ud83d\udd0d **Data Exploration & Preprocessing**\n**Correlation Matrix**: Used to explore relationships among features and target.\n\n**Encoding**:\n\n* **One-Hot Encoding**: Applied to categorical variables for use with Linear Regression and Support Vector Regression (SVR).\n* **Label Encoding**: Used for tree-based models (Random Forest and Decision Tree) to maintain structure.\n\n**Scaling**:\n\n* **StandardScaler**: Significantly improved the performance of SVR after application.\n\n---\n\n\ud83d\udcc8 **Modeling & Evaluation**\n\n| Model                    | R\u00b2 (Train) | R\u00b2 (Test) | MAE (Train) | MAE (Test) | MSE (Train) | MSE (Test) | Cross-Val R\u00b2 (Mean)           |\n| ------------------------ | ---------- | --------- | ----------- | ---------- | ----------- | ---------- | ----------------------------- |\n| **Linear Regression**    | 0.8886     | 0.8490    | 1.17        | 1.22       | 2.94        | 3.48       | **-18.17** *(outlier impact)* |\n| **SVR (Before Scaling)** | -0.0614    | -0.0952   | 3.18        | 3.15       | 28.06       | 25.23      | -7.19                         |\n| **SVR (After Scaling)**  | 0.6593     | 0.7815    | 1.10        | 0.999      | 9.01        | 5.03       | -7.19                         |\n| **Random Forest**        | 0.9842     | 0.9624    | 0.26        | 0.62       | 0.20        | 1.18       | 0.369                         |\n| **Decision Tree**        | 0.9760     | 0.9251    | 0.50        | 0.86       | 0.63        | 1.73       | 0.027                         |\n| **XGBoost**              | 0.9999     | 0.9630    | 0.0076      | 0.586      | 0.0001      | 0.85       | *(Not cross-validated)*       |\n\n---\n\n\ud83d\udd27 **Advanced Techniques Used**\n\n* \u2705 **Cross-Validation**: 5-fold cross-validation helped reveal inconsistencies and overfitting.\n* \u2705 **Hyperparameter Tuning** (via GridSearchCV):\n\n  * Linear Regression: **\u03b1 = 10**\n  * SVR: **C = 10**, **kernel = 'rbf'**\n  * Random Forest: **n\\_estimators = 50**, **max\\_depth = None**\n  * Decision Tree: **max\\_depth = 7**, **min\\_samples\\_split = 5**\n* \u2705 **Residual Analysis**: Used for checking variance patterns and model fit.\n* \u2705 **Model Comparison**: All models were compared based on R\u00b2, MAE, and MSE.\n\n---\n\n\ud83e\udd16 **User-Friendly System Built**\nA streamlined input-output interface was created for real-world use:\n\n* Users input features via a front-end form.\n* The trained model delivers predictions and displays them clearly.\n* **Deployed Model**: **XGBoost Regressor**, due to highest accuracy and generalization.\n\n---\n\n\ud83e\udde0 **Key Learnings**\n\n* Small dataset size led to extreme variation in cross-validation, especially for SVR and Linear models.\n* Scaling is **crucial** for distance-based models like SVR.\n* Tree-based models (Random Forest, Decision Tree) managed raw/encoded data efficiently.\n* **XGBoost** outperformed all others due to boosting and regularization techniques.\n\n\n\n=== About this file ===\n\nAbout this file\nCar data set\n\n\n=== Columns & descriptions ===\n\nCar_Name: Name of the car\nYear: year in which it was manufactured\nSelling_Price: Selling price of the car\nPresent_Price: Current price of the car in the market\nKms_Driven: distance travelled by the vehicle\nFuel_Type: fuel type it needs\nSeller_Type: type of seller who's buying the car\nTransmission: Transmission type\nOwner: owner type(0:female, 1:male)\n",
+        "keywords": [
+            "data visualization",
+            "xgboost",
+            "regression",
+            "data storytelling",
+            "multimodal"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

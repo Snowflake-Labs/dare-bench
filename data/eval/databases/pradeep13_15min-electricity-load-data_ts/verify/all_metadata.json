@@ -1,0 +1,153 @@
+{
+    "question": {
+        "target": [
+            "Frequency_in_Hz"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "Day_Interval",
+        "time_format": "%d-%b-%Y %H:%M",
+        "is_resampled": false,
+        "related_features": [
+            "UI_Penalty_INR_per_kwh"
+        ],
+        "not_filtered_related_features": [
+            "UI_Penalty_INR_per_kwh"
+        ],
+        "selected_features": [
+            "UI_Penalty_INR_per_kwh"
+        ],
+        "expected_ranges": {
+            "UI_Penalty_INR_per_kwh": [
+                0.0,
+                10300.5
+            ]
+        },
+        "column_type_inference": {
+            "Day_Interval": "object",
+            "Frequency_in_Hz": "numeric",
+            "UI_Penalty_INR_per_kwh": "numeric"
+        },
+        "train_save_file": "./pradeep13_15min-electricity-load-data_ts/source/train.csv",
+        "val_v1_save_file": "./pradeep13_15min-electricity-load-data_ts/source/val_v1.csv",
+        "val_v2_save_file": "./pradeep13_15min-electricity-load-data_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./pradeep13_15min-electricity-load-data_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./pradeep13_15min-electricity-load-data_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./pradeep13_15min-electricity-load-data_ts/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 89,
+        "model_type": "Prophet",
+        "output_file": "./pradeep13_15min-electricity-load-data_ts/prediction.json",
+        "ground_truth_v1_file": "./pradeep13_15min-electricity-load-data_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./pradeep13_15min-electricity-load-data_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./pradeep13_15min-electricity-load-data_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2018-12-22 07:45:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 6762338,
+        "ref": "pradeep13/15min-electricity-load-data",
+        "subtitle": "15 minute interval simulat thermal power-station generated electricity load data",
+        "creatorName": "Dr. Pradeep K Mavuluri, Ph.D",
+        "creatorUrl": "pradeep13",
+        "totalBytes": 182485,
+        "url": "https://www.kaggle.com/datasets/pradeep13/15min-electricity-load-data",
+        "lastUpdated": "2025-02-28T16:55:22.000Z",
+        "downloadCount": 22,
+        "licenseName": "Apache 2.0",
+        "description": "",
+        "ownerName": "Dr. Pradeep K Mavuluri, Ph.D",
+        "ownerRef": "pradeep13",
+        "kernelCount": 1,
+        "title": "15Min_Electricity_Load_Data",
+        "viewCount": 185,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "india",
+                "name": "india",
+                "description": "This tag will take you to the wonderful land of datasets and kernels related to India. You will find topics that range far and wide. There's education, travel, weather, and crime, too.",
+                "fullPath": "geography and places > asia > india",
+                "competitionCount": 4,
+                "datasetCount": 2433,
+                "scriptCount": 945,
+                "totalCount": 3382
+            },
+            {
+                "ref": "beginner",
+                "name": "beginner",
+                "description": "New to data science? Explore tips, tricks, and beginner friendly work from other Kagglers.",
+                "fullPath": "audience > beginner",
+                "competitionCount": 13479,
+                "datasetCount": 9074,
+                "scriptCount": 42976,
+                "totalCount": 65529
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14200,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34359
+            },
+            {
+                "ref": "electricity",
+                "name": "electricity",
+                "description": "",
+                "fullPath": "subject > science and technology > energy > electricity",
+                "competitionCount": 2,
+                "datasetCount": 2112,
+                "scriptCount": 204,
+                "totalCount": 2318
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 6762338,
+        "datasetSlug": "15min-electricity-load-data",
+        "ownerUser": "pradeep13",
+        "usabilityRating": 1.0,
+        "totalViews": 170,
+        "totalDownloads": 20,
+        "title": "15Min_Electricity_Load_Data",
+        "subtitle": "15 minute interval simulat thermal power-station generated electricity load data",
+        "description": "This data has 15 minute interval simulated thermal power-station generated electricity load data for a particular grid from Indian Power Generation Company. This data mainly serves for forecasting playground to achieve greater ac-curacies (+-5%).\n1) Day_Interval - \"%d-%b-%Y %H:%M\" format for every 15 Minute Interval.\n2) Frequency_in_Hz - Electricity generated measured in Hz frequency.\n3) Penalty for under generation in Indian Rupees.\n\nOther Datasets by Author:\nDaily Store Sales and Revenue of 600 plus SKUs - [Link](https://www.kaggle.com/datasets/pradeep13/daily-store-sales-and-revenue-of-600-plus-skus)\n\n=== About this file ===\n\nAbout this file\nIt has three columns:\n1) Day_Interval - \"%d-%b-%Y %H:%M\" format for every 15 Minute Interval.\n2) Frequency_in_Hz - Electricity generated measured in Hz frequency.\n3) Penalty for under generation in Indian Rupees.\nPS: Sort Day_Interval after converting to appropriate Date-Time format.\n\n\n=== Columns & descriptions ===\n\nDay_Interval: 03-Mar-2018 00:15\nFrequency_in_Hz: 49.9\nUI_Penalty_INR_per_kwh: 3006.5\n",
+        "keywords": [
+            "india",
+            "beginner",
+            "time series analysis",
+            "tabular",
+            "electricity"
+        ],
+        "licenses": [
+            {
+                "name": "apache-2.0"
+            }
+        ]
+    }
+}

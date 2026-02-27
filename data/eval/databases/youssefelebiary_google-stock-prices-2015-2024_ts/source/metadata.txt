@@ -1,0 +1,52 @@
+# Context
+In the dynamic world of finance, historical stock data serves as a cornerstone for analysis, predictive modeling, and strategic investment decisions. Understanding the past performance of market leaders like Alphabet Inc.'s Class A shares (GOOGL) is crucial for identifying trends, assessing volatility, and developing robust forecasting models. This dataset offers a detailed look into nearly a decade of GOOGL's daily market activity.
+
+# Overview
+This dataset provides daily historical stock price and trading volume data for Alphabet Inc.'s Class A (voting) shares, traded under the ticker symbol GOOGL.
+
+| Category          | Detail                                        |
+|-------------------|-----------------------------------------------|
+| **Records** | 2500+ daily observations (trading days only) |
+| **Timeframe** | January 1, 2015 - December 31, 2024           |
+| **Company** | Alphabet Inc. (GOOGL)                         |
+| **Data Points** | Open, High, Low, Close, Volume                |
+| **Frequency** | Daily (trading days only)                     |
+
+# Files
+* `GoogleStockPrices.csv`
+    * Contains daily records for GOOGL.
+    * Columns: `Date`, `Open`, `High`, `Low`, `Close`, `Volume`.
+    * **Important:** This file only includes records for actual stock market trading days (weekends and public holidays are not present).
+
+# Key Features
+1.  **Extensive Temporal Coverage**: Nearly a decade of market data for GOOGL, from 2015 through 2024.
+2.  **Single Ticker Focus**: Dedicated to Alphabet Inc.'s Class A (GOOGL) shares, allowing for in-depth analysis of this specific stock.
+3.  **Comprehensive Daily Metrics**: Includes Open, High, Low, Close prices, and trading Volume, essential for detailed technical analysis.
+4.  **Trading Day Focus**: Data is strictly limited to actual market trading days, reflecting real market activity without artificial interpolations for non-trading days.
+5.  **Direct Source**: Data is derived directly from Google Finance, a reliable and widely recognized source for financial information.
+
+# Uses
+This dataset is ideally suited for a wide range of financial and data science applications, including:
+* **Time Series Analysis**: Analyze long-term price trends, seasonality, and cycles in GOOGL's stock performance.
+* **Predictive Modeling**: Develop and test models for daily GOOGL stock price forecasting, volatility prediction, or trend identification.
+* **Algorithmic Trading Strategies**: Backtest daily trading algorithms based on GOOGL's historical price and volume data.
+* **Risk Assessment**: Study historical volatility and drawdowns of GOOGL to understand potential investment risks.
+* **Market Event Analysis**: Examine the daily impact of major corporate announcements, economic news, or global events specifically on GOOGL's stock.
+
+## Licensing
+This dataset is published under the **MIT License**, allowing free use for both personal and commercial purposes. Attribution is encouraged but not required.
+
+=== About this file ===
+
+About this file
+Google Stock Prices from 2015 to 2024
+
+
+=== Columns & descriptions ===
+
+Date: Date of trading
+Open: Open Price
+High: Highest Price
+Low: Lowest Price
+Close: Close Price
+Volume: Number of Shares Traded

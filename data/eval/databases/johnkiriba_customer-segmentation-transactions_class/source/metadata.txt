@@ -1,0 +1,17 @@
+The dataset contains 100000 entries and mimics real time transactional data for customers over a period of time. It contains the, Customer ID, Payment Method, Product Purchased, Transaction Amount, Transaction Date, Transaction Status, and Transaction Type
+
+=== About this file ===
+
+About this file
+Customers
+
+
+=== Columns & descriptions ===
+
+Customer ID: Customer ID
+Transaction Date: Date of transaction
+Product Purchased: Product that was purchased
+Transaction Amount: Amount incurred
+Payment Method: Payment method used
+Transaction Status: Status of transaction
+Transaction Type: Type of transaction

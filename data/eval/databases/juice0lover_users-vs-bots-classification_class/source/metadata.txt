@@ -1,0 +1,98 @@
+This dataset contains profile data collected from VK.com (VKontakte), Russia's largest social network, for distinguishing between genuine users and automated bots. The data includes both numerical and categorical features extracted from user profiles.
+
+Data Collection:
+Collected from public VK.com profiles.
+Includes both verified human users and verified bot accounts.
+Represents realistic social network conditions with incomplete profiles.
+
+Feature Types:
+Numerical Features (NaN values preserved):
+Activity metrics (average posts per week, hashtag usage, etc.)
+Friend/follower counts.
+Categorical Features (missing values marked as 'unknown'):
+Profile attributes (has_photo, has_mobile, etc.)
+Privacy settings (is_closed_profile, etc)
+Binary flags (can_post, can_message, etc)
+
+Data Processing:
+Missing values handled differently by feature type:
+Categorical: Filled with 'unknown' string
+Numerical: Preserved as NaN
+Boolean values converted to binary (0/1) where applicable
+
+Potential Use Cases:
+Binary classification (user vs bot detection)
+Social media behavior analysis
+Anomaly detection in social networks
+Feature engineering exercises
+Dataset Size:
+5874 rows × 60 features (balanced 50/50))
+
+=== About this file ===
+
+About this file
+Dataset csv file
+
+
+=== Columns & descriptions ===
+
+has_domain: [no description]
+has_birth_date: All values are 1 or unknown
+has_photo: [no description]
+can_post_on_wall: [no description]
+can_send_message: [no description]
+has_website: [no description]
+gender: 2 is unspecified
+has_short_name: All values are 1
+has_first_name: All values are 1
+has_last_name: [no description]
+access_to_closed_profile: [no description]
+is_profile_closed: [no description]
+target: [no description]
+has_nickname: [no description]
+has_maiden_name: [no description]
+has_mobile: [no description]
+all_posts_visible: [no description]
+audio_available: [no description]
+has_interests: [no description]
+has_books: [no description]
+has_tv: [no description]
+has_quotes: [no description]
+has_about: [no description]
+has_games: [no description]
+has_movies: [no description]
+has_activities: [no description]
+has_music: [no description]
+can_add_as_friend: [no description]
+can_invite_to_group: [no description]
+subscribers_count: [no description]
+is_blacklisted: [no description]
+has_career: [no description]
+has_military_service: [no description]
+has_hometown: [no description]
+marital_status: [no description]
+has_universities: [no description]
+has_schools: [no description]
+has_relatives: [no description]
+is_verified: [no description]
+is_confirmed: [no description]
+has_status: [no description]
+posts_count: [no description]
+avg_likes: [no description]
+links_ratio: [no description]
+hashtags_ratio: [no description]
+avg_keywords: [no description]
+avg_text_length: [no description]
+attachments_ratio: [no description]
+avg_comments: [no description]
+reposts_ratio: [no description]
+ads_ratio: [no description]
+avg_views: [no description]
+posting_frequency_days: [no description]
+phone_numbers_ratio: [no description]
+avg_text_uniqueness: [no description]
+city: [no description]
+has_occupation: [no description]
+occupation_type_university: [no description]
+occupation_type_work: [no description]
+has_personal_data: [no description]

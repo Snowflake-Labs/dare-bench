@@ -1,0 +1,32 @@
+This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through Washington State Department of Licensing (DOL).
+
+### Access & Use Information
+- **Source**: https://catalog.data.gov/dataset/electric-vehicle-population-data
+- **Public**: This dataset is intended for public access and use.
+- **License**: [Open Data Commons Open Database License (ODbL) v1.0](https://opendatacommons.org/licenses/odbl/1-0/)
+
+=== About this file ===
+
+About this file
+This dataset, sourced from the U.S. Government's open data portal, contains information about Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) currently registered with the Washington State Department of Licensing (DOL). Each record represents an individual vehicle and reflects the growing population of electric vehicles in Washington State. Have fun exploring it!
+
+
+=== Columns & descriptions ===
+
+VIN (1-10): The first 10 characters of the Vehicle Identification Number (VIN) are provided for partial identification, with the rest of the VIN truncated for privacy.
+County: The county in Washington State where the vehicle is registered.
+City: The city in Washington State where the vehicle is registered.
+State: The U.S. state where the vehicle is registered (all entries are from Washington).
+Postal Code: The ZIP code where the vehicle is registered.
+Model Year: The manufacturing year of the vehicle.
+Make: The manufacturer or brand of the vehicle (e.g., Tesla, Ford, Toyota).
+Model: The specific model of the vehicle (e.g., Leaf, Model 3, Bolt).
+Electric Vehicle Type: Indicates whether the vehicle is a Battery Electric Vehicle (BEV) or a Plug-in Hybrid Electric Vehicle (PHEV).
+Clean Alternative Fuel Vehicle (CAFV) Eligibility: Shows whether the vehicle qualifies under Washington's CAFV program.
+Electric Range: [no description]
+Base MSRP: [no description]
+Legislative District: [no description]
+DOL Vehicle ID: [no description]
+Vehicle Location: [no description]
+Electric Utility: [no description]
+2020 Census Tract: [no description]

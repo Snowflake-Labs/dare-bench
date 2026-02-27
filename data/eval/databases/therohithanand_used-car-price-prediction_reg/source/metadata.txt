@@ -1,0 +1,56 @@
+#  Used Car Price Estimation Dataset
+
+##  Overview
+This dataset contains **10,000 realistic entries** of used cars with various features such as mileage, engine size, number of previous owners, fuel type, and more. It is designed for **regression tasks** where the goal is to **predict the resale price** of a car in USD.
+
+It’s perfect for:
+- Practicing regression models
+- Exploring feature importance
+- Building interactive dashboards
+- Training ML models for real-world pricing prediction
+
+
+##  Use Cases
+- **Regression**: Predict `price_usd` using the other features.
+- **Feature Engineering**: Create new features like car age, fuel economy score, etc.
+- **Data Visualization**: Analyze how different factors like engine size or brand impact price.
+- **Exploratory Data Analysis (EDA)**: Great for beginners to learn cleaning and insights.
+
+
+##  Format
+- **File type**: CSV  
+- **Rows**: 10,000  
+- **File name**: `used_car_price_dataset_extended.csv`
+
+
+##  License & Credits
+This dataset is **synthetically generated** and does not represent any real-world individual's data. Free to use for learning, teaching, and experimentation.
+
+
+=== About this file ===
+
+About this file
+Filename
+Description
+Rows
+Format
+used_car_price_dataset_extended.csv
+Full dataset with 10,000 used car records
+10,000
+CSV
+
+
+=== Columns & descriptions ===
+
+make_year: Year the car was manufactured (between 1995 and 2023).
+mileage_kmpl: Mileage of the car in kilometers per liter (kmpl).
+engine_cc: Engine capacity in cubic centimeters (e.g., 1200 cc, 2000 cc).
+fuel_type: Type of fuel used: Petrol, Diesel, or Electric.
+owner_count: Number of previous owners (1 to 5).
+price_usd: arget variable – resale price of the car in US dollars (USD).
+brand: Car brand name
+transmission: Type of transmission: Manual or Automatic.
+color: Exterior color of the car.
+service_history: Maintenance history: Full, Partial, or None.
+accidents_reported: Number of accidents reported for the vehicle (typically 0–5).
+insurance_valid: Indicates whether insurance is currently valid: Yes or No.

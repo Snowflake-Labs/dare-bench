@@ -1,0 +1,154 @@
+{
+    "question": {
+        "target": [
+            "target_price_benchmark",
+            "target_price_market"
+        ],
+        "target_candidates": [
+            "price_eur",
+            "target_price_market",
+            "target_price_benchmark"
+        ],
+        "related_features": [
+            "pipe_length_m",
+            "is_outlier",
+            "supplier_id",
+            "price_eur"
+        ],
+        "not_filtered_related_features": [
+            "pipe_length_m",
+            "supplier_id"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "pipe_length_m": [
+                1.0,
+                10.0
+            ],
+            "supplier_id": [
+                "S1",
+                "S4",
+                "S2",
+                "S3"
+            ]
+        },
+        "selected_features": [
+            "pipe_length_m",
+            "supplier_id"
+        ],
+        "train_v2_save_file": "./shahriarkabir_linear-performance-pricing-lpp-pricing-dataset_reg/source/train_v2.sqlite",
+        "val_v2_save_file": "./shahriarkabir_linear-performance-pricing-lpp-pricing-dataset_reg/source/val_v2.sqlite",
+        "val_no_err_save_file": "./shahriarkabir_linear-performance-pricing-lpp-pricing-dataset_reg/source/val_v1.sqlite",
+        "train_no_err_save_file": "./shahriarkabir_linear-performance-pricing-lpp-pricing-dataset_reg/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./shahriarkabir_linear-performance-pricing-lpp-pricing-dataset_reg/source/train_v1.sqlite",
+        "train_test_ratio": 0.7,
+        "save_file_type": "sqlite",
+        "imputer_type": "median",
+        "random_state": 24,
+        "model_type": "MLPRegressor",
+        "output_file": "./shahriarkabir_linear-performance-pricing-lpp-pricing-dataset_reg/prediction.csv",
+        "ground_truth_file": "./shahriarkabir_linear-performance-pricing-lpp-pricing-dataset_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./shahriarkabir_linear-performance-pricing-lpp-pricing-dataset_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "pipe_id": "categorical",
+            "pipe_length_m": "numerical",
+            "price_eur": "numerical",
+            "supplier_id": "categorical",
+            "is_outlier": "categorical",
+            "target_price_market": "numerical",
+            "target_price_benchmark": "numerical",
+            "negotiation_room": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "pipe_length_m"
+        ],
+        "categorical_features": [
+            "supplier_id"
+        ]
+    },
+    "data_info": {
+        "id": 7303668,
+        "ref": "shahriarkabir/linear-performance-pricing-lpp-pricing-dataset",
+        "subtitle": "\ud83d\udccaLinear Performance Pricing (LPP) in Action: Artificial Dataset for Procurement",
+        "creatorName": "Shahriar Kabir",
+        "creatorUrl": "shahriarkabir",
+        "totalBytes": 3500,
+        "url": "https://www.kaggle.com/datasets/shahriarkabir/linear-performance-pricing-lpp-pricing-dataset",
+        "lastUpdated": "2025-05-01T15:50:03.773Z",
+        "downloadCount": 78,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Shahriar Kabir",
+        "ownerRef": "shahriarkabir",
+        "kernelCount": 2,
+        "title": "Linear Performance Pricing (LPP) Pricing Dataset",
+        "viewCount": 565,
+        "voteCount": 5,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114018,
+                "scriptCount": 25612,
+                "totalCount": 139668
+            },
+            {
+                "ref": "linear regression",
+                "name": "linear regression",
+                "description": "",
+                "fullPath": "task > linear regression",
+                "competitionCount": 11,
+                "datasetCount": 850,
+                "scriptCount": 5938,
+                "totalCount": 6799
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7303668,
+        "datasetSlug": "linear-performance-pricing-lpp-pricing-dataset",
+        "ownerUser": "shahriarkabir",
+        "usabilityRating": 1.0,
+        "totalViews": 466,
+        "totalVotes": 5,
+        "totalDownloads": 64,
+        "title": "Linear Performance Pricing (LPP) Pricing Dataset",
+        "subtitle": "\ud83d\udccaLinear Performance Pricing (LPP) in Action: Artificial Dataset for Procurement",
+        "description": "# Linear Performance Pricing (LPP) Pipe Pricing Dataset\n\nThis synthetic dataset simulates **supplier quotes for iron pipes** of varying lengths. It is designed to demonstrate **Linear Performance Pricing (LPP)**, a procurement analytics technique used to identify cost-saving opportunities by correlating product prices with performance parameters (e.g., pipe length). The dataset includes:\n- **Real-world variations**: Noise, outliers, and multiple suppliers.\n- **Target prices**: Calculated using market trends (`target_price_market`) and best-practice benchmarks (`target_price_benchmark`).\n\nInspired by the example from \"Data-Driven Spend Management\" (Chapter 3).\n## **Suggested Analysis Tasks**\n1. **Regression Analysis**: Replicate the market line (`P^M = 1.465 + 1.076L`) using linear regression.  \n2. **Outlier Detection**: Identify overpriced quotes using Z-scores or IQR.  \n3. **Savings Calculation**: Compute total savings if prices are negotiated down to the benchmark.  \n4. **Supplier Comparison**: Analyze pricing strategies of S1 vs S2 vs S3 vs S4.  \n5. **Visualization**: Plot price vs. length with market/benchmark lines. \n\n---\n# **Support This Dataset** \ud83d\ude80\n\nHelp this dataset reach more learners and practitioners in procurement analytics! **If you find this dataset useful**, consider:  \n\n`**Upvoting** this dataset on Kaggle \u2013 it boosts visibility and helps others discover it. `\n\nYour support keeps datasets like this **free and open-source** for the community! \ud83c\udf1f  \n---\n\n\n=== About this file ===\n\nAbout this file\nSynthetic iron pipe pricing dataset for Linear Performance Pricing (LPP) analysis, featuring pipe lengths, supplier quotes, and target prices. Ideal for regression modeling, outlier detection, and procurement cost-saving strategies in supply chain analytics.\n\n\n=== Columns & descriptions ===\n\npipe_id: Unique identifier for each pipe quote.\npipe_length_m: Length of the pipe in meters (performance parameter).\nprice_eur: Quoted price of the pipe in Euros (simulated with noise).\nsupplier_id: Supplier ID (S1, S2, S3, S4).\nis_outlier: `True` if the quote is an artificially inflated outlier\ntarget_price_market: Market price calculated via regression.\ntarget_price_benchmark: Best-practice benchmark price.\nnegotiation_room: Potential savings.\n",
+        "keywords": [
+            "business",
+            "linear regression",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

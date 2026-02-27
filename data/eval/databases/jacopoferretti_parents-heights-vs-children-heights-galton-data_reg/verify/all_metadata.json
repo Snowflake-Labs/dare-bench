@@ -1,0 +1,209 @@
+{
+    "question": {
+        "target": [
+            "childHeight"
+        ],
+        "target_candidates": [
+            "childHeight"
+        ],
+        "related_features": [
+            "father",
+            "mother",
+            "gender",
+            "children",
+            "midparentHeight",
+            "childNum"
+        ],
+        "not_filtered_related_features": [
+            "father",
+            "gender",
+            "childNum",
+            "children",
+            "midparentHeight",
+            "mother"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "father": [
+                62.0,
+                79.0
+            ],
+            "gender": [
+                "male",
+                "female"
+            ],
+            "childNum": [
+                1,
+                15
+            ],
+            "children": [
+                1,
+                15
+            ],
+            "midparentHeight": [
+                64.0,
+                76.0
+            ],
+            "mother": [
+                58.0,
+                71.0
+            ]
+        },
+        "selected_features": [
+            "father",
+            "children",
+            "gender",
+            "childNum"
+        ],
+        "train_v2_save_file": "./jacopoferretti_parents-heights-vs-children-heights-galton-data_reg/source/train_v2.csv",
+        "val_v2_save_file": "./jacopoferretti_parents-heights-vs-children-heights-galton-data_reg/source/val_v2.csv",
+        "val_no_err_save_file": "./jacopoferretti_parents-heights-vs-children-heights-galton-data_reg/source/val_v1.csv",
+        "train_no_err_save_file": "./jacopoferretti_parents-heights-vs-children-heights-galton-data_reg/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./jacopoferretti_parents-heights-vs-children-heights-galton-data_reg/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "mean",
+        "random_state": 76,
+        "model_type": "DecisionTreeRegressor",
+        "output_file": "./jacopoferretti_parents-heights-vs-children-heights-galton-data_reg/prediction.csv",
+        "ground_truth_file": "./jacopoferretti_parents-heights-vs-children-heights-galton-data_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./jacopoferretti_parents-heights-vs-children-heights-galton-data_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "rownames": "categorical",
+            "family": "categorical",
+            "father": "numerical",
+            "mother": "numerical",
+            "midparentHeight": "numerical",
+            "children": "numerical",
+            "childNum": "numerical",
+            "gender": "categorical",
+            "childHeight": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "father",
+            "children",
+            "childNum"
+        ],
+        "categorical_features": [
+            "gender"
+        ]
+    },
+    "data_info": {
+        "id": 5264033,
+        "ref": "jacopoferretti/parents-heights-vs-children-heights-galton-data",
+        "subtitle": "1886 Galton's observations on children's and their parents' heights",
+        "creatorName": "Jacopo Ferretti",
+        "creatorUrl": "jacopoferretti",
+        "totalBytes": 7260,
+        "url": "https://www.kaggle.com/datasets/jacopoferretti/parents-heights-vs-children-heights-galton-data",
+        "lastUpdated": "2025-06-17T02:20:19.567Z",
+        "downloadCount": 1943,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Jacopo Ferretti",
+        "ownerRef": "jacopoferretti",
+        "kernelCount": 14,
+        "title": "Parents' Heights vs Adult Children's Heights",
+        "viewCount": 9576,
+        "voteCount": 73,
+        "currentVersionNumber": 10,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "research",
+                "name": "research",
+                "description": "Research is our endeavor to systematically increase our knowledge about the world. Whether it's undertaken by greats like Einstein or underpaid graduate students, you'll find the fruits of their labor in this tag plus the kernels that make their work reproducible.",
+                "fullPath": "subject > science and technology > research",
+                "competitionCount": 16,
+                "datasetCount": 1417,
+                "scriptCount": 467,
+                "totalCount": 1900
+            },
+            {
+                "ref": "health",
+                "name": "health",
+                "description": "Consider the health tag your data science gym. Get in there and work out those data science muscles on health analytics. Analyze heart disease until you sweat. Then recover with with a nice candy production dataset.",
+                "fullPath": "subject > health and fitness > health",
+                "competitionCount": 402,
+                "datasetCount": 23200,
+                "scriptCount": 8160,
+                "totalCount": 31762
+            },
+            {
+                "ref": "demographics",
+                "name": "demographics",
+                "description": "Demographics cover different aspects of life: youth, religion, housing, employment, taxes and mortality. This tag contains census data that describe various populations and communities.",
+                "fullPath": "subject > people and society > social science > demographics",
+                "competitionCount": 2,
+                "datasetCount": 1019,
+                "scriptCount": 334,
+                "totalCount": 1355
+            },
+            {
+                "ref": "statistical analysis",
+                "name": "statistical analysis",
+                "description": "",
+                "fullPath": "analysis > statistical analysis",
+                "competitionCount": 6,
+                "datasetCount": 1024,
+                "scriptCount": 3087,
+                "totalCount": 4117
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 5264033,
+        "datasetSlug": "parents-heights-vs-children-heights-galton-data",
+        "ownerUser": "jacopoferretti",
+        "usabilityRating": 1.0,
+        "totalViews": 9281,
+        "totalVotes": 72,
+        "totalDownloads": 1893,
+        "title": "Parents' Heights vs Adult Children's Heights",
+        "subtitle": "1886 Galton's observations on children's and their parents' heights",
+        "description": "1886 observations by Galton on 934 children and their 205 families.\n\nThe main goal of this study was to establish a relation between children and parents heights. Galton also wanted to find out whether marriage selection indicates a relationship between a husband's and his wife's heights.\n\n=== About this file ===\n\nAbout this file\nGalton's data\n\n\n=== Columns & descriptions ===\n\nrownames: [no description]\nfamily: [no description]\nfather: father's height\nmother: mother's height\nmidparentHeight: mid-parent height, calculated as (father + 1.08*mother)/2\nchildren: number of children in this family\nchildNum: number of this child within family. Children are listed in decreasing order of height for boys followed by girls\ngender: child gender\nchildHeight: child's height\n",
+        "keywords": [
+            "research",
+            "health",
+            "demographics",
+            "statistical analysis",
+            "tabular",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

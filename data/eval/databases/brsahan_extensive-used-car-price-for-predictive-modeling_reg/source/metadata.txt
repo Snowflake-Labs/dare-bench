@@ -1,0 +1,38 @@
+Overview:
+This dataset provides a comprehensive collection of used car details suitable for regression analysis and predictive modeling. It includes various attributes such as car name, year of manufacture, selling price, present price, kilometers driven, fuel type, transmission type, seller type, and number of previous owners.
+
+Source:
+The dataset is synthetically generated to simulate the used car market in India, with attributes commonly found in car listing websites and dealership databases.
+
+Use Cases:
+
+Predictive Modeling (e.g., Price Prediction)
+
+Exploratory Data Analysis (EDA)
+
+Machine Learning Algorithms (e.g., Decision Tree, Random Forest, Linear Regression)
+
+Regression and Classification Tasks
+
+Feature Engineering and Data Preprocessing Exercises
+
+Inspiration:
+This dataset is designed for data scientists and machine learning enthusiasts looking to practice predictive modeling and analysis on a structured, real-world inspired dataset.
+
+=== About this file ===
+
+About this file
+A CSV file containing details of used cars including their attributes required for price prediction and regression analysis.
+
+
+=== Columns & descriptions ===
+
+Car_Name: The model name of the car.
+Year: The manufacturing year of the car.
+Selling_Price: The price at which the car is being sold (in Lakh INR).
+Present_Price: The current showroom price of the car (in Lakh INR).
+Kms_Driven: The total kilometers driven by the car.
+Fuel_Type: The type of fuel used by the car (e.g., Petrol, Diesel, CNG).
+Seller_Type: The type of seller (Dealer or Individual).
+Transmission: The transmission type of the car (Manual or Automatic).
+Owner: Number of previous owners.

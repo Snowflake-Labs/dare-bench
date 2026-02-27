@@ -1,0 +1,16 @@
+This dataset, **Steam_Alternator_Generator_Log_2005_Synthetic**, contains synthetic hourly logs of key electrical and mechanical metrics from a 1500kW, 440V, slip-ring type alternator over one year. The data includes readings for voltage, current, power output, power factor, frequency, mechanical load, and temperatures of critical components such as generator and alternator bearings.
+Carefully designed, the dataset reflects realistic operational behavior and fluctuations encountered in industrial settings. It incorporates periods of downtime and maintenance, offering a robust foundation for exploratory analysis and modeling tasks.
+This dataset is ideal for machine learning practitioners, researchers, and engineers seeking challenges in anomaly detection, pattern recognition, and performance optimization. It presents an intriguing opportunity to uncover insights from synthetic data grounded in physics-based simulations.
+
+
+=== About this file ===
+
+About this file
+Metadata about the main dataset
+
+
+=== Columns & descriptions ===
+
+Column Name: Generator- Alternator Parameters
+Data Type: Parameter Range and Unit
+Description: Parameter description

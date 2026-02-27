@@ -1,0 +1,47 @@
+&gt; Brazil's B3 Stock Exchange is the one and only public financial market of the 13th largest economy in the world with a 2021 market cap of R$ 5.2 trillion BRL.
+
+&gt; With the goal of improving financial literacy, this dataset contains more than 400 stock listings that are updated daily for the purposes of providing data for quantitative analysis.
+
+
+# How to use this dataset
+&gt; - Create a time series regression model to predict ^IBOV value and/or stock prices.
+- Explore the yield and volatility of the stocks listed.
+- Identify high and low performance stocks among the list.
+
+
+# Highlighted Notebooks
+&gt; - Your kernel can be featured here!
+- [More datasets](https://www.kaggle.com/andrewmvd/datasets)
+
+
+
+# Acknowledgements
+
+&gt; ### License
+CC0: Public Domain
+
+
+&gt; ### Splash banner
+Stonks by unknown memer.
+
+
+
+=== About this file ===
+
+About this file
+Remote source:
+https://www.kaggle.com/code/andrewmvd/bmf-crawler
+Market indexes file
+This file includes the major Brazilian financial market indexes.
+
+
+=== Columns & descriptions ===
+
+Date: Date
+Symbol: Index Symbol
+Adj Close: Adjusted Close
+Close: Closing Price
+High: Max Daily Price
+Low: Min Daily Price
+Open: Opening Price
+Volume: Amount of shares

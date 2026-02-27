@@ -1,0 +1,175 @@
+{
+    "question": {
+        "target": [
+            "actual"
+        ],
+        "problem_type": "time_series_analysis",
+        "time_column": "date",
+        "time_format": "%Y-%m-%d",
+        "is_resampled": false,
+        "related_features": [
+            "state_code",
+            "state_name",
+            "rfs",
+            "normal",
+            "deviation"
+        ],
+        "not_filtered_related_features": [
+            "rfs",
+            "normal",
+            "deviation"
+        ],
+        "selected_features": [
+            "normal",
+            "deviation"
+        ],
+        "expected_ranges": {
+            "rfs": [
+                0.0,
+                658.765073
+            ],
+            "normal": [
+                0.0,
+                97.68
+            ],
+            "deviation": [
+                -100.0,
+                362300.0
+            ]
+        },
+        "column_type_inference": {
+            "id": "numeric",
+            "date": "object",
+            "state_code": "numeric",
+            "state_name": "object",
+            "actual": "numeric",
+            "rfs": "numeric",
+            "normal": "numeric",
+            "deviation": "numeric"
+        },
+        "train_save_file": "./wydoinn_daily-rainfall-data-india-2009-2024_ts/source/train.csv",
+        "val_v1_save_file": "./wydoinn_daily-rainfall-data-india-2009-2024_ts/source/val_v1.csv",
+        "val_v2_save_file": "./wydoinn_daily-rainfall-data-india-2009-2024_ts/source/val_v2.csv",
+        "val_no_err_save_file": "./wydoinn_daily-rainfall-data-india-2009-2024_ts/source/val_v1.csv",
+        "train_no_err_save_file": "./wydoinn_daily-rainfall-data-india-2009-2024_ts/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./wydoinn_daily-rainfall-data-india-2009-2024_ts/source/train_v1.csv",
+        "train_test_ratio": 0.7,
+        "save_file_type": "csv",
+        "imputer_type": "bfill_ffill",
+        "random_state": 39,
+        "model_type": "Prophet",
+        "output_file": "./wydoinn_daily-rainfall-data-india-2009-2024_ts/prediction.json",
+        "ground_truth_v1_file": "./wydoinn_daily-rainfall-data-india-2009-2024_ts/verify/ground_truth_v1.csv",
+        "ground_truth_v2_file": "./wydoinn_daily-rainfall-data-india-2009-2024_ts/verify/ground_truth_v2.csv",
+        "simulated_pred_file": "./wydoinn_daily-rainfall-data-india-2009-2024_ts/verify/simulated_pred.json",
+        "needed_files_v1": [
+            "train.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "prediction_starting_time": "2019-11-28 00:00:00",
+        "contain_multiple_files": false
+    },
+    "data_info": {
+        "id": 7914767,
+        "ref": "wydoinn/daily-rainfall-data-india-2009-2024",
+        "subtitle": "India's 15-year rainfall trends \u2014 Daily Data for Every State & Union Territory",
+        "creatorName": "Santhosh",
+        "creatorUrl": "wydoinn",
+        "totalBytes": 2850645,
+        "url": "https://www.kaggle.com/datasets/wydoinn/daily-rainfall-data-india-2009-2024",
+        "lastUpdated": "2025-07-21T17:21:26.357Z",
+        "downloadCount": 150,
+        "licenseName": "CC BY-NC-SA 4.0",
+        "description": "",
+        "ownerName": "Santhosh",
+        "ownerRef": "wydoinn",
+        "kernelCount": 2,
+        "title": "Daily Rainfall Data - India (2009-2024)",
+        "viewCount": 532,
+        "voteCount": 1,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "india",
+                "name": "india",
+                "description": "This tag will take you to the wonderful land of datasets and kernels related to India. You will find topics that range far and wide. There's education, travel, weather, and crime, too.",
+                "fullPath": "geography and places > asia > india",
+                "competitionCount": 4,
+                "datasetCount": 2433,
+                "scriptCount": 945,
+                "totalCount": 3382
+            },
+            {
+                "ref": "weather and climate",
+                "name": "weather and climate",
+                "description": "Weather datasets and kernels come in all wind speeds and directions. You have weather data about hurricanes and other inclement phenomena, hourly readings, and general weather for various cities.",
+                "fullPath": "subject > earth and nature > environment > weather and climate",
+                "competitionCount": 42,
+                "datasetCount": 1439,
+                "scriptCount": 667,
+                "totalCount": 2148
+            },
+            {
+                "ref": "intermediate",
+                "name": "intermediate",
+                "description": "",
+                "fullPath": "audience > intermediate",
+                "competitionCount": 70,
+                "datasetCount": 5265,
+                "scriptCount": 6026,
+                "totalCount": 11361
+            },
+            {
+                "ref": "data visualization",
+                "name": "data visualization",
+                "description": "The art of depicting data in a visual format. Using charts and graphs, it is easier to observe patterns, relationships, and outliers.",
+                "fullPath": "technique > data visualization",
+                "competitionCount": 18,
+                "datasetCount": 8021,
+                "scriptCount": 37118,
+                "totalCount": 45157
+            },
+            {
+                "ref": "time series analysis",
+                "name": "time series analysis",
+                "description": "",
+                "fullPath": "technique > time series analysis",
+                "competitionCount": 626,
+                "datasetCount": 2924,
+                "scriptCount": 3882,
+                "totalCount": 7432
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7914767,
+        "datasetSlug": "daily-rainfall-data-india-2009-2024",
+        "ownerUser": "wydoinn",
+        "usabilityRating": 1.0,
+        "totalViews": 240,
+        "totalVotes": 1,
+        "totalDownloads": 63,
+        "title": "Daily Rainfall Data - India (2009-2024)",
+        "subtitle": "India's 15-year rainfall trends \u2014 Daily Data for Every State & Union Territory",
+        "description": "This dataset provides 15+ years of daily rainfall data across all Indian states and union territories, from January 2009 to July 2024. It has been sourced from the official India Water Resources Information System (India-WRIS) and is ideal for climate research, weather prediction, and agricultural analytics.\n\nThe dataset includes:\n\n* Actual, forecasted, and normal rainfall values\n* Deviation from historical average\n* State-level granularity across 28 states and 8 union territories\n* Over 200,000 observations in total\n\n---\n\n## \ud83e\udde0 Use Cases\n\n* Time series forecasting using ML models (ARIMA, LSTM, Prophet)\n* Climate trend analysis and anomaly detection\n* Monsoon behavior modeling\n* Crop planning and irrigation optimization\n* Educational projects in data science and meteorology\n\n---\n\n## \ud83d\udcc1 Features\n\n| Column       | Description                         |\n| ------------ | ----------------------------------- |\n| `id`         | Unique record identifier            |\n| `date`       | Observation date (`YYYY-MM-DD`)     |\n| `state_code` | Numerical code for state/UT         |\n| `state_name` | Name of state or union territory    |\n| `actual`     | Actual rainfall recorded (in mm)    |\n| `rfs`        | Rainfall forecast value (in mm)     |\n| `normal`     | Historical average rainfall (in mm) |\n| `deviation`  | % Deviation from normal rainfall    |\n\n---\n\n## \ud83c\udf10 Source\n\nIndia Water Resources Information System (WRIS)\n\n\ud83d\udd17 [indiawris.gov.in/wris](https://indiawris.gov.in/wris)\n\n=== About this file ===\n\nAbout this file\nThis CSV file contains 204,876 daily rainfall records from 2009 to 2024, with state-wise details on actual, forecasted, normal rainfall, and deviation across all Indian states and union territories.\n\n\n=== Columns & descriptions ===\n\nid: Unique identifier for each record.\ndate: Date of rainfall observation (YYYY-MM-DD).\nstate_code: Numeric code assigned to each state or union territory.\nstate_name: Name of the state or union territory.\nactual: Actual rainfall recorded on that day (in millimeters).\nrfs: Forecasted rainfall for that day (in millimeters).\nnormal: Long-term average rainfall for that day (in millimeters).\ndeviation: Percent deviation from normal rainfall ((actual - normal) / normal * 100).\n",
+        "keywords": [
+            "india",
+            "weather and climate",
+            "intermediate",
+            "data visualization",
+            "time series analysis"
+        ],
+        "licenses": [
+            {
+                "name": "ODC Attribution License (ODC-By)"
+            }
+        ]
+    }
+}

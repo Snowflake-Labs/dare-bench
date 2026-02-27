@@ -1,0 +1,188 @@
+{
+    "question": {
+        "target": [
+            "LungCap"
+        ],
+        "target_candidates": [
+            "LungCap"
+        ],
+        "related_features": [
+            "Age",
+            "Gender",
+            "Height",
+            "Smoke",
+            "Caesarean"
+        ],
+        "not_filtered_related_features": [
+            "Age",
+            "Caesarean",
+            "Gender",
+            "Height",
+            "Smoke"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "Age": [
+                3,
+                19
+            ],
+            "Caesarean": [
+                "no",
+                "yes"
+            ],
+            "Gender": [
+                "male",
+                "female"
+            ],
+            "Height": [
+                45.0,
+                82.0
+            ],
+            "Smoke": [
+                "no",
+                "yes"
+            ]
+        },
+        "selected_features": [
+            "Smoke",
+            "Age",
+            "Gender"
+        ],
+        "train_v2_save_file": "./jacopoferretti_lung-capacity-of-kids_reg/source/train_v2.parquet",
+        "val_v2_save_file": "./jacopoferretti_lung-capacity-of-kids_reg/source/val_v2.parquet",
+        "val_no_err_save_file": "./jacopoferretti_lung-capacity-of-kids_reg/source/val_v1.parquet",
+        "train_no_err_save_file": "./jacopoferretti_lung-capacity-of-kids_reg/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./jacopoferretti_lung-capacity-of-kids_reg/source/train_v1.parquet",
+        "train_test_ratio": 0.8,
+        "save_file_type": "parquet",
+        "imputer_type": "most_frequent",
+        "random_state": 96,
+        "model_type": "Ridge",
+        "output_file": "./jacopoferretti_lung-capacity-of-kids_reg/prediction.csv",
+        "ground_truth_file": "./jacopoferretti_lung-capacity-of-kids_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./jacopoferretti_lung-capacity-of-kids_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Unnamed: 0": "categorical",
+            "LungCap": "numerical",
+            "Age": "numerical",
+            "Height": "numerical",
+            "Smoke": "categorical",
+            "Gender": "categorical",
+            "Caesarean": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Age"
+        ],
+        "categorical_features": [
+            "Smoke",
+            "Gender"
+        ]
+    },
+    "data_info": {
+        "id": 7692747,
+        "ref": "jacopoferretti/lung-capacity-of-kids",
+        "subtitle": "Lung Capacity of Kids and Children vs Gender, Smoking Habits, Height ...",
+        "creatorName": "Jacopo Ferretti",
+        "creatorUrl": "jacopoferretti",
+        "totalBytes": 6214,
+        "url": "https://www.kaggle.com/datasets/jacopoferretti/lung-capacity-of-kids",
+        "lastUpdated": "2025-07-27T12:44:26.000Z",
+        "downloadCount": 847,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Jacopo Ferretti",
+        "ownerRef": "jacopoferretti",
+        "kernelCount": 14,
+        "title": "Lung Capacity of Kids",
+        "viewCount": 3593,
+        "voteCount": 40,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "health",
+                "name": "health",
+                "description": "Consider the health tag your data science gym. Get in there and work out those data science muscles on health analytics. Analyze heart disease until you sweat. Then recover with with a nice candy production dataset.",
+                "fullPath": "subject > health and fitness > health",
+                "competitionCount": 402,
+                "datasetCount": 23200,
+                "scriptCount": 8160,
+                "totalCount": 31762
+            },
+            {
+                "ref": "demographics",
+                "name": "demographics",
+                "description": "Demographics cover different aspects of life: youth, religion, housing, employment, taxes and mortality. This tag contains census data that describe various populations and communities.",
+                "fullPath": "subject > people and society > social science > demographics",
+                "competitionCount": 2,
+                "datasetCount": 1019,
+                "scriptCount": 334,
+                "totalCount": 1355
+            },
+            {
+                "ref": "statistical analysis",
+                "name": "statistical analysis",
+                "description": "",
+                "fullPath": "analysis > statistical analysis",
+                "competitionCount": 6,
+                "datasetCount": 1024,
+                "scriptCount": 3087,
+                "totalCount": 4117
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7692747,
+        "datasetSlug": "lung-capacity-of-kids",
+        "ownerUser": "jacopoferretti",
+        "usabilityRating": 1.0,
+        "totalViews": 2907,
+        "totalVotes": 36,
+        "totalDownloads": 731,
+        "title": "Lung Capacity of Kids",
+        "subtitle": "Lung Capacity of Kids and Children vs Gender, Smoking Habits, Height ...",
+        "description": "The dataset provides information on the lung capacity of children and kids between 3 and 19 y.o. plus other features, including the gender, height, smoking habits ... This dataset can be used to do either a regression or a statistical analysis (or both). It is also interesting to find out what are the effects of smoking on the lung capacity.\n\n=== About this file ===\n\nAbout this file\nLung capacity vs other features\n\n\n=== Columns & descriptions ===\n\n: row number\nLungCap: lung capacity\nAge: age of the kid\nHeight: kid's height\nSmoke: does he/she smoke?\nGender: male or female\nCaesarean: born by caesarean: yes or no\n",
+        "keywords": [
+            "health",
+            "demographics",
+            "statistical analysis",
+            "tabular",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}

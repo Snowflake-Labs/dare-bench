@@ -1,0 +1,326 @@
+{
+    "question": {
+        "target": [
+            "Healthy"
+        ],
+        "target_candidates": [
+            "Healthy"
+        ],
+        "related_features": [
+            "Breed Size",
+            "Medications",
+            "Play Time (hrs)",
+            "Age",
+            "Weight (lbs)",
+            "Daily Walk Distance (miles)",
+            "Owner Activity Level",
+            "Other Pets in Household",
+            "Food Brand",
+            "Spay/Neuter Status",
+            "Sex",
+            "Breed",
+            "Hours of Sleep",
+            "Annual Vet Visits",
+            "Average Temperature (F)",
+            "Daily Activity Level",
+            "Seizures",
+            "Diet"
+        ],
+        "not_filtered_related_features": [
+            "Breed Size",
+            "Medications",
+            "Play Time (hrs)",
+            "Weight (lbs)",
+            "Age",
+            "Daily Walk Distance (miles)",
+            "Owner Activity Level",
+            "Food Brand",
+            "Spay/Neuter Status",
+            "Sex",
+            "Breed",
+            "Seizures",
+            "Hours of Sleep",
+            "Annual Vet Visits",
+            "Average Temperature (F)",
+            "Daily Activity Level",
+            "Other Pets in Household",
+            "Diet"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Breed Size": [
+                "Medium",
+                "Small",
+                "Large"
+            ],
+            "Medications": [
+                "Yes",
+                "No"
+            ],
+            "Play Time (hrs)": [
+                0.0,
+                4.0
+            ],
+            "Weight (lbs)": [
+                10.0,
+                109.0
+            ],
+            "Age": [
+                1.0,
+                13.0
+            ],
+            "Daily Walk Distance (miles)": [
+                0.0,
+                8.0
+            ],
+            "Owner Activity Level": [
+                "Active",
+                "None",
+                "Low",
+                "Moderate",
+                "Very Active"
+            ],
+            "Food Brand": [
+                "Wellness",
+                "Special",
+                "Purina",
+                "Iams",
+                "Blue Buffalo",
+                "Royal Canin",
+                "Nutro",
+                "Pedigree",
+                "Hill's Science"
+            ],
+            "Spay/Neuter Status": [
+                "Neutered",
+                "None",
+                "Spayed"
+            ],
+            "Sex": [
+                "Male",
+                "Female"
+            ],
+            "Breed": [
+                "Australian Shepherd",
+                "Dachshund",
+                "Chihuahua",
+                "Siberian Husky",
+                "Boxer",
+                "Labrador Retriever",
+                "Bulldog",
+                "Rottweiler",
+                "German Shepherd",
+                "Golden Retriever",
+                "Poodle",
+                "Doberman",
+                "Great Dane",
+                "Beagle",
+                "Yorkshire Terrier"
+            ],
+            "Seizures": [
+                "No",
+                "Yes"
+            ],
+            "Hours of Sleep": [
+                8.0,
+                14.0
+            ],
+            "Annual Vet Visits": [
+                0.0,
+                4.0
+            ],
+            "Average Temperature (F)": [
+                30.0,
+                100.0
+            ],
+            "Daily Activity Level": [
+                "None",
+                "Very Active",
+                "Active",
+                "Moderate",
+                "Low"
+            ],
+            "Other Pets in Household": [
+                "No",
+                "Yes"
+            ],
+            "Diet": [
+                "Home cooked",
+                "Wet food",
+                "Special diet",
+                "Hard food"
+            ]
+        },
+        "selected_features": [
+            "Diet",
+            "Play Time (hrs)",
+            "Daily Walk Distance (miles)",
+            "Breed Size",
+            "Weight (lbs)",
+            "Spay/Neuter Status",
+            "Breed",
+            "Hours of Sleep",
+            "Daily Activity Level",
+            "Owner Activity Level",
+            "Sex"
+        ],
+        "train_v2_save_file": "./aaronisomaisom3_canine-wellness-dataset-synthetic-10k-samples_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./aaronisomaisom3_canine-wellness-dataset-synthetic-10k-samples_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./aaronisomaisom3_canine-wellness-dataset-synthetic-10k-samples_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./aaronisomaisom3_canine-wellness-dataset-synthetic-10k-samples_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./aaronisomaisom3_canine-wellness-dataset-synthetic-10k-samples_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.8,
+        "save_file_type": "sqlite",
+        "imputer_type": "median",
+        "random_state": 62,
+        "model_type": "LinearSVC",
+        "output_file": "./aaronisomaisom3_canine-wellness-dataset-synthetic-10k-samples_class/prediction.csv",
+        "ground_truth_file": "./aaronisomaisom3_canine-wellness-dataset-synthetic-10k-samples_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./aaronisomaisom3_canine-wellness-dataset-synthetic-10k-samples_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "ID": "categorical",
+            "Breed": "categorical",
+            "Breed Size": "categorical",
+            "Sex": "categorical",
+            "Age": "numerical",
+            "Weight (lbs)": "numerical",
+            "Spay/Neuter Status": "categorical",
+            "Daily Activity Level": "categorical",
+            "Diet": "categorical",
+            "Food Brand": "categorical",
+            "Daily Walk Distance (miles)": "numerical",
+            "Other Pets in Household": "categorical",
+            "Medications": "categorical",
+            "Seizures": "categorical",
+            "Hours of Sleep": "numerical",
+            "Play Time (hrs)": "numerical",
+            "Owner Activity Level": "categorical",
+            "Annual Vet Visits": "numerical",
+            "Average Temperature (F)": "numerical",
+            "Synthetic": "categorical",
+            "Healthy": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Play Time (hrs)",
+            "Daily Walk Distance (miles)",
+            "Weight (lbs)",
+            "Hours of Sleep"
+        ],
+        "categorical_features": [
+            "Diet",
+            "Breed Size",
+            "Spay/Neuter Status",
+            "Breed",
+            "Daily Activity Level",
+            "Owner Activity Level",
+            "Sex"
+        ]
+    },
+    "data_info": {
+        "id": 7142628,
+        "ref": "aaronisomaisom3/canine-wellness-dataset-synthetic-10k-samples",
+        "subtitle": "Dog Health Predictor: A Synthetic Dataset for Binary Classification",
+        "creatorName": "Aaron Isom",
+        "creatorUrl": "aaronisomaisom3",
+        "totalBytes": 190487,
+        "url": "https://www.kaggle.com/datasets/aaronisomaisom3/canine-wellness-dataset-synthetic-10k-samples",
+        "lastUpdated": "2025-04-14T14:01:14.000Z",
+        "downloadCount": 488,
+        "licenseName": "MIT",
+        "description": "",
+        "ownerName": "Aaron Isom",
+        "ownerRef": "aaronisomaisom3",
+        "kernelCount": 2,
+        "title": "Canine Wellness Dataset (Synthetic, 10K Samples)",
+        "viewCount": 1948,
+        "voteCount": 6,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "feature engineering",
+                "name": "feature engineering",
+                "description": "",
+                "fullPath": "technique > feature engineering",
+                "competitionCount": 21,
+                "datasetCount": 880,
+                "scriptCount": 8963,
+                "totalCount": 9864
+            },
+            {
+                "ref": "binary classification",
+                "name": "binary classification",
+                "description": "",
+                "fullPath": "task > binary-classification",
+                "competitionCount": 11364,
+                "datasetCount": 1560,
+                "scriptCount": 7641,
+                "totalCount": 20565
+            },
+            {
+                "ref": "synthetic",
+                "name": "synthetic",
+                "description": "",
+                "fullPath": "data type > synthetic",
+                "competitionCount": 8,
+                "datasetCount": 510,
+                "scriptCount": 70,
+                "totalCount": 588
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7142628,
+        "datasetSlug": "canine-wellness-dataset-synthetic-10k-samples",
+        "ownerUser": "aaronisomaisom3",
+        "usabilityRating": 1.0,
+        "totalViews": 1706,
+        "totalVotes": 6,
+        "totalDownloads": 447,
+        "title": "Canine Wellness Dataset (Synthetic, 10K Samples)",
+        "subtitle": "Dog Health Predictor: A Synthetic Dataset for Binary Classification",
+        "description": "## Canine Wellness Classification Dataset (Synthetic, 10,000 Samples)\n\n### Overview\nThis synthetic dataset simulates a wide range of dog breeds and their health-related characteristics. It is designed for binary classification tasks, where the target variable is whether a dog is considered healthy (\"Yes\") or not healthy (\"No\").\n\nThe data was generated to reflect realistic distributions of age, breed sizes, weight, diet, and lifestyle factors that contribute to canine health. A simple rule-based logic was applied to create meaningful interactions between features and determine the target label.\n\n### Sample Starter LightGBM Notebook\n[canine-wellness-starter-notebook](https://www.kaggle.com/code/aaronisomaisom3/canine-wellness-starter-notebook)\n\n### What's Included\n- 10,000 rows of synthetic data\n- 21 features including breed, age, diet, daily activity, medications, and more\n- Binary target column: Healthy (Yes/No)\n- Randomized missing values (~3% per feature)\n- Balanced data with slight real-world skew\n\n### Use Cases\n- Binary classification with Healthy as the target\n- Tabular machine learning experiments\n- Exploratory data analysis (EDA)\n- Feature engineering practice\n- Educational demos (LightGBM, RandomForest, XGBoost, etc.)\n\n### Features\n\n| Column                     | Description |\n|---------------------------|-------------|\n| `ID`                      | Unique identifier |\n| `Breed`                   | Dog breed (15 common breeds) |\n| `Breed Size`              | Size category: Small, Medium, Large |\n| `Sex`                     | Male or Female |\n| `Age`                     | Age in years (1\u201313) |\n| `Weight (lbs)`            | Dog weight in pounds |\n| `Spay/Neuter Status`      | Spayed, Neutered, or None |\n| `Daily Activity Level`    | None, Low, Moderate, Active, Very Active |\n| `Diet`                    | Hard food, Wet food, Special diet, or Home cooked |\n| `Food Brand`              | Brand of food (well-known or \u201cSpecial\u201d if home cooked) |\n| `Daily Walk Distance (miles)` | Estimated distance walked daily |\n| `Other Pets in Household` | Yes or No |\n| `Medications`             | Whether the dog is currently on medication |\n| `Seizures`                | History of seizures: Yes or No |\n| `Hours of Sleep`          | Daily hours of sleep (8\u201314) |\n| `Play Time (hrs)`         | Average daily play time |\n| `Owner Activity Level`    | Lifestyle of the owner |\n| `Annual Vet Visits`       | Number of vet visits per year (0\u20134) |\n| `Average Temperature (F)` | Average local temperature |\n| `Synthetic`               | Flag indicating the data is simulated |\n| `Healthy`                 | **Target**: Yes or No |\n\n\n\n=== About this file ===\n\nAbout this file\nThis file contains 10,000 rows of synthetic data representing a variety of dog breeds and their lifestyle, health, and environmental characteristics. It is designed for binary classification, where the target column is Healthy, indicating whether the dog is considered in good health.\nEach row simulates a unique dog, with features such as breed, age, weight, diet, spay/neuter status, daily activity, vet visits, and more. The Healthy target was generated using a rule-based scoring system informed by real-world canine health factors.\n\u2e3b\nKey Details:\n\u2022   Rows: 10,000\n\u2022   Columns: 21\n\u2022   Target Variable: Healthy (Yes/No)\n\u2022   Missing Values: Simulated at ~3% per non-ID column\n\u2022   Use Cases: Binary classification, EDA, feature engineering, modeling practice\n\n\n=== Columns & descriptions ===\n\nID: A unique integer ID for each dog\nBreed: The specific breed of the dog\nBreed Size: Size classification based on breed: Small, Medium, or Large\nSex: Biological sex of the dog: Male or Female\nAge: Age of the dog in years\nWeight (lbs): Weight of the dog in pounds\nSpay/Neuter Status: Sterilization status: Spayed, Neutered, or None\nDaily Activity Level: Dog's average daily activity level\nDiet: Type of diet: Hard food, Wet food, Special diet, Home cooked\nFood Brand: Dog food brand or 'Special' for home-cooked meals\nDaily Walk Distance (miles): Average daily walking distance\nOther Pets in Household: Whether other pets live in the same home\nMedications: Whether the dog is currently on medications\nSeizures: Whether the dog has a history of seizures\nHours of Sleep: Average number of hours the dog sleeps per day\nPlay Time (hrs): Average number of hours of play per day\nOwner Activity Level: Owner's lifestyle or activity level\nAnnual Vet Visits: Number of veterinary visits per year\nAverage Temperature (F): Average local temperature where the dog lives\nSynthetic: Indicator that data is synthetically generated\nHealthy: Target variable: whether the dog is considered healthy\n",
+        "keywords": [
+            "exploratory data analysis",
+            "classification",
+            "feature engineering",
+            "binary classification",
+            "synthetic"
+        ],
+        "licenses": [
+            {
+                "name": "MIT"
+            }
+        ]
+    }
+}

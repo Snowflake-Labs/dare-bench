@@ -1,0 +1,195 @@
+{
+    "question": {
+        "target": [
+            "Calories"
+        ],
+        "target_candidates": [
+            "Calories"
+        ],
+        "related_features": [
+            "Weight",
+            "Age",
+            "Height",
+            "Duration",
+            "Sex",
+            "Heart_Rate",
+            "Body_Temp"
+        ],
+        "not_filtered_related_features": [
+            "Weight",
+            "Age",
+            "Height",
+            "Duration",
+            "Sex",
+            "Heart_Rate",
+            "Body_Temp"
+        ],
+        "problem_type": "regression",
+        "expected_ranges": {
+            "Weight": [
+                36.0,
+                132.0
+            ],
+            "Age": [
+                20,
+                79
+            ],
+            "Height": [
+                126.0,
+                222.0
+            ],
+            "Duration": [
+                1.0,
+                30.0
+            ],
+            "Sex": [
+                "male",
+                "female"
+            ],
+            "Heart_Rate": [
+                67.0,
+                128.0
+            ],
+            "Body_Temp": [
+                37.0,
+                42.0
+            ]
+        },
+        "selected_features": [
+            "Weight",
+            "Height",
+            "Body_Temp",
+            "Sex",
+            "Age"
+        ],
+        "train_v2_save_file": "./adilshamim8_predict-calorie-expenditure_reg/source/train_v2.csv",
+        "val_v2_save_file": "./adilshamim8_predict-calorie-expenditure_reg/source/val_v2.csv",
+        "val_no_err_save_file": "./adilshamim8_predict-calorie-expenditure_reg/source/val_v1.csv",
+        "train_no_err_save_file": "./adilshamim8_predict-calorie-expenditure_reg/source/train_v1_no_err.csv",
+        "train_err_split_save_file": "./adilshamim8_predict-calorie-expenditure_reg/source/train_v1.csv",
+        "train_test_ratio": 0.9,
+        "save_file_type": "csv",
+        "imputer_type": "median",
+        "random_state": 35,
+        "model_type": "Ridge",
+        "output_file": "./adilshamim8_predict-calorie-expenditure_reg/prediction.csv",
+        "ground_truth_file": "./adilshamim8_predict-calorie-expenditure_reg/verify/ground_truth.csv",
+        "simulated_pred_file": "./adilshamim8_predict-calorie-expenditure_reg/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "id": "categorical",
+            "Sex": "categorical",
+            "Age": "numerical",
+            "Height": "numerical",
+            "Weight": "numerical",
+            "Duration": "numerical",
+            "Heart_Rate": "numerical",
+            "Body_Temp": "numerical",
+            "Calories": "numerical"
+        },
+        "needed_files_v1": [
+            "train_v1.csv",
+            "val_v1.csv",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.csv",
+            "val_v2.csv",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Weight",
+            "Height",
+            "Body_Temp",
+            "Age"
+        ],
+        "categorical_features": [
+            "Sex"
+        ]
+    },
+    "data_info": {
+        "id": 7962525,
+        "ref": "adilshamim8/predict-calorie-expenditure",
+        "subtitle": "Synthetic dataset for predicting calories burned from activity and biometrics",
+        "creatorName": "Adil Shamim",
+        "creatorUrl": "adilshamim8",
+        "totalBytes": 12556125,
+        "url": "https://www.kaggle.com/datasets/adilshamim8/predict-calorie-expenditure",
+        "lastUpdated": "2025-07-29T03:50:11.923Z",
+        "downloadCount": 515,
+        "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
+        "description": "",
+        "ownerName": "Adil Shamim",
+        "ownerRef": "adilshamim8",
+        "kernelCount": 8,
+        "title": "Predict Calorie Expenditure",
+        "viewCount": 1774,
+        "voteCount": 11,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "healthcare",
+                "name": "healthcare",
+                "description": "AI in healthcare is a growing interest. One of the major problems is simply converting research into an application. Should be easy, right?",
+                "fullPath": "subject > health and fitness > health > healthcare",
+                "competitionCount": 26,
+                "datasetCount": 2131,
+                "scriptCount": 1942,
+                "totalCount": 4099
+            },
+            {
+                "ref": "public health",
+                "name": "public health",
+                "description": "This tag contains datasets and kernels on things that affect the general health of the public. They include foodborne illness, dengue fever, immunization records, and all the other things that mean you have to get a shot at the doctor's office.",
+                "fullPath": "subject > health and fitness > health > public health",
+                "competitionCount": 2,
+                "datasetCount": 2021,
+                "scriptCount": 872,
+                "totalCount": 2895
+            },
+            {
+                "ref": "business",
+                "name": "business",
+                "description": "Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.",
+                "fullPath": "subject > people and society > business",
+                "competitionCount": 38,
+                "datasetCount": 114018,
+                "scriptCount": 25612,
+                "totalCount": 139668
+            },
+            {
+                "ref": "regression",
+                "name": "regression",
+                "description": "",
+                "fullPath": "task > regression",
+                "competitionCount": 1251,
+                "datasetCount": 2060,
+                "scriptCount": 7411,
+                "totalCount": 10722
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7962525,
+        "datasetSlug": "predict-calorie-expenditure",
+        "ownerUser": "adilshamim8",
+        "usabilityRating": 1.0,
+        "totalViews": 1775,
+        "totalVotes": 11,
+        "totalDownloads": 516,
+        "title": "Predict Calorie Expenditure",
+        "subtitle": "Synthetic dataset for predicting calories burned from activity and biometrics",
+        "description": "This dataset is curated for the **Playground Series - Season 5, Episode 5**, and centers on predicting **caloric energy expenditure** based on biometric and activity-related features. The data provides a robust testbed for regression techniques, feature engineering, and experimentation with modern machine learning pipelines.\n\n###  Dataset Background\n\nThe dataset is **synthetically generated** using a deep learning model trained on the real-world **[Calories Burnt Prediction Dataset](https://www.kaggle.com/datasets/mlg-ulb/Calorie-Burn-Prediction)**. While the overall distribution and structure are aligned with the original dataset, key statistical nuances have been deliberately altered to introduce challenge and prevent overfitting to known solutions.\n\nThis provides an excellent opportunity for:\n\n* Evaluating generalization capabilities of regression models.\n* Exploring **transfer learning** by pretraining on the original dataset and fine-tuning on this one.\n* Performing **domain adaptation** and comparative feature analysis.\n\n###  Dataset Files\n\n* `train.csv` \u2013 Training set with complete features and the continuous target variable `Calories`.\n* `test.csv` \u2013 Test set with the same input features (target `Calories` withheld for prediction).\n\n###  Problem Statement\n\nDevelop a predictive model that estimates **Calories Burnt** given a mix of individual-level biometric and physiological features. The target variable is continuous, making this a **regression problem**. Accuracy and generalization are crucial, especially across subtly shifted distributions in the synthetic test set.\n\n###  Why This Dataset?\n\n*  **Synthetic Realism**: Maintains practical relevance while offering flexibility for public leaderboard competitions.\n*  **ML Playground**: Ideal for experimenting with regression algorithms (Linear Regression, XGBoost, LightGBM, CatBoost, Neural Nets, etc.).\n*  **Feature Engineering Friendly**: Includes features conducive to creative engineering and interaction term exploration.\n*  **Transfer Learning Potential**: Leverage the original calorie dataset for comparative performance improvement.\n\n###  Recommended Explorations\n\n* Analyze feature importances to understand drivers of caloric expenditure.\n* Compare performance with and without the original dataset as supplemental training data.\n* Investigate the model's robustness using cross-validation and adversarial feature perturbation.\n\n\n=== About this file ===\n\nAbout this file\ntest.csv\n\u2013 File Description\nThis file contains the\nunlabeled test data\nused for evaluating model performance in the \"Predict Calorie Expenditure\" challenge. It includes biometric and physiological information for each individual, with the goal of predicting the corresponding number of\nCalories burned\n(not included in this file). Submissions should provide predicted values for the\nCalories\nvariable corresponding to each row.\nColumn Descriptions\nColumn Name\nDescription\nid\nUnique identifier for each sample in the test dataset. Used for aligning predictions in the submission file.\nSex\nBiological sex of the individual. Typically encoded as categorical (e.g., 'male' or 'female'), potentially affecting calorie expenditure due to physiological differences.\nAge\nAge of the individual (in years). Age influences metabolism and energy consumption.\nHeight\nHeight of the individual (in centimeters). Affects BMI and indirectly influences energy needs.\nWeight\nWeight of the individual (in kilograms). A critical factor in determining energy burned during physical activity.\nDuration\nDuration of physical activity or exercise (in minutes). A direct measure of exercise volume impacting calories burned.\nHeart_Rate\nHeart rate recorded during the activity (in beats per minute). Reflects intensity of the physical effort.\nBody_Temp\nBody temperature during the activity (in degrees Celsius). Can indicate metabolic rate or physiological response to exertion.\n\n\n=== Columns & descriptions ===\n\nid: Unique identifier for each sample in the test dataset. Used for aligning predictions in the submission file.\nSex: Biological sex of the individual. Typically encoded as categorical (e.g., 'male' or 'female'), potentially affecting calorie expenditure due to physiological differences.\nAge: Age of the individual (in years). Age influences metabolism and energy consumption.\nHeight: Height of the individual (in centimeters). Affects BMI and indirectly influences energy needs.\nWeight: Weight of the individual (in kilograms). A critical factor in determining energy burned during physical activity.\nDuration: Duration of physical activity or exercise (in minutes). A direct measure of exercise volume impacting calories burned.\nHeart_Rate: Heart rate recorded during the activity (in beats per minute). Reflects intensity of the physical effort.\nBody_Temp: Body temperature during the activity (in degrees Celsius). Can indicate metabolic rate or physiological response to exertion.\n",
+        "keywords": [
+            "healthcare",
+            "public health",
+            "business",
+            "regression"
+        ],
+        "licenses": [
+            {
+                "name": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+            }
+        ]
+    }
+}

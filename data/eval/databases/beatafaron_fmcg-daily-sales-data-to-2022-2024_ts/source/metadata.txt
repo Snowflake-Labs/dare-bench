@@ -1,0 +1,69 @@
+This synthetic dataset simulates daily-level FMCG sales transactions for three consecutive years (2022, 2023, 2024), designed for practicing time series forecasting, demand planning, and machine learning in realistic business conditions.
+
+Inspired by real-world scenarios (e.g. Nestlé, Unilever, P&G), it includes:
+- Product hierarchy: SKU → Brand → Segment → Category
+- Sales channels: Retail / Discount / E-commerce
+- Regions: Central, North, and South (Poland)
+- Daily sales quantities, prices, promotions, stock, delivery lag (lead time)
+- Pack types: Single / Multipack / Carton
+- Seasonality and product introductions:
+- New SKUs are introduced in 2024 only
+- Prices gradually increase over the years
+
+Possible Use Cases
+- Weekly sales forecasting
+- Promotion effect analysis
+- Seasonality and trend modeling
+- New product forecasting (cold start)
+- Feature engineering for ML models
+
+
+**Created by:** Beata Faron  
+[LinkedIn profile](https://www.linkedin.com/in/beata-faron-24764832/)  
+*Data Scientist working on demand forecasting, NLP, and business-oriented ML.*
+
+
+<a href="https://www.freepik.com/free-vector/fmcg-fast-moving-consumer-goods-acronym-quickly-moving-product-short-term-goods_8801900.htm#fromView=search&page=1&position=2&uuid=3553245e-46e2-4c03-84ef-7ab5e2d72339&query=fmcg">Image by iuriimotov on Freepik</a>
+
+=== About this file ===
+
+About this file
+About This Dataset
+This dataset simulates
+daily-level transactional data
+for products sold in the
+Fast-Moving Consumer Goods (FMCG)
+sector between 2022 and 2024.
+It is designed to support analysis of:
+Seasonality and product lifecycle
+Promotion and holiday effects
+Stockouts and inventory dynamics
+Demand forecasting and feature engineering
+Each row represents one SKU on a specific day, across different sales channels and regions.
+It is intended for
+educational and portfolio-building purposes
+— useful for exploring time series modeling, business analytics, or building dashboards.
+Use Cases
+Product-level EDA and trend analysis
+Promo impact by channel or lifecycle stage
+Stockout detection and visualization
+Calendar feature engineering (seasonality, holidays)
+Lag/rolling feature generation for forecasting
+
+
+=== Columns & descriptions ===
+
+date: Date of transaction (daily granularity)
+sku: Unique product identifier (e.g. `MI-006` for milk)
+brand: Brand name of the product
+segment: Segment classification (e.g. dairy, beverages)
+category: Product category (e.g. Milk, Juice)
+channel: Sales channel (e.g. Retail, Discount, Online)
+region: Sales region or geographic area
+pack_type: Packaging type (e.g. Bottle, Carton)
+price_unit: Unit price (average for the day)
+promotion_flag: Binary indicator: 1 if promotion was active, else 0
+delivery_days: [no description]
+stock_available: [no description]
+delivered_qty: [no description]
+units_sold: [no description]

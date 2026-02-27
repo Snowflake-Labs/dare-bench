@@ -1,0 +1,216 @@
+{
+    "question": {
+        "target": [
+            "Personality"
+        ],
+        "target_candidates": [
+            "Personality"
+        ],
+        "related_features": [
+            "Friends_circle_size",
+            "Stage_fear",
+            "Post_frequency",
+            "Going_outside",
+            "Drained_after_socializing",
+            "Social_event_attendance",
+            "Time_spent_Alone"
+        ],
+        "not_filtered_related_features": [
+            "Friends_circle_size",
+            "Stage_fear",
+            "Post_frequency",
+            "Going_outside",
+            "Drained_after_socializing",
+            "Social_event_attendance",
+            "Time_spent_Alone"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "Friends_circle_size": [
+                0.0,
+                15.0
+            ],
+            "Stage_fear": [
+                "No",
+                "Yes"
+            ],
+            "Post_frequency": [
+                0.0,
+                10.0
+            ],
+            "Going_outside": [
+                0.0,
+                7.0
+            ],
+            "Drained_after_socializing": [
+                "No",
+                "Yes"
+            ],
+            "Social_event_attendance": [
+                0.0,
+                10.0
+            ],
+            "Time_spent_Alone": [
+                0.0,
+                11.0
+            ]
+        },
+        "selected_features": [
+            "Friends_circle_size",
+            "Social_event_attendance",
+            "Stage_fear",
+            "Drained_after_socializing",
+            "Time_spent_Alone"
+        ],
+        "train_v2_save_file": "./rakeshkapilavai_extrovert-vs-introvert-behavior-data_class/source/train_v2.parquet",
+        "val_v2_save_file": "./rakeshkapilavai_extrovert-vs-introvert-behavior-data_class/source/val_v2.parquet",
+        "val_no_err_save_file": "./rakeshkapilavai_extrovert-vs-introvert-behavior-data_class/source/val_v1.parquet",
+        "train_no_err_save_file": "./rakeshkapilavai_extrovert-vs-introvert-behavior-data_class/source/train_v1_no_err.parquet",
+        "train_err_split_save_file": "./rakeshkapilavai_extrovert-vs-introvert-behavior-data_class/source/train_v1.parquet",
+        "train_test_ratio": 0.9,
+        "save_file_type": "parquet",
+        "imputer_type": "mean",
+        "random_state": 86,
+        "model_type": "LogisticRegression",
+        "output_file": "./rakeshkapilavai_extrovert-vs-introvert-behavior-data_class/prediction.csv",
+        "ground_truth_file": "./rakeshkapilavai_extrovert-vs-introvert-behavior-data_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./rakeshkapilavai_extrovert-vs-introvert-behavior-data_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "Time_spent_Alone": "numerical",
+            "Stage_fear": "categorical",
+            "Social_event_attendance": "numerical",
+            "Going_outside": "numerical",
+            "Drained_after_socializing": "categorical",
+            "Friends_circle_size": "numerical",
+            "Post_frequency": "numerical",
+            "Personality": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.parquet",
+            "val_v1.parquet",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.parquet",
+            "val_v2.parquet",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "Friends_circle_size",
+            "Social_event_attendance",
+            "Time_spent_Alone"
+        ],
+        "categorical_features": [
+            "Stage_fear",
+            "Drained_after_socializing"
+        ]
+    },
+    "data_info": {
+        "id": 7474089,
+        "ref": "rakeshkapilavai/extrovert-vs-introvert-behavior-data",
+        "subtitle": "Explore and Predict Social Behaviors and Personality Types",
+        "creatorName": "Rakesh Kapilavayi",
+        "creatorUrl": "rakeshkapilavai",
+        "totalBytes": 31277,
+        "url": "https://www.kaggle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data",
+        "lastUpdated": "2025-06-13T14:26:48.303Z",
+        "downloadCount": 34166,
+        "licenseName": "CC BY-SA 4.0",
+        "description": "",
+        "ownerName": "Rakesh Kapilavayi",
+        "ownerRef": "rakeshkapilavai",
+        "kernelCount": 307,
+        "title": "Extrovert vs. Introvert Behavior Data",
+        "viewCount": 109567,
+        "voteCount": 578,
+        "currentVersionNumber": 2,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "psychology",
+                "name": "psychology",
+                "description": "Psychology is the study of how we use our brains (or don't) to interact with others. Humans are complicated and maybe data science can help us understand ourselves.",
+                "fullPath": "subject > people and society > social science > psychology",
+                "competitionCount": 1,
+                "datasetCount": 3481,
+                "scriptCount": 383,
+                "totalCount": 3865
+            },
+            {
+                "ref": "exploratory data analysis",
+                "name": "exploratory data analysis",
+                "description": "",
+                "fullPath": "technique > exploratory data analysis",
+                "competitionCount": 18,
+                "datasetCount": 5489,
+                "scriptCount": 33407,
+                "totalCount": 38914
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "ensembling",
+                "name": "ensembling",
+                "description": "",
+                "fullPath": "technique > ensembling",
+                "competitionCount": 1,
+                "datasetCount": 137,
+                "scriptCount": 2934,
+                "totalCount": 3072
+            },
+            {
+                "ref": "feature engineering",
+                "name": "feature engineering",
+                "description": "",
+                "fullPath": "technique > feature engineering",
+                "competitionCount": 21,
+                "datasetCount": 880,
+                "scriptCount": 8963,
+                "totalCount": 9864
+            },
+            {
+                "ref": "health conditions",
+                "name": "health conditions",
+                "description": "",
+                "fullPath": "subject > health and fitness > health > health conditions",
+                "competitionCount": 43,
+                "datasetCount": 11011,
+                "scriptCount": 1984,
+                "totalCount": 13038
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7474089,
+        "datasetSlug": "extrovert-vs-introvert-behavior-data",
+        "ownerUser": "rakeshkapilavai",
+        "usabilityRating": 1.0,
+        "totalViews": 95731,
+        "totalVotes": 544,
+        "totalDownloads": 26509,
+        "title": "Extrovert vs. Introvert Behavior Data",
+        "subtitle": "Explore and Predict Social Behaviors and Personality Types",
+        "description": "**Overview**\n\n*Dive into the Extrovert vs. Introvert Personality Traits Dataset, a rich collection of behavioral and social data designed to explore the spectrum of human personality. This dataset captures key indicators of extroversion and introversion, making it a valuable resource for psychologists, data scientists, and researchers studying social behavior, personality prediction, or data preprocessing techniques.*\n\n**Context**\n\n*Personality traits like extroversion and introversion shape how individuals interact with their social environments. This dataset provides insights into behaviors such as time spent alone, social event attendance, and social media engagement, enabling applications in psychology, sociology, marketing, and machine learning. Whether you're predicting personality types or analyzing social patterns, this dataset is your gateway to uncovering fascinating insights.*\n\n**Dataset Details**\n\n **Size**: The dataset contains 2,900 rows and 8 columns. \n \n**Features**:\n\n        - Time_spent_Alone: Hours spent alone daily (0\u201311).\n        - Stage_fear: Presence of stage fright (Yes/No).\n        - Social_event_attendance: Frequency of social events (0\u201310).\n        - Going_outside: Frequency of going outside (0\u20137).\n        - Drained_after_socializing: Feeling drained after socializing (Yes/No).\n        - Friends_circle_size: Number of close friends (0\u201315).\n        - Post_frequency: Social media post frequency (0\u201310).\n        - Personality: Target variable (Extrovert/Introvert).*\n\n **Data Quality**: Includes some missing values, ideal for practicing imputation and preprocessing.\n **Format**: Single CSV file, compatible with Python, R, and other tools.*\n\n\n**Data Quality Notes**\n\n- Contains missing values in columns like Time_spent_Alone and Going_outside, offering opportunities for data cleaning practice.\n- Balanced classes ensure robust model training.\n- Binary categorical variables simplify encoding tasks.\n\n\n**Potential Use Cases**\n\n- Build machine learning models to predict personality types.\n- Analyze correlations between social behaviors and personality traits.\n- Explore social media engagement patterns.\n- Practice data preprocessing techniques like imputation and encoding.\n- Create visualizations to uncover behavioral trends.\n\n=== About this file ===\n\nAbout this file\nThis dataset contains 2,900 entries with 8 features related to social behavior and personality traits, designed to explore and classify individuals as Extroverts or Introverts.\n\n\n=== Columns & descriptions ===\n\nTime_spent_Alone: [no description]\nStage_fear: [no description]\nSocial_event_attendance: [no description]\nGoing_outside: [no description]\nDrained_after_socializing: [no description]\nFriends_circle_size: [no description]\nPost_frequency: [no description]\nPersonality: [no description]\n",
+        "keywords": [
+            "psychology",
+            "exploratory data analysis",
+            "classification",
+            "ensembling",
+            "feature engineering",
+            "health conditions"
+        ],
+        "licenses": [
+            {
+                "name": "CC-BY-SA-4.0"
+            }
+        ]
+    }
+}

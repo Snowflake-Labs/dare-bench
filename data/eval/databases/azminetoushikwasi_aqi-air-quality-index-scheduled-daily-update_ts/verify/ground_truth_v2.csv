@@ -1,0 +1,1967 @@
+Date,Country,AQI Value
+2025-03-27,Albania,17.0
+2025-04-03,Albania,6.0
+2025-04-10,Albania,11.0
+2025-04-17,Albania,19.0
+2025-04-24,Albania,25.0
+2025-05-01,Albania,29.0
+2025-05-08,Albania,10.0
+2025-05-15,Albania,15.0
+2025-05-22,Albania,11.0
+2025-05-29,Albania,8.0
+2025-06-05,Albania,19.0
+2025-06-12,Albania,67.0
+2025-06-19,Albania,20.0
+2025-07-03,Albania,15.0
+2024-12-12,Algeria,46.0
+2024-12-19,Algeria,42.0
+2024-12-26,Algeria,63.0
+2025-01-02,Algeria,137.0
+2025-01-09,Algeria,30.0
+2025-01-16,Algeria,50.0
+2025-01-23,Algeria,78.0
+2025-01-30,Algeria,53.0
+2025-02-06,Algeria,87.0
+2025-02-13,Algeria,38.0
+2025-02-20,Algeria,89.0
+2025-02-27,Algeria,78.0
+2025-03-06,Algeria,102.0
+2025-03-27,Andorra,20.0
+2025-04-03,Andorra,13.0
+2025-04-10,Andorra,24.0
+2025-04-17,Andorra,15.0
+2025-04-24,Andorra,13.0
+2025-05-01,Andorra,16.0
+2025-05-08,Andorra,15.0
+2025-05-15,Andorra,13.0
+2025-05-22,Andorra,25.0
+2025-05-29,Andorra,17.0
+2025-06-05,Andorra,32.0
+2025-06-12,Andorra,48.0
+2025-06-19,Andorra,49.0
+2025-06-26,Andorra,52.0
+2025-07-03,Andorra,43.0
+2023-06-15,Angola,123.0
+2023-06-22,Angola,126.0
+2023-06-29,Angola,132.0
+2023-07-06,Angola,111.0
+2023-07-13,Angola,154.0
+2023-07-20,Angola,145.0
+2023-07-27,Angola,145.0
+2023-08-03,Angola,109.0
+2023-08-10,Angola,140.0
+2025-03-27,Argentina,20.0
+2025-04-03,Argentina,27.0
+2025-04-10,Argentina,13.0
+2025-04-17,Argentina,22.0
+2025-04-24,Argentina,40.0
+2025-05-01,Argentina,26.0
+2025-05-08,Argentina,17.0
+2025-05-15,Argentina,26.0
+2025-05-22,Argentina,19.0
+2025-05-29,Argentina,15.0
+2025-06-05,Argentina,67.0
+2025-06-12,Argentina,19.0
+2025-06-19,Argentina,40.0
+2025-06-26,Argentina,22.0
+2025-07-03,Argentina,17.0
+2025-03-27,Armenia,33.0
+2025-04-03,Armenia,31.0
+2025-04-10,Armenia,45.0
+2025-04-17,Armenia,27.0
+2025-04-24,Armenia,43.0
+2025-05-01,Armenia,56.0
+2025-05-08,Armenia,50.0
+2025-05-15,Armenia,31.0
+2025-05-22,Armenia,29.0
+2025-05-29,Armenia,35.0
+2025-06-05,Armenia,24.0
+2025-06-12,Armenia,45.0
+2025-06-19,Armenia,30.0
+2025-06-26,Armenia,28.0
+2025-07-03,Armenia,23.0
+2025-03-27,Australia,37.0
+2025-04-03,Australia,59.0
+2025-04-10,Australia,55.0
+2025-04-17,Australia,49.0
+2025-04-24,Australia,46.0
+2025-05-01,Australia,35.0
+2025-05-08,Australia,34.0
+2025-05-15,Australia,51.0
+2025-05-22,Australia,64.0
+2025-05-29,Australia,44.0
+2025-06-05,Australia,50.0
+2025-06-12,Australia,44.0
+2025-06-19,Australia,67.0
+2025-06-26,Australia,46.0
+2025-07-03,Australia,37.0
+2025-03-27,Austria,63.0
+2025-04-03,Austria,63.0
+2025-04-10,Austria,42.0
+2025-04-17,Austria,51.0
+2025-04-24,Austria,46.0
+2025-05-01,Austria,46.0
+2025-05-08,Austria,43.0
+2025-05-15,Austria,34.0
+2025-05-22,Austria,45.0
+2025-05-29,Austria,10.0
+2025-06-05,Austria,18.0
+2025-06-12,Austria,48.0
+2025-06-19,Austria,55.0
+2025-06-26,Austria,50.0
+2025-07-03,Austria,34.0
+2025-04-03,Azerbaijan,30.0
+2025-04-10,Azerbaijan,27.0
+2025-04-17,Azerbaijan,14.0
+2025-04-24,Azerbaijan,99.0
+2025-05-01,Azerbaijan,51.0
+2025-05-08,Azerbaijan,35.0
+2025-05-15,Azerbaijan,9.0
+2025-05-22,Azerbaijan,16.0
+2025-05-29,Azerbaijan,16.0
+2025-06-05,Azerbaijan,28.0
+2025-06-12,Azerbaijan,37.0
+2025-06-19,Azerbaijan,29.0
+2025-06-26,Azerbaijan,9.0
+2025-07-03,Azerbaijan,15.0
+2024-12-19,Bahrain,78.0
+2024-12-26,Bahrain,164.0
+2025-01-02,Bahrain,65.0
+2025-01-16,Bahrain,137.0
+2025-01-23,Bahrain,87.0
+2025-01-30,Bahrain,61.0
+2025-02-06,Bahrain,74.0
+2025-02-13,Bahrain,93.0
+2025-02-20,Bahrain,70.0
+2025-02-27,Bahrain,82.0
+2025-03-06,Bahrain,70.0
+2025-07-03,Bahrain,161.0
+2025-01-16,Bangladesh,250.0
+2025-01-23,Bangladesh,245.0
+2025-01-30,Bangladesh,532.0
+2025-02-06,Bangladesh,411.0
+2025-02-13,Bangladesh,156.0
+2025-02-20,Bangladesh,264.0
+2025-02-27,Bangladesh,241.0
+2025-03-06,Bangladesh,152.0
+2025-05-15,Bangladesh,89.0
+2025-05-22,Bangladesh,82.0
+2025-05-29,Bangladesh,29.0
+2025-06-19,Bangladesh,57.0
+2025-06-26,Bangladesh,59.0
+2025-03-27,Belarus,67.0
+2025-04-03,Belarus,25.0
+2025-04-10,Belarus,26.0
+2025-04-17,Belarus,37.0
+2025-04-24,Belarus,28.0
+2025-05-01,Belarus,12.0
+2025-05-08,Belarus,9.0
+2025-05-15,Belarus,12.0
+2025-05-22,Belarus,39.0
+2025-05-29,Belarus,32.0
+2025-06-05,Belarus,37.0
+2025-06-12,Belarus,21.0
+2025-06-19,Belarus,19.0
+2025-06-26,Belarus,12.0
+2025-07-03,Belarus,28.0
+2025-03-27,Belgium,90.0
+2025-04-03,Belgium,66.0
+2025-04-10,Belgium,59.0
+2025-04-17,Belgium,52.0
+2025-04-24,Belgium,131.0
+2025-05-01,Belgium,74.0
+2025-05-08,Belgium,47.0
+2025-05-15,Belgium,57.0
+2025-05-22,Belgium,49.0
+2025-05-29,Belgium,52.0
+2025-06-05,Belgium,24.0
+2025-06-12,Belgium,56.0
+2025-06-19,Belgium,55.0
+2025-06-26,Belgium,59.0
+2025-07-03,Belgium,42.0
+2024-07-25,Belize,17.0
+2024-08-01,Belize,20.0
+2024-08-08,Belize,49.0
+2024-08-15,Belize,6.0
+2024-08-22,Belize,5.0
+2024-08-29,Belize,9.0
+2024-09-05,Belize,3.0
+2024-09-12,Belize,12.0
+2024-09-19,Belize,15.0
+2024-09-26,Belize,84.0
+2024-10-10,Belize,84.0
+2024-07-25,Bermuda,25.0
+2024-08-01,Bermuda,17.0
+2024-08-08,Bermuda,38.0
+2024-08-15,Bermuda,19.0
+2024-08-22,Bermuda,20.0
+2024-08-29,Bermuda,33.0
+2024-09-05,Bermuda,13.0
+2024-09-12,Bermuda,2.0
+2024-09-19,Bermuda,17.0
+2024-09-26,Bermuda,7.0
+2024-10-10,Bermuda,2.0
+2024-07-25,Bolivia,119.0
+2024-08-01,Bolivia,76.0
+2024-08-08,Bolivia,72.0
+2024-08-15,Bolivia,53.0
+2024-08-22,Bolivia,109.0
+2024-08-29,Bolivia,182.0
+2024-09-05,Bolivia,148.0
+2024-09-12,Bolivia,180.0
+2024-09-19,Bolivia,139.0
+2024-09-26,Bolivia,127.0
+2024-10-10,Bolivia,91.0
+2025-03-27,Bosnia and Herzegovina,40.0
+2025-04-03,Bosnia and Herzegovina,74.0
+2025-04-10,Bosnia and Herzegovina,48.0
+2025-04-17,Bosnia and Herzegovina,24.0
+2025-04-24,Bosnia and Herzegovina,34.0
+2025-05-01,Bosnia and Herzegovina,45.0
+2025-05-08,Bosnia and Herzegovina,37.0
+2025-05-15,Bosnia and Herzegovina,37.0
+2025-05-22,Bosnia and Herzegovina,37.0
+2025-05-29,Bosnia and Herzegovina,30.0
+2025-06-05,Bosnia and Herzegovina,36.0
+2025-06-12,Bosnia and Herzegovina,73.0
+2025-06-19,Bosnia and Herzegovina,59.0
+2025-06-26,Bosnia and Herzegovina,55.0
+2025-07-03,Bosnia and Herzegovina,32.0
+2025-03-27,Brazil,55.0
+2025-04-03,Brazil,75.0
+2025-04-10,Brazil,62.0
+2025-04-17,Brazil,71.0
+2025-04-24,Brazil,70.0
+2025-05-01,Brazil,57.0
+2025-05-08,Brazil,96.0
+2025-05-15,Brazil,55.0
+2025-05-22,Brazil,103.0
+2025-05-29,Brazil,46.0
+2025-06-05,Brazil,99.0
+2025-06-12,Brazil,55.0
+2025-06-19,Brazil,130.0
+2025-06-26,Brazil,103.0
+2025-07-03,Brazil,43.0
+2025-03-27,Brunei,12.0
+2025-04-03,Brunei,12.0
+2025-04-10,Brunei,10.0
+2025-04-17,Brunei,10.0
+2025-04-24,Brunei,10.0
+2025-05-01,Brunei,10.0
+2025-05-08,Brunei,17.0
+2025-05-15,Brunei,10.0
+2025-05-22,Brunei,11.0
+2025-05-29,Brunei,10.0
+2025-06-05,Brunei,10.0
+2025-06-12,Brunei,12.0
+2025-06-19,Brunei,13.0
+2025-06-26,Brunei,7.0
+2025-07-03,Brunei,18.0
+2025-03-27,Bulgaria,61.0
+2025-04-03,Bulgaria,38.0
+2025-04-10,Bulgaria,46.0
+2025-04-17,Bulgaria,42.0
+2025-04-24,Bulgaria,36.0
+2025-05-01,Bulgaria,27.0
+2025-05-08,Bulgaria,29.0
+2025-05-15,Bulgaria,24.0
+2025-05-22,Bulgaria,38.0
+2025-05-29,Bulgaria,35.0
+2025-06-05,Bulgaria,48.0
+2025-06-12,Bulgaria,63.0
+2025-06-19,Bulgaria,56.0
+2025-06-26,Bulgaria,39.0
+2025-07-03,Bulgaria,29.0
+2024-08-22,Burkina Faso,51.0
+2024-08-29,Burkina Faso,25.0
+2024-09-05,Burkina Faso,22.0
+2025-01-09,Burkina Faso,151.0
+2025-01-16,Burkina Faso,45.0
+2025-01-23,Burkina Faso,82.0
+2025-01-30,Burkina Faso,58.0
+2025-02-13,Burkina Faso,70.0
+2025-02-20,Burkina Faso,159.0
+2025-02-27,Burkina Faso,163.0
+2025-03-06,Burkina Faso,153.0
+2025-01-02,Cambodia,121.0
+2025-01-09,Cambodia,305.0
+2025-01-16,Cambodia,47.0
+2025-01-23,Cambodia,201.0
+2025-01-30,Cambodia,147.0
+2025-02-06,Cambodia,108.0
+2025-02-13,Cambodia,77.0
+2025-02-20,Cambodia,24.0
+2025-03-06,Cambodia,33.0
+2025-03-13,Cambodia,68.0
+2025-03-20,Cambodia,500.0
+2025-03-27,Cambodia,70.0
+2025-04-24,Cambodia,88.0
+2025-03-27,Canada,40.0
+2025-04-03,Canada,44.0
+2025-04-10,Canada,36.0
+2025-04-17,Canada,34.0
+2025-04-24,Canada,41.0
+2025-05-01,Canada,42.0
+2025-05-08,Canada,52.0
+2025-05-15,Canada,40.0
+2025-05-22,Canada,32.0
+2025-05-29,Canada,60.0
+2025-06-05,Canada,107.0
+2025-06-12,Canada,153.0
+2025-06-19,Canada,54.0
+2025-06-26,Canada,52.0
+2025-07-03,Canada,78.0
+2025-03-20,Cape Verde,36.0
+2025-03-27,Cape Verde,37.0
+2025-04-03,Cape Verde,31.0
+2025-04-10,Cape Verde,24.0
+2025-04-17,Cape Verde,52.0
+2025-04-24,Cape Verde,53.0
+2025-05-01,Cape Verde,90.0
+2025-05-08,Cape Verde,42.0
+2025-05-15,Cape Verde,36.0
+2025-05-22,Cape Verde,61.0
+2025-05-29,Cape Verde,66.0
+2025-06-05,Cape Verde,52.0
+2025-06-12,Cape Verde,55.0
+2025-06-19,Cape Verde,48.0
+2025-07-03,Cape Verde,44.0
+2023-07-20,Cayman Islands,14.0
+2023-07-27,Cayman Islands,10.0
+2023-08-03,Cayman Islands,14.0
+2023-08-10,Cayman Islands,10.0
+2024-06-06,Cayman Islands,16.0
+2024-06-13,Cayman Islands,4.0
+2024-06-20,Cayman Islands,3.0
+2024-06-27,Cayman Islands,5.0
+2024-07-25,Cayman Islands,3.0
+2023-04-13,Central African Republic,142.0
+2023-04-20,Central African Republic,191.0
+2023-04-27,Central African Republic,17.0
+2023-05-04,Central African Republic,38.0
+2023-05-11,Central African Republic,70.0
+2023-05-18,Central African Republic,70.0
+2023-05-25,Central African Republic,53.0
+2023-06-01,Central African Republic,35.0
+2024-12-26,Chad,107.0
+2025-01-02,Chad,152.0
+2025-01-09,Chad,169.0
+2025-01-16,Chad,159.0
+2025-01-23,Chad,410.0
+2025-01-30,Chad,95.0
+2025-02-06,Chad,207.0
+2025-02-13,Chad,280.0
+2025-02-20,Chad,132.0
+2025-02-27,Chad,236.0
+2025-03-06,Chad,144.0
+2025-03-27,Chile,87.0
+2025-04-03,Chile,80.0
+2025-04-10,Chile,123.0
+2025-04-17,Chile,129.0
+2025-04-24,Chile,158.0
+2025-05-01,Chile,121.0
+2025-05-08,Chile,154.0
+2025-05-15,Chile,173.0
+2025-05-22,Chile,177.0
+2025-05-29,Chile,200.0
+2025-06-05,Chile,322.0
+2025-06-12,Chile,175.0
+2025-06-19,Chile,185.0
+2025-06-26,Chile,175.0
+2025-07-03,Chile,375.0
+2025-03-27,China,497.0
+2025-04-03,China,228.0
+2025-04-10,China,185.0
+2025-04-17,China,316.0
+2025-04-24,China,161.0
+2025-05-01,China,165.0
+2025-05-08,China,187.0
+2025-05-15,China,168.0
+2025-05-22,China,165.0
+2025-05-29,China,158.0
+2025-06-05,China,155.0
+2025-06-12,China,134.0
+2025-06-19,China,101.0
+2025-06-26,China,158.0
+2025-07-03,China,114.0
+2025-03-27,Colombia,80.0
+2025-04-03,Colombia,63.0
+2025-04-10,Colombia,61.0
+2025-04-17,Colombia,75.0
+2025-04-24,Colombia,57.0
+2025-05-01,Colombia,49.0
+2025-05-08,Colombia,56.0
+2025-05-15,Colombia,58.0
+2025-05-22,Colombia,56.0
+2025-05-29,Colombia,51.0
+2025-06-05,Colombia,43.0
+2025-06-12,Colombia,56.0
+2025-06-19,Colombia,44.0
+2025-06-26,Colombia,52.0
+2025-07-03,Colombia,44.0
+2025-03-27,Costa Rica,23.0
+2025-04-03,Costa Rica,31.0
+2025-04-10,Costa Rica,36.0
+2025-04-17,Costa Rica,21.0
+2025-04-24,Costa Rica,25.0
+2025-05-01,Costa Rica,23.0
+2025-05-08,Costa Rica,25.0
+2025-05-15,Costa Rica,29.0
+2025-05-22,Costa Rica,28.0
+2025-05-29,Costa Rica,22.0
+2025-06-05,Costa Rica,27.0
+2025-06-12,Costa Rica,26.0
+2025-06-19,Costa Rica,23.0
+2025-07-03,Costa Rica,18.0
+2025-03-27,Croatia,56.0
+2025-04-03,Croatia,48.0
+2025-04-10,Croatia,56.0
+2025-04-17,Croatia,38.0
+2025-04-24,Croatia,31.0
+2025-05-01,Croatia,59.0
+2025-05-08,Croatia,42.0
+2025-05-15,Croatia,43.0
+2025-05-22,Croatia,40.0
+2025-05-29,Croatia,18.0
+2025-06-05,Croatia,36.0
+2025-06-12,Croatia,54.0
+2025-06-19,Croatia,57.0
+2025-06-26,Croatia,60.0
+2025-07-03,Croatia,39.0
+2025-03-27,Cyprus,67.0
+2025-04-03,Cyprus,42.0
+2025-04-10,Cyprus,38.0
+2025-04-17,Cyprus,54.0
+2025-04-24,Cyprus,42.0
+2025-05-01,Cyprus,41.0
+2025-05-08,Cyprus,64.0
+2025-05-15,Cyprus,53.0
+2025-05-22,Cyprus,43.0
+2025-05-29,Cyprus,47.0
+2025-06-05,Cyprus,43.0
+2025-06-12,Cyprus,73.0
+2025-06-19,Cyprus,40.0
+2025-06-26,Cyprus,48.0
+2025-07-03,Cyprus,43.0
+2025-03-27,Czech Republic,121.0
+2025-04-03,Czech Republic,101.0
+2025-04-10,Czech Republic,63.0
+2025-04-17,Czech Republic,66.0
+2025-04-24,Czech Republic,65.0
+2025-05-01,Czech Republic,156.0
+2025-05-08,Czech Republic,53.0
+2025-05-15,Czech Republic,51.0
+2025-05-22,Czech Republic,52.0
+2025-05-29,Czech Republic,31.0
+2025-06-05,Czech Republic,55.0
+2025-06-12,Czech Republic,62.0
+2025-06-19,Czech Republic,75.0
+2025-06-26,Czech Republic,57.0
+2025-07-03,Czech Republic,66.0
+2025-03-27,Denmark,13.0
+2025-04-03,Denmark,7.0
+2025-04-10,Denmark,17.0
+2025-04-17,Denmark,40.0
+2025-04-24,Denmark,23.0
+2025-05-01,Denmark,15.0
+2025-05-08,Denmark,14.0
+2025-05-15,Denmark,17.0
+2025-05-22,Denmark,19.0
+2025-05-29,Denmark,17.0
+2025-06-05,Denmark,18.0
+2025-06-12,Denmark,17.0
+2025-06-19,Denmark,15.0
+2025-06-26,Denmark,20.0
+2025-07-03,Denmark,24.0
+2025-03-27,Dominican Republic,27.0
+2025-04-03,Dominican Republic,33.0
+2025-04-10,Dominican Republic,55.0
+2025-04-17,Dominican Republic,27.0
+2025-04-24,Dominican Republic,32.0
+2025-05-01,Dominican Republic,35.0
+2025-05-08,Dominican Republic,18.0
+2025-05-15,Dominican Republic,16.0
+2025-05-22,Dominican Republic,44.0
+2025-05-29,Dominican Republic,28.0
+2025-06-05,Dominican Republic,28.0
+2025-06-12,Dominican Republic,54.0
+2025-06-19,Dominican Republic,55.0
+2025-06-26,Dominican Republic,59.0
+2025-07-03,Dominican Republic,20.0
+2025-03-27,Ecuador,67.0
+2025-04-03,Ecuador,60.0
+2025-04-10,Ecuador,27.0
+2025-04-17,Ecuador,58.0
+2025-04-24,Ecuador,55.0
+2025-05-01,Ecuador,57.0
+2025-05-08,Ecuador,61.0
+2025-05-15,Ecuador,43.0
+2025-05-22,Ecuador,32.0
+2025-05-29,Ecuador,39.0
+2025-06-05,Ecuador,53.0
+2025-06-12,Ecuador,56.0
+2025-06-19,Ecuador,34.0
+2025-06-26,Ecuador,61.0
+2025-07-03,Ecuador,39.0
+2025-02-20,Egypt,156.0
+2025-02-27,Egypt,132.0
+2025-03-06,Egypt,57.0
+2025-04-24,Egypt,54.0
+2025-05-01,Egypt,30.0
+2025-05-08,Egypt,10.0
+2025-05-15,Egypt,29.0
+2025-05-22,Egypt,42.0
+2025-05-29,Egypt,20.0
+2025-06-05,Egypt,59.0
+2025-06-12,Egypt,53.0
+2025-06-19,Egypt,55.0
+2025-06-26,Egypt,78.0
+2025-07-03,Egypt,95.0
+2024-07-18,El Salvador,75.0
+2024-07-25,El Salvador,46.0
+2024-08-08,El Salvador,32.0
+2024-08-15,El Salvador,48.0
+2024-08-22,El Salvador,35.0
+2024-08-29,El Salvador,26.0
+2024-09-05,El Salvador,20.0
+2024-09-12,El Salvador,42.0
+2024-09-19,El Salvador,51.0
+2024-09-26,El Salvador,66.0
+2024-10-10,El Salvador,57.0
+2025-03-27,Estonia,34.0
+2025-04-03,Estonia,25.0
+2025-04-10,Estonia,21.0
+2025-04-17,Estonia,27.0
+2025-04-24,Estonia,18.0
+2025-05-01,Estonia,22.0
+2025-05-08,Estonia,24.0
+2025-05-15,Estonia,25.0
+2025-05-22,Estonia,27.0
+2025-05-29,Estonia,33.0
+2025-06-05,Estonia,25.0
+2025-06-12,Estonia,30.0
+2025-06-19,Estonia,18.0
+2025-06-26,Estonia,16.0
+2025-07-03,Estonia,19.0
+2024-12-12,Ethiopia,61.0
+2024-12-19,Ethiopia,95.0
+2024-12-26,Ethiopia,76.0
+2025-01-02,Ethiopia,55.0
+2025-01-09,Ethiopia,61.0
+2025-01-16,Ethiopia,57.0
+2025-01-23,Ethiopia,78.0
+2025-01-30,Ethiopia,59.0
+2025-02-06,Ethiopia,89.0
+2025-02-13,Ethiopia,46.0
+2025-02-20,Ethiopia,65.0
+2025-02-27,Ethiopia,63.0
+2025-03-06,Ethiopia,132.0
+2025-03-27,Finland,52.0
+2025-04-03,Finland,27.0
+2025-04-10,Finland,17.0
+2025-04-17,Finland,47.0
+2025-04-24,Finland,16.0
+2025-05-01,Finland,35.0
+2025-05-08,Finland,15.0
+2025-05-15,Finland,18.0
+2025-05-22,Finland,16.0
+2025-05-29,Finland,44.0
+2025-06-05,Finland,31.0
+2025-06-12,Finland,60.0
+2025-06-19,Finland,18.0
+2025-06-26,Finland,17.0
+2025-07-03,Finland,23.0
+2025-03-27,France,87.0
+2025-04-03,France,74.0
+2025-04-10,France,97.0
+2025-04-17,France,50.0
+2025-04-24,France,75.0
+2025-05-01,France,92.0
+2025-05-08,France,77.0
+2025-05-15,France,66.0
+2025-05-22,France,58.0
+2025-05-29,France,50.0
+2025-06-05,France,58.0
+2025-06-12,France,115.0
+2025-06-19,France,63.0
+2025-06-26,France,73.0
+2025-07-03,France,62.0
+2025-03-27,French Guiana,34.0
+2025-04-03,French Guiana,14.0
+2025-04-10,French Guiana,40.0
+2025-04-17,French Guiana,17.0
+2025-04-24,French Guiana,33.0
+2025-05-01,French Guiana,16.0
+2025-05-08,French Guiana,14.0
+2025-05-15,French Guiana,11.0
+2025-05-22,French Guiana,10.0
+2025-05-29,French Guiana,18.0
+2025-06-05,French Guiana,12.0
+2025-06-12,French Guiana,28.0
+2025-06-19,French Guiana,17.0
+2025-06-26,French Guiana,14.0
+2025-07-03,French Guiana,12.0
+2023-06-15,Gabon,86.0
+2023-06-22,Gabon,103.0
+2023-06-29,Gabon,186.0
+2023-07-06,Gabon,137.0
+2023-07-13,Gabon,109.0
+2023-07-20,Gabon,79.0
+2023-07-27,Gabon,96.0
+2023-08-03,Gabon,152.0
+2023-08-10,Gabon,104.5
+2022-09-16,Gambia,21.0
+2022-09-17,Gambia,49.0
+2022-09-18,Gambia,8.0
+2022-09-19,Gambia,10.0
+2022-09-20,Gambia,33.0
+2022-09-21,Gambia,53.0
+2022-09-22,Gambia,16.0
+2025-03-27,Georgia,65.0
+2025-04-03,Georgia,48.0
+2025-04-10,Georgia,37.0
+2025-04-17,Georgia,42.0
+2025-04-24,Georgia,47.0
+2025-05-01,Georgia,43.0
+2025-05-08,Georgia,49.0
+2025-05-15,Georgia,24.0
+2025-05-22,Georgia,28.0
+2025-05-29,Georgia,56.0
+2025-06-05,Georgia,34.0
+2025-06-12,Georgia,52.0
+2025-06-19,Georgia,29.0
+2025-06-26,Georgia,46.0
+2025-07-03,Georgia,32.0
+2025-03-27,Germany,87.0
+2025-04-03,Germany,84.0
+2025-04-10,Germany,73.0
+2025-04-17,Germany,115.0
+2025-04-24,Germany,138.0
+2025-05-01,Germany,145.0
+2025-05-08,Germany,53.0
+2025-05-15,Germany,89.0
+2025-05-22,Germany,71.0
+2025-05-29,Germany,69.0
+2025-06-05,Germany,54.0
+2025-06-12,Germany,63.0
+2025-06-19,Germany,78.0
+2025-06-26,Germany,58.0
+2025-07-03,Germany,80.0
+2025-03-20,Ghana,77.0
+2025-03-27,Ghana,49.0
+2025-04-03,Ghana,59.0
+2025-04-10,Ghana,128.0
+2025-04-17,Ghana,35.0
+2025-04-24,Ghana,82.0
+2025-05-01,Ghana,67.0
+2025-05-08,Ghana,69.0
+2025-05-15,Ghana,48.0
+2025-05-22,Ghana,66.0
+2025-05-29,Ghana,30.0
+2025-06-05,Ghana,35.0
+2025-06-12,Ghana,35.0
+2025-06-19,Ghana,39.0
+2025-07-03,Ghana,52.0
+2025-03-27,Gibraltar,19.0
+2025-04-03,Gibraltar,5.0
+2025-04-10,Gibraltar,37.0
+2025-04-17,Gibraltar,13.0
+2025-04-24,Gibraltar,36.0
+2025-05-01,Gibraltar,31.0
+2025-05-08,Gibraltar,22.0
+2025-05-15,Gibraltar,17.0
+2025-05-22,Gibraltar,13.0
+2025-05-29,Gibraltar,27.0
+2025-06-05,Gibraltar,34.0
+2025-06-12,Gibraltar,59.0
+2025-06-19,Gibraltar,77.0
+2025-06-26,Gibraltar,26.0
+2025-07-03,Gibraltar,28.0
+2025-03-27,Greece,63.0
+2025-04-03,Greece,27.0
+2025-04-10,Greece,68.0
+2025-04-17,Greece,53.0
+2025-04-24,Greece,45.0
+2025-05-01,Greece,41.0
+2025-05-08,Greece,62.0
+2025-05-15,Greece,38.0
+2025-05-22,Greece,39.0
+2025-05-29,Greece,40.0
+2025-06-05,Greece,53.0
+2025-06-12,Greece,57.0
+2025-06-19,Greece,52.0
+2025-06-26,Greece,59.0
+2025-07-03,Greece,43.0
+2024-07-25,Grenada,25.0
+2024-08-01,Grenada,20.0
+2024-08-08,Grenada,2.0
+2024-08-15,Grenada,17.0
+2024-08-22,Grenada,12.0
+2024-08-29,Grenada,15.0
+2024-09-05,Grenada,17.0
+2024-09-12,Grenada,28.0
+2024-09-19,Grenada,46.0
+2024-09-26,Grenada,4.0
+2024-10-10,Grenada,20.0
+2025-03-27,Guadeloupe,26.0
+2025-04-03,Guadeloupe,21.0
+2025-04-10,Guadeloupe,29.0
+2025-04-17,Guadeloupe,17.0
+2025-04-24,Guadeloupe,24.0
+2025-05-01,Guadeloupe,41.0
+2025-05-08,Guadeloupe,14.0
+2025-05-15,Guadeloupe,18.0
+2025-05-22,Guadeloupe,30.0
+2025-05-29,Guadeloupe,28.0
+2025-06-05,Guadeloupe,28.0
+2025-06-12,Guadeloupe,51.0
+2025-06-19,Guadeloupe,43.0
+2025-06-26,Guadeloupe,36.0
+2025-07-03,Guadeloupe,31.0
+2023-06-01,Guam,1.0
+2023-06-08,Guam,6.0
+2023-06-15,Guam,3.0
+2023-06-22,Guam,4.0
+2023-06-29,Guam,8.0
+2023-07-06,Guam,2.0
+2023-07-13,Guam,3.0
+2023-07-20,Guam,1.0
+2023-07-27,Guam,3.0
+2025-03-27,Guatemala,3.0
+2025-04-03,Guatemala,106.0
+2025-04-10,Guatemala,58.0
+2025-04-17,Guatemala,79.0
+2025-04-24,Guatemala,137.0
+2025-05-01,Guatemala,119.0
+2025-05-08,Guatemala,119.0
+2025-05-15,Guatemala,116.0
+2025-05-22,Guatemala,99.0
+2025-05-29,Guatemala,124.0
+2025-06-05,Guatemala,76.0
+2025-06-12,Guatemala,51.0
+2025-06-19,Guatemala,7.0
+2025-06-26,Guatemala,26.0
+2025-07-03,Guatemala,20.0
+2024-07-25,Honduras,15.0
+2024-08-01,Honduras,9.0
+2024-08-08,Honduras,20.0
+2024-08-15,Honduras,20.0
+2024-08-22,Honduras,19.0
+2024-08-29,Honduras,15.0
+2024-09-05,Honduras,35.0
+2024-09-12,Honduras,71.0
+2024-09-19,Honduras,33.0
+2024-09-26,Honduras,35.0
+2024-10-10,Honduras,71.0
+2025-03-27,Hong Kong,54.0
+2025-04-03,Hong Kong,68.0
+2025-04-10,Hong Kong,62.0
+2025-04-17,Hong Kong,68.0
+2025-04-24,Hong Kong,45.0
+2025-05-01,Hong Kong,64.0
+2025-05-08,Hong Kong,61.0
+2025-05-15,Hong Kong,48.0
+2025-05-22,Hong Kong,25.0
+2025-05-29,Hong Kong,60.0
+2025-06-05,Hong Kong,44.0
+2025-06-12,Hong Kong,35.0
+2025-06-19,Hong Kong,25.0
+2025-06-26,Hong Kong,23.0
+2025-07-03,Hong Kong,39.0
+2025-04-10,Hungary,50.0
+2025-04-17,Hungary,63.0
+2025-04-24,Hungary,52.0
+2025-05-01,Hungary,62.0
+2025-05-08,Hungary,51.0
+2025-05-15,Hungary,49.0
+2025-05-22,Hungary,77.0
+2025-05-29,Hungary,31.0
+2025-06-05,Hungary,48.0
+2025-06-12,Hungary,49.0
+2025-06-19,Hungary,62.0
+2025-06-26,Hungary,63.0
+2025-07-03,Hungary,55.0
+2025-03-27,Iceland,31.0
+2025-04-03,Iceland,21.0
+2025-04-10,Iceland,18.0
+2025-04-17,Iceland,22.0
+2025-04-24,Iceland,35.0
+2025-05-01,Iceland,33.0
+2025-05-08,Iceland,17.0
+2025-05-15,Iceland,29.0
+2025-05-22,Iceland,36.0
+2025-05-29,Iceland,19.0
+2025-06-05,Iceland,22.0
+2025-06-12,Iceland,43.0
+2025-06-19,Iceland,24.0
+2025-06-26,Iceland,18.0
+2025-07-03,Iceland,21.0
+2025-03-27,India,401.0
+2025-04-03,India,260.0
+2025-04-10,India,179.0
+2025-04-17,India,179.0
+2025-04-24,India,293.0
+2025-05-01,India,174.0
+2025-05-08,India,187.0
+2025-05-15,India,946.0
+2025-05-22,India,294.0
+2025-05-29,India,266.0
+2025-06-05,India,174.0
+2025-06-12,India,188.0
+2025-06-19,India,174.0
+2025-06-26,India,206.0
+2025-07-03,India,143.0
+2025-03-27,Indonesia,115.0
+2025-04-03,Indonesia,96.0
+2025-04-10,Indonesia,140.0
+2025-04-17,Indonesia,121.0
+2025-04-24,Indonesia,111.0
+2025-05-01,Indonesia,137.0
+2025-05-08,Indonesia,148.0
+2025-05-15,Indonesia,120.0
+2025-05-22,Indonesia,137.0
+2025-05-29,Indonesia,121.0
+2025-06-05,Indonesia,141.0
+2025-06-12,Indonesia,141.0
+2025-06-19,Indonesia,115.0
+2025-06-26,Indonesia,152.0
+2025-07-03,Indonesia,131.0
+2025-03-27,Iran,90.0
+2025-04-03,Iran,97.0
+2025-04-10,Iran,117.0
+2025-04-17,Iran,142.0
+2025-04-24,Iran,117.0
+2025-05-01,Iran,164.0
+2025-05-08,Iran,147.0
+2025-05-15,Iran,201.0
+2025-05-22,Iran,150.0
+2025-05-29,Iran,147.0
+2025-06-05,Iran,135.0
+2025-06-12,Iran,140.0
+2025-06-19,Iran,137.0
+2025-06-26,Iran,201.0
+2025-07-03,Iran,308.0
+2024-12-05,Iraq,153.0
+2024-12-12,Iraq,170.0
+2024-12-19,Iraq,130.0
+2024-12-26,Iraq,208.0
+2025-01-02,Iraq,109.0
+2025-01-09,Iraq,104.0
+2025-01-16,Iraq,177.0
+2025-01-23,Iraq,157.0
+2025-01-30,Iraq,68.0
+2025-02-06,Iraq,169.0
+2025-02-13,Iraq,151.0
+2025-02-20,Iraq,95.0
+2025-03-27,Ireland,30.0
+2025-04-03,Ireland,54.0
+2025-04-10,Ireland,62.0
+2025-04-17,Ireland,23.0
+2025-04-24,Ireland,37.0
+2025-05-01,Ireland,68.0
+2025-05-08,Ireland,32.0
+2025-05-15,Ireland,46.0
+2025-05-22,Ireland,33.0
+2025-05-29,Ireland,19.0
+2025-06-05,Ireland,26.0
+2025-06-12,Ireland,28.0
+2025-06-19,Ireland,25.0
+2025-06-26,Ireland,14.0
+2025-07-03,Ireland,17.0
+2025-03-27,Israel,92.0
+2025-04-03,Israel,142.0
+2025-04-10,Israel,61.0
+2025-04-17,Israel,59.0
+2025-04-24,Israel,107.0
+2025-05-01,Israel,144.0
+2025-05-08,Israel,62.0
+2025-05-15,Israel,60.0
+2025-05-22,Israel,53.0
+2025-05-29,Israel,58.0
+2025-06-05,Israel,60.0
+2025-06-12,Israel,67.0
+2025-06-19,Israel,63.0
+2025-06-26,Israel,61.0
+2025-07-03,Israel,59.0
+2025-03-27,Italy,59.0
+2025-04-03,Italy,58.0
+2025-04-10,Italy,78.0
+2025-04-17,Italy,72.0
+2025-04-24,Italy,46.0
+2025-05-01,Italy,69.0
+2025-05-08,Italy,37.0
+2025-05-15,Italy,50.0
+2025-05-22,Italy,60.0
+2025-05-29,Italy,69.0
+2025-06-05,Italy,58.0
+2025-06-12,Italy,101.0
+2025-06-19,Italy,71.0
+2025-06-26,Italy,70.0
+2025-07-03,Italy,66.0
+2024-12-26,Ivory Coast,139.0
+2025-01-02,Ivory Coast,65.0
+2025-01-09,Ivory Coast,65.0
+2025-01-16,Ivory Coast,82.0
+2025-01-23,Ivory Coast,39.0
+2025-01-30,Ivory Coast,70.0
+2025-02-06,Ivory Coast,50.0
+2025-02-13,Ivory Coast,110.0
+2025-02-20,Ivory Coast,140.0
+2025-02-27,Ivory Coast,23.0
+2025-03-06,Ivory Coast,90.0
+2025-03-27,Japan,121.0
+2025-04-03,Japan,59.0
+2025-04-10,Japan,85.0
+2025-04-17,Japan,85.0
+2025-04-24,Japan,59.0
+2025-05-01,Japan,86.0
+2025-05-08,Japan,65.0
+2025-05-15,Japan,81.0
+2025-05-22,Japan,83.0
+2025-05-29,Japan,72.0
+2025-06-05,Japan,83.0
+2025-06-12,Japan,80.0
+2025-06-19,Japan,86.0
+2025-06-26,Japan,62.0
+2025-07-03,Japan,146.0
+2025-04-10,Jersey,41.0
+2025-04-17,Jersey,9.0
+2025-04-24,Jersey,13.0
+2025-05-01,Jersey,25.0
+2025-05-08,Jersey,21.0
+2025-05-15,Jersey,37.0
+2025-05-22,Jersey,13.0
+2025-05-29,Jersey,56.0
+2025-06-05,Jersey,10.0
+2025-06-12,Jersey,18.0
+2025-06-19,Jersey,23.0
+2025-06-26,Jersey,9.0
+2025-07-03,Jersey,28.0
+2025-03-27,Jordan,28.0
+2025-04-03,Jordan,31.0
+2025-04-10,Jordan,13.0
+2025-04-17,Jordan,26.0
+2025-04-24,Jordan,27.0
+2025-05-01,Jordan,34.0
+2025-05-08,Jordan,22.0
+2025-05-15,Jordan,20.0
+2025-05-22,Jordan,25.0
+2025-05-29,Jordan,17.0
+2025-06-05,Jordan,20.0
+2025-06-12,Jordan,18.0
+2025-06-19,Jordan,24.0
+2025-06-26,Jordan,19.0
+2025-07-03,Jordan,18.0
+2025-03-27,Kazakhstan,71.0
+2025-04-03,Kazakhstan,92.0
+2025-04-10,Kazakhstan,77.0
+2025-04-17,Kazakhstan,54.0
+2025-04-24,Kazakhstan,56.0
+2025-05-01,Kazakhstan,48.0
+2025-05-08,Kazakhstan,38.0
+2025-05-15,Kazakhstan,47.0
+2025-05-22,Kazakhstan,47.0
+2025-05-29,Kazakhstan,39.0
+2025-06-05,Kazakhstan,59.0
+2025-06-12,Kazakhstan,52.0
+2025-06-19,Kazakhstan,66.0
+2025-06-26,Kazakhstan,68.0
+2025-07-03,Kazakhstan,62.0
+2025-03-20,Kenya,15.0
+2025-03-27,Kenya,47.0
+2025-04-03,Kenya,33.0
+2025-04-10,Kenya,35.0
+2025-04-17,Kenya,33.0
+2025-04-24,Kenya,21.0
+2025-05-01,Kenya,23.0
+2025-05-08,Kenya,19.0
+2025-05-15,Kenya,20.0
+2025-05-22,Kenya,42.0
+2025-05-29,Kenya,32.0
+2025-06-05,Kenya,35.0
+2025-06-12,Kenya,35.0
+2025-06-19,Kenya,38.0
+2025-07-03,Kenya,44.0
+2025-03-27,Kosovo,49.0
+2025-04-03,Kosovo,27.0
+2025-04-10,Kosovo,60.0
+2025-04-17,Kosovo,37.0
+2025-04-24,Kosovo,28.0
+2025-05-01,Kosovo,28.0
+2025-05-08,Kosovo,17.0
+2025-05-15,Kosovo,30.0
+2025-05-22,Kosovo,22.0
+2025-05-29,Kosovo,22.0
+2025-06-05,Kosovo,28.0
+2025-06-12,Kosovo,36.0
+2025-06-19,Kosovo,32.0
+2025-06-26,Kosovo,37.0
+2025-07-03,Kosovo,29.0
+2025-01-16,Kuwait,125.0
+2025-01-23,Kuwait,81.0
+2025-01-30,Kuwait,71.0
+2025-02-06,Kuwait,114.0
+2025-02-13,Kuwait,70.0
+2025-02-20,Kuwait,59.0
+2025-02-27,Kuwait,54.0
+2025-03-06,Kuwait,79.0
+2025-03-13,Kuwait,85.0
+2025-03-20,Kuwait,73.0
+2025-03-27,Kuwait,74.0
+2025-04-03,Kuwait,78.0
+2025-04-10,Kuwait,68.0
+2025-01-23,Kyrgyzstan,17.0
+2025-01-30,Kyrgyzstan,82.0
+2025-02-06,Kyrgyzstan,36.0
+2025-02-13,Kyrgyzstan,85.0
+2025-02-20,Kyrgyzstan,67.0
+2025-02-27,Kyrgyzstan,78.0
+2025-03-06,Kyrgyzstan,80.0
+2025-05-22,Kyrgyzstan,8.0
+2025-05-29,Kyrgyzstan,8.0
+2025-06-05,Kyrgyzstan,50.0
+2025-06-12,Kyrgyzstan,84.0
+2025-06-19,Kyrgyzstan,21.0
+2025-06-26,Kyrgyzstan,21.0
+2025-07-03,Kyrgyzstan,65.0
+2025-03-27,Laos,206.0
+2025-04-03,Laos,154.0
+2025-04-10,Laos,175.0
+2025-04-17,Laos,41.0
+2025-04-24,Laos,112.0
+2025-05-01,Laos,54.0
+2025-05-08,Laos,82.0
+2025-05-15,Laos,27.0
+2025-05-22,Laos,35.0
+2025-05-29,Laos,30.0
+2025-06-05,Laos,66.0
+2025-06-12,Laos,20.0
+2025-06-19,Laos,35.0
+2025-06-26,Laos,33.0
+2025-07-03,Laos,35.0
+2025-03-27,Latvia,16.0
+2025-04-03,Latvia,4.0
+2025-04-10,Latvia,1.0
+2025-04-17,Latvia,11.0
+2025-04-24,Latvia,17.0
+2025-05-01,Latvia,3.0
+2025-05-08,Latvia,3.0
+2025-05-15,Latvia,3.0
+2025-05-22,Latvia,15.0
+2025-05-29,Latvia,19.0
+2025-06-05,Latvia,26.0
+2025-06-12,Latvia,20.0
+2025-06-19,Latvia,19.0
+2025-06-26,Latvia,14.0
+2025-07-03,Latvia,16.0
+2023-06-22,Lebanon,108.0
+2023-06-29,Lebanon,121.0
+2023-07-06,Lebanon,92.0
+2023-07-13,Lebanon,90.0
+2023-07-20,Lebanon,113.0
+2023-07-27,Lebanon,104.0
+2023-08-03,Lebanon,31.0
+2023-08-10,Lebanon,21.0
+2025-01-02,Lebanon,59.0
+2025-04-03,Liberia,54.0
+2025-04-10,Liberia,39.0
+2025-04-17,Liberia,87.0
+2025-04-24,Liberia,24.0
+2025-05-01,Liberia,53.0
+2025-05-08,Liberia,65.0
+2025-05-15,Liberia,77.0
+2025-05-22,Liberia,28.0
+2025-05-29,Liberia,58.0
+2025-06-05,Liberia,23.0
+2025-06-12,Liberia,44.0
+2025-06-19,Liberia,16.0
+2025-06-26,Liberia,34.0
+2025-07-03,Liberia,29.0
+2025-03-20,Liechtenstein,30.0
+2025-03-27,Liechtenstein,23.0
+2025-04-03,Liechtenstein,26.0
+2025-04-17,Liechtenstein,17.0
+2025-04-24,Liechtenstein,17.0
+2025-05-01,Liechtenstein,22.0
+2025-05-08,Liechtenstein,35.0
+2025-05-15,Liechtenstein,31.0
+2025-05-22,Liechtenstein,23.0
+2025-05-29,Liechtenstein,16.0
+2025-06-05,Liechtenstein,23.0
+2025-06-12,Liechtenstein,85.0
+2025-06-19,Liechtenstein,34.0
+2025-06-26,Liechtenstein,30.0
+2025-07-03,Liechtenstein,22.0
+2025-03-27,Lithuania,19.0
+2025-04-03,Lithuania,15.0
+2025-04-10,Lithuania,22.0
+2025-04-17,Lithuania,21.0
+2025-04-24,Lithuania,14.0
+2025-05-01,Lithuania,24.0
+2025-05-08,Lithuania,21.0
+2025-05-15,Lithuania,22.0
+2025-05-22,Lithuania,24.0
+2025-05-29,Lithuania,16.0
+2025-06-05,Lithuania,35.0
+2025-06-12,Lithuania,23.0
+2025-06-19,Lithuania,25.0
+2025-06-26,Lithuania,12.0
+2025-07-03,Lithuania,12.0
+2025-03-27,Luxembourg,43.0
+2025-04-03,Luxembourg,27.0
+2025-04-10,Luxembourg,31.0
+2025-04-17,Luxembourg,30.0
+2025-04-24,Luxembourg,21.0
+2025-05-01,Luxembourg,40.0
+2025-05-08,Luxembourg,40.0
+2025-05-15,Luxembourg,36.0
+2025-05-22,Luxembourg,24.0
+2025-05-29,Luxembourg,14.0
+2025-06-05,Luxembourg,13.0
+2025-06-12,Luxembourg,34.0
+2025-06-19,Luxembourg,26.0
+2025-06-26,Luxembourg,50.0
+2025-07-03,Luxembourg,30.0
+2025-03-27,Macao,46.0
+2025-04-03,Macao,72.0
+2025-04-10,Macao,68.0
+2025-04-17,Macao,68.0
+2025-04-24,Macao,50.0
+2025-05-01,Macao,61.0
+2025-05-08,Macao,57.0
+2025-05-15,Macao,46.0
+2025-05-22,Macao,19.0
+2025-05-29,Macao,53.0
+2025-06-05,Macao,34.0
+2025-06-12,Macao,31.0
+2025-06-19,Macao,17.0
+2025-06-26,Macao,23.0
+2025-07-03,Macao,46.0
+2025-03-27,Macedonia,103.0
+2025-04-03,Macedonia,65.0
+2025-04-10,Macedonia,94.0
+2025-04-17,Macedonia,69.0
+2025-04-24,Macedonia,48.0
+2025-05-01,Macedonia,46.0
+2025-05-08,Macedonia,37.0
+2025-05-15,Macedonia,52.0
+2025-05-22,Macedonia,53.0
+2025-05-29,Macedonia,56.0
+2025-06-05,Macedonia,61.0
+2025-06-12,Macedonia,61.0
+2025-06-19,Macedonia,69.0
+2025-06-26,Macedonia,69.0
+2025-07-03,Macedonia,52.0
+2024-12-12,Madagascar,117.0
+2024-12-19,Madagascar,82.0
+2024-12-26,Madagascar,97.0
+2025-01-02,Madagascar,25.0
+2025-01-09,Madagascar,87.0
+2025-01-16,Madagascar,61.0
+2025-01-23,Madagascar,38.0
+2025-01-30,Madagascar,25.0
+2025-02-06,Madagascar,34.0
+2025-02-13,Madagascar,42.0
+2025-02-20,Madagascar,59.0
+2025-02-27,Madagascar,25.0
+2025-03-06,Madagascar,34.0
+2025-03-27,Malaysia,81.0
+2025-04-03,Malaysia,52.0
+2025-04-10,Malaysia,63.0
+2025-04-17,Malaysia,55.0
+2025-04-24,Malaysia,61.0
+2025-05-01,Malaysia,62.0
+2025-05-08,Malaysia,66.0
+2025-05-15,Malaysia,69.0
+2025-05-22,Malaysia,69.0
+2025-05-29,Malaysia,68.0
+2025-06-05,Malaysia,74.0
+2025-06-12,Malaysia,62.0
+2025-06-19,Malaysia,60.0
+2025-06-26,Malaysia,74.0
+2025-07-03,Malaysia,70.0
+2025-03-20,Malta,37.0
+2025-03-27,Malta,22.0
+2025-04-03,Malta,36.0
+2025-04-10,Malta,22.0
+2025-04-17,Malta,33.0
+2025-04-24,Malta,31.0
+2025-05-01,Malta,44.0
+2025-05-08,Malta,28.0
+2025-05-15,Malta,36.0
+2025-05-22,Malta,33.0
+2025-05-29,Malta,37.0
+2025-06-05,Malta,31.0
+2025-06-12,Malta,48.0
+2025-06-19,Malta,37.0
+2025-06-26,Malta,46.0
+2025-03-27,Martinique,39.0
+2025-04-03,Martinique,31.0
+2025-04-10,Martinique,40.0
+2025-04-17,Martinique,26.0
+2025-04-24,Martinique,45.0
+2025-05-01,Martinique,66.0
+2025-05-08,Martinique,41.0
+2025-05-15,Martinique,110.0
+2025-05-22,Martinique,30.0
+2025-05-29,Martinique,24.0
+2025-06-05,Martinique,40.0
+2025-06-12,Martinique,70.0
+2025-06-19,Martinique,25.0
+2025-06-26,Martinique,41.0
+2025-07-03,Martinique,35.0
+2025-03-27,Mexico,101.0
+2025-04-03,Mexico,114.0
+2025-04-10,Mexico,101.0
+2025-04-17,Mexico,183.0
+2025-04-24,Mexico,122.0
+2025-05-01,Mexico,124.0
+2025-05-08,Mexico,135.0
+2025-05-15,Mexico,130.0
+2025-05-22,Mexico,138.0
+2025-05-29,Mexico,86.0
+2025-06-05,Mexico,119.0
+2025-06-12,Mexico,108.0
+2025-06-19,Mexico,99.0
+2025-06-26,Mexico,74.0
+2025-07-03,Mexico,101.0
+2025-03-27,Moldova,32.0
+2025-04-03,Moldova,14.0
+2025-04-10,Moldova,20.0
+2025-04-17,Moldova,11.0
+2025-04-24,Moldova,3.0
+2025-05-01,Moldova,25.0
+2025-05-08,Moldova,2.0
+2025-05-15,Moldova,2.0
+2025-05-22,Moldova,2.0
+2025-05-29,Moldova,12.0
+2025-06-05,Moldova,2.0
+2025-06-12,Moldova,2.0
+2025-06-19,Moldova,15.0
+2025-06-26,Moldova,13.0
+2025-07-03,Moldova,10.0
+2025-03-27,Monaco,23.0
+2025-04-03,Monaco,16.0
+2025-04-10,Monaco,44.0
+2025-04-17,Monaco,15.0
+2025-04-24,Monaco,6.0
+2025-05-01,Monaco,28.0
+2025-05-08,Monaco,11.0
+2025-05-15,Monaco,21.0
+2025-05-22,Monaco,29.0
+2025-05-29,Monaco,33.0
+2025-06-05,Monaco,48.0
+2025-06-12,Monaco,83.0
+2025-06-19,Monaco,54.0
+2025-06-26,Monaco,58.0
+2025-07-03,Monaco,30.0
+2025-03-27,Mongolia,70.0
+2025-04-03,Mongolia,108.0
+2025-04-10,Mongolia,55.0
+2025-04-17,Mongolia,41.0
+2025-04-24,Mongolia,62.0
+2025-05-01,Mongolia,46.0
+2025-05-08,Mongolia,59.0
+2025-05-15,Mongolia,43.0
+2025-05-22,Mongolia,33.0
+2025-05-29,Mongolia,32.0
+2025-06-05,Mongolia,35.0
+2025-06-12,Mongolia,60.0
+2025-06-19,Mongolia,58.0
+2025-06-26,Mongolia,96.0
+2025-07-03,Mongolia,26.0
+2025-03-27,Montenegro,35.0
+2025-04-03,Montenegro,25.0
+2025-04-10,Montenegro,46.0
+2025-04-17,Montenegro,34.0
+2025-04-24,Montenegro,29.0
+2025-05-01,Montenegro,28.0
+2025-05-08,Montenegro,19.0
+2025-05-15,Montenegro,28.0
+2025-05-22,Montenegro,27.0
+2025-05-29,Montenegro,28.0
+2025-06-05,Montenegro,20.0
+2025-06-12,Montenegro,56.0
+2025-06-19,Montenegro,31.0
+2025-06-26,Montenegro,37.0
+2025-07-03,Montenegro,25.0
+2025-03-27,Myanmar,177.0
+2025-04-03,Myanmar,167.0
+2025-04-10,Myanmar,195.0
+2025-04-17,Myanmar,65.0
+2025-04-24,Myanmar,157.0
+2025-05-01,Myanmar,54.0
+2025-05-08,Myanmar,103.0
+2025-05-15,Myanmar,55.0
+2025-05-22,Myanmar,59.0
+2025-05-29,Myanmar,58.0
+2025-06-05,Myanmar,70.0
+2025-06-12,Myanmar,66.0
+2025-06-19,Myanmar,37.0
+2025-06-26,Myanmar,57.0
+2025-07-03,Myanmar,65.0
+2025-03-27,Nepal,184.0
+2025-04-03,Nepal,352.0
+2025-04-10,Nepal,93.0
+2025-04-17,Nepal,132.0
+2025-04-24,Nepal,152.0
+2025-05-01,Nepal,95.0
+2025-05-08,Nepal,104.0
+2025-05-15,Nepal,108.0
+2025-05-22,Nepal,65.0
+2025-05-29,Nepal,43.0
+2025-06-05,Nepal,89.0
+2025-06-12,Nepal,93.0
+2025-06-19,Nepal,37.0
+2025-06-26,Nepal,37.0
+2025-07-03,Nepal,34.0
+2025-03-27,Netherlands,59.0
+2025-04-03,Netherlands,60.0
+2025-04-10,Netherlands,45.0
+2025-04-17,Netherlands,101.0
+2025-04-24,Netherlands,123.0
+2025-05-01,Netherlands,48.0
+2025-05-08,Netherlands,39.0
+2025-05-15,Netherlands,51.0
+2025-05-22,Netherlands,44.0
+2025-05-29,Netherlands,61.0
+2025-06-05,Netherlands,28.0
+2025-06-12,Netherlands,53.0
+2025-06-19,Netherlands,62.0
+2025-06-26,Netherlands,72.0
+2025-07-03,Netherlands,29.0
+2025-04-03,New Caledonia,16.0
+2025-04-10,New Caledonia,12.0
+2025-04-17,New Caledonia,16.0
+2025-04-24,New Caledonia,12.0
+2025-05-01,New Caledonia,11.0
+2025-05-08,New Caledonia,23.0
+2025-05-15,New Caledonia,24.0
+2025-05-22,New Caledonia,11.0
+2025-05-29,New Caledonia,8.0
+2025-06-05,New Caledonia,5.0
+2025-06-12,New Caledonia,23.0
+2025-06-19,New Caledonia,20.0
+2025-06-26,New Caledonia,23.0
+2025-07-03,New Caledonia,9.0
+2025-03-27,New Zealand,22.0
+2025-04-03,New Zealand,27.0
+2025-04-10,New Zealand,20.0
+2025-04-17,New Zealand,34.0
+2025-04-24,New Zealand,27.0
+2025-05-01,New Zealand,20.0
+2025-05-08,New Zealand,29.0
+2025-05-15,New Zealand,22.0
+2025-05-22,New Zealand,24.0
+2025-05-29,New Zealand,29.0
+2025-06-05,New Zealand,18.0
+2025-06-12,New Zealand,29.0
+2025-06-19,New Zealand,36.0
+2025-06-26,New Zealand,19.0
+2025-07-03,New Zealand,39.0
+2025-02-13,Nigeria,97.0
+2025-02-20,Nigeria,158.0
+2025-02-27,Nigeria,126.0
+2025-03-06,Nigeria,109.0
+2025-03-13,Nigeria,44.0
+2025-03-20,Nigeria,122.0
+2025-03-27,Nigeria,40.0
+2025-04-03,Nigeria,32.0
+2025-04-10,Nigeria,37.0
+2025-05-15,Nigeria,32.0
+2025-05-22,Nigeria,47.0
+2025-05-29,Nigeria,51.0
+2025-06-05,Nigeria,56.0
+2025-06-12,Nigeria,87.0
+2025-03-27,Norway,26.0
+2025-04-03,Norway,36.0
+2025-04-10,Norway,23.0
+2025-04-17,Norway,54.0
+2025-04-24,Norway,25.0
+2025-05-01,Norway,21.0
+2025-05-08,Norway,20.0
+2025-05-15,Norway,18.0
+2025-05-22,Norway,17.0
+2025-05-29,Norway,21.0
+2025-06-05,Norway,22.0
+2025-06-12,Norway,15.0
+2025-06-19,Norway,17.0
+2025-06-26,Norway,42.0
+2025-07-03,Norway,20.0
+2025-03-27,Pakistan,99.0
+2025-04-03,Pakistan,61.0
+2025-04-10,Pakistan,46.0
+2025-04-17,Pakistan,74.0
+2025-04-24,Pakistan,85.0
+2025-05-01,Pakistan,203.0
+2025-05-08,Pakistan,251.0
+2025-05-15,Pakistan,151.0
+2025-05-22,Pakistan,78.0
+2025-05-29,Pakistan,200.0
+2025-06-05,Pakistan,203.0
+2025-06-12,Pakistan,147.0
+2025-06-19,Pakistan,82.0
+2025-06-26,Pakistan,227.0
+2025-07-03,Pakistan,164.0
+2025-03-27,Palestinian Territory,100.0
+2025-04-03,Palestinian Territory,90.0
+2025-04-10,Palestinian Territory,83.0
+2025-04-17,Palestinian Territory,81.0
+2025-04-24,Palestinian Territory,105.0
+2025-05-01,Palestinian Territory,151.0
+2025-05-08,Palestinian Territory,89.0
+2025-05-15,Palestinian Territory,88.0
+2025-05-22,Palestinian Territory,92.0
+2025-05-29,Palestinian Territory,103.0
+2025-06-05,Palestinian Territory,52.0
+2025-06-12,Palestinian Territory,71.0
+2025-06-19,Palestinian Territory,66.0
+2025-06-26,Palestinian Territory,74.0
+2025-07-03,Palestinian Territory,70.0
+2025-03-27,Peru,49.0
+2025-04-03,Peru,42.0
+2025-04-10,Peru,62.0
+2025-04-17,Peru,84.0
+2025-04-24,Peru,64.0
+2025-05-01,Peru,93.0
+2025-05-08,Peru,58.0
+2025-05-15,Peru,53.0
+2025-05-22,Peru,78.0
+2025-05-29,Peru,106.0
+2025-06-05,Peru,71.0
+2025-06-12,Peru,58.0
+2025-06-19,Peru,62.0
+2025-06-26,Peru,65.0
+2025-07-03,Peru,94.0
+2025-03-20,Philippines,62.0
+2025-03-27,Philippines,58.0
+2025-04-03,Philippines,90.0
+2025-04-10,Philippines,57.0
+2025-04-17,Philippines,50.0
+2025-04-24,Philippines,68.0
+2025-05-01,Philippines,43.0
+2025-05-08,Philippines,51.0
+2025-05-15,Philippines,39.0
+2025-05-22,Philippines,34.0
+2025-05-29,Philippines,50.0
+2025-06-05,Philippines,61.0
+2025-06-12,Philippines,41.0
+2025-06-19,Philippines,73.0
+2025-07-03,Philippines,37.0
+2025-03-27,Poland,131.0
+2025-04-03,Poland,121.0
+2025-04-10,Poland,54.0
+2025-04-17,Poland,91.0
+2025-04-24,Poland,77.0
+2025-05-01,Poland,76.0
+2025-05-08,Poland,51.0
+2025-05-15,Poland,54.0
+2025-05-22,Poland,70.0
+2025-05-29,Poland,54.0
+2025-06-05,Poland,61.0
+2025-06-12,Poland,62.0
+2025-06-19,Poland,69.0
+2025-06-26,Poland,44.0
+2025-07-03,Poland,62.0
+2025-03-27,Portugal,32.0
+2025-04-03,Portugal,22.0
+2025-04-10,Portugal,31.0
+2025-04-17,Portugal,20.0
+2025-04-24,Portugal,25.0
+2025-05-01,Portugal,24.0
+2025-05-08,Portugal,21.0
+2025-05-15,Portugal,26.0
+2025-05-22,Portugal,27.0
+2025-05-29,Portugal,40.0
+2025-06-05,Portugal,26.0
+2025-06-12,Portugal,32.0
+2025-06-19,Portugal,55.0
+2025-06-26,Portugal,20.0
+2025-07-03,Portugal,31.0
+2024-07-25,Puerto Rico,24.0
+2024-08-01,Puerto Rico,7.0
+2024-08-08,Puerto Rico,28.0
+2024-08-15,Puerto Rico,17.0
+2024-08-22,Puerto Rico,9.0
+2024-08-29,Puerto Rico,8.0
+2024-09-05,Puerto Rico,9.0
+2024-09-12,Puerto Rico,6.0
+2024-09-19,Puerto Rico,13.0
+2024-09-26,Puerto Rico,18.0
+2024-10-10,Puerto Rico,13.0
+2023-08-03,Qatar,46.0
+2023-08-10,Qatar,68.0
+2025-05-15,Qatar,63.0
+2025-05-22,Qatar,95.0
+2025-05-29,Qatar,99.0
+2025-06-05,Qatar,95.0
+2025-06-12,Qatar,73.0
+2025-06-19,Qatar,52.0
+2025-06-26,Qatar,174.0
+2025-07-03,Qatar,63.0
+2025-03-27,Reunion,10.0
+2025-04-03,Reunion,12.0
+2025-04-10,Reunion,9.0
+2025-04-17,Reunion,13.0
+2025-04-24,Reunion,9.0
+2025-05-01,Reunion,18.0
+2025-05-08,Reunion,15.0
+2025-05-15,Reunion,14.0
+2025-05-22,Reunion,16.0
+2025-05-29,Reunion,19.0
+2025-06-05,Reunion,11.0
+2025-06-12,Reunion,11.0
+2025-06-19,Reunion,12.0
+2025-06-26,Reunion,15.0
+2025-07-03,Reunion,12.0
+2025-03-27,Romania,73.0
+2025-04-03,Romania,59.0
+2025-04-10,Romania,69.0
+2025-04-17,Romania,36.0
+2025-04-24,Romania,55.0
+2025-05-01,Romania,55.0
+2025-05-08,Romania,31.0
+2025-05-15,Romania,55.0
+2025-05-22,Romania,45.0
+2025-05-29,Romania,48.0
+2025-06-05,Romania,58.0
+2025-06-12,Romania,61.0
+2025-06-19,Romania,69.0
+2025-06-26,Romania,43.0
+2025-07-03,Romania,31.0
+2025-03-27,Russia,86.0
+2025-04-03,Russia,87.0
+2025-04-10,Russia,47.0
+2025-04-17,Russia,80.0
+2025-04-24,Russia,68.0
+2025-05-01,Russia,61.0
+2025-05-08,Russia,68.0
+2025-05-15,Russia,54.0
+2025-05-22,Russia,63.0
+2025-05-29,Russia,85.0
+2025-06-05,Russia,61.0
+2025-06-12,Russia,84.0
+2025-06-19,Russia,69.0
+2025-06-26,Russia,55.0
+2025-07-03,Russia,49.0
+2025-03-27,San Marino,42.0
+2025-04-03,San Marino,32.0
+2025-04-10,San Marino,38.0
+2025-04-17,San Marino,35.0
+2025-04-24,San Marino,34.0
+2025-05-01,San Marino,41.0
+2025-05-08,San Marino,30.0
+2025-05-15,San Marino,55.0
+2025-05-22,San Marino,35.0
+2025-05-29,San Marino,61.0
+2025-06-05,San Marino,38.0
+2025-06-12,San Marino,47.0
+2025-06-19,San Marino,67.0
+2025-06-26,San Marino,51.0
+2025-07-03,San Marino,49.0
+2024-07-18,Senegal,29.0
+2024-07-25,Senegal,25.0
+2024-08-01,Senegal,19.0
+2024-08-08,Senegal,57.0
+2024-08-15,Senegal,21.0
+2024-08-29,Senegal,60.0
+2024-09-05,Senegal,67.0
+2024-09-12,Senegal,53.0
+2024-09-19,Senegal,66.0
+2024-09-26,Senegal,56.0
+2025-03-27,Serbia,108.0
+2025-04-03,Serbia,85.0
+2025-04-10,Serbia,136.0
+2025-04-17,Serbia,62.0
+2025-04-24,Serbia,57.0
+2025-05-01,Serbia,94.0
+2025-05-08,Serbia,67.0
+2025-05-15,Serbia,71.0
+2025-05-22,Serbia,62.0
+2025-05-29,Serbia,58.0
+2025-06-05,Serbia,68.0
+2025-06-12,Serbia,78.0
+2025-06-19,Serbia,81.0
+2025-06-26,Serbia,96.0
+2025-07-03,Serbia,50.0
+2025-03-27,Singapore,83.0
+2025-04-03,Singapore,17.0
+2025-04-10,Singapore,46.0
+2025-04-17,Singapore,30.0
+2025-04-24,Singapore,67.0
+2025-05-01,Singapore,44.0
+2025-05-08,Singapore,53.0
+2025-05-15,Singapore,85.0
+2025-05-22,Singapore,51.0
+2025-05-29,Singapore,45.0
+2025-06-05,Singapore,74.0
+2025-06-12,Singapore,58.0
+2025-06-19,Singapore,48.0
+2025-06-26,Singapore,46.0
+2025-07-03,Singapore,66.0
+2025-03-27,Slovakia,113.0
+2025-04-03,Slovakia,72.0
+2025-04-10,Slovakia,46.0
+2025-04-17,Slovakia,56.0
+2025-04-24,Slovakia,41.0
+2025-05-01,Slovakia,52.0
+2025-05-08,Slovakia,38.0
+2025-05-15,Slovakia,52.0
+2025-05-22,Slovakia,57.0
+2025-05-29,Slovakia,21.0
+2025-06-05,Slovakia,50.0
+2025-06-12,Slovakia,26.0
+2025-06-19,Slovakia,59.0
+2025-06-26,Slovakia,38.0
+2025-07-03,Slovakia,51.0
+2025-03-27,Slovenia,45.0
+2025-04-03,Slovenia,56.0
+2025-04-10,Slovenia,41.0
+2025-04-17,Slovenia,49.0
+2025-04-24,Slovenia,44.0
+2025-05-01,Slovenia,110.0
+2025-05-08,Slovenia,48.0
+2025-05-15,Slovenia,39.0
+2025-05-22,Slovenia,27.0
+2025-05-29,Slovenia,13.0
+2025-06-05,Slovenia,28.0
+2025-06-12,Slovenia,65.0
+2025-06-19,Slovenia,46.0
+2025-06-26,Slovenia,62.0
+2025-07-03,Slovenia,35.0
+2025-03-27,South Africa,70.0
+2025-04-03,South Africa,69.0
+2025-04-10,South Africa,55.0
+2025-04-17,South Africa,51.0
+2025-04-24,South Africa,42.0
+2025-05-01,South Africa,78.0
+2025-05-08,South Africa,131.0
+2025-05-15,South Africa,103.0
+2025-05-22,South Africa,43.0
+2025-05-29,South Africa,122.0
+2025-06-05,South Africa,82.0
+2025-06-12,South Africa,106.0
+2025-06-19,South Africa,104.0
+2025-06-26,South Africa,101.0
+2025-07-03,South Africa,113.0
+2025-03-27,South Korea,194.0
+2025-04-03,South Korea,132.0
+2025-04-10,South Korea,105.0
+2025-04-17,South Korea,88.0
+2025-04-24,South Korea,68.0
+2025-05-01,South Korea,72.0
+2025-05-08,South Korea,90.0
+2025-05-15,South Korea,89.0
+2025-05-22,South Korea,86.0
+2025-05-29,South Korea,109.0
+2025-06-05,South Korea,64.0
+2025-06-12,South Korea,79.0
+2025-06-19,South Korea,67.0
+2025-06-26,South Korea,64.0
+2025-07-03,South Korea,49.0
+2025-03-27,Spain,69.0
+2025-04-03,Spain,48.0
+2025-04-10,Spain,79.0
+2025-04-17,Spain,37.0
+2025-04-24,Spain,56.0
+2025-05-01,Spain,53.0
+2025-05-08,Spain,60.0
+2025-05-15,Spain,55.0
+2025-05-22,Spain,61.0
+2025-05-29,Spain,67.0
+2025-06-05,Spain,76.0
+2025-06-12,Spain,107.0
+2025-06-19,Spain,97.0
+2025-06-26,Spain,72.0
+2025-07-03,Spain,77.0
+2025-03-27,Sri Lanka,110.0
+2025-04-03,Sri Lanka,95.0
+2025-04-10,Sri Lanka,92.0
+2025-04-17,Sri Lanka,106.0
+2025-04-24,Sri Lanka,106.0
+2025-05-01,Sri Lanka,20.0
+2025-05-08,Sri Lanka,104.0
+2025-05-15,Sri Lanka,61.0
+2025-05-22,Sri Lanka,60.0
+2025-05-29,Sri Lanka,32.0
+2025-06-05,Sri Lanka,59.0
+2025-06-12,Sri Lanka,36.0
+2025-06-19,Sri Lanka,41.0
+2025-06-26,Sri Lanka,66.0
+2025-07-03,Sri Lanka,51.0
+2023-01-12,Sudan,107.0
+2023-03-30,Sudan,160.0
+2023-04-06,Sudan,149.0
+2023-04-13,Sudan,182.0
+2023-04-20,Sudan,124.0
+2023-04-27,Sudan,151.0
+2023-05-04,Sudan,139.0
+2023-05-11,Sudan,149.0
+2025-03-27,Sweden,32.0
+2025-04-03,Sweden,46.0
+2025-04-10,Sweden,19.0
+2025-04-17,Sweden,69.0
+2025-04-24,Sweden,19.0
+2025-05-01,Sweden,51.0
+2025-05-08,Sweden,19.0
+2025-05-15,Sweden,20.0
+2025-05-22,Sweden,24.0
+2025-05-29,Sweden,25.0
+2025-06-05,Sweden,60.0
+2025-06-12,Sweden,30.0
+2025-06-19,Sweden,21.0
+2025-06-26,Sweden,26.0
+2025-07-03,Sweden,37.0
+2025-03-27,Switzerland,60.0
+2025-04-03,Switzerland,41.0
+2025-04-10,Switzerland,40.0
+2025-04-17,Switzerland,25.0
+2025-04-24,Switzerland,28.0
+2025-05-01,Switzerland,40.0
+2025-05-08,Switzerland,57.0
+2025-05-15,Switzerland,38.0
+2025-05-22,Switzerland,34.0
+2025-05-29,Switzerland,27.0
+2025-06-05,Switzerland,28.0
+2025-06-12,Switzerland,83.0
+2025-06-19,Switzerland,51.0
+2025-06-26,Switzerland,41.0
+2025-07-03,Switzerland,34.0
+2025-03-27,Taiwan,68.0
+2025-04-03,Taiwan,77.0
+2025-04-10,Taiwan,76.0
+2025-04-17,Taiwan,82.0
+2025-04-24,Taiwan,68.0
+2025-05-01,Taiwan,76.0
+2025-05-08,Taiwan,69.0
+2025-05-15,Taiwan,58.0
+2025-05-22,Taiwan,49.0
+2025-05-29,Taiwan,39.0
+2025-06-05,Taiwan,45.0
+2025-06-12,Taiwan,52.0
+2025-06-19,Taiwan,39.0
+2025-06-26,Taiwan,44.0
+2025-07-03,Taiwan,54.0
+2025-03-20,Tajikistan,92.0
+2025-03-27,Tajikistan,16.0
+2025-04-03,Tajikistan,88.0
+2025-04-10,Tajikistan,73.0
+2025-04-17,Tajikistan,55.0
+2025-04-24,Tajikistan,47.0
+2025-05-01,Tajikistan,63.0
+2025-05-08,Tajikistan,82.0
+2025-05-15,Tajikistan,54.0
+2025-05-22,Tajikistan,81.0
+2025-05-29,Tajikistan,35.0
+2025-06-05,Tajikistan,73.0
+2025-06-12,Tajikistan,120.0
+2025-06-19,Tajikistan,120.0
+2025-07-03,Tajikistan,107.0
+2025-03-27,Thailand,178.0
+2025-04-03,Thailand,162.0
+2025-04-10,Thailand,135.0
+2025-04-17,Thailand,90.0
+2025-04-24,Thailand,119.0
+2025-05-01,Thailand,131.0
+2025-05-08,Thailand,95.0
+2025-05-15,Thailand,71.0
+2025-05-22,Thailand,92.0
+2025-05-29,Thailand,74.0
+2025-06-05,Thailand,103.0
+2025-06-12,Thailand,80.0
+2025-06-19,Thailand,82.0
+2025-06-26,Thailand,90.0
+2025-07-03,Thailand,81.0
+2024-12-19,Togo,172.0
+2024-12-26,Togo,171.0
+2025-01-02,Togo,121.0
+2025-01-09,Togo,110.0
+2025-01-16,Togo,152.0
+2025-01-23,Togo,78.0
+2025-01-30,Togo,88.0
+2025-02-06,Togo,133.0
+2025-02-13,Togo,81.0
+2025-02-20,Togo,69.0
+2025-02-27,Togo,71.0
+2025-03-06,Togo,80.0
+2025-03-27,Trinidad and Tobago,41.0
+2025-04-03,Trinidad and Tobago,35.0
+2025-04-10,Trinidad and Tobago,36.0
+2025-04-17,Trinidad and Tobago,58.0
+2025-04-24,Trinidad and Tobago,32.0
+2025-05-01,Trinidad and Tobago,34.0
+2025-05-08,Trinidad and Tobago,3.0
+2025-05-15,Trinidad and Tobago,21.0
+2025-05-22,Trinidad and Tobago,32.0
+2025-05-29,Trinidad and Tobago,24.0
+2025-06-05,Trinidad and Tobago,35.0
+2025-06-12,Trinidad and Tobago,18.0
+2025-06-19,Trinidad and Tobago,19.0
+2025-06-26,Trinidad and Tobago,6.0
+2025-07-03,Trinidad and Tobago,38.0
+2025-03-27,Turkey,126.0
+2025-04-03,Turkey,75.0
+2025-04-10,Turkey,82.0
+2025-04-17,Turkey,85.0
+2025-04-24,Turkey,122.0
+2025-05-01,Turkey,105.0
+2025-05-08,Turkey,87.0
+2025-05-15,Turkey,97.0
+2025-05-22,Turkey,11.0
+2025-05-29,Turkey,16.0
+2025-06-05,Turkey,19.0
+2025-06-12,Turkey,19.0
+2025-06-19,Turkey,18.0
+2025-06-26,Turkey,15.0
+2025-07-03,Turkey,68.0
+2024-12-19,Turkmenistan,34.0
+2024-12-26,Turkmenistan,57.0
+2025-01-02,Turkmenistan,38.0
+2025-01-09,Turkmenistan,74.0
+2025-01-16,Turkmenistan,107.0
+2025-01-23,Turkmenistan,9.0
+2025-01-30,Turkmenistan,55.0
+2025-02-06,Turkmenistan,137.0
+2025-02-13,Turkmenistan,147.0
+2025-02-20,Turkmenistan,55.0
+2025-02-27,Turkmenistan,30.0
+2025-03-06,Turkmenistan,57.0
+2024-12-12,Uganda,154.0
+2024-12-19,Uganda,156.0
+2024-12-26,Uganda,119.0
+2025-01-02,Uganda,306.0
+2025-01-09,Uganda,267.0
+2025-01-16,Uganda,299.0
+2025-01-23,Uganda,230.0
+2025-01-30,Uganda,180.0
+2025-02-06,Uganda,208.0
+2025-02-13,Uganda,178.0
+2025-02-20,Uganda,235.0
+2025-02-27,Uganda,180.0
+2025-03-06,Uganda,177.0
+2025-03-27,Ukraine,96.0
+2025-04-03,Ukraine,59.0
+2025-04-10,Ukraine,43.0
+2025-04-17,Ukraine,54.0
+2025-04-24,Ukraine,59.0
+2025-05-01,Ukraine,46.0
+2025-05-08,Ukraine,31.0
+2025-05-15,Ukraine,23.0
+2025-05-22,Ukraine,41.0
+2025-05-29,Ukraine,46.0
+2025-06-05,Ukraine,43.0
+2025-06-12,Ukraine,41.0
+2025-06-19,Ukraine,48.0
+2025-06-26,Ukraine,19.0
+2025-07-03,Ukraine,18.0
+2025-03-27,United Arab Emirates,82.0
+2025-04-03,United Arab Emirates,130.0
+2025-04-10,United Arab Emirates,93.0
+2025-04-17,United Arab Emirates,63.0
+2025-04-24,United Arab Emirates,100.0
+2025-05-01,United Arab Emirates,97.0
+2025-05-08,United Arab Emirates,65.0
+2025-05-15,United Arab Emirates,80.0
+2025-05-22,United Arab Emirates,129.0
+2025-05-29,United Arab Emirates,119.0
+2025-06-05,United Arab Emirates,87.0
+2025-06-12,United Arab Emirates,106.0
+2025-06-19,United Arab Emirates,120.0
+2025-06-26,United Arab Emirates,136.0
+2025-07-03,United Arab Emirates,100.0
+2025-03-27,United Kingdom of Great Britain and Northern Ireland,105.0
+2025-04-03,United Kingdom of Great Britain and Northern Ireland,104.0
+2025-04-10,United Kingdom of Great Britain and Northern Ireland,71.0
+2025-04-17,United Kingdom of Great Britain and Northern Ireland,55.0
+2025-04-24,United Kingdom of Great Britain and Northern Ireland,107.0
+2025-05-01,United Kingdom of Great Britain and Northern Ireland,133.0
+2025-05-08,United Kingdom of Great Britain and Northern Ireland,84.0
+2025-05-15,United Kingdom of Great Britain and Northern Ireland,58.0
+2025-05-22,United Kingdom of Great Britain and Northern Ireland,55.0
+2025-05-29,United Kingdom of Great Britain and Northern Ireland,44.0
+2025-06-05,United Kingdom of Great Britain and Northern Ireland,35.0
+2025-06-12,United Kingdom of Great Britain and Northern Ireland,66.0
+2025-06-19,United Kingdom of Great Britain and Northern Ireland,61.0
+2025-06-26,United Kingdom of Great Britain and Northern Ireland,48.0
+2025-07-03,United Kingdom of Great Britain and Northern Ireland,39.0
+2025-03-27,United States of America,119.0
+2025-04-03,United States of America,100.0
+2025-04-10,United States of America,71.0
+2025-04-17,United States of America,267.0
+2025-04-24,United States of America,99.0
+2025-05-01,United States of America,71.0
+2025-05-08,United States of America,66.0
+2025-05-15,United States of America,139.0
+2025-05-22,United States of America,81.0
+2025-05-29,United States of America,77.0
+2025-06-05,United States of America,139.0
+2025-06-12,United States of America,139.0
+2025-06-19,United States of America,100.0
+2025-06-26,United States of America,78.0
+2025-07-03,United States of America,88.0
+2025-04-03,Uzbekistan,18.0
+2025-04-10,Uzbekistan,20.0
+2025-04-17,Uzbekistan,19.0
+2025-04-24,Uzbekistan,17.0
+2025-05-01,Uzbekistan,24.0
+2025-05-08,Uzbekistan,23.0
+2025-05-15,Uzbekistan,20.0
+2025-05-22,Uzbekistan,1.0
+2025-05-29,Uzbekistan,1.0
+2025-06-05,Uzbekistan,18.0
+2025-06-12,Uzbekistan,15.0
+2025-06-19,Uzbekistan,19.0
+2025-06-26,Uzbekistan,16.0
+2025-07-03,Uzbekistan,18.0
+2025-03-27,Vatican,42.0
+2025-04-03,Vatican,30.0
+2025-04-10,Vatican,38.0
+2025-04-17,Vatican,46.0
+2025-04-24,Vatican,38.0
+2025-05-01,Vatican,38.0
+2025-05-08,Vatican,24.0
+2025-05-15,Vatican,38.0
+2025-05-22,Vatican,42.0
+2025-05-29,Vatican,53.0
+2025-06-05,Vatican,30.0
+2025-06-12,Vatican,68.0
+2025-06-19,Vatican,46.0
+2025-06-26,Vatican,59.0
+2025-07-03,Vatican,70.0
+2024-12-05,Venezuela,45.0
+2024-12-12,Venezuela,2.0
+2024-12-26,Venezuela,33.0
+2025-01-02,Venezuela,3.0
+2025-02-27,Venezuela,20.0
+2025-03-06,Venezuela,11.0
+2025-03-13,Venezuela,10.0
+2025-03-27,Venezuela,27.0
+2025-04-24,Venezuela,7.0
+2025-05-01,Venezuela,16.0
+2025-06-05,Venezuela,7.0
+2025-07-03,Venezuela,6.0
+2025-03-27,Vietnam,124.0
+2025-04-03,Vietnam,104.0
+2025-04-10,Vietnam,82.0
+2025-04-17,Vietnam,96.0
+2025-04-24,Vietnam,67.0
+2025-05-01,Vietnam,55.0
+2025-05-08,Vietnam,52.0
+2025-05-15,Vietnam,47.0
+2025-05-22,Vietnam,53.0
+2025-05-29,Vietnam,43.0
+2025-06-05,Vietnam,47.0
+2025-06-12,Vietnam,40.0
+2025-06-19,Vietnam,36.0
+2025-06-26,Vietnam,44.0
+2025-07-03,Vietnam,55.0
+2024-07-11,Zambia,138.0
+2024-07-18,Zambia,144.0
+2024-07-25,Zambia,168.0
+2024-08-01,Zambia,130.0
+2024-08-08,Zambia,138.0
+2024-08-15,Zambia,174.0
+2024-08-22,Zambia,129.0
+2024-08-29,Zambia,153.0
+2024-09-19,Zambia,170.0
+2024-10-10,Zambia,138.0

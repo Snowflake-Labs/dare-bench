@@ -1,0 +1,244 @@
+{
+    "question": {
+        "target": [
+            "ethical_concerns_flag",
+            "is_hand_edited"
+        ],
+        "target_candidates": [
+            "is_hand_edited",
+            "ethical_concerns_flag"
+        ],
+        "related_features": [
+            "platform",
+            "style_accuracy_score",
+            "generation_time",
+            "creation_date",
+            "likes",
+            "resolution",
+            "shares",
+            "gpu_usage",
+            "file_size_kb",
+            "comments"
+        ],
+        "not_filtered_related_features": [
+            "generation_time",
+            "platform",
+            "style_accuracy_score",
+            "likes",
+            "resolution",
+            "shares",
+            "gpu_usage",
+            "file_size_kb",
+            "comments"
+        ],
+        "problem_type": "classification",
+        "expected_ranges": {
+            "generation_time": [
+                1.0,
+                15.0
+            ],
+            "platform": [
+                "Reddit",
+                "Instagram",
+                "TikTok",
+                "Twitter"
+            ],
+            "style_accuracy_score": [
+                50,
+                100
+            ],
+            "likes": [
+                105,
+                4944
+            ],
+            "resolution": [
+                "1024x1024",
+                "2048x2048",
+                "512x512"
+            ],
+            "shares": [
+                13,
+                1999
+            ],
+            "gpu_usage": [
+                30,
+                90
+            ],
+            "file_size_kb": [
+                101,
+                4973
+            ],
+            "comments": [
+                5,
+                998
+            ]
+        },
+        "selected_features": [
+            "gpu_usage",
+            "resolution",
+            "generation_time",
+            "style_accuracy_score",
+            "shares",
+            "comments"
+        ],
+        "train_v2_save_file": "./uom190346a_ai-generated-ghibli-style-image-trends-2025_class/source/train_v2.sqlite",
+        "val_v2_save_file": "./uom190346a_ai-generated-ghibli-style-image-trends-2025_class/source/val_v2.sqlite",
+        "val_no_err_save_file": "./uom190346a_ai-generated-ghibli-style-image-trends-2025_class/source/val_v1.sqlite",
+        "train_no_err_save_file": "./uom190346a_ai-generated-ghibli-style-image-trends-2025_class/source/train_v1_no_err.sqlite",
+        "train_err_split_save_file": "./uom190346a_ai-generated-ghibli-style-image-trends-2025_class/source/train_v1.sqlite",
+        "train_test_ratio": 0.8,
+        "save_file_type": "sqlite",
+        "imputer_type": "mean",
+        "random_state": 9,
+        "model_type": "LinearSVC",
+        "output_file": "./uom190346a_ai-generated-ghibli-style-image-trends-2025_class/prediction.csv",
+        "ground_truth_file": "./uom190346a_ai-generated-ghibli-style-image-trends-2025_class/verify/ground_truth.csv",
+        "simulated_pred_file": "./uom190346a_ai-generated-ghibli-style-image-trends-2025_class/verify/simulated_pred.csv",
+        "column_type_inference": {
+            "image_id": "categorical",
+            "user_id": "categorical",
+            "prompt": "categorical",
+            "likes": "numerical",
+            "shares": "numerical",
+            "comments": "numerical",
+            "platform": "categorical",
+            "generation_time": "numerical",
+            "gpu_usage": "numerical",
+            "file_size_kb": "numerical",
+            "resolution": "categorical",
+            "style_accuracy_score": "numerical",
+            "is_hand_edited": "categorical",
+            "ethical_concerns_flag": "categorical",
+            "creation_date": "categorical",
+            "top_comment": "categorical"
+        },
+        "needed_files_v1": [
+            "train_v1.sqlite",
+            "val_v1.sqlite",
+            "metadata.txt"
+        ],
+        "needed_files_v2": [
+            "train_v2.sqlite",
+            "val_v2.sqlite",
+            "metadata.txt"
+        ],
+        "numerical_features": [
+            "gpu_usage",
+            "generation_time",
+            "style_accuracy_score",
+            "shares",
+            "comments"
+        ],
+        "categorical_features": [
+            "resolution"
+        ]
+    },
+    "data_info": {
+        "id": 7027526,
+        "ref": "uom190346a/ai-generated-ghibli-style-image-trends-2025",
+        "subtitle": "Exploring AI Generated Ghibli-Style Art: Trends, Engagement, and Performance ",
+        "creatorName": "Laksika Tharmalingam",
+        "creatorUrl": "uom190346a",
+        "totalBytes": 30220,
+        "url": "https://www.kaggle.com/datasets/uom190346a/ai-generated-ghibli-style-image-trends-2025",
+        "lastUpdated": "2025-04-02T04:15:31.277Z",
+        "downloadCount": 3119,
+        "licenseName": "CC0: Public Domain",
+        "description": "",
+        "ownerName": "Laksika Tharmalingam",
+        "ownerRef": "uom190346a",
+        "kernelCount": 5,
+        "title": "AI Generated Ghibli Style Image Trends (2025)",
+        "viewCount": 32937,
+        "voteCount": 69,
+        "currentVersionNumber": 1,
+        "usabilityRating": 1.0,
+        "tags": [
+            {
+                "ref": "earth and nature",
+                "name": "earth and nature",
+                "description": "",
+                "fullPath": "subject > earth and nature",
+                "competitionCount": 19,
+                "datasetCount": 79488,
+                "scriptCount": 394,
+                "totalCount": 79901
+            },
+            {
+                "ref": "artificial intelligence",
+                "name": "artificial intelligence",
+                "description": "This tag has datasets and kernels where people come together and use cutting-edge research to train models on pictures of cats.",
+                "fullPath": "subject > science and technology > computer science > artificial intelligence",
+                "competitionCount": 57,
+                "datasetCount": 2969,
+                "scriptCount": 2948,
+                "totalCount": 5974
+            },
+            {
+                "ref": "classification",
+                "name": "classification",
+                "description": "",
+                "fullPath": "task > classification",
+                "competitionCount": 172,
+                "datasetCount": 5981,
+                "scriptCount": 20032,
+                "totalCount": 26185
+            },
+            {
+                "ref": "tabular",
+                "name": "tabular",
+                "description": "",
+                "fullPath": "data type > tabular",
+                "competitionCount": 14195,
+                "datasetCount": 12760,
+                "scriptCount": 7399,
+                "totalCount": 34354
+            },
+            {
+                "ref": "data storytelling",
+                "name": "data storytelling",
+                "description": "",
+                "fullPath": "technique > data storytelling",
+                "competitionCount": 2,
+                "datasetCount": 1033,
+                "scriptCount": 1613,
+                "totalCount": 2648
+            },
+            {
+                "ref": "synthetic",
+                "name": "synthetic",
+                "description": "",
+                "fullPath": "data type > synthetic",
+                "competitionCount": 8,
+                "datasetCount": 510,
+                "scriptCount": 70,
+                "totalCount": 588
+            }
+        ]
+    },
+    "meta_data": {
+        "datasetId": 7027526,
+        "datasetSlug": "ai-generated-ghibli-style-image-trends-2025",
+        "ownerUser": "uom190346a",
+        "usabilityRating": 1.0,
+        "totalViews": 32515,
+        "totalVotes": 69,
+        "totalDownloads": 3069,
+        "title": "AI Generated Ghibli Style Image Trends (2025)",
+        "subtitle": "Exploring AI Generated Ghibli-Style Art: Trends, Engagement, and Performance ",
+        "description": "# **AI-Generated Ghibli-Style Image Trends (2025)**  \n\n## **Overview**  \nThis dataset captures trends in AI-generated Studio Ghibli-style images, including user engagement, generation metrics, and platform-specific interactions. It is designed to help researchers, data scientists, and AI enthusiasts analyze the impact of AI-generated art on social media and the performance of AI models in generating high-quality images.  \n\n&gt; **Disclaimer:** This dataset is entirely synthetic and was generated using AI. It does not represent real users, platforms, or engagement data. It is intended for research and educational purposes only.  \n\n---\n\n## **Columns & Data Dictionary**  \n\n| **Column Name**         | **Description** | **Data Type** | **Measurement Unit** |\n|-------------------------|----------------|--------------|--------------------|\n| `image_id`              | Unique identifier for each generated image. | String | N/A |\n| `user_id`               | Anonymized unique identifier for the user who generated the image. | String | N/A |\n| `prompt`               | Text prompt used to generate the image. | String | N/A |\n| `likes`                | Number of likes the image received on social media. | Integer | Count |\n| `shares`               | Number of times the image was shared across platforms. | Integer | Count |\n| `comments`             | Number of comments the image received. | Integer | Count |\n| `platform`             | Platform where the image was shared (e.g., Instagram, Twitter). | String | N/A |\n| `generation_time`      | Time taken to generate the image. | Float | Seconds |\n| `gpu_usage`           | Estimated GPU usage during image generation. | Integer | Percentage (%) |\n| `file_size_kb`        | Size of the generated image file. | Integer | Kilobytes (KB) |\n| `resolution`          | Image resolution (e.g., 1024x1024, 2048x2048). | String | Pixels (width x height) |\n| `style_accuracy_score` | A score representing how closely the image resembles a Studio Ghibli animation, evaluated by models or user votes. | Integer | Scale (0-100) |\n| `is_hand_edited`      | Whether the user made manual edits after generation (Yes/No). | String | N/A |\n| `ethical_concerns_flag` | Whether the image was flagged for ethical concerns (e.g., copyright issues). | String | Yes/No |\n| `creation_date`        | Date the image was created. | String | YYYY-MM-DD |\n| `top_comment`         | The most upvoted or popular comment on the image. | String | N/A |\n\n---\n\n## **Use Cases**  \n\n### **1. Trend Analysis:**  \n- Analyze which AI-generated Ghibli-style prompts perform best in terms of likes, shares, and comments.  \n- Identify seasonal or time-based variations in AI-generated art trends.  \n\n### **2. AI Performance Benchmarking:**  \n- Evaluate how GPU usage, generation time, and resolution impact the quality of AI-generated images.  \n- Compare different AI image generation models based on engagement metrics.  \n\n### **3. Social Media Impact:**  \n- Understand which platforms (Instagram, Twitter, etc.) drive the highest engagement for AI-generated content.  \n- Investigate the correlation between prompt creativity and user interactions.  \n\n### **4. Ethical and Copyright Considerations:**  \n- Identify patterns in flagged images to assess AI-generated art's ethical concerns.  \n- Understand whether hand-edited images receive higher engagement compared to purely AI-generated ones.  \n\n### **5. Image Aesthetic & AI Creativity:**  \n- Assess how different prompts influence the style accuracy score.  \n- Explore how resolution and file size impact the perception of AI-generated art.  \n\n---\n\nThis dataset is ideal for researchers in AI art, social media analysts, and machine learning engineers looking to understand how AI-generated images are received and how they perform across different platforms. \ud83d\ude80\n\n\n=== About this file ===\n\nAbout this file\nColumns & Data Dictionary\n|\nimage_id\n| Unique identifier for each generated image. | String | N/A |\n|\nuser_id\n| Anonymized unique identifier for the user who generated the image. | String | N/A |\n|\nprompt\n| Text prompt used to generate the image. | String | N/A |\n|\nlikes\n| Number of likes the image received on social media. | Integer | Count |\n|\nshares\n| Number of times the image was shared across platforms. | Integer | Count |\n|\ncomments\n| Number of comments the image received. | Integer | Count |\n|\nplatform\n| Platform where the image was shared (e.g., Instagram, Twitter). | String | N/A |\n|\ngeneration_time\n| Time taken to generate the image. | Float | Seconds |\n|\ngpu_usage\n| Estimated GPU usage during image generation. | Integer | Percentage (%) |\n|\nfile_size_kb\n| Size of the generated image file. | Integer | Kilobytes (KB) |\n|\nresolution\n| Image resolution (e.g., 1024x1024, 2048x2048). | String | Pixels (width x height) |\n|\nstyle_accuracy_score\n| A score representing how closely the image resembles a Studio Ghibli animation, evaluated by models or user votes. | Integer | Scale (0-100) |\n|\nis_hand_edited\n| Whether the user made manual edits after generation (Yes/No). | String | N/A |\n|\nethical_concerns_flag\n| Whether the image was flagged for ethical concerns (e.g., copyright issues). | String | Yes/No |\n|\ncreation_date\n| Date the image was created. | String | YYYY-MM-DD |\n|\ntop_comment\n| The most upvoted or popular comment on the image. | String | N/A |\n\n\n=== Columns & descriptions ===\n\nimage_id: ID\nuser_id: ID\nprompt: [no description]\nlikes: [no description]\nshares: [no description]\ncomments: [no description]\nplatform: [no description]\ngeneration_time: [no description]\ngpu_usage: [no description]\nfile_size_kb: [no description]\nresolution: [no description]\nstyle_accuracy_score: [no description]\nis_hand_edited: [no description]\nethical_concerns_flag: [no description]\ncreation_date: [no description]\ntop_comment: [no description]\n",
+        "keywords": [
+            "earth and nature",
+            "artificial intelligence",
+            "classification",
+            "tabular",
+            "data storytelling",
+            "synthetic"
+        ],
+        "licenses": [
+            {
+                "name": "CC0-1.0"
+            }
+        ]
+    }
+}
