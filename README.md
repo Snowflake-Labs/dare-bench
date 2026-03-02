@@ -3,7 +3,7 @@
 
 **[ICLR 2026]** DARE-Bench: Evaluating Modeling and Instruction Fidelity of LLMs in Data Science
 
-[![Paper](https://img.shields.io/badge/arXiv-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/TODO)
+[![Paper](https://img.shields.io/badge/arXiv-Paper-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.24288)
 [![Blog](https://img.shields.io/badge/Snowflake-Blog-29B5E8?logo=snowflake&logoColor=white)](https://TODO)
 [![Dataset](https://img.shields.io/badge/🤗%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/Snowflake/dare-bench)
 
