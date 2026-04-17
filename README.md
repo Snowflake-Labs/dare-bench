@@ -170,10 +170,48 @@ dare-bench/
 ├── LICENSE/
 ├── LICENSE.txt
 ├── scripts/
-│   ├── evaluation.py
-│   └── reference_solution.py
+│   ├── evaluation.py          # offline metrics vs ground truth
+│   ├── reference_solution.py  # generate IF/MM reference code from metadata
+│   ├── run_agentic_reason.py  # Hydra entry: LLM agent + python_executor
+│   ├── run_parallel_datasci_auto.sh  # batch driver (optional)
+│   ├── utils.py               # datasci data loading, metrics (shared with agent path)
+│   ├── config/datasci.yaml    # Hydra defaults for inference
+│   ├── agentic_reason/          # session, generation, parallel executor
+│   ├── tools/                   # python_executor tool registration
+│   ├── llm_serving/             # remote LLM clients (Azure OpenAI or OpenAI API, Anthropic, …)
+│   └── pylib/                   # optional helpers (Snowflake/JWT not required for slim datasci)
 ├── figs/
 └── README.md
+```
+
+---
+
+## Agent inference (datasci)
+
+The **LLM agent** that runs tasks with the remote code sandbox lives in `scripts/run_agentic_reason.py` (Hydra). It uses the same row/metric conventions as `scripts/utils.py` as the offline `evaluation.py` path.
+
+**From `scripts/` (recommended):**
+
+```bash
+cd scripts
+python run_agentic_reason.py dataset_name=datasci-eval \
+  datasci_eval_root=../data/eval \
+  datasci_problem_type=classification \
+  db_split=dev \
+  log_path=/path/to/output/run \
+  result_path=/path/to/output/run \
+  llm.planner.remote_model=gpt-4o
+```
+
+**OpenAI provider:** default is **Azure OpenAI** (`llm.planner.openai_provider=azure`). To use the **public OpenAI API** (`api.openai.com`), set `llm.planner.openai_provider=openai` (or export **`OPENAI_PROVIDER=openai`**) and set **`OPENAI_API_KEY`**. Optional **`OPENAI_BASE_URL`** overrides the API base (compatible endpoints / proxies).
+
+For **Azure**, set **`AZURE_OPENAI_API_KEY`**, **`AZURE_OPENAI_ENDPOINT`**, and **`OPENAI_API_VERSION`**. For **Claude**, set **`ANTHROPIC_API_KEY`** (or Bedrock env vars if `USE_ANTHROPIC_AWS=true`). Point **`tool.python_executor.url`** (or env **`CI_RUN_CODE_URL`** in the shell script) at your HTTP code-sandbox `run_code` service.
+
+Or use the batch shell driver (writes logs under `DATASCI_OUTPUT_BASE`, defaulting to `../../output/test` relative to `scripts/`):
+
+```bash
+cd scripts
+./run_parallel_datasci_auto.sh
 ```
 
 ---
@@ -188,16 +226,16 @@ The evaluation script computes metrics by comparing model predictions against gr
 | Regression | Exact Match | Clipped R² (0-1) |
 | Time Series | Clipped R² (0-1) | Clipped R² (0-1) |
 
-> **Prediction format (all tasks, including time series):** `scripts/evaluation.py` expects `prediction.csv` to contain a `row_id` column aligned with `verify/ground_truth.csv`, plus the target column(s) defined in `verify/all_metadata.json`.
+> **Prediction format:** Metrics and row alignment match `scripts/utils.py` (datasci eval). Use `verify/ground_truth_{v1|v2}.csv` (or `ground_truth.csv` as fallback). Identifier columns: for time series **v2**, non-target columns in the GT file (same as `val_v2`); for **v1** / tabular tasks with `row_id`, merge on `row_id`. Targets come from `verify/all_metadata.json` → `question.target`.
 
 ```python
 from scripts.evaluation import evaluate_prediction
 
 result = evaluate_prediction(
     prediction_path="path/to/prediction.csv",
-    ground_truth_path="path/to/ground_truth.csv",
+    ground_truth_path="path/to/ground_truth_v2.csv",
     metadata_path="path/to/all_metadata.json",
-    question_version="v2"
+    ds_question_version="v2",
 )
 print(f"Score: {result['final_score']:.2%}")
 ```

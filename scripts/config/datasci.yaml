@@ -1,0 +1,74 @@
+dataset_name: simple
+subset_num: -1
+max_turn: 10
+mind_map: False
+mind_map_path: null
+result_path: ./result/
+log_path: ./logs/
+deep_research: False
+db_base_path: null
+# Unified eval bundle (dare-bench/dare-bench/data/eval): set dataset_name=datasci-eval and both fields below.
+datasci_eval_root: null
+# One of: classification | regression | time_series_analysis (must match each item's "task" in question_list.json)
+datasci_problem_type: null
+db_split: dev
+max_eval_samples: null
+num_runs: 4
+num_threads: 128
+num_workers: 10
+retry_failed_only: False
+skip_filtered_data: False
+force_simulate: False
+ds_question_version: "v1" # this currently only works for datasci dataset
+add_tool_hint: False # Note that BFCL has very strange behavior that it adds tool hint in the middle of the conversation, so we disable it
+save_chunk_size: 100
+clean_cache: False
+llm:
+  planner:
+    # azure: AZURE_OPENAI_* ; openai: OPENAI_API_KEY (optional OPENAI_BASE_URL for proxies)
+    openai_provider: azure # azure | openai
+    model_path: null
+    remote_model: null
+    port: null
+    temperature: 1.0
+    top_p: 0.8
+    top_k: 20
+    repetition_penalty: null
+    max_tokens: 16384
+    max_think_tokens: 0
+    use_fewshot_example: False
+    reasoning_effort: medium # choose from [low, medium, high]
+    reasoning_summary: auto
+  extractor:
+    openai_provider: azure # azure | openai (match planner if using GPT extractor)
+    model_path: null
+    remote_model: null
+    port: null
+    temperature: 1.0
+    top_p: 0.8
+    top_k: 20
+    repetition_penalty: null
+    max_tokens: 16384
+tool:
+  use_type: function_call # choose from [function_call, prompt]
+  append_tool_output: True
+  analyst:
+    backend: local # choose from [local, cortexanalyst]
+    remote_model: null
+    sql_hint: False
+    provide_context: False
+  search:
+    backend: cortexsearch # choose from [brave, bing, cortexsearch]
+    top_k: 10
+    max_search_limit: 10
+    max_doc_len: 3000
+    use_jina: True
+    jina_api_key: null
+    bing_subscription_key: null
+    bing_endpoint: null
+    cortex_service_url: "https://sfengineering-ml-data.snowflakecomputing.com/api/v2/databases/cortex_search_db/schemas/ruwu/cortex-search-services/wiki2019_search:query"
+  python_executor:
+    url: "http://autoscale-yite:8080/run_code"
+    num_retries: 3
+    timeout: 300
+    max_file_size_mb: 200

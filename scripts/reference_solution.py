@@ -8,12 +8,22 @@ The generated solution:
 1. Loads train/validation data (CSV, SQLite, or Parquet)
 2. Applies preprocessing (imputation, scaling, one-hot encoding)
 3. Trains a specified scikit-learn model
-4. Makes predictions and saves to prediction.csv
+4. Writes predictions to simulated_pred_local.csv (aligned with scripts/utils.py)
+
+Optional execution (--execute): run the generated code either locally (cwd=source/, then move CSV to verify/)
+or via HTTP sandbox (--use-sandbox), mirroring call_code_executor / get_simulate_results in utils.py.
+
+Only ``problem_type`` **classification** and **regression** are supported. **time_series_analysis** (and any
+other type) is skipped — this template matches tabular sklearn pipelines, not TS forecasting.
 """
 
+import base64
 import json
 import os
+import shutil
 import sqlite3
+import subprocess
+import sys
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -32,6 +42,119 @@ from sklearn.metrics import accuracy_score, classification_report, mean_squared_
 from string import Template
 from pathlib import Path
 from typing import Dict, List, Optional, Any
+
+try:
+    import requests
+except ImportError:  # pragma: no cover
+    requests = None  # type: ignore
+
+OUTPUT_CSV_NAME = "simulated_pred_local.csv"
+
+# Tabular ML only; time series uses a different benchmark setup
+REFERENCE_SOLUTION_PROBLEM_TYPES = frozenset({"classification", "regression"})
+
+
+def is_reference_solution_applicable(problem_type: str) -> bool:
+    return problem_type.strip().lower() in REFERENCE_SOLUTION_PROBLEM_TYPES
+
+
+def call_code_executor(
+    data_path: str,
+    code: str,
+    url: str,
+    save_file_type: str,
+    timeout: int = 100,
+) -> Dict[str, Any]:
+    """
+    Run generated code on remote sandbox; write fetch_files into verify/.
+    Same contract as scripts/utils.py call_code_executor.
+    """
+    if requests is None:
+        raise ImportError("requests is required for sandbox execution: pip install requests")
+
+    encoded_files: Dict[str, str] = {}
+    if save_file_type == "sqlite":
+        files_to_load = ["train_v1_no_err.sqlite", "val_v1.sqlite"]
+    elif save_file_type == "csv":
+        files_to_load = ["train_v1_no_err.csv", "val_v1.csv"]
+    elif save_file_type == "parquet":
+        files_to_load = ["train_v1_no_err.parquet", "val_v1.parquet"]
+    else:
+        raise ValueError(f"Invalid save_file_type: {save_file_type}")
+
+    for file_to_load in files_to_load:
+        with open(os.path.join(data_path, "source", file_to_load), "rb") as f:
+            content = f.read()
+        encoded_files[file_to_load] = base64.b64encode(content).decode("utf-8")
+
+    response = requests.post(
+        url,
+        json={
+            "code": code,
+            "language": "python",
+            "files": encoded_files,
+            "fetch_files": [OUTPUT_CSV_NAME],
+            "compile_timeout": timeout,
+            "run_timeout": timeout,
+        },
+        timeout=timeout + 60,
+    )
+    response.raise_for_status()
+    payload = response.json()
+
+    run_result = payload["run_result"]
+    status = run_result.get("status")
+    if status == "TimeLimitExceeded":
+        raise TimeoutError(
+            f"Code execution exceeded time limit ({run_result.get('execution_time')}s for {data_path})"
+        )
+
+    if OUTPUT_CSV_NAME not in payload.get("files", {}):
+        raise ValueError(f"{OUTPUT_CSV_NAME} not returned by sandbox for {data_path}")
+
+    verify_dir = os.path.join(data_path, "verify")
+    os.makedirs(verify_dir, exist_ok=True)
+    for file_name, file_content in payload["files"].items():
+        with open(os.path.join(verify_dir, file_name), "wb") as f:
+            f.write(base64.b64decode(file_content))
+
+    return run_result
+
+
+def run_reference_solution_local(database_path: str, code: str, timeout: int = 300) -> None:
+    """Execute generated code with cwd=source/; move simulated_pred_local.csv to verify/."""
+    source_dir = os.path.join(database_path, "source")
+    verify_dir = os.path.join(database_path, "verify")
+    if not os.path.isdir(source_dir):
+        raise FileNotFoundError(f"Missing source directory: {source_dir}")
+    os.makedirs(verify_dir, exist_ok=True)
+
+    script_path = os.path.join(source_dir, "_reference_solution_run.py")
+    with open(script_path, "w", encoding="utf-8") as f:
+        f.write(code)
+
+    try:
+        proc = subprocess.run(
+            [sys.executable, script_path],
+            cwd=source_dir,
+            timeout=timeout,
+        )
+    except subprocess.TimeoutExpired as e:
+        raise RuntimeError(f"Local reference run timed out after {timeout}s") from e
+    if proc.returncode != 0:
+        raise RuntimeError(f"Reference solution process exited with code {proc.returncode}")
+
+    out_src = os.path.join(source_dir, OUTPUT_CSV_NAME)
+    out_dst = os.path.join(verify_dir, OUTPUT_CSV_NAME)
+    if not os.path.isfile(out_src):
+        raise FileNotFoundError(f"Expected {out_src} after local run")
+
+    shutil.move(out_src, out_dst)
+    try:
+        os.remove(script_path)
+    except OSError:
+        pass
+    print(f"✓ {OUTPUT_CSV_NAME} saved to {out_dst}")
 
 
 # Template for generating reference solution code
@@ -118,9 +241,11 @@ def train_predict_model(train_df, eval_df, feature_cols, model_type, column_type
     # Check for null targets in training data
     null_targets_train = y_train.isnull().sum().sum()
     if null_targets_train > 0:
-        print(f"⚠ Found {null_targets_train} null targets in training data - removing these rows")
-        return None
-    
+        print(f" Found {null_targets_train} null targets in training data - removing these rows")
+        valid_indices = ~y_train.isnull().any(axis=1)  # make sure no null target row
+        X_train = X_train[valid_indices]
+        y_train = y_train[valid_indices]
+
     print(f"✓ Final training data: {X_train.shape[0]} rows")
     print(f"✓ Final evaluation data: {X_eval.shape[0]} rows")
     
@@ -268,27 +393,30 @@ result = train_predict_model(
     random_state=random_state
 )
 
-# Save predictions
-result['predictions'].to_csv('prediction.csv', index=False)
-print("✓ Predictions saved to prediction.csv")
+# Save predictions (simulated_pred_local.csv — same name as utils.call_code_executor fetch_files)
+result['predictions'].to_csv('simulated_pred_local.csv', index=False)
+print("✓ Predictions saved to simulated_pred_local.csv")
 '''
 
 
 def generate_reference_solution_code(metadata_path: str) -> str:
     """
     Generate reference solution Python code from metadata.
-    
-    Args:
-        metadata_path: Path to all_metadata.json
-    
-    Returns:
-        Python code string that can be executed to generate predictions
+
+    Only supports classification and regression (tabular). Raises ValueError for
+    time_series_analysis and other problem types.
     """
-    with open(metadata_path, "r") as f:
+    with open(metadata_path, "r", encoding="utf-8") as f:
         all_metadata = json.load(f)
-    
+
     question = all_metadata["question"]
-    
+    problem_type = question["problem_type"]
+    if not is_reference_solution_applicable(problem_type):
+        raise ValueError(
+            f"Reference solution is only generated for classification/regression; "
+            f"got problem_type={problem_type!r}"
+        )
+
     feature_cols = question["selected_features"]
     model_type = question["model_type"]
     column_type_inference = question["column_type_inference"]
@@ -296,7 +424,6 @@ def generate_reference_solution_code(metadata_path: str) -> str:
     if isinstance(target_cols, str):
         target_cols = [target_cols]
     imputer_type = question["imputer_type"]
-    problem_type = question["problem_type"]
     random_state = question["random_state"]
     save_file_type = question["save_file_type"]
     
@@ -317,88 +444,136 @@ def generate_reference_solution_code(metadata_path: str) -> str:
 def generate_reference_solution_for_task(
     database_path: str,
     output_path: Optional[str] = None,
-    save_code: bool = False
+    save_code: bool = False,
+    execute: bool = False,
+    use_sandbox: bool = False,
+    sandbox_url: str = "http://localhost:8080/run_code",
+    timeout: int = 300,
 ) -> Dict[str, Any]:
     """
     Generate and optionally execute reference solution for a single task.
-    
+
     Args:
         database_path: Path to the task database folder (containing source/ and verify/)
-        output_path: Where to save prediction.csv (defaults to database_path/verify/)
-        save_code: Whether to save the generated code to a file
-    
+        output_path: Where to save generated reference_solution.py when save_code=True
+        save_code: Whether to save the generated code to reference_solution.py
+        execute: If True, run the generated code (see use_sandbox)
+        use_sandbox: If True, upload source files and run via HTTP (same as utils.call_code_executor).
+            If False, run locally with cwd=source/, then move simulated_pred_local.csv to verify/.
+        sandbox_url: Executor URL when use_sandbox=True
+        timeout: Sandbox or local subprocess is expected to finish within this many seconds (sandbox uses it for compile/run_timeout)
+
     Returns:
-        Dictionary with solution code and optionally predictions
+        Dictionary with solution code, optional code_path, optional verify_output path,
+        or ``skipped: True`` for time_series_analysis / unsupported problem_type.
     """
     metadata_path = os.path.join(database_path, "verify", "all_metadata.json")
-    
+
     if not os.path.exists(metadata_path):
         raise FileNotFoundError(f"Metadata not found: {metadata_path}")
-    
+
+    with open(metadata_path, "r", encoding="utf-8") as f:
+        all_metadata = json.load(f)
+    problem_type = all_metadata["question"]["problem_type"]
+    if not is_reference_solution_applicable(problem_type):
+        print(f"⏭ Skipping (reference template is tabular only): {problem_type!r} — {database_path}")
+        return {"skipped": True, "problem_type": problem_type, "code": None}
+
+    save_file_type = all_metadata["question"]["save_file_type"]
+
     code = generate_reference_solution_code(metadata_path)
-    
-    result = {"code": code}
-    
+
+    result: Dict[str, Any] = {"skipped": False, "code": code}
+
     if save_code:
         code_path = os.path.join(output_path or database_path, "reference_solution.py")
-        with open(code_path, "w") as f:
+        os.makedirs(os.path.dirname(code_path) or ".", exist_ok=True)
+        with open(code_path, "w", encoding="utf-8") as f:
             f.write(code)
         result["code_path"] = code_path
         print(f"✓ Reference solution code saved to: {code_path}")
-    
+
+    if execute:
+        if use_sandbox:
+            print(f"Running reference solution on sandbox: {sandbox_url}")
+            call_code_executor(database_path, code, sandbox_url, save_file_type, timeout=timeout)
+            result["simulated_pred_path"] = os.path.join(database_path, "verify", OUTPUT_CSV_NAME)
+            result["execution_mode"] = "sandbox"
+        else:
+            print("Running reference solution locally (cwd=source/)")
+            run_reference_solution_local(database_path, code, timeout=timeout)
+            result["simulated_pred_path"] = os.path.join(database_path, "verify", OUTPUT_CSV_NAME)
+            result["execution_mode"] = "local"
+
     return result
 
 
 def batch_generate_reference_solutions(
     databases_dir: str,
     question_list_path: str,
-    output_dir: str
+    output_dir: str,
+    execute: bool = False,
+    use_sandbox: bool = False,
+    sandbox_url: str = "http://localhost:8080/run_code",
+    timeout: int = 300,
 ) -> None:
     """
     Generate reference solution code for all tasks in question_list.json.
-    
+
     Args:
         databases_dir: Directory containing database folders
         question_list_path: Path to question_list.json
         output_dir: Directory to save generated solution code
+        execute, use_sandbox, sandbox_url, timeout: Passed to generate_reference_solution_for_task
     """
-    with open(question_list_path, "r") as f:
+    with open(question_list_path, "r", encoding="utf-8") as f:
         questions = json.load(f)
-    
+
     os.makedirs(output_dir, exist_ok=True)
-    
+
     success = 0
+    skipped = 0
     failed = 0
-    
+
     for q in questions:
         folder_name = q["file_path"]
         database_path = os.path.join(databases_dir, folder_name)
-        
+
         try:
             task_output_dir = os.path.join(output_dir, folder_name)
             os.makedirs(task_output_dir, exist_ok=True)
-            
-            result = generate_reference_solution_for_task(
+
+            out = generate_reference_solution_for_task(
                 database_path=database_path,
                 output_path=task_output_dir,
-                save_code=True
+                save_code=True,
+                execute=execute,
+                use_sandbox=use_sandbox,
+                sandbox_url=sandbox_url,
+                timeout=timeout,
             )
-            success += 1
+            if out.get("skipped"):
+                skipped += 1
+            else:
+                success += 1
         except Exception as e:
             print(f"❌ Failed for {folder_name}: {e}")
             failed += 1
-    
+
     print(f"\n{'='*60}")
     print(f"Reference Solution Generation Complete")
     print(f"{'='*60}")
     print(f"Success: {success}")
+    print(f"Skipped (non-tabular): {skipped}")
     print(f"Failed: {failed}")
     print(f"Output directory: {output_dir}")
 
 
 if __name__ == "__main__":
     import argparse
-    
+
+    default_url = os.environ.get("PYTHON_EXECUTOR_URL", "http://localhost:8080/run_code")
+
     parser = argparse.ArgumentParser(description="Generate DARE-Bench reference solutions")
     parser.add_argument("--database", type=str, default=None,
                         help="Path to a single database folder")
@@ -410,36 +585,70 @@ if __name__ == "__main__":
                         help="Output directory for generated solutions")
     parser.add_argument("--save_code", action="store_true",
                         help="Save generated code to file")
-    
+    parser.add_argument(
+        "--execute",
+        action="store_true",
+        help="Run generated code (local: cwd=source; sandbox: HTTP)",
+    )
+    parser.add_argument(
+        "--use-sandbox",
+        action="store_true",
+        help="With --execute, run via HTTP executor instead of local Python",
+    )
+    parser.add_argument(
+        "--sandbox-url",
+        type=str,
+        default=default_url,
+        help="Executor URL for --use-sandbox (default: env PYTHON_EXECUTOR_URL or localhost:8080)",
+    )
+    parser.add_argument("--timeout", type=int, default=300,
+                        help="Timeout seconds for local run or sandbox compile/run limits")
+
     args = parser.parse_args()
-    
+
     if args.database:
-        # Single task mode
         result = generate_reference_solution_for_task(
             database_path=args.database,
             output_path=args.output_dir,
-            save_code=args.save_code
+            save_code=args.save_code,
+            execute=args.execute,
+            use_sandbox=args.use_sandbox,
+            sandbox_url=args.sandbox_url,
+            timeout=args.timeout,
         )
-        if not args.save_code:
-            print("\n" + "="*60)
+        if result.get("skipped"):
+            print(
+                f"Nothing to do: problem_type={result.get('problem_type')!r} "
+                "(reference solutions only for classification/regression)."
+            )
+        elif not args.save_code and not args.execute:
+            print("\n" + "=" * 60)
             print("Generated Reference Solution Code:")
-            print("="*60)
+            print("=" * 60)
             print(result["code"])
-    
+
     elif args.databases_dir and args.question_list:
-        # Batch mode
         batch_generate_reference_solutions(
             databases_dir=args.databases_dir,
             question_list_path=args.question_list,
-            output_dir=args.output_dir
+            output_dir=args.output_dir,
+            execute=args.execute,
+            use_sandbox=args.use_sandbox,
+            sandbox_url=args.sandbox_url,
+            timeout=args.timeout,
         )
-    
+
     else:
         parser.print_help()
         print("\nExamples:")
         print("  # Generate solution for single task:")
         print("  python reference_solution.py --database ./databases/task_name --save_code")
         print("")
+        print("  # Run locally (writes verify/simulated_pred_local.csv):")
+        print("  python reference_solution.py --database ./databases/task --execute")
+        print("")
+        print("  # Run on sandbox:")
+        print("  python reference_solution.py --database ./databases/task --execute --use-sandbox --sandbox-url http://host:8080/run_code")
+        print("")
         print("  # Generate solutions for all tasks:")
         print("  python reference_solution.py --databases_dir ./databases --question_list ./question_list.json --output_dir ./solutions")
-

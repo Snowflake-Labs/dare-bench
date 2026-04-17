@@ -24,3 +24,7 @@ env/
 .DS_Store
 Thumbs.db
 
+# Inference / Hydra run artifacts
+output/
+scripts/outputs/
+
