@@ -190,6 +190,8 @@ dare-bench/
 
 The **LLM agent** that runs tasks with the remote code sandbox lives in `scripts/run_agentic_reason.py` (Hydra). It uses the same row/metric conventions as `scripts/utils.py` as the offline `evaluation.py` path.
 
+Before the agent can execute model-generated code via the sandbox HTTP API, you need to **deploy a code sandbox** yourself. One option is [Sandbox Fusion](https://bytedance.github.io/SandboxFusion/) (docs, API, and deployment guidance). Point `tool.python_executor.url` at your running `run_code` endpoint after the sandbox is up.
+
 **From `scripts/` (recommended):**
 
 ```bash

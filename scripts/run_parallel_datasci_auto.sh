@@ -30,7 +30,7 @@ o4mini="gpt-o4-mini"
 o3="gpt-o3"
 reasoning_effort="high"
 reasoning_summary="auto"
-ci_url="${CI_RUN_CODE_URL:-http://autoscale-yite:8080/run_code}"
+ci_url="${CI_RUN_CODE_URL:-http://localhost:8080/run_code}"
 
 # MAIN MODIFY OPTIONS
 model=${gpt}
