@@ -192,29 +192,16 @@ The **LLM agent** that runs tasks with the remote code sandbox lives in `scripts
 
 Before the agent can execute model-generated code via the sandbox HTTP API, you need to **deploy a code sandbox** yourself. One option is [Sandbox Fusion](https://bytedance.github.io/SandboxFusion/) (docs, API, and deployment guidance). Point `tool.python_executor.url` at your running `run_code` endpoint after the sandbox is up.
 
-**From `scripts/` (recommended):**
+**Run inference** from `scripts/` (writes logs under `DATASCI_OUTPUT_BASE`, defaulting to `../../output/test` relative to `scripts/`):
 
 ```bash
 cd scripts
-python run_agentic_reason.py dataset_name=datasci-eval \
-  datasci_eval_root=../data/eval \
-  datasci_problem_type=classification \
-  db_split=dev \
-  log_path=/path/to/output/run \
-  result_path=/path/to/output/run \
-  llm.planner.remote_model=gpt-4o
+source run_parallel_datasci_auto.sh
 ```
 
 **OpenAI provider:** default is **Azure OpenAI** (`llm.planner.openai_provider=azure`). To use the **public OpenAI API** (`api.openai.com`), set `llm.planner.openai_provider=openai` (or export **`OPENAI_PROVIDER=openai`**) and set **`OPENAI_API_KEY`**. Optional **`OPENAI_BASE_URL`** overrides the API base (compatible endpoints / proxies).
 
 For **Azure**, set **`AZURE_OPENAI_API_KEY`**, **`AZURE_OPENAI_ENDPOINT`**, and **`OPENAI_API_VERSION`**. For **Claude**, set **`ANTHROPIC_API_KEY`** (or Bedrock env vars if `USE_ANTHROPIC_AWS=true`). Point **`tool.python_executor.url`** (or env **`CI_RUN_CODE_URL`** in the shell script) at your HTTP code-sandbox `run_code` service.
-
-Or use the batch shell driver (writes logs under `DATASCI_OUTPUT_BASE`, defaulting to `../../output/test` relative to `scripts/`):
-
-```bash
-cd scripts
-./run_parallel_datasci_auto.sh
-```
 
 ---
 
